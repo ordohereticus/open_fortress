@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/props_facemovie/mtt_soldier_fence/mtt_soldier_fence"
+	"$surfaceprop"	"Wood"
+	"$basemapalphaphongmask" "1"
+	//phong properties
+	"$phong"	"1"
+	"$phongboost"	"0.5"
+	"$phongexponenttexture"	"models/props_facemovie/mtt_soldier_fence/mtt_soldier_fence_exp"
+	"$phongfresnelranges"	"[4 1.5 2]"
+}

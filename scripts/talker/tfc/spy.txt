@@ -1,0 +1,1348 @@
+//--------------------------------------------------------------------------------------------------------------
+// Spy Response Rule File
+//--------------------------------------------------------------------------------------------------------------
+
+Response PlayerCloakedSpyDemomanSpyTFC
+{
+	scene "scenes/Player/Spy/low/729.vcd" 
+}
+Rule PlayerCloakedSpyDemomanSpyTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsSpy IsOnDemoman
+	Response PlayerCloakedSpyDemomanSpyTFC
+}
+
+Response PlayerCloakedSpyEngineerSpyTFC
+{
+	scene "scenes/Player/Spy/low/735.vcd" 
+}
+Rule PlayerCloakedSpyEngineerSpyTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsSpy IsOnEngineer
+	Response PlayerCloakedSpyEngineerSpyTFC
+}
+
+Response PlayerCloakedSpyHeavySpyTFC
+{
+	scene "scenes/Player/Spy/low/725.vcd" 
+}
+Rule PlayerCloakedSpyHeavySpyTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsSpy IsOnHeavy
+	Response PlayerCloakedSpyHeavySpyTFC
+}
+
+Response PlayerCloakedSpyMedicSpyTFC
+{
+	scene "scenes/Player/Spy/low/733.vcd" 
+}
+Rule PlayerCloakedSpyMedicSpyTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsSpy IsOnMedic
+	Response PlayerCloakedSpyMedicSpyTFC
+}
+
+Response PlayerCloakedSpyPyroSpyTFC
+{
+	scene "scenes/Player/Spy/low/727.vcd" 
+}
+Rule PlayerCloakedSpyPyroSpyTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsSpy IsOnPyro
+	Response PlayerCloakedSpyPyroSpyTFC
+}
+
+Response PlayerCloakedSpyScoutSpyTFC
+{
+	scene "scenes/Player/Spy/low/721.vcd" 
+}
+Rule PlayerCloakedSpyScoutSpyTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsSpy IsOnScout
+	Response PlayerCloakedSpyScoutSpyTFC
+}
+
+Response PlayerCloakedSpySniperSpyTFC
+{
+	scene "scenes/Player/Spy/low/737.vcd" 
+}
+Rule PlayerCloakedSpySniperSpyTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsSpy IsOnSniper
+	Response PlayerCloakedSpySniperSpyTFC
+}
+
+Response PlayerCloakedSpySoldierSpyTFC
+{
+	scene "scenes/Player/Spy/low/723.vcd" 
+}
+Rule PlayerCloakedSpySoldierSpyTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsSpy IsOnSoldier
+	Response PlayerCloakedSpySoldierSpyTFC
+}
+
+Response PlayerCloakedSpySpySpyTFC
+{
+	scene "scenes/Player/Spy/low/731.vcd" 
+	scene "scenes/Player/Spy/low/732.vcd" 
+}
+Rule PlayerCloakedSpySpySpyTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsSpy IsOnSpy
+	Response PlayerCloakedSpySpySpyTFC
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Auto Speech
+//--------------------------------------------------------------------------------------------------------------
+Response HealThanksSpyTFC
+{
+	scene "scenes/Player/Spy/low/851.vcd" 
+	scene "scenes/Player/Spy/low/852.vcd" 
+	scene "scenes/Player/Spy/low/853.vcd" 
+}
+Rule HealThanksSpyTFC
+{
+	criteria IsTFC ConceptMedicChargeStopped IsSpy SuperHighHealthContext SpyNotSaidHealThanks 50PercentChance
+	ApplyContext "SpySaidHealThanks:1:20"
+	Response HealThanksSpyTFC
+}
+
+Response PlayerRoundStartSpyTFC
+{
+	scene "scenes/Player/Spy/low/708.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/709.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/1309.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/707.vcd" predelay "1.0, 5.0"
+}
+Rule PlayerRoundStartSpyTFC
+{
+	criteria IsTFC ConceptPlayerRoundStart IsSpy
+	Response PlayerRoundStartSpyTFC
+}
+
+Response PlayerCappedIntelligenceSpyTFC
+{
+	scene "scenes/Player/Spy/low/698.vcd" 
+	scene "scenes/Player/Spy/low/699.vcd" 
+	scene "scenes/Player/Spy/low/700.vcd" 
+}
+Rule PlayerCappedIntelligenceSpyTFC
+{
+	criteria IsTFC ConceptPlayerCapturedIntelligence IsSpy
+	Response PlayerCappedIntelligenceSpyTFC
+}
+
+Response PlayerCapturedPointSpyTFC
+{
+	scene "scenes/Player/Spy/low/695.vcd" 
+	scene "scenes/Player/Spy/low/696.vcd" 
+	scene "scenes/Player/Spy/low/697.vcd" 
+}
+Rule PlayerCapturedPointSpyTFC
+{
+	criteria IsTFC ConceptPlayerCapturedPoint IsSpy
+	Response PlayerCapturedPointSpyTFC
+}
+
+Response PlayerSuddenDeathSpyTFC
+{
+	scene "scenes/Player/Spy/low/766.vcd" 
+	scene "scenes/Player/Spy/low/767.vcd" 
+	scene "scenes/Player/Spy/low/768.vcd" 
+	scene "scenes/Player/Spy/low/769.vcd" 
+	scene "scenes/Player/Spy/low/771.vcd" 
+	scene "scenes/Player/Spy/low/770.vcd" 
+}
+Rule PlayerSuddenDeathSpyTFC
+{
+	criteria IsTFC ConceptPlayerSuddenDeathStart IsSpy
+	Response PlayerSuddenDeathSpyTFC
+}
+
+Response PlayerStalemateSpyTFC
+{
+	scene "scenes/Player/Spy/low/701.vcd" 
+	scene "scenes/Player/Spy/low/702.vcd" 
+	scene "scenes/Player/Spy/low/703.vcd" 
+}
+Rule PlayerStalemateSpyTFC
+{
+	criteria IsTFC ConceptPlayerStalemate IsSpy
+	Response PlayerStalemateSpyTFC
+}
+
+Response PlayerTeleporterThanksSpyTFC
+{
+	scene "scenes/Player/Spy/low/854.vcd" 
+	scene "scenes/Player/Spy/low/855.vcd" 
+	scene "scenes/Player/Spy/low/856.vcd" 
+}
+Rule PlayerTeleporterThanksSpyTFC
+{
+	criteria IsTFC ConceptTeleported IsNotEngineer IsSpy 30PercentChance
+	Response PlayerTeleporterThanksSpyTFC
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Auto Speech Combat
+//--------------------------------------------------------------------------------------------------------------
+Response DefendOnThePointSpyTFC
+{
+	scene "scenes/Player/Spy/low/830.vcd" 
+	scene "scenes/Player/Spy/low/1323.vcd" 
+	scene "scenes/Player/Spy/low/1324.vcd" 
+	scene "scenes/Player/Spy/low/1325.vcd" 
+}
+Rule DefendOnThePointSpyTFC
+{
+	criteria IsTFC ConceptFireWeapon IsSpy IsOnFriendlyControlPoint NotDefendOnThePointSpeech
+	ApplyContext "DefendOnThePointSpeech:1:30"
+	applycontexttoworld
+	Response DefendOnThePointSpyTFC
+}
+
+// Custom stuff
+Response InvulnerableSpeechSpyTFC
+{
+	scene "scenes/Player/Spy/low/836.vcd" 
+	scene "scenes/Player/Spy/low/848.vcd" 
+	scene "scenes/Player/Spy/low/843.vcd" 
+}
+Rule InvulnerableSpeechSpyTFC
+{
+	criteria IsTFC ConceptFireWeapon IsSpy IsInvulnerable SpyNotInvulnerableSpeech
+	ApplyContext "SpyInvulnerableSpeech:1:30"
+	Response InvulnerableSpeechSpyTFC
+}
+
+// auto assist
+
+Response KilledPlayerAssistAutoSpyTFC
+{
+	scene "scenes/Player/Spy/low/828.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/829.vcd" predelay "2.5"
+}
+Rule KilledPlayerAssistAutoSpyTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsSpy IsBeingHealed IsARecentKill KilledPlayerDelay 20PercentChance SpyNotAssistSpeech
+	ApplyContext "SpyAssistSpeech:1:20"
+	Response KilledPlayerAssistAutoSpyTFC
+}
+
+// End custom
+
+Response KilledPlayerManySpyTFC
+{
+	scene "scenes/Player/Spy/low/772.vcd" 
+	scene "scenes/Player/Spy/low/1312.vcd" 
+	scene "scenes/Player/Spy/low/773.vcd" 
+	scene "scenes/Player/Spy/low/774.vcd" 
+	scene "scenes/Player/Spy/low/1313.vcd" 
+	scene "scenes/Player/Spy/low/775.vcd" 
+	scene "scenes/Player/Spy/low/1322.vcd" 
+	scene "scenes/Player/Spy/low/824.vcd" 
+	scene "scenes/Player/Spy/low/825.vcd" 
+}
+Rule KilledPlayerManySpyTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsManyRecentKills 30PercentChance IsWeaponSecondary KilledPlayerDelay SpyNotKillSpeech IsSpy
+	ApplyContext "SpyKillSpeech:1:10"
+	Response KilledPlayerManySpyTFC
+}
+
+// Custom stuff
+// If a Sapper has been removed in the past 10 seconds and the Spy gets a kill on an Engineer these can play
+Response PlayerSapperKillSpyTFC
+{
+	scene "scenes/Player/Spy/low/840.vcd" 
+	scene "scenes/Player/Spy/low/839.vcd" 
+}
+Rule PlayerSapperKillSpyTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsSpy IsVictimEngineer 50PercentChance SapperDestroyed NotSapperLostSpeech
+	ApplyContext "SpyKillSpeechMelee:1:10"
+	ApplyContext "SpySapperLostSpeech:1:10"
+	Response PlayerSapperKillSpyTFC
+}
+
+Rule SapperLost
+{
+	criteria IsTFC ConceptLostObject IsSpy
+	ApplyContext "LostSapper:1:10"
+	Response PlayerExpressionAttackSpyTFC
+}
+
+// This rule is for sapping after you kill an Engy
+// It checks if you have already said the line in the past 10 seconds and fails if you have
+// It checks if you have killed an Engineer in the past 10 seconds and fails if you have not
+//
+// Stab and Sap
+Response PlayerKilledObjectSpyTFC
+{
+	scene "scenes/Player/Spy/low/821.vcd" 
+}
+Rule PlayerKilledObjectSpyTFC
+{
+	criteria IsTFC ConceptKilledObject IsSpy 50PercentChance EngineerWasKilled NotSapSpeech
+	ApplyContext "ObjectDestroyed:1:5"
+	Response PlayerKilledObjectSpyTFC
+}
+
+// This simply checks if you have killed an Engineer in the past 10 seconds
+Rule EngineerKilled
+{
+	criteria IsTFC ConceptKilledPlayer IsSpy IsVictimEngineer
+	ApplyContext "EngyKilled:1:10"
+	Response PlayerExpressionAttackSpy // Seems to require a response for the context to actually set
+}
+
+// This checks if you have destroyed a building in the past five seconds
+// Sap and Stab
+Rule PlayerKilledObjectSpyContext
+{
+	criteria IsTFC ConceptKilledObject IsSpy 
+	ApplyContext "ObjectDestroyed:1:5"
+	Response PlayerExpressionAttackSpyTFC
+}
+
+// If you have then this checks if you have killed an Engineer in the past ten seconds
+// If you have then the line plays
+// So essentially we accommodate both stab and sap and sap and stab
+Rule EngineerKilledAfterSap
+{
+	criteria IsTFC ConceptKilledPlayer IsSpy IsVictimEngineer ToysMurdered
+	ApplyContext "SapKillSpeech:1:10"
+	Response PlayerKilledObjectSpyTFC
+}
+// End custom
+
+Response KilledPlayerMeleeSpyTFC
+{
+	scene "scenes/Player/Spy/low/817.vcd" 
+	scene "scenes/Player/Spy/low/818.vcd" 
+	scene "scenes/Player/Spy/low/826.vcd" 
+}
+
+Rule KilledPlayerMeleeSpyTFC
+{
+	criteria IsTFC ConceptKilledPlayer KilledPlayerDelay 30PercentChance IsWeaponMelee SpyNotKillSpeechMelee IsSpy
+	ApplyContext "SpyKillSpeechMelee:1:5"
+	Response KilledPlayerMeleeSpyTFC
+}
+
+// Custom stuff
+Response KilledPlayerMeleeDisguisedSpyTFC
+{
+	scene "scenes/Player/Spy/low/816.vcd" predelay "0.75"
+	scene "scenes/Player/Spy/low/823.vcd" predelay "0.75"
+	scene "scenes/Player/Spy/low/827.vcd" predelay "0.75"
+	scene "scenes/Player/Spy/low/838.vcd" predelay "0.75"
+	scene "scenes/Player/Spy/low/819.vcd" predelay "0.75"
+	scene "scenes/Player/Spy/low/820.vcd" predelay "0.75"
+	scene "scenes/Player/Spy/low/822.vcd" predelay "0.75"
+}
+Rule KilledPlayerMeleeDisguisedSpyTFC
+{
+	criteria IsTFC ConceptKilledPlayer KilledPlayerDelay IsDisguised 30PercentChance IsWeaponMelee SpyNotKillSpeechMelee IsSpy
+	ApplyContext "SpyKillSpeechMelee:1:5"
+	Response KilledPlayerMeleeDisguisedSpy
+	Response KilledPlayerMeleeSpyTFC
+}
+// End custom
+
+Response MedicFollowSpyTFC
+{
+	scene "scenes/Player/Spy/low/3030.vcd" predelay ".25"
+	scene "scenes/Player/Spy/low/3015.vcd" predelay ".25"
+}
+Rule MedicFollowSpyTFC
+{
+	criteria IsTFC ConceptPlayerMedic IsOnMedic IsSpy IsNotCrossHairEnemy NotLowHealth SpyIsNotStillonFire
+	ApplyContext "SpyKillSpeech:1:10"
+	Response MedicFollowSpyTFC
+}
+
+Response PlayerJarateHit
+{
+	scene "scenes/Player/Spy/low/3073.vcd" 
+	scene "scenes/Player/Spy/low/3074.vcd" 
+	scene "scenes/Player/Spy/low/3075.vcd" 
+	scene "scenes/Player/Spy/low/3076.vcd" 
+	scene "scenes/Player/Spy/low/3078.vcd" 
+	scene "scenes/Player/Spy/low/3072.vcd" 
+}
+Rule PlayerJarateHit
+{
+	criteria IsTFC ConceptJarateHit IsSpy
+	Response PlayerJarateHit
+}
+
+Response PlayerKilledCapperSpyTFC
+{
+	scene "scenes/Player/Spy/low/713.vcd" 
+	scene "scenes/Player/Spy/low/716.vcd" 
+	scene "scenes/Player/Spy/low/809.vcd" 
+	scene "scenes/Player/Spy/low/810.vcd" 
+	scene "scenes/Player/Spy/low/811.vcd" 
+}
+Rule PlayerKilledCapperSpyTFC
+{
+	criteria IsTFC ConceptCapBlocked IsSpy
+	ApplyContext "SpyKillSpeech:1:10"
+	Response PlayerKilledCapperSpyTFC
+}
+
+Response PlayerKilledDominatingDemomanSpyTFC
+{
+	scene "scenes/Player/Spy/low/3008.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/3025.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/3065.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/3066.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/3067.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/3068.vcd" predelay "2.5"
+}
+Rule PlayerKilledDominatingDemomanSpyTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsSpy IsDominated  IsVictimDemoman
+	ApplyContext "SpyKillSpeech:1:10"
+	ApplyContext "IsDominating:1:10"
+	Response PlayerKilledDominatingDemomanSpyTFC
+}
+
+Response PlayerKilledDominatingEngineerSpyTFC
+{
+	scene "scenes/Player/Spy/low/3009.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/3037.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/3062.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/3063.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/3064.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/3070.vcd" predelay "2.5"
+}
+Rule PlayerKilledDominatingEngineerSpyTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsSpy IsDominated  IsVictimEngineer
+	ApplyContext "SpyKillSpeech:1:10"
+	ApplyContext "IsDominating:1:10"
+	Response PlayerKilledDominatingEngineerSpyTFC
+}
+
+Response PlayerKilledDominatingHeavySpyTFC
+{
+	scene "scenes/Player/Spy/low/3019.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/3024.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/3031.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/3056.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/3057.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/3058.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/3069.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/3055.vcd" predelay "2.5"
+}
+Rule PlayerKilledDominatingHeavySpyTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsSpy IsDominated  IsVictimHeavy
+	ApplyContext "SpyKillSpeech:1:10"
+	ApplyContext "IsDominating:1:10"
+	Response PlayerKilledDominatingHeavySpyTFC
+}
+
+Response PlayerKilledDominatingMedicSpyTFC
+{
+	scene "scenes/Player/Spy/low/3026.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/3027.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/3028.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/3029.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/3040.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/3071.vcd" predelay "2.5"
+}
+Rule PlayerKilledDominatingMedicSpyTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsSpy IsDominated  IsVictimMedic
+	ApplyContext "SpyKillSpeech:1:10"
+	ApplyContext "IsDominating:1:10"
+	Response PlayerKilledDominatingMedicSpyTFC
+}
+
+Response PlayerKilledDominatingPyroSpyTFC
+{
+	scene "scenes/Player/Spy/low/3010.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/3022.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/3041.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/3042.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/3032.vcd" predelay "2.5"
+}
+Rule PlayerKilledDominatingPyroSpyTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsSpy IsDominated  IsVictimPyro
+	ApplyContext "SpyKillSpeech:1:10"
+	ApplyContext "IsDominating:1:10"
+	Response PlayerKilledDominatingPyroSpyTFC
+}
+
+Response PlayerKilledDominatingScoutSpyTFC
+{
+	scene "scenes/Player/Spy/low/3011.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/3043.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/3044.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/3045.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/3046.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/3047.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/3048.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/3049.vcd" predelay "2.5"
+}
+Rule PlayerKilledDominatingScoutSpyTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsSpy IsDominated  IsVictimScout
+	ApplyContext "SpyKillSpeech:1:10"
+	ApplyContext "IsDominating:1:10"
+	Response PlayerKilledDominatingScoutSpyTFC
+}
+
+Response PlayerKilledDominatingSniperSpyTFC
+{
+	scene "scenes/Player/Spy/low/3012.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/831.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/3020.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/3033.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/3050.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/3036.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/3052.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/3051.vcd" predelay "2.5"
+}
+Rule PlayerKilledDominatingSniperSpyTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsSpy IsDominated  IsVictimSniper
+	ApplyContext "SpyKillSpeech:1:10"
+	ApplyContext "IsDominating:1:10"
+	Response PlayerKilledDominatingSniperSpyTFC
+}
+
+Response PlayerKilledDominatingSoldierSpyTFC
+{
+	scene "scenes/Player/Spy/low/3013.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/3034.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/3053.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/3054.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/3061.vcd" predelay "2.5"
+}
+Rule PlayerKilledDominatingSoldierSpyTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsSpy IsDominated  IsVictimSoldier
+	ApplyContext "SpyKillSpeech:1:10"
+	ApplyContext "IsDominating:1:10"
+	Response PlayerKilledDominatingSoldierSpyTFC
+}
+
+Response PlayerKilledDominatingSpySpyTFC
+{
+	scene "scenes/Player/Spy/low/3014.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/3021.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/3059.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/3077.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/3060.vcd" predelay "2.5"
+}
+Rule PlayerKilledDominatingSpySpyTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsSpy IsDominated  IsVictimSpy
+	ApplyContext "SpyKillSpeech:1:10"
+	ApplyContext "IsDominating:1:10"
+	Response PlayerKilledDominatingSpySpyTFC
+}
+
+Response PlayerKilledForRevengeSpyTFC
+{
+	scene "scenes/Player/Spy/low/710.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/715.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/743.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/812.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/813.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/841.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/3017.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/3038.vcd" predelay "2.5"
+	scene "scenes/Player/Spy/low/3039.vcd" predelay "2.5"
+}
+Rule PlayerKilledForRevengeSpyTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsSpy IsRevenge
+	ApplyContext "SpyKillSpeech:1:10"
+	ApplyContext "IsDominating:1:10"
+	Response PlayerKilledForRevengeSpyTFC
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Auto Speech Pain
+//--------------------------------------------------------------------------------------------------------------
+Response PlayerAttackerPainSpyTFC
+{
+	scene "scenes/Player/Spy/low/803.vcd" 
+	scene "scenes/Player/Spy/low/804.vcd" 
+	scene "scenes/Player/Spy/low/805.vcd" 
+	scene "scenes/Player/Spy/low/1387.vcd" 
+	scene "scenes/Player/Spy/low/1388.vcd" 
+}
+Rule PlayerAttackerPainSpyTFC
+{
+	criteria IsTFC ConceptAttackerPain IsSpy IsNotDominating
+	Response PlayerAttackerPainSpyTFC
+}
+
+Response PlayerOnFireSpyTFC
+{
+	scene "scenes/Player/Spy/low/704.vcd" 
+}
+Rule PlayerOnFireSpyTFC
+{
+	criteria IsTFC ConceptFire IsSpy SpyIsNotStillonFire IsNotDominating
+	ApplyContext "SpyOnFire:1:7"
+	Response PlayerOnFireSpyTFC
+}
+
+Response PlayerOnFireRareSpyTFC
+{
+	scene "scenes/Player/Spy/low/705.vcd" 
+	scene "scenes/Player/Spy/low/706.vcd" 
+}
+Rule PlayerOnFireRareSpyTFC
+{
+	criteria IsTFC ConceptFire IsSpy 10PercentChance SpyIsNotStillonFire IsNotDominating
+	ApplyContext "SpyOnFire:1:7"
+	Response PlayerOnFireRareSpyTFC
+}
+
+Response PlayerPainSpyTFC
+{
+	scene "scenes/Player/Spy/low/806.vcd" 
+	scene "scenes/Player/Spy/low/807.vcd" 
+	scene "scenes/Player/Spy/low/808.vcd" 
+	scene "scenes/Player/Spy/low/1381.vcd" 
+}
+Rule PlayerPainSpyTFC
+{
+	criteria IsTFC ConceptPain IsSpy IsNotDominating
+	Response PlayerPainSpyTFC
+}
+
+Response PlayerStillOnFireSpyTFC
+{
+	scene "scenes/Player/Spy/low/1928.vcd" 
+}
+Rule PlayerStillOnFireSpyTFC
+{
+	criteria IsTFC ConceptFire IsSpy  SpyIsStillonFire IsNotDominating
+	ApplyContext "SpyOnFire:1:7"
+	Response PlayerStillOnFireSpyTFC
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Duel Speech
+//--------------------------------------------------------------------------------------------------------------
+Response AcceptedDuelSpyTFC
+{
+	scene "scenes/Player/Spy/low/709.vcd" 
+	scene "scenes/Player/Spy/low/834.vcd" 
+	scene "scenes/Player/Spy/low/833.vcd" 
+	scene "scenes/Player/Spy/low/845.vcd" 
+	scene "scenes/Player/Spy/low/847.vcd" 
+	scene "scenes/Player/Spy/low/858.vcd" 
+	scene "scenes/Player/Spy/low/859.vcd" 
+}
+Rule AcceptedDuelSpyTFC
+{
+	criteria IsTFC ConceptIAcceptDuel IsSpy
+	Response AcceptedDuelSpyTFC
+}
+
+Response MeleeDareSpyTFC
+{
+	scene "scenes/Player/Spy/low/3016.vcd" 
+	scene "scenes/Player/Spy/low/3023.vcd" 
+}
+Rule MeleeDareSpyTFC
+{
+	criteria IsTFC ConceptRequestDuel IsSpy
+	Response MeleeDareSpyTFC
+}
+
+Response RejectedDuelSpyTFC
+{
+	scene "scenes/Player/Spy/low/703.vcd" 
+	scene "scenes/Player/Spy/low/790.vcd" 
+	scene "scenes/Player/Spy/low/791.vcd" 
+	scene "scenes/Player/Spy/low/824.vcd" 
+	scene "scenes/Player/Spy/low/825.vcd" 
+	scene "scenes/Player/Spy/low/831.vcd" 
+}
+Rule RejectedDuelSpyTFC
+{
+	criteria IsTFC ConceptDuelRejected IsSpy
+	Response RejectedDuelSpyTFC
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Speech Menu 1
+//--------------------------------------------------------------------------------------------------------------
+Response PlayerGoSpyTFC
+{
+	scene "scenes/Player/Spy/low/740.vcd" 
+	scene "scenes/Player/Spy/low/741.vcd" 
+	scene "scenes/Player/Spy/low/742.vcd" 
+}
+Rule PlayerGoSpyTFC
+{
+	criteria IsTFC ConceptPlayerGo IsSpy
+	Response PlayerGoSpyTFC
+}
+
+Response PlayerHeadLeftSpyTFC
+{
+	scene "scenes/Player/Spy/low/746.vcd" 
+	scene "scenes/Player/Spy/low/747.vcd" 
+	scene "scenes/Player/Spy/low/748.vcd" 
+}
+Rule PlayerHeadLeftSpyTFC
+{
+	criteria IsTFC ConceptPlayerLeft  IsSpy
+	Response PlayerHeadLeftSpyTFC
+}
+
+Response PlayerHeadRightSpyTFC
+{
+	scene "scenes/Player/Spy/low/749.vcd" 
+	scene "scenes/Player/Spy/low/750.vcd" 
+	scene "scenes/Player/Spy/low/751.vcd" 
+}
+Rule PlayerHeadRightSpyTFC
+{
+	criteria IsTFC ConceptPlayerRight  IsSpy
+	Response PlayerHeadRightSpyTFC
+}
+
+Response PlayerHelpSpyTFC
+{
+	scene "scenes/Player/Spy/low/752.vcd" 
+	scene "scenes/Player/Spy/low/753.vcd" 
+	scene "scenes/Player/Spy/low/754.vcd" 
+}
+Rule PlayerHelpSpyTFC
+{
+	criteria IsTFC ConceptPlayerHelp IsSpy
+	Response PlayerHelpSpyTFC
+}
+
+Response PlayerHelpCaptureSpyTFC
+{
+	scene "scenes/Player/Spy/low/755.vcd" 
+	scene "scenes/Player/Spy/low/756.vcd" 
+	scene "scenes/Player/Spy/low/757.vcd" 
+}
+Rule PlayerHelpCaptureSpyTFC
+{
+	criteria IsTFC ConceptPlayerHelp IsSpy IsOnCappableControlPoint
+	ApplyContext "SpyHelpCap:1:10"
+	Response PlayerHelpCaptureSpyTFC
+}
+
+Response PlayerHelpCapture2SpyTFC
+{
+	scene "scenes/Player/Spy/low/830.vcd" 
+	scene "scenes/Player/Spy/low/1323.vcd" 
+	scene "scenes/Player/Spy/low/1324.vcd" 
+	scene "scenes/Player/Spy/low/1325.vcd" 
+}
+Rule PlayerHelpCapture2SpyTFC
+{
+	criteria IsTFC ConceptPlayerHelp IsSpy IsOnCappableControlPoint IsHelpCapSpy
+	Response PlayerHelpCapture2SpyTFC
+}
+
+Response PlayerHelpDefendSpyTFC
+{
+	scene "scenes/Player/Spy/low/758.vcd" 
+	scene "scenes/Player/Spy/low/759.vcd" 
+	scene "scenes/Player/Spy/low/760.vcd" 
+}
+Rule PlayerHelpDefendSpyTFC
+{
+	criteria IsTFC ConceptPlayerHelp IsSpy IsOnFriendlyControlPoint
+	Response PlayerHelpDefendSpyTFC
+}
+
+Response PlayerMedicSpyTFC
+{
+	scene "scenes/Player/Spy/low/779.vcd" 
+	scene "scenes/Player/Spy/low/780.vcd" 
+	scene "scenes/Player/Spy/low/781.vcd" 
+}
+Rule PlayerMedicSpyTFC
+{
+	criteria IsTFC ConceptPlayerMedic IsSpy
+	Response PlayerMedicSpyTFC
+}
+
+Response PlayerAskForBallSpyTFC
+{
+}
+Rule PlayerAskForBallSpyTFC
+{
+	criteria IsTFC ConceptPlayerAskForBall IsSpy
+	Response PlayerAskForBallSpyTFC
+}
+
+Response PlayerMoveUpSpyTFC
+{
+	scene "scenes/Player/Spy/low/782.vcd" 
+	scene "scenes/Player/Spy/low/1317.vcd" 
+}
+Rule PlayerMoveUpSpyTFC
+{
+	criteria IsTFC ConceptPlayerMoveUp  IsSpy
+	Response PlayerMoveUpSpyTFC
+}
+
+Response PlayerNoSpyTFC
+{
+	scene "scenes/Player/Spy/low/797.vcd" 
+	scene "scenes/Player/Spy/low/798.vcd" 
+	scene "scenes/Player/Spy/low/799.vcd" 
+}
+Rule PlayerNoSpyTFC
+{
+	criteria IsTFC ConceptPlayerNo  IsSpy
+	Response PlayerNoSpyTFC
+}
+
+Response PlayerThanksSpyTFC
+{
+	scene "scenes/Player/Spy/low/849.vcd" 
+	scene "scenes/Player/Spy/low/850.vcd" 
+	scene "scenes/Player/Spy/low/1326.vcd" 
+}
+Rule PlayerThanksSpyTFC
+{
+	criteria IsTFC ConceptPlayerThanks IsSpy
+	Response PlayerThanksSpyTFC
+}
+
+// Custom Assist kill response
+// As there is no actual concept for assist kills, this is the second best method.
+// Say thanks after you kill more than one person.
+
+Response KilledPlayerAssistSpyTFC
+{
+	scene "scenes/Player/Spy/low/828.vcd"
+	scene "scenes/Player/Spy/low/829.vcd"
+}
+Rule KilledPlayerAssistSpyTFC
+{
+	criteria IsTFC ConceptPlayerThanks IsSpy IsARecentKill KilledPlayerDelay SpyNotAssistSpeech
+	ApplyContext "SpyAssistSpeech:1:20"
+	Response KilledPlayerAssistSpyTFC
+}
+// End custom
+
+Response PlayerYesSpyTFC
+{
+	scene "scenes/Player/Spy/low/857.vcd" 
+	scene "scenes/Player/Spy/low/858.vcd" 
+	scene "scenes/Player/Spy/low/859.vcd" 
+}
+Rule PlayerYesSpyTFC
+{
+	criteria IsTFC ConceptPlayerYes  IsSpy
+	Response PlayerYesSpyTFC
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Speech Menu 2
+//--------------------------------------------------------------------------------------------------------------
+Response PlayerActivateChargeSpyTFC
+{
+	scene "scenes/Player/Spy/low/692.vcd" 
+	scene "scenes/Player/Spy/low/693.vcd" 
+	scene "scenes/Player/Spy/low/694.vcd" 
+}
+Rule PlayerActivateChargeSpyTFC
+{
+	criteria IsTFC ConceptPlayerActivateCharge IsSpy
+	Response PlayerActivateChargeSpyTFC
+}
+
+Response PlayerCloakedSpySpyTFC
+{
+	scene "scenes/Player/Spy/low/718.vcd" 
+	scene "scenes/Player/Spy/low/719.vcd" 
+	scene "scenes/Player/Spy/low/720.vcd" 
+	scene "scenes/Player/Spy/low/1310.vcd" 
+}
+Rule PlayerCloakedSpySpyTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsSpy
+	Response PlayerCloakedSpySpyTFC
+}
+
+Response PlayerDispenserHereSpyTFC
+{
+	scene "scenes/Player/Spy/low/783.vcd" 
+}
+Rule PlayerDispenserHereSpyTFC
+{
+	criteria IsTFC ConceptPlayerDispenserHere IsSpy
+	Response PlayerDispenserHereSpyTFC
+}
+
+Response PlayerIncomingSpyTFC
+{
+	scene "scenes/Player/Spy/low/761.vcd" 
+	scene "scenes/Player/Spy/low/762.vcd" 
+	scene "scenes/Player/Spy/low/763.vcd" 
+}
+Rule PlayerIncomingSpyTFC
+{
+	criteria IsTFC ConceptPlayerIncoming IsSpy
+	Response PlayerIncomingSpyTFC
+}
+
+Response PlayerSentryAheadSpyTFC
+{
+	scene "scenes/Player/Spy/low/815.vcd" 
+	scene "scenes/Player/Spy/low/814.vcd" 
+}
+Rule PlayerSentryAheadSpyTFC
+{
+	criteria IsTFC ConceptPlayerSentryAhead IsSpy
+	Response PlayerSentryAheadSpyTFC
+}
+
+Response PlayerSentryHereSpyTFC
+{
+	scene "scenes/Player/Spy/low/786.vcd" 
+}
+Rule PlayerSentryHereSpyTFC
+{
+	criteria IsTFC ConceptPlayerSentryHere IsSpy
+	Response PlayerSentryHereSpyTFC
+}
+
+Response PlayerTeleporterHereSpyTFC
+{
+	scene "scenes/Player/Spy/low/788.vcd" 
+}
+Rule PlayerTeleporterHereSpyTFC
+{
+	criteria IsTFC ConceptPlayerTeleporterHere IsSpy
+	Response PlayerTeleporterHereSpyTFC
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Speech Menu 3
+//--------------------------------------------------------------------------------------------------------------
+Response PlayerBattleCrySpyTFC
+{
+	scene "scenes/Player/Spy/low/708.vcd" 
+	scene "scenes/Player/Spy/low/709.vcd" 
+	scene "scenes/Player/Spy/low/1309.vcd" 
+	scene "scenes/Player/Spy/low/707.vcd" 
+}
+Rule PlayerBattleCrySpyTFC
+{
+	criteria IsTFC ConceptPlayerBattleCry IsSpy
+	Response PlayerBattleCrySpyTFC
+}
+
+// Custom stuff - melee dare
+// Look at enemy, then do battle cry voice command while holding a melee weapon.
+Response MeleeDareCombatSpyTFC
+{
+	scene "scenes/Player/Spy/low/3016.vcd"
+	scene "scenes/Player/Spy/low/3023.vcd"
+	scene "scenes/Player/Spy/low/834.vcd"
+	scene "scenes/Player/Spy/low/845.vcd"
+	scene "scenes/Player/Spy/low/847.vcd"
+	scene "scenes/Player/Spy/low/846.vcd"
+	scene "scenes/Player/Spy/low/824.vcd"
+}
+Rule MeleeDareCombatSpyTFC
+{
+	criteria IsTFC ConceptPlayerBattleCry IsWeaponMelee IsSpy IsCrosshairEnemy
+	Response MeleeDareCombatSpyTFC
+}
+
+Response PlayerCheersSpyTFC
+{
+	scene "scenes/Player/Spy/low/710.vcd" 
+	scene "scenes/Player/Spy/low/711.vcd" 
+	scene "scenes/Player/Spy/low/712.vcd" 
+	scene "scenes/Player/Spy/low/713.vcd" 
+	scene "scenes/Player/Spy/low/714.vcd" 
+	scene "scenes/Player/Spy/low/715.vcd" 
+	scene "scenes/Player/Spy/low/716.vcd" 
+	scene "scenes/Player/Spy/low/717.vcd" 
+}
+Rule PlayerCheersSpyTFC
+{
+	criteria IsTFC ConceptPlayerCheers IsSpy
+	Response PlayerCheersSpyTFC
+}
+
+Response PlayerGoodJobSpyTFC
+{
+	scene "scenes/Player/Spy/low/743.vcd" 
+	scene "scenes/Player/Spy/low/744.vcd" 
+	scene "scenes/Player/Spy/low/745.vcd" 
+}
+Rule PlayerGoodJobSpyTFC
+{
+	criteria IsTFC ConceptPlayerGoodJob IsSpy
+	Response PlayerGoodJobSpyTFC
+}
+
+Response PlayerJeersSpyTFC
+{
+	scene "scenes/Player/Spy/low/766.vcd" 
+	scene "scenes/Player/Spy/low/767.vcd" 
+	scene "scenes/Player/Spy/low/768.vcd" 
+	scene "scenes/Player/Spy/low/769.vcd" 
+	scene "scenes/Player/Spy/low/771.vcd" 
+	scene "scenes/Player/Spy/low/770.vcd" 
+}
+Rule PlayerJeersSpyTFC
+{
+	criteria IsTFC ConceptPlayerJeers IsSpy
+	Response PlayerJeersSpyTFC
+}
+
+Response PlayerLostPointSpyTFC
+{
+	scene "scenes/Player/Spy/low/792.vcd" 
+	scene "scenes/Player/Spy/low/793.vcd" 
+	scene "scenes/Player/Spy/low/790.vcd" 
+	scene "scenes/Player/Spy/low/791.vcd" 
+	scene "scenes/Player/Spy/low/789.vcd" 
+	scene "scenes/Player/Spy/low/1318.vcd" 
+	scene "scenes/Player/Spy/low/1319.vcd" 
+	scene "scenes/Player/Spy/low/1320.vcd" 
+	scene "scenes/Player/Spy/low/1321.vcd" 
+}
+Rule PlayerLostPointSpyTFC
+{
+	criteria IsTFC ConceptPlayerLostPoint IsSpy
+	Response PlayerLostPointSpyTFC
+}
+
+Response PlayerNegativeSpyTFC
+{
+	scene "scenes/Player/Spy/low/792.vcd" 
+	scene "scenes/Player/Spy/low/793.vcd" 
+	scene "scenes/Player/Spy/low/790.vcd" 
+	scene "scenes/Player/Spy/low/791.vcd" 
+	scene "scenes/Player/Spy/low/789.vcd" 
+	scene "scenes/Player/Spy/low/1318.vcd" 
+	scene "scenes/Player/Spy/low/1319.vcd" 
+	scene "scenes/Player/Spy/low/1320.vcd" 
+	scene "scenes/Player/Spy/low/1321.vcd" 
+}
+Rule PlayerNegativeSpyTFC
+{
+	criteria IsTFC ConceptPlayerNegative IsSpy
+	Response PlayerNegativeSpyTFC
+}
+
+Response PlayerNiceShotSpyTFC
+{
+	scene "scenes/Player/Spy/low/794.vcd" 
+	scene "scenes/Player/Spy/low/795.vcd" 
+	scene "scenes/Player/Spy/low/796.vcd" 
+}
+Rule PlayerNiceShotSpyTFC
+{
+	criteria IsTFC ConceptPlayerNiceShot IsSpy
+	Response PlayerNiceShotSpyTFC
+}
+
+Response PlayerPositiveSpyTFC
+{
+	scene "scenes/Player/Spy/low/809.vcd" 
+	scene "scenes/Player/Spy/low/837.vcd" 
+	scene "scenes/Player/Spy/low/810.vcd" 
+	scene "scenes/Player/Spy/low/811.vcd" 
+	scene "scenes/Player/Spy/low/812.vcd" 
+	scene "scenes/Player/Spy/low/813.vcd" 
+}
+
+Response PlayerTauntsSpyTFC
+{
+	scene "scenes/Player/Spy/low/777.vcd" 
+	scene "scenes/Player/Spy/low/778.vcd" 
+	scene "scenes/Player/Spy/low/1314.vcd" 
+	scene "scenes/Player/Spy/low/1315.vcd" 
+	scene "scenes/Player/Spy/low/1316.vcd" 
+}
+Rule PlayerPositiveSpyTFC
+{
+	criteria IsTFC ConceptPlayerPositive IsSpy
+	Response PlayerPositiveSpy
+	Response PlayerTauntsSpyTFC
+}
+
+//--------------------------------------------------------------------------------------------------------------
+// Auto Speech Cart
+//--------------------------------------------------------------------------------------------------------------
+Criterion "SpyNotSaidCartMovingBackwardD" "SaidCartMovingBackwardD" "!=1" "required" weight 0
+Criterion "SpyNotSaidCartMovingBackwardO" "SaidCartMovingBackwardO" "!=1" "required" weight 0
+Criterion "SpyNotSaidCartMovingForwardD" "SaidCartMovingForwardD" "!=1" "required" weight 0
+Criterion "SpyNotSaidCartMovingForwardO" "SaidCartMovingForwardO" "!=1" "required" weight 0
+Criterion "SpyNotSaidCartMovingStoppedD" "SaidCartMovingStoppedD" "!=1" "required" weight 0
+Criterion "SpyNotSaidCartMovingStoppedO" "SaidCartMovingStoppedO" "!=1" "required" weight 0
+Response CartMovingBackwardsDefenseSpy                                                     
+{
+	scene "scenes/Player/Spy/low/7588.vcd"
+	scene "scenes/Player/Spy/low/7589.vcd"
+}
+Rule CartMovingBackwardsDefenseSpy                                                     
+{
+	criteria IsTFC ConceptCartMovingBackward IsOnDefense IsSpy SpyNotSaidCartMovingBackwardD IsNotDisguised IsNotCloaked 75PercentChance                                                                                                                                                          
+	ApplyContext "SaidCartMovingBackwardD:1:20"
+	Response CartMovingBackwardsDefenseSpy                                                     
+}
+Response CartMovingBackwardsOffenseSpy                                                     
+{
+	scene "scenes/Player/Spy/low/7582.vcd"
+	scene "scenes/Player/Spy/low/7583.vcd"
+}
+Rule CartMovingBackwardsOffenseSpy                                                     
+{
+	criteria IsTFC ConceptCartMovingBackward IsOnOffense IsSpy SpyNotSaidCartMovingBackwardO IsNotDisguised IsNotCloaked 75PercentChance                                                                                                                                                          
+	ApplyContext "SaidCartMovingBackwardO:1:20"
+	Response CartMovingBackwardsOffenseSpy                                                     
+}
+Response CartMovingForwardDefenseSpy                                                       
+{
+	scene "scenes/Player/Spy/low/7584.vcd"
+	scene "scenes/Player/Spy/low/7585.vcd"
+	scene "scenes/Player/Spy/low/7587.vcd"
+	scene "scenes/Player/Spy/low/7586.vcd"
+}
+Rule CartMovingForwardDefenseSpy                                                       
+{
+	criteria IsTFC ConceptCartMovingForward IsOnDefense IsSpy SpyNotSaidCartMovingForwardD IsNotDisguised IsNotCloaked 75PercentChance                                                                                                                                                            
+	ApplyContext "SaidCartMovingForwardD:1:20"
+	Response CartMovingForwardDefenseSpy                                                       
+}
+Response CartMovingForwardOffenseSpy                                                       
+{
+	scene "scenes/Player/Spy/low/8553.vcd"
+	scene "scenes/Player/Spy/low/7573.vcd"
+	scene "scenes/Player/Spy/low/7574.vcd"
+	scene "scenes/Player/Spy/low/7575.vcd"
+	scene "scenes/Player/Spy/low/7576.vcd"
+	scene "scenes/Player/Spy/low/7577.vcd"
+	scene "scenes/Player/Spy/low/7578.vcd"
+	scene "scenes/Player/Spy/low/7581.vcd"
+	scene "scenes/Player/Spy/low/7591.vcd"
+	scene "scenes/Player/Spy/low/7592.vcd"
+	scene "scenes/Player/Spy/low/7593.vcd"
+	scene "scenes/Player/Spy/low/7595.vcd"
+}
+Rule CartMovingForwardOffenseSpy                                                       
+{
+	criteria IsTFC ConceptCartMovingForward IsOnOffense IsSpy SpyNotSaidCartMovingForwardO IsNotDisguised IsNotCloaked 75PercentChance                                                                                                                                                            
+	ApplyContext "SaidCartMovingForwardO:1:20"
+	Response CartMovingForwardOffenseSpy                                                       
+}
+Response CartMovingStoppedDefenseSpy                                                       
+{
+	scene "scenes/Player/Spy/low/7600.vcd"
+	scene "scenes/Player/Spy/low/7601.vcd"
+	scene "scenes/Player/Spy/low/7602.vcd"
+	scene "scenes/Player/Spy/low/7603.vcd"
+}
+Rule CartMovingStoppedDefenseSpy                                                       
+{
+	criteria IsTFC ConceptCartMovingStopped IsOnDefense IsSpy SpyNotSaidCartMovingStoppedD IsNotDisguised IsNotCloaked 75PercentChance                                                                                                                                                            
+	ApplyContext "SaidCartMovingStoppedD:1:20"
+	Response CartMovingStoppedDefenseSpy                                                       
+}
+Response CartMovingStoppedOffenseSpy                                                       
+{
+	scene "scenes/Player/Spy/low/7596.vcd"
+	scene "scenes/Player/Spy/low/7598.vcd"
+	scene "scenes/Player/Spy/low/7599.vcd"
+}
+Rule CartMovingStoppedOffenseSpy                                                       
+{
+	criteria IsTFC ConceptCartMovingStopped IsOnOffense IsSpy SpyNotSaidCartMovingStoppedO IsNotDisguised IsNotCloaked 75PercentChance                                                                                                                                                            
+	ApplyContext "SaidCartMovingStoppedO:1:20"
+	Response CartMovingStoppedOffenseSpy                                                       
+}
+//--------------------------------------------------------------------------------------------------------------
+// END OF Auto Speech Cart
+//--------------------------------------------------------------------------------------------------------------
+
+//--------------------------------------------------------------------------------------------------------------
+// Begin Competitive Mode VO
+//--------------------------------------------------------------------------------------------------------------
+Response PlayerFirstRoundStartCompSpyTFC
+{
+	scene "scenes/Player/Spy/low/cm_spy_pregamefirst_01.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamefirst_02.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamefirst_03.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamefirst_04.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamefirst_05.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamefirst_06.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamefirst_07.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamefirst_08.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamefirst_09.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamefirst_10.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamefirst_11.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamefirst_12.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamefirst_comp_01.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamefirst_comp_02.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamefirst_comp_03.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamefirst_rare_01.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamefirst_rare_02.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamefirst_rare_03.vcd" predelay "1.0, 5.0"
+}
+Rule PlayerFirstRoundStartCompSpyTFC
+{
+	criteria IsTFC ConceptPlayerRoundStartComp IsSpy IsFirstRound IsNotComp6v6 40PercentChance
+	Response PlayerFirstRoundStartCompSpyTFC
+}
+
+Response PlayerFirstRoundStartComp6sSpyTFC
+{
+	scene "scenes/Player/Spy/low/cm_spy_pregamefirst_01.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamefirst_02.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamefirst_03.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamefirst_04.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamefirst_05.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamefirst_06.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamefirst_07.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamefirst_08.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamefirst_09.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamefirst_10.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamefirst_11.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamefirst_12.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamefirst_comp_01.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamefirst_comp_02.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamefirst_comp_03.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamefirst_rare_01.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamefirst_rare_02.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamefirst_rare_03.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamefirst_6s_01.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamefirst_6s_02.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamefirst_6s_03.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamefirst_6s_04.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamefirst_6s_05.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamefirst_6s_06.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamefirst_6s_07.vcd" predelay "1.0, 5.0"
+}
+Rule PlayerFirstRoundStartComp6sSpyTFC
+{
+	criteria IsTFC ConceptPlayerRoundStartComp IsSpy IsFirstRound IsComp6v6 40PercentChance
+	Response PlayerFirstRoundStartComp6sSpyTFC
+}
+
+Response PlayerWonPrevRoundCompSpyTFC
+{
+	scene "scenes/Player/Spy/low/cm_spy_pregamewonlast_01.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamewonlast_02.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamewonlast_03.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamewonlast_04.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamewonlast_05.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamewonlast_06.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamewonlast_07.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamewonlast_08.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamewonlast_09.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamewonlast_10.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamewonlast_11.vcd" predelay "1.0, 5.0"
+}
+Rule PlayerWonPrevRoundCompSpyTFC
+{
+	criteria IsTFC ConceptPlayerRoundStartComp IsSpy IsNotFirstRound PlayerWonPreviousRound 40PercentChance
+	Response PlayerWonPrevRoundCompSpyTFC
+}
+
+Response PlayerLostPrevRoundCompSpyTFC
+{
+	scene "scenes/Player/Spy/low/cm_spy_pregamelostlast_01.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamelostlast_02.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamelostlast_03.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamelostlast_04.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamelostlast_05.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamelostlast_06.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamelostlast_07.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamelostlast_08.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamelostlast_09.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamelostlast_10.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregamelostlast_11.vcd" predelay "1.0, 5.0"
+}
+Rule PlayerLostPrevRoundCompSpyTFC
+{
+	criteria IsTFC ConceptPlayerRoundStartComp IsSpy IsNotFirstRound PlayerLostPreviousRound PreviousRoundWasNotTie 40PercentChance
+	Response PlayerLostPrevRoundCompSpyTFC
+}
+
+Response PlayerTiedPrevRoundCompSpyTFC
+{
+	scene "scenes/Player/Spy/low/cm_spy_pregametie_01.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregametie_02.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregametie_03.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregametie_04.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregametie_05.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregametie_06.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_pregametie_rare_01.vcd" predelay "1.0, 5.0"
+}
+Rule PlayerTiedPrevRoundCompSpyTFC
+{
+	criteria IsTFC ConceptPlayerRoundStartComp IsSpy IsNotFirstRound PreviousRoundWasTie 40PercentChance
+	Response PlayerTiedPrevRoundCompSpyTFC
+}
+
+Response PlayerGameWinCompSpyTFC
+{
+	scene "scenes/Player/Spy/low/cm_spy_gamewon_01.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_gamewon_02.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_gamewon_03.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_gamewon_04.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_gamewon_05.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_gamewon_06.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_gamewon_07.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/Spy/low/cm_spy_gamewon_08.vcd" predelay "2.0, 5.0"
+}
+Rule PlayerGameWinCompSpyTFC
+{
+	criteria IsTFC ConceptPlayerGameOverComp PlayerOnWinningTeam IsSpy 40PercentChance
+	Response PlayerGameWinCompSpyTFC
+}
+
+Response PlayerMatchWinCompSpyTFC
+{
+	scene "scenes/Player/Spy/low/cm_spy_matchwon_01.vcd" predelay "1.0, 2.0"
+	scene "scenes/Player/Spy/low/cm_spy_matchwon_02.vcd" predelay "1.0, 2.0"
+	scene "scenes/Player/Spy/low/cm_spy_matchwon_03.vcd" predelay "1.0, 2.0"
+	scene "scenes/Player/Spy/low/cm_spy_matchwon_04.vcd" predelay "1.0, 2.0"
+	scene "scenes/Player/Spy/low/cm_spy_matchwon_05.vcd" predelay "1.0, 2.0"
+	scene "scenes/Player/Spy/low/cm_spy_matchwon_06.vcd" predelay "1.0, 2.0"
+	scene "scenes/Player/Spy/low/cm_spy_matchwon_07.vcd" predelay "1.0, 2.0"
+	scene "scenes/Player/Spy/low/cm_spy_matchwon_08.vcd" predelay "1.0, 2.0"
+	scene "scenes/Player/Spy/low/cm_spy_matchwon_09.vcd" predelay "1.0, 2.0"
+	scene "scenes/Player/Spy/low/cm_spy_matchwon_10.vcd" predelay "1.0, 2.0"
+	scene "scenes/Player/Spy/low/cm_spy_matchwon_11.vcd" predelay "1.0, 2.0"
+	scene "scenes/Player/Spy/low/cm_spy_matchwon_12.vcd" predelay "1.0, 2.0"
+}
+Rule PlayerMatchWinCompSpyTFC
+{
+	criteria IsTFC ConceptPlayerMatchOverComp PlayerOnWinningTeam IsSpy 40PercentChance
+	Response PlayerMatchWinCompSpyTFC
+}
+//--------------------------------------------------------------------------------------------------------------
+// End Competitive Mode VO
+//--------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,512 @@
+// DSP Effects
+// 0 : "Normal (off)"
+// 1 : "Generic"
+// 2 : "Metal Small"
+// 3 : "Metal Medium"
+// 4 : "Metal Large"
+// 5 : "Tunnel Small"
+// 6 : "Tunnel Medium"
+// 7 : "Tunnel Large"
+// 8 : "Chamber Small"
+// 9 : "Chamber Medium"
+// 10: "Chamber Large"
+// 11: "Bright Small"
+// 12: "Bright Medium"
+// 13: "Bright Large"
+// 14: "Water 1"
+// 15: "Water 2"
+// 16: "Water 3"
+// 17: "Concrete Small"
+// 18: "Concrete Medium"
+// 19: "Concrete Large"
+// 20: "Big 1"
+// 21: "Big 2"
+// 22: "Big 3"
+// 23: "Cavern Small"
+// 24: "Cavern Medium"
+// 25: "Cavern Large"
+// 26: "Weirdo 1"
+// 27: "Weirdo 2"
+// 28: "Weirdo 3"
+
+//	ATTN_NONE		0.0f	
+//	ATTN_NORM		0.8f	75dB
+//	ATTN_IDLE		2.0f	60dB
+//	ATTN_STATIC		1.25f	66dB
+//	ATTN_RICOCHET	1.5f	65dB
+//	ATTN_GUNFIRE	0.27f	140dB
+
+//	SNDLVL_50dB		= 50,	// 3.9
+//	SNDLVL_55dB		= 55,	// 3.0
+//	SNDLVL_IDLE		= 60,	// 2.0
+//	SNDLVL_TALKING	= 60,	// 2.0
+//	SNDLVL_60dB		= 60,	// 2.0
+//	SNDLVL_65dB		= 65,	// 1.5
+//	SNDLVL_STATIC	= 66,	// 1.25
+//	SNDLVL_70dB		= 70,	// 1.0
+//	SNDLVL_NORM		= 75,
+//	SNDLVL_75dB		= 75,	// 0.8
+//	SNDLVL_80dB		= 80,	// 0.7
+//	SNDLVL_85dB		= 85,	// 0.6
+//	SNDLVL_90dB		= 90,	// 0.5
+//	SNDLVL_95dB		= 95,
+//	SNDLVL_100dB	= 100,	// 0.4
+//	SNDLVL_105dB	= 105,
+//	SNDLVL_120dB	= 120,
+//	SNDLVL_130dB	= 130,
+//	SNDLVL_GUNFIRE	= 140,	// 0.27
+//	SNDLVL_140dB	= 140,	// 0.2
+//	SNDLVL_150dB	= 150,	// 0.2
+
+
+"wiseau.inside_warehouse" {
+	"dsp"	"19"
+
+	"playlooping" {
+		"volume"	".9"
+		"pitch"		"100"
+		"wave"		"ambient/dm_wiseau/warehouse_interior.wav"
+	}
+
+	"playrandom" {
+		"time"		"10,30"
+		"volume"	"0.8"
+		"pitch"		"95,105"
+		"rndwave" {
+			"wave"		"ambient/dm_wiseau/factory_horn.wav"
+			"wave"		"ambient/dm_wiseau/metal_groan.wav"
+			"wave"		"ambient/dm_wiseau/metal_hit01.wav"
+			"wave"		"ambient/dm_wiseau/metal_hit02.wav"
+			"wave"		"ambient/dm_wiseau/metal_hit03.wav"
+		}
+	}
+
+	"playrandom" {
+		"time"		"30,90"
+		"volume"	"0.95"
+		"pitch"		"95,105"
+		"rndwave" {
+			"wave"		"ambient/dm_wiseau/forklift01.wav"
+			"wave"		"ambient/dm_wiseau/forklift02.wav"
+			"wave"		"ambient/dm_wiseau/forklift03.wav"
+			"wave"		"ambient/dm_wiseau/forklift04.wav"
+			"wave"		"ambient/dm_wiseau/truck_reverse.wav"
+			"wave"		"ambient/dm_wiseau/truck01.wav"
+			"wave"		"ambient/dm_wiseau/truck02.wav"
+			"wave"		"ambient/dm_wiseau/truck03.wav"
+			"wave"		"ambient/dm_wiseau/metal_crash01.wav"
+			"wave"		"ambient/dm_wiseau/metal_crash02.wav"
+			"wave"		"ambient/dm_wiseau/metal_crash03.wav"
+		}
+	}
+
+	"playrandom" {
+		"time"		"30,60"
+		"volume"	"0.6"
+		"pitch"		"95,105"
+		"rndwave" {
+			"wave"		"ambient/dm_wiseau/metal_crash01.wav"
+			"wave"		"ambient/dm_wiseau/metal_crash02.wav"
+			"wave"		"ambient/dm_wiseau/metal_crash03.wav"
+		}
+	}
+
+}
+
+"wiseau.outside_courtyard" {
+	"dsp"	"20"
+
+	"playlooping" {
+		"volume"	"0.95"
+		"pitch"		"100"
+		"wave"		"ambient/dm_wiseau/courtyard.wav"
+	}
+
+	"playlooping" {
+		"volume"	"0.7"
+		"pitch"		"100"
+		"wave"		"ambient/dm_wiseau/distant_traffic.wav"
+	}
+
+	"playrandom" {
+		"time"		"3,15"
+		"volume"	"0.25"
+		"pitch"		"95,105"
+		"rndwave" {
+			"wave"		"ambient/dm_wiseau/whistle.wav"
+			"wave"		"ambient/dog1.wav"
+			"wave"		"ambient/dog2.wav"
+			"wave"		"ambient/dog3.wav"
+			"wave"		"ambient/dog4.wav"
+			"wave"		"ambient/bird1.wav"
+			"wave"		"ambient/bird2.wav"
+			"wave"		"ambient/bird3.wav"
+			"wave"		"ambient/rottenburg/smallbird_01.wav"
+			"wave"		"ambient/rottenburg/smallbird_02.wav"
+			"wave"		"ambient/rottenburg/smallbird_03.wav"
+			"wave"		"ambient/rottenburg/smallbird_04.wav"
+			"wave"		"ambient/rottenburg/dove_01.wav"
+			"wave"		"ambient/rottenburg/dove_02.wav"
+			"wave"		"ambient/rottenburg/dove_03.wav"
+			"wave"		"ambient/rottenburg/dove_04.wav"
+			"wave"		"ambient/warbler.wav"
+		}
+	}
+
+	"playrandom" {
+		"time"		"15,40"
+		"volume"	"0.25"
+		"pitch"		"95,105"
+		"rndwave" {
+			"wave"		"ambient/mvm_warehouse/car_passby_01.wav"
+			"wave"		"ambient/mvm_warehouse/car_passby_02.wav"
+			"wave"		"ambient/mvm_warehouse/car_passby_03.wav"
+			"wave"		"ambient/mvm_warehouse/car_passby_04.wav"
+			"wave"		"ambient/mvm_warehouse/car_passby_05.wav"
+			"wave"		"ambient/mvm_warehouse/car_passby_06.wav"
+			"wave"		"ambient/mvm_warehouse/car_passby_07.wav"
+			"wave"		"ambient/cp_harbor/car_1shot_05.wav"
+			"wave"		"ambient/cp_harbor/car_1shot_06.wav"
+			"wave"		"ambient/mvm_warehouse/car_horn_04.wav"
+			"wave"		"ambient/mvm_warehouse/car_horn_05.wav"
+			"wave"		"ambient/mvm_warehouse/car_horn_03.wav"
+			"wave"		"ambient/mvm_warehouse/car_horn_02.wav"
+			"wave"		"ambient/dm_wiseau/oneshot_car_crash(nomyarm).wav"
+			"wave"		"ambient/dm_wiseau/oneshot_car_crash(myarmlouder).wav"
+			"wave"		"ambient/dm_wiseau/roadrage.wav"
+		}
+	}
+
+	"playrandom" {
+		"time"		"30,60"
+		"volume"	"0.5"
+		"pitch"		"95,105"
+		"rndwave"
+		{
+			"wave"		"ambient/dm_wiseau/train01.wav"
+			"wave"		"ambient/mvm_warehouse/train_03.wav"
+			"wave"		"ambient/cp_harbor/train_1shot_02.wav"
+			"wave"		"ambient/cp_harbor/train_1shot_04.wav"
+		}
+	}
+}
+
+"wiseau.inside_storage" {
+	"dsp"	"9"
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient/dm_wiseau/storage.wav"
+	}
+
+	"playlooping" {
+		"volume"	"0.3"
+		"pitch"		"100"
+		"wave"		"ambient/dm_wiseau/courtyard.wav"
+	}
+
+	"playrandom" {
+		"time"		"8,14"
+		"volume"	"0.55"
+		"pitch"		"95,105"
+		"rndwave" {
+			"wave"		"ambient/dm_wiseau/car_muffled01.wav"
+			"wave"		"ambient/dm_wiseau/car_muffled02.wav"
+			"wave"		"ambient/dm_wiseau/car_muffled03.wav"
+			"wave"		"ambient/dm_wiseau/car_muffled04.wav"
+			"wave"		"ambient/dm_wiseau/dust.wav"
+			"wave"		"ambient/dm_wiseau/wood_creak01.wav"
+			"wave"		"ambient/dm_wiseau/wood_creak02.wav"
+			"wave"		"ambient/dm_wiseau/wood_creak03.wav"
+			"wave"		"ambient/dm_wiseau/wood_creak04.wav"
+			"wave"		"ambient/dm_wiseau/light_buzz01.wav"
+			"wave"		"ambient/dm_wiseau/light_buzz02.wav"
+			"wave"		"ambient/dm_wiseau/light_buzz03.wav"
+		}
+	}
+
+	"playlooping" {
+		"volume"		".25"
+		"pitch"			"100"
+		"wave"			"ambient/lair/light_hum3.wav"
+	}
+
+	"playrandom" {
+		"time"		"60,80"
+		"volume"	"0.7"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient/dm_wiseau/radio_tune.wav"
+		}
+	}
+}
+
+"wiseau.inside_small" {
+	"dsp"	"8"
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient/dm_wiseau/storage.wav"
+	}
+
+	"playlooping" {
+		"volume"	"0.4"
+		"pitch"		"100"
+		"wave"		"ambient/dm_wiseau/courtyard.wav"
+	}
+
+	"playlooping" {
+		"volume"	"0.2"
+		"pitch"		"100"
+		"wave"		"ambient/dm_wiseau/distant_traffic.wav"
+	}
+
+	"playrandom" {
+		"time"		"8,14"
+		"volume"	"0.55"
+		"pitch"		"95,105"
+		"rndwave" {
+			"wave"		"ambient/dm_wiseau/car_muffled01.wav"
+			"wave"		"ambient/dm_wiseau/car_muffled02.wav"
+			"wave"		"ambient/dm_wiseau/car_muffled03.wav"
+			"wave"		"ambient/dm_wiseau/car_muffled04.wav"
+			"wave"		"ambient/dm_wiseau/dust.wav"
+			"wave"		"ambient/dm_wiseau/wood_creak01.wav"
+			"wave"		"ambient/dm_wiseau/wood_creak02.wav"
+			"wave"		"ambient/dm_wiseau/wood_creak03.wav"
+			"wave"		"ambient/dm_wiseau/wood_creak04.wav"
+			"wave"		"ambient/dm_wiseau/light_buzz01.wav"
+			"wave"		"ambient/dm_wiseau/light_buzz02.wav"
+			"wave"		"ambient/dm_wiseau/light_buzz03.wav"
+		}
+	}
+
+	"playlooping" {
+		"volume"		".25"
+		"pitch"			"100"
+		"wave"			"ambient/lair/light_hum3.wav"
+	}
+
+	"playrandom" {
+		"time"		"60,80"
+		"volume"	"0.7"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient/dm_wiseau/radio_tune.wav"
+		}
+	}
+}
+
+"wiseau.inside_attic" {
+	"dsp"	"9"
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient/dm_wiseau/storage.wav"
+	}
+
+	"playlooping" {
+		"volume"		".1"
+		"pitch"			"100"
+		"wave"			"ambient/underground.wav"
+	}
+
+	// "playlooping" {
+		// "volume"		".1"
+		// "pitch"			"100"
+		// "wave"			"ambient/machine_hum2.wav"
+	// }
+
+	"playlooping" {
+		"volume"		".25"
+		"pitch"			"100"
+		"wave"			"ambient/lair/light_hum3.wav"
+	}
+
+	"playlooping" {
+		"volume"		"0.175"
+		"pitch"			"100"
+		"wave"			"ambient/boiler_01.wav"
+	}
+
+	"playrandom" {
+		"time"		"8,14"
+		"volume"	"0.55"
+		"pitch"		"95,105"
+		"rndwave" {
+			"wave"		"ambient/dm_wiseau/dust.wav"
+			"wave"		"ambient/dm_wiseau/wood_creak01.wav"
+			"wave"		"ambient/dm_wiseau/wood_creak02.wav"
+			"wave"		"ambient/dm_wiseau/wood_creak03.wav"
+			"wave"		"ambient/dm_wiseau/wood_creak04.wav"
+			"wave"		"ambient/dm_wiseau/light_buzz01.wav"
+			"wave"		"ambient/dm_wiseau/light_buzz02.wav"
+			"wave"		"ambient/dm_wiseau/light_buzz03.wav"
+		}
+	}
+
+	// hehe scary :3
+	"playrandom" {
+		"time"		"90,120"
+		"volume"	"0.25"
+		"pitch"		"100,105"
+		"rndwave" {
+			"wave"		"ambient\materials\footsteps_wood1.wav"
+			"wave"		"ambient\materials\footsteps_wood2.wav"
+		}
+	}
+}
+
+"wiseau.spytech_waitingroom" {
+	"dsp"	"18"
+
+	"playlooping" {
+		"volume"		".6"
+		"pitch"			"100"
+		"wave"			"ambient/underground.wav"
+	}
+
+	"playlooping" {
+		"volume"		".3"
+		"pitch"			"100"
+		"wave"			"ambient/machine_hum2.wav"
+	}
+
+	"playlooping" {
+		"volume"		".25"
+		"pitch"			"100"
+		"wave"			"ambient/lair/light_hum3.wav"
+	}
+
+	//position 0 - tape machines
+	"playlooping" {
+		"volume"		".4"
+		"pitch"			"100"
+		"position"		"0"
+		"attenuation"	"0.7"	
+		"wave"			"ambient/computer_tape.wav"
+	}
+
+	//position 1 - air vent 1
+	"playlooping" {
+		"volume"		".15"
+		"pitch"			"100"
+		"position"		"1"
+		"attenuation"	".85"
+		"wave"			"ambient/lair/ac_vent4.wav"
+	}
+
+	//position 2 - air vent 2
+	"playlooping" {
+		"volume"		".15"
+		"pitch"			"100"
+		"position"		"2"
+		"attenuation"	".85"
+		"wave"			"ambient/lair/ac_vent2.wav"
+	}
+
+	//position 3 - radio music
+	"playlooping" {
+		"volume"		"1"
+		"pitch"			"100"
+		"position"		"3"
+		"attenuation"	".55"
+		"wave"			"ambient/dm_wiseau/radio_loop.wav"
+	}
+}
+
+"wiseau.spytech_datacenter" {
+	"dsp"	"19"
+
+	"playlooping" {
+		"volume"		".6"
+		"pitch"			"100"
+		"wave"			"ambient/underground.wav"
+	}
+
+	"playlooping" {
+		"volume"		"0.3"
+		"pitch"			"100"
+		"wave"			"ambient/machine_hum2.wav"
+	}
+
+	"playlooping" {
+		"volume"		".125"
+		"pitch"			"100"
+		"wave"			"ambient/lair/light_hum3.wav"
+	}
+
+	//position 0 - computers 1
+	"playlooping" {
+		"volume"		".4"
+		"pitch"			"100"
+		"position"		"0"
+		"attenuation"	"0.7"	
+		"wave"			"ambient/computer_working.wav"
+	}
+
+	//position 1 - computers 2
+	"playlooping" {
+		"volume"		".4"
+		"pitch"			"100"
+		"position"		"1"
+		"attenuation"	"0.7"	
+		"wave"			"ambient/computer_working2.wav"
+	}
+
+	//position 2 - side room projector
+	"playlooping" {
+		"volume"		"1"
+		"pitch"			"100"
+		"position"		"2"
+		"attenuation"	"1.1"
+		"wave"			"ambient\lair\light_hum2.wav"
+	}
+
+	//position 3 - industrial machine
+	"playlooping" {
+		"volume"		"0.4"
+		"pitch"			"100"
+		"position"		"3"
+		"attenuation"	"0.7"
+		"wave"			"ambient\machine_hum.wav"
+	}
+}
+
+"wiseau.vents"
+{
+	"dsp"	"2"
+
+	"playlooping"
+	{
+		"volume"	".75"
+		"pitch"		"100"
+		"wave"		"ambient/lair/cap_3_duct_tone.wav"
+	}
+
+	"playlooping" {
+		"volume"	"0.15"
+		"pitch"		"100"
+		"wave"		"ambient/windwinterinside.wav"
+	}
+
+	"playrandom" {
+		"time"		"8,14"
+		"volume"	"0.55"
+		"pitch"		"95,105"
+		"rndwave" {
+			"wave"		"ambient/dm_wiseau/car_muffled01.wav"
+			"wave"		"ambient/dm_wiseau/car_muffled02.wav"
+			"wave"		"ambient/dm_wiseau/car_muffled03.wav"
+			"wave"		"ambient/dm_wiseau/car_muffled04.wav"
+		}
+	}
+}

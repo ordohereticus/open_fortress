@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Tools/toolsblockbulletswoodsound"
+	"$translucent" 1
+	"$nodecal" 1
+	"$surfaceprop" "wood"
+	"%compileNodraw" 1
+	"%compileDetail" 1
+	"%keywords" "tf,Tools"
+}

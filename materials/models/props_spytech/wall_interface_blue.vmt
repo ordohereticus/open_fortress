@@ -1,0 +1,18 @@
+VertexLitGeneric {
+	"$basetexture"					"models/props_spytech/wall_interface_blue"
+	
+	// "$phong"						"1"
+	// "$phongexponent"				"15"
+	// "$phongboost"					"5"	
+	// "$lightwarptexture"				"models/lightwarps/weapon_lightwarp"
+	// "$phongfresnelranges"			"[1.5 .5 3]"
+	// "$halflambert"					"1"
+	
+	// "$rimlight"						"1"
+	// "$rimlightexponent"				"20"
+	// "$rimlightboost"				".25"
+	
+	"$selfillum"					"1"
+	
+	"$nodecal"						"1"
+}

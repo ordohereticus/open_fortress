@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "office/chesstile"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ .35 .35 .35]"
+	"$bumpmap" "office/chesstile"
+	"%keywords" "tf"
+}

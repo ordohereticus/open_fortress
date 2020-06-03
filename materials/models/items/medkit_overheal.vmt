@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\items/medkit_overheal"
+	"$selfillum" "1"
+	"$selfillummask" 	"models\items/item_selfillum_dark"
+
+	"$phong" "1"
+	"$phongexponent" "25"
+	"$phongboost" "2"	
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[.25 .5 1]"
+
+	"$basephongexponent" "25"
+	"$basephongboost" "5"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "2"
+	"$rimlightboost" "1"
+}

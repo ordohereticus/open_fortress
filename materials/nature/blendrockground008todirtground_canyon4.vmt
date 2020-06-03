@@ -1,0 +1,19 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "Nature/rockground008"
+	"%tooltexture" "Nature/blendrockground008todirtground_canyon4"
+	"$ssbump" "1"
+	"$bumpmap" "Nature/rockground001_height-ssbump"
+	"$blendmodulatetexture" "Nature/gravelground001_blendmask"
+	"$basetexture2" "Nature/dirtground_canyon4"
+	"$bumpmap2" "Nature/dirtgroundcanyon_normal"
+	"$detail2" "overlays/detail004"
+	"$detailscale2" "1.2"
+	"$detailblendmode2" "0"
+	"$detailblendfactor2" "1"		
+	
+	"%keywords" "tf"
+	"$surfaceprop" "dirt"
+
+}
+

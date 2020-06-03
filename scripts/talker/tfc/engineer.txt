@@ -1,0 +1,1850 @@
+//--------------------------------------------------------------------------------------------------------------
+// Engineer Response Rule File
+//--------------------------------------------------------------------------------------------------------------
+
+Response PlayerCloakedSpyDemomanEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/56.vcd" 
+}
+Rule PlayerCloakedSpyDemomanEngineerTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsEngineer IsOnDemoman
+	Response PlayerCloakedSpyDemomanEngineerTFC
+}
+
+Response PlayerCloakedSpyEngineerEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/62.vcd" 
+}
+Rule PlayerCloakedSpyEngineerEngineerTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsEngineer IsOnEngineer
+	Response PlayerCloakedSpyEngineerEngineerTFC
+}
+
+Response PlayerCloakedSpyHeavyEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/52.vcd" 
+}
+Rule PlayerCloakedSpyHeavyEngineerTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsEngineer IsOnHeavy
+	Response PlayerCloakedSpyHeavyEngineerTFC
+}
+
+Response PlayerCloakedSpyMedicEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/60.vcd" 
+}
+Rule PlayerCloakedSpyMedicEngineerTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsEngineer IsOnMedic
+	Response PlayerCloakedSpyMedicEngineerTFC
+}
+
+Response PlayerCloakedSpyPyroEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/54.vcd" 
+}
+Rule PlayerCloakedSpyPyroEngineerTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsEngineer IsOnPyro
+	Response PlayerCloakedSpyPyroEngineerTFC
+}
+
+Response PlayerCloakedSpyScoutEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/48.vcd" 
+}
+Rule PlayerCloakedSpyScoutEngineerTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsEngineer IsOnScout
+	Response PlayerCloakedSpyScoutEngineerTFC
+}
+
+Response PlayerCloakedSpySniperEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/64.vcd" 
+}
+Rule PlayerCloakedSpySniperEngineerTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsEngineer IsOnSniper
+	Response PlayerCloakedSpySniperEngineerTFC
+}
+
+Response PlayerCloakedSpySoldierEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/50.vcd" 
+}
+Rule PlayerCloakedSpySoldierEngineerTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsEngineer IsOnSoldier
+	Response PlayerCloakedSpySoldierEngineerTFC
+}
+
+Response PlayerCloakedSpySpyEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/58.vcd" 
+	scene "scenes/Player/Engineer/low/59.vcd" 
+}
+Rule PlayerCloakedSpySpyEngineerTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsEngineer IsOnSpy
+	Response PlayerCloakedSpySpyEngineerTFC
+}
+
+Response PlayerDispenserDownEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/25.vcd" 
+}
+Rule PlayerDispenserDownEngineerTFC
+{
+	criteria IsTFC ConceptLostObject IsDispenser IsEngineer
+	Response PlayerDispenserDownEngineerTFC
+}
+
+Response PlayerSentryDownEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/26.vcd" 
+}
+Rule PlayerSentryDownEngineerTFC
+{
+	criteria IsTFC ConceptLostObject IsSentryGun IsEngineer
+	Response PlayerSentryDownEngineerTFC
+}
+
+Response PlayerTeleporterDownEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/27.vcd" 
+}
+Rule PlayerTeleporterDownEngineerTFC
+{
+	criteria IsTFC ConceptLostObject IsTeleporter IsEngineer
+	Response PlayerTeleporterDownEngineerTFC
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Auto Speech
+//--------------------------------------------------------------------------------------------------------------
+Response HealThanksEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/181.vcd" 
+	scene "scenes/Player/Engineer/low/183.vcd" 
+}
+Rule HealThanksEngineerTFC
+{
+	criteria IsTFC ConceptMedicChargeStopped IsEngineer SuperHighHealthContext EngineerNotSaidHealThanks 50PercentChance
+	ApplyContext "EngineerSaidHealThanks:1:20"
+	Response HealThanksEngineerTFC
+}
+
+Response PlayerRoundStartEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/31.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/33.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/34.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/35.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/36.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/1329.vcd" predelay "1.0, 5.0"
+}
+Rule PlayerRoundStartEngineerTFC
+{
+	criteria IsTFC ConceptPlayerRoundStart IsEngineer
+	Response PlayerRoundStartEngineerTFC
+}
+
+Response PlayerCappedIntelligenceEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/19.vcd" 
+	scene "scenes/Player/Engineer/low/21.vcd" 
+	scene "scenes/Player/Engineer/low/20.vcd" 
+}
+Rule PlayerCappedIntelligenceEngineerTFC
+{
+	criteria IsTFC ConceptPlayerCapturedIntelligence IsEngineer
+	Response PlayerCappedIntelligenceEngineerTFC
+}
+
+Response PlayerCapturedPointEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/16.vcd" 
+	scene "scenes/Player/Engineer/low/18.vcd" 
+	scene "scenes/Player/Engineer/low/17.vcd" 
+}
+Rule PlayerCapturedPointEngineerTFC
+{
+	criteria IsTFC ConceptPlayerCapturedPoint IsEngineer
+	Response PlayerCapturedPointEngineerTFC
+}
+
+Response PlayerSuddenDeathEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/94.vcd" 
+	scene "scenes/Player/Engineer/low/95.vcd" 
+	scene "scenes/Player/Engineer/low/96.vcd" 
+	scene "scenes/Player/Engineer/low/98.vcd" 
+}
+Rule PlayerSuddenDeathEngineerTFC
+{
+	criteria IsTFC ConceptPlayerSuddenDeathStart IsEngineer
+	Response PlayerSuddenDeathEngineerTFC
+}
+
+Response PlayerStalemateEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/22.vcd" 
+	scene "scenes/Player/Engineer/low/23.vcd" 
+	scene "scenes/Player/Engineer/low/24.vcd" 
+}
+Rule PlayerStalemateEngineerTFC
+{
+	criteria IsTFC ConceptPlayerStalemate IsEngineer
+	Response PlayerStalemateEngineerTFC
+}
+
+Response PlayerTeleporterThanksEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/186.vcd" 
+	scene "scenes/Player/Engineer/low/184.vcd" 
+}
+Rule PlayerTeleporterThanksEngineerTFC
+{
+	criteria IsTFC ConceptTeleported IsEngineer 30PercentChance
+	Response PlayerTeleporterThanksEngineerTFC
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Auto Speech Combat
+//--------------------------------------------------------------------------------------------------------------
+Response DefendOnThePointEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/1344.vcd" 
+	scene "scenes/Player/Engineer/low/161.vcd" 
+}
+Rule DefendOnThePointEngineerTFC
+{
+	criteria IsTFC ConceptFireWeapon IsEngineer IsOnFriendlyControlPoint NotDefendOnThePointSpeech
+	ApplyContext "DefendOnThePointSpeech:1:30"
+	applycontexttoworld
+	Response DefendOnThePointEngineerTFC
+}
+
+// Custom stuff
+Response KilledPlayerAssistAutoEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/159.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/160.vcd" predelay "2.5"
+}
+Rule KilledPlayerAssistAutoEngineerTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsEngineer IsBeingHealed IsARecentKill KilledPlayerDelay 20PercentChance EngineerNotAssistSpeech
+	ApplyContext "EngineerAssistSpeech:1:20"
+	Response KilledPlayerAssistAutoEngineerTFC
+}
+// End custom
+
+Response EngineerGoldenWrench
+{
+	scene "scenes/Player/Engineer/low/3605.vcd" predelay ".25"
+	scene "scenes/Player/Engineer/low/3690.vcd" predelay ".25"
+	scene "scenes/Player/Engineer/low/3691.vcd" predelay ".25"
+	scene "scenes/Player/Engineer/low/3602.vcd" predelay ".25"
+}
+Rule EngineerGoldenWrench
+{
+	criteria IsTFC ConceptKilledPlayer IsEngineer WeaponIsGoldenWrench WeaponIsWrench WeaponIsNotSentry EngineerNotKillSpeechMelee
+	ApplyContext "EngineerKillSpeechMelee:1:10"
+	Response EngineerGoldenWrench
+}
+Rule EngineerSaxxy
+{
+	criteria IsTFC ConceptKilledPlayer IsEngineer WeaponIsSaxxy WeaponIsNotSentry EngineerNotKillSpeechMelee
+	ApplyContext "EngineerKillSpeechMelee:1:10"
+	Response EngineerGoldenWrench
+}
+Rule EngineerGoldenFryingPan
+{
+	criteria IsTFC ConceptKilledPlayer IsEngineer WeaponIsGoldenFryingPan WeaponIsNotSentry EngineerNotKillSpeechMelee
+	ApplyContext "EngineerKillSpeechMelee:1:10"
+	Response EngineerGoldenWrench
+}
+
+
+Response EngineerLaserPointer
+{
+	scene "scenes/Player/Engineer/low/3603.vcd" predelay ".25"
+	scene "scenes/Player/Engineer/low/3604.vcd" predelay ".25"
+	scene "scenes/Player/Engineer/low/3700.vcd" predelay ".25"
+	scene "scenes/Player/Engineer/low/3704.vcd" predelay ".25"
+}
+Rule EngineerLaserPointer
+{
+	criteria IsTFC ConceptKilledPlayer IsEngineer WeaponIsLaserPointer 30PercentChance
+	ApplyContext "EngineerKillSpeech:1:10"
+	Response EngineerLaserPointer
+}
+
+Response KillTauntsEngineerMiniSentry
+{
+	scene "scenes/Player/Engineer/low/3705.vcd" predelay ".25"
+	scene "scenes/Player/Engineer/low/3706.vcd" predelay ".25"
+	scene "scenes/Player/Engineer/low/3707.vcd" predelay ".25"
+}
+Rule KillTauntsEngineerMiniSentry
+{
+	criteria IsTFC ConceptKilledPlayer WeaponIsMiniSentrygun IsEngineer 20PercentChance
+	ApplyContext "EngineerKillSpeech:1:10"
+	Response KillTauntsEngineerMiniSentry
+}
+
+Response KillTauntsEngineerSpecial
+{
+	scene "scenes/Player/Engineer/low/148.vcd" 
+	scene "scenes/Player/Engineer/low/153.vcd" 
+	scene "scenes/Player/Engineer/low/156.vcd" 
+	scene "scenes/Player/Engineer/low/157.vcd" 
+}
+Rule KillTauntsEngineerSpecial
+{
+	criteria IsTFC ConceptKilledPlayer IsManyRecentKills WeaponIsSentrygun KilledPlayerDelay EngineerNotKillSpeech IsEngineer 30PercentChance
+	ApplyContext "EngineerKillSpeech:1:10"
+	Response KillTauntsEngineerSpecial
+}
+
+Response KilledPlayerManyEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/151.vcd" 
+	scene "scenes/Player/Engineer/low/158.vcd" 
+	scene "scenes/Player/Engineer/low/154.vcd" 
+}
+Rule KilledPlayerManyEngineerTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsManyRecentKills 30PercentChance KilledPlayerDelay EngineerNotKillSpeech IsEngineer WeaponIsNotRobotArm
+	ApplyContext "EngineerKillSpeech:1:10"
+	Response KilledPlayerManyEngineerTFC
+}
+
+Response KilledPlayerMeleeEngineerEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/155.vcd" 
+}
+Rule KilledPlayerMeleeEngineerEngineerTFC
+{
+	criteria IsTFC ConceptKilledPlayer KilledPlayerDelay 30PercentChance  IsWeaponMelee EngineerNotKillSpeechMelee IsEngineer WeaponIsNotSentry
+	ApplyContext "EngineerKillSpeechMelee:1:10"
+	Response KilledPlayerMeleeEngineerEngineerTFC
+}
+
+// Custom stuff
+// Rule for when your mini sentry is killed and you are holding your Frontier Justice
+// Let's hope you have some crits ready, because this line is very fitting.
+
+Response EngyCritsReady
+{
+	scene "scenes/player/Engineer/low/167.vcd"
+	scene "scenes/player/Engineer/low/172.vcd"
+	scene "scenes/player/Engineer/low/177.vcd"
+}
+
+Rule EngyCritsReady
+{
+	criteria IsTFC ConceptLostObject IsSentryGun IsEngineer IsMiniSentryKill WeaponIsFrontierJustice EngineerNotKillSpeech
+	ApplyContext "EngineerKillSpeech:1:10"
+	Response EngyCritsReady
+}
+
+Rule EngyCritsReady2
+{
+	criteria IsTFC ConceptLostObject IsSentryGun IsEngineer IsSentryKill WeaponIsFrontierJustice EngineerNotKillSpeech
+	ApplyContext "EngineerKillSpeech:1:10"
+	Response EngyCritsReady
+}
+
+Rule EngyCritsReadyFestive
+{
+	criteria IsTFC ConceptLostObject IsSentryGun IsEngineer IsMiniSentryKill WeaponIsFestiveFrontierJustice EngineerNotKillSpeech
+	ApplyContext "EngineerKillSpeech:1:10"
+	Response EngyCritsReady
+}
+
+Rule EngyCritsReady2Festive
+{
+	criteria IsTFC ConceptLostObject IsSentryGun IsEngineer IsSentryKill WeaponIsFestiveFrontierJustice EngineerNotKillSpeech
+	ApplyContext "EngineerKillSpeech:1:10"
+	Response EngyCritsReady
+}
+
+
+// Check if mini sentry has had a kill in the past thirty seconds
+Rule MiniSentryKill
+{
+	criteria IsTFC ConceptKilledPlayer WeaponIsMiniSentrygun IsEngineer
+	ApplyContext "MiniSentryKill:1:15"
+	Response PlayerExpressionAttackEngineerTFC
+}
+
+// Check if sentry has had a kill in the past thirty seconds
+Rule SentryKill
+{
+	criteria IsTFC ConceptKilledPlayer WeaponIsSentrygun IsEngineer
+	ApplyContext "MiniSentryKill:1:15"
+	Response PlayerExpressionAttackEngineerTFC
+}
+
+// Invulnerable responses
+Response InvulnerableSpeechEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/176.vcd"  
+	scene "scenes/Player/Engineer/low/177.vcd" 
+	scene "scenes/Player/Engineer/low/1018.vcd" 
+	scene "scenes/Player/Engineer/low/3619.vcd" 
+}
+
+Rule InvulnerableSpeechEngineerTFC
+{
+	criteria IsTFC ConceptFireWeapon IsEngineer IsInvulnerable EngineerNotInvulnerableSpeech
+	ApplyContext "EngineerInvulnerableSpeech:1:30"
+	Response InvulnerableSpeechEngineer
+	Response EngyCritsReady
+}
+
+// End custom
+
+Response KilledPlayerVeryManyEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/147.vcd" 
+}
+Rule KilledPlayerVeryManyEngineerTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsVeryManyRecentKills 50PercentChance KilledPlayerDelay EngineerNotKillSpeech IsEngineer WeaponIsNotRobotArm
+	ApplyContext "EngineerKillSpeech:1:10"
+	Response KilledPlayerVeryManyEngineerTFC
+}
+
+Response MedicFollowEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/3618.vcd" predelay ".25"
+	scene "scenes/Player/Engineer/low/3693.vcd" predelay ".25"
+	scene "scenes/Player/Engineer/low/3694.vcd" predelay ".25"
+}
+Rule MedicFollowEngineerTFC
+{
+	criteria IsTFC ConceptPlayerMedic IsOnMedic IsEngineer IsNotCrossHairEnemy NotLowHealth EngineerIsNotStillonFire
+	ApplyContext "EngineerKillSpeech:1:10"
+	Response MedicFollowEngineerTFC
+}
+
+Response EngySwingFistStart
+{
+	scene "scenes/player/Engineer/low/3589.vcd"
+	scene "scenes/player/Engineer/low/3590.vcd"
+	scene "scenes/player/Engineer/low/3591.vcd"
+}
+Rule EngySwingFistStart
+{
+	criteria IsTFC ConceptFireWeapon WeaponIsRobotArm IsEngineer EngineerNotKillSpeech IsNotDominating IsNotEngyFistSwung
+	ApplyContext "EngyFistSwung:1:20" //every 20 seconds this line will fire
+	Response EngySwingFistStart
+}
+
+Response EngySwingFist
+{
+	scene "scenes/player/Engineer/low/3592.vcd"
+	scene "scenes/player/Engineer/low/3594.vcd"
+	scene "scenes/player/Engineer/low/3703.vcd"
+}
+Rule EngySwingFist
+{
+	criteria IsTFC ConceptKilledPlayer KilledPlayerDelay WeaponIsRobotArm IsEngyFistSwung IsEngineer WeaponIsNotMiniSentrygun EngineerNotKillSpeechMelee
+	ApplyContext "EngineerKillSpeechMelee:1:20"
+	Response EngySwingFist
+}
+
+// Custom stuff
+Response EngineerJarateHit
+{
+	scene "scenes/Player/Engineer/low/22.vcd" 
+	scene "scenes/Player/Engineer/low/23.vcd" 
+	scene "scenes/Player/Engineer/low/150.vcd" 
+}
+Rule EngineerJarateHit
+{
+	criteria IsTFC ConceptJarateHit IsEngineer 50PercentChance
+	Response EngineerJarateHit
+}
+// End custom
+
+Response PlayerKilledCapperEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/36.vcd" 
+	scene "scenes/Player/Engineer/low/1330.vcd" 
+	scene "scenes/Player/Engineer/low/42.vcd" 
+	scene "scenes/Player/Engineer/low/43.vcd" 
+	scene "scenes/Player/Engineer/low/41.vcd" 
+}
+Rule PlayerKilledCapperEngineerTFC
+{
+	criteria IsTFC ConceptCapBlocked IsEngineer
+	ApplyContext "EngineerKillSpeech:1:10"
+	Response PlayerKilledCapperEngineerTFC
+}
+
+Response PlayerKilledDominatingDemomanEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/3581.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3617.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3678.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3679.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3680.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3681.vcd" predelay "2.5"
+}
+Rule PlayerKilledDominatingDemomanEngineerTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsEngineer IsDominated  IsVictimDemoman
+	ApplyContext "EngineerKillSpeech:1:10"
+	ApplyContext "IsDominating:1:10"
+	Response PlayerKilledDominatingDemomanEngineerTFC
+}
+
+Response PlayerKilledDominatingEngineerEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/3585.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3634.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3635.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3636.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3637.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3638.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3639.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3640.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3641.vcd" predelay "2.5"
+}
+Rule PlayerKilledDominatingEngineerEngineerTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsEngineer IsDominated  IsVictimEngineer
+	ApplyContext "EngineerKillSpeech:1:10"
+	ApplyContext "IsDominating:1:10"
+	Response PlayerKilledDominatingEngineerEngineerTFC
+}
+
+Response PlayerKilledDominatingHeavyEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/3584.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3609.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3610.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3642.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3645.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3643.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3644.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3647.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3648.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3649.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3650.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3682.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3683.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3684.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3702.vcd" predelay "2.5"
+}
+Rule PlayerKilledDominatingHeavyEngineerTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsEngineer IsDominated  IsVictimHeavy
+	ApplyContext "EngineerKillSpeech:1:10"
+	ApplyContext "IsDominating:1:10"
+	Response PlayerKilledDominatingHeavyEngineerTFC
+}
+
+Response PlayerKilledDominatingMedicEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/3582.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3613.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3614.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3669.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3670.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3671.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3672.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3673.vcd" predelay "2.5"
+}
+Rule PlayerKilledDominatingMedicEngineerTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsEngineer IsDominated  IsVictimMedic
+	ApplyContext "EngineerKillSpeech:1:10"
+	ApplyContext "IsDominating:1:10"
+	Response PlayerKilledDominatingMedicEngineerTFC
+}
+
+Response PlayerKilledDominatingPyroEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/3583.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3612.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3661.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3662.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3664.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3665.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3666.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3668.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3667.vcd" predelay "2.5"
+}
+Rule PlayerKilledDominatingPyroEngineerTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsEngineer IsDominated  IsVictimPyro
+	ApplyContext "EngineerKillSpeech:1:10"
+	ApplyContext "IsDominating:1:10"
+	Response PlayerKilledDominatingPyroEngineerTFC
+}
+
+Response PlayerKilledDominatingScoutEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/3588.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3606.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3616.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3621.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3622.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3623.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3624.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3625.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3626.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3627.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3628.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3701.vcd" predelay "2.5"
+}
+Rule PlayerKilledDominatingScoutEngineerTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsEngineer IsDominated  IsVictimScout
+	ApplyContext "EngineerKillSpeech:1:10"
+	ApplyContext "IsDominating:1:10"
+	Response PlayerKilledDominatingScoutEngineerTFC
+}
+
+Response PlayerKilledDominatingSniperEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/3587.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3607.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3629.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3630.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3631.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3632.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3633.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3685.vcd" predelay "2.5"
+}
+Rule PlayerKilledDominatingSniperEngineerTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsEngineer IsDominated  IsVictimSniper
+	ApplyContext "EngineerKillSpeech:1:10"
+	ApplyContext "IsDominating:1:10"
+	Response PlayerKilledDominatingSniperEngineerTFC
+}
+
+Response PlayerKilledDominatingSoldierEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/3580.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3615.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3674.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3675.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3676.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3686.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3687.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3688.vcd" predelay "2.5"
+}
+Rule PlayerKilledDominatingSoldierEngineerTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsEngineer IsDominated  IsVictimSoldier
+	ApplyContext "EngineerKillSpeech:1:10"
+	ApplyContext "IsDominating:1:10"
+	Response PlayerKilledDominatingSoldierEngineerTFC
+}
+
+Response PlayerKilledDominatingSpyEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/3586.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3611.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3651.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3652.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3653.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3654.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3655.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3656.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3657.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3659.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3658.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3689.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3660.vcd" predelay "2.5"
+}
+Rule PlayerKilledDominatingSpyEngineerTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsEngineer IsDominated  IsVictimSpy
+	ApplyContext "EngineerKillSpeech:1:10"
+	ApplyContext "IsDominating:1:10"
+	Response PlayerKilledDominatingSpyEngineerTFC
+}
+
+Response PlayerKilledForRevengeEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/3579.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/1329.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/40.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/39.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/44.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/98.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/100.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/1331.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/1335.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/1336.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/101.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/1334.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/102.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/103.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/149.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/164.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/168.vcd" predelay "2.5"
+	scene "scenes/Player/Engineer/low/3696.vcd" predelay "2.5"
+}
+Rule PlayerKilledForRevengeEngineerTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsEngineer IsRevenge
+	ApplyContext "EngineerKillSpeech:1:10"
+	ApplyContext "IsDominating:1:10"
+	Response PlayerKilledForRevengeEngineerTFC
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Auto Speech Engineer
+//--------------------------------------------------------------------------------------------------------------
+Response CarrySentryEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/3599.vcd" 
+	scene "scenes/Player/Engineer/low/3600.vcd" 
+}
+Rule CarrySentryEngineerTFC
+{
+	criteria IsTFC ConceptEngineerCarryingBuilding IsEngineer 20PercentChance
+	Response CarrySentryEngineerTFC
+}
+
+Response DeploySentryEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/3697.vcd" 
+	scene "scenes/Player/Engineer/low/3601.vcd" 
+	scene "scenes/Player/Engineer/low/3699.vcd" 
+	scene "scenes/Player/Engineer/low/3698.vcd" 
+}
+Rule DeploySentryEngineerTFC
+{
+	criteria IsTFC ConceptEngineerDeployBuilding IsEngineer
+	Response DeploySentryEngineerTFC
+}
+
+Response PickupSentryEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/3595.vcd" 
+	scene "scenes/Player/Engineer/low/3597.vcd" 
+	scene "scenes/Player/Engineer/low/3596.vcd" 
+}
+Rule PickupSentryEngineerTFC
+{
+	criteria IsTFC ConceptEngineerPickupBuilding IsEngineer
+	Response PickupSentryEngineerTFC
+}
+
+Response PlayerBuildingDispenserEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/8.vcd" 
+	scene "scenes/Player/Engineer/low/9.vcd" 
+}
+Rule PlayerBuildingDispenserEngineerTFC
+{
+	criteria IsTFC ConceptPlayerBuildingObject IsDispenser IsEngineer
+	Response PlayerBuildingDispenserEngineerTFC
+}
+
+Response PlayerBuildingSentryEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/12.vcd" 
+	scene "scenes/Player/Engineer/low/11.vcd" 
+}
+Rule PlayerBuildingSentryEngineerTFC
+{
+	criteria IsTFC ConceptPlayerBuildingObject IsSentryGun IsEngineer
+	Response PlayerBuildingSentryEngineerTFC
+}
+
+Response PlayerBuildingTeleporterEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/13.vcd" 
+	scene "scenes/Player/Engineer/low/15.vcd" 
+}
+Rule PlayerBuildingTeleporterEngineerTFC
+{
+	criteria IsTFC ConceptPlayerBuildingObject IsTeleporter IsEngineer
+	Response PlayerBuildingTeleporterEngineerTFC
+}
+
+
+Response PlayerDispenserSappedEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/5.vcd" 
+}
+Rule PlayerDispenserSappedEngineerTFC
+{
+	criteria IsTFC ConceptSpySapping IsEngineer IsDispenser
+	Response PlayerDispenserSappedEngineerTFC
+}
+
+Response PlayerSentrySappedEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/4.vcd" 
+}
+Rule PlayerSentrySappedEngineerTFC
+{
+	criteria IsTFC ConceptSpySapping IsEngineer IsSentryGun
+	Response PlayerSentrySappedEngineerTFC
+}
+
+Response PlayerTeleporterSappedEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/6.vcd" 
+}
+Rule PlayerTeleporterSappedEngineerTFC
+{
+	criteria IsTFC ConceptSpySapping IsEngineer IsTeleporter
+	Response PlayerTeleporterSappedEngineerTFC
+}
+
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Auto Speech Pain
+//--------------------------------------------------------------------------------------------------------------
+Response PlayerAttackerPainEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/133.vcd" 
+	scene "scenes/Player/Engineer/low/134.vcd" 
+	scene "scenes/Player/Engineer/low/135.vcd" 
+	scene "scenes/Player/Engineer/low/1254.vcd" 
+	scene "scenes/Player/Engineer/low/1255.vcd" 
+	scene "scenes/Player/Engineer/low/1256.vcd" 
+	scene "scenes/Player/Engineer/low/1257.vcd" 
+}
+Rule PlayerAttackerPainEngineerTFC
+{
+	criteria IsTFC ConceptAttackerPain IsEngineer IsNotDominating
+	Response PlayerAttackerPainEngineerTFC
+}
+
+Response PlayerOnFireEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/28.vcd" 
+	scene "scenes/Player/Engineer/low/30.vcd" 
+	scene "scenes/Player/Engineer/low/29.vcd" 
+}
+Rule PlayerOnFireEngineerTFC
+{
+	criteria IsTFC ConceptFire IsEngineer EngineerIsNotStillonFire IsNotDominating
+	ApplyContext "EngineerOnFire:1:7"
+	Response PlayerOnFireEngineerTFC
+}
+
+Response PlayerPainEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/136.vcd" 
+	scene "scenes/Player/Engineer/low/137.vcd" 
+	scene "scenes/Player/Engineer/low/138.vcd" 
+	scene "scenes/Player/Engineer/low/1249.vcd" 
+	scene "scenes/Player/Engineer/low/1250.vcd" 
+	scene "scenes/Player/Engineer/low/1251.vcd" 
+	scene "scenes/Player/Engineer/low/1252.vcd" 
+	scene "scenes/Player/Engineer/low/1253.vcd" 
+}
+Rule PlayerPainEngineerTFC
+{
+	criteria IsTFC ConceptPain IsEngineer IsNotDominating
+	Response PlayerPainEngineerTFC
+}
+
+Response PlayerStillOnFireEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/1931.vcd" 
+}
+Rule PlayerStillOnFireEngineerTFC
+{
+	criteria IsTFC ConceptFire IsEngineer  EngineerIsStillonFire IsNotDominating
+	ApplyContext "EngineerOnFire:1:7"
+	Response PlayerStillOnFireEngineerTFC
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Duel Speech
+//--------------------------------------------------------------------------------------------------------------
+Response AcceptedDuelEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/35.vcd" 
+	scene "scenes/Player/Engineer/low/163.vcd" 
+	scene "scenes/Player/Engineer/low/166.vcd" 
+	scene "scenes/Player/Engineer/low/169.vcd" 
+	scene "scenes/Player/Engineer/low/172.vcd" 
+	scene "scenes/Player/Engineer/low/174.vcd" 
+	scene "scenes/Player/Engineer/low/188.vcd" 
+}
+Rule AcceptedDuelEngineerTFC
+{
+	criteria IsTFC ConceptIAcceptDuel IsEngineer
+	Response AcceptedDuelEngineerTFC
+}
+
+Response MeleeDareEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/3619.vcd" 
+	scene "scenes/Player/Engineer/low/3620.vcd" 
+	scene "scenes/Player/Engineer/low/3695.vcd" 
+}
+Rule MeleeDareEngineerTFC
+{
+	criteria IsTFC ConceptRequestDuel IsEngineer
+	Response MeleeDareEngineerTFC
+}
+
+Response RejectedDuelEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/24.vcd" 
+	scene "scenes/Player/Engineer/low/94.vcd" 
+	scene "scenes/Player/Engineer/low/3615.vcd" 
+	scene "scenes/Player/Engineer/low/3658.vcd" 
+}
+Rule RejectedDuelEngineerTFC
+{
+	criteria IsTFC ConceptDuelRejected IsEngineer
+	Response RejectedDuelEngineerTFC
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Speech Menu 1
+//--------------------------------------------------------------------------------------------------------------
+Response PlayerGoEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/69.vcd" 
+	scene "scenes/Player/Engineer/low/68.vcd" 
+	scene "scenes/Player/Engineer/low/67.vcd" 
+}
+Rule PlayerGoEngineerTFC
+{
+	criteria IsTFC ConceptPlayerGo IsEngineer
+	Response PlayerGoEngineerTFC
+}
+
+Response PlayerHeadLeftEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/73.vcd" 
+	scene "scenes/Player/Engineer/low/75.vcd" 
+}
+Rule PlayerHeadLeftEngineerTFC
+{
+	criteria IsTFC ConceptPlayerLeft  IsEngineer
+	Response PlayerHeadLeftEngineerTFC
+}
+
+Response PlayerHeadRightEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/76.vcd" 
+	scene "scenes/Player/Engineer/low/77.vcd" 
+	scene "scenes/Player/Engineer/low/78.vcd" 
+}
+Rule PlayerHeadRightEngineerTFC
+{
+	criteria IsTFC ConceptPlayerRight  IsEngineer
+	Response PlayerHeadRightEngineerTFC
+}
+
+Response PlayerHelpEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/79.vcd" 
+	scene "scenes/Player/Engineer/low/80.vcd" 
+	scene "scenes/Player/Engineer/low/81.vcd" 
+}
+Rule PlayerHelpEngineerTFC
+{
+	criteria IsTFC ConceptPlayerHelp IsEngineer
+	Response PlayerHelpEngineerTFC
+}
+
+Response PlayerHelpCaptureEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/82.vcd" 
+	scene "scenes/Player/Engineer/low/84.vcd" 
+	scene "scenes/Player/Engineer/low/83.vcd" 
+}
+Rule PlayerHelpCaptureEngineerTFC
+{
+	criteria IsTFC ConceptPlayerHelp IsEngineer IsOnCappableControlPoint
+	ApplyContext "EngineerHelpCap:1:10"
+	Response PlayerHelpCaptureEngineerTFC
+}
+
+Response PlayerHelpCapture2EngineerTFC
+{
+	scene "scenes/Player/Engineer/low/161.vcd" 
+	scene "scenes/Player/Engineer/low/1344.vcd" 
+}
+Rule PlayerHelpCapture2EngineerTFC
+{
+	criteria IsTFC ConceptPlayerHelp IsEngineer IsOnCappableControlPoint IsHelpCapEngineer
+	Response PlayerHelpCapture2EngineerTFC
+}
+
+Response PlayerHelpDefendEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/85.vcd" 
+	scene "scenes/Player/Engineer/low/86.vcd" 
+	scene "scenes/Player/Engineer/low/87.vcd" 
+}
+Rule PlayerHelpDefendEngineerTFC
+{
+	criteria IsTFC ConceptPlayerHelp IsEngineer IsOnFriendlyControlPoint
+	Response PlayerHelpDefendEngineerTFC
+}
+
+Response PlayerMedicEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/109.vcd" 
+	scene "scenes/Player/Engineer/low/107.vcd" 
+	scene "scenes/Player/Engineer/low/108.vcd" 
+}
+Rule PlayerMedicEngineerTFC
+{
+	criteria IsTFC ConceptPlayerMedic IsEngineer
+	Response PlayerMedicEngineerTFC
+}
+
+Response PlayerAskForBallEngineerTFC
+{
+}
+Rule PlayerAskForBallEngineerTFC
+{
+	criteria IsTFC ConceptPlayerAskForBall IsEngineer
+	Response PlayerAskForBallEngineerTFC
+}
+
+Response PlayerMoveUpEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/111.vcd" 
+}
+Rule PlayerMoveUpEngineerTFC
+{
+	criteria IsTFC ConceptPlayerMoveUp  IsEngineer
+	Response PlayerMoveUpEngineerTFC
+}
+
+Response PlayerNoEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/127.vcd" 
+	scene "scenes/Player/Engineer/low/128.vcd" 
+	scene "scenes/Player/Engineer/low/129.vcd" 
+}
+Rule PlayerNoEngineerTFC
+{
+	criteria IsTFC ConceptPlayerNo  IsEngineer
+	Response PlayerNoEngineerTFC
+}
+
+Response PlayerThanksEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/180.vcd" 
+}
+Rule PlayerThanksEngineerTFC
+{
+	criteria IsTFC ConceptPlayerThanks IsEngineer
+	Response PlayerThanksEngineerTFC
+}
+
+// Custom Assist kill response
+// As there is no actual concept for assist kills, this is the second best method.
+// Say thanks after you kill more than one person.
+
+Response KilledPlayerAssistEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/159.vcd"
+	scene "scenes/Player/Engineer/low/160.vcd"
+}
+Rule KilledPlayerAssistEngineerTFC
+{
+	criteria IsTFC ConceptPlayerThanks IsEngineer IsARecentKill KilledPlayerDelay EngineerNotAssistSpeech
+	ApplyContext "EngineerAssistSpeech:1:20"
+	Response KilledPlayerAssistEngineerTFC
+}
+// End custom
+
+Response PlayerYesEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/187.vcd" 
+	scene "scenes/Player/Engineer/low/188.vcd" 
+	scene "scenes/Player/Engineer/low/189.vcd" 
+}
+Rule PlayerYesEngineerTFC
+{
+	criteria IsTFC ConceptPlayerYes  IsEngineer
+	Response PlayerYesEngineerTFC
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Speech Menu 2
+//--------------------------------------------------------------------------------------------------------------
+Response PlayerActivateChargeEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/1.vcd" 
+	scene "scenes/Player/Engineer/low/2.vcd" 
+	scene "scenes/Player/Engineer/low/3.vcd" 
+}
+Rule PlayerActivateChargeEngineerTFC
+{
+	criteria IsTFC ConceptPlayerActivateCharge IsEngineer
+	Response PlayerActivateChargeEngineerTFC
+}
+
+Response PlayerCloakedSpyEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/45.vcd" 
+	scene "scenes/Player/Engineer/low/47.vcd" 
+	scene "scenes/Player/Engineer/low/46.vcd" 
+}
+Rule PlayerCloakedSpyEngineerTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsEngineer
+	Response PlayerCloakedSpyEngineerTFC
+}
+
+Response PlayerDispenserHereEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/113.vcd" 
+}
+Rule PlayerDispenserHereEngineerTFC
+{
+	criteria IsTFC ConceptPlayerDispenserHere IsEngineer
+	Response PlayerDispenserHereEngineerTFC
+}
+
+Response PlayerIncomingEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/88.vcd" 
+	scene "scenes/Player/Engineer/low/89.vcd" 
+	scene "scenes/Player/Engineer/low/90.vcd" 
+}
+Rule PlayerIncomingEngineerTFC
+{
+	criteria IsTFC ConceptPlayerIncoming IsEngineer
+	Response PlayerIncomingEngineerTFC
+}
+
+Response PlayerSentryAheadEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/145.vcd" 
+	scene "scenes/Player/Engineer/low/146.vcd" 
+}
+Rule PlayerSentryAheadEngineerTFC
+{
+	criteria IsTFC ConceptPlayerSentryAhead IsEngineer
+	Response PlayerSentryAheadEngineerTFC
+}
+
+Response PlayerSentryHereEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/115.vcd" 
+}
+Rule PlayerSentryHereEngineerTFC
+{
+	criteria IsTFC ConceptPlayerSentryHere IsEngineer
+	Response PlayerSentryHereEngineerTFC
+}
+
+Response PlayerTeleporterHereEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/117.vcd" 
+	scene "scenes/Player/Engineer/low/118.vcd" 
+}
+Rule PlayerTeleporterHereEngineerTFC
+{
+	criteria IsTFC ConceptPlayerTeleporterHere IsEngineer
+	Response PlayerTeleporterHereEngineerTFC
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Speech Menu 3
+//--------------------------------------------------------------------------------------------------------------
+Response PlayerBattleCryEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/31.vcd" 
+	scene "scenes/Player/Engineer/low/33.vcd" 
+	scene "scenes/Player/Engineer/low/34.vcd" 
+	scene "scenes/Player/Engineer/low/35.vcd" 
+	scene "scenes/Player/Engineer/low/36.vcd" 
+	scene "scenes/Player/Engineer/low/1329.vcd" 
+}
+Rule PlayerBattleCryEngineerTFC
+{
+	criteria IsTFC ConceptPlayerBattleCry IsEngineer
+	Response PlayerBattleCryEngineerTFC
+}
+
+// Custom stuff - melee dare
+// Look at enemy, then do battle cry voice command while holding a melee weapon.
+Response MeleeDareCombatEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/163.vcd"
+	scene "scenes/Player/Engineer/low/166.vcd"
+	scene "scenes/Player/Engineer/low/172.vcd"
+	scene "scenes/Player/Engineer/low/169.vcd"
+	scene "scenes/Player/Engineer/low/174.vcd"
+	scene "scenes/Player/Engineer/low/178.vcd"
+	scene "scenes/Player/Engineer/low/3619.vcd" 
+	scene "scenes/Player/Engineer/low/3620.vcd" 
+	scene "scenes/Player/Engineer/low/3695.vcd" 
+}
+Rule MeleeDareCombatEngineerTFC
+{
+	criteria IsTFC ConceptPlayerBattleCry IsWeaponMelee IsEngineer IsCrosshairEnemy
+	Response MeleeDareCombatEngineerTFC
+}
+Rule MeleeDareCombatEngineerSlinger
+{
+	criteria IsTFC ConceptPlayerBattleCry WeaponIsRobotArm IsEngineer IsCrosshairEnemy
+	Response MeleeDareCombatEngineerTFC
+}
+//End custom
+
+Response PlayerCheersEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/40.vcd" 
+	scene "scenes/Player/Engineer/low/1330.vcd" 
+	scene "scenes/Player/Engineer/low/42.vcd" 
+	scene "scenes/Player/Engineer/low/43.vcd" 
+	scene "scenes/Player/Engineer/low/41.vcd" 
+	scene "scenes/Player/Engineer/low/39.vcd" 
+	scene "scenes/Player/Engineer/low/44.vcd" 
+}
+Rule PlayerCheersEngineerTFC
+{
+	criteria IsTFC ConceptPlayerCheers IsEngineer
+	Response PlayerCheersEngineerTFC
+}
+
+Response PlayerGoodJobEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/70.vcd" 
+	scene "scenes/Player/Engineer/low/72.vcd" 
+	scene "scenes/Player/Engineer/low/71.vcd" 
+}
+Rule PlayerGoodJobEngineerTFC
+{
+	criteria IsTFC ConceptPlayerGoodJob IsEngineer
+	Response PlayerGoodJobEngineerTFC
+}
+
+Response PlayerJeersEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/94.vcd" 
+	scene "scenes/Player/Engineer/low/95.vcd" 
+	scene "scenes/Player/Engineer/low/96.vcd" 
+	scene "scenes/Player/Engineer/low/98.vcd" 
+}
+Rule PlayerJeersEngineerTFC
+{
+	criteria IsTFC ConceptPlayerJeers IsEngineer
+	Response PlayerJeersEngineerTFC
+}
+
+Response PlayerLostPointEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/1327.vcd" 
+	scene "scenes/Player/Engineer/low/1328.vcd" 
+	scene "scenes/Player/Engineer/low/119.vcd" 
+	scene "scenes/Player/Engineer/low/120.vcd" 
+	scene "scenes/Player/Engineer/low/122.vcd" 
+	scene "scenes/Player/Engineer/low/121.vcd" 
+	scene "scenes/Player/Engineer/low/123.vcd" 
+	scene "scenes/Player/Engineer/low/1339.vcd" 
+	scene "scenes/Player/Engineer/low/1340.vcd" 
+	scene "scenes/Player/Engineer/low/1341.vcd" 
+	scene "scenes/Player/Engineer/low/1342.vcd" 
+	scene "scenes/Player/Engineer/low/1343.vcd" 
+}
+Rule PlayerLostPointEngineerTFC
+{
+	criteria IsTFC ConceptPlayerLostPoint IsEngineer
+	Response PlayerLostPointEngineerTFC
+}
+
+Response PlayerNegativeEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/1327.vcd" 
+	scene "scenes/Player/Engineer/low/1328.vcd" 
+	scene "scenes/Player/Engineer/low/119.vcd" 
+	scene "scenes/Player/Engineer/low/120.vcd" 
+	scene "scenes/Player/Engineer/low/122.vcd" 
+	scene "scenes/Player/Engineer/low/121.vcd" 
+	scene "scenes/Player/Engineer/low/123.vcd" 
+	scene "scenes/Player/Engineer/low/1339.vcd" 
+	scene "scenes/Player/Engineer/low/1340.vcd" 
+	scene "scenes/Player/Engineer/low/1341.vcd" 
+	scene "scenes/Player/Engineer/low/1342.vcd" 
+	scene "scenes/Player/Engineer/low/1343.vcd" 
+}
+Rule PlayerNegativeEngineerTFC
+{
+	criteria IsTFC ConceptPlayerNegative IsEngineer
+	Response PlayerNegativeEngineerTFC
+}
+
+Response PlayerNiceShotEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/125.vcd" 
+	scene "scenes/Player/Engineer/low/126.vcd" 
+	scene "scenes/Player/Engineer/low/124.vcd" 
+}
+Rule PlayerNiceShotEngineerTFC
+{
+	criteria IsTFC ConceptPlayerNiceShot IsEngineer
+	Response PlayerNiceShotEngineerTFC
+}
+
+Response PlayerPositiveEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/139.vcd" 
+}
+Rule PlayerPositiveEngineerTFC
+{
+	criteria IsTFC ConceptPlayerPositive IsEngineer
+	Response PlayerPositiveEngineerTFC
+}
+
+//--------------------------------------------------------------------------------------------------------------
+// MvM Speech
+//--------------------------------------------------------------------------------------------------------------
+Response MvMBombDroppedEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/4144.vcd" 
+	scene "scenes/Player/Engineer/low/4145.vcd" 
+}
+Rule MvMBombDroppedEngineerTFC
+{
+	criteria IsTFC ConceptMvMBombDropped 5PercentChance IsMvMDefender IsEngineer 
+	Response MvMBombDroppedEngineerTFC
+}
+
+Response MvMBombCarrierUpgrade1EngineerTFC
+{
+	scene "scenes/Player/Engineer/low/4140.vcd" 
+}
+Rule MvMBombCarrierUpgrade1EngineerTFC
+{
+	criteria IsTFC ConceptMvMBombCarrierUpgrade1 5PercentChance IsMvMDefender IsEngineer 
+	Response MvMBombCarrierUpgrade1EngineerTFC
+}
+
+Response MvMBombCarrierUpgrade2EngineerTFC
+{
+	scene "scenes/Player/Engineer/low/4141.vcd" 
+}
+Rule MvMBombCarrierUpgrade2EngineerTFC
+{
+	criteria IsTFC ConceptMvMBombCarrierUpgrade2 5PercentChance IsMvMDefender IsEngineer 
+	Response MvMBombCarrierUpgrade2EngineerTFC
+}
+
+Response MvMDefenderDiedScoutEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/4110.vcd" 
+}
+Rule MvMDefenderDiedScoutEngineerTFC
+{
+	criteria IsTFC ConceptMvMDefenderDied 50PercentChance IsMvMDefender IsVictimScout IsEngineer 
+	Response MvMDefenderDiedScoutEngineerTFC
+}
+
+Response MvMDefenderDiedSpyEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/4111.vcd" 
+}
+Rule MvMDefenderDiedSpyEngineerTFC
+{
+	criteria IsTFC ConceptMvMDefenderDied 50PercentChance IsMvMDefender IsVictimSpy IsEngineer
+	Response MvMDefenderDiedSpyEngineerTFC
+}
+
+Response MvMDefenderDiedHeavyEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/4112.vcd" 
+}
+Rule MvMDefenderDiedHeavyEngineerTFC
+{
+	criteria IsTFC ConceptMvMDefenderDied 50PercentChance IsMvMDefender IsVictimHeavy IsEngineer
+	Response MvMDefenderDiedHeavyEngineerTFC
+}
+
+Response MvMDefenderDiedSoldierEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/4113.vcd" 
+}
+Rule MvMDefenderDiedSoldierEngineerTFC
+{
+	criteria IsTFC ConceptMvMDefenderDied 50PercentChance IsMvMDefender IsVictimSoldier IsEngineer
+	Response MvMDefenderDiedSoldierEngineerTFC
+}
+
+Response MvMDefenderDiedMedicEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/4114.vcd" 
+}
+Rule MvMDefenderDiedMedicEngineerTFC
+{
+	criteria IsTFC ConceptMvMDefenderDied 50PercentChance IsMvMDefender IsVictimMedic IsEngineer
+	Response MvMDefenderDiedMedicEngineerTFC
+}
+
+Response MvMDefenderDiedDemomanEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/4115.vcd" 
+}
+Rule MvMDefenderDiedDemomanEngineerTFC
+{
+	criteria IsTFC ConceptMvMDefenderDied 50PercentChance IsMvMDefender IsVictimDemoman IsEngineer 
+	Response MvMDefenderDiedDemomanEngineerTFC
+}
+
+Response MvMDefenderDiedPyroEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/4116.vcd" 
+}
+Rule MvMDefenderDiedPyroEngineerTFC
+{
+	criteria IsTFC ConceptMvMDefenderDied 50PercentChance IsMvMDefender IsVictimPyro IsEngineer
+	Response MvMDefenderDiedPyroEngineerTFC
+}
+
+Response MvMDefenderDiedSniperEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/4117.vcd" 
+}
+Rule MvMDefenderDiedSniperEngineerTFC
+{
+	criteria IsTFC ConceptMvMDefenderDied 50PercentChance IsMvMDefender IsVictimSniper IsEngineer
+	Response MvMDefenderDiedSniperEngineerTFC
+}
+
+Response MvMDefenderDiedEngineerEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/4118.vcd" 
+}
+Rule MvMDefenderDiedEngineerEngineerTFC
+{
+	criteria IsTFC ConceptMvMDefenderDied 50PercentChance IsMvMDefender IsVictimEngineer IsEngineer
+	Response MvMDefenderDiedEngineerEngineerTFC
+}
+
+Response MvMFirstBombPickupEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/4137.vcd" 
+	scene "scenes/Player/Engineer/low/4139.vcd" 
+}
+Rule MvMFirstBombPickupEngineerTFC
+{
+	criteria IsTFC ConceptMvMFirstBombPickup 5PercentChance IsMvMDefender IsEngineer
+	Response MvMFirstBombPickupEngineerTFC
+}
+
+Response MvMBombPickupEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/4136.vcd" 
+}
+Rule MvMBombPickupEngineerTFC
+{
+	criteria IsTFC ConceptMvMBombPickup 5PercentChance IsMvMDefender IsEngineer
+	Response MvMBombPickupEngineerTFC
+}
+
+Response MvMSniperCalloutEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/4120.vcd" 
+}
+Rule MvMSniperCalloutEngineerTFC
+{
+	criteria IsTFC ConceptMvMSniperCallout 50PercentChance IsMvMDefender IsEngineer
+	Response MvMSniperCalloutEngineerTFC
+}
+
+Response MvMSentryBusterEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/4155.vcd" 
+}
+Rule MvMSentryBusterEngineerTFC
+{
+	criteria IsTFC ConceptMvMSentryBuster 50PercentChance IsMvMDefender IsEngineer
+	Response MvMSentryBusterEngineerTFC
+}
+
+Response MvMSentryBusterDownEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/4156.vcd" 
+}
+Rule MvMSentryBusterDownEngineerTFC
+{
+	criteria IsTFC ConceptMvMSentryBusterDown 20PercentChance IsMvMDefender IsEngineer
+	Response MvMSentryBusterDownEngineerTFC
+}
+
+Response MvMLastManStandingEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/4119.vcd" 
+}
+Rule MvMLastManStandingEngineerTFC
+{
+	criteria IsTFC ConceptMvMLastManStanding 20PercentChance IsMvMDefender IsEngineer
+	Response MvMLastManStandingEngineerTFC
+}
+
+Response MvMEncourageMoneyEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/4128.vcd" 
+	scene "scenes/Player/Engineer/low/4129.vcd" 
+	scene "scenes/Player/Engineer/low/4130.vcd" 
+}
+Rule MvMEncourageMoneyEngineerTFC
+{
+	criteria IsTFC ConceptMvMEncourageMoney 50PercentChance IsMvMDefender IsEngineer
+	Response MvMEncourageMoneyEngineerTFC
+}
+
+Response MvMEncourageUpgradeEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/4135.vcd" 
+}
+Rule MvMEncourageUpgradeEngineerTFC
+{
+	criteria IsTFC ConceptMvMEncourageUpgrade 50PercentChance IsMvMDefender IsEngineer
+	Response MvMEncourageUpgradeEngineerTFC
+}
+
+Response MvMUpgradeCompleteEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/4131.vcd" 
+	scene "scenes/Player/Engineer/low/4133.vcd" 
+}
+Rule MvMUpgradeCompleteEngineerTFC
+{
+	criteria IsTFC ConceptMvMUpgradeComplete 5PercentChance IsMvMDefender IsEngineer
+	Response MvMUpgradeCompleteEngineerTFC
+}
+
+Response MvMGiantCalloutEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/4157.vcd" 
+	scene "scenes/Player/Engineer/low/4158.vcd" 
+}
+Rule MvMGiantCalloutEngineerTFC
+{
+	criteria IsTFC ConceptMvMGiantCallout 20PercentChance IsMvMDefender IsEngineer
+	Response MvMGiantCalloutEngineerTFC
+}
+
+Response MvMGiantHasBombEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/4162.vcd" 
+}
+Rule MvMGiantHasBombEngineerTFC
+{
+	criteria IsTFC ConceptMvMGiantHasBomb 20PercentChance IsMvMDefender IsEngineer
+	Response MvMGiantHasBombEngineerTFC
+}
+
+Response MvMSappedRobotEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/4121.vcd" 
+	scene "scenes/Player/Engineer/low/4122.vcd" 
+}
+Rule MvMSappedRobotEngineerTFC
+{
+	criteria IsTFC ConceptMvMSappedRobot 50PercentChance IsMvMDefender IsEngineer
+	Response MvMSappedRobotEngineerTFC
+}
+
+Response MvMCloseCallEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/4143.vcd" 
+}
+Rule MvMCloseCallEngineerTFC
+{
+	criteria IsTFC ConceptMvMCloseCall 50PercentChance IsMvMDefender IsEngineer
+	Response MvMCloseCallEngineerTFC
+}
+
+Response MvMTankCalloutEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/4146.vcd" 
+}
+Rule MvMTankCalloutEngineerTFC
+{
+	criteria IsTFC ConceptMvMTankCallout 50PercentChance IsMvMDefender IsEngineer
+	Response MvMTankCalloutEngineerTFC
+}
+
+Response MvMTankDeadEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/4152.vcd" 
+}
+Rule MvMTankDeadEngineerTFC
+{
+	criteria IsTFC ConceptMvMTankDead 50PercentChance IsMvMDefender IsEngineer
+	Response MvMTankDeadEngineerTFC
+}
+
+Response MvMTankDeployingEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/4151.vcd" 
+}
+Rule MvMTankDeployingEngineerTFC
+{
+	criteria IsTFC ConceptMvMTankDeploying 50PercentChance IsMvMDefender IsEngineer
+	Response MvMTankDeployingEngineerTFC
+}
+
+Response MvMAttackTheTankEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/4147.vcd" 
+}
+Rule MvMAttackTheTankEngineerTFC
+{
+	criteria IsTFC ConceptMvMAttackTheTank 50PercentChance IsMvMDefender IsEngineer
+	Response MvMAttackTheTankEngineerTFC
+}
+
+Response MvMTauntEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/4123.vcd" 
+	scene "scenes/Player/Engineer/low/4127.vcd" 
+}
+Rule MvMTauntEngineerTFC
+{
+	criteria IsTFC ConceptMvMTaunt 50PercentChance IsMvMDefender IsEngineer
+	Response MvMTauntEngineerTFC
+}
+
+Response MvMWaveStartEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/4109.vcd" 
+}
+Rule MvMWaveStartEngineerTFC
+{
+	criteria IsTFC ConceptMvMWaveStart 50PercentChance IsMvMDefender IsEngineer
+	Response MvMWaveStartEngineerTFC
+}
+
+Response MvMWaveWinEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/4095.vcd" 
+	scene "scenes/Player/Engineer/low/4096.vcd" 
+	scene "scenes/Player/Engineer/low/4097.vcd" 
+	scene "scenes/Player/Engineer/low/4098.vcd" 
+	scene "scenes/Player/Engineer/low/4321.vcd" 
+}
+Rule MvMWaveWinEngineerTFC
+{
+	criteria IsTFC ConceptMvMWaveWin 50PercentChance IsMvMDefender IsEngineer
+	Response MvMWaveWinEngineerTFC
+}
+
+Response MvMWaveLoseEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/4099.vcd" 
+	scene "scenes/Player/Engineer/low/4100.vcd" 
+}
+Rule MvMWaveLoseEngineerTFC
+{
+	criteria IsTFC ConceptMvMWaveLose 50PercentChance IsMvMDefender IsEngineer
+	Response MvMWaveLoseEngineerTFC
+}
+
+//--------------------------------------------------------------------------------------------------------------
+// Begin Competitive Mode VO
+//--------------------------------------------------------------------------------------------------------------
+Response PlayerFirstRoundStartCompEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_01.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_02.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_03.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_04.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_05.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_06.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_07.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_08.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_09.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_10.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_11.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_12.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_13.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_14.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_15.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_18.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_comp_01.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_comp_02.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_comp_03.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_comp_04.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_comp_05.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_comp_06.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_comp_07.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_rare_02.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_rare_03.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_rare_04.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_rare_05.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_rare_06.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_rare_07.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_rare_08.vcd" predelay "1.0, 5.0"
+}
+Rule PlayerFirstRoundStartCompEngineerTFC
+{
+	criteria IsTFC ConceptPlayerRoundStartComp IsEngineer IsFirstRound IsNotComp6v6 40PercentChance
+	Response PlayerFirstRoundStartCompEngineerTFC
+}
+
+Response PlayerFirstRoundStartComp6sEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_01.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_02.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_03.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_04.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_05.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_06.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_07.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_08.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_09.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_10.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_11.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_12.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_13.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_14.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_15.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_18.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_comp_01.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_comp_02.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_comp_03.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_comp_04.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_comp_05.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_comp_06.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_comp_07.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_rare_02.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_rare_03.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_rare_04.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_rare_05.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_rare_06.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_rare_07.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_rare_08.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_6s_01.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_6s_02.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamefirst_6s_03.vcd" predelay "1.0, 5.0"
+}
+Rule PlayerFirstRoundStartComp6sEngineerTFC
+{
+	criteria IsTFC ConceptPlayerRoundStartComp IsEngineer IsFirstRound IsComp6v6 40PercentChance
+	Response PlayerFirstRoundStartComp6sEngineerTFC
+}
+
+Response PlayerWonPrevRoundCompEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/cm_engie_pregamewonlast_01.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamewonlast_02.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamewonlast_03.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamewonlast_04.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamewonlast_comp_01.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamewonlast_comp_02.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamewonlast_comp_03.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamewonlast_comp_04.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamewonlast_rare_01.vcd" predelay "1.0, 5.0"
+}
+Rule PlayerWonPrevRoundCompEngineerTFC
+{
+	criteria IsTFC ConceptPlayerRoundStartComp IsEngineer IsNotFirstRound PlayerWonPreviousRound 40PercentChance
+	Response PlayerWonPrevRoundCompEngineerTFC
+}
+
+Response PlayerLostPrevRoundCompEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/cm_engie_pregamelostlast_01.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamelostlast_02.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamelostlast_03.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamelostlast_04.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamelostlast_05.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamelostlast_06.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamelostlast_07.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamelostlast_08.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregamelostlast_09.vcd" predelay "1.0, 5.0"
+}
+Rule PlayerLostPrevRoundCompEngineerTFC
+{
+	criteria IsTFC ConceptPlayerRoundStartComp IsEngineer IsNotFirstRound PlayerLostPreviousRound PreviousRoundWasNotTie 40PercentChance
+	Response PlayerLostPrevRoundCompEngineerTFC
+}
+
+Response PlayerTiedPrevRoundCompEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/cm_engie_pregametie_01.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregametie_02.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregametie_03.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregametie_04.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregametie_05.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_pregametie_06.vcd" predelay "1.0, 5.0"
+}
+Rule PlayerTiedPrevRoundCompEngineerTFC
+{
+	criteria IsTFC ConceptPlayerRoundStartComp IsEngineer IsNotFirstRound PreviousRoundWasTie 40PercentChance
+	Response PlayerTiedPrevRoundCompEngineerTFC
+}
+
+Response PlayerGameWinCompEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/cm_engie_gamewon_01.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_gamewon_02.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_gamewon_03.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_gamewon_04.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_gamewon_05.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_gamewon_06.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_gamewon_07.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_gamewon_08.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_gamewon_09.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_gamewon_10.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_gamewon_11.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_gamewon_12.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_gamewon_13.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_gamewon_14.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_gamewon_rare_01.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_gamewon_rare_02.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_gamewon_rare_03.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/Engineer/low/cm_engie_gamewon_rare_04.vcd" predelay "2.0, 5.0"
+}
+Rule PlayerGameWinCompEngineerTFC
+{
+	criteria IsTFC ConceptPlayerGameOverComp PlayerOnWinningTeam IsEngineer 40PercentChance
+	Response PlayerGameWinCompEngineerTFC
+}
+
+Response PlayerMatchWinCompEngineerTFC
+{
+	scene "scenes/Player/Engineer/low/cm_engie_matchwon_01.vcd" predelay "1.0, 2.0"
+	scene "scenes/Player/Engineer/low/cm_engie_matchwon_02.vcd" predelay "1.0, 2.0"
+	scene "scenes/Player/Engineer/low/cm_engie_matchwon_03.vcd" predelay "1.0, 2.0"
+	scene "scenes/Player/Engineer/low/cm_engie_matchwon_04.vcd" predelay "1.0, 2.0"
+	scene "scenes/Player/Engineer/low/cm_engie_matchwon_05.vcd" predelay "1.0, 2.0"
+	scene "scenes/Player/Engineer/low/cm_engie_matchwon_06.vcd" predelay "1.0, 2.0"
+	scene "scenes/Player/Engineer/low/cm_engie_matchwon_08.vcd" predelay "1.0, 2.0"
+	scene "scenes/Player/Engineer/low/cm_engie_matchwon_09.vcd" predelay "1.0, 2.0"
+	scene "scenes/Player/Engineer/low/cm_engie_matchwon_10.vcd" predelay "1.0, 2.0"
+	scene "scenes/Player/Engineer/low/cm_engie_matchwon_11.vcd" predelay "1.0, 2.0"
+}
+Rule PlayerMatchWinCompEngineerTFC
+{
+	criteria IsTFC ConceptPlayerMatchOverComp PlayerOnWinningTeam IsEngineer 40PercentChance
+	Response PlayerMatchWinCompEngineerTFC
+}
+//--------------------------------------------------------------------------------------------------------------
+// End Competitive Mode VO
+//--------------------------------------------------------------------------------------------------------------

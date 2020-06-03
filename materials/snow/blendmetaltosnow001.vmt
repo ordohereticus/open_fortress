@@ -1,0 +1,14 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "Metal/Imetal005"
+	"$basetexture2" "Nature/snow_full001"
+	"$blendmodulatetexture" "Nature/snowgrass_blendmask"
+//	"$blendmodulatetexture" "concrete/concretefloor007b_blendmask"
+
+	"%tooltexture" "Nature/blendgroundtograss008_tooltexture"
+	"$bumpmap" "Metal/Imetal001_normal"
+	"$bumpmap2" "Nature/snow_full001_normal"
+	"$surfaceprop" "snow"
+
+	"%keywords" "tf"
+}

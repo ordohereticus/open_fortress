@@ -1,0 +1,40 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_office_pack/accessories/office_paper_tray"
+	"$blendtintbybasealpha" "1" 
+	"$blendtintcoloroverbase" "1"  
+
+
+//	"$color2" "{168 172 168}"
+//	"$color2" "{173 166 111}"
+//	"$color2" "{234 193 131}"
+//	"$color2" "{93 116 134}"
+//	"$color2" "{147 176 179}"
+//	"$color2" "{152 131 122}"
+	"$color2" "{66 67 73}"
+	"$colortint_tmp" "[0 0 0]" 
+
+	"$colortint_base" "{66 67 73}"
+
+
+
+
+	"proxies"
+    	{
+		"Equals"
+		{
+			"srcVar1"       "$yellow"
+			"resultVar"     "$color2"
+		 }        
+		 "ItemTintColor"
+		 {
+			 "resultVar"     "$colortint_tmp"
+		}
+		 "SelectFirstIfNonZero"
+		{
+			"srcVar1"       "$colortint_tmp"
+			 "srcVar2"       "$colortint_base"
+			"resultVar"     "$color2"
+        		}
+	}
+}

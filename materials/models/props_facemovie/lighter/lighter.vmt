@@ -1,0 +1,37 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/props_facemovie/lighter/lighter"
+	
+	"$glowcolor" "1"
+	"$surfaceprop"	"metal_barrel"
+	"$BASEMAPALPHAPHONGMASK"  "1"
+	//phong properties
+	"$phong"	"1"
+	"$phongboost"	"1"
+	"$phongexponent"	"10"
+	"$phongfresnelranges"	"[.1 .5 1]"
+	"$rimlight"	"1"
+	"$rimlightexponent"	".1"
+	
+	"$cloakPassEnabled" "1"
+	"Proxies"
+	{
+		"ModelGlowColor"
+		{
+			"resultVar""$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"	"$glowcolor"
+			"resultVar"	"$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"	"$glowcolor"
+			"resultVar"	"$color2"
+		}
+		"spy_invis"
+		{
+		}
+	}
+}

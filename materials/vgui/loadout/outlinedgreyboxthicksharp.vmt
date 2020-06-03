@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui\loadout\outlinedgreyboxthicksharp"
+	"$translucent" 1
+	"$ignorez" 1
+}

@@ -1,0 +1,19 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_controlpoints/square_point/square_point_uv_1"
+                "$surfaceprop" "metal"
+
+//	"$selfillum" "0"
+	
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1" 
+	"$envmaptint" "[0.75 0.75 0.75]"
+
+	//"$rimlight" "1"
+	//"$rimlightboost" "5"
+	//"$rimlightexponent" "10"
+
+
+
+	
+}

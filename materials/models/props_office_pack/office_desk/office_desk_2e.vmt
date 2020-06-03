@@ -1,0 +1,40 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_office_pack/office_desk/office_desk_2_blue"
+	"$blendtintbybasealpha" "1" 
+	"$blendtintcoloroverbase" "1"  
+
+//	"$colortint_base" "{102 10 30}"   
+//	"$color2" "{173 166 111}"
+	"$color2" "{93 116 134}"
+//"$color2" "{248  251 234}"
+//"$color2" "{106 186 193}"
+
+//	"$color2" "{93 116 134}"
+//	"$color2" "{147 176 179}"
+//	"$color2" "{152 131 122}"
+//	"$color2" "{66 67 73}"
+	"$colortint_tmp" "[0 0 0]" 
+	"$colortint_base" "{93 116 134}"
+
+
+	"proxies"
+    	{
+		"Equals"
+		{
+			"srcVar1"       "$yellow"
+			"resultVar"     "$color2"
+		 }        
+		 "ItemTintColor"
+		 {
+			 "resultVar"     "$colortint_tmp"
+		}
+		 "SelectFirstIfNonZero"
+		{
+			"srcVar1"       "$colortint_tmp"
+			 "srcVar2"       "$colortint_base"
+			"resultVar"     "$color2"
+        		}
+	}
+
+}

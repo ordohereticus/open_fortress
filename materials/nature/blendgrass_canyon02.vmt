@@ -1,0 +1,12 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "Nature/dirtground_canyon"
+	"$basetexture2" "Nature/grass_02"
+	"%tooltexture" "editor-abs/blendttx/nature/blendgrass_canyon02"
+	"$bumpmap" "Nature/dirtground001_normal"
+	 "%detailtype" "tf_grass"
+	"%keywords" "tf"
+	"$surfaceprop" "dirt"
+
+
+}

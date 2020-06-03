@@ -1,0 +1,1439 @@
+//--------------------------------------------------------------------------------------------------------------
+// Demoman Response Rule File
+//--------------------------------------------------------------------------------------------------------------
+
+
+Response PlayerCloakedSpyDemomanDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/CloakedSpyIdentify04.vcd"
+	scene "scenes/Player/tfc/Demoman/low/CloakedSpyIdentify04ALT.vcd"
+	scene "scenes/Player/tfc/Demoman/low/CloakedSpyIdentify04ALT2.vcd"
+}
+Rule PlayerCloakedSpyDemomanDemomanTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsDemoman IsOnDemoman
+	Response PlayerCloakedSpyDemomanDemomanTFC
+}
+
+Response PlayerCloakedSpyEngineerDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/CloakedSpyIdentify07.vcd" 
+}
+Rule PlayerCloakedSpyEngineerDemomanTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsDemoman IsOnEngineer
+	Response PlayerCloakedSpyEngineerDemomanTFC
+}
+
+Response PlayerCloakedSpyHeavyDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/CloakedSpyIdentify03.vcd" 
+}
+Rule PlayerCloakedSpyHeavyDemomanTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsDemoman IsOnHeavy
+	Response PlayerCloakedSpyHeavyDemomanTFC
+}
+
+Response PlayerCloakedSpyMedicDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/CloakedSpyIdentify06.vcd" 
+}
+Rule PlayerCloakedSpyMedicDemomanTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsDemoman IsOnMedic
+	Response PlayerCloakedSpyMedicDemomanTFC
+}
+
+Response PlayerCloakedSpyPyroDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/CloakedSpyIdentify09.vcd" 
+}
+Rule PlayerCloakedSpyPyroDemomanTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsDemoman IsOnPyro
+	Response PlayerCloakedSpyPyroDemomanTFC
+}
+
+Response PlayerCloakedSpyScoutDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/CloakedSpyIdentify01.vcd" 
+}
+Rule PlayerCloakedSpyScoutDemomanTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsDemoman IsOnScout
+	Response PlayerCloakedSpyScoutDemomanTFC
+}
+
+Response PlayerCloakedSpySniperDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/CloakedSpyIdentify08.vcd" 
+}
+Rule PlayerCloakedSpySniperDemomanTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsDemoman IsOnSniper
+	Response PlayerCloakedSpySniperDemomanTFC
+}
+
+Response PlayerCloakedSpySoldierDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/CloakedSpyIdentify02.vcd" 
+}
+Rule PlayerCloakedSpySoldierDemomanTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsDemoman IsOnSoldier
+	Response PlayerCloakedSpySoldierDemomanTFC
+}
+
+Response PlayerCloakedSpySpyDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/CloakedSpyIdentify05.vcd" 
+}
+Rule PlayerCloakedSpySpyDemomanTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsDemoman IsOnSpy
+	Response PlayerCloakedSpySpyDemomanTFC
+}
+
+Response PlayerCloakedSpyMercenaryDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/CloakedSpyIdentify10.vcd" 
+}
+Rule PlayerCloakedSpyMercenaryDemomanTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsDemoman IsOnMercenary
+	Response PlayerCloakedSpyMercenaryDemomanTFC
+}
+
+Response PlayerCloakedSpyCivilianDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/CloakedSpyIdentify11.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/CloakedSpyIdentify11ALT.vcd" 
+}
+Rule PlayerCloakedSpyCivilianDemomanTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsDemoman IsOnCivilian
+	Response PlayerCloakedSpyMercenaryDemomanTFC
+}
+
+//--------------------------------------------------------------------------------------------------------------
+// Auto Speech
+//--------------------------------------------------------------------------------------------------------------
+Response HealThanksDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/ThanksForTheHeal01.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/ThanksForTheHeal02.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/ThanksForTheHeal03.vcd" 
+}
+Rule HealThanksDemomanTFC
+{
+	criteria IsTFC ConceptMedicChargeStopped IsDemoman SuperHighHealthContext DemomanNotSaidHealThanks 50PercentChance
+	ApplyContext "DemomanSaidHealThanks:1:20"
+	Response HealThanksDemomanTFC
+}
+
+Response AwardDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/866.vcd" predelay "2.5"
+	scene "scenes/Player/tfc/Demoman/low/868.vcd" predelay "2.5"
+	scene "scenes/Player/tfc/Demoman/low/865.vcd" predelay "2.5"
+}
+Rule AwardDemomanTFC
+{
+	criteria IsTFC ConceptAchievementAward IsDemoman DemomanNotAwardSpeech
+	ApplyContext "DemomanAwardSpeech:1:10"
+	ApplyContext "IsDominating:1:10"
+	Response AwardDemomanTFC
+}
+
+Response PlayerRoundStartDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/BattleCry01.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/BattleCry02.vcd" predelay "1.0, 5.0" 
+	scene "scenes/Player/tfc/Demoman/low/BattleCry03.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/BattleCry04.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/BattleCry05.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/BattleCry06.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/BattleCry07.vcd" predelay "1.0, 5.0"
+}
+Rule PlayerRoundStartDemomanTFC
+{
+	criteria IsTFC ConceptPlayerRoundStart IsDemoman
+	Response PlayerRoundStartDemomanTFC
+}
+Response PlayerCappedIntelligenceDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/AutoCappedIntelligence01.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/AutoCappedIntelligence02.vcd" 
+}
+Rule PlayerCappedIntelligenceDemomanTFC
+{
+	criteria IsTFC ConceptPlayerCapturedIntelligence IsDemoman
+	Response PlayerCappedIntelligenceDemomanTFC
+}
+
+Response PlayerGrabbedIntelligenceDemomanTFC
+{
+	scene "scenes/Player/Mercenary/low/AutoGrabbedIntelligence01.vcd" 
+	scene "scenes/Player/Mercenary/low/AutoGrabbedIntelligence02.vcd" 
+	scene "scenes/Player/Mercenary/low/AutoGrabbedIntelligence03.vcd" 
+}
+Rule PlayerGrabbedIntelligenceDemomanTFC
+{
+	criteria ConceptPlayerGrabbedIntelligence IsDemoman
+	Response PlayerGrabbedIntelligenceDemomanTFC
+}
+
+Response PlayerCapturedPointDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/AutoCappedControlPoint01.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/AutoCappedControlPoint02.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/AutoCappedControlPoint03.vcd" 
+}
+Rule PlayerCapturedPointDemomanTFC
+{
+	criteria IsTFC ConceptPlayerCapturedPoint IsDemoman
+	Response PlayerCapturedPointDemomanTFC
+}
+
+Response PlayerSuddenDeathDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/Jeers01.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/Jeers02.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/Jeers03.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/Jeers04.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/Jeers05.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/Jeers06.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/Jeers07.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/Jeers08.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/Jeers09.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/Jeers10.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/Jeers11.vcd" 
+}
+Rule PlayerSuddenDeathDemomanTFC
+{
+	criteria IsTFC ConceptPlayerSuddenDeathStart IsDemoman
+	Response PlayerSuddenDeathDemomanTFC
+}
+
+Response PlayerStalemateDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/AutoDejectedTie01.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/AutoDejectedTie02.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/AutoDejectedTie03.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/AutoDejectedTie04.vcd" 
+}
+Rule PlayerStalemateDemomanTFC
+{
+	criteria IsTFC ConceptPlayerStalemate IsDemoman
+	Response PlayerStalemateDemomanTFC
+}
+
+Response PlayerTeleporterThanksDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/ThanksForTheTeleporter01.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/ThanksForTheTeleporter02.vcd" 
+}
+Rule PlayerTeleporterThanksDemomanTFC
+{
+	criteria IsTFC ConceptTeleported IsNotEngineer IsDemoman 30PercentChance
+	Response PlayerTeleporterThanksDemomanTFC
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Auto Speech Combat
+//--------------------------------------------------------------------------------------------------------------
+Response DefendOnThePointDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/DefendOnThePoint01.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/DefendOnThePoint02.vcd" 
+}
+Rule DefendOnThePointDemomanTFC
+{
+	criteria IsTFC ConceptFireWeapon IsDemoman IsOnFriendlyControlPoint NotDefendOnThePointSpeech
+	ApplyContext "DefendOnThePointSpeech:1:30"
+	applycontexttoworld
+	Response DefendOnThePointDemomanTFC
+}
+
+Response DemomanJarateHit
+{
+	scene "scenes/Player/tfc/Demoman/low/871.vcd"       
+	scene "scenes/Player/tfc/Demoman/low/947.vcd"       
+	scene "scenes/Player/tfc/Demoman/low/969.vcd"       
+	scene "scenes/Player/tfc/Demoman/low/971.vcd"       
+}
+Rule DemomanJarateHit
+{
+	criteria IsTFC ConceptJarateHit IsDemoman 50PercentChance
+	Response DemomanJarateHit
+}
+
+// Invuln responses for Grenade Launcher
+Response InvulnerableSpeechDemoman2
+{
+	scene "scenes/Player/tfc/Demoman/low/LaughEvil01.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/LaughEvil02.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/LaughEvil03.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/LaughEvil04.vcd"
+	scene "scenes/Player/tfc/Demoman/low/LaughEvil05.vcd"
+}
+
+
+Rule InvulnerableSpeechDemoman2
+{
+	criteria IsTFC ConceptFireWeapon IsDemoman WeaponIsGrenade IsInvulnerable DemomanNotInvulnerableSpeech
+	ApplyContext "DemomanInvulnerableSpeech:1:30"
+	Response InvulnerableSpeechDemoman2
+}
+// End invuln responses for GL
+
+// Invulnerable responses for Sticky launcher
+Response InvulnerableSpeechDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/LaughEvil01.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/LaughEvil02.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/LaughEvil03.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/LaughEvil04.vcd"
+	scene "scenes/Player/tfc/Demoman/low/LaughEvil05.vcd"
+}
+
+Rule InvulnerableSpeechDemomanTFC
+{
+	criteria IsTFC ConceptFireWeapon IsDemoman WeaponIsPipebomb IsInvulnerable DemomanNotInvulnerableSpeech
+	ApplyContext "DemomanInvulnerableSpeech:1:30"
+	Response InvulnerableSpeechDemomanTFC
+}
+// End invuln responses for Sticky
+
+Response KilledPlayerAssistAutoDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/SpecialCompleted-AssistedKill01.vcd" predelay "2.5"
+	scene "scenes/Player/tfc/Demoman/low/SpecialCompleted-AssistedKill02.vcd" predelay "2.5"
+}
+Rule KilledPlayerAssistAutoDemomanTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsDemoman IsBeingHealed IsManyRecentKills KilledPlayerDelay 20PercentChance DemomanNotAssistSpeech
+	ApplyContext "DemomanAssistSpeech:1:20"
+	Response KilledPlayerAssistAutoDemomanTFC
+}
+
+Response KilledPlayerManyDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/LaughShort01.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/LaughShort02.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/LaughShort03.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/LaughShort04.vcd"
+}
+Rule KilledPlayerManyDemomanTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsManyRecentKills 30PercentChance IsWeaponSecondary KilledPlayerDelay DemomanNotKillSpeech IsDemoman
+	ApplyContext "DemomanKillSpeech:1:10"
+	Response KilledPlayerManyDemomanTFC
+}
+
+// Custom stuff
+// Responses against killing a Soldier
+Response KilledSoldierDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/3568.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/3574.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/3577.vcd" 
+}
+Rule KilledSoldierDemomanTFC
+{
+	criterion ConceptKilledPlayer KilledPlayerDelay IsVictimSoldier 10PercentChance DemomanNotKillSpeech IsDemoman WeaponClassIsNotAxe
+	ApplyContext "DemomanKillSpeech:1:60"
+	Response KilledSoldierDemomanTFC
+}
+
+// Frying pan responses
+// These are our base responses for non-sword melee weapons.
+Response KilledPlayerPanDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/3566.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/3567.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/3569.vcd"
+	scene "scenes/Player/tfc/Demoman/low/3570.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/3571.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/3572.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/3573.vcd"  
+	scene "scenes/Player/tfc/Demoman/low/3575.vcd"
+}
+Rule KilledPlayerPanDemomanTFC
+{
+	criteria IsTFC ConceptKilledPlayer KilledPlayerDelay WeaponIsFryingPan 20PercentChance  DemomanNotKillSpeechMelee IsDemoman
+	ApplyContext "DemomanKillSpeechMelee:1:10"
+	Response KilledPlayerPanDemomanTFC
+}
+
+Rule KilledPlayerSaxxyDemomanTFC
+{
+	criteria IsTFC ConceptKilledPlayer KilledPlayerDelay WeaponIsSaxxy 20PercentChance  DemomanNotKillSpeechMelee IsDemoman
+	ApplyContext "DemomanKillSpeechMelee:1:10"
+	Response KilledPlayerPanDemomanTFC
+}
+// End Frying Pan responses
+
+// Custom rules for when Demoman drinks from Scrumpy
+// to trigger one of the above drunk lines
+Rule DrunkDemomanTFC
+{
+	criteria IsTFC ConceptFireWeapon IsDrunk IsDemoman IsWeaponMelee WeaponIsNotFryingPan // Fire if he's holding the Bottle and if the drunk context is set
+	Response KilledPlayerPanDemomanTFC
+}
+// End custom drunk rules
+
+// Modified to play for the Bottle only
+// Modified to include Frying Pan repsonses above, saves having duplicate entries.
+Response KilledPlayerMeleeDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/998.vcd" 
+}
+Rule KilledPlayerMeleeDemomanTFC
+{
+	criteria IsTFC ConceptKilledPlayer KilledPlayerDelay WeaponIsBottle WeaponIsNotPainTrain WeaponIsNotSaxxy 30PercentChance  DemomanNotKillSpeechMelee IsDemoman
+	ApplyContext "DemomanKillSpeechMelee:1:10"
+	Response KilledPlayerPanDemoman
+	Response KilledPlayerMeleeDemomanTFC
+}
+//
+
+// Eyelander responses
+// These apply to all tf_weapon_sword class weapons.
+Response KilledPlayerSwordDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/3565.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/910.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/950.vcd"	
+	scene "scenes/Player/tfc/Demoman/low/1379.vcd"	
+}
+
+Rule KilledPlayerSwordDemomanTFC
+{
+	criteria IsTFC ConceptKilledPlayer KilledPlayerDelay WeaponIsSword 20PercentChance IsNotVictimDemoman  DemomanNotKillSpeechMelee IsDemoman
+	ApplyContext "DemomanKillSpeechMelee:1:30"
+	Response KilledPlayerSwordDemomanTFC
+}
+
+// The above rule is for non-Demoman victims only.
+
+Response KilledPlayerSword2DemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/3564.vcd"
+}
+
+Rule KilledPlayerSword2DemomanTFC
+{
+	criteria IsTFC ConceptKilledPlayer KilledPlayerDelay WeaponIsSword 20PercentChance IsVictimDemoman  DemomanNotKillSpeechMelee IsDemoman
+	ApplyContext "DemomanKillSpeechMelee:1:30"
+	Response KilledPlayerSword2DemomanTFC
+}
+// The above rule is for Demoman victims only.
+// End Eyelander responses
+
+// Katana response rules shared with Eyelander
+Rule KilledPlayerKatanaDemomanTFC
+{
+	criteria IsTFC ConceptKilledPlayer KilledPlayerDelay WeaponIsKatana 20PercentChance IsNotVictimDemoman  DemomanNotKillSpeechMelee IsDemoman
+	ApplyContext "DemomanKillSpeechMelee:1:30"
+	Response KilledPlayerSwordDemomanTFC
+}
+// The above rule is for non-Demoman victims only.
+Rule KilledPlayerKatana2DemomanTFC
+{
+	criteria IsTFC ConceptKilledPlayer KilledPlayerDelay WeaponIsKatana 20PercentChance IsVictimDemoman  DemomanNotKillSpeechMelee IsDemoman
+	ApplyContext "DemomanKillSpeechMelee:1:30"
+	Response KilledPlayerSword2DemomanTFC
+}
+// The above rule is for Demoman victims only.
+// End Katana responses
+
+// Pain Train responses
+// Shares responses with Frying Pan, saves having duplicate entries.
+Response KilledPlayerClubDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/3578.vcd" 
+}
+
+Rule KilledPlayerClubDemomanTFC
+{
+	criteria IsTFC ConceptKilledPlayer KilledPlayerDelay WeaponIsPainTrain 10PercentChance  DemomanNotKillSpeechMelee IsDemoman
+	ApplyContext "DemomanKillSpeechMelee:1:15"
+	Response KilledPlayerClubDemoman
+	Response KilledPlayerPanDemomanTFC
+}
+// End Pain Train responses
+
+// Caber responses
+Response KilledPlayerCaberDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/1007.vcd"
+	scene "scenes/Player/tfc/Demoman/low/1008.vcd"
+	scene "scenes/Player/tfc/Demoman/low/997.vcd"
+}
+Rule KilledPlayerCaberDemomanTFC
+{
+	criteria IsTFC ConceptAttackerPain KilledPlayerDelay WeaponIsCaber IsCritical CaberHealthContext  DemomanNotKillSpeechMelee IsDemoman
+	ApplyContext "DemomanKillSpeechMelee:1:10"
+	Response KilledPlayerCaberDemomanTFC
+}
+
+Response KilledPlayerVeryManyDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/LaughEvil01.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/LaughEvil02.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/LaughEvil03.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/LaughEvil04.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/LaughEvil05.vcd" 
+}
+Rule KilledPlayerVeryManyDemomanTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsVeryManyRecentKills 50PercentChance IsWeaponSecondary KilledPlayerDelay DemomanNotKillSpeech IsDemoman
+	ApplyContext "DemomanKillSpeech:1:10"
+	Response KilledPlayerVeryManyDemomanTFC
+}
+
+Response PlayerKilledCapperDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/Cheers01.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/Cheers02.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/Cheers03.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/Cheers04.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/Cheers05.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/Cheers06.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/Cheers07.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/Cheers08.vcd" 
+}
+Rule PlayerKilledCapperDemomanTFC
+{
+	criteria IsTFC ConceptCapBlocked IsDemoman
+	ApplyContext "DemomanKillSpeech:1:10"
+	Response PlayerKilledCapperDemomanTFC
+}
+
+Response PlayerKilledDominatingDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/886.vcd" predelay "2.5"
+	scene "scenes/Player/tfc/Demoman/low/910.vcd" predelay "2.5"
+	scene "scenes/Player/tfc/Demoman/low/950.vcd" predelay "2.5"
+	scene "scenes/Player/tfc/Demoman/low/1379.vcd" predelay "2.5"
+	scene "scenes/Player/tfc/Demoman/low/1384.vcd" predelay "2.5"
+	scene "scenes/Player/tfc/Demoman/low/1385.vcd" predelay "2.5"
+	scene "scenes/Player/tfc/Demoman/low/951.vcd" predelay "2.5"
+	scene "scenes/Player/tfc/Demoman/low/953.vcd" predelay "2.5"
+	scene "scenes/Player/tfc/Demoman/low/954.vcd" predelay "2.5"
+	scene "scenes/Player/tfc/Demoman/low/956.vcd" predelay "2.5"
+	scene "scenes/Player/tfc/Demoman/low/1383.vcd" predelay "2.5"
+}
+Rule PlayerKilledDominatingDemomanTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsDemoman IsDominated
+	ApplyContext "DemomanKillSpeech:1:10"
+	ApplyContext "IsDominating:1:10"
+	Response PlayerKilledDominatingDemomanTFC
+}
+
+Response PlayerKilledDominatingDemomanDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/3515.vcd" predelay "2.5"
+	scene "scenes/Player/tfc/Demoman/low/3516.vcd" predelay "2.5"
+	scene "scenes/Player/tfc/Demoman/low/3517.vcd" predelay "2.5"
+	scene "scenes/Player/tfc/Demoman/low/3518.vcd" predelay "2.5"
+}
+Rule PlayerKilledDominatingDemomanDemomanTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsDemoman IsDominated  IsVictimDemoman
+	ApplyContext "DemomanKillSpeech:1:10"
+	ApplyContext "IsDominating:1:10"
+	Response PlayerKilledDominatingDemomanDemomanTFC
+}
+
+Response PlayerKilledDominatingEngineerDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/3519.vcd" predelay "2.5"
+	scene "scenes/Player/tfc/Demoman/low/3520.vcd" predelay "2.5"
+	scene "scenes/Player/tfc/Demoman/low/3521.vcd" predelay "2.5"
+	scene "scenes/Player/tfc/Demoman/low/3522.vcd" predelay "2.5"
+	scene "scenes/Player/tfc/Demoman/low/3523.vcd" predelay "2.5"
+	scene "scenes/Player/tfc/Demoman/low/3524.vcd" predelay "2.5"
+}
+Rule PlayerKilledDominatingEngineerDemomanTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsDemoman IsDominated  IsVictimEngineer
+	ApplyContext "DemomanKillSpeech:1:10"
+	ApplyContext "IsDominating:1:10"
+	Response PlayerKilledDominatingEngineerDemomanTFC
+}
+
+Response PlayerKilledDominatingHeavyDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/3525.vcd" predelay "2.5"
+	scene "scenes/Player/tfc/Demoman/low/3526.vcd" predelay "2.5"
+	scene "scenes/Player/tfc/Demoman/low/3527.vcd" predelay "2.5"
+	scene "scenes/Player/tfc/Demoman/low/3528.vcd" predelay "2.5"
+	scene "scenes/Player/tfc/Demoman/low/3529.vcd" predelay "2.5"
+}
+Rule PlayerKilledDominatingHeavyDemomanTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsDemoman IsDominated  IsVictimHeavy
+	ApplyContext "DemomanKillSpeech:1:10"
+	ApplyContext "IsDominating:1:10"
+	Response PlayerKilledDominatingHeavyDemomanTFC
+}
+
+Response PlayerKilledDominatingMedicDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/3530.vcd" predelay "2.5"
+	scene "scenes/Player/tfc/Demoman/low/3531.vcd" predelay "2.5"
+	scene "scenes/Player/tfc/Demoman/low/3532.vcd" predelay "2.5"
+	scene "scenes/Player/tfc/Demoman/low/3533.vcd" predelay "2.5"
+}
+Rule PlayerKilledDominatingMedicDemomanTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsDemoman IsDominated  IsVictimMedic
+	ApplyContext "DemomanKillSpeech:1:10"
+	ApplyContext "IsDominating:1:10"
+	Response PlayerKilledDominatingMedicDemomanTFC
+}
+
+Response PlayerKilledDominatingPyroDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/3534.vcd" predelay "2.5"
+	scene "scenes/Player/tfc/Demoman/low/3535.vcd" predelay "2.5"
+	scene "scenes/Player/tfc/Demoman/low/3536.vcd" predelay "2.5"
+	scene "scenes/Player/tfc/Demoman/low/3537.vcd" predelay "2.5"
+}
+Rule PlayerKilledDominatingPyroDemomanTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsDemoman IsDominated  IsVictimPyro
+	ApplyContext "DemomanKillSpeech:1:10"
+	ApplyContext "IsDominating:1:10"
+	Response PlayerKilledDominatingPyroDemomanTFC
+}
+
+Response PlayerKilledDominatingScoutDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/3538.vcd" predelay "2.5"
+	scene "scenes/Player/tfc/Demoman/low/3539.vcd" predelay "2.5"
+	scene "scenes/Player/tfc/Demoman/low/3540.vcd" predelay "2.5"
+	scene "scenes/Player/tfc/Demoman/low/3541.vcd" predelay "2.5"
+	scene "scenes/Player/tfc/Demoman/low/3542.vcd" predelay "2.5"
+	scene "scenes/Player/tfc/Demoman/low/3543.vcd" predelay "2.5"
+	scene "scenes/Player/tfc/Demoman/low/3544.vcd" predelay "2.5"
+	scene "scenes/Player/tfc/Demoman/low/3545.vcd" predelay "2.5"
+}
+Rule PlayerKilledDominatingScoutDemomanTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsDemoman IsDominated  IsVictimScout
+	ApplyContext "DemomanKillSpeech:1:10"
+	ApplyContext "IsDominating:1:10"
+	Response PlayerKilledDominatingScoutDemomanTFC
+}
+
+Response PlayerKilledDominatingSniperDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/3546.vcd" predelay "2.5"
+	scene "scenes/Player/tfc/Demoman/low/3547.vcd" predelay "2.5"
+	scene "scenes/Player/tfc/Demoman/low/3548.vcd" predelay "2.5"
+	scene "scenes/Player/tfc/Demoman/low/3549.vcd" predelay "2.5"
+}
+Rule PlayerKilledDominatingSniperDemomanTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsDemoman IsDominated  IsVictimSniper
+	ApplyContext "DemomanKillSpeech:1:10"
+	ApplyContext "IsDominating:1:10"
+	Response PlayerKilledDominatingSniperDemomanTFC
+}
+
+Response PlayerKilledDominatingSoldierDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/3550.vcd" predelay "2.5"
+	scene "scenes/Player/tfc/Demoman/low/3551.vcd" predelay "2.5"
+	scene "scenes/Player/tfc/Demoman/low/3552.vcd" predelay "2.5"
+	scene "scenes/Player/tfc/Demoman/low/3553.vcd" predelay "2.5"
+	scene "scenes/Player/tfc/Demoman/low/3554.vcd" predelay "2.5"
+}
+Rule PlayerKilledDominatingSoldierDemomanTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsDemoman IsDominated  IsVictimSoldier
+	ApplyContext "DemomanKillSpeech:1:10"
+	ApplyContext "IsDominating:1:10"
+	Response PlayerKilledDominatingSoldierDemomanTFC
+}
+
+Response PlayerKilledDominatingSpyDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/3561.vcd" predelay "2.5"
+	scene "scenes/Player/tfc/Demoman/low/3562.vcd" predelay "2.5"
+	scene "scenes/Player/tfc/Demoman/low/3563.vcd" predelay "2.5"
+}
+Rule PlayerKilledDominatingSpyDemomanTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsDemoman IsDominated  IsVictimSpy
+	ApplyContext "DemomanKillSpeech:1:10"
+	ApplyContext "IsDominating:1:10"
+	Response PlayerKilledDominatingSpyDemomanTFC
+}
+
+Response PlayerKilledForRevengeDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/914.vcd" predelay "2.5"
+	scene "scenes/Player/tfc/Demoman/low/990.vcd" predelay "2.5"
+	scene "scenes/Player/tfc/Demoman/low/1005.vcd" predelay "2.5"
+	scene "scenes/Player/tfc/Demoman/low/1025.vcd" predelay "2.5"
+}
+Rule PlayerKilledForRevengeDemomanTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsDemoman IsRevenge
+	ApplyContext "DemomanKillSpeech:1:10"
+	ApplyContext "IsDominating:1:10"
+	Response PlayerKilledForRevengeDemomanTFC
+}
+
+Response PlayerKilledObjectDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/1007.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/1008.vcd" 
+}
+Rule PlayerKilledObjectDemomanTFC
+{
+	criteria IsTFC ConceptKilledObject IsDemoman 30PercentChance IsARecentKill
+	ApplyContext "DemomanKillSpeechObject:1:30"
+	Response PlayerKilledObjectDemomanTFC
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Auto Speech Pain
+//--------------------------------------------------------------------------------------------------------------
+Response PlayerAttackerPainDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/PainSevere01.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/PainSevere02.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/PainSevere03.vcd" 
+}
+Rule PlayerAttackerPainDemomanTFC
+{
+	criteria IsTFC ConceptAttackerPain IsDemoman IsNotDominating
+	Response PlayerAttackerPainDemomanTFC
+}
+
+Response PlayerOnFireDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/AutoOnFire01.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/AutoOnFire02.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/AutoOnFire03.vcd" 
+}
+Rule PlayerOnFireDemomanTFC
+{
+	criteria IsTFC ConceptFire IsDemoman DemomanIsNotStillonFire IsNotDominating
+	ApplyContext "DemomanOnFire:1:7"
+	Response PlayerOnFireDemomanTFC
+}
+
+Response PlayerPainDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/PainSharp01.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/PainSharp02.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/PainSharp03.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/PainSharp04.vcd" 
+}
+Rule PlayerPainDemomanTFC
+{
+	criteria IsTFC ConceptPain IsDemoman IsNotDominating
+	Response PlayerPainDemomanTFC
+}
+
+Response PlayerStillOnFireDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/autoonfiresecondary01.vcd" 
+}
+Rule PlayerStillOnFireDemomanTFC
+{
+	criteria IsTFC ConceptFire IsDemoman  DemomanIsStillonFire IsNotDominating
+	ApplyContext "DemomanOnFire:1:7"
+	Response PlayerStillOnFireDemomanTFC
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Duel Speech
+//--------------------------------------------------------------------------------------------------------------
+Response AcceptedDuelDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/1015.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/1017.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/1038.vcd" 
+}
+Rule AcceptedDuelDemomanTFC
+{
+	criteria IsTFC ConceptIAcceptDuel IsDemoman
+	Response AcceptedDuelDemomanTFC
+}
+
+Response MeleeDareDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/868.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/879.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/1369.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/1027.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/1028.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/3566.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/3569.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/3574.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/3576.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/3578.vcd" 
+}
+Rule MeleeDareDemomanTFC
+{
+	criteria IsTFC ConceptRequestDuel IsDemoman
+	Response MeleeDareDemomanTFC
+}
+
+Response RejectedDuelDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/938.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/939.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/3545.vcd" 
+}
+Rule RejectedDuelDemomanTFC
+{
+	criteria IsTFC ConceptDuelRejected IsDemoman
+	Response RejectedDuelDemomanTFC
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Speech Menu 1
+//--------------------------------------------------------------------------------------------------------------
+Response PlayerGoDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/Go01.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/Go02.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/Go03.vcd" 
+}
+Rule PlayerGoDemomanTFC
+{
+	criteria IsTFC ConceptPlayerGo IsDemoman
+	Response PlayerGoDemomanTFC
+}
+
+Response PlayerHeadLeftDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/HeadLeft01.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/HeadLeft02.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/HeadLeft03.vcd" 
+}
+Rule PlayerHeadLeftDemomanTFC
+{
+	criteria IsTFC ConceptPlayerLeft  IsDemoman
+	Response PlayerHeadLeftDemomanTFC
+}
+
+Response PlayerHeadRightDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/HeadRight01.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/HeadRight02.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/HeadRight03.vcd" 
+}
+Rule PlayerHeadRightDemomanTFC
+{
+	criteria IsTFC ConceptPlayerRight  IsDemoman
+	Response PlayerHeadRightDemomanTFC
+}
+
+Response PlayerHelpDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/HelpMe01.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/HelpMe02.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/HelpMe03.vcd" 
+}
+Rule PlayerHelpDemomanTFC
+{
+	criteria IsTFC ConceptPlayerHelp IsDemoman
+	Response PlayerHelpDemomanTFC
+}
+
+Response PlayerHelpCaptureDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/HelpMeCapture01.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/HelpMeCapture02.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/HelpMeCapture03.vcd" 
+}
+Rule PlayerHelpCaptureDemomanTFC
+{
+	criteria IsTFC ConceptPlayerHelp IsDemoman IsOnCappableControlPoint
+	ApplyContext "DemomanHelpCap:1:10"
+	Response PlayerHelpCaptureDemomanTFC
+}
+
+Response PlayerHelpCapture2DemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/HelpMeCapture01.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/HelpMeCapture02.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/HelpMeCapture03.vcd" 
+}
+Rule PlayerHelpCapture2DemomanTFC
+{
+	criteria IsTFC ConceptPlayerHelp IsDemoman IsOnCappableControlPoint IsHelpCapDemoman
+	Response PlayerHelpCapture2DemomanTFC
+}
+
+Response PlayerHelpDefendDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/HelpMeDefend01.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/HelpMeDefend02.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/HelpMeDefend03.vcd" 
+}
+Rule PlayerHelpDefendDemomanTFC
+{
+	criteria IsTFC ConceptPlayerHelp IsDemoman IsOnFriendlyControlPoint
+	Response PlayerHelpDefendDemomanTFC
+}
+
+Response PlayerMedicDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/Medic01.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/Medic02.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/Medic03.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/Medic04.vcd" 
+}
+Rule PlayerMedicDemomanTFC
+{
+	criteria IsTFC ConceptPlayerMedic IsDemoman
+	Response PlayerMedicDemomanTFC
+}
+
+Response PlayerAskForBallDemomanTFC
+{
+}
+Rule PlayerAskForBallDemomanTFC
+{
+	criteria IsTFC ConceptPlayerAskForBall IsDemoman
+	Response PlayerAskForBallDemomanTFC
+}
+
+
+Response PlayerMoveUpDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/MoveUp01.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/MoveUp02.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/MoveUp03.vcd" 
+}
+Rule PlayerMoveUpDemomanTFC
+{
+	criteria IsTFC ConceptPlayerMoveUp  IsDemoman
+	Response PlayerMoveUpDemomanTFC
+}
+
+Response PlayerNoDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/No01.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/No02.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/No03.vcd" 
+}
+Rule PlayerNoDemomanTFC
+{
+	criteria IsTFC ConceptPlayerNo  IsDemoman
+	Response PlayerNoDemomanTFC
+}
+
+Response PlayerThanksDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/Thanks01.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/Thanks02.vcd" 
+}
+Rule PlayerThanksDemomanTFC
+{
+	criteria IsTFC ConceptPlayerThanks IsDemoman
+	Response PlayerThanksDemomanTFC
+}
+
+// Custom Assist kill response
+// As there is no actual concept for assist kills, this is the second best method.
+// Say thanks after you kill more than one person.
+
+Response KilledPlayerAssistDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/SpecialCompleted-AssistedKill01.vcd"
+	scene "scenes/Player/tfc/Demoman/low/SpecialCompleted-AssistedKill02.vcd"
+}
+Rule KilledPlayerAssistDemomanTFC
+{
+	criteria IsTFC ConceptPlayerThanks IsDemoman IsARecentKill KilledPlayerDelay DemomanNotAssistSpeech
+	ApplyContext "DemomanAssistSpeech:1:20"
+	Response KilledPlayerAssistDemomanTFC
+}
+
+Response KilledPlayerAssistDemoman2
+{
+	scene "scenes/Player/tfc/Demoman/low/SpecialCompleted-AssistedKill01.vcd"
+}
+Rule KilledPlayerAssistDemoman2
+{
+	criteria IsTFC ConceptPlayerThanks IsDemoman IsNotBeingHealed IsARecentKill KilledPlayerDelay DemomanNotAssistSpeech
+	ApplyContext "DemomanAssistSpeech:1:20"
+	Response KilledPlayerAssistDemoman
+	Response KilledPlayerAssistDemoman2
+}
+
+// End custom
+
+Response PlayerYesDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/Yes01.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/Yes02.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/Yes03.vcd" 
+}
+Rule PlayerYesDemomanTFC
+{
+	criteria IsTFC ConceptPlayerYes  IsDemoman
+	Response PlayerYesDemomanTFC
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Speech Menu 2
+//--------------------------------------------------------------------------------------------------------------
+Response PlayerActivateChargeDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/ActivateCharge01.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/ActivateCharge02.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/ActivateCharge03.vcd" 
+}
+Rule PlayerActivateChargeDemomanTFC
+{
+	criteria IsTFC ConceptPlayerActivateCharge IsDemoman
+	Response PlayerActivateChargeDemomanTFC
+}
+
+Response PlayerCloakedSpyDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/CloakedSpy01.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/CloakedSpy02.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/CloakedSpy03.vcd" 
+}
+Rule PlayerCloakedSpyDemomanTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsDemoman
+	Response PlayerCloakedSpyDemomanTFC
+}
+
+Response PlayerDispenserHereDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/NeedDispenser01.vcd" 
+}
+Rule PlayerDispenserHereDemomanTFC
+{
+	criteria IsTFC ConceptPlayerDispenserHere IsDemoman
+	Response PlayerDispenserHereDemomanTFC
+}
+
+Response PlayerIncomingDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/Incoming01.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/Incoming02.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/Incoming03.vcd" 
+}
+Rule PlayerIncomingDemomanTFC
+{
+	criteria IsTFC ConceptPlayerIncoming IsDemoman
+	Response PlayerIncomingDemomanTFC
+}
+
+Response PlayerSentryAheadDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/994.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/995.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/996.vcd" 
+}
+Rule PlayerSentryAheadDemomanTFC
+{
+	criteria IsTFC ConceptPlayerSentryAhead IsDemoman
+	Response PlayerSentryAheadDemomanTFC
+}
+
+Response PlayerSentryHereDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/NeedSentry01.vcd" 
+}
+Rule PlayerSentryHereDemomanTFC
+{
+	criteria IsTFC ConceptPlayerSentryHere IsDemoman
+	Response PlayerSentryHereDemomanTFC
+}
+
+Response PlayerTeleporterHereDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/NeedTeleporter01.vcd" 
+}
+Rule PlayerTeleporterHereDemomanTFC
+{
+	criteria IsTFC ConceptPlayerTeleporterHere IsDemoman
+	Response PlayerTeleporterHereDemomanTFC
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Speech Menu 3
+//--------------------------------------------------------------------------------------------------------------
+Response PlayerBattleCryDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/BattleCry01.vcd"
+	scene "scenes/Player/tfc/Demoman/low/BattleCry02.vcd"
+	scene "scenes/Player/tfc/Demoman/low/BattleCry03.vcd"
+	scene "scenes/Player/tfc/Demoman/low/BattleCry04.vcd"
+	scene "scenes/Player/tfc/Demoman/low/BattleCry05.vcd"
+	scene "scenes/Player/tfc/Demoman/low/BattleCry06.vcd"
+	scene "scenes/Player/tfc/Demoman/low/BattleCry07.vcd"
+	scene "scenes/Player/tfc/Demoman/low/BattleCry08.vcd"
+}
+Rule PlayerBattleCryDemomanTFC
+{
+	criteria IsTFC ConceptPlayerBattleCry IsDemoman
+	Response PlayerBattleCryDemomanTFC
+}
+
+// Custom stuff - melee dare
+// Look at enemy, then do battle cry voice command while holding a melee weapon.
+Response MeleeDareCombatDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/1028.vcd"
+	scene "scenes/Player/tfc/Demoman/low/1017.vcd"
+	scene "scenes/Player/tfc/Demoman/low/1015.vcd"
+}
+Rule MeleeDareCombatDemomanTFC
+{
+	criteria IsTFC ConceptPlayerBattleCry IsWeaponMelee IsDemoman IsCrosshairEnemy
+	Response MeleeDareCombatDemomanTFC
+}
+//End custom
+
+
+Response PlayerCheersDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/Cheers01.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/Cheers02.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/Cheers03.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/Cheers04.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/Cheers05.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/Cheers06.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/Cheers07.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/Cheers08.vcd" 
+}
+Rule PlayerCheersDemomanTFC
+{
+	criteria IsTFC ConceptPlayerCheers IsDemoman
+	Response PlayerCheersDemomanTFC
+}
+
+Response PlayerGoodJobDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/GoodJob01.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/GoodJob02.vcd" 
+}
+Rule PlayerGoodJobDemomanTFC
+{
+	criteria IsTFC ConceptPlayerGoodJob IsDemoman
+	Response PlayerGoodJobDemomanTFC
+}
+
+Response PlayerJeersDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/Jeers01.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/Jeers02.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/Jeers03.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/Jeers04.vcd" 
+}
+Rule PlayerJeersDemomanTFC
+{
+	criteria IsTFC ConceptPlayerJeers IsDemoman
+	Response PlayerJeersDemomanTFC
+}
+
+Response PlayerLostPointDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/973.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/1360.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/969.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/970.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/971.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/972.vcd" 
+}
+Rule PlayerLostPointDemomanTFC
+{
+	criteria IsTFC ConceptPlayerLostPoint IsDemoman
+	Response PlayerLostPointDemomanTFC
+}
+
+Response PlayerNegativeDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/NegativeVocalization01.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/NegativeVocalization02.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/NegativeVocalization03.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/NegativeVocalization04.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/NegativeVocalization05.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/NegativeVocalization06.vcd" 
+}
+Rule PlayerNegativeDemomanTFC
+{
+	criteria IsTFC ConceptPlayerNegative IsDemoman
+	Response PlayerNegativeDemomanTFC
+}
+
+Response PlayerNiceShotDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/NiceShot01.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/NiceShot02.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/NiceShot03.vcd" 
+}
+Rule PlayerNiceShotDemomanTFC
+{
+	criteria IsTFC ConceptPlayerNiceShot IsDemoman
+	Response PlayerNiceShotDemomanTFC
+}
+
+Response PlayerPositiveDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/PositiveVocalization01.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/PositiveVocalization02.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/PositiveVocalization03.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/PositiveVocalization04.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/PositiveVocalization05.vcd" 
+}
+
+Response PlayerTauntsDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/1380.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/1382.vcd" 
+	scene "scenes/Player/tfc/Demoman/low/1386.vcd" 
+}
+Rule PlayerPositiveDemomanTFC
+{
+	criteria IsTFC ConceptPlayerPositive IsDemoman
+	Response PlayerPositiveDemoman
+	Response PlayerTauntsDemomanTFC
+}
+
+//--------------------------------------------------------------------------------------------------------------
+// Auto Speech Cart
+//--------------------------------------------------------------------------------------------------------------
+Criterion "DemomanNotSaidCartMovingBackwardD" "SaidCartMovingBackwardD" "!=1" "required" weight 0
+Criterion "DemomanNotSaidCartMovingBackwardO" "SaidCartMovingBackwardO" "!=1" "required" weight 0
+Criterion "DemomanNotSaidCartMovingForwardD" "SaidCartMovingForwardD" "!=1" "required" weight 0
+Criterion "DemomanNotSaidCartMovingForwardO" "SaidCartMovingForwardO" "!=1" "required" weight 0
+Criterion "DemomanNotSaidCartMovingStoppedD" "SaidCartMovingStoppedD" "!=1" "required" weight 0
+Criterion "DemomanNotSaidCartMovingStoppedO" "SaidCartMovingStoppedO" "!=1" "required" weight 0
+Response CartMovingBackwardsDefenseDemoman                                                     
+{
+	scene "scenes/Player/tfc/Demoman/low/7718.vcd"
+	scene "scenes/Player/tfc/Demoman/low/7719.vcd"
+	scene "scenes/Player/tfc/Demoman/low/7720.vcd"
+}
+Rule CartMovingBackwardsDefenseDemoman                                                     
+{
+	criteria IsTFC ConceptCartMovingBackward IsOnDefense IsDemoman DemomanNotSaidCartMovingBackwardD IsNotDisguised 75PercentChance                                                                                                                                                          
+	ApplyContext "SaidCartMovingBackwardD:1:20"
+	Response CartMovingBackwardsDefenseDemoman                                                     
+}
+Response CartMovingBackwardsOffenseDemoman                                                     
+{
+	scene "scenes/Player/tfc/Demoman/low/7714.vcd"
+	scene "scenes/Player/tfc/Demoman/low/7715.vcd"
+	scene "scenes/Player/tfc/Demoman/low/7713.vcd"
+	scene "scenes/Player/tfc/Demoman/low/8533.vcd"
+}
+Rule CartMovingBackwardsOffenseDemoman                                                     
+{
+	criteria IsTFC ConceptCartMovingBackward IsOnOffense IsDemoman DemomanNotSaidCartMovingBackwardO IsNotDisguised 75PercentChance                                                                                                                                                          
+	ApplyContext "SaidCartMovingBackwardO:1:20"
+	Response CartMovingBackwardsOffenseDemoman                                                     
+}
+Response CartMovingForwardDefenseDemoman                                                       
+{
+	scene "scenes/Player/tfc/Demoman/low/7716.vcd"
+	scene "scenes/Player/tfc/Demoman/low/7717.vcd"
+}
+Rule CartMovingForwardDefenseDemoman                                                       
+{
+	criteria IsTFC ConceptCartMovingForward IsOnDefense IsDemoman DemomanNotSaidCartMovingForwardD IsNotDisguised 75PercentChance                                                                                                                                                            
+	ApplyContext "SaidCartMovingForwardD:1:20"
+	Response CartMovingForwardDefenseDemoman                                                       
+}
+Response CartMovingForwardOffenseDemoman                                                       
+{
+	scene "scenes/Player/tfc/Demoman/low/7704.vcd"
+	scene "scenes/Player/tfc/Demoman/low/7705.vcd"
+	scene "scenes/Player/tfc/Demoman/low/7706.vcd"
+	scene "scenes/Player/tfc/Demoman/low/7707.vcd"
+	scene "scenes/Player/tfc/Demoman/low/7711.vcd"
+	scene "scenes/Player/tfc/Demoman/low/7721.vcd"
+	scene "scenes/Player/tfc/Demoman/low/7723.vcd"
+	scene "scenes/Player/tfc/Demoman/low/7724.vcd"
+}
+Rule CartMovingForwardOffenseDemoman                                                       
+{
+	criteria IsTFC ConceptCartMovingForward IsOnOffense IsDemoman DemomanNotSaidCartMovingForwardO IsNotDisguised 75PercentChance                                                                                                                                                            
+	ApplyContext "SaidCartMovingForwardO:1:20"
+	Response CartMovingForwardOffenseDemoman                                                       
+}
+Response CartMovingStoppedDefenseDemoman                                                       
+{
+}
+Rule CartMovingStoppedDefenseDemoman                                                       
+{
+	criteria IsTFC ConceptCartMovingStopped IsOnDefense IsDemoman DemomanNotSaidCartMovingStoppedD IsNotDisguised 75PercentChance                                                                                                                                                            
+	ApplyContext "SaidCartMovingStoppedD:1:20"
+	Response CartMovingStoppedDefenseDemoman                                                       
+}
+Response CartMovingStoppedOffenseDemoman                                                       
+{
+	scene "scenes/Player/tfc/Demoman/low/7726.vcd"
+	scene "scenes/Player/tfc/Demoman/low/7727.vcd"
+	scene "scenes/Player/tfc/Demoman/low/7725.vcd"
+}
+Rule CartMovingStoppedOffenseDemoman                                                       
+{
+	criteria IsTFC ConceptCartMovingStopped IsOnOffense IsDemoman DemomanNotSaidCartMovingStoppedO IsNotDisguised 75PercentChance                                                                                                                                                            
+	ApplyContext "SaidCartMovingStoppedO:1:20"
+	Response CartMovingStoppedOffenseDemoman                                                       
+}
+//--------------------------------------------------------------------------------------------------------------
+// END OF Auto Speech Cart
+//--------------------------------------------------------------------------------------------------------------
+
+//--------------------------------------------------------------------------------------------------------------
+// Begin Competitive Mode VO
+//--------------------------------------------------------------------------------------------------------------
+Response PlayerFirstRoundStartCompDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_01.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_02.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_03.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_04.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_comp_01.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_comp_02.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_comp_03.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_comp_04.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_comp_05.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_rare_01.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_rare_02.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_rare_03.vcd" predelay "1.0, 5.0"
+}
+Rule PlayerFirstRoundStartCompDemomanTFC
+{
+	criteria IsTFC ConceptPlayerRoundStartComp IsDemoman IsFirstRound IsNotComp6v6 40PercentChance
+	Response PlayerFirstRoundStartCompDemomanTFC
+}
+
+Response PlayerFirstRoundStartComp6sDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_01.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_02.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_03.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_04.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_comp_01.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_comp_02.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_comp_03.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_comp_04.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_comp_05.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_rare_01.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_rare_02.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_rare_03.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_6s_01.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_6s_02.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_6s_03.vcd" predelay "1.0, 5.0"
+}
+Rule PlayerFirstRoundStartComp6sDemomanTFC
+{
+	criteria IsTFC ConceptPlayerRoundStartComp IsDemoman IsFirstRound IsComp6v6 40PercentChance
+	Response PlayerFirstRoundStartComp6sDemomanTFC
+}
+
+Response PlayerWonPrevRoundCompDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamewonlast_01.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamewonlast_02.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamewonlast_03.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamewonlast_04.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamewonlast_01.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamewonlast_02.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamewonlast_03.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamewonlast_04.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamewonlast_rare_01.vcd" predelay "1.0, 5.0"
+}
+Rule PlayerWonPrevRoundCompDemomanTFC
+{
+	criteria IsTFC ConceptPlayerRoundStartComp IsDemoman IsNotFirstRound PlayerWonPreviousRound 40PercentChance
+	Response PlayerWonPrevRoundCompDemomanTFC
+}
+
+Response PlayerLostPrevRoundCompDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamelostlast_01.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamelostlast_02.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamelostlast_03.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamelostlast_04.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamelostlast_rare_01.vcd" predelay "1.0, 5.0"
+}
+Rule PlayerLostPrevRoundCompDemomanTFC
+{
+	criteria IsTFC ConceptPlayerRoundStartComp IsDemoman IsNotFirstRound PlayerLostPreviousRound PreviousRoundWasNotTie 40PercentChance
+	Response PlayerLostPrevRoundCompDemomanTFC
+}
+
+Response PlayerTiedPrevRoundCompDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregametie_01.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregametie_02.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregametie_03.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregametie_04.vcd" predelay "1.0, 5.0"
+}
+Rule PlayerTiedPrevRoundCompDemomanTFC
+{
+	criteria IsTFC ConceptPlayerRoundStartComp IsDemoman IsNotFirstRound PreviousRoundWasTie 40PercentChance
+	Response PlayerTiedPrevRoundCompDemomanTFC
+}
+
+Response PlayerGameWinCompDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_gamewon_01.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_gamewon_02.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_gamewon_03.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_gamewon_04.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_gamewon_05.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_gamewon_06.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_gamewon_01.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_gamewon_02.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_gamewon_03.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_gamewon_04.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_gamewon_05.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_gamewon_06.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_gamewon_rare_01.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_gamewon_rare_02.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_gamewon_rare_04.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_gamewon_rare_03.vcd" predelay "2.0, 5.0"
+}
+Rule PlayerGameWinCompDemomanTFC
+{
+	criteria IsTFC ConceptPlayerGameOverComp PlayerOnWinningTeam IsDemoman 40PercentChance
+	Response PlayerGameWinCompDemomanTFC
+}
+
+Response PlayerMatchWinCompDemomanTFC
+{
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_matchwon_01.vcd" predelay "1.0, 2.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_matchwon_02.vcd" predelay "1.0, 2.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_matchwon_03.vcd" predelay "1.0, 2.0"
+	scene "scenes/Player/tfc/Demoman/low/cm_demo_matchwon_04.vcd" predelay "1.0, 2.0"
+}
+Rule PlayerMatchWinCompDemomanTFC
+{
+	criteria IsTFC ConceptPlayerMatchOverComp PlayerOnWinningTeam IsDemoman 40PercentChance
+	Response PlayerMatchWinCompDemomanTFC
+}
+//--------------------------------------------------------------------------------------------------------------
+// End Competitive Mode VO
+//--------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$baseTexture"	"models/props_watergate/mva_bar_center"
+
+	"$selfillum" 1  
+	"$selfillum_envmapmask_alpha" "1"
+
+	"$phong" "1"
+	"$phongexponent" "50"
+	"$phongboost" ".5"
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[.3 .5 .5]"
+	"$halflambert" "0"
+
+	"$basemapalphaphongmask" 1 
+
+}

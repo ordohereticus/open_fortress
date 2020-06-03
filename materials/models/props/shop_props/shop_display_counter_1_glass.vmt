@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props/shop_props/shop_display_counter_1_glass"
+
+
+	"$translucent" "1"
+
+	"$phong" "1"
+	"$phongexponent" "7"
+	"$phongboost" "2"
+	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	"$phongfresnelranges"	"[.25 .5 1]"
+}

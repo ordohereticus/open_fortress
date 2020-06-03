@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials/models/player/hvyweapon/hvyweapon_base_gib.vmt"
+	
+	insert
+	{
+		"$basetexture" "models/player/hvyweapon/hvyweapon_blue_gib"
+	}
+}

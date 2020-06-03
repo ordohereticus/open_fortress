@@ -1,0 +1,11 @@
+"WorldVertexTransition"
+{
+	"$basetexture"	"egypt\sand_floor_05"
+	"$basetexture2" "egypt\stone_floor_01"
+	"$bumpmap2" "concrete/concretefloor007_height-ssbump"
+	//"$blendmodulatetexture" "concrete/concretefloor007b_blendmask"
+	"$surfaceprop" "sand"
+	"$ssbump" "1"
+	"%tooltexture" "editor-abs/blendttx/egypt/sand_floor_blend_03"
+	"%keywords" "tf"
+}

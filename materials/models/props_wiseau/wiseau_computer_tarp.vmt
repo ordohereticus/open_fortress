@@ -1,0 +1,11 @@
+"VertexLitGeneric" {
+	"$basetexture"				"models/props_wiseau/wiseau_computer_tarp"
+	"$bumpmap"					"models/props_wiseau/wiseau_computer_tarp_normal"
+	
+	"$phong"					"1"
+	"$phongboost"				"10"
+	"$phongexponent"			"5"
+	"$phongfresnelranges"		"[0.025 0.1 0]"
+	
+	"$nocull"					"1"
+}

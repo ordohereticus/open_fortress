@@ -1,0 +1,11 @@
+"Spritecard"
+{
+	"$basetexture" "particle\blood1\blood_goop3"
+	$vertexcolor 1
+	$vertexalpha 1
+	$translucent 1
+	//$addself 1
+	"$minsize" ".002"
+	$blendframes 0
+	$overbrightfactor 1
+}

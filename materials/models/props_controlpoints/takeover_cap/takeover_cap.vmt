@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_controlpoints/takeover_cap/takeover_cap"
+	"$surfaceprop" "Metal"
+	"%keywords" "tf prop"
+                "$phong"       "1"
+}

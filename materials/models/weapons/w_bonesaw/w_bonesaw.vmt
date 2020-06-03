@@ -1,0 +1,46 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\v_bonesaw/v_bonesaw"
+
+//	"$envmap" "env_cubemap"
+	"$envmaptint" "[.5 .5 .5]"
+
+	"$glowcolor" "1"
+	"$phong" "1"
+	"$phongexponent" "30"
+	"$phongboost" "10"	
+	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	"$phongfresnelranges" "[0.25 0.5 1]"
+	"$basemapalphaphongmask" "1"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "4"	
+	"$rimlightboost" "2"
+	"$glowcolor" "1"
+	
+	"$cloakPassEnabled" "1"
+	
+	"Proxies"
+	{
+		"weapon_invis"
+		{
+		}
+		"ModelGlowColor"
+		{
+			"resultVar""$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"	"$glowcolor"
+			"resultVar"	"$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"	"$glowcolor"
+			"resultVar"	"$color2"
+		}
+		"spy_invis"
+		{
+		}
+	}
+}

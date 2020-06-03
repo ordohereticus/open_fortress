@@ -1,0 +1,14 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "Nature/dirtground004"
+	"$basetexture2" "nature/snow_full001"
+	"$blendmodulatetexture" "Nature/snowwall_blendmask"
+	"$ssbump" "1"
+	"$surfaceprop" "dirt"
+	"$detailscale" "1.2"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "1"
+	"%detailtype" "tf_forest_grass_lowdensity"
+	"%tooltexture" "Nature/dirtground004"
+	"%keywords" "tf"
+}

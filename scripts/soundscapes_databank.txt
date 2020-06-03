@@ -1,0 +1,463 @@
+// DSP Effects
+// 0 : "Normal (off)"
+// 1 : "Generic"
+// 2 : "Metal Small"
+// 3 : "Metal Medium"
+// 4 : "Metal Large"
+// 5 : "Tunnel Small"
+// 6 : "Tunnel Medium"
+// 7 : "Tunnel Large"
+// 8 : "Chamber Small"
+// 9 : "Chamber Medium"
+// 10: "Chamber Large"
+// 11: "Bright Small"
+// 12: "Bright Medium"
+// 13: "Bright Large"
+// 14: "Water 1"
+// 15: "Water 2"
+// 16: "Water 3"
+// 17: "Concrete Small"
+// 18: "Concrete Medium"
+// 19: "Concrete Large"
+// 20: "Big 1"
+// 21: "Big 2"
+// 22: "Big 3"
+// 23: "Cavern Small"
+// 24: "Cavern Medium"
+// 25: "Cavern Large"
+// 26: "Weirdo 1"
+// 27: "Weirdo 2"
+// 28: "Weirdo 3"
+
+//	ATTN_NONE		0.0f	
+//	ATTN_NORM		0.8f	75dB
+//	ATTN_IDLE		2.0f	60dB
+//	ATTN_STATIC		1.25f	66dB
+//	ATTN_RICOCHET	1.5f	65dB
+//	ATTN_GUNFIRE	0.27f	140dB
+
+//	SNDLVL_50dB		= 50,	// 3.9
+//	SNDLVL_55dB		= 55,	// 3.0
+//	SNDLVL_IDLE		= 60,	// 2.0
+//	SNDLVL_TALKING	= 60,	// 2.0
+//	SNDLVL_60dB		= 60,	// 2.0
+//	SNDLVL_65dB		= 65,	// 1.5
+//	SNDLVL_STATIC	= 66,	// 1.25
+//	SNDLVL_70dB		= 70,	// 1.0
+//	SNDLVL_NORM		= 75,
+//	SNDLVL_75dB		= 75,	// 0.8
+//	SNDLVL_80dB		= 80,	// 0.7
+//	SNDLVL_85dB		= 85,	// 0.6
+//	SNDLVL_90dB		= 90,	// 0.5
+//	SNDLVL_95dB		= 95,
+//	SNDLVL_100dB	= 100,	// 0.4
+//	SNDLVL_105dB	= 105,
+//	SNDLVL_120dB	= 120,
+//	SNDLVL_130dB	= 130,
+//	SNDLVL_GUNFIRE	= 140,	// 0.27
+//	SNDLVL_140dB	= 140,	// 0.2
+//	SNDLVL_150dB	= 150,	// 0.2
+
+"databank.respawn_room" {
+	"dsp"	"1"
+
+	"playlooping" {
+		"volume"		"1"
+		"pitch"			"100"
+		"wave"			"ambient/lair/spawn_tone1.wav"
+	}
+
+	"playlooping" {
+		"volume"		"1"
+		"pitch"			"100"
+		"wave"			"ambient/lair/spawn_tone2.wav"
+	}
+
+	//position 0 - computers off to the side
+	"playlooping" {
+		"volume"		".3"
+		"pitch"			"100"
+		"position"		"0"
+		"attenuation"	".9"
+		"wave"			"ambient/computer_working.wav"
+	}
+
+	//position 1 - air vent
+	"playlooping" {
+		"volume"		".2"
+		"pitch"			"100"
+		"position"		"1"
+		"attenuation"	".85"
+		"wave"			"ambient/lair/ac_vent2.wav"
+	}
+}
+
+"databank.cap_area" {
+	"dsp"	"10"
+
+	"playlooping" {
+		"volume"		".7"
+		"pitch"			"50"
+		"wave"			"ambient/lair/cap_2_tone1.wav"
+	}
+
+	"playlooping" {
+		"volume"		".6"
+		"pitch"			"100"
+		"wave"			"ambient/lair/cap_3_tone2.wav"
+	}
+
+	"playlooping" {
+		"volume"		".1"
+		"pitch"			"100"
+		"wave"			"ambient/command_center2.wav"
+	}
+
+	"playlooping" {
+		"volume"		".4"
+		"pitch"			"90"
+		"wave"			"ambient/lair/cap_3_inside_computer_bank1.wav"
+	}
+
+	"playrandom" {
+		"time"			"15, 25"
+		"volume"		".4"
+		"pitch"			"70, 100"
+		"rndwave" {
+			"wave"			"ambient/spacebase/spacebase_bang_01.wav"
+			"wave"			"ambient/spacebase/spacebase_bang_02.wav"
+			"wave"			"ambient/spacebase/spacebase_bang_03.wav"
+			"wave"			"ambient/spacebase/spacebase_bang_04.wav"
+		}
+	}
+
+	"playrandom" {
+		"time"			"30, 120"
+		"volume"		".1"
+		"pitch"			"90, 110"
+		"rndwave" {
+			"wave"			"ambient/creak01.wav"
+			"wave"			"ambient/creak02.wav"
+			"wave"			"ambient/creak03.wav"
+		}
+	}
+
+	//position 0 - tape reel computers 1
+	"playlooping" {
+		"volume"		".4"
+		"pitch"			"100"
+		"position"		"0"
+		"attenuation"	".7"
+		"wave"			"ambient/computer_tape.wav"
+	}
+
+	//position 1 - tape reel computers 1
+	"playlooping" {
+		"volume"		".4"
+		"pitch"			"100"
+		"position"		"1"
+		"attenuation"	".7"
+		"wave"			"ambient/computer_tape2.wav"
+	}
+}
+
+"databank.spytech1" {
+	"dsp"	"1"
+
+	// "playlooping" {
+		// "volume"		".85"
+		// "pitch"			"100"
+		// "wave"			"ambient/lair/cap_3_tone2.wav"
+	// }
+
+	"playlooping" {
+		"volume"		".7"
+		"pitch"			"50"
+		"wave"			"ambient/lair/cap_2_tone1.wav"
+	}
+
+	"playlooping" {
+		"volume"		".85"
+		"pitch"			"100"
+		"wave"			"ambient/lair/cap_3_tone3.wav"
+	}
+
+	"playlooping" {
+		"volume"		".2"
+		"pitch"			"100"
+		"wave"			"ambient/command_center2.wav"
+	}
+
+	//position 0 - tape reel computers
+	"playlooping" {
+		"volume"		".6"
+		"pitch"			"100"
+		"position"		"0"
+		"attenuation"	".5"
+		"wave"			"ambient/computer_tape.wav"
+	}
+
+	//position 1 - tape reel computers 2
+	"playlooping" {
+		"volume"		".6"
+		"pitch"			"100"
+		"position"		"1"
+		"attenuation"	".5"
+		"wave"			"ambient/computer_tape2.wav"
+	}
+
+	//position 2 - spytech console
+	"playlooping" {
+		"volume"		".6"
+		"pitch"			"100"
+		"position"		"2"
+		"attenuation"	".7"
+		"wave"			"ambient/computer_working.wav"
+	}
+
+	//position 3 - radar
+	"playlooping" {
+		"volume"	".4"
+		"pitch"		"100"
+		"position"	"3"
+		"attenuation"	"1.3"
+		"wave"		"ambient/lair/cap_3_inside_radar2.wav"
+	}
+
+	//position 4 - air vent
+	"playlooping" {
+		"volume"		".9"
+		"pitch"			"100"
+		"position"		"4"
+//		"attenuation"	"1"
+		"wave"			"ambient/lair/ac_vent1.wav"
+	}
+}
+
+"databank.spytech2" {
+	"dsp"	"1"
+
+	"playlooping" {
+		"volume"		".7"
+		"pitch"			"50"
+		"wave"			"ambient/lair/cap_2_tone1.wav"
+	}
+
+	"playlooping" {
+		"volume"		".85"
+		"pitch"			"100"
+		"wave"			"ambient/lair/cap_3_tone3.wav"
+	}
+
+	// "playlooping" {
+		// "volume"		".2"
+		// "pitch"			"100"
+		// "wave"			"ambient/command_center2.wav"
+	// }
+
+	// "playlooping" {
+		// "volume"		".3"
+		// "pitch"			"90"
+		// "wave"			"ambient/lair/cap_3_inside_computer_bank1.wav"
+	// }
+
+	"playrandom" {
+		"time"			"15, 25"
+		"volume"		".1"
+		"pitch"			"70, 100"
+		"rndwave" {
+			"wave"			"ambient/spacebase/spacebase_bang_01.wav"
+			"wave"			"ambient/spacebase/spacebase_bang_02.wav"
+			"wave"			"ambient/spacebase/spacebase_bang_03.wav"
+			"wave"			"ambient/spacebase/spacebase_bang_04.wav"
+		}
+	}
+
+	//position 0 - computer cabinet
+	"playlooping" {
+		"volume"		".6"
+		"pitch"			"100"
+		"position"		"0"
+		"attenuation"	".7"
+		"wave"			"ambient/computer_working2.wav"
+	}
+
+	//position 1 - consoles
+	"playlooping" {
+		"volume"		".6"
+		"pitch"			"100"
+		"position"		"1"
+		"attenuation"	".7"
+		"wave"			"ambient/computer_working.wav"
+	}
+}
+
+"databank.atrium" {
+	"dsp"	"10"
+
+	"playlooping" {
+		"volume"		".85"
+		"pitch"			"100"
+		"wave"			"ambient/lair/cap_3_tone2.wav"
+	}
+
+	"playlooping" {
+		"volume"		".85"
+		"pitch"			"100"
+		"wave"			"ambient/lair/cap_3_tone3.wav"
+	}
+
+	"playlooping" {
+		"volume"		"1"
+		"pitch"			"100"
+		"wave"			"ambient/lair/wind_elevated_area.wav"
+	}
+
+	//position 0 - industrial computers near spawn
+	"playlooping" {
+		"volume" 		".6"
+		"pitch"			"100"
+		"position"		"0"
+		"attenuation"	".9"
+		"wave"			"ambient/machine_hum.wav"
+	}
+
+	//position 1 - electrical box upper walkway
+	"playlooping" {
+		"volume"		".7"
+		"pitch"			"100"
+		"position"		"1"
+		"attenuation"	".7"
+		"wave"			"ambient/lair/electric_box_hum.wav"
+	}
+
+	//position 2 - big pipe upper walkway
+	"playlooping" {
+		"volume"		"1"
+		"pitch"			"100"
+		"position"		"2"
+//		"attenuation"	".3"
+		"wave"			"ambient/boiler_02.wav"
+	}
+
+	"playrandom" {
+		"time"			"15, 25"
+		"volume"		".4"
+		"pitch"			"70, 100"
+		"rndwave" {
+			"wave"			"ambient/spacebase/spacebase_bang_01.wav"
+			"wave"			"ambient/spacebase/spacebase_bang_02.wav"
+			"wave"			"ambient/spacebase/spacebase_bang_03.wav"
+			"wave"			"ambient/spacebase/spacebase_bang_04.wav"
+		}
+	}
+
+	"playrandom" {
+		"time"			"30, 120"
+		"volume"		".1"
+		"pitch"			"90, 110"
+		"rndwave" {
+			"wave"			"ambient/creak01.wav"
+			"wave"			"ambient/creak02.wav"
+			"wave"			"ambient/creak03.wav"
+		}
+	}
+
+	"playrandom" {
+		"time"			"30, 600"
+		"volume"		".1"
+		"pitch"			"95"
+		"rndwave" {
+			"wave"			"ambient/alarms/klaxon1.wav"
+		}
+	}
+}
+
+"databank.under" {
+	"dsp"	"1"
+
+	// "playlooping" {
+		// "volume"		".85"
+		// "pitch"			"100"
+		// "wave"			"ambient/lair/cap_3_tone2.wav"
+	// }
+
+	"playlooping" {
+		"volume"		".7"
+		"pitch"			"50"
+		"wave"			"ambient/lair/cap_2_tone1.wav"
+	}
+
+	"playlooping" {
+		"volume"		".85"
+		"pitch"			"100"
+		"wave"			"ambient/lair/cap_3_tone3.wav"
+	}
+
+	// "playlooping" {
+		// "volume"		".3"
+		// "pitch"			"90"
+		// "wave"			"ambient/lair/cap_3_inside_computer_bank1.wav"
+	// }
+
+	"playrandom" {
+		"time"			"15, 25"
+		"volume"		".1"
+		"pitch"			"70, 100"
+		"rndwave" {
+			"wave"			"ambient/spacebase/spacebase_bang_01.wav"
+			"wave"			"ambient/spacebase/spacebase_bang_02.wav"
+			"wave"			"ambient/spacebase/spacebase_bang_03.wav"
+			"wave"			"ambient/spacebase/spacebase_bang_04.wav"
+		}
+	}
+}
+
+//trans rights are human rights
+"databank.trans" {
+	"dsp"	"1"
+
+	"playlooping" {
+		"volume"		".7"
+		"pitch"			"50"
+		"wave"			"ambient/lair/cap_2_tone1.wav"
+	}
+
+	"playlooping" {
+		"volume"		".6"
+		"pitch"			"100"
+		"wave"			"ambient/lair/cap_3_tone2.wav"
+	}
+
+	// "playlooping" {
+		// "volume"		".3"
+		// "pitch"			"90"
+		// "wave"			"ambient/lair/cap_3_inside_computer_bank1.wav"
+	// }
+
+	// "playlooping" {
+		// "volume"		".2"
+		// "pitch"			"100"
+		// "wave"			"ambient/command_center2.wav"
+	// }
+
+	"playrandom" {
+		"time"			"15, 25"
+		"volume"		".1"
+		"pitch"			"70, 100"
+		"rndwave" {
+			"wave"			"ambient/spacebase/spacebase_bang_01.wav"
+			"wave"			"ambient/spacebase/spacebase_bang_02.wav"
+			"wave"			"ambient/spacebase/spacebase_bang_03.wav"
+			"wave"			"ambient/spacebase/spacebase_bang_04.wav"
+		}
+	}
+
+	"playlooping" {
+		"volume"			".4"
+		"pitch"				"100"
+		"position"			"0"
+		"attenuation"		".7"
+		"wave"				"ambient/lair/cap_2_fan.wav"
+	}
+}

@@ -1,0 +1,11 @@
+"MapData"
+{
+	"WeaponSpawners"
+	{
+		"47"
+		{
+			"Weapon"	"tf_weapon_gib"
+			"Model"		""
+		}
+	}
+}

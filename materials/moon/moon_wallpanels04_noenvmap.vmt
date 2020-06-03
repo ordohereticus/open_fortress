@@ -1,0 +1,16 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "moon/moon_wallpanels04"
+	$basealphaenvmapmask  1
+	"$surfaceprop"	"metal"
+	"$detail" "detail/moon_wallpanels02_detail.vtf"
+	"$detailscale" "0.5"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "1"
+}
+
+
+
+
+
+

@@ -1,0 +1,10 @@
+"LightMappedGeneric"
+{
+	"$basetexture"	"overlays/Stain009mod"
+	"$surfaceprop"	"default"
+	"$translucent"	1
+	"$decal"	1
+	"$decalscale" .25
+	"%keywords" "tf, tf_movies"
+
+}

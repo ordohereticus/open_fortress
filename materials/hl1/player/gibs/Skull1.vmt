@@ -1,0 +1,5 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "hl1/player/gibs/Skull1"
+"$halflambert" "1"
+}

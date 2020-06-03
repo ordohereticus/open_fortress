@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_pit\waterfall001"
+	"$surfaceprop"	"default"
+	"$translucent" 0
+	"$model" "0"
+	"$nocull" "0"
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" -.04
+			"texturescrollangle" 90
+		}
+	}
+}

@@ -1,0 +1,18 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "Nature/ground_04"
+	"$basetexture2" "Nature/grass_07"
+	"%tooltexture" "Nature/blendgroundtograss007_tooltexture"
+	"$blendmodulatetexture" "Nature/grass_blendmask"
+	"$bumpmap" "Nature/dirtground001_height-ssbump"
+	"%detailtype" "tf_forest_grass"
+	"$ssbump" "1"
+	"$surfaceprop" "dirt"
+	//
+	"$detail" "overlays/detail004"
+	"$detailscale" "1.2"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "1"
+	//
+
+}

@@ -1,0 +1,32 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models/vgui/arena_objects"
+	"$detail" "models/vgui/tv_noise"
+	"$detailscale" "7"
+	"$color2" "[1 1 1]"
+	"$model" "1"
+	"Proxies"
+	{
+		"Sine"
+		{
+			"resultVar"	"$color2[0]"
+			"sineperiod"	2.2
+			"sinemin"	1
+			"sinemax"	1.8
+		}
+
+		"TextureScroll"
+		{
+			"texturescrollvar" "$detailtexturetransform"
+			"texturescrollrate" .06
+			"texturescrollangle" 90
+		}
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$detail"
+			"animatedtextureframenumvar" "$detailframe"
+			"animatedtextureframerate" 30
+		}
+	}
+
+}

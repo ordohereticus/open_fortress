@@ -1,0 +1,40 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\weapons\v_medigun\v_medigun"
+	"$glowcolor" "1"
+	"$phong" "1"
+	"$phongexponent" "5"
+	
+	"$phongboost" "10"	
+	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	"$phongfresnelranges"	"[.3 .5 3]"
+	"$halflambert" "1"
+
+	"$basemapalphaphongmask" "1"
+	
+	"$rimlight" "2"						
+	"$rimlightexponent" "20"				
+	"$rimlightboost" ".25"
+
+	"$cloakPassEnabled" "1"
+	"Proxies"
+	{
+		"ModelGlowColor"
+		{
+			"resultVar""$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"	"$glowcolor"
+			"resultVar"	"$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"	"$glowcolor"
+			"resultVar"	"$color2"
+		}
+		"spy_invis"
+		{
+		}
+	}
+}

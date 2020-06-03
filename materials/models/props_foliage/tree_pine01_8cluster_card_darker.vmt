@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models\props_foliage\tree_pine01_8cluster_card_darker"
+	"$translucent" 1
+	"$nocull" 1
+}

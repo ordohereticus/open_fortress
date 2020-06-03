@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "dm_bloodrun/bloodrun_canyon"
+	"$detail" "overlays/detail004"
+	"$detailscale" "16.0"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "1"
+
+	//"360?$color2" "[ 0.78 0.8 0.8 ]"
+}

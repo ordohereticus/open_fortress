@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Tools/toolsblockbulletsmetalsound"
+	"$translucent" 1
+	"$nodecal" 1
+	"$surfaceprop" "metalgrate"
+	"%compileNodraw" 1
+	"%compileDetail" 1
+	"%keywords" "tf,Tools"
+}

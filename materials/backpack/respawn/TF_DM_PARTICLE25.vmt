@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/respawn/TF_DM_PARTICLE25"
+	"$translucent"		"1"
+}

@@ -1,0 +1,21 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\pickups/emitter001_glow"
+	"$bumpmap" "models/pickups/emitter_n"
+	
+//	"$envmapmask" "models\pickups/emitter001_env"	
+//	"$envmap" "env_cubemap"
+	"$envmaptint" "[.5 .5 .5]"
+	
+	"$phong" "1"
+	"$phongexponent" "180"
+	"$phongboost" "2"	
+//	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[.5 1 2]"
+//	"$halflambert" "1"
+
+	// Rim lighting parameters
+//	"$rimlight" "1"												// To enable rim lighting (requires phong)
+
+	"$selfillum" "1"
+}

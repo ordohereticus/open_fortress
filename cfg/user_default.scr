@@ -1,0 +1,341 @@
+// NOTE:  THIS FILE IS AUTOMATICALLY REGENERATED, 
+//DO NOT EDIT THIS HEADER, YOUR COMMENTS WILL BE LOST IF YOU DO
+// User options script
+//
+// Format:
+//  Version [float]
+//  Options description followed by 
+//  Options defaults
+//
+// Option description syntax:
+//
+//  "cvar" { "Prompt" { type [ type info ] } { default } }
+//
+//  type = 
+//   BOOL   (a yes/no toggle)
+//   STRING
+//   NUMBER
+//   LIST
+//
+// type info:
+// BOOL                 no type info
+// NUMBER       min max range, use -1 -1 for no limits
+// STRING       no type info
+// LIST          delimited list of options value pairs
+//
+//
+// default depends on type
+// BOOL is "0" or "1"
+// NUMBER is "value"
+// STRING is "value"
+// LIST is "index", where index "0" is the first element of the list
+
+
+// Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
+// File generated:  Tue Jul 13 17:43:58 AM
+//
+//
+// Cvar	-	Setting
+
+VERSION 1.0
+
+DESCRIPTION INFO_OPTIONS
+{
+	"of_disable_cosmetics"
+	{
+		"#TFOption_Cosmetics"
+		{ BOOL }
+		{ "0" }
+	}
+	
+	"mp_decals"
+	{
+		"#Valve_Multiplayer_Decal_Limit"
+		{ NUMBER 0 4096 }
+		{ "200" }
+	}
+
+	"cl_chatmsgsound"
+	{
+		"#TFOption_ChatSound" // section 5
+		{ BOOL }
+		{"1"}
+	}
+
+	"hud_classautokill"
+	{
+		"#TF_classautokill"
+		{ BOOL }
+		{ "1" }
+	}
+	
+	"tf_medigun_autoheal"
+	{
+		"#TF_medigun_autoheal"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"tf_hud_no_crosshair_on_scope_zoom"
+	{
+		"#TF_nocrosshaironscopezoom"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"tf_dingalingaling"
+	{
+		"#TF_Hitbeeps"
+		{ BOOL }
+		{ "1" }
+	}
+	
+	"tf_dingalingaling_effect"
+	{
+		"#tf_dingalingaling_effect"
+		{ LIST
+			"#tf_dingalingaling_Default"                "0"
+			"#tf_dingalingaling_Quake3"                 "1"
+			"#tf_dingalingaling_Electro"                "2"
+			"#tf_dingalingaling_Notes"	            	"3"
+			"#tf_dingalingaling_Percussion"             "4"
+			"#tf_dingalingaling_Retro"                  "5"
+			"#tf_dingalingaling_Space"					"6"
+			"#tf_dingalingaling_Beepo"					"7"
+			"#tf_dingalingaling_Vortex"					"8"
+			"#tf_dingalingaling_Squasher"				"9"
+			"#tf_dingalingaling_Custom"					"10"
+		}
+		{ "-1" }
+	}
+
+	"tf_dingaling_volume"
+	{
+		"#TF_Dingaling_Volume"
+		{ SLIDER 0 1 }
+		{ "0.75" }
+	}
+
+	"tf_dingaling_pitchmindmg"
+	{
+		"#TF_Dingaling_PitchLowDmg"
+		{ SLIDER 50 150 }
+		{ "125" }
+	}
+	
+	"tf_dingaling_pitchmaxdmg"
+	{
+		"#TF_Dingaling_PitchHighDmg"
+		{ SLIDER 50 150 }
+		{ "75" }
+	}
+	
+	"tf_dingalingaling_lasthit"
+	{
+		"#TF_LastHitbeeps"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"tf_dingalingaling_last_effect"
+	{
+		"#tf_dingalingaling_last_effect"
+		{ LIST
+			"#tf_dingalingaling_Default"                "0"
+			"#tf_dingalingaling_Quake3"                 "1"
+			"#tf_dingalingaling_Electro"                "2"
+			"#tf_dingalingaling_Notes"	            	"3"
+			"#tf_dingalingaling_Percussion"             "4"
+			"#tf_dingalingaling_Retro"                  "5"
+			"#tf_dingalingaling_Space"					"6"
+			"#tf_dingalingaling_Beepo"					"7"
+			"#tf_dingalingaling_Vortex"					"8"
+			"#tf_dingalingaling_Squasher"				"9"
+			"#tf_dingalingaling_Custom"					"10"
+		}
+		{ "0" }
+	}
+	
+	"tf_dingaling_lasthit_volume"
+	{
+		"#TF_Dingaling_LastHit_Volume"
+		{ SLIDER 0 1 }
+		{ "0.75" }
+	}
+
+	"tf_dingaling_lasthit_pitchmindmg"
+	{
+		"#TF_Dingaling_LastHit_PitchLowDmg"
+		{ SLIDER 50 150 }
+		{ "125" }
+	}
+	
+	"tf_dingaling_lasthit_pitchmaxdmg"
+	{
+		"#TF_Dingaling_LastHit_PitchHighDmg"
+		{ SLIDER 50 150 }
+		{ "75" }
+	}
+	
+	"hud_combattext"
+	{
+		"#TF_CombatText"
+		{ BOOL }
+		{ "1" }
+	}
+	
+	"hud_combattext_batching"
+	{
+		"#TF_CombatTextBatching"
+		{ BOOL }
+		{ "1" }
+	}
+	
+	"hud_combattext_red"
+	{
+		"#TF_CombatText_Red"
+		{ SLIDER 0 255 }
+		{ "255" }
+	}
+
+	"hud_combattext_green"
+	{
+		"#TF_CombatText_Green"
+		{ SLIDER 0 255 }
+		{ "0" }
+	}
+
+	"hud_combattext_blue"
+	{
+		"#TF_CombatText_Blue"
+		{ SLIDER 0 255 }
+		{ "0" }
+	}
+	
+	"of_gore"
+	{
+		"#TF_gore"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"of_hide_weapon_selection"
+	{
+		"#TFOption_HideWeaponSelect"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_autorezoom"
+	{
+		"#TF_autozoom"
+		{ BOOL }
+		{ "1" }
+	}
+	
+	"of_autoswitchweapons"
+	{
+		"#TFOption_AutoSwitch"
+		{ BOOL }
+		{ "1" }
+	}
+	
+	"of_autoreload"
+	{
+		"#TFOption_autoreload"
+		{ BOOL }
+		{ "1" }
+	}	
+
+	"of_respawn_particles"
+	{
+		"#TFOption_respawnparticles"
+		{ BOOL }
+		{ "1" }
+	}
+	
+	"of_beta_muzzleflash"
+	{
+		"#TFOption_beta_muzzleflash"
+		{ BOOL }
+		{ "0" }
+	}
+	
+	"cl_fp_ragdoll"
+	{
+		"#TFOption_fpragdoll"
+		{ BOOL }
+		{ "0" }
+	}	
+	
+	"viewmodel_centered"
+	{
+		"#TFOption_viewmodel_centered"
+		{ BOOL }
+		{ "0" }
+	}
+	
+	"viewmodel_hide_arms"
+	{
+		"#TFOption_viewmodel_hide_arms"
+		{ BOOL }
+		{ "0" }
+	}
+	
+	"tf_use_min_viewmodels"
+	{
+		"#TF_use_min_viewmodels_option"
+		{ BOOL }
+		{ "1" }
+	}
+	
+	"cl_wpn_sway_scale"
+	{
+		"#TFOption_wpn_sway_scale"
+		{ SLIDER 0 5 }
+		{ "0" }
+	}
+	
+    "of_viewbobcycle"
+	{
+		"#TFOption_viewbobcycle"
+		{ SLIDER 0 2 }
+		{ "0" }
+	}
+	
+	"of_showtargetid"
+	{
+		"#TFOption_showtargetid"
+		{ BOOL }
+		{ "1" }
+	}	
+
+	"of_idleview"
+	{
+		"#TFOption_idleview"
+		{ BOOL }
+		{ "0" }
+	}	
+	
+	"hud_takesshots"
+	{
+		"#game_takesshots"
+		{ BOOL }
+		{ "0" }
+	}
+	
+    "cl_hl1_rollspeed"
+	{
+		"#TFOption_viewroll_speed"
+		{ SLIDER 0 600 }
+		{ "600" }
+	}
+	
+	"cl_hl1_rollangle"
+	{
+		"#TFOption_viewroll_angle"
+		{ SLIDER 0.0 1.0 }
+		{ "0.1" }
+	}
+}
+

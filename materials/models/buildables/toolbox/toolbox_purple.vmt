@@ -1,0 +1,47 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\buildables\toolbox/toolbox_custom"
+
+	"$phong" "1"
+	"$phongexponent" "25"
+	"$phongboost" "25"	
+	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	"$phongfresnelranges" "[0.25 0.5 1]"
+
+	"$basemapalphaphongmask" "1"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "4"	
+	"$rimlightboost" "2"
+
+	"$blendtintbybasealpha"		"1"
+	"$blendtintcoloroverbase"		"1"
+	"$colortint_base"		"{180 180 180}"
+	"$color2"		"{180 180 180}"
+	"$colortint_tmp"		"[0 0 0]"
+
+	"$cloakPassEnabled" "1"	
+	
+	"Proxies"
+	{
+		"spy_invis"
+		{
+		}
+		"ItemTintColor"
+		{
+			"resultVar"		"$colortint_tmp"
+		}
+		"SelectFirstIfNonZero"
+		{
+			"srcVar1"		"$colortint_tmp"
+			"srcVar2"		"$colortint_base"
+			"resultVar"		"$color2"
+		}
+		"SelectFirstIfNonZero"
+		{
+			"srcVar1"		"$colortint_tmp"
+			"srcVar2"		"$colortint_base"
+			"resultVar"		"$cloakcolortint"
+		}
+	}
+}

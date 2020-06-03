@@ -1,0 +1,70 @@
+WeaponData
+{
+TextureData
+{
+	"crosshair1"
+	{
+			"file"		"vgui/crosshairs/crosshair1"
+			"x"		"0"
+			"y"		"0"
+			"width"		"64"
+			"height"	"64"
+	}
+	"crosshair2"
+	{
+			"file"		"vgui/crosshairs/crosshair2"
+			"x"		"0"
+			"y"		"0"
+			"width"		"64"
+			"height"	"64"
+	}
+	"crosshair3"
+	{
+			"file"		"vgui/crosshairs/crosshair3"
+			"x"		"0"
+			"y"		"0"
+			"width"		"64"
+			"height"	"64"
+	}
+	"crosshair4"
+	{
+			"file"		"vgui/crosshairs/crosshair4"
+			"x"		"0"
+			"y"		"0"
+			"width"		"64"
+			"height"	"64"
+	}
+	"crosshair5"
+	{
+			"file"		"vgui/crosshairs/crosshair5"
+			"x"		"0"
+			"y"		"0"
+			"width"		"64"
+			"height"	"64"
+	}
+	"crosshair6"
+	{
+			"file"		"vgui/crosshairs/crosshair6"
+			"x"		"0"
+			"y"		"0"
+			"width"		"64"
+			"height"	"64"
+	}
+	"crosshair7"
+	{
+			"file"		"vgui/crosshairs/crosshair7"
+			"x"		"0"
+			"y"		"0"
+			"width"		"64"
+			"height"	"64"
+	}	
+	"default"
+	{
+			"file"		"vgui/crosshairs/default"
+			"x"		"0"
+			"y"		"0"
+			"width"		"64"
+			"height"	"64"
+	}
+}
+}

@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"jungle\treeplane02"
+	"$model" 1
+	"$nocull" 1
+	"$alphatest" 1
+}

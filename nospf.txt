@@ -1,0 +1,1 @@
+// This file is a stub for the of_prop_fading 0 hack, see cdll_client_int.cpp PostInit()

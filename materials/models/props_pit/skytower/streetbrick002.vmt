@@ -1,0 +1,6 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "pit/stone_floor"
+	"$bumpmap" "pit/stone_floor_normal"
+	"%keywords" "tf"
+}

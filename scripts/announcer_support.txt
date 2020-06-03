@@ -1,0 +1,61 @@
+"announcers"
+{
+	"None"
+	{
+		"Any"	"1"
+	}
+	"Benja"
+	{
+		"CP" 	"0"
+		"CTF"	"1"
+		"DM"	"1"
+		"ESC"	"0"
+		"ARENA"	"1"
+		"INFECTION"	"1"
+	}
+	"Tyler"
+	{
+		"CP" 	"0"
+		"CTF"	"1"
+		"DM"	"1"
+		"ESC"	"0"
+		"ARENA"	"1"
+		"INFECTION"	"1"
+	}
+	"HECU"
+	{
+		"CP" 	"0"
+		"CTF"	"0"
+		"DM"	"1"
+		"ESC"	"0"
+		"ARENA"	"0"
+		"INFECTION"	"0"
+	}
+	"Announcer"
+	{
+		"CP" 	"1"
+		"CTF"	"1"
+		"DM"	"1"
+		"ESC"	"1"
+		"ARENA"	"1"
+		"INFECTION"	"1"
+	}
+	"VOX"
+	{
+		"CP" 	"0"
+		"CTF"	"1"
+		"DM"	"1"
+		"ESC"	"0"
+		"ARENA"	"1"
+		"INFECTION"	"1"
+	}
+	"Soldier"
+	{
+		"CP" 	"0"
+		"CTF"	"1"
+		"DM"	"1"
+		"ESC"	"0"
+		"ARENA"	"1"
+		"INFECTION"	"1"
+	}
+}

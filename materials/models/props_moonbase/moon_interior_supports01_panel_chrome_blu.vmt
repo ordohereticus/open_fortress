@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_moonbase/moon_interior_supports01_panel_blu"
+	$basealphaenvmapmask 1
+	"$envmapcontrast" "0"
+	"$envmap" "cubemaps\cubemap_specular002"
+	"$envmaptint" "[ 0.62 0.580 0.53 ]"
+
+	"$detail" "detail/moon_panels01"
+	"$detailscale" "1"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "0.2"
+	
+}

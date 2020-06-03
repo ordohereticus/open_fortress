@@ -1,0 +1,56 @@
+// Choreo version 1
+event loop "loopable_idle"
+{
+  time 6.660000 -1.000000
+  param "5.000000"
+  loopcount "-1"
+}
+actor "Engineer"
+{
+  channel "body"
+  {
+    event sequence "selectionMenu_Anim01"
+    {
+      time 0.000000 6.666667
+      param "selectionMenu_Anim01"
+      fixedlength
+    }
+  }
+  channel "sequence"
+  {
+    event sequence "idle"
+    {
+      time 3.529412 3.529412
+      param "selectionMenu_Idle"
+    }
+    event sequence "selectionMenu_Idle"
+    {
+      time 4.899123 6.660000
+      param "selectionMenu_Idle"
+    }
+  }
+  channel "facial"
+  {
+    event expression "happySmall"
+    {
+      time 0.008772 4.013158
+      param "player\engineer\emotion\emotion"
+      param2 "happySmall"
+      event_ramp
+      {
+        0.1647 0.0510
+        0.4706 0.3216
+        1.1412 0.3255
+        1.4882 0.0392
+        1.7706 0.6549
+        2.3059 0.7882
+        2.9000 0.5059
+        3.8176 0.5059
+      }
+    }
+  }
+}
+
+fps 60
+snap off
+ignorePhonemes off

@@ -1,0 +1,750 @@
+//  _____  ______          _____    __  __ ______ 
+// |  __ \|  ____|   /\   |  __ \  |  \/  |  ____|
+// | |__) | |__     /  \  | |  | | | \  / | |__   
+// |  _  /|  __|   / /\ \ | |  | | | |\/| |  __|  
+// | | \ \| |____ / ____ \| |__| | | |  | | |____ 
+// |_|  \_\______/_/    \_\_____/  |_|  |_|______|
+//
+//Hi this is iibo. Don't make any unnecessary changes to this file please!
+//If you have to change anything, please stick to the format.
+//
+//DO NOT CHANGE THE NAME OF ANYTHING IN HERE. YOU WILL BREAK EXISTING MAPS. ONLY MAKE ADDITIONS.
+//
+//Thank you!
+//
+//SONG LIST:
+//DeathmatchMusic.AtFortressGate
+//DeathmatchMusic.AtFortressGate_Waiting
+//DeathmatchMusic.AtFortressGate_Ending
+//DeathmatchMusic.Skate
+//DeathmatchMusic.Skate_Waiting
+//DeathmatchMusic.Generic
+//DeathmatchMusic.Generic_Waiting
+//DeathmatchMusic.Generic_Ending
+//DeathmatchMusic.Facility
+//DeathmatchMusic.Chase
+//DeathmatchMusic.Chase_Waiting
+//DeathmatchMusic.Chase_Ending
+//DeathmatchMusic.E1M1alt
+//DeathmatchMusic.E2M1
+//DeathmatchMusic.Map01
+//DeathmatchMusic.Map01_Waiting
+//DeathmatchMusic.Orchestral
+//DeathmatchMusic.Stalker
+//DeathmatchMusic.TeamFortresque
+//DeathmatchMusic.TF2Beat
+//DeathmatchMusic.TurbineTurmoil
+//DeathmatchMusic.Overpowered
+//DeathmatchMusic.Resonance
+//DeathmatchMusic.LastManStanding
+//DeathmatchMusic.LastMercStanding
+//DeathmatchMusic.Healer
+//DeathmatchMusic.DMStuff
+//DeathmatchMusic.DMStuff_Old
+//DeathmatchMusic.StuffAccord
+//DeathmatchMusic.Mayann
+//DeathmatchMusic.OpenHazards
+//DeathmatchMusic.GetPsyched
+//DeathmatchMusic.Unreal
+//DeathmatchMusic.Quake
+//DeathmatchMusic.NewSpeed
+//DeathmatchMusic.Stealing
+//DeathmatchMusic.Lobsters
+//DeathmatchMusic.DOTF
+//DeathmatchMusic.WaitingForSVN
+//InfectionMusic.Risen
+//DeathmatchMusic.Intruder_Alert
+//DeathmatchMusic.RJW
+//DeathmatchMusic.CrossFire
+//DeathmatchMusic.CrossFire_Waiting
+//DeathmatchMusic.CrossFire2
+//DeathmatchMusic.RobotMap
+
+//By MrModez
+"DeathmatchMusic.AtFortressGate"
+{
+	"Artist"		"MrModez"
+	"Name"			"At Fortress' Gate"
+	"wave"			"#music/deathmatch/afg_loop.ogg"
+	
+	"intro"			"DeathmatchMusic.AtFortressGateIntro"
+	"outro"			"DeathmatchMusic.AtFortressGate_Ending"
+}
+//By MrModez
+"DeathmatchMusic.AtFortressGateIntro"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/afg_loop_intro.ogg"
+}
+
+//At Fortress Gate Round End Music, by MrModez
+"DeathmatchMusic.AtFortressGate_Ending"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/afg_ending.ogg"
+}
+
+//At Fortress Gate Setup Music, by MrModez
+"DeathmatchMusic.AtFortressGate_Waiting"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/afg_waiting.ogg"
+}
+
+//Original piece for dm_skate, by Thoopje
+"DeathmatchMusic.Skate"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/dm_skateb3loop.ogg"
+	
+	"intro"			"DeathmatchMusic.SkateIntro"
+}
+
+//Original piece for dm_skate, by Thoopje
+"DeathmatchMusic.SkateIntro"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/dm_skateb3loop_intro.ogg"
+}
+
+
+//Original piece for dm_skate (Setup Music), by Thoopje
+"DeathmatchMusic.Skate_Waiting"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/dm_skateb3waiting.ogg"
+}
+
+//Deathmatch main theme, by Magnus
+"DeathmatchMusic.Generic"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/dm_loop.ogg"
+	
+	"outro"			"DeathmatchMusic.Generic_Ending"
+}
+
+//Deathmatch main theme (Round End), by Magnus
+"DeathmatchMusic.Generic_Ending"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/dm_ending.ogg"
+}
+
+//Deathmatch main theme (Setup), by Magnus
+"DeathmatchMusic.Generic_Waiting"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/dm_waiting.ogg"
+}
+
+//By Magnus
+"DeathmatchMusic.Facility"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/facility_loop.ogg"
+}
+
+//Deathmatch Chase, by Thoopje
+"DeathmatchMusic.Chase"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/dmchase_loop.ogg"
+	
+	"intro"			"DeathmatchMusic.Chase_WaitingIntro"
+	"outro"			"DeathmatchMusic.Chase_Ending"
+}
+
+
+//Deathmatch Chase (Setup), by Thoopje
+"DeathmatchMusic.Chase_WaitingIntro"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/dmchase_waiting_intro.ogg"
+}
+
+//Deathmatch Chase (Round End), by Thoopje
+"DeathmatchMusic.Chase_Ending"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/dmchase_ending.ogg"
+}
+
+//Deathmatch Chase (Setup), by Thoopje
+"DeathmatchMusic.Chase_Waiting"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/dmchase_waiting.ogg"
+}
+
+//By Magnus
+"DeathmatchMusic.E1M1alt"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/e1m1alt_loop.ogg"
+}
+
+//By Thoopje
+//"DeathmatchMusic.Intermission"
+//{
+//	"channel"		"CHAN_STATIC"
+//	"volume"		"0.9"
+//	"pitch"			"PITCH_NORM"
+//	"soundlevel"	"SNDLVL_NONE"
+//	"wave"			"#music/deathmatch/intermission_ending.ogg"
+//}
+
+//By Magnus
+"DeathmatchMusic.E2M1"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/e2m1_loop.ogg"
+}
+
+//By Magnus
+"DeathmatchMusic.Map01"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/map01_loop.ogg"
+}
+
+//By Magnus
+"DeathmatchMusic.Map01_Waiting"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/map01_waiting.ogg"
+}
+
+//Orchestral song, by Magnus
+"DeathmatchMusic.Orchestral"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/orch_loop.ogg"
+}
+
+//By Magnus
+"DeathmatchMusic.Stalker"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/stalker_loop.ogg"
+}
+
+//Team Fortresque, by Magnus
+"DeathmatchMusic.TeamFortresque"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/teamfortresque_loop.ogg"
+}
+
+//TF2Beat by MrModez
+"DeathmatchMusic.TF2Beat"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/tf2beat_loop.ogg"
+}
+
+//Turbine Turmoil by Magnus
+"DeathmatchMusic.TurbineTurmoil"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/turbineturmoil_loop.ogg"
+}
+
+//Overpowered (The Juggernaut's Theme) by Magnus
+"DeathmatchMusic.Overpowered"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/overpowered_loop.ogg"
+}
+
+//Resonance by HOME
+"DeathmatchMusic.ResonanceIntro"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/mc_vickers_final_frontier_intro.ogg"
+}
+
+//Resonance by HOME
+"DeathmatchMusic.Resonance"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/mc_vickers_final_frontier_loop.ogg"
+
+	"intro"			"DeathmatchMusic.ResonanceIntro"
+	"outro"			"DeathmatchMusic.ResonanceOutro"
+}
+
+//Resonance by HOME
+"DeathmatchMusic.ResonanceOutro"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/mc_vickers_final_frontier_outro.ogg"
+}
+
+//Last Man Standing by Magnus
+"DeathmatchMusic.LastManStanding"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/last_merc_standing.ogg"
+//	"wave"			"#music/deathmatch/lastmanstanding_loop.ogg"
+//Commenting out the original one because Infection appears to be hardcoded to play this one despite it having its own
+//soundscript entry for an infection version?
+}
+
+//Last Merc Standing by Magnus and Rose (Live Guitar ver)
+"DeathmatchMusic.LastMercStanding"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/last_merc_standing.ogg"
+}
+
+//By Magnus
+"DeathmatchMusic.Healer"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/healerstalks_loop.ogg"
+}
+
+//DMStuff by MrModez
+"DeathmatchMusic.DMStuff"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/stuff.ogg"
+}
+
+//DMStuff old by MrModez
+"DeathmatchMusic.DMStuff_Old"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/dmstuff_loop.ogg"
+}
+
+//DMStuff Accordion by MrModez
+"DeathmatchMusic.StuffAccord"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/stuff_accord.ogg"
+}
+
+
+//Mayann Ambient Track by MrModez (Best used as a setup track)
+"DeathmatchMusic.Mayann"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/mayann_waiting.ogg"
+}
+
+//Magnum Smooth by MrModez
+"DeathmatchMusic.MagnumSmooth"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/dm_magnumsmooth_loop.ogg"
+}
+
+//Watergate music. Rise of the Living Bread from TF2
+"DeathmatchMusic.Watergate"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/watergate_loop.ogg"
+}
+
+//Watergate waiting music. Dapper Cadaver from TF2
+"DeathmatchMusic.Watergate_Waiting"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/watergate_waitinfg.ogg"
+}
+
+//Coaltown temp music.
+"DeathmatchMusic.Coaltown_Temp"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/coaltown_temp.ogg"
+}
+
+//Deathmatch Wiseau (TEST), by Thoopje
+"DeathmatchMusic.Wiseau"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/dm_wiseau_loop.ogg"
+	
+	"intro"			"DeathmatchMusic.WiseauIntro"
+}
+//Deathmatch Wiseau (TEST), by Thoopje
+"DeathmatchMusic.WiseauIntro"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/dm_wiseau_loop_intro.ogg"
+	"duration"		"1.606930"
+}
+
+//Chthon Placeholder Music
+"DeathmatchMusic.Chthon"
+{
+	"Artist"		"Magnus"
+	"Name"			"Demonstrate"
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/shortwave_loop.ogg"
+}
+
+//Open Hazards, old valve.bik music extended, by Meta
+"DeathmatchMusic.OpenHazards"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/OpenHazards_Loop.ogg"
+}
+
+//Get Psyched by Lena and 2P
+"DeathmatchMusic.GetPsyched"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/getpsychedloop.ogg"
+	
+	"intro"			"DeathmatchMusic.GetPsychedIntro"
+}
+//Get Psyched by Lena and 2P
+"DeathmatchMusic.GetPsychedIntro"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/getpsychedloop_intro.ogg"
+}
+
+//Forgone Destruction from Unreal Tournament 1999 by Lena
+"DeathmatchMusic.Unreal"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/unreal.ogg"
+}
+
+//Quake theme by Lena
+"DeathmatchMusic.Quake"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/quaketheme.ogg"
+}
+
+//Longest Yard Open Hazards+Quake Theme
+"DeathmatchMusic.LongestYard"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/OpenHazards_Loop.ogg"
+	
+	"intro"			"DeathmatchMusic.Quake"
+}
+
+//New Speed aka Greenback Theme by Thoopje
+"DeathmatchMusic.NewSpeed"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/newspeed.ogg"
+}
+
+//Lobsters On The Moon by Rose, Thoopje and Magnus
+"DeathmatchMusic.Lobsters"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/lobstersonthemoon.ogg"
+}
+
+//Stealing by Modez
+"DeathmatchMusic.Stealing"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/stealing.ogg"
+}
+
+//Duel of the Fates??? by Lena
+"DeathmatchMusic.DOTF"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/duelofthemercs.ogg"
+}
+
+//Waiting For SVN by Modez, Magnus and Turnip
+"DeathmatchMusic.WaitingForSVN"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/WaitingFor.ogg"
+}
+
+
+// Placeholder from L4D2
+"InfectionMusic.Warmup"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/infection/inf_warmup.mp3"
+}
+
+// By Magnus
+"InfectionMusic.LastManStanding"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/last_merc_standing.ogg"
+}
+//{
+//	"channel"		"CHAN_STATIC"
+//	"volume"		"0.9"
+//	"pitch"			"PITCH_NORM"
+//	"soundlevel"	"SNDLVL_NONE"
+//	"wave"			"music/infection/inf_lastmanstanding.wav"
+//}
+
+"InfectionMusic.Risen"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"music/infection/deadhaverisen.ogg"
+}
+
+
+// Placeholder from L4D2
+"InfectionMusic.Begin"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"#music/infection/inf_begin1.mp3"
+		"wave"			"#music/infection/inf_begin2.mp3"
+		"wave"			"#music/infection/inf_begin3.mp3"
+	}
+}
+
+//Rocket Jump Waltz by Valve Studio Orchestra
+"DeathmatchMusic.RJW"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/gamestartup3.ogg"
+}
+
+//Intruder Alert by Valve Studio Orchestra
+"DeathmatchMusic.Intruder_Alert"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/intruderalert_loop.ogg"
+	
+	"intro"			"DeathmatchMusic.Intruder_Alert_Intro"
+}
+
+//Intruder Alert by Valve Studio Orchestra
+"DeathmatchMusic.Intruder_Alert_Intro"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/intruderalert_intro.ogg"
+}
+
+//Crossfire by 2P
+"DeathmatchMusic.CrossFire"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/crossfire.ogg"
+}
+
+//Crossfire (Setup) by 2P
+"DeathmatchMusic.CrossFire_Waiting"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/crossfire_waiting.ogg"
+}
+
+
+//Crossfire2 by Mace and 2P
+"DeathmatchMusic.CrossFire2"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/crossfire2.ogg"
+}
+//by MrModez
+"DeathmatchMusic.RobotMap"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/RobotMap.ogg"
+}

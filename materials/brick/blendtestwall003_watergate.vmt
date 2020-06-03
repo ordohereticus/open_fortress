@@ -1,0 +1,12 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "brick/brickwall001"
+	"$basetexture2" "cp_manor/plaster_white01"
+	"$blendmodulatetexture" "brick/blendbrick_test"
+//	"%tooltexture" "brick/brickwall001c"
+//	"$bumpmap" "Brick/brickwall_watergate_normal"
+//	"$normalmapalphaenvmapmask" 1
+//	"$envma" "env_cubemap"
+	"%keywords" "tf"
+//	"$bumpmap" "2"
+}

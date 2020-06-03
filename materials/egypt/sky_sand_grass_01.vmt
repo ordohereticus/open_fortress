@@ -1,0 +1,9 @@
+"WorldVertexTransition"
+{
+	"$basetexture"	"egypt\sand_floor_05"
+	"$basetexture2" "Nature/grass_03"
+	"$surfaceprop" "sand"
+	"$ssbump" "1"
+	"%tooltexture" "editor-abs/blendttx/egypt/sky_sand_grass_01"
+	"%keywords" "tf"
+}

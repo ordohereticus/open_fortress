@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials/models/player/soldier/soldier_base_gib.vmt"
+	
+	insert
+	{
+		"$baseTexture" "models/player/soldier/soldier_red_gib"
+	}
+}

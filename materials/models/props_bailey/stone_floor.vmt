@@ -1,0 +1,14 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "pit/stone_floor"
+	"$bumpmap" "pit/stone_floor_normal"
+
+  
+	"$surfaceprop" "concrete"
+	"%keywords" "tf"
+	
+//	"$detail" "overlays/detail001"
+//	"$detailscale" "1.9"
+//	"$detailblendmode" "0"
+//	"$detailblendfactor" "1"
+}

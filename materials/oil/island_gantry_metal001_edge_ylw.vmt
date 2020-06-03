@@ -1,0 +1,8 @@
+"LightMappedGeneric"
+{
+	"$basetexture"	"oil/island_gantry_metal001_edge"
+//	"$bumpmap" "Metal/island_gantry_metal001_normal"
+	"$color" "{236.0 185.0 9.0}"
+	"$surfaceprop" "metal"
+	"%keywords" "tf"
+}

@@ -1,0 +1,70 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\weapons\c_items\c_dex_sniperrifle01"
+	
+	"$phong" "1"
+	"$phongexponent" "50"
+	"$phongboost" ".25"	
+	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	"$phongfresnelranges"	"[2.25 2.5 20]"
+	"$halflambert" "1"
+//	"$selfillum" "1"
+
+	"$glowcolor" "1"
+	"$speccolor" "1"
+
+	"$tempvar" "0"
+
+	"$basephongexponent" "20"
+	"$basephongboost" "2"
+
+	"$commadd_phongexponent" "35"
+	"$commadd_phongboost" 	"6"
+	"$commweapon"		"0"
+
+
+	"$basemapalphaphongmask" "1"
+	
+	// Rim lighting parameters
+	"$rimlight" "1"					
+	"$rimlightexponent" "4"		
+	"$rimlightboost" "1"
+
+	"360?$color2" "[ 0.8 0.8 0.8 ]"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+
+	"$yellow" "0"
+
+	"Proxies"
+	{
+		"spy_invis"
+		{
+		}
+		"ModelGlowColor"
+		{
+			"resultVar" "$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$color2"
+		}
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+		"Multiply"
+		{
+			"srcVar1" "$color2"
+			"srcVar2" "$yellow"
+			"resultVar" "$color2"
+		}
+	}
+}

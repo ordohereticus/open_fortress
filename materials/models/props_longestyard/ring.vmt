@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_longestyard\ring"
+	"$surfaceprop"	"default"
+	"$translucent" 1
+	"$additive" "1"
+	"$model" "1"
+	"$nocull" "1"
+	$detail "models\props_longestyard\cloud"
+$detailscale 7.74
+$detailblendfactor 0.8
+$detailblendmode 0
+}

@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/props_gump/iceberg"
+	"$bumpmap"    "models/props_gump/icebergn"	
+	$surfaceprop "dirt"
+	"$detail" "overlays/detail004"
+	"$detailscale" "3.2"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "1.4"
+	"$envmap"		"env_cubemap"
+	"$basealphaenvmapmask"		"0"
+	"$normalmapalphaenvmapmask"		"0"
+	"$envmaptint"		"[0.568627 0.568627 0.568627]"
+
+}

@@ -1,0 +1,6 @@
+"LightMappedGeneric"
+{
+	"$basetexture"	"wood/wood_beam02modlighter2"
+	"$surfaceprop"	"Wood"
+	"%keywords" "tfm"
+}

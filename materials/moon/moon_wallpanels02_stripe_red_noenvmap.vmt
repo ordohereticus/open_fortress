@@ -1,0 +1,18 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "moon/moon_wallpanels02_stripe_red"
+
+	"$detail" "detail/moon_wallpanels02_detail.vtf"
+	"$detailscale" "0.5"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "0.5"
+	"$surfaceprop"	"metal"
+
+	$reflectivity "[ 0.6 0.6 0.6 ]"
+}
+
+
+
+
+
+

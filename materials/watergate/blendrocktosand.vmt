@@ -1,0 +1,11 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "watergate/watergate_rock001"
+	"$basetexture2" "maritime/nature/sea_sand_maritime_001"
+	"%keywords" "tf"
+
+}
+
+// BulletCrops Project
+// http://www.minerality.fr/bulletcropsproject/
+// Rock texture done by Watergate crew

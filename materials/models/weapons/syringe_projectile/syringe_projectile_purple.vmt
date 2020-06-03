@@ -1,0 +1,35 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\weapons\syringe_projectile\syringe_projectile_purple"
+	
+	"$glowcolor" "1"
+	"$phong" "1"
+	"$phongexponent" "25"
+	"$phongboost" "10"	
+	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	"$phongfresnelranges"	"[1.5 .5 3]"
+	"$halflambert" "1"
+
+	"$basemapalphaphongmask" "1"
+	
+	"$blendtintbybasealpha"		"1"
+	"$blendtintcoloroverbase"		"1"
+	"$colortint_base"		"{180 180 180}"
+	"$color2"		"{180 180 180}"
+	"$colortint_tmp"		"[0 0 0]"	
+	
+	"Proxies"
+	{
+		"ItemTintColor"
+		{
+			"resultVar"		"$colortint_tmp"
+		}
+		"SelectFirstIfNonZero"
+		{
+			"srcVar1"		"$colortint_tmp"
+			"srcVar2"		"$colortint_base"
+			"resultVar"		"$color2"
+		}
+	}
+	
+}

@@ -1,0 +1,4 @@
+"Patch"
+{
+	include "materials/models/player/scout/hwm/scout_base_head.vmt"
+}

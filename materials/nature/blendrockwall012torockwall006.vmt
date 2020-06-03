@@ -1,0 +1,21 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "Nature/rockwall012"
+	"$bumpmap" "Nature/rockwall009_height-ssbump"
+        "$ssbump" "1"	
+	
+	
+	
+	"$basetexture2" "Nature/rockwall006"
+	"$bumpmap2" "Nature/rockwall004_bump-ssbump"
+        "$ssbump2" "1"
+	"$detail2" "overlays/detail004"
+	"$detailscale2" "[2.1 4.2]"
+	"$detailblendmode2" "0"
+	"$detailblendfactor2" "1"
+	
+
+	"%tooltexture" "Nature/blendrockwall012torockwall006"
+	"%keywords" "tf"
+	"$surfaceprop" "dirt"
+}

@@ -1,0 +1,33 @@
+"UnLitTwoTexture"
+{
+	"$basetexture" "skybox/skybox_gradient_fog"
+	"%keywords" "tf"
+	"$texture2"	"models/effects/cappoint_beam_lines"
+	"$basealphaenvmapmask"  "1"
+	"$additive" "1"
+	"$model" "1"
+//	"$nocull" "1"
+	"$colortint_base"		"{0 0 0}"
+	"$color2"		"{93 72 117}"
+	"$colortint_tmp"		"[0 0 0]"	
+	
+	"Proxies"
+	{	
+		"LocalPlayerColor"
+		{
+			"resultVar"		"$colortint_tmp"
+		}
+		"SelectFirstIfNonZero"
+		{
+			"srcVar1"			"$colortint_tmp"
+			"srcVar2"			"$colortint_base"
+			"resultVar"		"$color2"
+		}
+		"TextureScroll"
+		{
+			"texturescrollvar" "$texture2transform"
+			"texturescrollrate" .1
+			"texturescrollangle" 90
+		}
+	}
+}

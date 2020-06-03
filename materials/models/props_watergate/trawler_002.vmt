@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+"$basetexture"   "models/props_watergate/trawler_002"
+	"$surfaceprop"   "metal"
+	"$selfIllum" 0
+	"$model" 1 
+	"%keywords"      "trawler"
+
+}

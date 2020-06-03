@@ -1,0 +1,11 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "concrete/concretewall003ochre"
+	"$basetexture2" "concrete/concretewall004"	
+	"%tooltexture" "concrete/concretewall003ochre"
+	"$blendmodulatetexture" "Nature/snowwall_blendmask"
+	"$bumpmap" "Nature/snow_full001_normal"
+	"$bumpmap2" "Nature/snow_full001_normal"
+
+	"%keywords" "tf"
+}

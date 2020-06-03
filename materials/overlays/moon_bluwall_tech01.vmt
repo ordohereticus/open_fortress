@@ -1,0 +1,13 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "Overlays/moon_bluwall_tech01"
+	"$decal" 1
+	"$decalscale" .25
+	"$translucent" 1
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	"%keywords" "tf"
+	//"$envmap" "cubemaps\cubemap_specular001"
+	//"$envmaptint" "[ 0.09 0.070 0.04 ]"
+}
+

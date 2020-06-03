@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "dom_takeover/takeover_sign_01"
+	"$surfaceprop" "Metal"
+	"%keywords" "tf custom takeover sign"
+	"$translucent" 1
+}

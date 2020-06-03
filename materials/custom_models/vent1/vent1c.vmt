@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "custom_models/vent1/vent1c"
+	"$phong" "1"
+	"$phongexponent" "31"
+	"$phongboost" "1"	
+//	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[1 1 1]"
+	"$halflambert" "0"
+	"$bumpmap" "Models/effects/flat_normal"
+
+}

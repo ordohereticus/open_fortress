@@ -1,0 +1,13 @@
+"LightmappedGeneric" {
+	"$basetexture"	"props/rubberconveyerbelt001a"
+	"$surfaceprop"	"rubber"
+	"$nodecal"	"1"
+	Proxies {
+		"ConveyorScroll" {
+			"texturescrollvar"	"$basetexturetransform"
+		}
+		"ConveyorScroll" {
+			"texturescrollvar"	"$bumptransform"
+		}
+	}
+}

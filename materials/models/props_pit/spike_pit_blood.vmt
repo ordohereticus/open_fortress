@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_pit/spike_pit_blood"
+    "$halflambert" "1"
+}

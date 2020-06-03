@@ -1,0 +1,71 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/player/sniper/sniper_handL_red"
+	"$bumpmap" "models/player/sniper/sniper_hand_normal"
+
+	"$phong" "1"
+	"$phongexponent" "4"
+	"$phongboost" ".15"	
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[1 5 10]"
+	"$halflambert" "1"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "5"										// Exponent for phong component of 	rim lighting	
+	"$rimlightboost" ".9"										// Boost for ambient cube 	component of rim lighting
+	"$envmap" "models/items/berserk_glow"
+	"$envmaptint" "[0 0 0]"
+	"$envmaptint_rage" "[1 0 0]"
+	"$envmaptint_orig" "[0 0 0]"
+	"$envmapfresnel" "1"	
+	
+	"$rage" "1"
+	"$rage_compare" ".5"
+	"$phongfresnelranges_rage"	"[0 1 10]"
+	"$phongfresnelranges_orig"	"[.3 1 8]"
+	// Cloaking
+	"$cloakPassEnabled" "1"
+	"Proxies"
+	{
+		"spy_invis"
+		{
+		}
+		"RipAndTear"
+		{
+			"resultVar" "$rage"
+		}
+		"LessOrEqual"
+		{
+			"lessEqualVar"	"$phongfresnelranges"
+			"greaterVar"	"$phongfresnelranges_orig"
+			"srcVar1"		"$rage"
+			"srcVar2"		"$rage_compare"
+			"resultVar"		"$phongfresnelranges"
+		}
+		"LessOrEqual"
+		{
+			"lessEqualVar"	"$envmaptint"
+			"greaterVar"	"$envmaptint_orig"
+			"srcVar1"		"$rage"
+			"srcVar2"		"$rage_compare"
+			"resultVar"		"$envmaptint"
+		}
+		"LessOrEqual"
+		{
+			"lessEqualVar"	"$phongfresnelranges"
+			"greaterVar"	"$phongfresnelranges_rage"
+			"srcVar1"		"$rage_compare"
+			"srcVar2"		"$rage"
+			"resultVar"		"$phongfresnelranges"
+		}
+		"LessOrEqual"
+		{
+			"lessEqualVar"	"$envmaptint"
+			"greaterVar"	"$envmaptint_rage"
+			"srcVar1"		"$rage_compare"
+			"srcVar2"		"$rage"
+			"resultVar"		"$envmaptint"
+		}
+	}
+	
+}

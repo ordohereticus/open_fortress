@@ -1,0 +1,9 @@
+"WorldVertexTransition"
+{
+	"$basetexture"	"egypt\sky_sand_02"
+	"$basetexture2" "egypt\sand_floor_sea"
+	"$surfaceprop" "sand"
+	"$ssbump" "1"
+	"%tooltexture" "editor-abs/blendttx/egypt/sky_sand_waves_01"
+	"%keywords" "tf"
+}

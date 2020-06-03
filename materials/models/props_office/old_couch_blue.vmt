@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_office/old_couch_blue"
+    "$halflambert" "1"
+}

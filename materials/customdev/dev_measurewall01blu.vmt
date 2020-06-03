@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	// Original shader: BaseTimesLightmap
+	"$basetexture" "customdev/dev_measurewall01blu"
+	"$surfaceprop" "dirt"
+	"%keywords" "tf"
+}

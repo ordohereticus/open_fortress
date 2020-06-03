@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/props_spytech/control_room_consoles_yellow"
+	"$selfillum" 1
+	"$selfillummask" "Models/props_spytech/control_room_consoles_selfillum"
+	"$nodecal" "1"
+}

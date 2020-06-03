@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "skybox/skybox_gradient_fog"
+	"$additive" "1"
+	"$nocull" "1"
+	"%keywords" "tf"
+}

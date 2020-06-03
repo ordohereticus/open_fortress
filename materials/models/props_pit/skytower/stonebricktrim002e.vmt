@@ -1,0 +1,11 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "pit/stone_trim1"
+	"$bumpmap" "pit/stone_trim1_normal"
+	"%keywords" "tf"
+	"$detail" "overlays/detail007"
+	"$detailscale" "1.9"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "1"
+	"$surfaceprop" "rock"
+}

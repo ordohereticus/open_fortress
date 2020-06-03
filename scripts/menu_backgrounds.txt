@@ -1,0 +1,23 @@
+"MenuBackgrounds"
+{
+	"loading"
+	{
+		"background_count"	"5"
+		
+		"image" "../console/background01"
+		"image" "../console/background02"
+		"image" "../console/background03"
+		"image" "../console/background04"
+		"image" "../console/background05"
+	}
+	"main_menu"
+	{
+		"background_count"	"5"
+
+		"movie"	"media/background01.bik"
+	    "movie"	"media/background02.bik"
+	    "movie"	"media/background03.bik"
+	    "movie"	"media/background04.bik"
+	    "movie"	"media/background05.bik"
+	}
+}

@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/custom_cars/vw_beetle/black"
+	"$surfaceprop" "Glass"
+}

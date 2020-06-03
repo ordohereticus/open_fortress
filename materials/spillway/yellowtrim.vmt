@@ -1,0 +1,6 @@
+"LightMappedGeneric"
+{
+	"$basetexture"	"spillway/yellowtrim"
+	"$surfaceprop" "metal"
+	"%keywords" "tf"
+}

@@ -1,0 +1,78 @@
+// Choreo version 1
+event loop "end_cycle"
+{
+  time 4.140000 -1.000000
+  param "2.380000"
+  loopcount "-1"
+}
+actor "soldier"
+{
+  channel "body"
+  {
+    event sequence "selectionMenu_Anim01"
+    {
+      time 0.000000 2.366667
+      param "selectionMenu_Anim01"
+      fixedlength
+    }
+    event sequence "selectionMenu_Idle"
+    {
+      time 2.370000 4.170000
+      param "selectionMenu_Idle"
+    }
+  }
+  channel "sequence"
+  {
+    event sequence "selectionMenu_Idle"
+    {
+      time 426.000000 429.066681
+      param "selectionMenu_Idle"
+    }
+    event expression "actionfire02"
+    {
+      time 0.413793 1.413793
+      param "player\heavy\emotion\emotion"
+      param2 "actionfire02"
+      event_ramp
+      {
+        0.2833 0.2235
+        0.6500 0.1804
+      }
+    }
+  }
+  channel "facial"
+  {
+    event expression "mad"
+    {
+      time 0.413617 4.156329
+      param "player\soldier\emotion\emotion"
+      param2 "mad"
+      event_ramp
+      {
+        0.1696 0.5333
+        3.7427 0.5333
+      }
+    }
+    event expression "defaultFace"
+    {
+      time 0.000000 1.074713
+      param "player\scout\emotion\emotion"
+      param2 "defaultFace"
+    }
+    event expression "happysmall02"
+    {
+      time 1.620690 4.166667
+      param "player\heavy\emotion\emotion"
+      param2 "happysmall02"
+      event_ramp
+      {
+        0.4833 0.7412
+        2.5460 0.7412
+      }
+    }
+  }
+}
+
+fps 60
+snap off
+ignorePhonemes off

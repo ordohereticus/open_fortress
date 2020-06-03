@@ -1,0 +1,30 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_office_pack/office_desk/office_desk_2_blue"
+	"$blendtintbybasealpha" "1" 
+	"$blendtintcoloroverbase" "1"  
+
+	"$color2" "{173 166 111}"
+	"$colortint_tmp" "[0 0 0]" 
+	"$colortint_base" "{173 166 111}"
+
+	"proxies"
+    	{
+		"Equals"
+		{
+			"srcVar1"       "$yellow"
+			"resultVar"     "$color2"
+		 }        
+		 "ItemTintColor"
+		 {
+			 "resultVar"     "$colortint_tmp"
+		}
+		 "SelectFirstIfNonZero"
+		{
+			"srcVar1"       "$colortint_tmp"
+			 "srcVar2"       "$colortint_base"
+			"resultVar"     "$color2"
+        		}
+	}
+
+}

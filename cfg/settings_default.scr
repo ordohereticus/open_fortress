@@ -1,0 +1,260 @@
+// NOTE:  THIS FILE IS AUTOMATICALLY REGENERATED, 
+//DO NOT EDIT THIS HEADER, YOUR COMMENTS WILL BE LOST IF YOU DO
+// Multiplayer options script
+//
+// Format:
+//  Version [float]
+//  Options description followed by 
+//  Options defaults
+//
+// Option description syntax:
+//
+//  "cvar" { "Prompt" { type [ type info ] } { default } }
+//
+//  type = 
+//   BOOL   (a yes/no toggle)
+//   STRING
+//   NUMBER
+//   LIST
+//
+// type info:
+// BOOL                 no type info
+// NUMBER       min max range, use -1 -1 for no limits
+// STRING       no type info
+// LIST          delimited list of options value pairs
+//
+//
+// default depends on type
+// BOOL is "0" or "1"
+// NUMBER is "value"
+// STRING is "value"
+// LIST is "index", where index "0" is the first element of the list
+
+
+// Half-Life Server Configuration Layout Script (stores last settings chosen, too)
+// File generated:  Mon Jul 12 05:28:33 PM
+//
+//
+// Cvar	-	Setting
+
+VERSION 1.0
+
+DESCRIPTION SERVER_OPTIONS
+{
+	"hostname"
+	{
+		"#Valve_Hostname"
+		{ STRING }
+		{ "Open Fortress" }
+	}
+
+	"maxplayers"
+	{
+		"#Valve_Max_Players"
+		{ NUMBER 1 64 }
+		{ "16" }
+	}
+	
+	"tf_bot_quota"
+	{
+		"#TF_Bots"
+		{ NUMBER 0 64 }
+		{ "0" }
+	}
+	
+	"tf_bot_difficulty"
+	{
+		"#TF_BotsDifficulty"
+        {
+            LIST        
+            "#TF_BotsEasy" 		"0"
+            "#TF_BotsMedium" 	"1"
+            "#TF_BotsHard" 		"2"
+			"#TF_BotsExpert" 	"3"
+        }
+        { "2" }
+	}
+
+	"sv_password"
+	{
+		"#Valve_Server_Password"
+		{ STRING }
+		{ "" }
+	}
+	
+	"sv_gravity"
+	{
+		"#TF_GravityLevel"
+		{ NUMBER -1000 1000 }
+		{ "800" }
+	}
+	
+	"mp_fraglimit"
+	{
+		"#TF_Fraglimit"
+		{ NUMBER 0 -1 }
+		{ "25" }
+	}
+
+	"mp_timelimit"
+	{
+		"#TF_Timelimit"
+		{ NUMBER 0 -1 }
+		{ "30" }
+	}
+	
+	"mp_maxrounds"
+	{
+		"#TF_MaxRounds"
+		{ NUMBER 0 -1 }
+		{ "3" }
+	}
+
+    "mp_teamplay"
+    {
+        "#TF_TeamPlay"
+        {
+            LIST        
+            "#TF_Option_OFF" 	"0"
+            "#TF_Option_ON" 	"1"
+        }
+        { "0" }
+    }
+	
+    "of_bunnyhop"
+    {
+        "#TF_Bunnyhop"
+        {
+            LIST        
+            "#TF_Bunnyhop_Merc" 		"-1"
+            "#TF_Bunnyhop_None" 		"0"
+			"#TF_Bunnyhop_All" 			"1"
+			"#TF_Bunnyhop_AllZombies" 	"2"
+        }
+        { "#TF_Bunnyhop_Merc" }
+    }
+	
+	"of_infection"
+    {
+        "#TF_InfectionToggle"
+        {
+            LIST        
+            "#TF_Option_OFF" 	"0"
+            "#TF_Option_ON" 	"1"
+        }
+        { "0" }
+    }
+	
+	"of_mutator"
+	{
+		"#TF_Mutators"
+        {
+            LIST        
+            "#TF_Option_OFF" 		"0"
+			"#TF_Instagib"			"1"
+			"#TF_InstagibNoMelee" 	"2"
+			"#TF_ClanArena"			"3"
+			"#TF_UnholyTrinity"		"4"
+			"#TF_RocketArena"		"5"
+			"#TF_GunGame"			"6"
+			"#TF_Arsenal"			"7"
+        }
+        { "0" }
+	}
+	
+	"of_randomizer"
+	{
+		"#TF_Randomizer"
+		{ BOOL }
+		{ "0" }
+	}
+	
+	"of_randomizer_setting"
+	{
+		"#TF_RandomizerSetting"
+        {
+            LIST        
+            "#TF_RandomizerSetting_TF2" "0"
+            "#TF_RandomizerSetting_TFC" "1"
+            "#TF_RandomizerSetting_DM" 	"2"		
+            "#TF_RandomizerSetting_TFDM" "3"					
+        }
+        { "0" }
+	}
+	
+	"of_forceclass"
+	{
+		"#TF_ForceClass"
+		{ BOOL }
+		{ "1" }
+	}
+	
+	"of_forcezombieclass"
+	{
+		"#TF_ForceZombieClass"
+		{ BOOL }
+		{ "1" }
+	}
+	
+	"of_allow_allclass_pickups"
+	{
+		"#TF_AllclassPickups"
+		{ BOOL }
+		{ "0" }
+	}
+	
+	"of_allow_allclass_spawners"
+	{
+		"#TF_AllclassSpawners"
+		{ BOOL }
+		{ "0" }
+	}
+	
+	"of_weaponspawners"
+	{
+		"#TF_WeaponSpawners"
+		{ BOOL }
+		{ "1" }
+	}
+	
+	"of_powerups"
+	{
+		"#TF_Powerups"
+		{ BOOL }
+		{ "1" }
+	}
+	
+	"of_multiweapons"
+	{
+		"#TF_Multiweapons"
+		{ BOOL }
+		{ "1" }
+	}
+	
+	"of_headshots"
+	{
+		"#TF_Headshots"
+        {
+            LIST        
+            "#TF_Option_OFF" 	"0"
+            "#TF_Option_ON" 	"1"
+			"#TF_HeadshotsOnly" "2"
+        }
+        { "0" }
+	}
+	
+	"mp_friendlyfire"
+	{
+		"#TF_Friendlyfire"
+		{ BOOL }
+		{ "0" }
+	}
+	
+	"mp_flashlight"
+	{
+		"#MP_Allow_Flashlight"
+		{ BOOL }
+		{ "0" }
+	}
+	
+}

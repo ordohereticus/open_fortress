@@ -1,0 +1,7 @@
+Sprite
+{
+$spriteorientation vp_parallel
+$spriteorigin "[ 0.50 0.50 ]"
+$basetexture "editor-ficool2/test_traceline"
+$no_fullbright 1
+}

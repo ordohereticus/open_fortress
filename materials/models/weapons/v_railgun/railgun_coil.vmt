@@ -1,0 +1,17 @@
+"unLitGeneric"
+{
+	"$basetexture"	"models\weapons\v_railgun\railgun"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+	"Proxies"
+	{
+		"spy_invis"
+		{
+		}
+//		"weapon_invis"
+//		{
+//		}
+	}
+}
+

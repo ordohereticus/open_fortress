@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "watergate/watergate_metal_wall_001"
+	"$bumpmap" "Metal/wall017_normal"
+	"$surfaceprop" "metal"
+	"%keywords" "tf"
+}

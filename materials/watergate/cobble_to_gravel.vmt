@@ -1,0 +1,10 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "watergate/cobble_floor"
+	"$basetexture2" "Nature/gravelgrayred001"
+	"$blendmodulatetexture" "watergate/blend_cobble"
+
+//whatever you are looking for its not here...
+	"%keywords" "tf"
+
+}

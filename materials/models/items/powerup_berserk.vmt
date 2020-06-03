@@ -1,0 +1,27 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\items\powerup_berserk"
+	"$basemapalphaphongmask" "1"
+
+	
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongboost" "1"	
+	//"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[1 2 5]"
+	"$halflambert" "1"
+
+	"$color2" "{200 75 45}"
+	
+	"$rimlight" "1"												
+	"$rimlightexponent" "4"										
+	"$rimlightboost" "4"										
+
+//...TEAR RIP AND TEAR...
+//...RIP AND TEAR YOUR GUTS!
+//  YOU ARE HUGE! THAT MEANS YOU HAVE HUGE GUTS!
+//  RIP AND TEAR!
+
+//  OOH, HERE IT COMES! HERE COMES THE NIGHT TRAIN!
+
+}

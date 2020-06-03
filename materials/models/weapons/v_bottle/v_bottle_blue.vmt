@@ -1,0 +1,41 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\v_bottle/v_bottle_blue"
+
+	//"$envmap" "env_cubemap"
+	"$envmaptint" "[.45 .45 .45]"
+
+	"$glowcolor" "1"
+	"$phong" "1"
+	"$phongexponent" "60"
+	"$phongboost" "20"	
+	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	"$phongfresnelranges" "[0.25 0.5 1]"
+	"$basemapalphaphongmask" "1"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "4"	
+	"$rimlightboost" "2"
+
+	"$cloakPassEnabled" "1"
+	"Proxies"
+	{
+		"ModelGlowColor"
+		{
+			"resultVar""$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"	"$glowcolor"
+			"resultVar"	"$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"	"$glowcolor"
+			"resultVar"	"$color2"
+		}
+		"spy_invis"
+		{
+		}
+	}
+}

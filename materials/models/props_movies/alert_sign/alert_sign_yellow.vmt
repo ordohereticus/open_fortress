@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_movies/alert_sign/alert_sign_yellow"
+	"$selfillum" 1
+
+	"$phong" "1"
+	"$phongexponent" "21"
+	"$phongboost" "1"	
+	"$phongfresnelranges"	"[2 1 .8]"
+	"$bumpmap" "models/effects/flat_normal"
+
+}

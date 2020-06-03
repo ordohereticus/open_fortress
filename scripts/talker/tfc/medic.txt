@@ -1,0 +1,1413 @@
+//--------------------------------------------------------------------------------------------------------------
+// Medic Response Rule File
+//--------------------------------------------------------------------------------------------------------------
+
+
+Response MedicTFCChargeReady
+{
+	scene "scenes/Player/Medic/low/528.vcd" 
+	scene "scenes/Player/Medic/low/529.vcd" 
+	scene "scenes/Player/Medic/low/530.vcd" 
+}
+Rule MedicTFCChargeReady
+{
+	criteria IsTFC ConceptMedicChargeReady IsMedic
+	Response MedicTFCChargeReady
+}
+
+Response PlayerCloakedSpyDemomanMedicTFC
+{
+	scene "scenes/Player/Medic/low/559.vcd" 
+}
+Rule PlayerCloakedSpyDemomanMedicTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsMedic IsOnDemoman
+	Response PlayerCloakedSpyDemomanMedicTFC
+}
+
+Response PlayerCloakedSpyEngineerMedicTFC
+{
+	scene "scenes/Player/Medic/low/562.vcd" 
+}
+Rule PlayerCloakedSpyEngineerMedicTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsMedic IsOnEngineer
+	Response PlayerCloakedSpyEngineerMedicTFC
+}
+
+Response PlayerCloakedSpyHeavyMedicTFC
+{
+	scene "scenes/Player/Medic/low/557.vcd" 
+}
+Rule PlayerCloakedSpyHeavyMedicTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsMedic IsOnHeavy
+	Response PlayerCloakedSpyHeavyMedicTFC
+}
+
+Response PlayerCloakedSpyMedicMedicTFC
+{
+	scene "scenes/Player/Medic/low/561.vcd" 
+}
+Rule PlayerCloakedSpyMedicMedicTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsMedic IsOnMedic
+	Response PlayerCloakedSpyMedicMedicTFC
+}
+
+Response PlayerCloakedSpyPyroMedicTFC
+{
+	scene "scenes/Player/Medic/low/558.vcd" 
+}
+Rule PlayerCloakedSpyPyroMedicTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsMedic IsOnPyro
+	Response PlayerCloakedSpyPyroMedicTFC
+}
+
+Response PlayerCloakedSpyScoutMedicTFC
+{
+	scene "scenes/Player/Medic/low/555.vcd" 
+}
+Rule PlayerCloakedSpyScoutMedicTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsMedic IsOnScout
+	Response PlayerCloakedSpyScoutMedicTFC
+}
+
+Response PlayerCloakedSpySniperMedicTFC
+{
+	scene "scenes/Player/Medic/low/563.vcd" 
+}
+Rule PlayerCloakedSpySniperMedicTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsMedic IsOnSniper
+	Response PlayerCloakedSpySniperMedicTFC
+}
+
+Response PlayerCloakedSpySoldierMedicTFC
+{
+	scene "scenes/Player/Medic/low/556.vcd" 
+}
+Rule PlayerCloakedSpySoldierMedicTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsMedic IsOnSoldier
+	Response PlayerCloakedSpySoldierMedicTFC
+}
+
+Response PlayerCloakedSpySpyMedicTFC
+{
+	scene "scenes/Player/Medic/low/560.vcd" 
+}
+Rule PlayerCloakedSpySpyMedicTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsMedic IsOnSpy
+	Response PlayerCloakedSpySpyMedicTFC
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Auto Speech
+//--------------------------------------------------------------------------------------------------------------
+Response HealThanksMedicTFC
+{
+	scene "scenes/Player/Medic/low/683.vcd" 
+	scene "scenes/Player/Medic/low/684.vcd" 
+}
+Rule HealThanksMedicTFC
+{
+	criteria IsTFC ConceptMedicChargeStopped IsMedic SuperHighHealthContext MedicNotSaidHealThanks 50PercentChance
+	ApplyContext "MedicSaidHealThanks:1:20"
+	Response HealThanksMedicTFC
+}
+
+Response PlayerRoundStartMedicTFC
+{
+	scene "scenes/Player/Medic/low/537.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Medic/low/539.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Medic/low/540.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Medic/low/541.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Medic/low/542.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Medic/low/543.vcd" predelay "1.0, 5.0"
+}
+Rule PlayerRoundStartMedicTFC
+{
+	criteria IsTFC ConceptPlayerRoundStart IsMedic
+	Response PlayerRoundStartMedicTFC
+}
+
+Response PlayerCappedIntelligenceMedicTFC
+{
+	scene "scenes/Player/Medic/low/525.vcd" 
+	scene "scenes/Player/Medic/low/526.vcd" 
+	scene "scenes/Player/Medic/low/527.vcd" 
+}
+Rule PlayerCappedIntelligenceMedicTFC
+{
+	criteria IsTFC ConceptPlayerCapturedIntelligence IsMedic
+	Response PlayerCappedIntelligenceMedicTFC
+}
+
+Response PlayerCapturedPointMedicTFC
+{
+	scene "scenes/Player/Medic/low/522.vcd" 
+	scene "scenes/Player/Medic/low/523.vcd" 
+	scene "scenes/Player/Medic/low/524.vcd" 
+}
+Rule PlayerCapturedPointMedicTFC
+{
+	criteria IsTFC ConceptPlayerCapturedPoint IsMedic
+	Response PlayerCapturedPointMedicTFC
+}
+
+Response PlayerSuddenDeathMedicTFC
+{
+	scene "scenes/Player/Medic/low/592.vcd" 
+	scene "scenes/Player/Medic/low/593.vcd" 
+	scene "scenes/Player/Medic/low/594.vcd" 
+	scene "scenes/Player/Medic/low/595.vcd" 
+	scene "scenes/Player/Medic/low/596.vcd" 
+	scene "scenes/Player/Medic/low/597.vcd" 
+	scene "scenes/Player/Medic/low/598.vcd" 
+	scene "scenes/Player/Medic/low/599.vcd" 
+	scene "scenes/Player/Medic/low/600.vcd" 
+	scene "scenes/Player/Medic/low/601.vcd" 
+	scene "scenes/Player/Medic/low/603.vcd" 
+	scene "scenes/Player/Medic/low/602.vcd" 
+}
+Rule PlayerSuddenDeathMedicTFC
+{
+	criteria IsTFC ConceptPlayerSuddenDeathStart IsMedic
+	Response PlayerSuddenDeathMedicTFC
+}
+
+Response PlayerStalemateMedicTFC
+{
+	scene "scenes/Player/Medic/low/531.vcd" 
+	scene "scenes/Player/Medic/low/532.vcd" 
+	scene "scenes/Player/Medic/low/533.vcd" 
+	scene "scenes/Player/Medic/low/1222.vcd" 
+	scene "scenes/Player/Medic/low/1223.vcd" 
+	scene "scenes/Player/Medic/low/1224.vcd" 
+	scene "scenes/Player/Medic/low/1225.vcd" 
+}
+Rule PlayerStalemateMedicTFC
+{
+	criteria IsTFC ConceptPlayerStalemate IsMedic
+	Response PlayerStalemateMedicTFC
+}
+
+Response PlayerTeleporterThanksMedicTFC
+{
+	scene "scenes/Player/Medic/low/688.vcd" 
+	scene "scenes/Player/Medic/low/686.vcd" 
+	scene "scenes/Player/Medic/low/687.vcd" 
+}
+Rule PlayerTeleporterThanksMedicTFC
+{
+	criteria IsTFC ConceptTeleported IsNotEngineer IsMedic 30PercentChance
+	Response PlayerTeleporterThanksMedicTFC
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Auto Speech Combat
+//--------------------------------------------------------------------------------------------------------------
+Response DefendOnThePointMedicTFC
+{
+	scene "scenes/Player/Medic/low/659.vcd" 
+	scene "scenes/Player/Medic/low/660.vcd" 
+	scene "scenes/Player/Medic/low/1237.vcd" 
+	scene "scenes/Player/Medic/low/1238.vcd" 
+	scene "scenes/Player/Medic/low/1239.vcd" 
+}
+Rule DefendOnThePointMedicTFC
+{
+	criteria IsTFC ConceptFireWeapon IsMedic IsOnFriendlyControlPoint NotDefendOnThePointSpeech
+	ApplyContext "DefendOnThePointSpeech:1:30"
+	applycontexttoworld
+	Response DefendOnThePointMedicTFC
+}
+
+Response InvulnerableSpeechMedicTFC
+{
+	scene "scenes/Player/Medic/low/648.vcd" 
+	scene "scenes/Player/Medic/low/649.vcd" 
+	scene "scenes/Player/Medic/low/650.vcd" 
+}
+Rule InvulnerableSpeechMedicTFC
+{
+	criteria IsTFC ConceptMedicChargeDeployed IsMedic  IsInvulnerable MedicNotInvulnerableSpeech
+	ApplyContext "MedicInvulnerableSpeech:1:30"
+	Response InvulnerableSpeechMedicTFC
+}
+
+Response MedicJarateHit
+{
+	scene "scenes/Player/Medic/low/622.vcd"
+	scene "scenes/Player/Medic/low/623.vcd"
+	scene "scenes/Player/Medic/low/1223.vcd"
+	scene "scenes/Player/Medic/low/1224.vcd"
+	scene "scenes/Player/Medic/low/1225.vcd"
+}
+Rule MedicJarateHit
+{
+	criteria IsTFC ConceptJarateHit IsMedic 50PercentChance
+	Response MedicJarateHit
+}
+
+// Custom stuff
+Response InvulnerableSpeechCombatMedicTFC
+{
+	scene "scenes/Player/Medic/low/646.vcd" 
+	scene "scenes/Player/Medic/low/647.vcd" 
+	scene "scenes/Player/Medic/low/653.vcd" 
+}
+Rule InvulnerableSpeechCombatMedicTFC
+{
+	criteria IsTFC ConceptFireWeapon IsMedic IsInvulnerable WeaponIsNotMediGun MedicNotInvulnerableSpeech
+	ApplyContext "MedicInvulnerableSpeech:1:30"
+	Response InvulnerableSpeechCombatMedicTFC
+}
+
+Response KritzSpeechMedicTFC
+{
+	scene "scenes/Player/Medic/low/664.vcd"  
+	scene "scenes/Player/Medic/low/676.vcd"  
+}
+Rule KritzSpeechMedicTFC
+{
+	criteria IsTFC ConceptMedicChargeDeployed IsMedic WeaponIsNotVanillaSecondary WeaponIsNotTaggedMedigun MedicNotInvulnerableSpeech
+	ApplyContext "MedicInvulnerableSpeech:1:30"
+	Response InvulnerableSpeechMedic
+	Response KritzSpeechMedicTFC
+}
+
+Response KilledPlayerAssistAutoMedicTFC
+{
+	scene "scenes/Player/Medic/low/657.vcd" predelay "2.5"
+	scene "scenes/Player/Medic/low/658.vcd" predelay "2.5"
+}
+Rule KilledPlayerAssistAutoMedicTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsMedic IsBeingHealed IsARecentKill KilledPlayerDelay 20PercentChance MedicNotAssistSpeech
+	ApplyContext "MedicAssistSpeech:1:20"
+	Response KilledPlayerAssistAutoMedicTFC
+}
+
+// End custom
+
+// Modified so that Medic says pretty much any of his killstreak or domination lines when he gets a kill
+// Medic will rarely get kills let alone dominations himself so this is fine
+
+Response KilledPlayerManyMedicTFC
+{
+	scene "scenes/Player/Medic/low/651.vcd"
+	scene "scenes/Player/Medic/low/663.vcd"
+}
+Rule KilledPlayerManyMedicTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsManyRecentKills 30PercentChance KilledPlayerDelay MedicNotKillSpeech IsMedic
+	ApplyContext "MedicKillSpeech:1:10"
+	Response KilledPlayerManyMedicTFC
+}
+Response KilledPlayerVeryManyMedicTFC
+{
+	scene "scenes/Player/Medic/low/646.vcd" 
+	scene "scenes/Player/Medic/low/655.vcd" 
+	scene "scenes/Player/Medic/low/656.vcd" 
+	scene "scenes/Player/Medic/low/652.vcd" 
+}
+Rule KilledPlayerVeryManyMedicTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsVeryManyRecentKills 50PercentChance KilledPlayerDelay MedicNotKillSpeech IsMedic
+	ApplyContext "MedicKillSpeech:1:10"
+	Response KilledPlayerVeryManyMedicTFC
+}
+
+Response PlayerKilledDominatingMedicTFC
+{
+	scene "scenes/Player/Medic/low/1227.vcd" predelay "2.5"
+	scene "scenes/Player/Medic/low/1232.vcd" predelay "2.5"
+	scene "scenes/Player/Medic/low/605.vcd" predelay "2.5"
+	scene "scenes/Player/Medic/low/606.vcd" predelay "2.5"
+	scene "scenes/Player/Medic/low/1229.vcd" predelay "2.5"
+	scene "scenes/Player/Medic/low/607.vcd" predelay "2.5"
+	scene "scenes/Player/Medic/low/608.vcd" predelay "2.5"
+	scene "scenes/Player/Medic/low/1230.vcd" predelay "2.5"
+	scene "scenes/Player/Medic/low/679.vcd" predelay "2.5"
+	scene "scenes/Player/Medic/low/1240.vcd" predelay "2.5"
+}
+Rule PlayerKilledDominatingMedicTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsMedic IsDominated
+	ApplyContext "MedicKillSpeech:1:10"
+	ApplyContext "IsDominating:1:10"
+	Response PlayerKilledDominatingMedicTFC
+}
+
+
+Response KilledPlayerMedicTFC
+{
+	scene "scenes/Player/Medic/low/645.vcd" 
+}
+Rule KilledPlayerMedicTFC
+{
+	criteria IsTFC ConceptKilledPlayer KilledPlayerDelay 30PercentChance MedicNotKillSpeech MedicNotKillSpeechMelee IsMedic
+	ApplyContext "MedicKillSpeechMelee:1:10"
+	Response InvulnerableSpeechCombatMedic
+	Response KilledPlayerMedic
+	Response KilledPlayerManyMedic
+	Response KilledPlayerVeryManyMedic
+	Response PlayerKilledDominatingMedicTFC
+}
+
+// Done
+
+Response PlayerKilledCapperMedicTFC
+{
+	scene "scenes/Player/Medic/low/1222.vcd" 
+	scene "scenes/Player/Medic/low/545.vcd" 
+	scene "scenes/Player/Medic/low/551.vcd" 
+	scene "scenes/Player/Medic/low/552.vcd" 
+	scene "scenes/Player/Medic/low/641.vcd" 
+	scene "scenes/Player/Medic/low/674.vcd" 
+}
+Rule PlayerKilledCapperMedicTFC
+{
+	criteria IsTFC ConceptCapBlocked IsMedic
+	ApplyContext "MedicKillSpeech:1:10"
+	Response PlayerKilledCapperMedicTFC
+}
+
+Response PlayerKilledForRevengeMedicTFC
+{
+	scene "scenes/Player/Medic/low/569.vcd" predelay "2.5"
+	scene "scenes/Player/Medic/low/620.vcd" predelay "2.5"
+	scene "scenes/Player/Medic/low/1233.vcd" predelay "2.5"
+	scene "scenes/Player/Medic/low/1234.vcd" predelay "2.5"
+}
+Rule PlayerKilledForRevengeMedicTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsMedic IsRevenge
+	ApplyContext "MedicKillSpeech:1:10"
+	ApplyContext "IsDominating:1:10"
+	Response PlayerKilledForRevengeMedicTFC
+}
+
+Response PlayerKilledObjectMedicTFC
+{
+	scene "scenes/Player/Medic/low/653.vcd" 
+	scene "scenes/Player/Medic/low/654.vcd" 
+}
+Rule PlayerKilledObjectMedicTFC
+{
+	criteria IsTFC ConceptKilledObject IsMedic 30PercentChance IsARecentKill
+	ApplyContext "MedicKillSpeechObject:1:30"
+	Response PlayerKilledObjectMedicTFC
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Auto Speech Pain
+//--------------------------------------------------------------------------------------------------------------
+Response PlayerAttackerPainMedicTFC
+{
+	scene "scenes/Player/Medic/low/633.vcd" 
+	scene "scenes/Player/Medic/low/634.vcd" 
+	scene "scenes/Player/Medic/low/635.vcd" 
+	scene "scenes/Player/Medic/low/1243.vcd" 
+}
+Rule PlayerAttackerPainMedicTFC
+{
+	criteria IsTFC ConceptAttackerPain IsMedic IsNotDominating
+	Response PlayerAttackerPainMedicTFC
+}
+
+Response PlayerOnFireMedicTFC
+{
+	scene "scenes/Player/Medic/low/534.vcd" 
+	scene "scenes/Player/Medic/low/535.vcd" 
+	scene "scenes/Player/Medic/low/536.vcd" 
+}
+Rule PlayerOnFireMedicTFC
+{
+	criteria IsTFC ConceptFire IsMedic MedicIsNotStillonFire IsNotDominating
+	ApplyContext "MedicOnFire:1:7"
+	Response PlayerOnFireMedicTFC
+}
+
+Response PlayerOnFireRareMedicTFC
+{
+	scene "scenes/Player/Medic/low/1401.vcd" 
+	scene "scenes/Player/Medic/low/1402.vcd" 
+}
+Rule PlayerOnFireRareMedicTFC
+{
+	criteria IsTFC ConceptFire IsMedic 10PercentChance MedicIsNotStillonFire IsNotDominating
+	ApplyContext "MedicOnFire:1:7"
+	Response PlayerOnFireRareMedicTFC
+}
+
+Response PlayerPainMedicTFC
+{
+	scene "scenes/Player/Medic/low/636.vcd" 
+	scene "scenes/Player/Medic/low/637.vcd" 
+	scene "scenes/Player/Medic/low/638.vcd" 
+	scene "scenes/Player/Medic/low/1244.vcd" 
+	scene "scenes/Player/Medic/low/1245.vcd" 
+	scene "scenes/Player/Medic/low/1246.vcd" 
+	scene "scenes/Player/Medic/low/1247.vcd" 
+	scene "scenes/Player/Medic/low/1248.vcd" 
+}
+Rule PlayerPainMedicTFC
+{
+	criteria IsTFC ConceptPain IsMedic IsNotDominating
+	Response PlayerPainMedicTFC
+}
+
+Response PlayerStillOnFireMedicTFC
+{
+	scene "scenes/Player/Medic/low/1924.vcd" 
+}
+Rule PlayerStillOnFireMedicTFC
+{
+	criteria IsTFC ConceptFire IsMedic  MedicIsStillonFire IsNotDominating
+	ApplyContext "MedicOnFire:1:7"
+	Response PlayerStillOnFireMedicTFC
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Duel Speech
+//--------------------------------------------------------------------------------------------------------------
+Response AcceptedDuelMedicTFC
+{
+	scene "scenes/Player/Medic/low/541.vcd" 
+	scene "scenes/Player/Medic/low/640.vcd" 
+	scene "scenes/Player/Medic/low/689.vcd" 
+	scene "scenes/Player/Medic/low/690.vcd" 
+}
+Rule AcceptedDuelMedicTFC
+{
+	criteria IsTFC ConceptIAcceptDuel IsMedic
+	Response AcceptedDuelMedicTFC
+}
+
+Response MeleeDareMedicTFC
+{
+	scene "scenes/Player/Medic/low/524.vcd" 
+	scene "scenes/Player/Medic/low/597.vcd" 
+	scene "scenes/Player/Medic/low/672.vcd" 
+	scene "scenes/Player/Medic/low/677.vcd" 
+}
+Rule MeleeDareMedicTFC
+{
+	criteria IsTFC ConceptRequestDuel IsMedic
+	Response MeleeDareMedicTFC
+}
+
+Response RejectedDuelMedicTFC
+{
+	scene "scenes/Player/Medic/low/531.vcd" 
+	scene "scenes/Player/Medic/low/1222.vcd" 
+	scene "scenes/Player/Medic/low/1225.vcd" 
+	scene "scenes/Player/Medic/low/596.vcd" 
+	scene "scenes/Player/Medic/low/678.vcd" 
+}
+Rule RejectedDuelMedicTFC
+{
+	criteria IsTFC ConceptDuelRejected IsMedic
+	Response RejectedDuelMedicTFC
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Speech Menu 1
+//--------------------------------------------------------------------------------------------------------------
+Response PlayerGoMedicTFC
+{
+	scene "scenes/Player/Medic/low/565.vcd" 
+	scene "scenes/Player/Medic/low/566.vcd" 
+	scene "scenes/Player/Medic/low/567.vcd" 
+	scene "scenes/Player/Medic/low/1226.vcd" 
+	scene "scenes/Player/Medic/low/1596.vcd" // this doesnt exist
+}
+Rule PlayerGoMedicTFC
+{
+	criteria IsTFC ConceptPlayerGo IsMedic
+	Response PlayerGoMedicTFC
+}
+
+Response PlayerHeadLeftMedicTFC
+{
+	scene "scenes/Player/Medic/low/571.vcd" 
+	scene "scenes/Player/Medic/low/572.vcd" 
+	scene "scenes/Player/Medic/low/573.vcd" 
+}
+Rule PlayerHeadLeftMedicTFC
+{
+	criteria IsTFC ConceptPlayerLeft  IsMedic
+	Response PlayerHeadLeftMedicTFC
+}
+
+Response PlayerHeadRightMedicTFC
+{
+	scene "scenes/Player/Medic/low/574.vcd" 
+	scene "scenes/Player/Medic/low/575.vcd" 
+	scene "scenes/Player/Medic/low/576.vcd" 
+}
+Rule PlayerHeadRightMedicTFC
+{
+	criteria IsTFC ConceptPlayerRight  IsMedic
+	Response PlayerHeadRightMedicTFC
+}
+
+Response PlayerHelpMedicTFC
+{
+	scene "scenes/Player/Medic/low/577.vcd" 
+	scene "scenes/Player/Medic/low/578.vcd" 
+	scene "scenes/Player/Medic/low/579.vcd" 
+}
+Rule PlayerHelpMedicTFC
+{
+	criteria IsTFC ConceptPlayerHelp IsMedic
+	Response PlayerHelpMedicTFC
+}
+
+Response PlayerHelpCaptureMedicTFC
+{
+	scene "scenes/Player/Medic/low/580.vcd" 
+	scene "scenes/Player/Medic/low/581.vcd" 
+}
+Rule PlayerHelpCaptureMedicTFC
+{
+	criteria IsTFC ConceptPlayerHelp IsMedic IsOnCappableControlPoint
+	ApplyContext "MedicHelpCap:1:10"
+	Response PlayerHelpCaptureMedicTFC
+}
+
+Response PlayerHelpCapture2MedicTFC
+{
+	scene "scenes/Player/Medic/low/659.vcd" 
+	scene "scenes/Player/Medic/low/660.vcd" 
+	scene "scenes/Player/Medic/low/1237.vcd" 
+	scene "scenes/Player/Medic/low/1238.vcd" 
+	scene "scenes/Player/Medic/low/1239.vcd" 
+}
+Rule PlayerHelpCapture2MedicTFC
+{
+	criteria IsTFC ConceptPlayerHelp IsMedic IsOnCappableControlPoint IsHelpCapMedic
+	Response PlayerHelpCapture2MedicTFC
+}
+
+Response PlayerHelpDefendMedicTFC
+{
+	scene "scenes/Player/Medic/low/583.vcd" 
+	scene "scenes/Player/Medic/low/584.vcd" 
+	scene "scenes/Player/Medic/low/585.vcd" 
+}
+Rule PlayerHelpDefendMedicTFC
+{
+	criteria IsTFC ConceptPlayerHelp IsMedic IsOnFriendlyControlPoint
+	Response PlayerHelpDefendMedicTFC
+}
+
+Response PlayerMedicMedicTFC
+{
+	scene "scenes/Player/Medic/low/611.vcd" 
+	scene "scenes/Player/Medic/low/612.vcd" 
+	scene "scenes/Player/Medic/low/613.vcd" 
+}
+Rule PlayerMedicMedicTFC
+{
+	criteria IsTFC ConceptPlayerMedic IsMedic
+	Response PlayerMedicMedicTFC
+}
+
+Response PlayerAskForBallMedicTFC
+{
+}
+Rule PlayerAskForBallMedicTFC
+{
+	criteria IsTFC ConceptPlayerAskForBall IsMedic
+	Response PlayerAskForBallMedicTFC
+}
+
+Response PlayerMoveUpMedicTFC
+{
+	scene "scenes/Player/Medic/low/614.vcd" 
+	scene "scenes/Player/Medic/low/615.vcd" 
+}
+Rule PlayerMoveUpMedicTFC
+{
+	criteria IsTFC ConceptPlayerMoveUp  IsMedic
+	Response PlayerMoveUpMedicTFC
+}
+
+Response PlayerNoMedicTFC
+{
+	scene "scenes/Player/Medic/low/627.vcd" 
+	scene "scenes/Player/Medic/low/628.vcd" 
+	scene "scenes/Player/Medic/low/629.vcd" 
+}
+Rule PlayerNoMedicTFC
+{
+	criteria IsTFC ConceptPlayerNo  IsMedic
+	Response PlayerNoMedicTFC
+}
+
+Response PlayerThanksMedicTFC
+{
+	scene "scenes/Player/Medic/low/681.vcd" 
+	scene "scenes/Player/Medic/low/682.vcd" 
+}
+Rule PlayerThanksMedicTFC
+{
+	criteria IsTFC ConceptPlayerThanks IsMedic
+	Response PlayerThanksMedicTFC
+}
+
+// Custom Assist kill response
+// As there is no actual concept for assist kills, this is the second best method.
+// Say thanks after you kill more than one person.
+
+Response KilledPlayerAssistMedicTFC
+{
+	scene "scenes/Player/Medic/low/657.vcd"
+	scene "scenes/Player/Medic/low/658.vcd"
+}
+Rule KilledPlayerAssistMedicTFC
+{
+	criteria IsTFC ConceptPlayerThanks IsMedic IsARecentKill KilledPlayerDelay MedicNotAssistSpeech
+	ApplyContext "MedicAssistSpeech:1:20"
+	Response KilledPlayerAssistMedicTFC
+}
+// End custom
+
+Response PlayerYesMedicTFC
+{
+	scene "scenes/Player/Medic/low/689.vcd" 
+	scene "scenes/Player/Medic/low/690.vcd" 
+	scene "scenes/Player/Medic/low/691.vcd" 
+}
+Rule PlayerYesMedicTFC
+{
+	criteria IsTFC ConceptPlayerYes  IsMedic
+	Response PlayerYesMedicTFC
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Speech Menu 2
+//--------------------------------------------------------------------------------------------------------------
+Response PlayerActivateChargeMedicTFC
+{
+	scene "scenes/Player/Medic/low/519.vcd" 
+	scene "scenes/Player/Medic/low/520.vcd" 
+	scene "scenes/Player/Medic/low/521.vcd" 
+}
+Rule PlayerActivateChargeMedicTFC
+{
+	criteria IsTFC ConceptPlayerActivateCharge IsMedic
+	Response PlayerActivateChargeMedicTFC
+}
+
+Response PlayerChargeReadyMedicTFC
+{
+	scene "scenes/Player/Medic/low/528.vcd" 
+	scene "scenes/Player/Medic/low/529.vcd" 
+	scene "scenes/Player/Medic/low/530.vcd" 
+}
+Rule PlayerChargeReadyMedicTFC
+{
+	criteria IsTFC ConceptPlayerChargeReady IsMedic
+	Response PlayerChargeReadyMedicTFC
+}
+
+Response PlayerCloakedSpyMedicTFC
+{
+	scene "scenes/Player/Medic/low/553.vcd" 
+	scene "scenes/Player/Medic/low/554.vcd" 
+}
+Rule PlayerCloakedSpyMedicTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsMedic
+	Response PlayerCloakedSpyMedicTFC
+}
+
+Response PlayerDispenserHereMedicTFC
+{
+	scene "scenes/Player/Medic/low/616.vcd" 
+}
+Rule PlayerDispenserHereMedicTFC
+{
+	criteria IsTFC ConceptPlayerDispenserHere IsMedic
+	Response PlayerDispenserHereMedicTFC
+}
+
+Response PlayerIncomingMedicTFC
+{
+	scene "scenes/Player/Medic/low/586.vcd" 
+	scene "scenes/Player/Medic/low/587.vcd" 
+	scene "scenes/Player/Medic/low/588.vcd" 
+}
+Rule PlayerIncomingMedicTFC
+{
+	criteria IsTFC ConceptPlayerIncoming IsMedic
+	Response PlayerIncomingMedicTFC
+}
+
+Response PlayerSentryAheadMedicTFC
+{
+	scene "scenes/Player/Medic/low/643.vcd" 
+	scene "scenes/Player/Medic/low/644.vcd" 
+}
+Rule PlayerSentryAheadMedicTFC
+{
+	criteria IsTFC ConceptPlayerSentryAhead IsMedic
+	Response PlayerSentryAheadMedicTFC
+}
+
+Response PlayerSentryHereMedicTFC
+{
+	scene "scenes/Player/Medic/low/617.vcd" 
+}
+Rule PlayerSentryHereMedicTFC
+{
+	criteria IsTFC ConceptPlayerSentryHere IsMedic
+	Response PlayerSentryHereMedicTFC
+}
+
+Response PlayerTeleporterHereMedicTFC
+{
+	scene "scenes/Player/Medic/low/618.vcd" 
+}
+Rule PlayerTeleporterHereMedicTFC
+{
+	criteria IsTFC ConceptPlayerTeleporterHere IsMedic
+	Response PlayerTeleporterHereMedicTFC
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Speech Menu 3
+//--------------------------------------------------------------------------------------------------------------
+Response PlayerBattleCryMedicTFC
+{
+	scene "scenes/Player/Medic/low/537.vcd" 
+	scene "scenes/Player/Medic/low/539.vcd" 
+	scene "scenes/Player/Medic/low/540.vcd" 
+	scene "scenes/Player/Medic/low/541.vcd" 
+	scene "scenes/Player/Medic/low/542.vcd" 
+	scene "scenes/Player/Medic/low/543.vcd" 
+}
+Rule PlayerBattleCryMedicTFC
+{
+	criteria IsTFC ConceptPlayerBattleCry IsMedic
+	Response PlayerBattleCryMedicTFC
+}
+
+// Custom stuff - melee dare
+// Look at enemy, then do battle cry voice command while holding a melee weapon.
+Response MeleeDareCombatMedicTFC
+{
+	scene "scenes/Player/Medic/low/661.vcd"
+	scene "scenes/Player/Medic/low/669.vcd"
+	scene "scenes/Player/Medic/low/672.vcd"
+	scene "scenes/Player/Medic/low/667.vcd"
+	scene "scenes/Player/Medic/low/677.vcd"
+	scene "scenes/Player/Medic/low/680.vcd"
+	scene "scenes/Player/Medic/low/1241.vcd"
+	scene "scenes/Player/Medic/low/679.vcd"
+}
+Rule MeleeDareCombatMedicTFC
+{
+	criteria IsTFC ConceptPlayerBattleCry IsWeaponMelee IsMedic IsCrosshairEnemy
+	Response MeleeDareCombatMedicTFC
+}
+//End custom
+
+Response PlayerCheersMedicTFC
+{
+	scene "scenes/Player/Medic/low/544.vcd" 
+	scene "scenes/Player/Medic/low/545.vcd" 
+	scene "scenes/Player/Medic/low/548.vcd" 
+	scene "scenes/Player/Medic/low/550.vcd" 
+	scene "scenes/Player/Medic/low/551.vcd" 
+	scene "scenes/Player/Medic/low/552.vcd" 
+}
+Rule PlayerCheersMedicTFC
+{
+	criteria IsTFC ConceptPlayerCheers IsMedic
+	Response PlayerCheersMedicTFC
+}
+
+Response PlayerGoodJobMedicTFC
+{
+	scene "scenes/Player/Medic/low/568.vcd" 
+	scene "scenes/Player/Medic/low/569.vcd" 
+	scene "scenes/Player/Medic/low/570.vcd" 
+}
+Rule PlayerGoodJobMedicTFC
+{
+	criteria IsTFC ConceptPlayerGoodJob IsMedic
+	Response PlayerGoodJobMedicTFC
+}
+
+Response PlayerJeersMedicTFC
+{
+	scene "scenes/Player/Medic/low/592.vcd" 
+	scene "scenes/Player/Medic/low/593.vcd" 
+	scene "scenes/Player/Medic/low/594.vcd" 
+	scene "scenes/Player/Medic/low/595.vcd" 
+	scene "scenes/Player/Medic/low/596.vcd" 
+	scene "scenes/Player/Medic/low/597.vcd" 
+	scene "scenes/Player/Medic/low/598.vcd" 
+	scene "scenes/Player/Medic/low/599.vcd" 
+	scene "scenes/Player/Medic/low/600.vcd" 
+	scene "scenes/Player/Medic/low/601.vcd" 
+	scene "scenes/Player/Medic/low/603.vcd" 
+	scene "scenes/Player/Medic/low/602.vcd" 
+}
+Rule PlayerJeersMedicTFC
+{
+	criteria IsTFC ConceptPlayerJeers IsMedic
+	Response PlayerJeersMedicTFC
+}
+
+Response PlayerLostPointMedicTFC
+{
+	scene "scenes/Player/Medic/low/619.vcd" 
+	scene "scenes/Player/Medic/low/620.vcd" 
+	scene "scenes/Player/Medic/low/621.vcd" 
+	scene "scenes/Player/Medic/low/622.vcd" 
+	scene "scenes/Player/Medic/low/623.vcd" 
+	scene "scenes/Player/Medic/low/1233.vcd" 
+	scene "scenes/Player/Medic/low/1234.vcd" 
+}
+Rule PlayerLostPointMedicTFC
+{
+	criteria IsTFC ConceptPlayerLostPoint IsMedic
+	Response PlayerLostPointMedicTFC
+}
+
+Response PlayerNegativeMedicTFC
+{
+	scene "scenes/Player/Medic/low/619.vcd" 
+	scene "scenes/Player/Medic/low/620.vcd" 
+	scene "scenes/Player/Medic/low/621.vcd" 
+	scene "scenes/Player/Medic/low/622.vcd" 
+	scene "scenes/Player/Medic/low/623.vcd" 
+	scene "scenes/Player/Medic/low/1233.vcd" 
+	scene "scenes/Player/Medic/low/1234.vcd" 
+}
+Rule PlayerNegativeMedicTFC
+{
+	criteria IsTFC ConceptPlayerNegative IsMedic
+	Response PlayerNegativeMedicTFC
+}
+
+Response PlayerNiceShotMedicTFC
+{
+	scene "scenes/Player/Medic/low/624.vcd" 
+	scene "scenes/Player/Medic/low/625.vcd" 
+}
+Rule PlayerNiceShotMedicTFC
+{
+	criteria IsTFC ConceptPlayerNiceShot IsMedic
+	Response PlayerNiceShotMedicTFC
+}
+
+Response PlayerPositiveMedicTFC
+{
+	scene "scenes/Player/Medic/low/639.vcd" 
+	scene "scenes/Player/Medic/low/640.vcd" 
+	scene "scenes/Player/Medic/low/641.vcd" 
+	scene "scenes/Player/Medic/low/1235.vcd" 
+	scene "scenes/Player/Medic/low/1236.vcd" 
+}
+
+Response PlayerTauntsMedicTFC
+{
+	scene "scenes/Player/Medic/low/604.vcd" 
+	scene "scenes/Player/Medic/low/1228.vcd" 
+	scene "scenes/Player/Medic/low/1231.vcd" 
+	scene "scenes/Player/Medic/low/609.vcd" 
+	scene "scenes/Player/Medic/low/610.vcd" 
+}
+Rule PlayerPositiveMedicTFC
+{
+	criteria IsTFC ConceptPlayerPositive IsMedic
+	Response PlayerPositiveMedic
+	Response PlayerTauntsMedicTFC
+}
+
+//--------------------------------------------------------------------------------------------------------------
+// MvM Speech
+//--------------------------------------------------------------------------------------------------------------
+Response MvMBombDroppedMedicTFC
+{
+	scene "scenes/Player/Medic/low/4205.vcd" 
+	scene "scenes/Player/Medic/low/4204.vcd" 
+}
+Rule MvMBombDroppedMedicTFC
+{
+	criteria IsTFC ConceptMvMBombDropped 5PercentChance IsMvMDefender IsMedic 
+	Response MvMBombDroppedMedicTFC
+}
+
+Response MvMBombCarrierUpgrade1MedicTFC
+{
+	scene "scenes/Player/Medic/low/4200.vcd" 
+}
+Rule MvMBombCarrierUpgrade1MedicTFC
+{
+	criteria IsTFC ConceptMvMBombCarrierUpgrade1 5PercentChance IsMvMDefender IsMedic 
+	Response MvMBombCarrierUpgrade1MedicTFC
+}
+
+Response MvMBombCarrierUpgrade2MedicTFC
+{
+	scene "scenes/Player/Medic/low/4201.vcd" 
+}
+Rule MvMBombCarrierUpgrade2MedicTFC
+{
+	criteria IsTFC ConceptMvMBombCarrierUpgrade2 5PercentChance IsMvMDefender IsMedic 
+	Response MvMBombCarrierUpgrade2MedicTFC
+}
+
+Response MvMBombCarrierUpgrade3MedicTFC
+{
+	scene "scenes/Player/Medic/low/4202.vcd" 
+}
+Rule MvMBombCarrierUpgrade3MedicTFC
+{
+	criteria IsTFC ConceptMvMBombCarrierUpgrade3 5PercentChance IsMvMDefender IsMedic 
+	Response MvMBombCarrierUpgrade3MedicTFC
+}
+
+Response MvMDefenderDiedScoutMedicTFC
+{
+	scene "scenes/Player/Medic/low/4173.vcd" 
+}
+Rule MvMDefenderDiedScoutMedicTFC
+{
+	criteria IsTFC ConceptMvMDefenderDied 50PercentChance IsMvMDefender IsVictimScout IsMedic 
+	Response MvMDefenderDiedScoutMedicTFC
+}
+
+Response MvMDefenderDiedSpyMedicTFC
+{
+	scene "scenes/Player/Medic/low/4174.vcd" 
+}
+Rule MvMDefenderDiedSpyMedicTFC
+{
+	criteria IsTFC ConceptMvMDefenderDied 50PercentChance IsMvMDefender IsVictimSpy IsMedic 
+	Response MvMDefenderDiedSpyMedicTFC
+}
+
+Response MvMDefenderDiedHeavyMedicTFC
+{
+	scene "scenes/Player/Medic/low/4175.vcd" 
+}
+Rule MvMDefenderDiedHeavyMedicTFC
+{
+	criteria IsTFC ConceptMvMDefenderDied 50PercentChance IsMvMDefender IsVictimHeavy IsMedic 
+	Response MvMDefenderDiedHeavyMedicTFC
+}
+
+Response MvMDefenderDiedSoldierMedicTFC
+{
+	scene "scenes/Player/Medic/low/4176.vcd" 
+}
+Rule MvMDefenderDiedSoldierMedicTFC
+{
+	criteria IsTFC ConceptMvMDefenderDied 50PercentChance IsMvMDefender IsVictimSoldier IsMedic 
+	Response MvMDefenderDiedSoldierMedicTFC
+}
+
+Response MvMDefenderDiedMedicMedicTFC
+{
+	scene "scenes/Player/Medic/low/4177.vcd" 
+}
+Rule MvMDefenderDiedMedicMedicTFC
+{
+	criteria IsTFC ConceptMvMDefenderDied 50PercentChance IsMvMDefender IsVictimMedic IsMedic 
+	Response MvMDefenderDiedMedicMedicTFC
+}
+
+Response MvMDefenderDiedDemomanMedicTFC
+{
+	scene "scenes/Player/Medic/low/4178.vcd" 
+}
+Rule MvMDefenderDiedDemomanMedicTFC
+{
+	criteria IsTFC ConceptMvMDefenderDied 50PercentChance IsMvMDefender IsVictimDemoman IsMedic 
+	Response MvMDefenderDiedDemomanMedicTFC
+}
+
+Response MvMDefenderDiedPyroMedicTFC
+{
+	scene "scenes/Player/Medic/low/4179.vcd" 
+}
+Rule MvMDefenderDiedPyroMedicTFC
+{
+	criteria IsTFC ConceptMvMDefenderDied 50PercentChance IsMvMDefender IsVictimPyro IsMedic 
+	Response MvMDefenderDiedPyroMedicTFC
+}
+
+Response MvMDefenderDiedSniperMedicTFC
+{
+	scene "scenes/Player/Medic/low/4180.vcd" 
+}
+Rule MvMDefenderDiedSniperMedicTFC
+{
+	criteria IsTFC ConceptMvMDefenderDied 50PercentChance IsMvMDefender IsVictimSniper IsMedic 
+	Response MvMDefenderDiedSniperMedicTFC
+}
+
+Response MvMDefenderDiedEngineerMedicTFC
+{
+	scene "scenes/Player/Medic/low/4181.vcd" 
+}
+Rule MvMDefenderDiedEngineerMedicTFC
+{
+	criteria IsTFC ConceptMvMDefenderDied 50PercentChance IsMvMDefender IsVictimEngineer IsMedic 
+	Response MvMDefenderDiedEngineerMedicTFC
+}
+
+Response MvMFirstBombPickupMedicTFC
+{
+	scene "scenes/Player/Medic/low/4197.vcd" 
+	scene "scenes/Player/Medic/low/4199.vcd" 
+}
+Rule MvMFirstBombPickupMedicTFC
+{
+	criteria IsTFC ConceptMvMFirstBombPickup 5PercentChance IsMvMDefender IsMedic
+	Response MvMFirstBombPickupMedicTFC
+}
+
+Response MvMBombPickupMedicTFC
+{
+	scene "scenes/Player/Medic/low/4196.vcd" 
+}
+Rule MvMBombPickupMedicTFC
+{
+	criteria IsTFC ConceptMvMBombPickup 5PercentChance IsMvMDefender IsMedic
+	Response MvMBombPickupMedicTFC
+}
+
+Response MvMSniperCalloutMedicTFC
+{
+	scene "scenes/Player/Medic/low/4183.vcd" 
+}
+Rule MvMSniperCalloutMedicTFC
+{
+	criteria IsTFC ConceptMvMSniperCallout 50PercentChance IsMvMDefender IsMedic
+	Response MvMSniperCalloutMedicTFC
+}
+
+Response MvMSentryBusterMedicTFC
+{
+	scene "scenes/Player/Medic/low/4212.vcd" 
+}
+Rule MvMSentryBusterMedicTFC
+{
+	criteria IsTFC ConceptMvMSentryBuster 50PercentChance IsMvMDefender IsMedic
+	Response MvMSentryBusterMedicTFC
+}
+
+Response MvMSentryBusterDownMedicTFC
+{
+	scene "scenes/Player/Medic/low/4213.vcd" 
+}
+Rule MvMSentryBusterDownMedicTFC
+{
+	criteria IsTFC ConceptMvMSentryBusterDown 20PercentChance IsMvMDefender IsMedic
+	Response MvMSentryBusterDownMedicTFC
+}
+
+Response MvMLastManStandingMedicTFC
+{
+	scene "scenes/Player/Medic/low/4182.vcd" 
+}
+Rule MvMLastManStandingMedicTFC
+{
+	criteria IsTFC ConceptMvMLastManStanding 20PercentChance IsMvMDefender IsMedic
+	Response MvMLastManStandingMedicTFC
+}
+
+Response MvMEncourageMoneyMedicTFC
+{
+	scene "scenes/Player/Medic/low/4188.vcd" 
+	scene "scenes/Player/Medic/low/4189.vcd" 
+	scene "scenes/Player/Medic/low/4324.vcd" 
+}
+Rule MvMEncourageMoneyMedicTFC
+{
+	criteria IsTFC ConceptMvMEncourageMoney 50PercentChance IsMvMDefender IsMedic
+	Response MvMEncourageMoneyMedicTFC
+}
+
+Response MvMEncourageUpgradeMedicTFC
+{
+	scene "scenes/Player/Medic/low/4193.vcd" 
+	scene "scenes/Player/Medic/low/4194.vcd" 
+	scene "scenes/Player/Medic/low/4195.vcd" 
+}
+Rule MvMEncourageUpgradeMedicTFC
+{
+	criteria IsTFC ConceptMvMEncourageUpgrade 50PercentChance IsMvMDefender IsMedic
+	Response MvMEncourageUpgradeMedicTFC
+}
+
+Response MvMUpgradeCompleteMedicTFC
+{
+	scene "scenes/Player/Medic/low/4190.vcd" 
+	scene "scenes/Player/Medic/low/4191.vcd" 
+	scene "scenes/Player/Medic/low/4192.vcd" 
+	scene "scenes/Player/Medic/low/4325.vcd" 
+}
+Rule MvMUpgradeCompleteMedicTFC
+{
+	criteria IsTFC ConceptMvMUpgradeComplete 5PercentChance IsMvMDefender IsMedic
+	Response MvMUpgradeCompleteMedicTFC
+}
+
+Response MvMGiantCalloutMedicTFC
+{
+	scene "scenes/Player/Medic/low/4214.vcd" 
+}
+Rule MvMGiantCalloutMedicTFC
+{
+	criteria IsTFC ConceptMvMGiantCallout 20PercentChance IsMvMDefender IsMedic
+	Response MvMGiantCalloutMedicTFC
+}
+
+Response MvMGiantHasBombMedicTFC
+{
+	scene "scenes/Player/Medic/low/4217.vcd" 
+}
+Rule MvMGiantHasBombMedicTFC
+{
+	criteria IsTFC ConceptMvMGiantHasBomb 20PercentChance IsMvMDefender IsMedic
+	Response MvMGiantHasBombMedicTFC
+}
+
+Response MvMSappedRobotMedicTFC
+{
+	scene "scenes/Player/Medic/low/4184.vcd" 
+	scene "scenes/Player/Medic/low/4185.vcd" 
+}
+Rule MvMSappedRobotMedicTFC
+{
+	criteria IsTFC ConceptMvMSappedRobot 50PercentChance IsMvMDefender IsMedic
+	Response MvMSappedRobotMedicTFC
+}
+
+Response MvMTankCalloutMedicTFC
+{
+	scene "scenes/Player/Medic/low/4206.vcd" 
+}
+Rule MvMTankCalloutMedicTFC
+{
+	criteria IsTFC ConceptMvMTankCallout 50PercentChance IsMvMDefender IsMedic
+	Response MvMTankCalloutMedicTFC
+}
+
+Response MvMTankDeployingMedicTFC
+{
+	scene "scenes/Player/Medic/low/4210.vcd" 
+}
+Rule MvMTankDeployingMedicTFC
+{
+	criteria IsTFC ConceptMvMTankDeploying 50PercentChance IsMvMDefender IsMedic
+	Response MvMTankDeployingMedicTFC
+}
+
+Response MvMAttackTheTankMedicTFC
+{
+	scene "scenes/Player/Medic/low/4207.vcd" 
+	scene "scenes/Player/Medic/low/4208.vcd" 
+	scene "scenes/Player/Medic/low/4209.vcd" 
+}
+Rule MvMAttackTheTankMedicTFC
+{
+	criteria IsTFC ConceptMvMAttackTheTank 50PercentChance IsMvMDefender IsMedic
+	Response MvMAttackTheTankMedicTFC
+}
+
+Response MvMTauntMedicTFC
+{
+	scene "scenes/Player/Medic/low/4186.vcd" 
+}
+Rule MvMTauntMedicTFC
+{
+	criteria IsTFC ConceptMvMTaunt 50PercentChance IsMvMDefender IsMedic
+	Response MvMTauntMedicTFC
+}
+
+Response MvMWaveStartMedicTFC
+{
+	scene "scenes/Player/Medic/low/4109.vcd" 
+}
+Rule MvMWaveStartMedicTFC
+{
+	criteria IsTFC ConceptMvMWaveStart 50PercentChance IsMvMDefender IsMedic
+	Response MvMWaveStartMedicTFC
+}
+
+Response MvMWaveWinMedicTFC
+{
+	scene "scenes/Player/Medic/low/4163.vcd" 
+	scene "scenes/Player/Medic/low/4164.vcd" 
+	scene "scenes/Player/Medic/low/4165.vcd" 
+}
+Rule MvMWaveWinMedicTFC
+{
+	criteria IsTFC ConceptMvMWaveWin 50PercentChance IsMvMDefender IsMedic
+	Response MvMWaveWinMedicTFC
+}
+
+Response MvMWaveLoseMedicTFC
+{
+	scene "scenes/Player/Medic/low/4166.vcd" 
+	scene "scenes/Player/Medic/low/4167.vcd" 
+	scene "scenes/Player/Medic/low/4168.vcd" 
+	scene "scenes/Player/Medic/low/4323.vcd" 
+}
+Rule MvMWaveLoseMedicTFC
+{
+	criteria IsTFC ConceptMvMWaveLose 50PercentChance IsMvMDefender IsMedic
+	Response MvMWaveLoseMedicTFC
+}
+
+Response MvMMoneyPickupMedicTFC
+{
+	scene "scenes/Player/Medic/low/4187.vcd" 
+}
+Rule MvMMoneyPickupMedicTFC
+{
+	criteria IsTFC ConceptMvMMoneyPickup 5PercentChance IsMvMDefender IsMedic
+	Response MvMMoneyPickupMedicTFC
+}
+
+Response MvMGiantKilledMedicTFC
+{
+	scene "scenes/Player/Medic/low/4218.vcd" 
+}
+Rule MvMGiantKilledMedicTFC
+{
+	criteria IsTFC ConceptMvMGiantKilled 50PercentChance IsMvMDefender IsMedic
+	Response MvMGiantKilledMedicTFC
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Auto Speech Cart
+//--------------------------------------------------------------------------------------------------------------
+Criterion "MedicNotSaidCartMovingBackwardD" "SaidCartMovingBackwardD" "!=1" "required" weight 0
+Criterion "MedicNotSaidCartMovingBackwardO" "SaidCartMovingBackwardO" "!=1" "required" weight 0
+Criterion "MedicNotSaidCartMovingForwardD" "SaidCartMovingForwardD" "!=1" "required" weight 0
+Criterion "MedicNotSaidCartMovingForwardO" "SaidCartMovingForwardO" "!=1" "required" weight 0
+Criterion "MedicNotSaidCartMovingStoppedD" "SaidCartMovingStoppedD" "!=1" "required" weight 0
+Criterion "MedicNotSaidCartMovingStoppedO" "SaidCartMovingStoppedO" "!=1" "required" weight 0
+Response CartMovingBackwardsDefenseMedic                                                     
+{
+}
+Rule CartMovingBackwardsDefenseMedic                                                     
+{
+	criteria IsTFC ConceptCartMovingBackward IsOnDefense IsMedic MedicNotSaidCartMovingBackwardD IsNotDisguised 75PercentChance                                                                                                                                                          
+	ApplyContext "SaidCartMovingBackwardD:1:20"
+	Response CartMovingBackwardsDefenseMedic                                                     
+}
+Response CartMovingBackwardsOffenseMedic                                                     
+{
+	scene "scenes/Player/Medic/low/6763.vcd"
+	scene "scenes/Player/Medic/low/6765.vcd"
+}
+Rule CartMovingBackwardsOffenseMedic                                                     
+{
+	criteria IsTFC ConceptCartMovingBackward IsOnOffense IsMedic MedicNotSaidCartMovingBackwardO IsNotDisguised 75PercentChance                                                                                                                                                          
+	ApplyContext "SaidCartMovingBackwardO:1:20"
+	Response CartMovingBackwardsOffenseMedic                                                     
+}
+Response CartMovingForwardDefenseMedic                                                       
+{
+	scene "scenes/Player/Medic/low/6767.vcd"
+	scene "scenes/Player/Medic/low/6766.vcd"
+}
+Rule CartMovingForwardDefenseMedic                                                       
+{
+	criteria IsTFC ConceptCartMovingForward IsOnDefense IsMedic MedicNotSaidCartMovingForwardD IsNotDisguised 75PercentChance                                                                                                                                                            
+	ApplyContext "SaidCartMovingForwardD:1:20"
+	Response CartMovingForwardDefenseMedic                                                       
+}
+Response CartMovingForwardOffenseMedic                                                       
+{
+	scene "scenes/Player/Medic/low/6752.vcd"
+	scene "scenes/Player/Medic/low/6753.vcd"
+	scene "scenes/Player/Medic/low/6754.vcd"
+	scene "scenes/Player/Medic/low/6755.vcd"
+	scene "scenes/Player/Medic/low/6756.vcd"
+	scene "scenes/Player/Medic/low/6758.vcd"
+	scene "scenes/Player/Medic/low/6760.vcd"
+	scene "scenes/Player/Medic/low/6761.vcd"
+	scene "scenes/Player/Medic/low/6770.vcd"
+	scene "scenes/Player/Medic/low/6774.vcd"
+	scene "scenes/Player/Medic/low/6775.vcd"
+}
+Rule CartMovingForwardOffenseMedic                                                       
+{
+	criteria IsTFC ConceptCartMovingForward IsOnOffense IsMedic MedicNotSaidCartMovingForwardO IsNotDisguised 75PercentChance                                                                                                                                                            
+	ApplyContext "SaidCartMovingForwardO:1:20"
+	Response CartMovingForwardOffenseMedic                                                       
+}
+Response CartMovingStoppedDefenseMedic                                                       
+{
+	scene "scenes/Player/Medic/low/6786.vcd"
+}
+Rule CartMovingStoppedDefenseMedic                                                       
+{
+	criteria IsTFC ConceptCartMovingStopped IsOnDefense IsMedic MedicNotSaidCartMovingStoppedD IsNotDisguised 75PercentChance                                                                                                                                                            
+	ApplyContext "SaidCartMovingStoppedD:1:20"
+	Response CartMovingStoppedDefenseMedic                                                       
+}
+Response CartMovingStoppedOffenseMedic                                                       
+{
+	scene "scenes/Player/Medic/low/6776.vcd"
+	scene "scenes/Player/Medic/low/6782.vcd"
+	scene "scenes/Player/Medic/low/6781.vcd"
+	scene "scenes/Player/Medic/low/6779.vcd"
+}
+Rule CartMovingStoppedOffenseMedic                                                       
+{
+	criteria IsTFC ConceptCartMovingStopped IsOnOffense IsMedic MedicNotSaidCartMovingStoppedO IsNotDisguised 75PercentChance                                                                                                                                                            
+	ApplyContext "SaidCartMovingStoppedO:1:20"
+	Response CartMovingStoppedOffenseMedic                                                       
+}
+//--------------------------------------------------------------------------------------------------------------
+// END OF Auto Speech Cart
+//--------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

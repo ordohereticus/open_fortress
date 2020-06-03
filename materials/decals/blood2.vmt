@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials/decals/blood_base.vmt"
+	
+	insert
+	{
+		"$basetexture"	 "decals/blood2"
+	}
+}

@@ -1,0 +1,4 @@
+"Patch"
+{
+	include "materials/models/player/soldier/hwm/soldier_head_base.vmt"
+}

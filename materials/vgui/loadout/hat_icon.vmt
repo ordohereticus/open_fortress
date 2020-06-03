@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui\loadout\hat_icon"
+	"$translucent" 1
+	"$ignorez" 1
+}

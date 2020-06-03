@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/props_spytech/projector_screen"
+	"$surfaceprop"	"default"
+	"$envmap"	"env_cubemap"
+	"$envmaptint" "[.5 .5 .5]"
+	"$basealphaenvmapmask" 1
+	
+	
+	//phong properties
+	//"$phong"	"1"
+	//"$phongboost"	"1"
+	//"$phongexponent"	"10"
+	//"$phongfresnelranges"	"[1 2 2.5]"
+}

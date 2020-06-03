@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "jungle/tree02/tree02"
+	///"$bumpmap" "jungle/tree02/tree02_normal"
+	"$model" 1
+}

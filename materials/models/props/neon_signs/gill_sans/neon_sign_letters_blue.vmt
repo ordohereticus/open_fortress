@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props/neon_signs/gill_sans/neon_sign_letters_blue"
+	"$basemapalphaphongmask" "1"
+	"$phong" "1"
+	"$phongexponent" "7"
+	"$phongboost" "2"
+	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	"$phongfresnelranges"	"[.25 .5 1]"
+
+	"$rimlight" "2"						
+	"$rimlightexponent" "20"				
+	"$rimlightboost" ".25"
+
+	$selfillum 1
+	$selfillummask "models/props/neon_signs/gill_sans/neon_sign_letters_illum"
+}

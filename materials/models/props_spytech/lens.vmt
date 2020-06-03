@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/props_spytech/lens"
+	"$surfaceprop"	"default"
+	"$selfillum"	1
+}

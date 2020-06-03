@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models/vgui/tv_spectate_on"
+	"$selfillum" "1"
+	"$model" "1"
+	"$ignorez" "1"
+}

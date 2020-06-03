@@ -1,0 +1,38 @@
+vertexlitgeneric
+{
+	"$basetexture"               "models/weapons/v_shield/shield"
+	"$basemapalphaphongmask" "1"
+	"$phong"                     "1"
+	"$phongboost"                "5"
+	"$phongexponent"             "12"
+	"$phongdisablehalflambert"   "1"
+	"$detail"                    "models/weapons/v_shield/dust_detail_metal_01"
+	"$detailscale"               "6"
+	"$detailblendfactor"         "2.5"
+	"$envmap"                    "models/weapons/v_shield/cube_vertigo_blurred_hdr"
+	"$envmaptint"                "0.02"
+	"$basealphaenvmapmask"       "1"
+	
+	"$glowcolor" "1"
+	"$cloakPassEnabled" "1"
+	"Proxies"
+	{
+		"ModelGlowColor"
+		{
+			"resultVar" "$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"	"$glowcolor"
+			"resultVar"	"$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"	"$glowcolor"
+			"resultVar"	"$color2"
+		}
+		"spy_invis"
+		{
+		}
+	}
+}

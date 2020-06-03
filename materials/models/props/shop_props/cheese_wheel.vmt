@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props/shop_props/cheese_wheel"
+"$phong" "1"
+	"$phongexponent" "100"
+	"$phongboost" ".3"	
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[.3 1 8]"
+	
+}

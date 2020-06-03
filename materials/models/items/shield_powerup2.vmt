@@ -1,0 +1,89 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\items\shield_powerup_rimlight"
+	"$lightwarptexture" "models\player\items\all_class\qc_lightwarp"
+//	"$lightwarptexture" "models/props_splatoon/inklings/inkling_lightwarp7"
+	"$additive" "1"
+
+	"$phong" "1"
+	"$phongexponent" "0"
+	"$phongboost" "0"	
+	"$phongfresnelranges"	"[0 0 0]"
+	"$halflambert" "0"
+
+	// Rim lighting parameters
+	"$selfillumfresnel" "3"
+
+	"$selfillumfresnelminmaxexp" "[0 .5 2]"
+	"$selfillum" "1"
+
+	"$selfillumtint" "[-0.3 -0.3 -0.3]"
+	"$selfillumtint_base" "[2 2 2]"
+	"$selfillumtint_base2" "[2 2 2]"
+
+
+	"$shield_falloff" "[0 0 0]"
+
+	"$blendtintbybasealpha"		"0"
+	"$blendtintcoloroverbase"		"0"
+	"$colortint_base"		"{ 142 187 27 }"
+	"$colortint_tmp"		"[0 0 0]"
+	"$color2"		"{ 142 187 27 }"
+//	"$color2"		"{ 106 191 12 }"
+
+	"Proxies"
+	{
+		//"ShieldFalloff"
+		//{
+		//	"resultVar"    "$shield_falloff"
+		//}
+		//
+		//"PlayerTintColor"
+		//{
+		//	"resultVar"		"$colortint_tmp"
+		//}
+
+		"Divide"
+		{
+			"srcVar1"	"$shield_falloff"
+			"srcVar2"	"$selfillumtint_base"
+			"resultVar"	"$selfillumtint_base2"
+		}
+
+		"SelectFirstIfNonZero"
+		{
+			"srcVar1"		"$colortint_tmp"
+			"srcVar2"		"$colortint_base"
+			"resultVar"		"$colortint_base"
+		}
+
+
+		"Multiply"
+		{
+			"srcVar1"	"$selfillumtint_base2"
+			"srcVar2"	"$colortint_tmp"
+			"resultVar"	"$colortint_tmp"
+		}
+
+
+		"LessOrEqual"
+		{
+			"lessEqualVar"	"$colortint_base"
+			"greaterVar"	"$colortint_tmp"	//Holy crap this whole setup was tough to get right
+			"srcVar1"		"$colortint_tmp"
+			"srcVar2"		"$colortint_base"
+			"resultVar"		"$colortint_tmp"
+		}
+
+
+		"SelectFirstIfNonZero"
+		{
+			"srcVar1"		"$colortint_tmp"
+			"srcVar2"		"$colortint_base"
+			"resultVar"		"$color2"
+		}
+	}
+}
+
+
+

@@ -1,0 +1,10 @@
+"Patch"
+{
+	include "materials/decals/blood_base_subrect.vmt"
+	
+	insert
+	{
+		"$basetexture"	 "decals/blood2"
+		"$modelmaterial" "decals/blood2"
+	}
+}

@@ -1,0 +1,4 @@
+"Patch"
+{
+	include "materials/models/player/engineer/hwm/engineer_head_base.vmt"
+}

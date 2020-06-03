@@ -1,0 +1,718 @@
+//--------------------------------------------------------------------------------------------------------------
+// Pyro Response Rule File
+//--------------------------------------------------------------------------------------------------------------
+
+Response PlayerCloakedSpyDemomanPyroTFC
+{
+	scene "scenes/Player/Pyro/low/1440.vcd" 
+}
+Rule PlayerCloakedSpyDemomanPyroTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsPyro IsOnDemoman
+	Response PlayerCloakedSpyDemomanPyroTFC
+}
+
+Response PlayerCloakedSpyEngineerPyroTFC
+{
+	scene "scenes/Player/Pyro/low/1446.vcd" 
+}
+Rule PlayerCloakedSpyEngineerPyroTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsPyro IsOnEngineer
+	Response PlayerCloakedSpyEngineerPyroTFC
+}
+
+Response PlayerCloakedSpyHeavyPyroTFC
+{
+	scene "scenes/Player/Pyro/low/1436.vcd" 
+}
+Rule PlayerCloakedSpyHeavyPyroTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsPyro IsOnHeavy
+	Response PlayerCloakedSpyHeavyPyroTFC
+}
+
+Response PlayerCloakedSpyMedicPyroTFC
+{
+	scene "scenes/Player/Pyro/low/1444.vcd" 
+}
+Rule PlayerCloakedSpyMedicPyroTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsPyro IsOnMedic
+	Response PlayerCloakedSpyMedicPyroTFC
+}
+
+Response PlayerCloakedSpyPyroPyroTFC
+{
+	scene "scenes/Player/Pyro/low/1438.vcd" 
+}
+Rule PlayerCloakedSpyPyroPyroTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsPyro IsOnPyro
+	Response PlayerCloakedSpyPyroPyroTFC
+}
+
+Response PlayerCloakedSpyScoutPyroTFC
+{
+	scene "scenes/Player/Pyro/low/1432.vcd" 
+}
+Rule PlayerCloakedSpyScoutPyroTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsPyro IsOnScout
+	Response PlayerCloakedSpyScoutPyroTFC
+}
+
+Response PlayerCloakedSpySniperPyroTFC
+{
+	scene "scenes/Player/Pyro/low/1448.vcd" 
+}
+Rule PlayerCloakedSpySniperPyroTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsPyro IsOnSniper
+	Response PlayerCloakedSpySniperPyroTFC
+}
+
+Response PlayerCloakedSpySpyPyroTFC
+{
+	scene "scenes/Player/Pyro/low/1442.vcd" 
+}
+Rule PlayerCloakedSpySpyPyroTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsPyro IsOnSpy
+	Response PlayerCloakedSpySpyPyroTFC
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Auto Speech
+//--------------------------------------------------------------------------------------------------------------
+Response HealThanksPyroTFC
+{
+	scene "scenes/Player/Pyro/low/1552.vcd" 
+}
+Rule HealThanksPyroTFC
+{
+	criteria IsTFC ConceptMedicChargeStopped IsPyro SuperHighHealthContext PyroNotSaidHealThanks 50PercentChance
+	ApplyContext "PyroSaidHealThanks:1:20"
+	Response HealThanksPyroTFC
+}
+
+Response PlayerRoundStartPyroTFC
+{
+	scene "scenes/Player/Pyro/low/1418.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Pyro/low/1419.vcd" predelay "1.0, 5.0"
+}
+Rule PlayerRoundStartPyroTFC
+{
+	criteria IsTFC ConceptPlayerRoundStart IsPyro
+	Response PlayerRoundStartPyroTFC
+}
+
+Response PlayerCappedIntelligencePyroTFC
+{
+	scene "scenes/Player/Pyro/low/1409.vcd" 
+}
+Rule PlayerCappedIntelligencePyroTFC
+{
+	criteria IsTFC ConceptPlayerCapturedIntelligence IsPyro
+	Response PlayerCappedIntelligencePyroTFC
+}
+
+Response PlayerCapturedPointPyroTFC
+{
+	scene "scenes/Player/Pyro/low/1406.vcd" 
+}
+Rule PlayerCapturedPointPyroTFC
+{
+	criteria IsTFC ConceptPlayerCapturedPoint IsPyro
+	Response PlayerCapturedPointPyroTFC
+}
+
+Response PlayerSuddenDeathPyroTFC
+{
+	scene "scenes/Player/Pyro/low/1476.vcd" 
+	scene "scenes/Player/Pyro/low/1477.vcd" 
+}
+Rule PlayerSuddenDeathPyroTFC
+{
+	criteria IsTFC ConceptPlayerSuddenDeathStart IsPyro
+	Response PlayerSuddenDeathPyroTFC
+}
+
+Response PlayerStalematePyroTFC
+{
+	scene "scenes/Player/Pyro/low/1412.vcd" 
+}
+Rule PlayerStalematePyroTFC
+{
+	criteria IsTFC ConceptPlayerStalemate IsPyro
+	Response PlayerStalematePyroTFC
+}
+
+Response PlayerTeleporterThanksPyroTFC
+{
+	scene "scenes/Player/Pyro/low/1555.vcd" 
+}
+Rule PlayerTeleporterThanksPyroTFC
+{
+	criteria IsTFC ConceptTeleported IsNotEngineer IsPyro 30PercentChance
+	Response PlayerTeleporterThanksPyroTFC
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Auto Speech Combat
+//--------------------------------------------------------------------------------------------------------------
+Response DefendOnThePointPyroTFC
+{
+	scene "scenes/Player/Pyro/low/1531.vcd" 
+}
+Rule DefendOnThePointPyroTFC
+{
+	criteria IsTFC ConceptFireWeapon IsPyro IsOnFriendlyControlPoint NotDefendOnThePointSpeech
+	ApplyContext "DefendOnThePointSpeech:1:30"
+	applycontexttoworld
+	Response DefendOnThePointPyroTFC
+}
+
+Response KilledPlayerManyPyroTFC
+{
+	scene "scenes/Player/Pyro/low/1534.vcd" 
+}
+Rule KilledPlayerManyPyroTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsManyRecentKills 30PercentChance IsWeaponPrimary KilledPlayerDelay PyroNotKillSpeech IsPyro
+	ApplyContext "PyroKillSpeech:1:10"
+	Response KilledPlayerManyPyroTFC
+}
+
+// Added back unused melee kill lines
+Response KilledPlayerMeleePyroTFC
+{
+	scene "scenes/Player/Pyro/low/1594.vcd" 
+	scene "scenes/Player/Pyro/low/1532.vcd" 
+	scene "scenes/Player/Pyro/low/1533.vcd" 
+}
+Rule KilledPlayerMeleePyroTFC
+{
+	criteria IsTFC ConceptKilledPlayer KilledPlayerDelay 30PercentChance  IsWeaponMelee PyroNotKillSpeechMelee IsPyro
+	ApplyContext "PyroKillSpeechMelee:1:10"
+	Response KilledPlayerMeleePyroTFC
+}
+
+// Custom stuff
+Response KilledPlayerAssistAutoPyroTFC
+{
+	scene "scenes/Player/Pyro/low/1529.vcd" predelay "2.5"
+}
+Rule KilledPlayerAssistAutoPyroTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsPyro IsBeingHealed IsManyRecentKills KilledPlayerDelay 20PercentChance PyroNotAssistSpeech
+	ApplyContext "PyroAssistSpeech:1:20"
+	Response KilledPlayerAssistAutoPyroTFC
+}
+
+Response PyroJarateHit
+{
+	scene "scenes/Player/Pyro/low/1412.vcd"
+	scene "scenes/Player/Pyro/low/1416.vcd"
+}
+Rule PyroJarateHit
+{
+	criteria IsTFC ConceptJarateHit IsPyro 50PercentChance
+	Response PyroJarateHit
+}
+
+Response InvulnerableSpeechPyroTFC
+{
+	scene "scenes/Player/Pyro/low/1517.vcd" 
+	scene "scenes/Player/Pyro/low/1485.vcd" 
+}
+Rule InvulnerableSpeechPyroTFC
+{
+	criteria IsTFC ConceptFireWeapon IsPyro IsInvulnerable PyroNotInvulnerableSpeech
+	ApplyContext "PyroInvulnerableSpeech:1:30"
+	Response InvulnerableSpeechPyroTFC
+}
+// End custom
+
+Response PlayerKilledCapperPyroTFC
+{
+	scene "scenes/Player/Pyro/low/1421.vcd" 
+}
+Rule PlayerKilledCapperPyroTFC
+{
+	criteria IsTFC ConceptCapBlocked IsPyro
+	ApplyContext "PyroKillSpeech:1:10"
+	Response PlayerKilledCapperPyroTFC
+}
+
+Response PlayerKilledDominatingPyroTFC
+{
+	scene "scenes/Player/Pyro/low/1450.vcd" predelay "2.5"
+	scene "scenes/Player/Pyro/low/1482.vcd" predelay "2.5"
+	scene "scenes/Player/Pyro/low/1483.vcd" predelay "2.5"
+	scene "scenes/Player/Pyro/low/1485.vcd" predelay "2.5"
+}
+Rule PlayerKilledDominatingPyroTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsPyro IsDominated
+	ApplyContext "PyroKillSpeech:1:10"
+	ApplyContext "IsDominating:1:10"
+	Response PlayerKilledDominatingPyroTFC
+}
+
+Response PlayerKilledForRevengePyroTFC
+{
+	scene "scenes/Player/Pyro/low/1403.vcd" predelay "2.5"
+	scene "scenes/Player/Pyro/low/1418.vcd" predelay "2.5"
+}
+Rule PlayerKilledForRevengePyroTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsPyro IsRevenge
+	ApplyContext "PyroKillSpeech:1:10"
+	ApplyContext "IsDominating:1:10"
+	Response PlayerKilledForRevengePyroTFC
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Auto Speech Pain
+//--------------------------------------------------------------------------------------------------------------
+Response PlayerAttackerPainPyroTFC
+{
+	scene "scenes/Player/Pyro/low/1581.vcd" 
+	scene "scenes/Player/Pyro/low/1582.vcd" 
+	scene "scenes/Player/Pyro/low/1583.vcd" 
+	scene "scenes/Player/Pyro/low/1591.vcd" 
+	scene "scenes/Player/Pyro/low/1592.vcd" 
+	scene "scenes/Player/Pyro/low/1593.vcd" 
+}
+Rule PlayerAttackerPainPyroTFC
+{
+	criteria IsTFC ConceptAttackerPain IsPyro IsNotDominating
+	Response PlayerAttackerPainPyroTFC
+}
+
+Response PlayerOnFirePyroTFC
+{
+	scene "scenes/Player/Pyro/low/1415.vcd" 
+	scene "scenes/Player/Pyro/low/1416.vcd" 
+}
+Rule PlayerOnFirePyroTFC
+{
+	criteria IsTFC ConceptFire IsPyro PyroIsNotStillonFire IsNotDominating
+	ApplyContext "PyroOnFire:1:7"
+	Response PlayerOnFirePyroTFC
+}
+
+Response PlayerPainPyroTFC
+{
+	scene "scenes/Player/Pyro/low/1584.vcd" 
+	scene "scenes/Player/Pyro/low/1585.vcd" 
+	scene "scenes/Player/Pyro/low/1586.vcd" 
+	scene "scenes/Player/Pyro/low/1587.vcd" 
+	scene "scenes/Player/Pyro/low/1588.vcd" 
+	scene "scenes/Player/Pyro/low/1589.vcd" 
+	scene "scenes/Player/Pyro/low/1590.vcd" 
+}
+Rule PlayerPainPyroTFC
+{
+	criteria IsTFC ConceptPain IsPyro IsNotDominating
+	Response PlayerPainPyroTFC
+}
+
+Response PlayerStillOnFirePyroTFC
+{
+	scene "scenes/Player/Pyro/low/1930.vcd" 
+}
+Rule PlayerStillOnFirePyroTFC
+{
+	criteria IsTFC ConceptFire IsPyro  PyroIsStillonFire IsNotDominating
+	ApplyContext "PyroOnFire:1:7"
+	Response PlayerStillOnFirePyroTFC
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Duel Speech
+//--------------------------------------------------------------------------------------------------------------
+Response AcceptedDuelPyroTFC
+{
+	scene "scenes/Player/Pyro/low/1415.vcd" 
+	scene "scenes/Player/Pyro/low/1534.vcd" 
+	scene "scenes/Player/Pyro/low/1550.vcd" 
+}
+Rule AcceptedDuelPyroTFC
+{
+	criteria IsTFC ConceptIAcceptDuel IsPyro
+	Response AcceptedDuelPyroTFC
+}
+
+Response MeleeDarePyroTFC
+{
+	scene "scenes/Player/Pyro/low/1409.vcd" 
+	scene "scenes/Player/Pyro/low/1499.vcd" 
+	scene "scenes/Player/Pyro/low/1529.vcd" 
+	scene "scenes/Player/Pyro/low/1552.vcd" 
+	scene "scenes/Player/Pyro/low/1555.vcd" 
+}
+Rule MeleeDarePyroTFC
+{
+	criteria IsTFC ConceptRequestDuel IsPyro
+	Response MeleeDarePyroTFC
+}
+
+Response RejectedDuelPyroTFC
+{
+	scene "scenes/Player/Pyro/low/1412.vcd" 
+	scene "scenes/Player/Pyro/low/1419.vcd" 
+	scene "scenes/Player/Pyro/low/1432.vcd" 
+	scene "scenes/Player/Pyro/low/1466.vcd" 
+	scene "scenes/Player/Pyro/low/1469.vcd" 
+}
+Rule RejectedDuelPyroTFC
+{
+	criteria IsTFC ConceptDuelRejected IsPyro
+	Response RejectedDuelPyroTFC
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Speech Menu 1
+//--------------------------------------------------------------------------------------------------------------
+Response PlayerGoPyroTFC
+{
+	scene "scenes/Player/Pyro/low/1451.vcd" 
+}
+Rule PlayerGoPyroTFC
+{
+	criteria IsTFC ConceptPlayerGo IsPyro
+	Response PlayerGoPyroTFC
+}
+
+Response PlayerHeadLeftPyroTFC
+{
+	scene "scenes/Player/Pyro/low/1457.vcd" 
+}
+Rule PlayerHeadLeftPyroTFC
+{
+	criteria IsTFC ConceptPlayerLeft  IsPyro
+	Response PlayerHeadLeftPyroTFC
+}
+
+Response PlayerHeadRightPyroTFC
+{
+	scene "scenes/Player/Pyro/low/1460.vcd" 
+}
+Rule PlayerHeadRightPyroTFC
+{
+	criteria IsTFC ConceptPlayerRight  IsPyro
+	Response PlayerHeadRightPyroTFC
+}
+
+Response PlayerHelpPyroTFC
+{
+	scene "scenes/Player/Pyro/low/1463.vcd" 
+}
+Rule PlayerHelpPyroTFC
+{
+	criteria IsTFC ConceptPlayerHelp IsPyro
+	Response PlayerHelpPyroTFC
+}
+
+Response PlayerHelpCapturePyroTFC
+{
+	scene "scenes/Player/Pyro/low/1466.vcd" 
+}
+Rule PlayerHelpCapturePyroTFC
+{
+	criteria IsTFC ConceptPlayerHelp IsPyro IsOnCappableControlPoint
+	ApplyContext "PyroHelpCap:1:10"
+	Response PlayerHelpCapturePyroTFC
+}
+
+Response PlayerHelpCapture2PyroTFC
+{
+	scene "scenes/Player/Pyro/low/1531.vcd" 
+}
+Rule PlayerHelpCapture2PyroTFC
+{
+	criteria IsTFC ConceptPlayerHelp IsPyro IsOnCappableControlPoint IsHelpCapPyro
+	Response PlayerHelpCapture2PyroTFC
+}
+
+Response PlayerHelpDefendPyroTFC
+{
+	scene "scenes/Player/Pyro/low/1469.vcd" 
+}
+Rule PlayerHelpDefendPyroTFC
+{
+	criteria IsTFC ConceptPlayerHelp IsPyro IsOnFriendlyControlPoint
+	Response PlayerHelpDefendPyroTFC
+}
+
+Response PlayerMedicPyroTFC
+{
+	scene "scenes/Player/Pyro/low/1489.vcd" 
+}
+Rule PlayerMedicPyroTFC
+{
+	criteria IsTFC ConceptPlayerMedic IsPyro
+	Response PlayerMedicPyroTFC
+}
+
+Response PlayerAskForBallPyroTFC
+{
+}
+Rule PlayerAskForBallPyroTFC
+{
+	criteria IsTFC ConceptPlayerAskForBall IsPyro
+	Response PlayerAskForBallPyroTFC
+}
+
+Response PlayerMoveUpPyroTFC
+{
+	scene "scenes/Player/Pyro/low/1492.vcd" 
+}
+Rule PlayerMoveUpPyroTFC
+{
+	criteria IsTFC ConceptPlayerMoveUp  IsPyro
+	Response PlayerMoveUpPyroTFC
+}
+
+Response PlayerNoPyroTFC
+{
+	scene "scenes/Player/Pyro/low/1507.vcd" 
+}
+Rule PlayerNoPyroTFC
+{
+	criteria IsTFC ConceptPlayerNo  IsPyro
+	Response PlayerNoPyroTFC
+}
+
+Response PlayerThanksPyroTFC
+{
+	scene "scenes/Player/Pyro/low/1550.vcd" 
+}
+Rule PlayerThanksPyroTFC
+{
+	criteria IsTFC ConceptPlayerThanks IsPyro
+	Response PlayerThanksPyroTFC
+}
+
+// Custom Assist kill response
+// As there is no actual concept for assist kills, this is the second best method.
+// Say thanks after you kill more than one person.
+
+Response KilledPlayerAssistPyroTFC
+{
+	scene "scenes/Player/Pyro/low/1529.vcd"
+}
+Rule KilledPlayerAssistPyroTFC
+{
+	criteria IsTFC ConceptPlayerThanks IsPyro IsARecentKill KilledPlayerDelay PyroNotAssistSpeech
+	ApplyContext "PyroAssistSpeech:1:20"
+	Response KilledPlayerAssistPyroTFC
+}
+// End custom
+
+Response PlayerYesPyroTFC
+{
+	scene "scenes/Player/Pyro/low/1558.vcd" 
+}
+Rule PlayerYesPyroTFC
+{
+	criteria IsTFC ConceptPlayerYes  IsPyro
+	Response PlayerYesPyroTFC
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Speech Menu 2
+//--------------------------------------------------------------------------------------------------------------
+Response PlayerActivateChargePyroTFC
+{
+	scene "scenes/Player/Pyro/low/1403.vcd" 
+}
+Rule PlayerActivateChargePyroTFC
+{
+	criteria IsTFC ConceptPlayerActivateCharge IsPyro
+	Response PlayerActivateChargePyroTFC
+}
+
+Response PlayerCloakedSpyPyroTFC
+{
+	scene "scenes/Player/Pyro/low/1429.vcd" 
+}
+Rule PlayerCloakedSpyPyroTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsPyro
+	Response PlayerCloakedSpyPyroTFC
+}
+
+Response PlayerDispenserHerePyroTFC
+{
+	scene "scenes/Player/Pyro/low/1493.vcd" 
+}
+Rule PlayerDispenserHerePyroTFC
+{
+	criteria IsTFC ConceptPlayerDispenserHere IsPyro
+	Response PlayerDispenserHerePyroTFC
+}
+
+Response PlayerIncomingPyroTFC
+{
+	scene "scenes/Player/Pyro/low/1472.vcd" 
+}
+Rule PlayerIncomingPyroTFC
+{
+	criteria IsTFC ConceptPlayerIncoming IsPyro
+	Response PlayerIncomingPyroTFC
+}
+
+Response PlayerSentryAheadPyroTFC
+{
+	scene "scenes/Player/Pyro/low/1515.vcd" 
+}
+Rule PlayerSentryAheadPyroTFC
+{
+	criteria IsTFC ConceptPlayerSentryAhead IsPyro
+	Response PlayerSentryAheadPyroTFC
+}
+
+Response PlayerSentryHerePyroTFC
+{
+	scene "scenes/Player/Pyro/low/1495.vcd" 
+}
+Rule PlayerSentryHerePyroTFC
+{
+	criteria IsTFC ConceptPlayerSentryHere IsPyro
+	Response PlayerSentryHerePyroTFC
+}
+
+Response PlayerTeleporterHerePyroTFC
+{
+	scene "scenes/Player/Pyro/low/1497.vcd" 
+}
+Rule PlayerTeleporterHerePyroTFC
+{
+	criteria IsTFC ConceptPlayerTeleporterHere IsPyro
+	Response PlayerTeleporterHerePyroTFC
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Speech Menu 3
+//--------------------------------------------------------------------------------------------------------------
+Response PlayerBattleCryPyroTFC
+{
+	scene "scenes/Player/Pyro/low/1418.vcd" 
+	scene "scenes/Player/Pyro/low/1419.vcd" 
+}
+Rule PlayerBattleCryPyroTFC
+{
+	criteria IsTFC ConceptPlayerBattleCry IsPyro
+	Response PlayerBattleCryPyroTFC
+}
+
+// Custom stuff - melee dare
+// Look at enemy, then do battle cry voice command while holding a melee weapon.
+Response MeleeDareCombatPyroTFC
+{
+	scene "scenes/Player/Pyro/low/1409.vcd"
+	scene "scenes/Player/Pyro/low/1517.vcd"
+	scene "scenes/Player/Pyro/low/1482.vcd"
+}
+Rule MeleeDareCombatPyroTFC
+{
+	criteria IsTFC ConceptPlayerBattleCry IsWeaponMelee IsPyro IsCrosshairEnemy
+	Response MeleeDareCombatPyroTFC
+}
+//End custom
+
+Response PlayerCheersPyroTFC
+{
+	scene "scenes/Player/Pyro/low/1421.vcd" 
+}
+Rule PlayerCheersPyroTFC
+{
+	criteria IsTFC ConceptPlayerCheers IsPyro
+	Response PlayerCheersPyroTFC
+}
+
+Response PlayerGoodJobPyroTFC
+{
+	scene "scenes/Player/Pyro/low/1454.vcd" 
+}
+Rule PlayerGoodJobPyroTFC
+{
+	criteria IsTFC ConceptPlayerGoodJob IsPyro
+	Response PlayerGoodJobPyroTFC
+}
+
+Response PlayerJeersPyroTFC
+{
+	scene "scenes/Player/Pyro/low/1476.vcd" 
+	scene "scenes/Player/Pyro/low/1477.vcd" 
+}
+Rule PlayerJeersPyroTFC
+{
+	criteria IsTFC ConceptPlayerJeers IsPyro
+	Response PlayerJeersPyroTFC
+}
+
+Response PlayerLostPointPyroTFC
+{
+	scene "scenes/Player/Pyro/low/1499.vcd" 
+}
+Rule PlayerLostPointPyroTFC
+{
+	criteria IsTFC ConceptPlayerLostPoint IsPyro
+	Response PlayerLostPointPyroTFC
+}
+
+Response PlayerNegativePyroTFC
+{
+	scene "scenes/Player/Pyro/low/1499.vcd" 
+}
+Rule PlayerNegativePyroTFC
+{
+	criteria IsTFC ConceptPlayerNegative IsPyro
+	Response PlayerNegativePyroTFC
+}
+
+Response PlayerNiceShotPyroTFC
+{
+	scene "scenes/Player/Pyro/low/1504.vcd" 
+}
+Rule PlayerNiceShotPyroTFC
+{
+	criteria IsTFC ConceptPlayerNiceShot IsPyro
+	Response PlayerNiceShotPyroTFC
+}
+
+Response PlayerPositivePyroTFC
+{
+	scene "scenes/Player/Pyro/low/1510.vcd" 
+}
+
+Response PlayerTauntsPyroTFC
+{
+	scene "scenes/Player/Pyro/low/1563.vcd" 
+	scene "scenes/Player/Pyro/low/1595.vcd" 
+	scene "scenes/Player/Pyro/low/1487.vcd" 
+}
+Rule PlayerPositivePyroTFC
+{
+	criteria IsTFC ConceptPlayerPositive IsPyro
+	Response PlayerPositivePyro
+	Response PlayerTauntsPyroTFC
+}
+
+//--------------------------------------------------------------------------------------------------------------
+// Begin Competitive Mode VO
+//--------------------------------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------------------
+// End Competitive Mode VO
+//--------------------------------------------------------------------------------------------------------------

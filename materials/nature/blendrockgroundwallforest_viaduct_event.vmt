@@ -1,0 +1,13 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "Nature/rockwall001forest"
+	"$basetexture2" "koth_viaduct_event/viaduct_grass001"
+	"%tooltexture" "editor-abs/blendttx/nature/blendrockgroundwallforest_viaduct_event"
+	"$blendmodulatetexture" "Nature/grass_blendmask"
+	"$bumpmap" "Nature/rockwall001_normal"
+	"$bumpmap2" "Nature/rockground002_height-ssbump"
+	"%keywords" "tf"
+	"$surfaceprop" "dirt"
+
+
+}

@@ -1,0 +1,9 @@
+"vertexlitgeneric"
+{
+	"$basetexture"	"icarus/glasschrome003"
+	"$envmap" "env_cubemap"
+	"$basealphaenvmapmask" 1
+	"$surfaceprop" "glass"
+	"$envmaptint" "[ .25 .25 .25]"
+	"%keywords" "tf"
+}

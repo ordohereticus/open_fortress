@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "signs/logo_tfc_blue_purple"
+	"$decal" 1
+	"$decalscale" .25
+	"$alphatest" 1
+	"$alphatestreference" "0.1"
+	"%keywords" "tf"
+}

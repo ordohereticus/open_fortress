@@ -1,0 +1,33 @@
+// Choreo version 1
+actor "AllClass"
+{
+  channel "audio"
+  {
+    event speak "Halloween.dance"
+    {
+      time 0 2.5
+      param "Halloween.dance"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event sequence "taunt_thriller"
+    {
+      time 0.000000 2.5
+      param "taunt07"
+      fixedlength
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

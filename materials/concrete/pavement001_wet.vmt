@@ -1,0 +1,16 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "concrete/pavement001_wet"
+	"$envmap" "env_cubemap"
+	"$envmapcontrast" 1
+	"$envmapsaturation" 1
+	"$envmaptint" "[ .2 .2 .2]"
+	"$normalmapalphaenvmapmask" 1
+	"$bumpmap" "concrete/concretefloor007b_height-ssbump.vtf"
+	"$ssbump" "1"
+	"%keywords" "tf, frontline"
+	"$detail" "overlays/detail001"
+	"$detailscale" "1.9"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "1"
+}

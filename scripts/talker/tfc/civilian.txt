@@ -1,0 +1,728 @@
+//--------------------------------------------------------------------------------------------------------------
+// Civilian Response Rule File
+//--------------------------------------------------------------------------------------------------------------
+
+Response PlayerCloakedSpyDemomanCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/cloakedspyidentify05.vcd" 
+}
+Rule PlayerCloakedSpyDemomanCivilianTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsCivilian IsOnDemoman
+	Response PlayerCloakedSpyDemomanCivilianTFC
+}
+
+Response PlayerCloakedSpyEngineerCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/cloakedspyidentify07.vcd" 
+}
+Rule PlayerCloakedSpyEngineerCivilianTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsCivilian IsOnEngineer
+	Response PlayerCloakedSpyEngineerCivilianTFC
+}
+
+Response PlayerCloakedSpyHeavyCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/cloakedspyidentify03.vcd" 
+}
+Rule PlayerCloakedSpyHeavyCivilianTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsCivilian IsOnHeavy
+	Response PlayerCloakedSpyHeavyCivilianTFC
+}
+
+Response PlayerCloakedSpyMedicCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/cloakedspyidentify06.vcd" 
+}
+Rule PlayerCloakedSpyMedicCivilianTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsCivilian IsOnMedic
+	Response PlayerCloakedSpyMedicCivilianTFC
+}
+
+Response PlayerCloakedSpyPyroCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/cloakedspyidentify04.vcd" 
+}
+Rule PlayerCloakedSpyPyroCivilianTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsCivilian IsOnPyro
+	Response PlayerCloakedSpyPyroCivilianTFC
+}
+
+Response PlayerCloakedSpySniperCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/cloakedspyidentify08.vcd" 
+}
+Rule PlayerCloakedSpySniperCivilianTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsCivilian IsOnSniper
+	Response PlayerCloakedSpySniperCivilianTFC
+}
+
+Response PlayerCloakedSpyCivilianCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/cloakedspyidentify02.vcd" 
+}
+Rule PlayerCloakedSpyCivilianCivilianTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsCivilian IsOnCivilian
+	Response PlayerCloakedSpyCivilianCivilianTFC
+}
+
+Response PlayerCloakedSpySpyCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/cloakedspyidentify09.vcd" 
+}
+Rule PlayerCloakedSpySpyCivilianTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsCivilian IsOnSpy
+	Response PlayerCloakedSpySpyCivilianTFC
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Auto Speech
+//--------------------------------------------------------------------------------------------------------------
+Response HealThanksCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/ThanksForTheHeal01.vcd" 
+	scene "scenes/Player/Civilian/low/ThanksForTheHeal02.vcd" 
+	scene "scenes/Player/Civilian/low/ThanksForTheHeal03.vcd" 
+}
+Rule HealThanksCivilianTFC
+{
+	criteria IsTFC ConceptMedicChargeStopped IsCivilian SuperHighHealthContext CivilianNotSaidHealThanks 50PercentChance
+	ApplyContext "CivilianSaidHealThanks:1:20"
+	Response HealThanksCivilianTFC
+}
+
+Response PlayerRoundStartCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/battlecry01.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Civilian/low/battlecry02.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Civilian/low/battlecry03.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Civilian/low/battlecry04.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Civilian/low/battlecry05.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Civilian/low/battlecry06.vcd" predelay "1.0, 5.0"
+}
+Rule PlayerRoundStartCivilianTFC
+{
+	criteria IsTFC ConceptPlayerRoundStart IsCivilian
+	Response PlayerRoundStartCivilianTFC
+}
+
+Response PlayerCappedIntelligenceCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/autocappedintelligence01.vcd" 
+	scene "scenes/Player/Civilian/low/autocappedintelligence02.vcd" 
+	scene "scenes/Player/Civilian/low/autocappedintelligence03.vcd" 
+}
+Rule PlayerCappedIntelligenceCivilianTFC
+{
+	criteria IsTFC ConceptPlayerCapturedIntelligence IsCivilian
+	Response PlayerCappedIntelligenceCivilianTFC
+}
+
+Response PlayerCapturedPointCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/autocappedcontrolpoint01.vcd" 
+	scene "scenes/Player/Civilian/low/autocappedcontrolpoint02.vcd" 
+	scene "scenes/Player/Civilian/low/autocappedcontrolpoint03.vcd" 
+}
+Rule PlayerCapturedPointCivilianTFC
+{
+	criteria IsTFC ConceptPlayerCapturedPoint IsCivilian
+	Response PlayerCapturedPointCivilianTFC
+}
+
+Response PlayerSuddenDeathCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/jeers01.vcd" 
+	scene "scenes/Player/Civilian/low/jeers02.vcd" 
+	scene "scenes/Player/Civilian/low/jeers03.vcd" 
+	scene "scenes/Player/Civilian/low/jeers04.vcd" 
+	scene "scenes/Player/Civilian/low/jeers05.vcd" 
+	scene "scenes/Player/Civilian/low/jeers06.vcd" 
+	scene "scenes/Player/Civilian/low/jeers07.vcd" 
+	scene "scenes/Player/Civilian/low/jeers08.vcd" 
+	scene "scenes/Player/Civilian/low/jeers09.vcd" 
+	scene "scenes/Player/Civilian/low/jeers10.vcd" 
+	scene "scenes/Player/Civilian/low/jeers11.vcd" 
+	scene "scenes/Player/Civilian/low/jeers12.vcd" 
+}
+Rule PlayerSuddenDeathCivilianTFC
+{
+	criteria IsTFC ConceptPlayerSuddenDeathStart IsCivilian
+	Response PlayerSuddenDeathCivilianTFC
+}
+
+Response PlayerStalemateCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/autodejectedtie01.vcd" 
+	scene "scenes/Player/Civilian/low/autodejectedtie02.vcd" 
+	scene "scenes/Player/Civilian/low/autodejectedtie03.vcd" 
+}
+Rule PlayerStalemateCivilianTFC
+{
+	criteria IsTFC ConceptPlayerStalemate IsCivilian
+	Response PlayerStalemateCivilianTFC
+}
+
+Response PlayerTeleporterThanksCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/ThanksForTheTeleporter01.vcd" 
+	scene "scenes/Player/Civilian/low/ThanksForTheTeleporter02.vcd" 
+	scene "scenes/Player/Civilian/low/ThanksForTheTeleporter03.vcd" 
+}
+Rule PlayerTeleporterThanksCivilianTFC
+{
+	criteria IsTFC ConceptTeleported IsNotEngineer IsCivilian 30PercentChance
+	Response PlayerTeleporterThanksCivilianTFC
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Auto Speech Combat
+//--------------------------------------------------------------------------------------------------------------
+Response KilledPlayerManyCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/specialcompleted03.vcd" 
+	scene "scenes/Player/Civilian/low/taunts01.vcd" 
+	scene "scenes/Player/Civilian/low/taunts02.vcd" 
+	scene "scenes/Player/Civilian/low/taunts09.vcd" 
+	scene "scenes/Player/Civilian/low/taunts10.vcd" 
+}
+Rule KilledPlayerManyCivilianTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsManyRecentKills 30PercentChance IsWeaponPrimary KilledPlayerDelay CivilianNotKillSpeech IsCivilian
+	ApplyContext "CivilianKillSpeech:1:10"
+	applycontexttoworld
+	Response KilledPlayerManyCivilianTFC
+}
+
+Response KilledPlayerMeleeCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/specialcompleted05.vcd" 
+}
+Rule KilledPlayerMeleeCivilianTFC
+{
+	criteria IsTFC ConceptKilledPlayer KilledPlayerDelay 30PercentChance  IsWeaponMelee CivilianNotKillSpeechMelee IsCivilian
+	ApplyContext "CivilianKillSpeechMelee:1:10"
+	applycontexttoworld
+	Response KilledPlayerMeleeCivilianTFC
+}
+
+Response KilledPlayerVeryManyCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/taunts17.vcd" 
+}
+Rule KilledPlayerVeryManyCivilianTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsVeryManyRecentKills 50PercentChance IsWeaponPrimary KilledPlayerDelay CivilianNotKillSpeech IsCivilian
+	ApplyContext "CivilianKillSpeech:1:10"
+	applycontexttoworld
+	Response KilledPlayerVeryManyCivilianTFC
+}
+
+Response PlayerKilledCapperCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/cheers04.vcd" 
+	scene "scenes/Player/Civilian/low/cheers05.vcd" 
+	scene "scenes/Player/Civilian/low/cheers06.vcd" 
+}
+Rule PlayerKilledCapperCivilianTFC
+{
+	criteria IsTFC ConceptCapBlocked IsCivilian
+	ApplyContext "CivilianKillSpeech:1:10"
+	Response PlayerKilledCapperCivilianTFC
+}
+
+Response PlayerKilledDominatingCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/laughevil01.vcd" predelay "2.5"
+	scene "scenes/Player/Civilian/low/laughevil02.vcd" predelay "2.5"
+	scene "scenes/Player/Civilian/low/laughevil03.vcd" predelay "2.5"
+	scene "scenes/Player/Civilian/low/laughhappy01.vcd" predelay "2.5"
+	scene "scenes/Player/Civilian/low/laughhappy02.vcd" predelay "2.5"
+	scene "scenes/Player/Civilian/low/laughhappy03.vcd" predelay "2.5"
+	scene "scenes/Player/Civilian/low/laughlong01.vcd" predelay "2.5"
+	scene "scenes/Player/Civilian/low/laughlong03.vcd" predelay "2.5"
+	scene "scenes/Player/Civilian/low/taunts07.vcd" predelay "2.5"
+	scene "scenes/Player/Civilian/low/taunts13.vcd" predelay "2.5"
+}
+Rule PlayerKilledDominatingCivilianTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsCivilian IsDominated
+	ApplyContext "CivilianKillSpeech:1:10"
+	Response PlayerKilledDominatingCivilianTFC
+}
+
+Response PlayerKilledForRevengeCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/battlecry06.vcd" predelay "2.5"
+	scene "scenes/Player/Civilian/low/cheers01.vcd" predelay "2.5"
+	scene "scenes/Player/Civilian/low/goodjob02.vcd" predelay "2.5"
+}
+Rule PlayerKilledForRevengeCivilianTFC
+{
+	criteria IsTFC ConceptKilledPlayer IsCivilian IsRevenge
+	ApplyContext "CivilianKillSpeech:1:10"
+	Response PlayerKilledForRevengeCivilianTFC
+}
+
+Response PlayerKilledObjectCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/battlecry01.vcd" 
+	scene "scenes/Player/Civilian/low/positivevocalization01.vcd" 
+	scene "scenes/Player/Civilian/low/positivevocalization02.vcd" 
+	scene "scenes/Player/Civilian/low/positivevocalization03.vcd" 
+	scene "scenes/Player/Civilian/low/specialcompleted04.vcd" 
+}
+Rule PlayerKilledObjectCivilianTFC
+{
+	criteria IsTFC ConceptKilledObject IsCivilian 30PercentChance IsARecentKill
+	ApplyContext "CivilianKillSpeechObject:1:30"
+	applycontexttoworld
+	Response PlayerKilledObjectCivilianTFC
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Auto Speech Pain
+//--------------------------------------------------------------------------------------------------------------
+Response PlayerAttackerPainCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/painsevere01.vcd" 
+	scene "scenes/Player/Civilian/low/painsevere02.vcd" 
+	scene "scenes/Player/Civilian/low/painsevere03.vcd" 
+	scene "scenes/Player/Civilian/low/painsevere04.vcd" 
+	scene "scenes/Player/Civilian/low/painsevere05.vcd" 
+	scene "scenes/Player/Civilian/low/painsevere06.vcd" 
+}
+Rule PlayerAttackerPainCivilianTFC
+{
+	criteria IsTFC ConceptAttackerPain IsCivilian
+	Response PlayerAttackerPainCivilianTFC
+}
+
+Response PlayerOnFireCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/autoonfire01.vcd" 
+}
+Rule PlayerOnFireCivilianTFC
+{
+	criteria IsTFC ConceptFire IsCivilian CivilianIsNotStillonFire
+	ApplyContext "CivilianOnFire:1:7"
+	Response PlayerOnFireCivilianTFC
+}
+
+Response PlayerOnFireRareCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/autoonfire02.vcd" 
+	scene "scenes/Player/Civilian/low/autoonfire03.vcd" 
+}
+Rule PlayerOnFireRareCivilianTFC
+{
+	criteria IsTFC ConceptFire IsCivilian 10PercentChance CivilianIsNotStillonFire
+	ApplyContext "CivilianOnFire:1:7"
+	Response PlayerOnFireRareCivilianTFC
+}
+
+Response PlayerPainCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/painsharp01.vcd" 
+	scene "scenes/Player/Civilian/low/painsharp02.vcd" 
+	scene "scenes/Player/Civilian/low/painsharp03.vcd" 
+	scene "scenes/Player/Civilian/low/painsharp04.vcd" 
+	scene "scenes/Player/Civilian/low/painsharp05.vcd" 
+	scene "scenes/Player/Civilian/low/painsharp06.vcd" 
+	scene "scenes/Player/Civilian/low/painsharp07.vcd" 
+	scene "scenes/Player/Civilian/low/painsharp08.vcd" 
+}
+Rule PlayerPainCivilianTFC
+{
+	criteria IsTFC ConceptPain IsCivilian
+	Response PlayerPainCivilianTFC
+}
+
+Response PlayerStillOnFireCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/autoonfiresecondary01.vcd" 
+}
+Rule PlayerStillOnFireCivilianTFC
+{
+	criteria IsTFC ConceptFire IsCivilian  CivilianIsStillonFire
+	ApplyContext "CivilianOnFire:1:7"
+	Response PlayerStillOnFireCivilianTFC
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Speech Menu 1
+//--------------------------------------------------------------------------------------------------------------
+Response PlayerGoCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/go01.vcd" 
+	scene "scenes/Player/Civilian/low/go02.vcd" 
+	scene "scenes/Player/Civilian/low/go03.vcd" 
+}
+Rule PlayerGoCivilianTFC
+{
+	criteria IsTFC ConceptPlayerGo IsCivilian
+	Response PlayerGoCivilianTFC
+}
+
+Response PlayerHeadLeftCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/headleft01.vcd" 
+	scene "scenes/Player/Civilian/low/headleft02.vcd" 
+	scene "scenes/Player/Civilian/low/headleft03.vcd" 
+}
+Rule PlayerHeadLeftCivilianTFC
+{
+	criteria IsTFC ConceptPlayerLeft  IsCivilian
+	Response PlayerHeadLeftCivilianTFC
+}
+
+Response PlayerHeadRightCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/headright01.vcd" 
+	scene "scenes/Player/Civilian/low/headright02.vcd" 
+	scene "scenes/Player/Civilian/low/headright03.vcd" 
+}
+Rule PlayerHeadRightCivilianTFC
+{
+	criteria IsTFC ConceptPlayerRight  IsCivilian
+	Response PlayerHeadRightCivilianTFC
+}
+
+Response PlayerHelpCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/helpme01.vcd" 
+	scene "scenes/Player/Civilian/low/helpme02.vcd" 
+	scene "scenes/Player/Civilian/low/helpme03.vcd" 
+}
+Rule PlayerHelpCivilianTFC
+{
+	criteria IsTFC ConceptPlayerHelp IsCivilian
+	Response PlayerHelpCivilianTFC
+}
+
+Response PlayerHelpCaptureCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/helpmecapture01.vcd" 
+	scene "scenes/Player/Civilian/low/helpmecapture02.vcd" 
+	scene "scenes/Player/Civilian/low/helpmecapture03.vcd" 
+}
+Rule PlayerHelpCaptureCivilianTFC
+{
+	criteria IsTFC ConceptPlayerHelp IsCivilian IsOnCappableControlPoint
+	ApplyContext "CivilianHelpCap:1:10"
+	Response PlayerHelpCaptureCivilianTFC
+}
+
+Response PlayerHelpCapture2CivilianTFC
+{
+	scene "scenes/Player/Civilian/low/standonthepoint01.vcd" 
+	scene "scenes/Player/Civilian/low/standonthepoint02.vcd" 
+	scene "scenes/Player/Civilian/low/standonthepoint03.vcd" 
+}
+Rule PlayerHelpCapture2CivilianTFC
+{
+	criteria IsTFC ConceptPlayerHelp IsCivilian IsOnCappableControlPoint IsHelpCapCivilian
+	Response PlayerHelpCapture2CivilianTFC
+}
+
+Response PlayerHelpDefendCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/helpmedefend01.vcd" 
+	scene "scenes/Player/Civilian/low/helpmedefend02.vcd" 
+	scene "scenes/Player/Civilian/low/helpmedefend03.vcd" 
+	scene "scenes/Player/Civilian/low/helpmedefend04.vcd" 
+}
+Rule PlayerHelpDefendCivilianTFC
+{
+	criteria IsTFC ConceptPlayerHelp IsCivilian IsOnFriendlyControlPoint
+	Response PlayerHelpDefendCivilianTFC
+}
+
+Response PlayerMedicCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/medic01.vcd" 
+	scene "scenes/Player/Civilian/low/medic02.vcd" 
+	scene "scenes/Player/Civilian/low/medic03.vcd" 
+}
+Rule PlayerMedicCivilianTFC
+{
+	criteria IsTFC ConceptPlayerMedic IsCivilian
+	Response PlayerMedicCivilianTFC
+}
+
+Response PlayerMoveUpCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/moveup01.vcd" 
+	scene "scenes/Player/Civilian/low/moveup02.vcd" 
+	scene "scenes/Player/Civilian/low/moveup03.vcd" 
+}
+Rule PlayerMoveUpCivilianTFC
+{
+	criteria IsTFC ConceptPlayerMoveUp  IsCivilian
+	Response PlayerMoveUpCivilianTFC
+}
+
+Response PlayerNoCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/no01.vcd" 
+	scene "scenes/Player/Civilian/low/no02.vcd" 
+	scene "scenes/Player/Civilian/low/no03.vcd" 
+}
+Rule PlayerNoCivilianTFC
+{
+	criteria IsTFC ConceptPlayerNo  IsCivilian
+	Response PlayerNoCivilianTFC
+}
+
+Response PlayerThanksCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/Thanks01.vcd" 
+	scene "scenes/Player/Civilian/low/Thanks02.vcd" 
+}
+Rule PlayerThanksCivilianTFC
+{
+	criteria IsTFC ConceptPlayerThanks IsCivilian
+	Response PlayerThanksCivilianTFC
+}
+
+Response PlayerYesCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/Yes01.vcd" 
+	scene "scenes/Player/Civilian/low/Yes02.vcd" 
+	scene "scenes/Player/Civilian/low/Yes03.vcd" 
+	scene "scenes/Player/Civilian/low/Yes04.vcd" 
+}
+Rule PlayerYesCivilianTFC
+{
+	criteria IsTFC ConceptPlayerYes  IsCivilian
+	Response PlayerYesCivilianTFC
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Speech Menu 2
+//--------------------------------------------------------------------------------------------------------------
+Response PlayerActivateChargeCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/activatecharge01.vcd" 
+	scene "scenes/Player/Civilian/low/activatecharge02.vcd" 
+	scene "scenes/Player/Civilian/low/activatecharge03.vcd" 
+}
+Rule PlayerActivateChargeCivilianTFC
+{
+	criteria IsTFC ConceptPlayerActivateCharge IsCivilian
+	Response PlayerActivateChargeCivilianTFC
+}
+
+Response PlayerCloakedSpyCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/cloakedspy01.vcd" 
+	scene "scenes/Player/Civilian/low/cloakedspy02.vcd" 
+	scene "scenes/Player/Civilian/low/cloakedspy03.vcd" 
+}
+Rule PlayerCloakedSpyCivilianTFC
+{
+	criteria IsTFC ConceptPlayerCloakedSpy IsCivilian
+	Response PlayerCloakedSpyCivilianTFC
+}
+
+Response PlayerDispenserHereCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/needdispenser01.vcd" 
+}
+Rule PlayerDispenserHereCivilianTFC
+{
+	criteria IsTFC ConceptPlayerDispenserHere IsCivilian
+	Response PlayerDispenserHereCivilianTFC
+}
+
+Response PlayerIncomingCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/incoming01.vcd" 
+}
+Rule PlayerIncomingCivilianTFC
+{
+	criteria IsTFC ConceptPlayerIncoming IsCivilian
+	Response PlayerIncomingCivilianTFC
+}
+
+Response PlayerSentryAheadCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/sentryahead01.vcd" 
+	scene "scenes/Player/Civilian/low/sentryahead02.vcd" 
+	scene "scenes/Player/Civilian/low/sentryahead03.vcd" 
+}
+Rule PlayerSentryAheadCivilianTFC
+{
+	criteria IsTFC ConceptPlayerSentryAhead IsCivilian
+	Response PlayerSentryAheadCivilianTFC
+}
+
+Response PlayerSentryHereCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/needsentry01.vcd" 
+}
+Rule PlayerSentryHereCivilianTFC
+{
+	criteria IsTFC ConceptPlayerSentryHere IsCivilian
+	Response PlayerSentryHereCivilianTFC
+}
+
+Response PlayerTeleporterHereCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/needteleporter01.vcd" 
+}
+Rule PlayerTeleporterHereCivilianTFC
+{
+	criteria IsTFC ConceptPlayerTeleporterHere IsCivilian
+	Response PlayerTeleporterHereCivilianTFC
+}
+
+
+//--------------------------------------------------------------------------------------------------------------
+// Speech Menu 3
+//--------------------------------------------------------------------------------------------------------------
+Response PlayerBattleCryCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/battlecry01.vcd" 
+	scene "scenes/Player/Civilian/low/battlecry02.vcd" 
+	scene "scenes/Player/Civilian/low/battlecry03.vcd" 
+	scene "scenes/Player/Civilian/low/battlecry04.vcd" 
+	scene "scenes/Player/Civilian/low/battlecry05.vcd" 
+	scene "scenes/Player/Civilian/low/battlecry06.vcd" 
+}
+Rule PlayerBattleCryCivilianTFC
+{
+	criteria IsTFC ConceptPlayerBattleCry IsCivilian
+	Response PlayerBattleCryCivilianTFC
+}
+
+Response PlayerCheersCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/cheers01.vcd" 
+	scene "scenes/Player/Civilian/low/cheers02.vcd" 
+	scene "scenes/Player/Civilian/low/cheers03.vcd" 
+	scene "scenes/Player/Civilian/low/cheers04.vcd" 
+	scene "scenes/Player/Civilian/low/cheers05.vcd" 
+	scene "scenes/Player/Civilian/low/cheers06.vcd" 
+}
+Rule PlayerCheersCivilianTFC
+{
+	criteria IsTFC ConceptPlayerCheers IsCivilian
+	Response PlayerCheersCivilianTFC
+}
+
+Response PlayerGoodJobCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/goodjob01.vcd" 
+	scene "scenes/Player/Civilian/low/goodjob02.vcd" 
+	scene "scenes/Player/Civilian/low/goodjob03.vcd" 
+}
+Rule PlayerGoodJobCivilianTFC
+{
+	criteria IsTFC ConceptPlayerGoodJob IsCivilian
+	Response PlayerGoodJobCivilianTFC
+}
+
+Response PlayerJeersCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/jeers01.vcd" 
+	scene "scenes/Player/Civilian/low/jeers02.vcd" 
+	scene "scenes/Player/Civilian/low/jeers03.vcd" 
+	scene "scenes/Player/Civilian/low/jeers04.vcd" 
+	scene "scenes/Player/Civilian/low/jeers05.vcd" 
+	scene "scenes/Player/Civilian/low/jeers06.vcd" 
+	scene "scenes/Player/Civilian/low/jeers07.vcd" 
+	scene "scenes/Player/Civilian/low/jeers08.vcd" 
+	scene "scenes/Player/Civilian/low/jeers09.vcd" 
+	scene "scenes/Player/Civilian/low/jeers10.vcd" 
+	scene "scenes/Player/Civilian/low/jeers11.vcd" 
+	scene "scenes/Player/Civilian/low/jeers12.vcd" 
+}
+Rule PlayerJeersCivilianTFC
+{
+	criteria IsTFC ConceptPlayerJeers IsCivilian
+	Response PlayerJeersCivilianTFC
+}
+
+Response PlayerLostPointCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/negativevocalization01.vcd" 
+	scene "scenes/Player/Civilian/low/negativevocalization02.vcd" 
+	scene "scenes/Player/Civilian/low/negativevocalization03.vcd" 
+	scene "scenes/Player/Civilian/low/negativevocalization04.vcd" 
+	scene "scenes/Player/Civilian/low/negativevocalization05.vcd" 
+	scene "scenes/Player/Civilian/low/negativevocalization06.vcd" 
+}
+Rule PlayerLostPointCivilianTFC
+{
+	criteria IsTFC ConceptPlayerLostPoint IsCivilian
+	Response PlayerLostPointCivilianTFC
+}
+
+Response PlayerNegativeCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/negativevocalization01.vcd" 
+	scene "scenes/Player/Civilian/low/negativevocalization02.vcd" 
+	scene "scenes/Player/Civilian/low/negativevocalization03.vcd" 
+	scene "scenes/Player/Civilian/low/negativevocalization04.vcd" 
+	scene "scenes/Player/Civilian/low/negativevocalization05.vcd" 
+	scene "scenes/Player/Civilian/low/negativevocalization06.vcd" 
+}
+Rule PlayerNegativeCivilianTFC
+{
+	criteria IsTFC ConceptPlayerNegative IsCivilian
+	Response PlayerNegativeCivilianTFC
+}
+
+Response PlayerNiceShotCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/niceshot01.vcd" 
+	scene "scenes/Player/Civilian/low/niceshot02.vcd" 
+	scene "scenes/Player/Civilian/low/niceshot03.vcd" 
+}
+Rule PlayerNiceShotCivilianTFC
+{
+	criteria IsTFC ConceptPlayerNiceShot IsCivilian
+	Response PlayerNiceShotCivilianTFC
+}
+
+Response PlayerPositiveCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/positivevocalization01.vcd" 
+	scene "scenes/Player/Civilian/low/positivevocalization02.vcd" 
+	scene "scenes/Player/Civilian/low/positivevocalization03.vcd" 
+	scene "scenes/Player/Civilian/low/positivevocalization04.vcd" 
+	scene "scenes/Player/Civilian/low/positivevocalization05.vcd" 
+}
+Rule PlayerPositiveCivilianTFC
+{
+	criteria IsTFC ConceptPlayerPositive IsCivilian
+	Response PlayerPositiveCivilianTFC
+}
+
+Response PlayerTauntsCivilianTFC
+{
+	scene "scenes/Player/Civilian/low/laughlong02.vcd" 
+	scene "scenes/Player/Civilian/low/laughshort01.vcd" 
+	scene "scenes/Player/Civilian/low/laughshort02.vcd" 
+	scene "scenes/Player/Civilian/low/laughshort03.vcd" 
+	scene "scenes/Player/Civilian/low/laughshort04.vcd" 
+}
+Rule PlayerTauntsCivilianTFC
+{
+	criteria IsTFC ConceptPlayerTaunts IsCivilian
+	Response PlayerTauntsCivilianTFC
+}
+

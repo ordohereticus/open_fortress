@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/props_spytech/stackerchair"
+	"$surfaceprop"	"metal"
+	//"$bumpmap"	"models/props_facemovie/stackerchair/stackerchair_n"
+	"$nodecal"		"1"
+	
+	"$basemapalphaphongmask" 1
+	
+	//"$halflambert"	1
+	//phong properties
+	"$phong"	"1"
+	"$phongboost"	"1"
+	"$phongexponenttexture"	"models/props_spytech/stackerchair_exp"
+	"$phongfresnelranges"	"[2 1 .8]"
+}

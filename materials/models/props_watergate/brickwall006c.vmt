@@ -1,0 +1,11 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "brick/brickwall006c"
+	"$bumpmap" "brick/brickwall002_height-ssbump"
+	"%keywords" "tf"
+	"$detail" "overlays/detail007"
+	"$detailscale" "0.5"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "2"
+
+}

@@ -1,0 +1,26 @@
+"LightmappedGeneric"
+{	
+	"$basetexture" "watergate/cobble_floor"
+
+	"%keywords" "tf"
+
+	"$blendmodulatetexture" "watergate/blend_cobble"
+	"$basetexture2" "water/water_hydro_base"
+
+	"$bumpmap" "watergate/cobble_floor_normal"
+	"$bumpmap2" "watergate/tfwaternormal" 
+
+
+	"$envmap" "env_cubemap"	
+	"$refracttexture" "_rt_WaterRefraction"
+	"$refractamount" ".32"
+
+	"$normalmapalphaenvmapmask" 1
+	"$detailscale" "1.1"
+	"$detailblendmode" "1"
+	"$detailblendfactor" "1"
+	
+	"$surfaceprop" "concrete"
+	"$surfaceprop2" "water"
+
+}

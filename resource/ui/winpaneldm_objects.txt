@@ -1,0 +1,43 @@
+"Models"
+{
+
+	"mercenary_first_model"	"models/weapons/w_models/w_rocketlauncher_dm.mdl"
+	"mercenary_second_model"	"models/weapons/w_models/w_rocketlauncher_dm.mdl"
+	"mercenary_third_model"	""
+	
+	"soldier_first_model"	"models/weapons/w_models/w_rocketlauncher_dm.mdl"
+	"soldier_second_model"	"models/weapons/w_models/w_rocketlauncher_dm.mdl"
+	"soldier_third_model"	""
+	
+	"scout_first_model"	"models/weapons/w_models/w_scattergun.mdl"
+	"scout_second_model"	"models/weapons/w_models/w_scattergun.mdl"
+	"scout_third_model"	""
+	
+	"pyro_first_model"	"models/weapons/w_models/w_flamethrower.mdl"
+	"pyro_second_model"	"models/weapons/w_models/w_flamethrower.mdl"
+	"pyro_third_model"	""
+	
+	"demoman_first_model"	"models/weapons/w_models/w_grenadelauncher.mdl"
+	"demoman_second_model"	"models/weapons/w_models/w_grenadelauncher.mdl"
+	"demoman_third_model"	""
+	
+	"heavy_first_model"	"models/weapons/w_models/w_minigun.mdl"
+	"heavy_second_model"	"models/weapons/w_models/w_minigun.mdl"
+	"heavy_third_model"	""
+
+	"engineer_first_model"	"models/weapons/w_models/w_wrench.mdl"
+	"engineer_second_model"	"models/weapons/w_models/w_shotgun.mdl"
+	"engineer_third_model"	""
+
+	"medic_first_model"	"models/weapons/w_models/w_medigun.mdl"
+	"medic_second_model"	"models/weapons/w_models/w_syringegun.mdl"
+	"medic_third_model"	""
+
+	"sniper_first_model"	"models/weapons/w_models/w_sniperrifle.mdl"
+	"sniper_second_model"	"models/weapons/w_models/w_sniperrifle.mdl"
+	"sniper_third_model"	""	
+
+	"spy_first_model"	"models/weapons/w_models/w_knife.mdl"
+	"spy_second_model"	""
+	"spy_third_model"	""	
+}

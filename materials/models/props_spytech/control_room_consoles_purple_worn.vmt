@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/props_spytech/control_room_consoles_purple_worn"
+	"$nodecal" "1"
+}

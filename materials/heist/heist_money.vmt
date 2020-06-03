@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "heist/heist_money"
+	"$basetexturetransform" "center .5 .5 scale 11 11 rotate 0 translate 0 0"
+	"%keywords" "tf"
+
+}

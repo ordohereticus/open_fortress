@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "vgui/logos/shield"
+	"$nolod" 1
+	"$translucent" 1
+	"$vertexalpha" 1
+	"$vertexcolor" 1
+}

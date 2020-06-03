@@ -1,0 +1,30 @@
+vertexlitgeneric
+{
+	$basetexture models/weapons/v_shield/holsterstrap
+	$phong 1
+	$phongexponent 60
+	$basemapalphaphongmask 1
+	
+	"$glowcolor" "1"
+	"$cloakPassEnabled" "1"
+	"Proxies"
+	{
+		"ModelGlowColor"
+		{
+			"resultVar""$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"	"$glowcolor"
+			"resultVar"	"$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"	"$glowcolor"
+			"resultVar"	"$color2"
+		}
+		"spy_invis"
+		{
+		}
+	}
+}

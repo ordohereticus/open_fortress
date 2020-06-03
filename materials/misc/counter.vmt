@@ -1,0 +1,13 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "misc/counter"
+	"$nodecal" 1
+	"$translucent" 1
+		
+	"Proxies"
+	{
+		"MaterialModify"
+		{
+		}
+	}
+}

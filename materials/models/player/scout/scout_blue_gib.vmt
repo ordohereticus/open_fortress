@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials/models/player/scout/scout_base_gib.vmt"
+	
+	insert
+	{
+		"$basetexture" "models/player/scout/scout_blue_gib"
+	}
+}

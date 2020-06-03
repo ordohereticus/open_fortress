@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props/coffee_machine_neutral"
+"$basemapalphaphongmask" "1"
+	"$phong" "1"
+	"$phongexponent" "7"
+	"$phongboost" "3"
+	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	"$phongfresnelranges"	"[.25 .5 1]"
+
+	"$rimlight" "2"						
+	"$rimlightexponent" "20"				
+	"$rimlightboost" ".25"
+	"$cloakPassEnabled" "1"
+
+
+}

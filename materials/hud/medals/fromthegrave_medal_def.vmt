@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+      "$basetexture" "HUD/medals/fromthegrave_medal"
+      "$translucent" "1"
+
+      "$ignorez" "1"
+}

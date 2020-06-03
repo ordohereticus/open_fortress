@@ -1,0 +1,56 @@
+"MapData"
+{
+	"WeaponSpawners"
+	{
+		"0" // rocket launcher
+		{
+			// temporary fix until the next map compile
+			"Model"		"models/weapons/w_models/w_rocketlauncher_dm.mdl"
+		}
+		"1" // flamethrower
+		{
+		}
+		"2" // revolver
+		{
+		}
+		"3" // china lake
+		{
+		}
+		"4" // assault rifle
+		{
+		}
+		"5" // nailgun
+		{
+		}
+		"6" // tommy gun (spytech area)
+		{
+		}
+		"7" // G.I.B.
+		{
+		}
+		"8" // shotgun (warehouse)
+		{
+		}
+		"9" // shotgun (central building rooftop)
+		{
+		}
+		"10" // shotgun (warehouse office)
+		{
+		}
+		"11" // shotgun (near alleyway)
+		{
+		}
+		"12" // railgun
+		{
+		}
+		"13" // tommy gun (central building)
+		{
+		}
+		"14" // super shotgun
+		{
+		}
+		"15" // gatling gun
+		{
+		}
+	}
+}

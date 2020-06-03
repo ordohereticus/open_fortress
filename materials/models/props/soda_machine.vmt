@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props/soda_machine"
+
+	"$selfillum" "1"
+"$selfillumtint"		"[1.000000 1.000000 1.000000]"
+	"$selfillummask" "models/props/soda_machine_illum"
+
+}

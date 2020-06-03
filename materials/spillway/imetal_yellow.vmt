@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "spillway/imetal_yellow"
+	"$bumpmap" "Metal/Imetal001_normal"
+	"$surfaceprop" "metal"
+	"%keywords" "tf"
+}

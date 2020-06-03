@@ -1,0 +1,115 @@
+//
+// Team Fortress - Engineer Player Class
+//
+PlayerClass
+{
+	// Info.
+	"name"				"engineer"
+	"localize_name"		"TF_Class_Name_Engineer"
+	
+	// Models.
+	"model"				"models/player/engineer.mdl"
+	"arm_model"			"models/weapons/c_models/c_engineer_arms.mdl"
+	"bot_model"			"models/bots/engineer/bot_engineer.mdl"
+	"alt_model"			"models/player/engineer.mdl"
+	"alt_arm_model"		"models/weapons/c_models/c_engineer_arms.mdl"
+	
+	"ViewVector"		"68"
+	
+	"jump_sound"		"Engineer.Jumpsound"
+	
+	// These are used in the class selection
+	"ClassSelectImageRed"			"class_sel_sm_engineer_red"
+	"ClassSelectImageBlue"			"class_sel_sm_engineer_blu"
+	"ClassSelectImageMercenary"		"class_sel_sm_engineer_mercenary"
+	
+	// These are used in your player icon next to your health
+	"ClassImageRed"					"../hud/class_engired"
+	"ClassImageBlue"				"../hud/class_engiblue"
+	"ClassImageMercenary"			"../hud/class_engimercenary"
+	"ClassImageColorless"			"../hud/colorless/class_engicolorless"
+	
+	// Stats.
+	"speed_max"			"300"
+	"health_max"		"125"
+	"armor_max"			"0"
+
+	// Grenades.
+	"grenade1"			"TF_GRENADE_NORMAL"
+	"grenade2"			"TF_GRENADE_EMP"
+	"grenade3"			"NONE"
+
+	// Weapons.
+	"WeaponCount"		"5"
+	"weapon1"			"TF_WEAPON_PDA_ENGINEER_BUILD"
+	"weapon2"			"TF_WEAPON_PDA_ENGINEER_DESTROY"
+	"weapon3"			"TF_WEAPON_WRENCH"
+	"weapon4"			"TF_WEAPON_PISTOL"
+	"weapon5"			"TF_WEAPON_SHOTGUN"
+	"weapon6"			"NONE"
+	"weapon7"			"NONE"
+	"weapon8"			"NONE"
+	"weapon9"			"NONE"
+	
+	// Buildables.
+	"buildable1"		"OBJ_SENTRYGUN"
+	"buildable2"		"OBJ_DISPENSER"
+	"buildable3"		"OBJ_TELEPORTER"
+	
+	// Death Sounds.
+	"sound_death"					"Engineer.Death"
+	"sound_crit_death"				"Engineer.CritDeath"
+	"sound_melee_death"				"Engineer.MeleeDeath"
+	"sound_explosion_death"			"Engineer.ExplosionDeath"	
+	
+	// Ammo.
+	AmmoMax
+	{
+		"TF_AMMO_METAL"				"200"
+	}
+	
+	"TFC"
+	{
+		"model"			"models/player/tfc/engineer_tfc.mdl"
+		"arm_model"		"models/weapons/c_models/c_tfc_engineer_arms.mdl"
+		
+		"speed_max"		"300"
+		//"health_max"	"80" //Uncomment this later when armor is implemented
+		"health_max"	"125"
+		"armor_max"		"50"
+		
+		"WeaponCount"	"5"
+		"weapon1"		"TF_WEAPON_PDA_ENGINEER_BUILD"   //NEEDED FOR BUILDABLES
+		"weapon2"		"TF_WEAPON_PDA_ENGINEER_DESTROY" //TO WORK PROPERLY
+		"weapon3"		"TFC_WEAPON_WRENCH"
+		"weapon4"		"TFC_WEAPON_RAILPISTOL"
+		"weapon5"		"TFC_WEAPON_SHOTGUN_DB"
+		"weapon6"		"NONE"
+		"weapon7"		"NONE"
+		"weapon8"		"NONE"
+		"weapon9"		"NONE"
+	}
+	
+	"Zombie"
+	{
+		"ClassImageRed"					"../hud/class_engie_zombie_red"
+		"ClassImageBlue"				"../hud/class_engie_zombie_blue"
+		"ClassImageMercenary"			"../hud/class_engie_zombie_red"
+		"ClassImageColorless"			"../hud/colorless/class_engie_zombie_red"
+		
+		"model"				"models/player/zombie/engineer_zombie.mdl"
+		"arm_model"			"models/weapons/c_models/c_zombie_engineer_arms.mdl"
+		
+		// Weapons.
+		"WeaponCount"		"1"
+		"weapon1"			"TF_WEAPON_CLAWS"
+		"weapon2"			"NONE"
+		"weapon3"			"NONE"
+		"weapon4"			"NONE"
+		"weapon5"			"NONE"
+		"weapon6"			"NONE"
+		"weapon7"			"NONE"
+		"weapon8"			"NONE"
+		"weapon9"			"NONE"
+	}
+}

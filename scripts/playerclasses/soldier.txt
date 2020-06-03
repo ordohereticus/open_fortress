@@ -1,0 +1,115 @@
+//
+// Team Fortress - Soldier Player Class
+//
+PlayerClass
+{
+	// Info.
+	"name"				"soldier"
+	"localize_name"		"TF_Class_Name_Soldier"
+	
+	// Models.
+	"model"				"models/player/soldier.mdl"
+	"arm_model"			"models/weapons/c_models/c_soldier_arms.mdl"
+	"bot_model"			"models/bots/soldier/bot_soldier.mdl"
+	"alt_model"			"models/player/soldier.mdl"
+	"alt_arm_model"		"models/weapons/c_models/c_soldier_arms.mdl"
+	
+	"ViewVector"		"68"
+	
+	"jump_sound"		"Soldier.Jumpsound"
+	
+	// These are used in the class selection
+	"ClassSelectImageRed"			"class_sel_sm_soldier_red"
+	"ClassSelectImageBlue"			"class_sel_sm_soldier_blu"
+	"ClassSelectImageMercenary"		"class_sel_sm_soldier_mercenary"
+	
+	// These are used in your player icon next to your health
+	"ClassImageRed"					"../hud/class_soldierred"
+	"ClassImageBlue"				"../hud/class_soldierblue"
+	"ClassImageMercenary"			"../hud/class_soldiermercenary"
+	"ClassImageColorless"			"../hud/colorless/class_soldiercolorless"
+	
+	// Stats.
+	"speed_max"			"240"
+	"health_max"		"200"
+	"armor_max"			"0"
+
+	// Grenades.
+	"grenade1"			"TF_GRENADE_NORMAL"
+	"grenade2"			"TF_GRENADE_NAIL"
+	"grenade3"			"NONE"
+
+	// Weapons.
+	"WeaponCount"		"3"
+	"weapon1"			"TF_WEAPON_SHOVEL"
+	"weapon2"			"TF_WEAPON_SHOTGUN"
+	"weapon3"			"TF_WEAPON_ROCKETLAUNCHER"
+	"weapon4"			"NONE"
+	"weapon5"			"NONE"
+	"weapon6"			"NONE"
+	"weapon7"			"NONE"
+	"weapon8"			"NONE"
+	"weapon9"			"NONE"
+	
+	// Buildables.
+	"buildable1"		"OBJ_SENTRYGUN"
+	"buildable2"		"OBJ_DISPENSER"
+	"buildable3"		"OBJ_TELEPORTER"
+
+	// Death Sounds.
+	"sound_death"					"Soldier.Death"
+	"sound_crit_death"				"Soldier.CritDeath"
+	"sound_melee_death"				"Soldier.MeleeDeath"
+	"sound_explosion_death"			"Soldier.ExplosionDeath"
+	
+	// Ammo.
+	AmmoMax
+	{
+		"TF_AMMO_METAL"				"200"
+	}
+	
+	"TFC"
+	{
+		"model"			"models/player/tfc/soldier_tfc.mdl"
+		"arm_model"		"models/weapons/c_models/c_tfc_soldier_arms.mdl"
+		
+		"speed_max"		"240"
+		//"health_max"	"100" //Uncomment this later when armor is implemented
+		"health_max"	"200"
+		"armor_max"		"200"
+		
+		"WeaponCount"	"4"
+		"weapon1"		"TFC_WEAPON_CROWBAR"
+		"weapon2"		"TFC_WEAPON_SHOTGUN_SB"
+		"weapon3"		"TFC_WEAPON_SHOTGUN_DB"
+		"weapon4"		"TFC_WEAPON_RPG"
+		"weapon5"		"NONE"
+		"weapon6"		"NONE"
+		"weapon7"		"NONE"
+		"weapon8"		"NONE"
+		"weapon9"		"NONE"	
+	}
+	
+	"Zombie"
+	{
+		"ClassImageRed"					"../hud/class_soldier_zombie_red"
+		"ClassImageBlue"				"../hud/class_soldier_zombie_blue"
+		"ClassImageMercenary"			"../hud/class_soldier_zombie_red"
+		"ClassImageColorless"			"../hud/colorless/class_soldier_zombie_red"
+	
+		"model"		"models/player/zombie/soldier_zombie.mdl"
+		"arm_model"	"models/weapons/c_models/c_zombie_soldier_arms.mdl"	
+		
+		// Weapons.
+		"WeaponCount"		"1"
+		"weapon1"			"TF_WEAPON_CLAWS"
+		"weapon2"			"NONE"
+		"weapon3"			"NONE"
+		"weapon4"			"NONE"
+		"weapon5"			"NONE"
+		"weapon6"			"NONE"
+		"weapon7"			"NONE"
+		"weapon8"			"NONE"
+		"weapon9"			"NONE"
+	}
+}

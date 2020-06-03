@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_watergate\gate_main"
+	"$basemapalphaphongmask" "1"
+	"$phong" "1"
+}

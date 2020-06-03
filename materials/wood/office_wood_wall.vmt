@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Wood/office_wood_wall"
+	"$surfaceprop" "wood"
+	"$bumpmap" "Wood/office_wood_n"
+	"%keywords" "tf"
+}

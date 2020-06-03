@@ -1,0 +1,1076 @@
+"items_game"
+{
+	"RespawnParticles"
+	{
+		"1"
+		{
+			"backpack_icon" "..\backpack\respawn\TF_DM_PARTICLE01"
+			"loop_time"	"1"
+		}
+		"2"
+		{
+			"backpack_icon" "..\backpack\respawn\TF_DM_PARTICLE02"
+			"loop_time"	"1.2"
+		}
+		"3"
+		{
+			"backpack_icon" "..\backpack\respawn\TF_DM_PARTICLE03"
+			"loop_time"	"1.2"
+		}
+		"4"
+		{
+			"backpack_icon" "..\backpack\respawn\TF_DM_PARTICLE04"
+			"loop_time"	"1.2"
+		}
+		"5"
+		{
+			"backpack_icon" "..\backpack\respawn\TF_DM_PARTICLE05"
+			"loop_time"	"1"
+		}
+		"6"
+		{
+			"backpack_icon" "..\backpack\respawn\TF_DM_PARTICLE06"
+			"loop_time"	"1.5"
+		}
+		"7"
+		{
+			"backpack_icon" "..\backpack\respawn\TF_DM_PARTICLE07"
+			"loop_time"	"0.8"
+		}
+		"8"
+		{
+			"backpack_icon" "..\backpack\respawn\TF_DM_PARTICLE08"
+			"loop_time"	"2"
+		}
+		"9"
+		{
+			"backpack_icon" "..\backpack\respawn\TF_DM_PARTICLE09"
+			"loop_time"	"1.4"
+		}
+		"10"
+		{
+			"backpack_icon" "..\backpack\respawn\TF_DM_PARTICLE10"
+			"loop_time"	"1"
+		}
+		"11"
+		{
+			"backpack_icon" "..\backpack\respawn\TF_DM_PARTICLE11"
+			"loop_time"	"1.5"
+		}
+		"12"
+		{
+			"backpack_icon" "..\backpack\respawn\TF_DM_PARTICLE12"
+			"loop_time"	"1.2"
+		}
+		"13"
+		{
+			"backpack_icon" "..\backpack\respawn\TF_DM_PARTICLE13"
+			"loop_time"	"1"
+		}
+		"14"
+		{
+			"backpack_icon" "..\backpack\respawn\TF_DM_PARTICLE14"
+			"loop_time"	"1.5"
+		}
+		"15"
+		{
+			"backpack_icon" "..\backpack\respawn\TF_DM_PARTICLE15"
+			"loop_time"	"1.2"
+		}
+		"16"
+		{
+			"backpack_icon" "..\backpack\respawn\TF_DM_PARTICLE16"
+			"loop_time"	"1.2"
+			"particle_z_offset" "100"
+		}
+		"17"
+		{
+			"backpack_icon" "..\backpack\respawn\TF_DM_PARTICLE17"
+			"loop_time"	"2"
+			"particle_z_offset" "100"
+		}
+		"18"
+		{
+			"backpack_icon" "..\backpack\respawn\TF_DM_PARTICLE18"
+			"loop_time"	"1.2"
+		}
+		"19"
+		{
+			"backpack_icon" "..\backpack\respawn\TF_DM_PARTICLE19"
+			"loop_time"	"1.5"
+		}
+		"20"
+		{
+			"backpack_icon" "..\backpack\respawn\TF_DM_PARTICLE20"
+			"loop_time"	"0.5"
+			"particle_z_offset" "-80"
+		}
+		"21"
+		{
+			"backpack_icon" "..\backpack\respawn\TF_DM_PARTICLE21"
+			"loop_time"	"1.4"
+		}
+		"22"
+		{
+			"backpack_icon" "..\backpack\respawn\TF_DM_PARTICLE22"
+			"loop_time"	"1.8"
+		}
+		"23"
+		{
+			"backpack_icon" "..\backpack\respawn\TF_DM_PARTICLE23"
+			"loop_time"	"1.8"
+		}
+		"24"
+		{
+			"backpack_icon" "..\backpack\respawn\TF_DM_PARTICLE24"
+			"loop_time"	"1.8"
+		}
+		"25"
+		{
+			"backpack_icon" "..\backpack\respawn\TF_DM_PARTICLE25"
+			"loop_time"	"1.2"
+		}
+		"26"
+		{
+			"backpack_icon" "..\backpack\respawn\TF_DM_PARTICLE26"
+			"loop_time"	"2"
+		}
+		"27"
+		{
+			"backpack_icon" "..\backpack\respawn\TF_DM_PARTICLE27"
+			"loop_time"	"1.5"
+		}
+		"28"
+		{
+			"backpack_icon" "..\backpack\respawn\TF_DM_PARTICLE28"
+			"loop_time"	"2"
+		}
+		"29"
+		{
+			"backpack_icon" "..\backpack\respawn\TF_DM_PARTICLE29"
+			"loop_time"	"1.5"
+		}
+		"30"
+		{
+			"backpack_icon" "..\backpack\respawn\TF_DM_PARTICLE30"
+			"loop_time"	"1.2"
+			"particle_z_offset" "100"
+		}
+		"31"
+		{
+			"backpack_icon" "..\backpack\respawn\TF_DM_PARTICLE31"
+			"loop_time"	"1.2"
+			"particle_z_offset" "100"
+		}
+		"32"
+		{
+			"backpack_icon" "..\backpack\respawn\TF_DM_PARTICLE32"
+			"loop_time"	"1.8"
+		}
+		"33"
+		{
+			"backpack_icon" "..\backpack\respawn\TF_DM_PARTICLE33"
+			"loop_time"	"1.5"
+		}
+		"34"
+		{
+			"backpack_icon" "..\backpack\respawn\TF_DM_PARTICLE34"
+			"loop_time"	"1.5"
+		}
+		"35"
+		{
+			"backpack_icon" "..\backpack\respawn\TF_DM_PARTICLE35"
+			"loop_time"	"0.8"
+			"particle_z_offset" "-40"
+		}
+		"36"
+		{
+			"backpack_icon" "..\backpack\respawn\TF_DM_PARTICLE36"
+			"loop_time"	"1.5"
+		}
+	}
+
+	"Cosmetics"
+	{
+		"0"
+		{
+			"model"	"BLANK"
+			"region" "hat"
+		}
+		"25"
+		{
+			"model"	"BLANK"
+			"region" "face"
+		}
+		"27"
+		{
+			"model"	"BLANK"
+			"region" "glasses"
+		}
+		"13"
+		{
+			"model" "BLANK"
+			"region" "chest"
+			"backpack_icon" "..\backpack\chest\vestfull"
+		}
+		"40"
+		{
+			"model" "BLANK"
+			"region" "suit"
+			"backpack_icon" "..\backpack\chest\vestless"
+			"viewmodel" "models\weapons\c_models\cosmetics\merc\sleeves\default.mdl"
+		}
+		"17"
+		{
+			"model" "BLANK"
+			"region" "gloves"
+			"backpack_icon" "..\backpack\gloves\default"
+			"viewmodel" "models\weapons\c_models\cosmetics\merc\gloves\default.mdl"
+		}
+		"28"
+		{
+			"model"	"BLANK"
+			"region" "boots"
+		}
+
+		"1"
+		{
+			"model"	"models/player/items/mercenary/camocapmerc/camocapmerc.mdl"
+			"region" "hat"
+			"backpack_icon" "..\backpack\hats\camocap"
+		}
+		
+		"2"
+		{
+			"model" "models/player/items/mercenary/helmerc/helmerc.mdl"
+			"region" "hat"
+			"backpack_icon" "..\backpack\hats\hellmerc"
+		}
+		
+		"3"
+		{
+			"model" "models/player/items/mercenary/western_hat/western_hat.mdl"
+			"region" "hat"
+			"backpack_icon" "..\backpack\hats\western_hat"
+		}
+		
+		"4"
+		{
+			"model" "models/player/items/mercenary/boomer_bucket/boomer_bucket.mdl"
+			"region" "hat"
+			"backpack_icon" "..\backpack\hats\boomer_bucket"
+		}
+		
+		"5"
+		{
+			"model" "models/player/items/mercenary/headset/headset.mdl"
+			"region" "hat"
+			"backpack_icon" "..\backpack\hats\headset"
+		}
+		
+		"6"
+		{
+			"model" "models/player/items/mercenary/merc_mask/merc_mask.mdl"
+			"region" "hat"
+			"backpack_icon" "..\backpack\hats\surveyor"
+		}
+		
+		"7"
+		{
+			"model" "models\workshop\player\items\all_class\chicken_connoisseur\chicken_connoisseur_soldier.mdl"
+			"region" "hat"
+			"backpack_icon" "..\backpack\hats\chicken_connoisseur"
+		}
+		
+		"8"
+		{
+			"model" "models\player\items\mercenary\headband\headband.mdl"
+			"region" "hat"
+			"backpack_icon" "..\backpack\hats\headband"
+		}
+		"9"
+		{
+			"model" "models/player/items/mercenary/pith/pith_helmet.mdl"
+			"region" "hat"
+			"backpack_icon" "..\backpack\hats\pith_helmet"
+		}
+		"10"
+		{
+			"model" "models/player/items/mercenary/beret/beret.mdl"
+			"region" "hat"
+			"backpack_icon" "..\backpack\hats\beret"
+		}
+		"11"
+		{
+			"model" "models/player/items/mercenary/doomguy/doomguy.mdl"
+			"region" "hat"
+			"backpack_icon" "..\backpack\hats\doomguy"
+		}
+		"12"	
+		{
+			"model" "models/player/items/mercenary/grayson/grayson.mdl"
+			"region" "hat"
+			"backpack_icon" "..\backpack\hats\burglar_beanie"
+		}
+		"14"
+		{
+			"model" "BLANK"
+			"region" "chest"
+			"backpack_icon" "..\backpack\chest\pocketless"
+			"Bodygroups"
+			{
+				"vest"	"2"
+			}
+		}
+		"15"
+		{
+			"model" "BLANK"
+			"region" "chest"
+			"backpack_icon" "..\backpack\chest\vestless"
+			"Bodygroups"
+			{
+				"vest"	"1"
+			}
+		}
+		"16"
+		{
+			"model" "models/workshop/player/items/soldier/lovecrafted_carapace/lovecrafted_carapace.mdl"
+			"region" "chest"
+			"backpack_icon" "..\backpack\workshop\player\items\soldier\lovecrafted_carapace\lovecrafted_carapace_large"
+			"Bodygroups"
+			{
+				"vest"	"1"
+			}
+		}
+		"22"
+		{
+			"model" "models/player/items/mercenary/buff_boy/buff_boy.mdl"
+			"region" "suit"
+			"backpack_icon" "..\backpack\chest\buffboy"
+			"viewmodel" "models\weapons\c_models\cosmetics\merc\sleeves\default.mdl"
+			
+			"Bodygroups"
+			{
+				"leftarm"	"1"
+				"rightarm"	"1"
+			}
+		}
+		"18"
+		{
+			"model" "BLANK"
+			"region" "gloves"
+			"backpack_icon" "..\backpack\gloves\fingerless"
+			"viewmodel" "models\weapons\c_models\cosmetics\merc\gloves\fingerless.mdl"
+			"Bodygroups"
+			{
+				"lefthand"	"2"
+				"righthand"	"2"
+			}
+		}
+		"19"
+		{
+			"model" "BLANK"
+			"region" "gloves"
+			"backpack_icon" "..\backpack\gloves\bare"
+			"viewmodel" "models\weapons\c_models\cosmetics\merc\gloves\bare.mdl"
+			"Bodygroups"
+			{
+				"lefthand"	"3"
+				"righthand"	"3"
+			}
+		}
+		"20"
+		{
+			"model" "models/workshop/player/items/soldier/Grisly_gloves/Grisly_gloves.mdl"
+			"region" "gloves"
+			"backpack_icon" "..\backpack\workshop\player\items\soldier\earth_quakers\earth_quakers_large"
+			"viewmodel" "models\weapons\c_models\cosmetics\merc\gloves\grisly.mdl"
+			
+			"Bodygroups"
+			{
+				"lefthand"	"1"
+				"righthand"	"1"
+			}
+		}
+		"21"
+		{
+			"model" "models/workshop/player/items/soldier/earth_quakers/earth_quakers.mdl"
+			"region" "boots"
+			"backpack_icon" "..\backpack\workshop\player\items\soldier\earth_quakers\earth_quakers_large"
+		}
+		"23"
+		{
+			"model" "models/workshop/player/items/all_class/clouted_perception/clouted_perception_merc.mdl"
+			"region" "glasses"
+			"backpack_icon" "..\backpack\workshop\player\items\all_class\clouted_perception\clouted_perception"
+			
+			"Bodygroups"
+			{
+			}
+		}
+		"24"
+		{
+			"model" "models/player/items/mercenary/merc_bandana/merc_bandana.mdl"
+			"region" "face"
+			"backpack_icon" "..\backpack\face\bandana"
+			
+			"Bodygroups"
+			{
+			}
+		}
+		"26"
+		{
+			"model" "models/player/items/mercenary/merc_aviators/merc_aviators.mdl"
+			"region" "glasses"
+			"backpack_icon" "..\backpack\face\aviators"
+			
+			"Bodygroups"
+			{
+			}
+		}
+		"29"
+		{
+			"model" "models/player/items/mercenary/merc_race/merc_race.mdl"
+			"region" "hat"
+			"backpack_icon" "..\backpack\hats\race"
+			
+			"Bodygroups"
+			{
+			}
+		}
+		"30"
+		{
+			"model" "models/player/items/mercenary/merc_headwrap/merc_headwrap.mdl"
+			"region" "hat"
+			"backpack_icon" "..\backpack\hats\headwrap"
+			
+			"Bodygroups"
+			{
+			}
+		}
+		"31"
+		{
+			"model" "models/player/items/mercenary/merc_garrison/merc_garrison.mdl"
+			"region" "hat"
+			"backpack_icon" "..\backpack\hats\garrison"
+			
+			"Bodygroups"
+			{
+			}
+		}
+		"32"
+		{
+			"model" "models/player/items/mercenary/merc_flatcap/merc_flatcap.mdl"
+			"region" "hat"
+			"backpack_icon" "..\backpack\hats\flatcap"
+			
+			"Bodygroups"
+			{
+			}
+		}
+		"33"
+		{
+			"model" "models/player/items/mercenary/merc_hardhat/merc_hardhat.mdl"
+			"region" "hat"
+			"backpack_icon" "..\backpack\hats\hardhat"
+			
+			"Bodygroups"
+			{
+			}
+		}
+		"34"
+		{
+			"model" "models/player/items/mercenary/merc_peak/merc_peak.mdl"
+			"region" "hat"
+			"backpack_icon" "..\backpack\hats\peak"
+			
+			"Bodygroups"
+			{
+			}
+		}
+		"35"
+		{
+			"model" "models/player/items/mercenary/merc_cigar/merc_cigar.mdl"
+			"region" "face"
+			"backpack_icon" "..\backpack\face\cigar"
+			
+			"Bodygroups"
+			{
+			}
+		}
+		"36"
+		{
+			"model" "models/player/items/mercenary/merc_bp/merc_bp.mdl"
+			"region" "chest"
+			"backpack_icon" "..\backpack\chest\bp"
+			
+			"Bodygroups"
+			{
+				"vest"		"1"
+			}
+		}
+		"37"
+		{
+			"model" "models/player/items/mercenary/mantamask/mantamask.mdl"
+			"region" "face"
+			"backpack_icon" "..\backpack\face\mantamaskicon"
+			
+			"Bodygroups"
+			{	
+			}
+		}
+		"38"
+		{
+			"model" "models/player/items/mercenary/bogardhat/bogardhat.mdl"
+			"region" "hat"
+			"backpack_icon" "..\backpack\hats\bogardhaticon"
+			
+			"Bodygroups"
+			{
+			}
+		}
+		"39"
+		{
+			"model" "models/player/items/mercenary/merc_longsleeves/merc_longsleeves.mdl"
+			"region" "suit"
+			"backpack_icon" "..\backpack\chest\longsleeves"
+			"viewmodel" "models\weapons\c_models\cosmetics\merc\sleeves\longsleeves.mdl"
+			
+			"Bodygroups"
+			{
+				"leftarm" "1"
+				"rightarm" "1"
+			}
+		}
+		
+		// Drew next time you copy paste the entire keyfield without adjusting the tab position
+		// im going to squeeze you till you pop
+		// okay kay i'm sorry 
+		
+		"41"
+		{
+			"model" "models/player/items/mercenary/burgvest/burgvest.mdl"
+			"region" "chest"
+			"backpack_icon" "..\backpack\chest\burgvest"
+			
+			"Bodygroups"
+			{
+				"vest"		"1" 
+			}
+		}
+		"42"
+		{
+			"model" "models/player/items/mercenary/burgshirt/burgshirt.mdl"
+			"region" "suit"
+			"backpack_icon" "..\backpack\chest\burgshirt"
+			"viewmodel" "models\weapons\c_models\cosmetics\merc\sleeves\burgshirt.mdl"
+			
+			"Bodygroups"
+			{
+			}
+		}
+		// Drew is a stinky boy
+		"43"
+		{
+			"model" "models/player/items/mercenary/skimask/skimask.mdl"
+			"region" "glasses"
+			"backpack_icon" "..\backpack\face\skimaskicon"
+			
+			"Bodygroups"
+			{
+			}
+		}
+		//BAK STINKS
+		"44"
+		{
+			"model" "models/player/items/mercenary/merc_namshirt/merc_namshirt.mdl"
+			"region" "suit"
+			"backpack_icon" "..\backpack\chest\namshirt"
+			"viewmodel" "models\weapons\c_models\cosmetics\merc\sleeves\namshirt.mdl"
+			
+			"Bodygroups"
+			{
+				"torso" "1"
+				"leftarm" "1"
+				"rightarm" "1"
+				
+			}
+		}
+		"45"
+		{
+			"model" "models/player/items/mercenary/merc_ushanka/merc_ushanka.mdl"
+			"region" "hat"
+			"backpack_icon" "..\backpack\hats\ushanka"
+			
+			"Bodygroups"
+			{
+			}
+		}		
+		//You are a noob 4head
+		"46"
+		{
+			"model" "models/player/items/mercenary/merc_cig/merc_cig.mdl"
+			"region" "face"
+			"backpack_icon" "..\backpack\face\cigicon"
+			
+			"Bodygroups"
+			{
+			}
+		}
+		//Can I get a pog
+		"47"
+		{
+			"model" "models/player/items/mercenary/merc_burtbinocs/merc_burtbinocs.mdl"
+			"region" "glasses"
+			"backpack_icon" "..\backpack\face\merc_burtbinocsicon"
+			
+			"Bodygroups"
+			{
+			}
+		}
+		//Says the dude who adds a cigarette and it crashes the fucking game
+		"48"
+		{
+			"model" "models/player/items/mercenary/merc_floral/merc_floral.mdl"
+			"region" "suit"
+			"backpack_icon" "..\backpack\chest\floral"
+			"viewmodel" "models\weapons\c_models\cosmetics\merc\sleeves\floral.mdl"
+			
+			"Bodygroups"
+			{
+				"torso"   "1"
+				"rightarm" "1"
+				"leftarm" "1"
+				
+			}
+		}
+		"49"
+		{
+			"model" "models/player/items/mercenary/merc_hunter/merc_hunter.mdl"
+			"region" "hat"
+			"backpack_icon" "..\backpack\hats\hunter"
+			
+			"Bodygroups"
+			{
+			}
+		}
+		"50"
+		{
+			"model" "models/player/items/mercenary/merc_blackglasses/merc_blackglasses.mdl"
+			"region" "glasses"
+			"backpack_icon" "..\backpack\face\merc_blackglassesicon"
+			
+			"Bodygroups"
+			{
+			}
+		}	
+		"51"
+		{
+			"model" "models/player/items/mercenary/merc_binocgoggles/merc_binocgoggles.mdl"
+			"region" "glasses"
+			"backpack_icon" "..\backpack\face\merc_binocgogglesicon"
+			
+			"Bodygroups"
+			{
+			}
+		}
+		"52"
+		{
+			"model" "models/player/items/mercenary/merc_lambdalense/merc_lambdalense.mdl"
+			"region" "glasses"
+			"backpack_icon" "..\backpack\face\merc_lambdalenseicon"
+			
+			"Bodygroups"
+			{
+			}
+		}
+		//I haven't slept yet :<
+		//Go to bed earlier then 4Head -d
+		"53"
+		{
+			"model" "models/player/items/mercenary/merc_sportj/merc_sportj.mdl"
+			"region" "suit"
+			"backpack_icon" "..\backpack\chest\third"
+			"viewmodel" "models\weapons\c_models\cosmetics\merc\sleeves\sportj.mdl"
+			
+			"Bodygroups"
+			{
+				"torso"   "1"
+				"rightarm" "1"
+				"leftarm" "1"
+				"vest" 	  "1"
+				
+			}
+		}
+		"54"
+		{
+			"model" "models/player/items/mercenary/merc_pants/merc_pants.mdl"
+			"region" "boots"
+			"backpack_icon" "..\backpack\pants\sansei"
+			
+			"Bodygroups"
+			{
+				"pockets"   "1"
+				"rightleg" "1"
+				"leftleg" "1"
+				
+			}
+		}
+		"55"
+		{
+			"model" "models/player/items/mercenary/merc_bvest/merc_bvest.mdl"
+			"region" "chest"
+			"backpack_icon" "..\backpack\chest\bvest"
+			
+			"Bodygroups"
+			{
+				"vest"		"1"
+				
+			}
+		}
+		"56"
+		{
+			"model" "models/player/items/mercenary/merc_bhelm/merc_bhelm.mdl"
+			"region" "hat"
+			"backpack_icon" "..\backpack\hats\bhelm"
+			
+			"Bodygroups"
+			{
+				
+			}
+		}
+		"57"
+		{
+			"model" "models/player/items/mercenary/merc_drive_helmet/merc_drive_helmet.mdl"
+			"region" "hat"
+			"backpack_icon" "..\backpack\hats\dhelm"
+			
+			"Bodygroups"
+			{
+				
+			}
+		}
+		"58"
+		{
+			"model" "models/player/items/mercenary/merc_drive_coat/merc_drive_coat.mdl"
+			"region" "suit"
+			"backpack_icon" "..\backpack\chest\dchest"
+			"viewmodel" "models\weapons\c_models\cosmetics\merc\sleeves\drive.mdl"
+			
+			"Bodygroups"
+			{
+				"torso"   "1"
+				"rightarm" "1"
+				"leftarm" "1"
+				
+				
+			}
+		}
+		"59"
+		{
+			"model" "models/player/items/mercenary/merc_drive_pants/merc_drive_pants.mdl"
+			"region" "boots"
+			"backpack_icon" "..\backpack\pants\driver"
+			
+			"Bodygroups"
+			{
+				"pockets"   "1"
+				"rightleg" "1"
+				"leftleg" "1"
+				
+			}
+		}
+		//these gloves suck notpog
+		"60"
+		{
+			"model" "models/player/items/mercenary/merc_drive_gloves/merc_drive_gloves.mdl"
+			"region" "gloves"
+			"backpack_icon" "..\backpack\gloves\merc_drive_gloves_icon"
+			"viewmodel" "models\weapons\c_models\cosmetics\merc\gloves\drive.mdl"
+			
+			"Bodygroups"
+			{
+				"lefthand"	"1"
+				"righthand"	"1"
+			}
+		}
+		//what time is it?
+		"61"
+		{
+			"model" "models/player/items/mercenary/merc_wristwatch/merc_wristwatch.mdl"
+			"region" "gloves"
+			"backpack_icon" "..\backpack\gloves\merc_wristwatchicon"
+			"viewmodel" "models\weapons\c_models\cosmetics\merc\gloves\wristwatch.mdl"
+			"Bodygroups"
+			{
+				"lefthand"	"3"
+				"righthand"	"3"
+			}
+		}
+		//is it that time again?
+		"62"
+		{
+			"model" "models/player/items/mercenary/merc_digitalwatch/merc_digitalwatch.mdl"
+			"region" "gloves"
+			"backpack_icon" "..\backpack\gloves\digitalwatch_icon"
+			"viewmodel" "models\weapons\c_models\cosmetics\merc\gloves\digitalwatch.mdl"
+			"Bodygroups"
+			{
+				"lefthand"	"3"
+				"righthand"	"3"
+			}
+		}
+		"63"
+		{
+			"model" "models/player/items/mercenary/merc_soldierhelm/merc_soldierhelm.mdl"
+			"region" "hat"
+			"backpack_icon" "..\backpack\hats\soldierhelm"
+			
+			"Bodygroups"
+			{
+				
+			}
+		}
+		//braaaaap
+		"64"
+		{
+			"model" "models/player/items/mercenary/merc_gasmask1/merc_gasmask1.mdl"
+			"region" "face"
+			"backpack_icon" "..\backpack\face\gasmask1"
+			
+			"Bodygroups"
+			{
+				
+			}
+		}
+		"65"
+		{
+			"model" "models/player/items/mercenary/merc_pilotjacket/merc_pilotjacket.mdl"
+			"region" "suit"
+			"backpack_icon" "..\backpack\chest\mercpilot"
+			"viewmodel" "models\weapons\c_models\cosmetics\merc\sleeves\pilotjacket.mdl"
+			
+			"Bodygroups"
+			{
+				"torso"		"1"
+			}
+		}
+		"66"
+		{
+			"model" "models/player/items/mercenary/merc_pilothelm/merc_pilothelm.mdl"
+			"region" "hat"
+			"backpack_icon" "..\backpack\hats\mercpilot"
+			
+			"Bodygroups"
+			{
+			}
+		}
+		"67"
+		{
+			"model" "models/player/items/mercenary/merc_police/merc_police.mdl"
+			"region" "hat"
+			"backpack_icon" "..\backpack\hats\police"
+			
+			"Bodygroups"
+			{
+			}
+		}
+		//My fav hat I made :3
+		"68"
+		{
+			"model" "models/player/items/mercenary/merc_mask02/merc_mask02.mdl"
+			"region" "face"
+			"backpack_icon" "..\backpack\face\merc_mask02icon"
+			
+			"Bodygroups"
+			{
+				
+			}
+		}
+		"69"
+		{
+			"model" "models/player/items/mercenary/merc_flgloves/merc_flgloves.mdl"
+			"region" "gloves"
+			"backpack_icon" "..\backpack\gloves\merc_flglovesicon"
+			"viewmodel" "models\weapons\c_models\cosmetics\merc\gloves\flgloves.mdl"
+			"Bodygroups"
+			{
+				"lefthand"	"3"
+				"righthand"	"3"
+			}
+		}
+		//pog incoming
+		"70"
+		{
+			"model" "models/player/items/mercenary/merc_doomarmor/merc_doomarmor.mdl"
+			"region" "chest"
+			"backpack_icon" "..\backpack\chest\doomarmor"
+			"Bodygroups"
+			{
+				"vest" "1"
+			}
+		}
+		"71"
+		{
+			"model" "models/player/items/mercenary/merc_goggle/merc_goggle.mdl"
+			"region" "glasses"
+			"backpack_icon" "..\backpack\hats\goggles"
+			"Bodygroups"
+			{
+			}
+		}
+		"72"
+		{
+			"model" "models/player/items/mercenary/merc_flak_jacket/merc_flak_jacket.mdl"
+			"region" "chest"
+			"backpack_icon" "..\backpack\chest\flak_jacket"
+			"Bodygroups"
+			{
+				"vest" "1"
+			}
+		}
+		//New bakhat of
+		"73"
+		{
+			"model" "models/player/items/mercenary/merc_pom/merc_pom.mdl"
+			"region" "hat"
+			"backpack_icon" "..\backpack\hats\merc_pom_backpack"
+			
+			"Bodygroups"
+			{
+			}
+		}
+		//ba da da daaaaaaaaaaaaaaaaaa
+		"74"
+		{
+			"model" "models/player/items/mercenary/merc_fedora/merc_fedora.mdl"
+			"region" "hat"
+			"backpack_icon" "..\backpack\hats\fedora"
+			
+			"Bodygroups"
+			{
+			}
+		}
+		"75" //https://www.youtube.com/watch?v=-bTpp8PQSog
+		{
+			"model" "models/player/items/mercenary/merc_jjacket/merc_jjacket.mdl"
+			"region" "suit"
+			"backpack_icon" "..\backpack\chest\indy"
+			"viewmodel" "models\weapons\c_models\cosmetics\merc\sleeves\jjacket.mdl"
+
+			
+			"Bodygroups"
+			{
+				"torso"   "1"
+				"rightarm" "1"
+				"leftarm" "1"
+				
+			}	
+		}
+//		Do this
+//		"66"
+//		{		
+//		}	
+//				
+//		Dont do this, only villains do that
+//				"66"		
+//      {		
+//      }
+//		Please i shouldn't have to repeat this - Kay		
+	}
+	"Weapons"
+	{
+		"tf_weapon_assaultrifle"
+		{
+			"backpack_icon"	"..\sprites\bucket_assaultrifle"
+		}
+		"tf_weapon_crowbar"
+		{
+			"backpack_icon"	"..\sprites\bucket_crowbar"
+
+			"slot"
+			{
+				"mercenary"	"3"
+			}
+		}
+		"tf_weapon_chainsaw"
+		{
+			"backpack_icon"	"..\sprites\bucket_chainsaw"
+		}
+		
+		"tf_weapon_dynamite_bundle"
+		{
+			"backpack_icon"	"..\sprites\bucket_dynamite"
+		}
+		
+		"tf_weapon_flamethrower"
+		{
+			"backpack_icon"	"..\sprites\bucket_flamethrower_purple"
+		}
+		
+		"tf_weapon_gatlinggun"
+		{
+			"backpack_icon"	"..\sprites\bucket_chaingun"
+		}
+		
+		"tf_weapon_grenadelauncher_mercenary"
+		{
+			"backpack_icon"	"..\sprites\bucket_grenDM"
+		}
+		
+		"tf_weapon_lightning_gun"
+		{
+			"backpack_icon"	"..\sprites\bucket_lightning_gun"
+		}
+		
+		"tf_weapon_nailgun"
+		{
+			"backpack_icon"	"..\sprites\bucket_nailgun"
+		}
+		
+		"tf_weapon_pistol_mercenary"
+		{
+			"backpack_icon"	"..\sprites\bucket_pistol_merc"
+		}
+		
+		"tf_weapon_pistol_akimbo"
+		{
+			"backpack_icon"	"..\sprites\bucket_akimbo"
+		}
+		
+		"tf_weapon_railgun"
+		{
+			"backpack_icon"	"..\sprites\bucket_railgun"
+		}		
+		
+		"tf_weapon_revolver_mercenary"
+		{
+			"backpack_icon"	"..\sprites\bucket_sixshooter"
+		}
+		
+		"tf_weapon_rocketlauncher_dm"
+		{
+			"backpack_icon"	"..\sprites\bucket_rocketlauncher_dm"
+		}
+		
+		"tf_weapon_shotgun"
+		{
+			"backpack_icon"	"..\sprites\bucket_shotgun"
+		}
+		
+		"tf_weapon_smg_mercenary"
+		{
+			"backpack_icon"	"..\sprites\bucket_smgdm"
+		}
+		
+		"tf_weapon_supershotgun"
+		{
+			"backpack_icon"	"..\sprites\bucket_supershotgun"
+		}
+		
+		"tf_weapon_tommygun"
+		{
+			"backpack_icon"	"..\sprites\bucket_tommygun"
+		}
+	}
+}

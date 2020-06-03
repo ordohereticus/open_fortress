@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/props_construction/crane_extras_skybox"
+	$alphatest 1
+	$nocull 1
+}

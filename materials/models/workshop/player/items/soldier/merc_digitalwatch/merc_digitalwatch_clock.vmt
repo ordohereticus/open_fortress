@@ -1,0 +1,17 @@
+
+	
+
+"VertexLitGeneric"
+{
+	"$basetexture"		"models/workshop/player/items/soldier/merc_digitalwatch/merc_digitalwatch_clock"
+	"$selfillum" "1"
+"Proxies"
+{
+"AnimatedTexture"
+{
+"animatedTextureVar" "$basetexture"
+"animatedTextureFrameNumVar" "$frame"
+"animatedTextureFrameRate" "1"
+}
+}
+}

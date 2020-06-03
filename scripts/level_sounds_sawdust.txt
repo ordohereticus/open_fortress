@@ -1,0 +1,43 @@
+"Sawdust.train_move"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_140dB"
+
+	"wave"			"ambient/machines/train_rumble.wav"
+}
+
+"Sawdust.train_brake"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_110dB"
+
+	"wave"			"plats/ttrain_brake1.wav"
+}
+
+"Sawdust.train_stop"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_110dB"
+
+	"wave"			"plats/skylift_stop.wav"
+}
+
+"Sawdust.train_idle"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_90dB"
+
+	"wave"			"ambient/machines/train_idle.wav"
+}

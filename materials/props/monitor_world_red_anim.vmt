@@ -1,0 +1,14 @@
+"unlitgeneric"
+{
+   "$basetexture" "props/monitor_world_red_anim"
+   "$surfaceprop" "glass"
+   "Proxies"
+   {
+      "AnimatedTexture"
+      {
+         "animatedtexturevar" "$basetexture"
+         "animatedtextureframenumvar" "$frame"
+         "animatedtextureframerate" "1"
+      }
+   }
+}

@@ -1,0 +1,12 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "Nature/grass_08"
+	"$basetexture2" "Nature/rockwall001forest"
+	"%tooltexture" "editor-abs/blendttx/nature/blendrockgroundwallforest004"
+	"$blendmodulatetexture" "Nature/dirtground002_blendmask"
+//	"$bumpmap" "Nature/rockwall001_normal"
+//	"%detailtype" "tf_forest_grass"
+	"$ssbump" "1"
+	"$surfaceprop" "dirt"
+	"%keywords" "tf"
+}

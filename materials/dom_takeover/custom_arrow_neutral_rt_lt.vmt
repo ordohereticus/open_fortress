@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "dom_takeover/custom_arrow_neutral_rt_lt"
+	"$surfaceprop" "Metal"
+	"$translucent" 1
+}

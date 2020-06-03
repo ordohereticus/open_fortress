@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props/soda_machine_glass"
+	"$translucent" "1"
+	}

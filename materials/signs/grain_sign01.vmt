@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+"$basetexture" "signs/grain_sign01"
+"$decal" 1
+"$decalscale" 0.25
+"$translucent" 1
+"%keywords" "tf"
+}

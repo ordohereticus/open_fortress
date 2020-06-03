@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$translucent" 1
+	"$basetexture" "Tools/toolsoccluder"
+	"%compileNoLight" 1
+	"%keywords" "tf"
+}

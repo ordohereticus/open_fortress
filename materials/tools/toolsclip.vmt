@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$translucent" 1
+	"$basetexture" "Tools/toolsclip"
+	"%compileclip" 1
+	"$surfaceprop" "default_silent"
+	"%keywords" "tf"
+}

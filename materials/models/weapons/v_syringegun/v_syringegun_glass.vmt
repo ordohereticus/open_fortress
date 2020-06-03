@@ -1,0 +1,31 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\weapons\v_syringegun\v_syringegun_glass"
+	"$translucent" "1"
+	"$additive" "1"
+
+	"$cloakPassEnabled" "1"
+	"$glowcolor" "1"
+	
+	"Proxies"
+	{
+		"ModelGlowColor"
+		{
+			"resultVar""$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"	"$glowcolor"
+			"resultVar"	"$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"	"$glowcolor"
+			"resultVar"	"$color2"
+		}
+		"spy_invis"
+		{
+		}
+	}
+
+}

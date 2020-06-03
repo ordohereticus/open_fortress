@@ -1,0 +1,7 @@
+Sprite
+{
+$spriteorientation vp_parallel
+$spriteorigin "[ 0.50 0.50 ]"
+$basetexture "editor-ficool2/dm_music_manager"
+$no_fullbright 1
+}

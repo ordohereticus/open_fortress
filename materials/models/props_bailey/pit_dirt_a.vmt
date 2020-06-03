@@ -1,0 +1,14 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "pit/pit_dirt_a"
+	"$bumpmap" "pit/pit_dirt_a_normal"
+
+  
+	"$surfaceprop" "dirt"
+	"%keywords" "tf"
+	
+//	"$detail" "overlays/detail001"
+//	"$detailscale" "1.9"
+//	"$detailblendmode" "0"
+//	"$detailblendfactor" "1"
+}

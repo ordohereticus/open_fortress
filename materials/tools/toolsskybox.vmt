@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Tools/toolsskybox"
+	"%compilesky" 1
+	"$surfaceprop" "default_silent"
+	"%keywords" "tf"
+}

@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Tools/toolsblack"
+	"%keywords" "tf"
+	"%compilenolight" "1"
+	"$nofog" "1"
+}

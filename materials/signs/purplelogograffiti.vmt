@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "signs/purplelogograffiti"
+	 "$decal" 1
+	"$decalscale" 1
+	"$translucent" "1"
+ 	"%keywords" "tf"
+}

@@ -1,0 +1,11 @@
+"VertexLitGeneric" {
+	"$basetexture"					"models\props_databank\databank_cables"
+	"$basemapalphaphongmask"		"1"
+	"$phong"						"1"
+	"$phongexponent"				"6"
+	"$phongboost"					"0.9"
+	"$phongfresnelranges"			"[.1 1 1]"
+	"$rimlight"						"1"
+	"$rimlightexponent"				"6"
+	"$rimlightboost"				"0.3"
+}

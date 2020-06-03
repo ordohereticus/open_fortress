@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$model" 1
+	"$baseTexture" "models\props_office/office_painting"
+	"$basemapalphaphongmask" "1"
+	"$phong" "1"
+	"$phongexponent" "50"
+	"$phongboost" ".5"	
+	"$phongfresnelranges"	"[.1 10 10]"
+	"$nocull" "1"
+}
+

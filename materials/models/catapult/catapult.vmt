@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+    // texture by Suomimies55
+	"$basetexture"	"models\catapult\catapult"
+
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost" "3"	
+//	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	$phongfresnelranges	"[0.25 0.5 1]"
+	"$basemapalphaphongmask" "1"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "4"	
+	"$rimlightboost" "0.5"
+}

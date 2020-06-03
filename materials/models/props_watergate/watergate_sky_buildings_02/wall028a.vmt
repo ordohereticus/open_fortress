@@ -1,0 +1,6 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "watergate/wall028a"
+	"$surfaceprop" "metal"
+	"%keywords" "tf"
+}

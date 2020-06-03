@@ -1,0 +1,11 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "watergate/cobble_floor_2"
+	"%keywords" "tf"
+	"$detail" "overlays/detail001"
+	"$detailscale" "1.1"
+	"$detailblendmode" "0"
+
+	"$detailblendfactor" "1"
+//whatever you are looking for its not here...
+}

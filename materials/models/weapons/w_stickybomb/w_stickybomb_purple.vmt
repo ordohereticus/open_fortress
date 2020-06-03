@@ -1,0 +1,75 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\w_stickybomb/w_stickybomb_purple"
+//	"$bumpmap" "models/weapons/w_stickybomb/w_stickybomb_normal"
+//	"$selfillum" "1"
+	"$nodecal" "1"
+
+	"$glowcolor" "1"
+	"$phong" "1"
+	"$phongexponent" "30"
+	"$phongboost" ".75"	
+	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	"$phongfresnelranges" "[0.25 0.5 1]"
+
+	// Use separate self-illum mask on Pre DX9 hardware
+	">=DX90"
+	{
+		"$baseTexture" 		"models\weapons\w_stickybomb/w_stickybomb_purple"
+		"$selfillummask" 	"models\weapons\w_stickybomb/w_stickybomb_selfillum"
+	}
+
+	// Use redundant self-illum in base alpha on Pre DX9 hardware
+	"<DX90"
+	{
+		"$baseTexture" 	"models\weapons\w_stickybomb/w_stickybomb_purple"
+	}
+
+	"$blendtintbybasealpha"		"1"
+	"$blendtintcoloroverbase"		"1"
+	"$colortint_base"		"{180 180 180}"
+	"$color2"		"{180 180 180}"
+	"$colortint_tmp"		"[0 0 0]"
+
+	"$cloakPassEnabled" "1"	
+	
+	"Proxies"
+	{
+		"ModelGlowColor"
+		{
+			"resultVar""$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"	"$glowcolor"
+			"resultVar"	"$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"	"$glowcolor"
+			"resultVar"	"$color2"
+		}
+		"spy_invis"
+		{
+		}
+		"ItemTintColor"
+		{
+			"resultVar"		"$colortint_tmp"
+		}
+		"SelectFirstIfNonZero"
+		{
+			"srcVar1"		"$colortint_tmp"
+			"srcVar2"		"$colortint_base"
+			"resultVar"		"$color2"
+		}
+		"SelectFirstIfNonZero"
+		{
+			"srcVar1"		"$colortint_tmp"
+			"srcVar2"		"$colortint_base"
+			"resultVar"		"$cloakcolortint"
+		}
+	}
+
+
+}
+

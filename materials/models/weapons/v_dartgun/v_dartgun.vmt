@@ -1,0 +1,101 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\weapons\v_dartgun/v_dartgun.vtf"
+	"$bumpmap" "models\weapons\v_dartgun\v_dartgun_normal.vtf"
+
+//LIGHTWARPS
+
+//	"$lightwarptexture" "models\weapons\c_items/c_ambassador_lightwarp"
+	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.2 .16 .2]"
+	"$basemapalphaenvmapmask" "1"
+
+	"$phong" "1"
+	"$phongexponent" "50"
+	"$phongboost" "3"	
+
+	"$phongfresnelranges" "[1 2 5]"
+	"$halflambert" "1"
+	"$glowcolor" "1"
+	"$phongtint" "[1.3 1.2 1]"
+
+	"$tempvar" "0"
+
+	"$basephongexponent" "15"
+	"$basephongboost" "3"
+
+	"$commadd_phongexponent" "30"
+	"$commadd_phongboost" 	"22.5"
+	"$commweapon"		"0"
+
+//	"$basemapalphaphongmask" "1"
+	
+	"$rimlight" "1"						
+	"$rimlightexponent" "40"				
+	"$rimlightboost" "1"
+
+//CHANGE TEMP COLOUR
+
+	"$blendtintbybasealpha"		"1"
+	"$blendtintcoloroverbase"		"0.000000"
+	"$colortint_base"		"{ 55 50 45 }"
+//	"$color2"		"{ 120 120 120 }"
+	"$colortint_tmp"		"[0 0 0]"
+
+	"$cloakPassEnabled" "1"
+	"Proxies"
+	{
+		"invis"
+		{
+		}
+		"ModelGlowColor"
+		{
+			"resultVar" "$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$selfillumtint"
+		}
+		"CommunityWeapon"
+		{
+			"resultVar" "$commweapon"
+		}
+		"Multiply"
+		{
+			"srcVar1"  "$commweapon"
+			"srcVar2"  "$commadd_phongexponent" 
+			"resultVar" "$tempvar" 
+		}
+		"Add"
+		{
+			"srcVar1"  "$tempvar" 
+			"srcVar2"  "$basephongexponent" 
+			"resultVar" "$phongexponent" 
+		}
+		"ItemTintColor"
+		{
+			"resultVar"		"$colortint_tmp"
+		}
+		"SelectFirstIfNonZero"
+		{
+			"srcVar1"		"$colortint_tmp"
+			"srcVar2"		"$colortint_base"
+			"resultVar"		"$color2"
+		}
+		"Multiply"
+		{
+			"srcVar1"  "$commweapon"
+			"srcVar2"  "$commadd_phongboost" 
+			"resultVar" "$tempvar" 
+		}
+		"Add"
+		{
+			"srcVar1"  "$tempvar" 
+			"srcVar2"  "$basephongboost"
+			"resultVar" "$phongboost" 
+		}
+	}
+}

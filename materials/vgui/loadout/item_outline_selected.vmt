@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui\loadout\item_outline_selected"
+	"$translucent" 1
+	"$ignorez" 1
+	"$vertexcolor" 1
+}

@@ -1,0 +1,68 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models/weapons/w_physcannon/w_physcannon_custom"
+	"$bumpmap" "models/weapons/w_physcannon/w_physcannon_n"
+
+	"$glowcolor" "1"
+	"$phong" "1"
+	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	"$phongexponent" "10"
+	"$phongboost"	"7"
+	"$phongfresnelranges"	"[1.5 .5 3]"
+	"$halflambert" "1"
+	
+// not compatible with blendtintbybasealpha
+//	   "$selfillum"         "1"
+
+// compatible with blendtintbybasealpha but the glowing is unable to be tinted, always appearing white 
+//     "$detail"            "models/weapons/w_physcannon/w_physcannon_detail"
+//     "$detailscale"       "1"       
+//     "$detailblendfactor" "1.0"
+//     "$detailblendmode"   "5"
+//	   "$detailtint"	    "{0 255 0}"	
+
+// FIXME : what the fuck
+	   "$emissiveBlendEnabled"      "1"
+	   "$emissiveBlendTexture"	    "models/weapons/w_physcannon/dummy"
+	   "$emissiveBlendBaseTexture"	"models/weapons/w_physcannon/w_physcannon_detail"
+	   "$emissiveBlendFlowTexture"	"models/weapons/w_physcannon/dummy"
+	   "$emissiveBlendTint"         "{255 10 10}"
+	   "$emissiveBlendStrength"     "0.5"
+	   "$emissiveBlendScrollVector" "[0 0]"
+ 	// doesn't show up if this isn't here
+	   "$ambientocclusion" "1"
+
+
+	"$rimlight" "1"						
+	"$rimlightexponent" "1"				
+	"$rimlightboost" ".25"
+
+	"$blendtintbybasealpha"		"1"
+//	"$blendtintcoloroverbase"		"1"
+	"$colortint_base"		"{255 0 0}"
+	"$color2"		"{255 0 0}"
+	"$colortint_tmp"		"[0 0 0]"
+	
+	"$cloakPassEnabled" "1"	
+	
+	"Proxies"
+	{
+		"ModelGlowColor"
+		{
+			"resultVar""$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"	"$glowcolor"
+			"resultVar"	"$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"	"$glowcolor"
+			"resultVar"	"$color2"
+		}
+		"spy_invis"
+		{
+		}
+	}
+}

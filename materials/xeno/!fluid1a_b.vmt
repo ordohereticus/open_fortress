@@ -1,0 +1,19 @@
+"Lightmappedgeneric"
+{
+	"$basetexture" "xeno/!fluid1a"
+//	"$envmap" "skybox/xen9"
+	"%compilewater" 1
+	"$watertimefreq1" 0.50
+	"$watertimefreq2" 0.62
+	"$waterwaveheight" 0.15
+	"$waterwavelength" 256
+	"$waterdepth" 1
+	"$waterspecularmin" 0
+	"$waterspecularmax" 0
+	"$watercolor" "[ 1.00 1.00 1.00 ]"
+	"$watermurkiness" 1
+	"$waterbasefactor" 1
+	"$waterbasemovementdist" 1
+	"$waterbasemovementfreq" 10
+	"$surfaceprop" "water"
+}

@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "Nature/underworld_lava001"
+	$selfillum 1
+	"%keywords" "tf"
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" -0.0125
+			"texturescrollangle" 15
+		}
+	}
+}

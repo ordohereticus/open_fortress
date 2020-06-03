@@ -1,0 +1,11 @@
+"Patch"
+{
+	include "materials/models/player/scout/hwm/scout_base_head.vmt"
+	
+	insert
+	{
+		"$basetexture" "models/player/scout/scout_head_zombie"
+		"$compress" "models/player/scout/scout_head_zombie"
+		"$stretch" "models/player/scout/scout_head_zombie"
+	}
+}

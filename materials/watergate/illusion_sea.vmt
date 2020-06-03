@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "watergate/illusion_sea"
+	"$surfaceprop" "water"
+	"%keywords" "tf"
+	"$translucent" 1
+}

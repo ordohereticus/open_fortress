@@ -1,0 +1,5 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "models/tfc/a_boxside"
+"$halflambert" "1"
+}

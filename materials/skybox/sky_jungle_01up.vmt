@@ -1,0 +1,9 @@
+"sky"
+{
+	
+	"$hdrbasetexture" "Skybox/sky_jungle_01up"	
+	"$nofog" "1"
+	"$ignorez" "1"
+	"$basetexture" "skybox/sky_jungle_01up"
+	"%keywords" "tf"
+}

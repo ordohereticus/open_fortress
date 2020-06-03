@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"backpack/workshop/player/items/soldier/earth_quakers/earth_quakers_large"
+	"$translucent"		"1"
+}

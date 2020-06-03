@@ -1,0 +1,49 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\buildables\sentry3\sentry3_custom"
+	"$bumpmap" 	"models\buildables\sentry3\Sentry3_normal"
+	"$phong" "1"
+	"$phongboost" "10"
+	"$phongexponent" "25"
+	"$lightwarptexture" "models\buildables\sentry1\Sentry1_lightwarp"
+	"$phongfresnelranges"	"[.5 1.5 10]"
+	
+//	"$selfillum" "1"
+
+
+	"$rimlight" "1"		
+	"$rimlightexponent" "4"				
+	"$rimlightboost" "1.5"
+	
+	"$blendtintbybasealpha"		"1"
+	"$blendtintcoloroverbase"		"1"
+	"$colortint_base"		"{180 180 180}"
+	"$color2"		"{180 180 180}"
+	"$colortint_tmp"		"[0 0 0]"
+
+	"$cloakPassEnabled" "1"	
+	
+	"Proxies"
+	{
+		"spy_invis"
+		{
+		}
+		"ItemTintColor"
+		{
+			"resultVar"		"$colortint_tmp"
+		}
+		"SelectFirstIfNonZero"
+		{
+			"srcVar1"		"$colortint_tmp"
+			"srcVar2"		"$colortint_base"
+			"resultVar"		"$color2"
+		}
+		"SelectFirstIfNonZero"
+		{
+			"srcVar1"		"$colortint_tmp"
+			"srcVar2"		"$colortint_base"
+			"resultVar"		"$cloakcolortint"
+		}
+	}
+
+}

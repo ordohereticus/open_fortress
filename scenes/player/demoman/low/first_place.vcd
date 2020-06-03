@@ -1,0 +1,62 @@
+// Choreo version 1
+event loop "loop"
+{
+  time 4.460000 -1.000000
+  param "3.160000"
+  loopcount "-1"
+}
+actor "demo"
+{
+  channel "body"
+  {
+    event sequence "selectionMenu_Anim01"
+    {
+      time 0.000000 3.066667
+      param "selectionMenu_Anim01"
+      fixedlength
+    }
+    event sequence "selectionMenu_Idle"
+    {
+      time 3.069139 4.660000
+      param "selectionMenu_Idle"
+    }
+  }
+  channel "sequence"
+  {
+    event sequence "intro"
+    {
+      time -0.764706 -0.764706
+      param "selectionMenu_StartPose"
+      fixedlength
+    }
+    event sequence "idle"
+    {
+      time -0.754902 -0.254902
+      param "selectionMenu_Idle"
+    }
+  }
+  channel "facial"
+  {
+    event expression "mad"
+    {
+      time 0.005050 4.660000
+      param "player\demo\emotion\emotion"
+      param2 "mad"
+      event_ramp
+      {
+        0.1882 0.3412
+        0.5882 0.4706
+        0.8706 0.9725
+        1.1765 0.8588
+        1.5118 0.2863
+        2.0824 0.2353
+        2.5487 0.6314
+        4.6549 0.6314
+      }
+    }
+  }
+}
+
+fps 60
+snap off
+ignorePhonemes off

@@ -1,0 +1,27 @@
+"WorldVertexTransition"
+{
+	"$basetexture2" "Concrete/concretefloor007"
+	"$basetexture" "nature/gravelgrayred001"
+	//"$blendmodulatetexture" "concrete/concretefloor007_blendmask" //for some reason blendmodulate breaks on this
+	"$bumpmap2" "Concrete/concretefloor007_height-ssbump"
+	"$bumpmap" "Nature/gravelground001_height-ssbump"
+	"$ssbump" "1"
+	
+	"$color" "{ 168 168 168 }"
+	
+	//$basetexturetransform2 doesnt exist in dx9
+	"$basetexturetransform" "center .5 .5 scale 2 2 rotate 0 translate 0 0"
+	"$bumptransform" "center .5 .5 scale 2 2 rotate 0 translate 0 0"
+	
+	"$surfaceprop2" "concrete"
+	"$surfaceprop" "dirt"
+	
+	"$detail2" "overlays/detail001"
+	
+	"$detail" "overlays/detail004"
+	"$detailscale" "1.2"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "1"
+	
+	"%keywords" "tf"
+}

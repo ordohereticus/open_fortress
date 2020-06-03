@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "signs/oreowalk_credits"
+	 "$decal" 1
+	"$decalscale" 4
+ 	"%keywords" "tf"
+}

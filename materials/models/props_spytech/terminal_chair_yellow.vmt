@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_spytech/terminal_chair_yellow"
+	"$envmap" "env_cubemap"
+	"$basealphaenvmapmask" 1 
+}

@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Metal/metal_stairs_01"
+	"%compilepassbullets" 1
+	"$surfaceprop" "metalgrate"
+	"%keywords" "tf"
+	
+//	"$translucent" 1
+	"$alphatest" "1"
+	"$nodecal" "1"
+}

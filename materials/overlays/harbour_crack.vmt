@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"overlays/harbour_crack"
+	"$surfaceprop"	"default"
+	"$translucent"	1
+	"%keywords" "tf, tf_movies"
+}

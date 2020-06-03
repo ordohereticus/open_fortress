@@ -1,0 +1,22 @@
+
+"UnLitTwoTexture"
+{
+	"$basetexture" "skybox/skybox_gradient_fog"
+
+		"$color" "{236.0 185.0 9.0}"
+	
+	"%keywords" "tf"
+	"$texture2"	"misc/jumpad_line"
+	"$additive" "1"
+	"$model" "1"
+//	"$nocull" "1"
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$texture2transform"
+			"texturescrollrate" .1
+			"texturescrollangle" 90
+		}
+	}
+}

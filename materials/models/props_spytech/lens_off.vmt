@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/props_spytech/lens_off"
+	"$surfaceprop"	"default"
+	"$basemapalphaphongmask" 1
+	
+	//"$selfillum"	1
+	
+		//phong properties
+	"$phong"	"1"
+	"$phongboost"	"1"
+	"$phongexponent" "40"
+	"$phongfresnelranges"	"[1 2 5]"
+	"$rimlight"	"1"
+	"$rimlightexponent"	"1"
+}
