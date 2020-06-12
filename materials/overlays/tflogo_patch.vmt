@@ -3,4 +3,5 @@
 	"$basetexture" "overlays/tflogo_patch"
 	"%keywords" "tf of patch"
 	"$translucent" 1
+	"$decal" 1
 }

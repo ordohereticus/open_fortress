@@ -268,57 +268,6 @@
 		"OnlyActiveUser"		"1"
 	}
 	
-	"SldFilmGrain"
-	{
-		"ControlName"			"SliderControl"
-		"fieldName"				"SldFilmGrain"
-		"xpos"					"c-205"
-		"ypos"					"170"
-		"zpos"					"3"
-		"wide"					"410"
-		"tall"					"15"
-		"visible"				"0"
-		"enabled"				"1"
-		"usetitlesafe"			"0"
-		"tabPosition"			"0"
-		"minValue"				"0.0"
-		"maxValue"				"3.0"
-		"stepSize"				"0.2"
-		"navUp"					"DrpDisplayMode"
-		"navDown"				"BtnAdvanced"
-		"conCommand"			"mat_grain_scale_override"
-		"usetitlesafe"			"0"
-		"inverseFill"			"0"
-		
-		//button and label
-		"BtnDropButton"
-		{
-			"ControlName"			"BaseModHybridButton"
-			"fieldName"				"BtnDropButton"
-			"xpos"					"0"
-			"ypos"					"0"
-			"zpos"					"0"
-			"wide"					"410"
-			"wideatopen"			"260"	[$WIN32 && !$WIN32WIDE]
-			"tall"					"15"
-			"autoResize"			"1"
-			"pinCorner"				"0"
-			"visible"				"1"
-			"enabled"				"1"
-			"tabPosition"			"0"
-			"AllCaps"					"1"
-			"labelText"				"#L4D360UI_VideoOptions_FilmGrain"
-			"tooltiptext"			"#L4D360UI_VideoOptions_Tooltip_FilmGrain"	[$X360]
-			"tooltiptext"			"#L4D_film_grain_tip"						[$WIN32]
-			"disabled_tooltiptext"	"#L4D360UI_VideoOptions_Tooltip_FilmGrain_Disabled"
-			"style"					"DefaultButton"
-			"command"				""
-			"ActivationType"		"1"	
-			"OnlyActiveUser"		"1"
-			"usablePlayerIndex"		"nobody"
-		}
-	}
-	
 	"BtnAdvanced"
 	{
 		"ControlName"			"BaseModHybridButton"
@@ -822,7 +771,35 @@
 		FocusTextInsetX			"2"
 		OpenTextInsetX			"2"
 	}
-
+	
+	"Btn3rdPartyCredits"
+	{
+		"ControlName"			"BaseModHybridButton"
+		"fieldName"				"Btn3rdPartyCredits"
+		"xpos"					"c-140"
+		"ypos"					"380"
+		"zpos"					"0"
+		"wide"					"280"
+		"tall"					"15"
+		"autoResize"			"1"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"wrap"					"1"
+		"navUp"					"BtnDone"
+		"navDown"				"DrpAspectRatio"
+		"AllCaps"				"1"
+		"labelText"				"#GameUI_ThirdPartyVideo_Title"
+		"tooltiptext"			"#GameUI_ThirdPartyTechCredits"
+		"style"					"DialogButton"
+		"command"				"3rdPartyCredits"
+		EnabledTextInsetX		"2"
+		DisabledTextInsetX		"2"
+		FocusTextInsetX			"2"
+		OpenTextInsetX			"2"
+	}
+	
 	"BtnDone" [$WIN32]
 	{
 		"ControlName"			"CNB_Button"

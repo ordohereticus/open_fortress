@@ -23,14 +23,14 @@
 		"xpos"				"20"
 		"ypos"				"4"
 		"wide"				"320"
-		"tall"				"16"
+		"tall"				"18"
 		"wrap"				"1"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"#StatSummary_Label_TIP"
 		"textAlignment"		"north-west"
-		"font"				"DefaultBold"
+		"font"				"HudFontSmallBold"
 		"zpos"				"40"
 	}
 
@@ -48,7 +48,7 @@
 		"enabled"			"1"
 		"labelText"			"%TipText%"
 		"textAlignment"		"north-west"
-		"font"				"DefaultSmall"
+		"font"				"HudFontSmallest"
 //		"fgcolor_override"	"164 164 164 255"
 		"zpos"				"40"
 	}

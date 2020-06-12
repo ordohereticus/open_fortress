@@ -1,0 +1,43 @@
+"UnLitTwoTexture"
+{
+
+	"$basetexture" "misc/of_logo_xpressurself"
+
+	"$basealphaenvmapmask"  "1"
+	"$additive" "1"
+	"$model" "1"
+
+	"%keywords" "tf"
+	"$texture2"	"misc/holo_large_scan"
+
+
+	"$colortint_base"		"{0 0 0}"
+	"$color2"		"{93 72 117}"
+	"$colortint_tmp"		"[0 0 0]"	
+	
+	"Proxies"
+	{	
+		"LocalPlayerColor"
+		{
+			"resultVar"		"$colortint_tmp"
+		}
+		"SelectFirstIfNonZero"
+		{
+			"srcVar1"			"$colortint_tmp"
+			"srcVar2"			"$colortint_base"
+			"resultVar"		"$color2"
+		}
+		"TextureScroll"
+		{
+			"texturescrollvar" "$texture2transform"
+			"texturescrollrate" .05
+			"texturescrollangle" 90
+		}
+				"TextureScroll"
+		{
+			"texturescrollvar" "$Basetexturetransform"
+			"texturescrollrate" .05
+			"texturescrollangle" 0
+		}
+	}
+}

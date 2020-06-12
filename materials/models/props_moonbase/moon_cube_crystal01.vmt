@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_moonbase/moon_cube_crystal01"
+	//$bumpmap "models\props_moonbase/moon_cube_crystal01_normal"
+	"$envmapcontrast" "0"
+	"$envmap" "cubemaps/cubemap_sheen002"
+//	"$envmap" "cubemaps/cubemap_shapes001"
+	"$envmaptint" "[ 0.214 0.178 0.211 ]"
+	$basealphaenvmapmask 1
+	//`$normalmapalphaenvmapmask 1
+	"$surfaceprop" "Glass"
+	 "$model" 1
+}

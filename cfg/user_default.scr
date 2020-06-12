@@ -47,13 +47,6 @@ DESCRIPTION INFO_OPTIONS
 		{ BOOL }
 		{ "0" }
 	}
-	
-	"mp_decals"
-	{
-		"#Valve_Multiplayer_Decal_Limit"
-		{ NUMBER 0 4096 }
-		{ "200" }
-	}
 
 	"cl_chatmsgsound"
 	{
@@ -211,6 +204,41 @@ DESCRIPTION INFO_OPTIONS
 		{ SLIDER 0 255 }
 		{ "0" }
 	}
+		
+	"of_showtargetid"
+	{
+		"#TFOption_showtargetid"
+		{ BOOL }
+		{ "1" }
+	}	
+	
+	"hud_takesshots"
+	{
+		"#game_takesshots"
+		{ BOOL }
+		{ "0" }
+	}
+	
+	"hud_speedometer"
+	{
+		"#TFOption_speedometer"
+		{ BOOL }
+		{ "0" }
+	}
+	
+	"hud_speedometer_useplayercolour"
+	{
+		"#TFOption_speedometercolor"
+		{ BOOL }
+		{ "0" }
+	}
+	
+	"hud_keydisplay"
+	{
+		"#TFOption_keydisplay"
+		{ BOOL }
+		{ "0" }
+	}
 	
 	"of_gore"
 	{
@@ -302,13 +330,6 @@ DESCRIPTION INFO_OPTIONS
 		{ SLIDER 0 2 }
 		{ "0" }
 	}
-	
-	"of_showtargetid"
-	{
-		"#TFOption_showtargetid"
-		{ BOOL }
-		{ "1" }
-	}	
 
 	"of_idleview"
 	{
@@ -316,13 +337,6 @@ DESCRIPTION INFO_OPTIONS
 		{ BOOL }
 		{ "0" }
 	}	
-	
-	"hud_takesshots"
-	{
-		"#game_takesshots"
-		{ BOOL }
-		{ "0" }
-	}
 	
     "cl_hl1_rollspeed"
 	{
@@ -336,6 +350,13 @@ DESCRIPTION INFO_OPTIONS
 		"#TFOption_viewroll_angle"
 		{ SLIDER 0.0 1.0 }
 		{ "0.1" }
+	}
+	
+	"mp_decals"
+	{
+		"#Valve_Multiplayer_Decal_Limit"
+		{ NUMBER 0 4096 }
+		{ "200" }
 	}
 }
 

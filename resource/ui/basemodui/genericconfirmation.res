@@ -23,66 +23,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-	}
-
-	"LblOkButton"
-	{
-		"ControlName"			"Label"
-		"fieldName"				"LblOkButton"
-		"xpos"					"0"
-		"ypos"					"0"
-		"tall"					"35"
-		"wide"					"35"
-		"autoResize"			"1"
-		"pinCorner"				"0"
-		"visible"				"0" [$WIN32]
-		"enabled"				"1"
-		"tabPosition"			"0"
-	}
-
-	"LblOkText"
-	{
-		"ControlName"			"Label"
-		"fieldName"				"LblOkText"
-		"xpos"					"0"
-		"ypos"					"0"
-		"wide"					"135"
-		"autoResize"			"1"
-		"pinCorner"				"0"
-		"visible"				"0" [$WIN32]
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"textAlignment"	        "north-west"
-	}
-
-	"LblCancelButton"
-	{
-		"ControlName"			"Label"
-		"fieldName"				"LblCancelButton"
-		"xpos"					"0"
-		"ypos"					"0"
-		"tall"					"35"
-		"wide"					"35"
-		"autoResize"			"1"
-		"pinCorner"				"0"
-		"visible"				"0" [$WIN32]
-		"enabled"				"1"
-		"tabPosition"			"0"
-	}
-
-	"LblCancelText" 
-	{
-		"ControlName"			"Label"
-		"fieldName"				"LblCancelText"
-		"xpos"					"0"
-		"ypos"					"0"
-		"wide"					"135"
-		"autoResize"			"1"
-		"pinCorner"				"0"
-		"visible"				"0" [$WIN32]
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"textAlignment"	        "north-west"
+		"border"			"OFFatLineBorderOpaque"
 	}
 
 	"BtnOK"
@@ -91,17 +32,16 @@
 		"fieldName"				"BtnOK"
 		"xpos"					"135"
 		"ypos"					"80"
-		"wide"		"117"
+		"wide"		"100"
 		"tall"		"27"
 		"autoResize"			"0"
-		"visible"				"0" [$X360]
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"AllCaps"				"1"
 		"labelText"				"#GameUI_OK"
 		"textAlignment"			"center"
 		"command"				"OK"
-		"font"					"DefaultBold"
+		"font"					"HudFontSmallBold"
 	}
 
 	"BtnCancel"
@@ -110,16 +50,15 @@
 		"fieldName"				"BtnCancel"
 		"xpos"					"195"
 		"ypos"					"80"
-		"wide"		"117"
+		"wide"		"100"
 		"tall"		"27"
 		"autoResize"			"0"
-		"visible"				"0" [$X360]
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"AllCaps"				"1"
 		"labelText"				"#GameUI_Cancel"
 		"textAlignment"			"center"
 		"command"				"cancel"
-		"font"					"DefaultBold"
+		"font"					"HudFontSmallBold"
 	}
 }

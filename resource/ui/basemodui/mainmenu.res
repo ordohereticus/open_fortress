@@ -18,7 +18,7 @@
 	
 	"PnlBackground"
 	{
-		"ControlName"			"Panel"
+		"ControlName"			"ImagePanel"
 		"fieldName"			"PnlBackground"
 		"xpos"				"0"
 		"ypos"				"0"
@@ -30,7 +30,7 @@
 		//"tall"	 "480"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillColor"			"50 50 50 255"
+		"fillColor"			"0 0 0 200"
 	}	
 
 	"Logo"
@@ -47,7 +47,76 @@
 		"scaleImage"			"1"
 		"image"					"..\logo\tf2_logo"
 		"frame"					"0"
+	}
+
+	"LoadoutBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"LoadoutBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-15"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"..\console\background02_widescreen"
+		"scaleImage"		"1"
+		"proportionalToParent"	"1"
 	}	
+	
+	"classmodelpanel"
+	{
+		"ControlName"	"DMModelPanel"
+		"fieldName"		"classmodelpanel"
+		
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"		
+		"wide"			"f0"
+		"tall"			"480"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+
+		"render_texture"	"0"
+		"fov"				"25"
+		"allow_rot"			"0"
+		"use_particle"		"1"
+				
+		"model"
+		{
+			"force_pos"	"1"
+			"skin"		"4"
+
+			"angles_x" "0"
+			"angles_y" "210"
+			"angles_z" "0"
+			"origin_x" "350"
+			"origin_y" "-50"
+			"origin_z" "-60"
+			"frame_origin_x"	"0"
+			"frame_origin_y"	"0"
+			"frame_origin_z"	"0"
+			"spotlight" 		"1"
+
+			"modelname"		"models/player/mercenary.mdl"
+
+			"attached_model"
+			{
+				"modelname" "models/weapons/w_models/w_supershotgun.mdl"
+				"skin"	"0"
+			}
+			
+			"animation"
+			{
+				"name"		"PRIMARY"
+				"activity"	"ACT_MERC_LOADOUT"
+				"default"	"1"
+			}
+		}
+	}
 	
 	"BtnServerBrowser"
 	{

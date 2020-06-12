@@ -14,29 +14,6 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 	}
-
-	"ProTotalProgress"
-	{
-		"ControlName"			"ContinuousProgressBar"
-		"fieldName"				"ProTotalProgress"
-		"xpos"					"r158" [$WIN32]
-		"xpos"					"r158" [$X360HIDEF]
-		"xpos"					"r140" [$X360LODEF]
-		"ypos"					"r36"
-		"wide"					"135" [$WIN32]
-		"wide"					"135" [$X360HIDEF]
-		"wide"					"120" [$X360LODEF]
-		"tall"					"33" [$WIN32]
-		"tall"					"33" [$X360HIDEF]	// texture is 4:1 w:h ratio
-		"tall"					"30" [$X360LODEF]
-		"zpos"					"5"
-		"autoResize"			"0"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"usetitlesafe"		"1"
-	}
 	
 	"Logo"
 	{
@@ -59,22 +36,61 @@
 	{
 		"ControlName"			"Label"
 		"fieldName"				"LoadingText"
-		"xpos"					"r225"
-		"ypos"					"r48"
+		"xpos"					"r425"
+		"ypos"					"r60"
 		"zpos"					"5"
-		"wide"					"200"
+		"wide"					"400"
 		"tall"					"20"
 		"autoResize"			"1"
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"Font"					"MainMenuFont"
+		"Font"					"HudFontSmall"
 		"labelText"				"#GameUI_Loading"
 		"textAlignment"			"east"
 		"fgcolor_override"		"255 255 255 255"
 		"usetitlesafe"			"1"
 	}	
+
+	"ProTotalProgress"
+	{
+		"ControlName"			"ContinuousProgressBar"
+		"fieldName"				"ProTotalProgress"
+		"xpos"					"r165" [$WIN32]
+		"ypos"					"r52"
+		"wide"					"150" [$WIN32]
+		"tall"					"33" [$WIN32]
+		"zpos"					"5"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"usetitlesafe"		"1"
+	}
+
+	"CancelButton"
+	{
+		"ControlName"		"Button"
+		"fieldName"		"CancelButton"
+		"xpos"			"r165"
+		"ypos"			"r28"
+		"zpos"			"6"
+		"wide"			"150"
+		"tall"			"22"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#Cancel"
+		"font"			"HudFontMediumBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"Command"		"Cancel"
+	}
 	
 	"BGImage"
 	{
@@ -89,6 +105,77 @@
 		"visible"			"0"
 		"enabled"			"1"
 	}
+	
+	"MapLabelBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"MapLabelBG"
+		"xpos"				"50"
+		"ypos"				"30"
+		"zpos"				"30"
+		"wide"				"300"
+		"tall"				"90"
+		"visible"			"0"
+		"enabled"			"1"
+		"fillColor"			"0 0 0 150"
+	}	
+	
+	"OnYourWayLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"OnYourWayLabel"
+		"font"			"HudFontMediumSmallBold"
+		"labelText"		"#LoadingMap"
+		"textAlignment"		"center"
+		"xpos"			"50"
+		"ypos"			"30"
+		"zpos"			"40"
+		"wide"			"300"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"fgcolor_override" "255 255 255 255"
+	}					
+
+	"MapLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"MapLabel"
+		"font"			"HudFontMediumBold"
+		"labelText"		"%maplabel%"
+		"textAlignment"		"center"
+		"xpos"			"50"
+		"ypos"			"60"
+		"zpos"			"50"
+		"wide"			"300"
+		"tall"			"35"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"fgcolor_override" "255 255 255 255"
+	}
+
+	"MapType"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"MapType"
+		"font"			"HudFontSmallBold"
+		"labelText"		"%maptype%"
+		"textAlignment"	"center"
+		"xpos"			"50"
+		"ypos"			"90"
+		"zpos"			"50"
+		"wide"			"300"
+		"tall"			"35"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"fgcolor_override" "255 255 255 255"
+	}		
 	
 	"Poster"
 	{
@@ -180,24 +267,4 @@
 		"usetitlesafe"		"1"
 	}
 	
-	"CancelButton"
-	{
-		"ControlName"		"Button"
-		"fieldName"		"CancelButton"
-		"xpos"			"r330"
-		"ypos"			"r50"
-		"zpos"			"6"
-		"wide"			"150"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#Cancel"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"Command"		"Cancel"
-	}
 }

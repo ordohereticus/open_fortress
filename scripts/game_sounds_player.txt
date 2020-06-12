@@ -5048,3 +5048,11 @@
 	
 	"wave"			")ambient/lair/crocs_jump_bite.wav"
 }
+
+"Player.Slide"
+{
+	"channel"		"CHAN_BODY"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_74dB"
+	"wave"			"player/cslide.wav"
+}
