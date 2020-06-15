@@ -48,22 +48,6 @@
 		"image"					"..\logo\tf2_logo"
 		"frame"					"0"
 	}
-
-	"LoadoutBG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"LoadoutBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-15"
-		"wide"			"f0"
-		"tall"			"480"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"..\console\background02_widescreen"
-		"scaleImage"		"1"
-		"proportionalToParent"	"1"
-	}	
 	
 	"classmodelpanel"
 	{

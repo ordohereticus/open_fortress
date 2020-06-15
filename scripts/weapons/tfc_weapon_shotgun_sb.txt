@@ -42,7 +42,7 @@ WeaponData
 	
 	// bucket_dms.
 	"bucket_dm"			"2"
-	"bucket_dm_position"		"2"
+	"bucket_dm_position"		"3"
 
 
 	// Animation.

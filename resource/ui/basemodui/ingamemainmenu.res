@@ -18,7 +18,7 @@
 	
 	"PnlBackground"
 	{
-		"ControlName"			"Panel"
+		"ControlName"			"ImagePanel"
 		"fieldName"			"PnlBackground"
 		"xpos"				"0"
 		"ypos"				"120"
@@ -30,9 +30,8 @@
 		//"tall"	 "480"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillColor"			"0 0 0 255"
-	}
-	
+		"fillColor"			"0 0 0 200"
+	}	
 	"Logo"
 	{
 		"ControlName"			"ImagePanel"
