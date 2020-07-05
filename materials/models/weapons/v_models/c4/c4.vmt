@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/weapons/v_models/c4/c4"
+
+	"$phong" "1"
+	"$phongBoost" "1.5"
+	"$phongFresnelRanges" "[.4 .8 1]"
+	"$phongExponent" "75"
+	"$phongTint" "[1 1 1]"
+
+	"$basemapalphaphongmask" "1"
+
+	"$envmap" "env_cubemap"
+	"$envmapfresnel" "1"
+	"$envmapFresnelMinMaxExp" "[0 .5 1]"
+	"$envmaptint" 		"[.05 .05 .05]"
+
+//	"$phongalbedotint" "1"
+
+  "$phongdisablehalflambert" "1"
+}

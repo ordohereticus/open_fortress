@@ -1,0 +1,12 @@
+"unlitgeneric"
+{
+	"$basetexture" "models/weapons/v_models/c4/compass_arrow/compass_arrow"
+	"$multiply"    "1"
+	"proxies"
+	{
+		"c4compassarrow"
+		{
+			resultvar      "$frame"
+		}
+	}
+}

@@ -3240,6 +3240,28 @@
 	"wave"		"weapons/mine_activate.wav"
 }
 
+// ------------------------------------------------------------------------------------ //
+// C4
+// ---
+
+"Weapon_C4.ButtonPress"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_95dB"
+	"volume"	"1"
+	"pitch"		"PITCH_NORM"
+	
+	"rndwave"
+	{
+		"wave"	")player\cyoa_pda_beep2.wav"
+		"wave"	")player\cyoa_pda_beep3.wav"
+		"wave"	")player\cyoa_pda_beep4.wav"
+		"wave"	")player\cyoa_pda_beep5.wav"
+		"wave"	")player\cyoa_pda_beep6.wav"
+		"wave"	")player\cyoa_pda_beep7.wav"
+		"wave"	")player\cyoa_pda_beep8.wav"
+	}
+}
 
 //
 // ------------------------------------------------------------------------------------ //

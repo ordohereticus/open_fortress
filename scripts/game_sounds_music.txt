@@ -74,9 +74,9 @@
 "DeathmatchMusic.AtFortressGateIntro"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1"
+	"soundlevel"	"SNDLVL_140dB"
 	"pitch"			"PITCH_NORM"
-	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/afg_loop_intro.ogg"
 }
 
@@ -103,6 +103,9 @@
 //Original piece for dm_skate, by Thoopje
 "DeathmatchMusic.Skate"
 {
+	"Artist"		"Thoopje"
+	"Name"			"Skate"
+
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
 	"pitch"			"PITCH_NORM"
@@ -110,6 +113,20 @@
 	"wave"			"#music/deathmatch/dm_skateb3loop.ogg"
 	
 	"intro"			"DeathmatchMusic.SkateIntro"
+
+	"win"			"DeathmatchMusic.SkateWin"
+}
+
+//Original piece for dm_skate, by Thoopje
+"DeathmatchMusic.SkateWin"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"	"SNDLVL_140dB"
+	"pitch"			"PITCH_NORM"
+
+	"wave"			"#music/deathmatch/dm_skatewin.mp3"
+	
 }
 
 //Original piece for dm_skate, by Thoopje
@@ -136,6 +153,9 @@
 //Deathmatch main theme, by Magnus
 "DeathmatchMusic.Generic"
 {
+	"Artist"		"Magnus"
+	"Name"			"Deathmatch"
+
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
 	"pitch"			"PITCH_NORM"
@@ -149,9 +169,9 @@
 "DeathmatchMusic.Generic_Ending"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1"
+	"soundlevel"	"SNDLVL_140dB"
 	"pitch"			"PITCH_NORM"
-	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/dm_ending.ogg"
 }
 
@@ -168,6 +188,9 @@
 //By Magnus
 "DeathmatchMusic.Facility"
 {
+	"Artist"		"Magnus"
+	"Name"			"Facility"
+
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
 	"pitch"			"PITCH_NORM"
@@ -178,6 +201,9 @@
 //Deathmatch Chase, by Thoopje
 "DeathmatchMusic.Chase"
 {
+	"Artist"		"Thoopje"
+	"Name"			"Chase"
+
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
 	"pitch"			"PITCH_NORM"
@@ -193,9 +219,9 @@
 "DeathmatchMusic.Chase_WaitingIntro"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1"
+	"soundlevel"	"SNDLVL_140dB"
 	"pitch"			"PITCH_NORM"
-	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/dmchase_waiting_intro.ogg"
 }
 
@@ -222,6 +248,9 @@
 //By Magnus
 "DeathmatchMusic.E1M1alt"
 {
+	"Artist"		"Magnus"
+	"Name"			"Open Fortress' Gate"
+
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
 	"pitch"			"PITCH_NORM"
@@ -242,6 +271,9 @@
 //By Magnus
 "DeathmatchMusic.E2M1"
 {
+	"Artist"		"Magnus"
+	"Name"			"Running From Evil"
+
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
 	"pitch"			"PITCH_NORM"
@@ -252,6 +284,9 @@
 //By Magnus
 "DeathmatchMusic.Map01"
 {
+	"Artist"		"Magnus"
+	"Name"			"Map01"
+
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
 	"pitch"			"PITCH_NORM"
@@ -269,9 +304,12 @@
 	"wave"			"#music/deathmatch/map01_waiting.ogg"
 }
 
-//Orchestral song, by Magnus
+//Orchestral song, by MrModez
 "DeathmatchMusic.Orchestral"
 {
+	"Artist"		"MrModez"
+	"Name"			"Orch"
+
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
 	"pitch"			"PITCH_NORM"
@@ -282,6 +320,9 @@
 //By Magnus
 "DeathmatchMusic.Stalker"
 {
+	"Artist"		"Stalker"
+	"Name"			"Magnus"
+
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
 	"pitch"			"PITCH_NORM"
@@ -292,6 +333,9 @@
 //Team Fortresque, by Magnus
 "DeathmatchMusic.TeamFortresque"
 {
+	"Artist"		"Magnus"
+	"Name"			"Team Fortresque"
+
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
 	"pitch"			"PITCH_NORM"
@@ -302,6 +346,9 @@
 //TF2Beat by MrModez
 "DeathmatchMusic.TF2Beat"
 {
+	"Artist"		"MrModez"
+	"Name"			"Beat"
+
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
 	"pitch"			"PITCH_NORM"
@@ -312,6 +359,9 @@
 //Turbine Turmoil by Magnus
 "DeathmatchMusic.TurbineTurmoil"
 {
+	"Artist"		"Magnus"
+	"Name"			"Map01"
+
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
 	"pitch"			"PITCH_NORM"
@@ -322,6 +372,9 @@
 //Overpowered (The Juggernaut's Theme) by Magnus
 "DeathmatchMusic.Overpowered"
 {
+	"Artist"		"Magnus, MrModez, Thoopje"
+	"Name"			"Overpowered"
+
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
 	"pitch"			"PITCH_NORM"
@@ -332,6 +385,8 @@
 //Resonance by HOME
 "DeathmatchMusic.ResonanceIntro"
 {
+
+	
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
 	"pitch"			"PITCH_NORM"
@@ -342,6 +397,9 @@
 //Resonance by HOME
 "DeathmatchMusic.Resonance"
 {
+	"Artist"		"HOME"
+	"Name"			"Resonance"
+
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
 	"pitch"			"PITCH_NORM"
@@ -356,15 +414,18 @@
 "DeathmatchMusic.ResonanceOutro"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1"
+	"soundlevel"	"SNDLVL_140dB"
 	"pitch"			"PITCH_NORM"
-	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/mc_vickers_final_frontier_outro.ogg"
 }
 
 //Last Man Standing by Magnus
 "DeathmatchMusic.LastManStanding"
 {
+	"Artist"		"Magnus, Withered Rose"
+	"Name"			"Last Merc Standing"
+
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
 	"pitch"			"PITCH_NORM"
@@ -378,6 +439,9 @@
 //Last Merc Standing by Magnus and Rose (Live Guitar ver)
 "DeathmatchMusic.LastMercStanding"
 {
+	"Artist"		"Magnus, Withered Rose"
+	"Name"			"Last Merc Standing"
+
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
 	"pitch"			"PITCH_NORM"
@@ -388,6 +452,9 @@
 //By Magnus
 "DeathmatchMusic.Healer"
 {
+	"Artist"		"Magnus"
+	"Name"			"Healer Stalks"
+
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
 	"pitch"			"PITCH_NORM"
@@ -398,6 +465,9 @@
 //DMStuff by MrModez
 "DeathmatchMusic.DMStuff"
 {
+	"Artist"		"MrModez"
+	"Name"			"The Long Ride"
+
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
 	"pitch"			"PITCH_NORM"
@@ -408,6 +478,9 @@
 //DMStuff old by MrModez
 "DeathmatchMusic.DMStuff_Old"
 {
+	"Artist"		"MrModez"
+	"Name"			"Stuff"
+
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
 	"pitch"			"PITCH_NORM"
@@ -418,6 +491,9 @@
 //DMStuff Accordion by MrModez
 "DeathmatchMusic.StuffAccord"
 {
+	"Artist"		"MrModez"
+	"Name"			"Stuff (Achordeon)"
+
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
 	"pitch"			"PITCH_NORM"
@@ -429,6 +505,9 @@
 //Mayann Ambient Track by MrModez (Best used as a setup track)
 "DeathmatchMusic.Mayann"
 {
+	"Artist"		"MrModez"
+	"Name"			"Mayann"
+
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
 	"pitch"			"PITCH_NORM"
@@ -439,6 +518,9 @@
 //Magnum Smooth by MrModez
 "DeathmatchMusic.MagnumSmooth"
 {
+	"Artist"		"MrModez, Withered Rose"
+	"Name"			"Magnum Smooth"
+
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
 	"pitch"			"PITCH_NORM"
@@ -449,6 +531,9 @@
 //Watergate music. Rise of the Living Bread from TF2
 "DeathmatchMusic.Watergate"
 {
+	"Artist"		"Valve Orchestra"
+	"Name"			"The Living Bread"
+
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
 	"pitch"			"PITCH_NORM"
@@ -469,6 +554,9 @@
 //Coaltown temp music.
 "DeathmatchMusic.Coaltown_Temp"
 {
+	"Artist"		"Valve Orchestra"
+	"Name"			"More Gun"
+
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
 	"pitch"			"PITCH_NORM"
@@ -479,6 +567,11 @@
 //Deathmatch Wiseau (TEST), by Thoopje
 "DeathmatchMusic.Wiseau"
 {
+
+	"Name"			"Wiseau"
+	
+	"Artist"		"Thoopje"
+	
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
 	"pitch"			"PITCH_NORM"
@@ -502,7 +595,8 @@
 "DeathmatchMusic.Chthon"
 {
 	"Artist"		"Magnus"
-	"Name"			"Demonstrate"
+	"Name"			"Shortwave"
+
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
 	"pitch"			"PITCH_NORM"
@@ -513,6 +607,9 @@
 //Open Hazards, old valve.bik music extended, by Meta
 "DeathmatchMusic.OpenHazards"
 {
+	"Artist"		"Cazsu"
+	"Name"			"Open Hazards"
+
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
 	"pitch"			"PITCH_NORM"
@@ -523,6 +620,9 @@
 //Get Psyched by Lena and 2P
 "DeathmatchMusic.GetPsyched"
 {
+	"Artist"		"Thoopje, Lena"
+	"Name"			"Get Psyched"
+
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
 	"pitch"			"PITCH_NORM"
@@ -544,6 +644,9 @@
 //Forgone Destruction from Unreal Tournament 1999 by Lena
 "DeathmatchMusic.Unreal"
 {
+	"Artist"		"Lena"
+	"Name"			"Forgone Destruction"
+
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
 	"pitch"			"PITCH_NORM"
@@ -554,6 +657,9 @@
 //Quake theme by Lena
 "DeathmatchMusic.Quake"
 {
+	"Artist"		"Lena"
+	"Name"			"Quake Theme"
+
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
 	"pitch"			"PITCH_NORM"
@@ -564,6 +670,9 @@
 //Longest Yard Open Hazards+Quake Theme
 "DeathmatchMusic.LongestYard"
 {
+	"Artist"		"Cazsu"
+	"Name"			"Open Hazards"
+
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
 	"pitch"			"PITCH_NORM"
@@ -576,6 +685,9 @@
 //New Speed aka Greenback Theme by Thoopje
 "DeathmatchMusic.NewSpeed"
 {
+	"Artist"		"Thoopje"
+	"Name"			"New Speed"
+
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
 	"pitch"			"PITCH_NORM"
@@ -586,6 +698,9 @@
 //Lobsters On The Moon by Rose, Thoopje and Magnus
 "DeathmatchMusic.Lobsters"
 {
+	"Artist"		"Magnus, Withered Rose, Thoopje"
+	"Name"			"Lobsters on the Moon"
+
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
 	"pitch"			"PITCH_NORM"
@@ -596,6 +711,9 @@
 //Stealing by Modez
 "DeathmatchMusic.Stealing"
 {
+	"Artist"		"MrModez"
+	"Name"			"Stealing"
+
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
 	"pitch"			"PITCH_NORM"
@@ -606,6 +724,9 @@
 //Duel of the Fates??? by Lena
 "DeathmatchMusic.DOTF"
 {
+	"Artist"		"Lena"
+	"Name"			"Duel of the Mercs"
+
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
 	"pitch"			"PITCH_NORM"
@@ -613,9 +734,12 @@
 	"wave"			"#music/deathmatch/duelofthemercs.ogg"
 }
 
-//Waiting For SVN by Modez, Magnus and Turnip
+//Waiting For SVN by Modez, Magnus and Savva
 "DeathmatchMusic.WaitingForSVN"
 {
+	"Artist"		"Magnus, MrModez, Savva"
+	"Name"			"Waiting for SVN"
+	
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
 	"pitch"			"PITCH_NORM"
@@ -637,6 +761,9 @@
 // By Magnus
 "InfectionMusic.LastManStanding"
 {
+	"Artist"		"Magnus, Withered Rose"
+	"Name"			"Last Merc Standing"
+
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
 	"pitch"			"PITCH_NORM"
@@ -653,6 +780,9 @@
 
 "InfectionMusic.Risen"
 {
+	"Artist"		"Magnus"
+	"Name"			"The Dead have Risen"
+	
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
 	"pitch"			"PITCH_NORM"
@@ -680,6 +810,9 @@
 //Rocket Jump Waltz by Valve Studio Orchestra
 "DeathmatchMusic.RJW"
 {
+	"Artist"		"Valve Orchestra"
+	"Name"			"Rocket Jump Waltz"
+
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
 	"pitch"			"PITCH_NORM"
@@ -690,6 +823,9 @@
 //Intruder Alert by Valve Studio Orchestra
 "DeathmatchMusic.Intruder_Alert"
 {
+	"Artist"		"Valve Orchestra"
+	"Name"			"Intruder Alert"
+
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
 	"pitch"			"PITCH_NORM"
@@ -712,6 +848,9 @@
 //Crossfire by 2P
 "DeathmatchMusic.CrossFire"
 {
+	"Artist"		"Thoopje"
+	"Name"			"Nuclear Sticky Trap"
+
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
 	"pitch"			"PITCH_NORM"
@@ -733,6 +872,9 @@
 //Crossfire2 by Mace and 2P
 "DeathmatchMusic.CrossFire2"
 {
+	"Artist"		"Mace, Thoopje"
+	"Name"			"Cought in Crossfire"
+
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
 	"pitch"			"PITCH_NORM"
@@ -742,6 +884,9 @@
 //by MrModez
 "DeathmatchMusic.RobotMap"
 {
+	"Artist"		"MrModez"
+	"Name"			"Robot Fear"
+
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
 	"pitch"			"PITCH_NORM"

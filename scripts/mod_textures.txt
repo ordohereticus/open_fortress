@@ -1908,6 +1908,16 @@
 			"height"	"128"
 		}	
 
+		"dispenser_meter_bg_mercenary"
+		{
+			"file"		"vgui/dispenser_meter_bg_mercenary"
+			"x"		"0"
+			"y"		"0"
+			"width"		"256"
+			"height"	"128"
+		}	
+		
+		
 		"leaderboard_dominated"
 		{
 			"file"		"hud/leaderboard_dominated"

@@ -54,6 +54,8 @@
 //	SNDLVL_140dB	= 140,	// 0.2
 //	SNDLVL_150dB	= 150,	// 0.2
 
+
+
 "vox/null"
 {
 	"channel"		"CHAN_ITEM"
@@ -296,6 +298,16 @@
 	"pitch"		"PITCH_NORM"
 
 	"wave"		"ui/scored.wav"
+}
+
+"Hud.DMEndRoundScored"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"VOL_NORM"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"		"PITCH_NORM"
+
+	"wave"		"ui/dm_scored.mp3"
 }
 
 "Hud.Warning"
@@ -1232,6 +1244,26 @@
 	"soundlevel"		"SNDLVL_NONE"
 
 	"wave"				"items/powerup_haste.wav"
+}
+
+"Game.DMWin"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"	"SNDLVL_140dB"
+	"pitch"			"PITCH_NORM"
+
+	"wave"			"#music/deathmatch/winpanel/dm_winpanel_top3.wav"
+}
+
+"Game.DMLoose"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"	"SNDLVL_140dB"
+	"pitch"			"PITCH_NORM"
+
+	"wave"			"#music/deathmatch/winpanel/dm_winpanel_lose.wav"
 }
 
 //*********************************************************

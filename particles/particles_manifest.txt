@@ -100,4 +100,5 @@ particles_manifest
 	"file"		"!particles/rain_with_collision.pcf"
 	"file"		"!particles/savvarainparticles.pcf"
 	"file"		"!particles/shield_charge.pcf"
+	"file"		"!particles/tfc_fx.pcf"
 }

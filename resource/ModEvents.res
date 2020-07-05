@@ -260,10 +260,11 @@
 
 	"teamplay_broadcast_audio"
 	{
-		"team"		"byte"		// which team should hear the broadcast. 0 will make everyone hear it.
-		"sound"		"string"	//sound to play
-		"exclude_players"		"short"
-		"announcer"	"bool"
+		"team"				"byte"		// which team should hear the broadcast. 0 will make everyone hear it.
+		"sound"				"string"	//sound to play
+		"additional_flags"	"byte"
+		"exclude_players"	"short"
+		"announcer"			"bool"
 	}
 	
 	"ffa_broadcast_audio"
@@ -781,5 +782,9 @@
 	{
 		"killer"	"byte"			// index of the killer
 		"victim"	"byte"			// index of the victim
+	}
+	
+	"music_round_start"
+	{
 	}
 }

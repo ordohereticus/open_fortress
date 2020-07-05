@@ -400,3 +400,78 @@ event VideoCaptionFadeOut
 {
 	Animate VideoCaption	Alpha		"0"				Linear 0.0 0.1
 }
+
+event HudDMWinpanelIntro
+{
+	Animate Player3Model	model_pos	"393 -60 -168"	Bias 1 0.0 0.01
+	Animate Player2Model	model_pos	"393 50 -198"	Bias 1 0.0 0.01
+	Animate Player1Model	model_pos	"395 0 95"		Bias 1 0.0 0.01
+	
+	Animate Player3Model	model_pos	"393 -60 -44"	Bias 0.9 0.1 0.7
+	
+	RunEvent HudDMWinpanelSecond 1.0
+}
+
+event HudDMWinpanelSecond
+{
+	Animate Player2Model	model_pos	"393 50 -44"	Bias 0.9 0.0 0.5
+	RunEvent HudDMWinpanelFirst 0.8
+}
+
+event HudDMWinpanelFirst
+{
+	Animate Player1Model	model_pos	"395 0 -38" 	Bias 0.4 0.0 0.9
+	Animate Player1Model	model_reset_anim ""			Bias 0.9 0.1 0.7 // "Bias 0.9 0.1 0.7" does nothing, i havent setup proper timing for this event so it just hapens instantly
+	RunEvent HudDMWinpanelMoveOut 0.8
+}
+
+event HudDMWinpanelMoveOut
+{
+	Animate Player2Model	model_pos	"429 50 -44"	Bias 0.8 0.0 0.5
+	Animate Player3Model	model_pos	"429 -60 -44"	Bias 0.8 0.0 0.5
+}
+
+event NowPlaying
+{
+	Animate ArtistNameContainer		Alpha		"0"			Linear 0.0 0.0
+	Animate ArtistNameContainer		Alpha		"255"		Bias 0.8 0.5 2
+	Animate ArtistNameContainer		Position	"50 40"		Linear 0.0 0.0
+	Animate ArtistNameContainer		Position	"0 40"		Bias 0.8 0.5 5
+	Animate ArtistNameContainer		Position	"-300 40"	Bias 0.8 5 7
+	Animate ArtistNameContainer		Alpha		"-255"		Bias 0.88 5 7
+	
+	Animate MusicNameContainer		Alpha		"0"		Linear 0.0 0.0
+	Animate MusicNameContainer		Alpha		"255"	Bias 0.8 0.5 2
+	Animate MusicNameContainer		Position	"-80 0"	Linear 0.0 0.0
+	Animate MusicNameContainer		Position	"30 0"	Bias 0.9 0.5 5
+	Animate MusicNameContainer		Position	"300 0"	Bias 0.8 5 7
+	Animate MusicNameContainer		Alpha		"-255"	Bias 0.88 5 7
+}
+
+event LoadoutPopupDISABLED
+{
+	Animate Footer			Position	"-10 c252"	Linear 0.0 0.0
+	Animate ItemBox			Position	"r480 c305"	Linear 0.0 0.0
+	Animate CosmeticPanel	Position	"r480 425"	Linear 0.0 0.0
+	Animate classmodelpanel model_ang 	"0 570 0" 	Linear 0.0 0.0
+
+	Animate LoadoutBG	Position	"0 -680"	Linear 0.0 0.0
+	Animate LoadoutBG	Position	"0 0"	Linear 0.2 0.5
+	
+	Animate classmodelpanel model_pos "350 -50 -60" Linear 0.0 0.0
+	Animate classmodelpanel model_pos "500 60 -40" Linear 0.3 0.4
+
+	Animate classmodelpanel model_ang "0 260 0" Bias 0.6 0.3 0.4
+	
+	RunEvent ItemSelectionPopup 0.0
+}
+
+event ItemSelectionPopup
+{
+	
+	Animate Footer	Position	"-10 c192"	Linear 0.0 0.2
+	
+	Animate ItemBox	Position	"r480 c-130"	Linear 0.1 0.2
+
+	Animate CosmeticPanel	Position	"r480 0"	Linear 0.1 0.2
+}

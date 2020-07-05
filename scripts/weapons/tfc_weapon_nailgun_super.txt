@@ -61,7 +61,7 @@ WeaponData
 	{
 		"weapon"
 		{
-				"file"		"sprites/bucket_nailgun"
+				"file"		"sprites/bucket_syrgun_red"
 				"x"		"0"
 				"y"		"0"
 				"width"		"200"
@@ -69,7 +69,7 @@ WeaponData
 		}
 		"weapon_s"
 		{	
-				"file"		"sprites/bucket_nailgun"
+				"file"		"sprites/bucket_syrgun_blue"
 				"x"		"0"
 				"y"		"0"
 				"width"		"200"

@@ -1,18 +1,17 @@
 // Choreo version 1
-
-
-actor "Spy"
+actor "Mercenary"
 {
   channel "sequence"
   {
-    event sequence "idle"
+    event sequence "winpanel_second"
     {
-      time 0 23.0416
-      param "competitive_winnerstate_idle"
+      time 0 16
+	  fixedlength
+      param "winpanel_second"
     }
   }
 }
 
-fps 60
+fps 30
 snap off
 ignorePhonemes off

@@ -13,15 +13,6 @@
 		"ARENA"	"1"
 		"INFECTION"	"1"
 	}
-	"Tyler"
-	{
-		"CP" 	"0"
-		"CTF"	"1"
-		"DM"	"1"
-		"ESC"	"0"
-		"ARENA"	"1"
-		"INFECTION"	"1"
-	}
 	"HECU"
 	{
 		"CP" 	"0"
