@@ -2229,7 +2229,7 @@
 	"channel"	"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_94dB"
 	"volume"	"1.0"
-	"wave"		")weapons/minigun_shoot_crit.wav"
+	"wave"		")weapons/chaingun_fire_crit.wav"
 }
 
 "Weapon_Gatling.WindDown"	

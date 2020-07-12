@@ -8,7 +8,7 @@
 		"xpos_lodef"	"34"
 		"xpos_hidef"	"4"
 		"ypos"			"131"
-		"wide"			"660"
+		"wide"			"600"
 		"wide_lodef"	"560"
 		"wide_hidef"	"620"
 		"tall"			"568"
