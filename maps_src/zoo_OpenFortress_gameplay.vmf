@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8163"
-	"mapversion" "63"
+	"mapversion" "65"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -26,7 +26,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "63"
+	"mapversion" "65"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -3522,16 +3522,6 @@ world
 	}
 	group
 	{
-		"id" "36744"
-		editor
-		{
-			"color" "185 202 0"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
 		"id" "36750"
 		editor
 		{
@@ -3636,16 +3626,6 @@ world
 		editor
 		{
 			"color" "219 240 0"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
-		"id" "36816"
-		editor
-		{
-			"color" "237 182 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -26685,94 +26665,6 @@ entity
 }
 entity
 {
-	"id" "17966"
-	"classname" "dm_weapon_spawner"
-	"angles" "0 180 0"
-	"AutoMaterialize" "1"
-	"body" "0"
-	"disable_glow" "0"
-	"disable_spin" "0"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"effects" "0"
-	"HiddenWhenRespawning" "1"
-	"Index" "33"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"model" "models/weapons/w_models/w_dynamite.mdl"
-	"pickup_sound" "AmmoPack.Touch"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"respawntime" "1"
-	"SetBodyGroup" "0"
-	"shadowcastdist" "0"
-	"skin" "0"
-	"spawn_sound" "Item.Materialize"
-	"texframeindex" "0"
-	"weaponname" "tf_weapon_dynamite_bundle"
-	connections
-	{
-		"OnPlayerTouch" "dynamite_spawner,skin,1,15,-1"
-		"OnPlayerTouch" "dynamite_spawner,skin,0,0,-1"
-	}
-	"origin" "-1312 128 112"
-	editor
-	{
-		"color" "185 202 0"
-		"groupid" "36744"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -4768]"
-	}
-}
-entity
-{
-	"id" "19034"
-	"classname" "prop_dynamic"
-	"angles" "0 0 0"
-	"DisableBoneFollowers" "0"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"effects" "0"
-	"ExplodeDamage" "0"
-	"ExplodeRadius" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"health" "0"
-	"MaxAnimTime" "10"
-	"MinAnimTime" "5"
-	"minhealthdmg" "0"
-	"model" "models/pickups/emitter.mdl"
-	"PerformanceMode" "0"
-	"physdamagescale" "1.0"
-	"pressuredelay" "0"
-	"RandomAnimation" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"SetBodyGroup" "0"
-	"shadowcastdist" "0"
-	"skin" "1"
-	"solid" "0"
-	"spawnflags" "0"
-	"StartDisabled" "0"
-	"targetname" "dynamite_spawner"
-	"texframeindex" "0"
-	"origin" "-1312 128 64.8006"
-	editor
-	{
-		"color" "185 202 0"
-		"groupid" "36744"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
 	"id" "17963"
 	"classname" "dm_weapon_spawner"
 	"angles" "0 180 0"
@@ -27734,94 +27626,6 @@ entity
 	{
 		"color" "219 240 0"
 		"groupid" "36810"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "17975"
-	"classname" "dm_weapon_spawner"
-	"angles" "0 180 0"
-	"AutoMaterialize" "1"
-	"body" "0"
-	"disable_glow" "0"
-	"disable_spin" "0"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"effects" "0"
-	"HiddenWhenRespawning" "1"
-	"Index" "19"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"model" "models/weapons/w_models/w_pistol_akimbo.mdl"
-	"pickup_sound" "AmmoPack.Touch"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"respawntime" "15"
-	"SetBodyGroup" "0"
-	"shadowcastdist" "0"
-	"skin" "2"
-	"spawn_sound" "Item.Materialize"
-	"texframeindex" "0"
-	"weaponname" "tf_weapon_pistol_akimbo"
-	connections
-	{
-		"OnPlayerTouch" "dual_pistol_spawner,skin,1,15,-1"
-		"OnPlayerTouch" "dual_pistol_spawner,skin,0,0,-1"
-	}
-	"origin" "-1440 512 112"
-	editor
-	{
-		"color" "237 182 0"
-		"groupid" "36816"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -12768]"
-	}
-}
-entity
-{
-	"id" "18935"
-	"classname" "prop_dynamic"
-	"angles" "0 0 0"
-	"DisableBoneFollowers" "0"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"effects" "0"
-	"ExplodeDamage" "0"
-	"ExplodeRadius" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"health" "0"
-	"MaxAnimTime" "10"
-	"MinAnimTime" "5"
-	"minhealthdmg" "0"
-	"model" "models/pickups/emitter.mdl"
-	"PerformanceMode" "0"
-	"physdamagescale" "1.0"
-	"pressuredelay" "0"
-	"RandomAnimation" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"SetBodyGroup" "0"
-	"shadowcastdist" "0"
-	"skin" "1"
-	"solid" "0"
-	"spawnflags" "0"
-	"StartDisabled" "0"
-	"targetname" "dual_pistol_spawner"
-	"texframeindex" "0"
-	"origin" "-1440 512 64.8006"
-	editor
-	{
-		"color" "237 182 0"
-		"groupid" "36816"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 500]"
@@ -33537,7 +33341,7 @@ entity
 	"origin" "-640 -576 96"
 	editor
 	{
-		"color" "0 177 182"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 15000]"
@@ -33551,10 +33355,96 @@ entity
 	"origin" "-624 -576 96"
 	editor
 	{
-		"color" "0 143 120"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 15000]"
+	}
+}
+entity
+{
+	"id" "17966"
+	"classname" "dm_weapon_spawner"
+	"angles" "0 180 0"
+	"AutoMaterialize" "1"
+	"body" "0"
+	"disable_glow" "0"
+	"disable_spin" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"effects" "0"
+	"HiddenWhenRespawning" "1"
+	"Index" "33"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/weapons/w_models/w_dynamite.mdl"
+	"pickup_sound" "AmmoPack.Touch"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"respawntime" "15"
+	"SetBodyGroup" "0"
+	"shadowcastdist" "0"
+	"skin" "0"
+	"spawn_sound" "Item.Materialize"
+	"texframeindex" "0"
+	"weaponname" "tf_weapon_dynamite_bundle"
+	connections
+	{
+		"OnPlayerTouch" "dynamite_spawner,skin,1,15,-1"
+		"OnPlayerTouch" "dynamite_spawner,skin,0,0,-1"
+	}
+	"origin" "-1312 128 112"
+	editor
+	{
+		"color" "0 131 168"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -4768]"
+	}
+}
+entity
+{
+	"id" "19034"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"effects" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"health" "0"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"minhealthdmg" "0"
+	"model" "models/pickups/emitter.mdl"
+	"PerformanceMode" "0"
+	"physdamagescale" "1.0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"shadowcastdist" "0"
+	"skin" "1"
+	"solid" "0"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "dynamite_spawner"
+	"texframeindex" "0"
+	"origin" "-1312 128 64.8006"
+	editor
+	{
+		"color" "0 181 126"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
 	}
 }
 cameras
