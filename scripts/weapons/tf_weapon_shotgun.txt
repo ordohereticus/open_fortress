@@ -52,8 +52,9 @@ WeaponData
 	"soldier_viewmodel"		"models/weapons/v_models/v_shotgun_soldier.mdl"
 	"pyro_viewmodel"		"models/weapons/v_models/v_shotgun_pyro.mdl"
 	
-	"CenteredViewmodelOffset_Y" "-8"
-	
+	"CenteredViewmodelOffset_Y" "-7"
+	"CenteredViewmodelOffset_X" "-3"
+	"CenteredViewmodelOffset_Z" "-3"
 	
 	"MinViewmodelOffset_X" "5"
 	"MinViewmodelOffset_Y" "-2"
