@@ -27,3 +27,5 @@ Note: 1.5 GB download
 ## Via .zip File
 - Redownload the .zip file from this url: "https://github.com/mastermindsintl/open_fortress/archive/master.zip"
 - Extract and rename folder
+
+**NOTE:** This will overwrite your existing settings!
