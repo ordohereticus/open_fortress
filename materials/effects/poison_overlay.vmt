@@ -18,15 +18,71 @@
 	"$center" "[.5 .5]"
 	"$scale" "[.75 .75]"
 
+	"$colourred"	"{255 0 0}"
+	"$colourgreen"	"{0 255 0}"
+	"$colourresult"	"{255 255 255}"
+	"$sinecolour"	"0"
+	"$lerpred"	"0"
+	"$lerpgreen"	"0"
+	"$resultred"	"{255 0 0}"
+	"$resultgreen"	"{0 255 0}"
+	"$one"		"1"
+
 	"$bumpframe" "0"
 	"$bluramount" "1"
 	"$refracttinttexture" "effects/invulnoverlay/invuln_overlay"
 	"Proxies"
 	{
+
+		// sinecolour = Sine 0 to 1
+		"Sine"
+		{
+			"sinemax" "1"
+			"sinemin" "0"
+			"sineperiod" ".11"
+			"resultvar" "$sinecolour"
+		}
+		// 1 - sinecolour
+		"Subtract"
+		{
+			"srcVar1"		"$one"
+			"srcVar2"		"$sinecolour"
+			"resultVar"	"$lerpred"
+		}
+		// copy sincolour -> lerpgreen
 		"SelectFirstIfNonZero"
 		{
-			"srcVar1"		"$refracttint_constant"
-			"srcVar2"		"$refracttint_constant"
+			"srcVar1"		"$sinecolour"
+			"srcVar2"		"$sinecolour"
+			"resultVar"	"$lerpgreen"
+		}
+		// resultgreen = colourgreen*lerpgreen 
+		// resultred = colourred*lerpred
+		// colourwhite = resultgreen + resultren
+		"Multiply"
+		{
+			"srcVar1"		"$colourgreen"
+			"srcVar2"		"$lerpgreen"
+			"resultVar"	"$resultgreen"
+		}
+		"Multiply"
+		{
+			"srcVar1"		"$colourred"
+			"srcVar2"		"$lerpred"
+			"resultVar"	"$resultred"
+		}
+		"Add"
+		{
+			"srcVar1"		"$resultgreen"
+			"srcVar2"		"$resultred"
+			"resultVar"	"$colourresult"
+		}
+
+
+		"SelectFirstIfNonZero"
+		{
+			"srcVar1"		"$lerpgreen"
+			"srcVar2"		"$lerpgreen"
 			"resultVar"		"$refracttint"
 		}
 		"Sine"
