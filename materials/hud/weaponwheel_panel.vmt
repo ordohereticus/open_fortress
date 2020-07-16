@@ -1,0 +1,35 @@
+"UnlitGeneric"
+{
+	"$basetexture" "hud/weaponwheel_panel"
+	"$translucent" 1
+
+// Alpha controls the transparency multiplier
+	"$alpha" 0.8
+
+// HUD doesn't need depth checks
+	"$ignorez"     "1"	
+
+	$scaleoutlinesoftnessbasedonscreenres 1
+
+	"$blendtintbybasealpha"		"1"
+//	"$colortint_base"		"{255 255 255}"
+//	"$color2"		"{93 72 117}"
+	"$color2"		"{255 255 255}"
+//	"$colortint_tmp"		"[0 0 0]"	
+	"%keywords" "tf"
+
+//	"Proxies"
+//	{
+//		"ItemTintColor"
+//		{
+//			"resultVar"	"$colortint_tmp"
+//
+//		}
+//		"SelectFirstIfNonZero"
+//		{
+//			"srcVar1"		"$colortint_tmp"
+//			"srcVar2"		"$colortint_base"
+//			"resultVar"	"$color2"
+//		}
+//	}
+}

@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "hud/weaponwheel_arrow_dropshadow"
+	"$translucent" 1
+	"$ignorez" 1
+	"$alpha" 1.0
+}

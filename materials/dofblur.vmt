@@ -1,0 +1,16 @@
+"BlurDOF"
+{
+	"$FBTEXTURE" 			"_rt_FullFrameFB"
+	//"$BLURTEXTURE"          "_rt_SmallHDR0"  this doesn't works
+ 	 //"$BLURTEXTURE"          "_rt_SmallFB0"  this works 
+	//"$BLURTEXTURE"          _rt_FullFrameDepth	 this works too
+	"$TEXELSIZE"		"[0.000520833333 0.000925925926]"
+	"$FOCUSSCALE"		"0.15"
+	"$FOCUSDISTANCE"	"0.175"
+	"Proxies"
+	{
+		"DOFBlur"
+		{
+		}
+	}
+}
