@@ -1390,3 +1390,23 @@
 
 	"wave"	"items/powerup_beserk_heartbeat_loop.wav"	
 }
+
+"PlayerMedkitInfected"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"100"
+
+	"wave"	"weapons/medkit_infected.wav"	
+}
+
+"PlayerTranqed"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"100"
+
+	"wave"	"weapons/tranquilizer_gun_hit.wav"	
+}

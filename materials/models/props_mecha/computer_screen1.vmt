@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"models/props_mecha/computer_screen_1_g"
+	"$surfaceprop"	"no_decal"
+	"$model"		1
+}
