@@ -7,7 +7,7 @@ Note: 1.5 GB download
 ## I have Git installed already
 - Open sourcemods folder
 - Open Git Bash in this folder
-- Run "git clone --depth 1 https://github.com/mastermindsintl/open_fortress.git"
+- Run `git clone --depth 1 https://github.com/mastermindsintl/open_fortress.git`
 - Launch from Steam
 
 ## I do not have Git installed
