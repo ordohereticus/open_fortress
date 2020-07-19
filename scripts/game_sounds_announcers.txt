@@ -2518,7 +2518,21 @@
 	}
 }
 
+"Benja.GunGame" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
 
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_benja/announcer_gamemode_gungame01.mp3"
+		"wave"			"vo/announcer_benja/announcer_gamemode_gungame02.mp3"
+		"wave"			"vo/announcer_benja/announcer_gamemode_gungame03.mp3"
+	}
+}
 
 // CTF/Invade
 
@@ -6333,8 +6347,8 @@
 {
 	"channel"		"CHAN_VOICE2"
 	"volume"		"4.000"
-	"pitch"		"PITCH_NORM"
-	"soundlevel"		"SNDLVL_95dB"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_95dB"
 	"rndwave"
 	{
 		"wave"		"vo/announcer_soldier/soldier_shriek01.mp3"
@@ -6361,9 +6375,11 @@
 	"volume"		"4.000"
 	"soundlevel"	"SNDLVL_140dB"
 	"pitch"		"PITCH_NORM"
-
-	"wave"		"vo/announcer_soldier/soldier_youwin.mp3"
-	"wave"		"vo/announcer_soldier/soldier_youwin2.mp3"
+	"rndwave"
+	{
+		"wave"		"vo/announcer_soldier/soldier_youwin.mp3"
+		"wave"		"vo/announcer_soldier/soldier_youwin2.mp3"
+	}
 }
 
 "soldier.Game.YourTeamLost"
@@ -6374,4 +6390,1903 @@
 	"pitch"		"PITCH_NORM"
 
 	"wave"		"vo/announcer_soldier/soldier_youlose.mp3"
+}
+
+
+
+/////////////////////////////////////////////
+// Civilian from TF2c, HIS NAME IS NOT CARL WINSLOW, HIS NAME IS NO-
+/////////////////////////////////////////////
+
+"Carl.FragsLeft1"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_fragsleft_01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_fragsleft_01_alt.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_fragsleft_01_alt2.mp3"
+	}
+}
+
+"Carl.FragsLeft2"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_fragsleft_02.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_fragsleft_02_alt.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_fragsleft_02_alt2.mp3"
+	}
+}
+
+"Carl.FragsLeft3"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_fragsleft_03.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_fragsleft_03_alt.mp3"
+	}
+}
+
+"Carl.FragsLeft4"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_fragsleft_04.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_fragsleft_04_alt.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_fragsleft_04_alt2.mp3"
+	}
+}
+
+"Carl.FragsLeft5"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_fragsleft_05.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_fragsleft_05_alt.mp3"
+	}
+}
+
+"Carl.FragsLeft10"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_fragsleft_10.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_fragsleft_10_alt.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_fragsleft_10_alt2.mp3"
+	}
+}
+
+"Carl.CountDown1"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_tf2cciv/tf2cciv_countdown_01.mp3"
+}
+"Carl.CountDown2"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_tf2cciv/tf2cciv_countdown_02.mp3"
+}
+"Carl.CountDown3"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_tf2cciv/tf2cciv_countdown_03.mp3"
+}
+"Carl.CountDown4"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_tf2cciv/tf2cciv_countdown_04.mp3"
+}
+"Carl.CountDown5"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_tf2cciv/tf2cciv_countdown_05.mp3"
+}
+"Carl.CountDown6"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_tf2cciv/tf2cciv_countdown_06.mp3"
+}
+"Carl.CountDown7"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_tf2cciv/tf2cciv_countdown_07.mp3"
+}
+"Carl.CountDown8"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_tf2cciv/tf2cciv_countdown_08.mp3"
+}
+"Carl.CountDown9"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_tf2cciv/tf2cciv_countdown_09.mp3"
+}
+"Carl.CountDown10"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_tf2cciv/tf2cciv_countdown_10.mp3"
+}
+
+"Carl.RoundEnds10seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"vo/announcer_tf2cciv/tf2cciv_countdown_10.mp3"
+}
+
+"Carl.RoundEnds1seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"vo/announcer_tf2cciv/tf2cciv_countdown_01.mp3"
+}
+
+// TODO Benjoo moosie record this plz thnx
+
+"Carl.RoundEnds20seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"vo/announcer_benja/announcer_timeleft_20sec.mp3"
+}
+
+// TODO Benjoo moosie record this plz thnx
+
+"Carl.RoundEnds2minutes"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"vo/announcer_benja/announcer_timeleft_2mins.mp3"
+}
+
+"Carl.RoundEnds2seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"vo/announcer_tf2cciv/tf2cciv_countdown_02.mp3"
+}
+
+"Carl.RoundEnds30seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"vo/announcer_tf2cciv/tf2cciv_timeleft_30sec.mp3"
+}
+
+"Carl.RoundEnds3seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"vo/announcer_tf2cciv/tf2cciv_countdown_03.mp3"
+}
+
+"Carl.RoundEnds4seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"vo/announcer_tf2cciv/tf2cciv_countdown_04.mp3"
+}
+
+"Carl.RoundEnds5seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"vo/announcer_tf2cciv/tf2cciv_countdown_05.mp3"
+}
+
+"Carl.RoundEnds5minutes"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_timeleft_5mins.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_timeleft_5mins_alt.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_timeleft_5mins_alt2.mp3"
+	}
+}
+
+"Carl.RoundEnds60seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_timeleft_1min.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_timeleft_1min_alt.mp3"
+	}
+}
+
+// Never used but i guess he recorded it so i might aswell put it here
+// in case we do end up needing it
+"Carl.RoundEnds10minutes"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_timeleft_10mins.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_timeleft_10mins_alt.mp3"
+	}
+}
+
+"Carl.FirstPlace"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_firstplace01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_firstplace02.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_firstplace03.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_firstplace04.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_firstplace05.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_firstplace06.mp3"
+		
+		// These work too well to not include
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_victory01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_victory02.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_victory03.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_victory04.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_victory05.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_victory06.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_victory07.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_victory08.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_victory09.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_victory10.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_victory11.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_victory12.mp3"
+	}
+}
+
+"Carl.SecondPlace"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_secondplace01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_secondplace02.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_secondplace03.mp3"
+	}
+}
+
+"Carl.ThirdPlace"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_thirdplace01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_thirdplace02.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_thirdplace03.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_thirdplace04.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_thirdplace05.mp3"
+	}
+}
+
+"Announcer.LastPlace"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_failure01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_failure02.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_failure03.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_failure04.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_failure05.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_failure06.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_failure07.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_failure08.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_failure09.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_failure10.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_failure11.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_failure12.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_failure13.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_failure14.mp3"
+	}
+}
+
+"Carl.Game.YourTeamWon"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1"
+	"soundlevel"	"SNDLVL_140dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_victory01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_victory02.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_victory03.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_victory04.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_victory05.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_victory06.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_victory07.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_victory08.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_victory09.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_victory10.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_victory11.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_victory12.mp3"
+	}
+}
+
+"Carl.DMRoundPrepare"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_roundstart_preparetofight01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_roundstart_preparetofight02.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_roundstart_preparetofight03.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_roundstart_preparetofight04.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_roundstart_preparetofight05.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_roundstart_preparetofight06.mp3"		
+	}
+}
+
+"Carl.DMRoundStart"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_roundstart_go01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_roundstart_go02.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_roundstart_go03.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_roundstart_go04.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_roundstart_fight01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_roundstart_fight02.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_roundstart_fight03.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_roundstart_fight04.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_roundstart_fight05.mp3"
+	}
+}
+
+"Carl.PowerupsIncoming"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_powerup_spawning01.mp3"
+	}
+}
+
+"Carl.SuperWeaponsIncoming"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_tf2cciv/tf2cciv_superwep01.mp3"
+}
+
+"Carl.GIBIncoming"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_gib_spawning01.mp3"
+	}
+}
+
+"Carl.GIBSpawn"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_gib01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_gib02.mp3"
+	}
+}
+
+// TODO Benja
+"Carl.GIBTaken"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_benja/tf2cciv_gib_taken01.mp3"
+	}
+}
+
+"Carl.GIBTakenSelf"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_gib_youtook01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_gib_youtook02.mp3"
+	}
+}
+
+"Carl.QuadIncoming"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_quadlauncher_spawning01.mp3"
+	}
+}
+
+"Carl.QuadSpawn"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_quadlauncher_spawned01.mp3"
+	}
+}
+
+"Carl.QuadTaken"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_quadlauncher_taken01.mp3"
+	}
+}
+
+"Carl.QuadTakenSelf"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_quadlauncher_youtook01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_quadlauncher_youtook02.mp3"
+	}
+}
+
+"Carl.Berserk"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_berserk_spawned01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_berserk01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_berserk02.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_berserk03.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_berserk04.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_berserk05.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_berserk06.mp3"
+	}
+}
+
+"Carl.BerserkIncoming"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_berserk_spawning01.mp3"
+	}
+}
+
+"Carl.BerserkTaken"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_berserk_taken01.mp3"
+	}
+}
+
+"Carl.Crits"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_crit01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_crit02.mp3"
+	}
+}
+
+"Carl.CritsIncoming"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_crit_spawning01.mp3"
+	}
+}
+
+"Carl.CritTaken"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_crit_taken01.mp3"
+	}
+}
+
+"Carl.CritTakenSelf"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_crit03.mp3"
+	}
+}
+
+"Carl.Haste"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_haste_spawned01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_haste01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_haste02.mp3"
+	}
+}
+
+"Carl.HasteIncoming"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_haste_spawning01.mp3"
+	}
+}
+
+"Carl.HasteTaken"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_haste_taken01.mp3"
+	}
+}
+
+"Carl.HasteTakenSelf"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_haste_youtook01.mp3"
+	}
+}
+
+"Carl.Invisibility"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_invisibility_spawned01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_invisibility01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_invisibility02.mp3"
+	}
+}
+
+"Carl.InvisibilityTaken"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_benja/tf2cciv_invisibility_taken01.mp3"
+	}
+}
+
+"Carl.InvisibilityTakenSelf"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_invisibility_youtook01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_invisibility03.mp3"
+	}
+}
+
+"Carl.Shield"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_shield_spawned01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_shield01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_shield02.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_shield03.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_shield04.mp3"
+	}
+}
+
+"Carl.ShieldIncoming"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_shield_spawning01.mp3"
+	}
+}
+
+"Carl.ShieldTaken"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_shield_taken01.mp3"
+	}
+}
+
+"Carl.ShieldTakenSelf"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_tf2cciv/tf2cciv_shield_youtook01.mp3"
+}
+
+"Carl.Excellent"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_excellent01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_excellent02.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_excellent03.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_excellent04.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_excellent05.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_excellent06.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_excellent07.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_excellent08.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_excellent09.mp3"
+	}
+}
+
+"Carl.Perfect"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_perfect01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_perfect02.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_perfect03.mp3"
+	}
+}
+
+"Carl.Headshot"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_headshot01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_headshot02.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_headshot03.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_headshot04.mp3"
+	}
+}
+
+"Carl.Kamikaze"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_kamikaze01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_kamikaze02.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_kamikaze03.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_kamikaze04.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_kamikaze05.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_kamikaze06.mp3"
+	}
+}
+
+"Carl.Denied"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_denied01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_denied02.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_denied03.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_denied04.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_denied05.mp3"
+	}
+}
+
+"Carl.PartyBreaker"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_partybreaker01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_partybreaker02.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_partybreaker03.mp3"
+	}
+}
+
+"Carl.Perforated"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_telefrag01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_telefrag02.mp3"
+	}
+}
+
+"Carl.MultiKill"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_multikill01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_multikill02.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_multikill03.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_multikill04.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_multikill05.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_multikill06.mp3"
+	}
+}
+
+// TODO BENJA
+
+"Carl.UltraKill"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_ultrakill01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_ultrakill02.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_ultrakill03.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_ultrakill04.mp3"
+	}
+}
+
+"Carl.HolyShit"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_holyshit01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_holyshit02.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_holyshit03.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_holyshit04.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_holyshit05.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_holyshit06.mp3"
+	}
+}
+
+"Carl.Humiliation"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_humiliation01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_humiliation02.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_humiliation03.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_humiliation04.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_humiliation05.mp3"
+	}
+}
+
+"Carl.Impressive"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_impressive01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_impressive02.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_impressive03.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_impressive04.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_impressive05.mp3"
+	}
+}
+
+"Carl.KillingSpree"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_killingspree01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_killingspree02.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_killingspree03.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_killingspree04.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_killingspree05.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_killingspree06.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_killingspree07.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_killingspree08.mp3"
+	}
+}
+
+"Carl.Rampage"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_rampage01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_rampage02.mp3"
+	}
+}
+
+"Carl.Dominating"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_dominating01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_dominating02.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_dominating03.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_dominating04.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_dominating05.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_dominating06.mp3"
+	}
+}
+
+"Carl.Unstoppable"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_unstoppable01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_unstoppable02.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_unstoppable03.mp3"
+	}
+}
+
+"Carl.GodLike"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_godlike01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_godlike02.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_godlike03.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_godlike04.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_godlike05.mp3"
+	}
+}
+
+"Carl.PowerupMassacre"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_powerupmassacre01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_powerupmassacre02.mp3"
+	}
+}
+
+"Carl.ShowStopper"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_showstopper01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_showstopper02.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_showstopper03.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_showstopper04.mp3"
+	}
+}
+
+"Carl.FirstBlood" // Hellen announcer Naming Scheme
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_firstblood01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_firstblood02.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_firstblood03.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_firstblood04.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_firstblood05.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_firstblood06.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_firstblood07.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_firstblood08.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_firstblood09.mp3"
+	}
+}
+
+"Carl.Midair"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_midair01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_midair02.mp3"
+	}
+}
+
+"Carl.Revenge"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_revenge01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_revenge02.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_revenge03.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_revenge04.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_revenge05.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_revenge06.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_revenge07.mp3"
+	}
+}
+
+"Carl.LastManWon"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_tf2cciv/tf2cciv_infection_lastman_won01.mp3"
+}
+
+"Carl.RoundStart"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_infection_roundstart01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_infection_roundstart02.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_infection_roundstart03.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_infection_roundstart04.mp3"
+	}
+}
+
+"Carl.SomeoneDied"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_infection_someonedied01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_infection_someonedied02.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_infection_someonedied03.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_infection_someonedied04.mp3"
+	}
+}
+
+"Carl.SurvivorsWin"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_infection_survivorswin01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_infection_survivorswin02.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_infection_survivorswin03.mp3"
+	}
+}
+
+"Carl.ZombiesWin"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_infection_zombieswin01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_infection_zombieswin02.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_infection_zombieswin03.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_infection_zombieswin04.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_infection_zombieswin05.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_infection_zombieswin06.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_infection_zombieswin07.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_infection_zombieswin08.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_infection_zombieswin09.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_infection_zombieswin10.mp3"
+	}
+}
+
+"Carl.Arena"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_benja/announcer_gamemode_arena01.mp3"
+		"wave"			"vo/announcer_benja/announcer_gamemode_arena02.mp3"
+		"wave"			"vo/announcer_benja/announcer_gamemode_arena03.mp3"
+	}
+}
+
+"Carl.ControlPoint" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_benja/announcer_gamemode_controlpoint01.mp3"
+		"wave"			"vo/announcer_benja/announcer_gamemode_controlpoint02.mp3"
+		"wave"			"vo/announcer_benja/announcer_gamemode_controlpoint03.mp3"
+	}
+}
+
+"Carl.3Wave" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_gamemode_ctf_3wave01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_gamemode_ctf_3wave02.mp3"
+	}
+}
+
+"Carl.CTF" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_gamemode_ctf01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_gamemode_ctf02.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_gamemode_ctf03.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_gamemode_ctf04.mp3"
+	}
+}
+
+"Carl.Deathmatch" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_gamemode_deathmatch01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_gamemode_deathmatch02.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_gamemode_deathmatch03.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_gamemode_deathmatch04.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_gamemode_deathmatch05.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_gamemode_deathmatch06.mp3"
+	}
+}
+
+"Carl.Duel" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_gamemode_duel01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_gamemode_duel02.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_gamemode_duel03.mp3"
+	}
+}
+
+"Carl.Escort" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_gamemode_hunted01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_gamemode_hunted02.mp3"
+	}
+}
+
+"Carl.Infection" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_gamemode_infection01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_gamemode_infection02.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_gamemode_infection03.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_gamemode_infection04.mp3"
+	}
+}
+
+"Carl.Instagib" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_gamemode_instagib01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_gamemode_instagib02.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_gamemode_instagib03.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_gamemode_instagib04.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_gamemode_instagib05.mp3"
+	}
+}
+
+"Carl.LastManStanding" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_gamemode_lms01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_gamemode_lms02.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_gamemode_lms03.mp3"
+	}
+}
+
+"Carl.AM_LastManAlive"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+
+	"rndwave"			
+	{
+		"wave"		"vo/announcer_tf2cciv/tf2cciv_infection_roundstart02.mp3"
+		"wave"		"vo/announcer_tf2cciv/tf2cciv_gamemode_lms01.mp3"
+		"wave"		"vo/announcer_tf2cciv/tf2cciv_gamemode_lms02.mp3"
+		"wave"		"vo/announcer_tf2cciv/tf2cciv_gamemode_lms03.mp3"
+	}
+}
+
+"Carl.PlayerDestruction" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_benja/announcer_gamemode_pd01.mp3"
+		"wave"			"vo/announcer_benja/announcer_gamemode_pd02.mp3"
+	}
+}
+
+"Carl.Push" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_gamemode_push01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_gamemode_push02.mp3"
+	}
+}
+
+"Carl.TDM" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_gamemode_tdm01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_gamemode_tdm02.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_gamemode_tdm03.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_gamemode_tdm04.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_gamemode_tdm05.mp3"
+	}
+}
+
+"Carl.GunGame" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_gamemode_gungame01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_gamemode_gungame02.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_gamemode_gungame03.mp3"
+	}
+}
+
+// CTF/Invade
+
+"Carl.CaptureFlag.EnemyCaptured" // Enemy has Capped
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/announcer_tf2cciv/tf2cciv_yourflagcaptured01.mp3"
+	}
+}
+
+"Carl.CaptureFlag.EnemyDropped" // Enemy Dropped the flag
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/announcer_tf2cciv/tf2cciv_yourflagdropped01.mp3"
+	}
+}
+
+"Carl.CaptureFlag.TeamReturned"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/announcer_tf2cciv/tf2cciv_enemyflagreturned01.mp3"
+	}
+}
+
+"Carl.CaptureFlag.EnemyStolen"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/announcer_tf2cciv/tf2cciv_enemyhasflag01.mp3"
+		"wave"	"vo/announcer_tf2cciv/tf2cciv_enemyhasflag02.mp3"
+	}
+}
+
+"Carl.CaptureFlag.TeamCaptured"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_enemyflagcaptured01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_enemyflagcaptured02.mp3"
+	}
+}
+
+"Carl.CaptureFlag.TeamCapturedExcited" // Used for... Mannpower??
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_enemyflagcaptured01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_enemyflagcaptured02.mp3"
+	}
+}
+
+"Carl.CaptureFlag.TeamDropped"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/announcer_tf2cciv/tf2cciv_enemyflagdropped01.mp3"
+		"wave"	"vo/announcer_tf2cciv/tf2cciv_enemyflagdropped02.mp3"
+		"wave"	"vo/announcer_tf2cciv/tf2cciv_enemyflagdropped03.mp3"
+	}
+}
+
+"Carl.CaptureFlag.EnemyReturned"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/announcer_tf2cciv/tf2cciv_yourflagreturned01.mp3"
+	}
+}
+
+"Carl.CaptureFlag.TeamStolen"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/announcer_tf2cciv/tf2cciv_youhaveflag01.mp3"
+		"wave"	"vo/announcer_tf2cciv/tf2cciv_youhaveflag02.mp3"
+		"wave"	"vo/announcer_tf2cciv/tf2cciv_youhaveflag03.mp3"
+	}
+}
+
+"Carl.Resource.EnemyDropped"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/announcer_tf2cciv/tf2cciv_yourflagdropped01.mp3" // please replace these later
+		"wave"	"vo/announcer_tf2cciv/tf2cciv_yourflagdropped02.mp3"
+	}
+}
+
+"Carl.Resource.EnemyStolen"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/announcer_tf2cciv/tf2cciv_enemyhasflag01.mp3"
+		"wave"	"vo/announcer_tf2cciv/tf2cciv_enemyhasflag02.mp3"
+	}
+}
+ 
+"Carl.Resource.EnemyReturned"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/announcer_tf2cciv/tf2cciv_enemyflagreturned01.mp3"
+	}
+}
+
+"Carl.Resource.TeamDropped"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/announcer_tf2cciv/tf2cciv_enemyflagdropped01.mp3"
+		"wave"	"vo/announcer_tf2cciv/tf2cciv_enemyflagdropped02.mp3"
+		"wave"	"vo/announcer_tf2cciv/tf2cciv_enemyflagdropped03.mp3"
+	}
+}
+
+"Carl.Resource.TeamStolen"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/announcer_tf2cciv/tf2cciv_youhaveflag01.mp3"
+		"wave"	"vo/announcer_tf2cciv/tf2cciv_youhaveflag02.mp3"
+		"wave"	"vo/announcer_tf2cciv/tf2cciv_youhaveflag03.mp3"
+	}
+}
+
+"Carl.Resource.TeamReturned"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/announcer_tf2cciv/tf2cciv_yourflagreturned01.mp3"
+	}
+}
+
+// Misc
+
+"Carl.Laugh"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"rndwave"
+	{
+		"wave"		"vo/announcer_tf2cciv/tf2cciv_laugh01.mp3"
+		"wave"		"vo/announcer_tf2cciv/tf2cciv_laugh02.mp3"
+		"wave"		"vo/announcer_tf2cciv/tf2cciv_laugh03.mp3"
+	}
+}
+
+"Carl.ThatsGottaHurt"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"rndwave"
+	{
+		"wave"		"vo/announcer_tf2cciv/tf2cciv_thatsgottahurt01.mp3"
+		"wave"		"vo/announcer_tf2cciv/tf2cciv_thatsgottahurt02.mp3"
+		"wave"		"vo/announcer_tf2cciv/tf2cciv_thatsgottahurt03.mp3"
+		"wave"		"vo/announcer_tf2cciv/tf2cciv_thatsgottahurt04.mp3"
+		"wave"		"vo/announcer_tf2cciv/tf2cciv_thatsgottahurt05.mp3"
+		"wave"		"vo/announcer_tf2cciv/tf2cciv_thatsgottahurt06.mp3"
+		"wave"		"vo/announcer_tf2cciv/tf2cciv_thatsgottahurt07.mp3"
+		"wave"		"vo/announcer_tf2cciv/tf2cciv_thatsgottahurt08.mp3"
+	}
 }
