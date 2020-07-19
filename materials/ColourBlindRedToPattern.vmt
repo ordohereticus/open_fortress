@@ -1,0 +1,22 @@
+"RedToPattern"
+{
+	"$FBTEXTURE" 			"_rt_FullFrameFB"
+	"$SCRATCHBUFFER"		"_rt_FullFrameFB1"
+	"$PATTERNTEXTURE"		"effects/colourblind/16x16_Patterns_RGBA_v1"
+	
+	// Scales the pattern (15 is the default)
+//	"$UVSCALING"			"15.0"
+	"$UVSCALING"			"35.0"
+
+	// todo move this to code
+	"$TEXELSIZE"			"[0.000520833333 0.000925925926]"
+	
+	// Strength of the pattern, 0.75 is default
+	"$INTENSITYMULTIPLIER"		"0.95"
+
+	// For each of the patterns, how saturated does a pixel have to be in order to display the pattern?
+	"$SATURATIONMINIMA"		"[0.4 0.4 0.4 0.4]"
+	// For each of the patterns, how saturated does a pixel have to be to reach the maximum (intensity multipler = max)
+	"$SATURATIONMAXIMA"		"[0.9 0.9 0.9 0.9]"
+}
+//

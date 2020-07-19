@@ -1,0 +1,7 @@
+"GreyscaleTest"
+{
+	"$FBTEXTURE" 			"_rt_FullFrameFB"
+	//"$BLURTEXTURE"          "_rt_SmallHDR0"  this doesn't works
+ 	//"$BLURTEXTURE"          "_rt_SmallFB0"  this works 
+	//"$BLURTEXTURE"          _rt_FullFrameDepth	 this works too
+}
