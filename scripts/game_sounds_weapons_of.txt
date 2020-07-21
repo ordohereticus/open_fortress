@@ -2220,7 +2220,7 @@
 	"channel"	"CHAN_WEAPON"
 	"soundlevel"	"SNDLVL_94dB"
 	"volume"	"1.0"
-	"wave"		")weapons/hl1/shotgn2.wav"
+	"wave"		")weapons/shotgun_db_shoot.wav"
 }
 
 "Weapon_RShotgunDB.SingleCrit"
@@ -2228,7 +2228,7 @@
 	"channel"	"CHAN_WEAPON"
 	"soundlevel"	"SNDLVL_94dB"
 	"volume"	"1.0"
-	"wave"		")weapons/hl1/shotgn2_crit.wav"
+	"wave"		")weapons/shotgun_db_shoot_crit.wav"
 }
 
 "Weapon_RShotgunDB.Draw"
