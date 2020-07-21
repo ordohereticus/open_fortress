@@ -35,7 +35,9 @@ Meta - TFC Demoman
 
 Announcers:
 Benjamin Rudman
-Tyler McVicker
+Meta
+GetGianni
+Stachekip
 
 Weapon and misc. player sound effects:
 Stachekip
@@ -55,6 +57,9 @@ Alaxe - New Mercenary model and textures
 DrPyspy - Mercenary Model and Concept Art, Early Civilian concept
 Drew - TFC Spy Model
 Lena - TFC Soldier Head Concept
+Square
+Swanky Swaggernaut
+Cherry
 
 Weapon and cosmetic concepts and modelling:
 Ficool2
@@ -93,6 +98,7 @@ KaydemonLP - Lightning Gun Particles/BFG Smoke and flame particles
 Menu and promotional art:
 Gibus Cat
 iiboharz
+Blamo
 Denied
 
 Main Menu UI Design:
@@ -136,6 +142,7 @@ EmNudge
 AgitationSkeleton (Placeholder Site)
 Nbc66 (Placeholder Site)
 Nopey Nope (Placeholder Site)
+Gibus Cat & Blamo - Merc Renders & Promo Art
 
 Maps:
 Hambooga - The Bad Place, The Longest Yard, Aerowalk original Blockout
@@ -163,6 +170,8 @@ HQDefault - Blood Covenant
 Charging Turnip - Badworks
 Suzie🕷Scattersilk - The Badplace new Artpass
 Ruby - dm_entryway, duel_aerowalk artpass
+Aichten / Dot.ico
+White Russian Bear
 
 Third party Assets Used with permission:
 Landfall Assets by Dr. Spud and Nineaxis
@@ -185,11 +194,10 @@ Technochips - French translation
 The Engineer - Hungarian translation
 Nival, Arcus Merseneri and Amuno - Italian Translation
 Amy (@OctoGril1) - Female Merc design + Easter egg drawing on legacy
-Tyler McVicker - For streaming Open Fortress and offering to be an announcer
 Private Polygon - Player Colored party hat
 Jan - Linux builds and fixes
 Solar light - Hud Fixes
-White Russian Bear - Infection poster ( w/Meta )
+White Russian Bear
 
 Open Fortress - Special thanks:
 TF2Vintage ( where the bots originally came from, with permission given from Deathreus to utilise them )

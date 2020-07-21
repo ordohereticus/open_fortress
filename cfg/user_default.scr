@@ -232,6 +232,13 @@ DESCRIPTION INFO_OPTIONS
 		{ BOOL }
 		{ "0" }
 	}
+
+	"hud_weaponwheel_dofblur"
+	{
+		"#TFOption_weaponwheeldofblur"
+		{ BOOL }
+		{ "1" }
+	}
 	
 	"hud_keydisplay"
 	{

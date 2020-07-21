@@ -28,6 +28,7 @@ WeaponData
 	"HasTeamSkins_Worldmodel"			"1"
 	
 	"GibOnOverkill"		"1"
+	"BrassModel"			"models/weapons/shells/shell_shotgun.mdl"
 	"TracerEffect"		"bullet_scattergun_tracer01"
 
 	// bucket.	

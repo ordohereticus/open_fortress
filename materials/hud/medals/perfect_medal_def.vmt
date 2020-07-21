@@ -4,4 +4,6 @@
       "$translucent"   "1"
 
       "$ignorez" "1"
+		"$distancealpha" "1"
+		"$vertexalpha" "1"
 }

@@ -1,0 +1,111 @@
+"MapData"
+{
+	"WeaponSpawners"
+	{
+		"0"
+		{
+			"Weapon"	"tf_weapon_rocketlauncher_dm"
+			"Model"		""
+		}
+		"1"
+		{
+			"Weapon"	"tf_weapon_nailgun"
+			"Model"		""
+		}
+		"2"
+		{
+			"Weapon"	"tf_weapon_supershotgun"
+			"Model"		""
+		}
+		"3"
+		{
+			"Weapon"	"tf_weapon_revolver_mercenary"
+			"Model"		""
+		}
+		"4"
+		{
+			"Weapon"	"tf_weapon_shotgun"
+			"Model"		""
+		}
+		"5"
+		{
+			"Weapon"	"tf_weapon_railgun"
+			"Model"		""
+		}
+		"6"
+		{
+			"Weapon"	"tf_weapon_supershotgun"
+			"Model"		""
+		}
+		"7"
+		{
+			"Weapon"	"tf_weapon_nailgun"
+			"Model"		""
+		}
+		"8"
+		{
+			"Weapon"	"tf_weapon_revolver_mercenary"
+			"Model"		""
+		}
+		"9"
+		{
+			"Weapon"	"tf_weapon_shotgun"
+			"Model"		""
+		}
+		"10"
+		{
+			"Weapon"	"tf_weapon_railgun"
+			"Model"		""
+		}
+		"11"
+		{
+			"Weapon"	"tf_weapon_tommygun"
+			"Model"		""
+		}
+		"12"
+		{
+			"Weapon"	"tf_weapon_tommygun"
+			"Model"		""
+		}
+		"13"
+		{
+			"Weapon"	"tf_weapon_flamethrower"
+			"Model"		""
+		}
+		"14"
+		{
+			"Weapon"	"tf_weapon_flamethrower"
+			"Model"		""
+		}
+		"15"
+		{
+			"Weapon"	"tf_weapon_grenadelauncher_mercenary"
+			"Model"		""
+		}
+		"16"
+		{
+			"Weapon"	"tf_weapon_grenadelauncher_mercenary"
+			"Model"		""
+		}
+		"17"
+		{
+			"Weapon"	"tf_weapon_dynamite_bundle"
+			"Model"		""
+		}
+		"18"
+		{
+			"Weapon"	"tf_weapon_dynamite_bundle"
+			"Model"		""
+		}
+		"19"
+		{
+			"Weapon"	"tf_weapon_tommygun"
+			"Model"		""
+		}
+		"20"
+		{
+			"Weapon"	"tf_weapon_tommygun"
+			"Model"		""
+		}
+	}
+}

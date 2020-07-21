@@ -475,3 +475,19 @@ event ItemSelectionPopup
 
 	Animate CosmeticPanel	Position	"r480 0"	Linear 0.1 0.2
 }
+
+event MedalAnim
+{
+	Animate MedalDrawer Alpha "0" Linear 0 0
+	Animate MedalDrawer Alpha "255" Bias 0.8 0.1 0.4
+	
+	Animate MedalDrawer Alpha "-255" Bias 0.8 1.9 2
+	
+	Animate MedalDrawer Position "c0 0" Linear 0 0
+	Animate MedalDrawer Position "c-32 64"   Bias 0.8 0.1 0.2
+      
+	Animate MedalDrawer Position "c64 64" Bias 0.8 1.9 2
+	
+	Animate MedalDrawer Size "0 0" Linear 0 0
+	Animate MedalDrawer Size "64 64"   Bias 0.9 0.1 0.3
+}

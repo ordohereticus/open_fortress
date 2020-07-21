@@ -65,6 +65,7 @@ WeaponData
 		"empty"			"Weapon_Scatter_Gun.Empty"
 		"reload"			"Weapon_SuperShotGun.WorldReload"
 		"special1"		"Weapon_SuperShotGun.ShellsIn"
+		"special2"		"Weapon_GHook.Single"
 		"burst"			"Weapon_SuperShotGun.SingleCrit"
 	}
 

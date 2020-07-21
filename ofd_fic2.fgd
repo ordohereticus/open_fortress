@@ -2190,6 +2190,7 @@
 		"tf_weapon_revolver_mercenary"        : "Revolver"
 		"tf_weapon_shotgun_mercenary"         : "Shotgun"
 		"tf_weapon_supershotgun"              : "Super Shotgun"	
+		"tf_weapon_eternalshotgun"            : "Meathook Supershotgun"
 		"tf_weapon_smg_mercenary"             : "Combat SMG"
 		"tf_weapon_tommygun"                  : "Tommygun"
 		"tf_weapon_gatlinggun"                : "Gatling Gun"
