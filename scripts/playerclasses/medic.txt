@@ -71,6 +71,11 @@ PlayerClass
 	
 	"TFC"
 	{
+		"ClassImageRed"					"../hud/class_classic_medic_red"
+		"ClassImageBlue"				"../hud/class_classic_medic_blue"
+		"ClassImageMercenary"			"../hud/class_classic_medic_red"
+		"ClassImageColorless"			"../hud/class_classic_medic_red"
+		
 		"model"			"models/player/tfc/medic_tfc.mdl"
 		"arm_model"		"models/weapons/c_models/c_tfc_medic_arms.mdl"
 		"speed_max"		"320"
@@ -94,7 +99,7 @@ PlayerClass
 		"ClassImageRed"					"../hud/class_medic_zombie_red"
 		"ClassImageBlue"				"../hud/class_medic_zombie_blue"
 		"ClassImageMercenary"			"../hud/class_medic_zombie_red"
-		"ClassImageColorless"			"../hud/colorless/class_medic_zombie_red"
+		"ClassImageColorless"			"../hud/class_medic_zombie_red"
 		
 		"model"			"models/player/zombie/medic_zombie.mdl"
 		"arm_model"		"models/weapons/c_models/c_zombie_medic_arms.mdl"

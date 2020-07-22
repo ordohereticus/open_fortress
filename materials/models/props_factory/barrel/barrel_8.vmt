@@ -1,6 +1,0 @@
-"VertexlitGeneric"
-{
-	"$basetexture" "models/props_factory/barrel/barrel_8"
-	"$surfaceprop" "Metal"
-	"%keywords" "prop"
-}

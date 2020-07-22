@@ -72,7 +72,7 @@ PlayerClass
 		"ClassImageRed"					"../hud/class_demo_zombie_red"
 		"ClassImageBlue"				"../hud/class_demo_zombie_blue"
 		"ClassImageMercenary"			"../hud/class_demo_zombie_red"
-		"ClassImageColorless"			"../hud/colorless/class_demo_zombie_red"
+		"ClassImageColorless"			"../hud/class_demo_zombie_red"
 	
 		"model"				"models/player/zombie/demo_zombie.mdl"
 		"arm_model"			"models/weapons/c_models/c_zombie_demo_arms.mdl"	
@@ -91,6 +91,11 @@ PlayerClass
 	
 	"TFC"
 	{
+		"ClassImageRed"					"../hud/class_classic_demoman_red"
+		"ClassImageBlue"				"../hud/class_classic_demoman_blue"
+		"ClassImageMercenary"			"../hud/class_classic_demoman_red"
+		"ClassImageColorless"			"../hud/class_classic_demoman_red"
+		
 		"model"			"models/player/tfc/demo_tfc.mdl"
 		"arm_model"		"models/weapons/c_models/c_tfc_demo_arms.mdl"	
 	

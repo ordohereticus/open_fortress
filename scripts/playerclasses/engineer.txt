@@ -70,6 +70,11 @@ PlayerClass
 	
 	"TFC"
 	{
+		"ClassImageRed"					"../hud/class_classic_engineer_red"
+		"ClassImageBlue"				"../hud/class_classic_engineer_blue"
+		"ClassImageMercenary"			"../hud/class_classic_engineer_red"
+		"ClassImageColorless"			"../hud/class_classic_engineer_red"
+		
 		"model"			"models/player/tfc/engineer_tfc.mdl"
 		"arm_model"		"models/weapons/c_models/c_tfc_engineer_arms.mdl"
 		
@@ -95,7 +100,7 @@ PlayerClass
 		"ClassImageRed"					"../hud/class_engie_zombie_red"
 		"ClassImageBlue"				"../hud/class_engie_zombie_blue"
 		"ClassImageMercenary"			"../hud/class_engie_zombie_red"
-		"ClassImageColorless"			"../hud/colorless/class_engie_zombie_red"
+		"ClassImageColorless"			"../hud/class_engie_zombie_red"
 		
 		"model"				"models/player/zombie/engineer_zombie.mdl"
 		"arm_model"			"models/weapons/c_models/c_zombie_engineer_arms.mdl"

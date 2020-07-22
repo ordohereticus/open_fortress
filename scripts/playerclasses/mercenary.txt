@@ -96,7 +96,7 @@ PlayerClass
 		"ClassImageRed"					"../hud/class_mercenaryredzom"
 		"ClassImageBlue"				"../hud/class_mercenarybluezom"
 		"ClassImageMercenary"			"../hud/class_mercenaryredzom"
-		"ClassImageColorless"			"../hud/colorless/class_mercenaryredzom"
+		"ClassImageColorless"			"../hud/class_mercenaryredzom"
 		
 		"model"				"models/player/zombie/mercenary_zombie.mdl"
 		"arm_model"			"models/weapons/c_models/c_zombie_merc_arms.mdl"	

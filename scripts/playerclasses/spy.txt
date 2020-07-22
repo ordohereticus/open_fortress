@@ -70,6 +70,11 @@ PlayerClass
 	
 	"TFC"
 	{
+		"ClassImageRed"					"../hud/class_classic_spy_red"
+		"ClassImageBlue"				"../hud/class_classic_spy_blue"
+		"ClassImageMercenary"			"../hud/class_classic_spy_red"
+		"ClassImageColorless"			"../hud/class_classic_spy_red"
+		
 		"model"			"models/player_classic/spy.mdl"
 		"arm_model"		"models/weapons/c_models/c_spy_classic_arms.mdl"
 		
@@ -95,7 +100,7 @@ PlayerClass
 		"ClassImageRed"					"../hud/class_spy_zombie_red"
 		"ClassImageBlue"				"../hud/class_spy_zombie_blue"
 		"ClassImageMercenary"			"../hud/class_spy_zombie_red"
-		"ClassImageColorless"			"../hud/colorless/class_spy_zombie_red"
+		"ClassImageColorless"			"../hud/class_spy_zombie_red"
 		
 		"model"		"models/player/zombie/spy_zombie.mdl"
 		"arm_model"	"models/weapons/c_models/c_zombie_spy_arms.mdl"

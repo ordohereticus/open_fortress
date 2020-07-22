@@ -272,7 +272,7 @@
 "DeathmatchMusic.E2M1"
 {
 	"Artist"		"Magnus"
-	"Name"			"Running From Evil"
+	"Name"			"I Sawed the Demons"
 
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
@@ -285,7 +285,7 @@
 "DeathmatchMusic.Map01"
 {
 	"Artist"		"Magnus"
-	"Name"			"Map01"
+	"Name"			"Running From Evil"
 
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
@@ -347,7 +347,7 @@
 "DeathmatchMusic.TF2Beat"
 {
 	"Artist"		"MrModez"
-	"Name"			"Beat"
+	"Name"			"TF2 Beat"
 
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
@@ -360,7 +360,7 @@
 "DeathmatchMusic.TurbineTurmoil"
 {
 	"Artist"		"Magnus"
-	"Name"			"Map01"
+	"Name"			"Turbine Turmoil"
 
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
@@ -453,7 +453,7 @@
 "DeathmatchMusic.Healer"
 {
 	"Artist"		"Magnus"
-	"Name"			"Healer Stalks"
+	"Name"			"The Healer Stalks"
 
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
@@ -479,7 +479,7 @@
 "DeathmatchMusic.DMStuff_Old"
 {
 	"Artist"		"MrModez"
-	"Name"			"Stuff"
+	"Name"			"The Long Ride"
 
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
@@ -492,7 +492,7 @@
 "DeathmatchMusic.StuffAccord"
 {
 	"Artist"		"MrModez"
-	"Name"			"Stuff (Achordeon)"
+	"Name"			"The Long Ride"
 
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"

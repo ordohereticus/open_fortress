@@ -71,6 +71,11 @@ PlayerClass
 	
 	"TFC"
 	{
+		"ClassImageRed"					"../hud/class_civilianred"
+		"ClassImageBlue"				"../hud/class_civilianblue"
+		"ClassImageMercenary"			"../hud/class_civilianmercenary"
+		"ClassImageColorless"			"../hud/colorless/class_civiliancolorless"
+	
 		"speed_max"		"300"
 		//"health_max"	"50" //Uncomment this later when armor is implemented
 		"health_max"	"200"
@@ -85,7 +90,7 @@ PlayerClass
 		"ClassImageRed"					"../hud/class_civ_zombie_red"
 		"ClassImageBlue"				"../hud/class_civ_zombie_blue"
 		"ClassImageMercenary"			"../hud/class_civ_zombie_red"
-		"ClassImageColorless"			"../hud/colorless/class_civ_zombie_red"
+		"ClassImageColorless"			"../hud/class_civ_zombie_red"
 	
 		"model"		"models/player/zombie/civilian_zombie.mdl"
 		"arm_model"	"models/weapons/c_models/c_zombie_civilian_arms.mdl"	

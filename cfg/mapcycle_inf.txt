@@ -1,7 +1,6 @@
 dm_2fort
 dm_bloodcovenant
 dm_chestnut
-dm_databank
 dm_grain
 dm_knoxx
 dm_lobstershore

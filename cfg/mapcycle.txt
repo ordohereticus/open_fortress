@@ -20,7 +20,6 @@ dm_longestyard
 dm_lumberyard
 dm_nucleus
 dm_offblast
-dm_overkill_dev
 dm_pitod
 dm_ravine
 dm_sawdust

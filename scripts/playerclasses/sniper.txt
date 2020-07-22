@@ -70,6 +70,11 @@ PlayerClass
 	
 	"TFC"
 	{
+		"ClassImageRed"					"../hud/class_classic_sniper_red"
+		"ClassImageBlue"				"../hud/class_classic_sniper_blue"
+		"ClassImageMercenary"			"../hud/class_classic_sniper_red"
+		"ClassImageColorless"			"../hud/class_classic_sniper_red"
+		
 		"model"			"models/player/tfc/sniper_tfc.mdl"
 		"arm_model"		"models/weapons/c_models/c_tfc_sniper_arms.mdl"
 		
@@ -95,7 +100,7 @@ PlayerClass
 		"ClassImageRed"					"../hud/class_sniper_zombie_red"
 		"ClassImageBlue"				"../hud/class_sniper_zombie_blue"
 		"ClassImageMercenary"			"../hud/class_sniper_zombie_red"
-		"ClassImageColorless"			"../hud/colorless/class_sniper_zombie_red"
+		"ClassImageColorless"			"../hud/class_sniper_zombie_red"
 	
 		"model"		"models/player/zombie/sniper_zombie.mdl"
 		"arm_model"	"models/weapons/c_models/c_zombie_sniper_arms.mdl"

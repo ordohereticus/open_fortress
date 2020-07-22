@@ -3,10 +3,8 @@ dm_backfort
 dm_bloodcovenant
 dm_bloodrun
 dm_byre
-dm_cargo
 dm_chestnut
 dm_coaltown
-dm_congo
 dm_crossfire
 dm_darkzone
 dm_databank
@@ -22,7 +20,6 @@ dm_longestyard
 dm_lumberyard
 dm_nucleus
 dm_offblast
-dm_overkill_dev
 dm_pitod
 dm_ravine
 dm_sawdust
@@ -34,6 +31,5 @@ dm_wiseau
 mctf_2fort
 mctf_backfort
 mctf_badlands
-mctf_congo
 mctf_doublecross
 mctf_turbine

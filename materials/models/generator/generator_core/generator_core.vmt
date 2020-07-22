@@ -1,6 +1,0 @@
-"VertexlitGeneric"
-{
-	"$basetexture" "models/generator/generator_core/generator_core"
-	"$surfaceprop" "Metal"
-	"%keywords" "tf prop"
-}

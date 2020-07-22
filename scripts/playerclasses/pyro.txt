@@ -70,6 +70,11 @@ PlayerClass
 	
 	"TFC"
 	{
+		"ClassImageRed"					"../hud/class_classic_pyro_red"
+		"ClassImageBlue"				"../hud/class_classic_pyro_blue"
+		"ClassImageMercenary"			"../hud/class_classic_pyro_red"
+		"ClassImageColorless"			"../hud/class_classic_pyro_red"
+		
 		"model"			"models/player/tfc/pyro_tfc.mdl"
 		"arm_model"		"models/weapons/c_models/c_tfc_pyro_arms.mdl"
 		
@@ -95,7 +100,7 @@ PlayerClass
 		"ClassImageRed"					"../hud/class_pyro_zombie_red"
 		"ClassImageBlue"				"../hud/class_pyro_zombie_blue"
 		"ClassImageMercenary"			"../hud/class_pyro_zombie_red"
-		"ClassImageColorless"			"../hud/colorless/class_pyro_zombie_red"
+		"ClassImageColorless"			"../hud/class_pyro_zombie_red"
 		
 		"model"		"models/player/zombie/pyro_zombie.mdl"
 		"arm_model"	"models/weapons/c_models/c_zombie_pyro_arms.mdl"

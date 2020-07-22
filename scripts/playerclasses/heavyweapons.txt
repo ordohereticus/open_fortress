@@ -70,6 +70,11 @@ PlayerClass
 	
 	"TFC"
 	{
+		"ClassImageRed"					"../hud/class_classic_heavy_red"
+		"ClassImageBlue"				"../hud/class_classic_heavy_blue"
+		"ClassImageMercenary"			"../hud/class_classic_heavy_red"
+		"ClassImageColorless"			"../hud/class_classic_heavy_red"
+		
 		"model"			"models/player/tfc/heavy_tfc.mdl"
 		"arm_model"		"models/weapons/c_models/c_tfc_heavy_arms.mdl"
 		
@@ -95,7 +100,7 @@ PlayerClass
 		"ClassImageRed"					"../hud/class_heavy_zombie_red"
 		"ClassImageBlue"				"../hud/class_heavy_zombie_blue"
 		"ClassImageMercenary"			"../hud/class_heavy_zombie_red"
-		"ClassImageColorless"			"../hud/colorless/class_heavy_zombie_red"
+		"ClassImageColorless"			"../hud/class_heavy_zombie_red"
 		
 		"model"		"models/player/zombie/heavy_zombie.mdl"
 		"arm_model"	"models/weapons/c_models/c_zombie_heavy_arms.mdl"

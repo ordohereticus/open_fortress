@@ -1,0 +1,30 @@
+ "Refract"
+{
+ 	"$model" 1
+ 	"$refractamount" ".2"
+ 	"$bluramount" "1"
+	"$scale" "[1 1]"
+ 	"$normalmap" "hud\class_classic_spy_normal"
+ 	"$dudvmap" "hud\class_spy_dudv"
+	"$bumpframe" "0"
+	"$translucent" "1"
+	"$ignorez" "1"
+	"$forcerefract" 1
+	"$nofog" "1"
+	"$refracttinttexture" "hud\class_classic_red_blue_tint"
+	"$nocull" "1"	
+
+	"Proxies"
+	{
+		"SelectFirstIfNonZero"
+		{
+			"srcVar1"		"$colortint_tmp"
+			"srcVar2"		"$colortint_base"
+			"resultVar"		"$refracttint"
+		}
+	}
+	
+	
+}
+
+
