@@ -50,7 +50,6 @@
 //DeathmatchMusic.NewSpeed
 //DeathmatchMusic.Stealing
 //DeathmatchMusic.Lobsters
-//DeathmatchMusic.DOTF
 //DeathmatchMusic.WaitingForSVN
 //InfectionMusic.Risen
 //DeathmatchMusic.Intruder_Alert
@@ -719,19 +718,6 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/stealing.ogg"
-}
-
-//Duel of the Fates??? by Lena
-"DeathmatchMusic.DOTF"
-{
-	"Artist"		"Lena"
-	"Name"			"Duel of the Mercs"
-
-	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
-	"pitch"			"PITCH_NORM"
-	"soundlevel"	"SNDLVL_NONE"
-	"wave"			"#music/deathmatch/duelofthemercs.ogg"
 }
 
 //Waiting For SVN by Modez, Magnus and Savva
