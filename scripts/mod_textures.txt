@@ -3962,6 +3962,15 @@
 				"width"		"83"
 				"height"	"32"
 		}
+		"mirv_bfg"
+		{
+				"dfile"	"HUD/d_images_of"
+				"dnegfile" "HUD/dneg_images_of"
+				"x"		"344"
+				"y"		"97"
+				"width"		"133"
+				"height"	"35"
+		}
 		"powerup_crit"
 		{
 				"dfile"	"HUD/d_images_of"

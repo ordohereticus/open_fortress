@@ -35,7 +35,6 @@
 //DeathmatchMusic.TF2Beat
 //DeathmatchMusic.TurbineTurmoil
 //DeathmatchMusic.Overpowered
-//DeathmatchMusic.Resonance
 //DeathmatchMusic.LastManStanding
 //DeathmatchMusic.LastMercStanding
 //DeathmatchMusic.Healer
@@ -379,44 +378,6 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/overpowered_loop.ogg"
-}
-
-//Resonance by HOME
-"DeathmatchMusic.ResonanceIntro"
-{
-
-	
-	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
-	"pitch"			"PITCH_NORM"
-	"soundlevel"	"SNDLVL_NONE"
-	"wave"			"#music/deathmatch/mc_vickers_final_frontier_intro.ogg"
-}
-
-//Resonance by HOME
-"DeathmatchMusic.Resonance"
-{
-	"Artist"		"HOME"
-	"Name"			"Resonance"
-
-	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
-	"pitch"			"PITCH_NORM"
-	"soundlevel"	"SNDLVL_NONE"
-	"wave"			"#music/deathmatch/mc_vickers_final_frontier_loop.ogg"
-
-	"intro"			"DeathmatchMusic.ResonanceIntro"
-	"outro"			"DeathmatchMusic.ResonanceOutro"
-}
-
-//Resonance by HOME
-"DeathmatchMusic.ResonanceOutro"
-{
-	"channel"		"CHAN_STATIC"
-	"volume"		"1"
-	"soundlevel"	"SNDLVL_140dB"
-	"pitch"			"PITCH_NORM"
-	"wave"			"#music/deathmatch/mc_vickers_final_frontier_outro.ogg"
 }
 
 //Last Man Standing by Magnus
