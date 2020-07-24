@@ -9,7 +9,6 @@ dm_crossfire
 dm_darkzone
 dm_deadlock
 dm_grain
-dm_granary
 dm_gump
 dm_harvest
 dm_knoxx
@@ -30,6 +29,7 @@ duel_aerowalk
 duel_cargo
 duel_databank
 duel_deadsimple
+duel_granary
 duel_legacy
 mctf_2fort
 mctf_backfort

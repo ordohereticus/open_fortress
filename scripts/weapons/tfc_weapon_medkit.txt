@@ -18,6 +18,7 @@ WeaponData
 	"HasTeamSkins_Viewmodel"			"1"
 	"HasTeamSkins_Worldmodel"			"1"
 	"UsesCritAnimation"			"1"
+	"EffectDuration"	"12.0"
 
 	// Ammo & Clip
 	"primary_ammo"			"None"
@@ -51,7 +52,7 @@ WeaponData
 	{
 		"weapon"
 		{
-				"file"		"sprites/bucket_classic_medkit"
+				"file"		"sprites/bucket_classic_medkit_red"
 				"x"		"0"
 				"y"		"0"
 				"width"		"200"
@@ -59,7 +60,7 @@ WeaponData
 		}
 		"weapon_s"
 		{	
-				"file"		"sprites/bucket_classic_medkit"
+				"file"		"sprites/bucket_classic_medkit_blue"
 				"x"		"0"
 				"y"		"0"
 				"width"		"200"

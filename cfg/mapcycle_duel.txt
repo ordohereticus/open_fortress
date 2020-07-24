@@ -11,4 +11,5 @@ duel_aerowalk
 duel_cargo
 duel_databank
 duel_deadsimple
+duel_granary
 duel_legacy
