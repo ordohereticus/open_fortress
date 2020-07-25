@@ -62,13 +62,13 @@
 	"dsp"	"1"
 
 	"playlooping" {
-		"volume"		"1"
+		"volume"		".8"
 		"pitch"			"100"
 		"wave"			"ambient/lair/spawn_tone1.wav"
 	}
 
 	"playlooping" {
-		"volume"		"1"
+		"volume"		".8"
 		"pitch"			"100"
 		"wave"			"ambient/lair/spawn_tone2.wav"
 	}
@@ -108,20 +108,20 @@
 	}
 
 	"playlooping" {
-		"volume"		".1"
+		"volume"		"0.1"
 		"pitch"			"100"
 		"wave"			"ambient/command_center2.wav"
 	}
 
 	"playlooping" {
-		"volume"		".4"
+		"volume"		".2"
 		"pitch"			"90"
 		"wave"			"ambient/lair/cap_3_inside_computer_bank1.wav"
 	}
 
 	"playrandom" {
 		"time"			"15, 25"
-		"volume"		".4"
+		"volume"		".5"
 		"pitch"			"70, 100"
 		"rndwave" {
 			"wave"			"ambient/spacebase/spacebase_bang_01.wav"
@@ -144,7 +144,7 @@
 
 	//position 0 - tape reel computers 1
 	"playlooping" {
-		"volume"		".4"
+		"volume"		".3"
 		"pitch"			"100"
 		"position"		"0"
 		"attenuation"	".7"
@@ -153,7 +153,7 @@
 
 	//position 1 - tape reel computers 1
 	"playlooping" {
-		"volume"		".4"
+		"volume"		".3"
 		"pitch"			"100"
 		"position"		"1"
 		"attenuation"	".7"
@@ -249,17 +249,17 @@
 		"wave"			"ambient/lair/cap_3_tone3.wav"
 	}
 
-	// "playlooping" {
-		// "volume"		".2"
-		// "pitch"			"100"
-		// "wave"			"ambient/command_center2.wav"
-	// }
+	"playlooping" {
+		"volume"		".2"
+		"pitch"			"100"
+		"wave"			"ambient/command_center2.wav"
+	}
 
-	// "playlooping" {
-		// "volume"		".3"
-		// "pitch"			"90"
-		// "wave"			"ambient/lair/cap_3_inside_computer_bank1.wav"
-	// }
+	"playlooping" {
+		"volume"		".3"
+		"pitch"			"90"
+		"wave"			"ambient/lair/cap_3_inside_computer_bank1.wav"
+	}
 
 	"playrandom" {
 		"time"			"15, 25"
@@ -308,7 +308,7 @@
 	}
 
 	"playlooping" {
-		"volume"		"1"
+		"volume"		".8"
 		"pitch"			"100"
 		"wave"			"ambient/lair/wind_elevated_area.wav"
 	}
@@ -333,7 +333,7 @@
 
 	//position 2 - big pipe upper walkway
 	"playlooping" {
-		"volume"		"1"
+		"volume"		".8"
 		"pitch"			"100"
 		"position"		"2"
 //		"attenuation"	".3"
@@ -394,11 +394,11 @@
 		"wave"			"ambient/lair/cap_3_tone3.wav"
 	}
 
-	// "playlooping" {
-		// "volume"		".3"
-		// "pitch"			"90"
-		// "wave"			"ambient/lair/cap_3_inside_computer_bank1.wav"
-	// }
+	"playlooping" {
+		"volume"		".3"
+		"pitch"			"90"
+		"wave"			"ambient/lair/cap_3_inside_computer_bank1.wav"
+	}
 
 	"playrandom" {
 		"time"			"15, 25"
@@ -429,17 +429,17 @@
 		"wave"			"ambient/lair/cap_3_tone2.wav"
 	}
 
-	// "playlooping" {
-		// "volume"		".3"
-		// "pitch"			"90"
-		// "wave"			"ambient/lair/cap_3_inside_computer_bank1.wav"
-	// }
+	"playlooping" {
+		"volume"		".3"
+		"pitch"			"90"
+		"wave"			"ambient/lair/cap_3_inside_computer_bank1.wav"
+	}
 
-	// "playlooping" {
-		// "volume"		".2"
-		// "pitch"			"100"
-		// "wave"			"ambient/command_center2.wav"
-	// }
+	"playlooping" {
+		"volume"		".2"
+		"pitch"			"100"
+		"wave"			"ambient/command_center2.wav"
+	}
 
 	"playrandom" {
 		"time"			"15, 25"

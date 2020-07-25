@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui\maps\menu_thumb_dm_backfort"
+	"$translucent" 1
+	"$ignorez" 1
+	"$vertexcolor" 1
+}
+
+

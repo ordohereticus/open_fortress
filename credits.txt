@@ -83,6 +83,7 @@ KaydemonLP - SkateBoard
 Suomimies55 - SkateBoard Textures
 Richter - Office Textures, Yoda Spray
 Denied - Powerup sprays
+Krazy - Vehicles
 
 Placeholder TFC Model Ports:
 Ficool2

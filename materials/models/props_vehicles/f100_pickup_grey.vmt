@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_vehicles/f100_pickup_grey"
+	"$basemapalphaphongmask" "1"
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongboost" ".25"	
+	"$phongfresnelranges"	"[.7 15 20]"
+	"$lightwarptexture" "models\props_vehicles\pickup_lightwarp"
+
+}

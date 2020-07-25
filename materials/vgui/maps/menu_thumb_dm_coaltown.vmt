@@ -1,0 +1,10 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui\maps\menu_thumb_dm_coaltown"
+	"$translucent" 1
+	"$ignorez" 1
+	"$vertexcolor" 1
+}
+
+
+

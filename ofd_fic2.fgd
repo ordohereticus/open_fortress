@@ -2387,7 +2387,7 @@
 	StartDisabled(boolean) : "Start Disabled?" : 0 : "NOTE: This entity only controls healing zone. Disabling it will still allow ammo resupply."
 ]
 
-@PointClass base(Item, CondID) studioprop() = dm_powerup_spawner :	
+@PointClass base(Item, CondID) size(-1 -1 -16, 1 1 1) studioprop() = dm_powerup_spawner :	
     "Adds a condition to the player upon being touched." 
 [
 	model(studio) : "Model" :  : "Show a model." 
@@ -6338,56 +6338,56 @@
 	input Activate(void) : "Force the decal to apply itself to the world."
 ]																																	
 
-@PointClass base(Item) studioprop() = item_ammopack_full :	
+@PointClass base(Item) size(-1 -1 -12, 1 1 1) studioprop() = item_ammopack_full :	
      "Full ammo pack for players." 
 [
 	model(studio) : "Model" : "models/items/ammopack_large.mdl" : "The model this entity should appear as. 128-character limit."
 	pickup_sound(sound): "Pickup Sound" : "AmmoPack.Touch" : "Sound to play when picking up ammo."
 ]
 
-@PointClass base(Item) studioprop() = item_ammopack_medium : 
+@PointClass base(Item) size(-1 -1 -12, 1 1 1) studioprop() = item_ammopack_medium : 
      "Medium ammo pack for players."
 [
 	model(studio) : "Model" : "models/items/ammopack_medium.mdl" : "The model this entity should appear as. 128-character limit."
 	pickup_sound(sound): "Pickup Sound" : "AmmoPack.Touch" : "Sound to play when picking up ammo."
 ]
 
-@PointClass base(Item) studioprop() = item_ammopack_small : 
+@PointClass base(Item) size(-1 -1 -12, 1 1 1) studioprop() = item_ammopack_small : 
      "Small ammo pack for players."
 [
 	model(studio) : "Model" : "models/items/ammopack_small.mdl" : "The model this entity should appear as. 128-character limit."
 	pickup_sound(sound): "Pickup Sound" : "AmmoPack.Touch" : "Sound to play when picking up ammo."
 ]
 
-@PointClass base(Item) studioprop() = item_healthkit_mega : 
+@PointClass base(Item) size(-1 -1 -12, 1 1 1) studioprop() = item_healthkit_mega : 
     "Mega health kit for players (100 HP overheal)." 
 [
 	model(studio) : "Model" : "models/pickups/megahealth.mdl" : "The model this entity should appear as. 128-character limit."
 	pickup_sound(sound): "Pickup Sound" : "HealthkitMega.Touch" : "Sound to play when picking up ammo."
 ]
 
-@PointClass base(Item) studioprop() = item_healthkit_full : 
+@PointClass base(Item) size(-1 -1 -12, 1 1 1) studioprop() = item_healthkit_full : 
     "Full health kit for players." 
 [
 	model(studio) : "Model" : "models/items/medkit_large.mdl" : "The model this entity should appear as. 128-character limit."
 	pickup_sound(sound): "Pickup Sound" : "Healthkit.Touch" : "Sound to play when picking up ammo."
 ]
 
-@PointClass base(Item) studioprop() = item_healthkit_medium :
+@PointClass base(Item) size(-1 -1 -12, 1 1 1) studioprop() = item_healthkit_medium :
     "Medium health kit for players." 
 [
 	model(studio) : "Model" : "models/items/medkit_medium.mdl" : "The model this entity should appear as. 128-character limit."
 	pickup_sound(sound): "Pickup Sound" : "Healthkit.Touch" : "Sound to play when picking up ammo."
 ]
 
-@PointClass base(Item) studioprop() = item_healthkit_small :	
+@PointClass base(Item) size(-1 -1 -12, 1 1 1) studioprop() = item_healthkit_small :	
     "Small health kit for players." 
 [
 	model(studio) : "Model" : "models/items/medkit_small.mdl" : "The model this entity should appear as. 128-character limit."
 	pickup_sound(sound): "Pickup Sound" : "Healthkit.Touch" : "Sound to play when picking up ammo."
 ]
 
-@PointClass base(Item) studioprop() = item_healthkit_tiny :	
+@PointClass base(Item) size(-1 -1 -48, 1 1 1) studioprop() = item_healthkit_tiny :	
     "Overheal health kit for players." 
 [
 	model(studio) : "Model" : "models/items/medkit_overheal.mdl" : "The model this entity should appear as. 128-character limit."
