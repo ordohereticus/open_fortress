@@ -6362,7 +6362,7 @@
 @PointClass base(Item) size(-1 -1 -12, 1 1 1) studioprop() = item_healthkit_mega : 
     "Mega health kit for players (100 HP overheal)." 
 [
-	model(studio) : "Model" : "models/pickups/megahealth.mdl" : "The model this entity should appear as. 128-character limit."
+	model(studio) : "Model" : "models/pickups/pickup_powerup_megahealth.mdl" : "The model this entity should appear as. 128-character limit."
 	pickup_sound(sound): "Pickup Sound" : "HealthkitMega.Touch" : "Sound to play when picking up ammo."
 ]
 
