@@ -1263,6 +1263,14 @@
 	"wave"	"player/taunt_rockstar_end.wav"
 }
 
+"Taunt.BondGunFire"
+{
+	"channel"	"CHAN_BODY"
+	"volume"	".75"
+	"soundlevel"  	"SNDLVL_75dB"		
+	"wave"	"player/taunt_bond_pistol.wav"
+}
+
 "Selection.PyroClothesRustle"
 {
 	"channel"	"CHAN_BODY"
