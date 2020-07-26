@@ -1268,7 +1268,7 @@
 	"channel"	"CHAN_BODY"
 	"volume"	".75"
 	"soundlevel"  	"SNDLVL_75dB"		
-	"wave"	"player/taunt_bond_pistol.wav"
+	"wave"	")player/taunt_bond_pistol.wav"
 }
 
 "Selection.PyroClothesRustle"
