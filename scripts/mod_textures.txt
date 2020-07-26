@@ -562,15 +562,6 @@
 				"width"		"96"
 				"height"	"32"
 		}
-		"tfc_weapon_knife"
-		{
-				"dfile"	"HUD/d_images"
-				"dnegfile"	"HUD/dneg_images"
-				"x"		"96"
-				"y"		"0"
-				"width"		"96"
-				"height"	"32"
-		}
 		"revolver"
 		{
 				"dfile"	"HUD/d_images"
@@ -3967,7 +3958,7 @@
 				"dfile"	"HUD/d_images_of"
 				"dnegfile" "HUD/dneg_images_of"
 				"x"		"344"
-				"y"		"97"
+				"y"		"99"
 				"width"		"133"
 				"height"	"35"
 		}
