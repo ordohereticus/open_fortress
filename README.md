@@ -2,7 +2,7 @@
 An unofficial mirror of the OpenFortress SVN. Includes easy installation (No SVN checkout required, just clone or download the zip and rename it)
 
 # Download the Game
-Note: 1.5 GB download
+Note: 1.6 GB download
 
 ## I have Git installed already
 - Open sourcemods folder
