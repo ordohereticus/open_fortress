@@ -255,11 +255,11 @@
 		"wave"			"ambient/command_center2.wav"
 	}
 
-	"playlooping" {
-		"volume"		".3"
-		"pitch"			"90"
-		"wave"			"ambient/lair/cap_3_inside_computer_bank1.wav"
-	}
+	// "playlooping" {
+		// "volume"		".3"
+		// "pitch"			"90"
+		// "wave"			"ambient/lair/cap_3_inside_computer_bank1.wav"
+	// }
 
 	"playrandom" {
 		"time"			"15, 25"
@@ -394,11 +394,11 @@
 		"wave"			"ambient/lair/cap_3_tone3.wav"
 	}
 
-	"playlooping" {
-		"volume"		".3"
-		"pitch"			"90"
-		"wave"			"ambient/lair/cap_3_inside_computer_bank1.wav"
-	}
+	// "playlooping" {
+		// "volume"		".3"
+		// "pitch"			"90"
+		// "wave"			"ambient/lair/cap_3_inside_computer_bank1.wav"
+	// }
 
 	"playrandom" {
 		"time"			"15, 25"
@@ -429,11 +429,11 @@
 		"wave"			"ambient/lair/cap_3_tone2.wav"
 	}
 
-	"playlooping" {
-		"volume"		".3"
-		"pitch"			"90"
-		"wave"			"ambient/lair/cap_3_inside_computer_bank1.wav"
-	}
+	// "playlooping" {
+		// "volume"		".3"
+		// "pitch"			"90"
+		// "wave"			"ambient/lair/cap_3_inside_computer_bank1.wav"
+	// }
 
 	"playlooping" {
 		"volume"		".2"
