@@ -30,6 +30,7 @@ duel_cargo
 duel_databank
 duel_deadsimple
 duel_granary
+duel_gump
 duel_legacy
 mctf_2fort
 mctf_backfort

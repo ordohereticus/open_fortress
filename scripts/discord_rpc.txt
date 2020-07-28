@@ -40,6 +40,7 @@
 		"dm_grain"			"dm_grain"
 		"dm_greenback"		"dm_greenback"
 		"dm_gump"			"dm_gump"
+		"duel_gump"			"dm_gump"
 		"dm_harvest"		"dm_harvest"
 		"dm_hollow"			"dm_hollow"
 		"dm_hydro"			"dm_hydro"

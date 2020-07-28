@@ -552,7 +552,7 @@
 }
 
 //Chthon Placeholder Music
-"DeathmatchMusic.Chthon"
+"DeathmatchMusic.Shortwave"
 {
 	"Artist"		"Magnus"
 	"Name"			"Shortwave"
