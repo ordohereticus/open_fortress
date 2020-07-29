@@ -36,7 +36,7 @@ WeaponData
 	
 	// bucket_dms.
 	"bucket_dm"				"2"
-	"bucket_dm_position"		"1"
+	"bucket_dm_position"		"0"
 
 	// Animation.
 	"viewmodel"     	"models/weapons/v_models/v_supershotgun_doom.mdl"
