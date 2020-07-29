@@ -1,0 +1,18 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "arctic/nature/ice_001"
+	"$basetexture2" "nature/snow_full001"
+	"$blendmodulatetexture" "nature/snowwall_blendmask"
+	
+	
+	"$surfaceprop" "ice"
+
+	"$reflectivity" "[.2 .2 .2]"
+	"$envmap" "cubemaps/cubemap_shapes002"
+	"$envmaptint" "[.065 .065 .065]"
+
+	"$bumpmap" "arctic/nature/ice_001_normal"
+	"$ssbump" "1"
+
+	"%keywords" "tf,arctic"
+}
