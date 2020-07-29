@@ -99,6 +99,31 @@
 				"activity"	"ACT_MERC_LOADOUT"
 				"default"	"1"
 			}
+			"animation"
+			{
+				"name"		"DYNAMITE"
+				"activity"	"ACT_MERC_LOADOUT_DYNAMITE"
+			}
+			"animation"
+			{
+				"name"		"PISTOL"
+				"activity"	"ACT_MERC_LOADOUT_PISTOL"
+			}
+			"animation"
+			{
+				"name"		"SHOTGUN"
+				"activity"	"ACT_MERC_LOADOUT_SHOTGUN"
+			}
+			"animation"
+			{
+				"name"		"TOMMYGUN"
+				"activity"	"ACT_MERC_LOADOUT_TOMMYGUN"
+			}
+			"animation"
+			{
+				"name"		"ROCKETLAUNCHER"
+				"activity"	"ACT_MERC_LOADOUT_ROCKETLAUNCHER"
+			}
 		}
 	}
 	

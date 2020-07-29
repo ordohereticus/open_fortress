@@ -14,11 +14,13 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MedalDrawer"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"128"
-		"tall"			"128"
+		"xpos"			"c-64"
+		"ypos"			"64"
+		"wide"			"8"
+		"tall"			"8"
 		"visible"		"1"
 		"enabled"		"1"
+		"scaleimage"	"1"
+		"pinCorner"		"4"
 	}
 }

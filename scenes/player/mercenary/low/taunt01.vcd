@@ -3,10 +3,10 @@ actor "Mercenary"
 {
   channel "body"
   {
-    event sequence "taunt_headbutt_success"
+    event sequence "taunt01"
     {
-      time 0 3.86
-      param "taunt_headbutt_success"
+      time 0 3.36666
+      param "taunt01"
     }
   }
 }

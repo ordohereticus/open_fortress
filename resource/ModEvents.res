@@ -787,4 +787,19 @@
 	"music_round_start"
 	{
 	}
+	
+	"duel_refresh"
+	{
+		"temp"		"short"
+	}
+
+	"duel_nextplayer"
+	{
+		"playerid"		"short"
+	}
+	
+	"duel_enterqueue"
+	{
+		"playerid"		"short"
+	}
 }

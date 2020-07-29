@@ -51,6 +51,24 @@
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
+	"PlayerStatusMegaHealthBonusImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusMegaHealthBonusImage"
+		"xpos"			"5"
+		"xpos_minmode"	"8"
+		"ypos"			"5"
+		"ypos_minmode"	"8"
+		"zpos"			"3"
+		"wide"			"22"
+		"wide_minmode"	"12"
+		"tall"			"22"
+		"tall_minmode"	"12"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/health_over_bg"
+		"scaleImage"	"1"		
+	}
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"Label"

@@ -3737,7 +3737,7 @@
 				"width"		"58"
 				"height"	"35"
 		}
-		"mirv_bomb"
+		"dynamite_bundle_bomblet"
 		{
 				"dfile"	"HUD/d_images_of"
 				"dnegfile" "HUD/dneg_images_of"
@@ -3809,7 +3809,16 @@
 				"width"		"115"
 				"height"	"33"
 		}
-		"tf_projectile_bfg"
+		"gib"
+		{
+				"dfile"	"HUD/d_images_of"
+				"dnegfile" "HUD/dneg_images_of"
+				"x"		"397"
+				"y"		"0"
+				"width"		"115"
+				"height"	"33"
+		}
+		"gib_bomblet"
 		{
 				"dfile"	"HUD/d_images_of"
 				"dnegfile" "HUD/dneg_images_of"
@@ -4016,7 +4025,7 @@
 				"width"		"35"
 				"height"	"32"
 		}
-		"powerup_uber"
+		"powerup_invun"
 		{
 				"dfile"	"HUD/d_images_of"
 				"dnegfile" "HUD/dneg_images_of"
@@ -4097,7 +4106,7 @@
 				"width"		"128"
 				"height"	"32"
 		}
-		"tfc_projectile_incendrocket"
+		"tfc_weapon_incendiarycannon"
 		{
 				"dfile"	"HUD/d_images_of"
 				"dnegfile" "HUD/dneg_images_of"

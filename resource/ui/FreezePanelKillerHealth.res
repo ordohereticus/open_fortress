@@ -41,6 +41,20 @@
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
+	"PlayerStatusMegaHealthBonusImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusMegaHealthBonusImage"
+		"xpos"			"5"
+		"ypos"			"5"
+		"zpos"			"3"
+		"wide"			"22"
+		"tall"			"22"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/health_over_bg"
+		"scaleImage"	"1"	
+	}	
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"

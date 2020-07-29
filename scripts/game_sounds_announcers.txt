@@ -7885,6 +7885,39 @@
 	}
 }
 
+"Carl.DuelJoinQueue" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_duel_joinedqueue01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_duel_joinedqueue02.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_duel_joinedqueue03.mp3"
+	}
+}
+
+"Carl.DuelNext" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_duel_youarenext01.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_duel_youarenext02.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_duel_youarenext03.mp3"
+		"wave"			"vo/announcer_tf2cciv/tf2cciv_duel_youarenext04.mp3"
+	}
+}
+
 "Carl.Escort" 
 {
 	"channel"		"CHAN_VOICE2"

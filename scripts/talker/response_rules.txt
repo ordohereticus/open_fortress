@@ -561,6 +561,8 @@ criterion "WeaponIsShotgunMercenary" "playerweapon" "tf_weapon_shotgun" "require
 criterion "WeaponIsAssaultRifle" "playerweapon" "tf_weapon_assaultrifle" "required"
 criterion "WeaponIsBerserk" "playerweapon" "tf_weapon_berserk" "required"
 criterion "WeaponIsClaws" "playerweapon" "tf_weapon_claws" "required"
+criterion "WeaponIsGIB" "playerweapon" "tf_weapon_gib" "required"
+criterion "WeaponIsQuad" "playerweapon" "tf_weapon_super_rocketlauncher" "required"
 
 criterion "WeaponIsNotShotgunMercenary" "playerweapon" "!=tf_weapon_shotgun" "required"
 criterion "WeaponIsNotGrenade" "playerweapon" "!=tf_weapon_grenadelauncher" "required"

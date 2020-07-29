@@ -1050,4 +1050,28 @@
 		"MeterFG"		"Red"
 		"MeterBG"		"Gray"
 	}
+	
+	"HudDuel"
+	{
+		"ControlName"	"CTFDuelHUD"
+		"fieldName"		"HudDuel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+
+	"HudDuelAnnouncement"
+	{
+		"ControlName"	"CTFDuelAnnouncement"
+		"fieldName"		"HudDuelAnnouncement"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"enabled"		"1"
+	}
 }

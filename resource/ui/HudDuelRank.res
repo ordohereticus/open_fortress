@@ -1,0 +1,86 @@
+"Resource/UI/HudDuelRank.res"
+{
+	"HudDuelRank"
+	{
+		"ControlName"	"CTFDuelRank"
+		"fieldName"		"HudDuelRank"
+		"wide"			"130"
+		"tall"			"55"
+		"autoresize"	"1"
+		"proportionalToParent"	"1"
+	}
+
+	"HudDuelRankBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"HudDuelRankBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"90"
+		"tall"			"50"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"proportionalToParent"	"1"
+		"fgcolor"		"128 255 255 255"
+		"image_compensate" "../hud/duel_rank_empty_bg"
+		"image"			"../hud/duel_rank_bg"
+		"teambg_0"      "../hud/duel_rank_bg"
+		"teambg_1"      "../hud/duel_rank_bg"
+		"teambg_2"      "../hud/duel_rank_bg"
+		"teambg_3"      "../hud/duel_rank_bg"
+		"teambg_4"      "../hud/duel_rank_bg"
+		"teambg_5"      "../hud/duel_rank_bg"
+	}
+	
+	"Avatar"
+	{
+		"ControlName"	"CAvatarImagePanel"
+		"fieldName"		"Avatar"
+		"xpos"			"10"
+		"ypos"			"12"
+		"zpos"			"3"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			""
+		"scaleImage"		"1"	
+//		"color_outline"		"52 48 45 255"
+	}	
+	
+	"QueuePosLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"QueuePosLabel"
+		"xpos"			"r80"
+		"ypos"			"0"
+		"zpos"			"5"
+		"wide"			"55"
+		"tall"			"40"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%QueuePos%"
+		"textAlignment"	"center"
+		"font"			"HudFontMediumBold"
+		"proportionalToParent"	"1"
+	}
+	
+	"PlayerNameLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerNameLabel"
+		"xpos"			"7"
+		"ypos"			"20"
+		"zpos"			"5"
+		"wide"			"90"
+		"tall"			"40"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%PlayerName%"
+		"textAlignment"	"center"
+		"font"			"HudFontSmallest"
+		"proportionalToParent"	"1"
+	}	
+}

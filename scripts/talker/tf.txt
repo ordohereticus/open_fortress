@@ -2102,192 +2102,133 @@
 	response "MercenaryTauntRocketLauncher"
 	{
 		scene "scenes/Player/Mercenary/low/taunt01_v1.vcd"
-		scene "scenes/Player/Mercenary/low/taunt01_v2.vcd"
-		scene "scenes/Player/Mercenary/low/taunt01_v3.vcd"
-		scene "scenes/Player/Mercenary/low/dieviolent.vcd"
 	}
 	response "MercenaryTauntSniperrifle"
 	{
 		scene "scenes/Player/Mercenary/low/taunt01_v1.vcd"
-		scene "scenes/Player/Mercenary/low/taunt01_v2.vcd"
-		scene "scenes/Player/Mercenary/low/taunt01_v3.vcd"
-		scene "scenes/Player/Mercenary/low/dieviolent.vcd"
 	}
 	response "MercenaryTauntGrenadeLauncher"
 	{
 		scene "scenes/Player/Mercenary/low/taunt01_v1.vcd"
-		scene "scenes/Player/Mercenary/low/taunt01_v2.vcd"
-		scene "scenes/Player/Mercenary/low/taunt01_v3.vcd"
-		scene "scenes/Player/Mercenary/low/dieviolent.vcd"
 	}
 	response "MercenaryTauntRailgun"
 	{
 		scene "scenes/Player/Mercenary/low/taunt01_v1.vcd"
-		scene "scenes/Player/Mercenary/low/taunt01_v2.vcd"
-		scene "scenes/Player/Mercenary/low/taunt01_v3.vcd"
-		scene "scenes/Player/Mercenary/low/dieviolent.vcd"
 	}
 	response "MercenaryTauntMinigun"
 	{
 		scene "scenes/Player/Mercenary/low/taunt01_v1.vcd"
-		scene "scenes/Player/Mercenary/low/taunt01_v2.vcd"
-		scene "scenes/Player/Mercenary/low/taunt01_v3.vcd"
-		scene "scenes/Player/Mercenary/low/dieviolent.vcd"
 	}
 	response "MercenaryTauntSyringeGun"
 	{
 		scene "scenes/Player/Mercenary/low/taunt01_v1.vcd"
-		scene "scenes/Player/Mercenary/low/taunt01_v2.vcd"
-		scene "scenes/Player/Mercenary/low/taunt01_v3.vcd"
-		scene "scenes/Player/Mercenary/low/dieviolent.vcd"
 	}
 	response "MercenaryTauntSuperShotgun"
 	{
 		scene "scenes/Player/Mercenary/low/taunt01_v1.vcd"
-		scene "scenes/Player/Mercenary/low/taunt01_v2.vcd"
-		scene "scenes/Player/Mercenary/low/taunt01_v3.vcd"
-		scene "scenes/Player/Mercenary/low/dieviolent.vcd"
 	}
 	response "MercenaryTauntOriginal"
 	{
 		scene "scenes/Player/Mercenary/low/taunt01_v1.vcd"
-		scene "scenes/Player/Mercenary/low/taunt01_v2.vcd"
-		scene "scenes/Player/Mercenary/low/taunt01_v3.vcd"
-		scene "scenes/Player/Mercenary/low/dieviolent.vcd"
 	}	
 	response "MercenaryTauntGatlingGun"
 	{
 		scene "scenes/Player/Mercenary/low/taunt01_v1.vcd"
-		scene "scenes/Player/Mercenary/low/taunt01_v2.vcd"
-		scene "scenes/Player/Mercenary/low/taunt01_v3.vcd"
-		scene "scenes/Player/Mercenary/low/dieviolent.vcd"
 	}	
 	response "MercenaryTauntTommygun"
 	{
 		scene "scenes/Player/Mercenary/low/taunt01_v1.vcd"
-		scene "scenes/Player/Mercenary/low/taunt01_v2.vcd"
-		scene "scenes/Player/Mercenary/low/taunt01_v3.vcd"
-		scene "scenes/Player/Mercenary/low/dieviolent.vcd"
 	}
 	response "MercenaryTauntAssaultRifle"
 	{
-		scene "scenes/Player/Mercenary/low/taunt02.vcd"
-		scene "scenes/Player/Mercenary/low/taunt02_v1.vcd"
-		scene "scenes/Player/Mercenary/low/taunt02_v2.vcd"
+		scene "scenes/Player/Mercenary/low/taunt01_v1.vcd"
 	}
 	response "MercenaryTauntNailgun"
 	{
-		scene "scenes/Player/Mercenary/low/taunt01_v1.vcd"
-		scene "scenes/Player/Mercenary/low/taunt01_v2.vcd"
-		scene "scenes/Player/Mercenary/low/taunt01_v3.vcd"
-		scene "scenes/Player/Mercenary/low/dieviolent.vcd"
+		scene "scenes/Player/Mercenary/low/taunt02_v1.vcd"
 	}
 	response "MercenaryTauntDMGrenadeLauncher"
 	{
 		scene "scenes/Player/Mercenary/low/taunt01_v1.vcd"
-		scene "scenes/Player/Mercenary/low/taunt01_v2.vcd"
-		scene "scenes/Player/Mercenary/low/taunt01_v3.vcd"
-		scene "scenes/Player/Mercenary/low/dieviolent.vcd"
 	}
 	response "MercenaryTauntFlamethrower"
 	{
 		scene "scenes/Player/Mercenary/low/taunt01_v1.vcd"
-		scene "scenes/Player/Mercenary/low/taunt01_v2.vcd"
-		scene "scenes/Player/Mercenary/low/taunt01_v3.vcd"
-		scene "scenes/Player/Mercenary/low/dieviolent.vcd"
 	}
 		
 //Secondaries
 	response "MercenaryTauntPistol"
 	{
-		scene "scenes/Player/Mercenary/low/taunt02.vcd"
 		scene "scenes/Player/Mercenary/low/taunt02_v1.vcd"
-		scene "scenes/Player/Mercenary/low/taunt02_v2.vcd"
 	}
 	response "MercenaryTauntPistolMercenary"
 	{
-		scene "scenes/Player/Mercenary/low/taunt02.vcd"
 		scene "scenes/Player/Mercenary/low/taunt02_v1.vcd"
-		scene "scenes/Player/Mercenary/low/taunt02_v2.vcd"
 	}	
 	response "MercenaryTauntSMG"
 	{
-		scene "scenes/Player/Mercenary/low/taunt02.vcd"
 		scene "scenes/Player/Mercenary/low/taunt02_v1.vcd"
-		scene "scenes/Player/Mercenary/low/taunt02_v2.vcd"
 	}
 	response "MercenaryTauntRevolver"
 	{
-		scene "scenes/Player/Mercenary/low/taunt02.vcd"
 		scene "scenes/Player/Mercenary/low/taunt02_v1.vcd"
-		scene "scenes/Player/Mercenary/low/taunt02_v2.vcd"
 	}
 	response "MercenaryTauntStickybomb"
 	{
-		scene "scenes/Player/Mercenary/low/taunt02.vcd"
 		scene "scenes/Player/Mercenary/low/taunt02_v1.vcd"
-		scene "scenes/Player/Mercenary/low/taunt02_v2.vcd"
 	}
 	response "MercenaryTauntStickybomb"
 	{
-		scene "scenes/Player/Mercenary/low/taunt02.vcd"
 		scene "scenes/Player/Mercenary/low/taunt02_v1.vcd"
-		scene "scenes/Player/Mercenary/low/taunt02_v2.vcd"
 	}	
 	response "MercenaryTauntShotgunSecondary"
 	{
-		scene "scenes/Player/Mercenary/low/taunt02.vcd"
 		scene "scenes/Player/Mercenary/low/taunt02_v1.vcd"
-		scene "scenes/Player/Mercenary/low/taunt02_v2.vcd"
 	}	
 	response "MercenaryTauntShotgunMercenary"
 	{
-		scene "scenes/Player/Mercenary/low/taunt02.vcd"
 		scene "scenes/Player/Mercenary/low/taunt02_v1.vcd"
-		scene "scenes/Player/Mercenary/low/taunt02_v2.vcd"
 	}		
 	response "MercenaryTauntDMSMG"
 	{
-		scene "scenes/Player/Mercenary/low/taunt02.vcd"
 		scene "scenes/Player/Mercenary/low/taunt02_v1.vcd"
-		scene "scenes/Player/Mercenary/low/taunt02_v2.vcd"
 	}		
 	response "MercenaryTauntDMRevolver"
 	{
-		scene "scenes/Player/Mercenary/low/taunt02.vcd"
 		scene "scenes/Player/Mercenary/low/taunt02_v1.vcd"
-		scene "scenes/Player/Mercenary/low/taunt02_v2.vcd"
 	}
 	response "MercenaryTauntAkimboPistols"
 	{
-		scene "scenes/Player/Mercenary/low/taunt02.vcd"
 		scene "scenes/Player/Mercenary/low/taunt02_v1.vcd"
-		scene "scenes/Player/Mercenary/low/taunt02_v2.vcd"
 	}
 // Melee's	
 	response "MercenaryTauntCrowbar"
 	{
 		scene "scenes/Player/Mercenary/low/taunt03_v1.vcd"
-		scene "scenes/Player/Mercenary/low/taunt03_v2.vcd"
 	}
 	response "MercenaryTauntUmbrella"
 	{
 		scene "scenes/Player/Mercenary/low/taunt03_v1.vcd"
-		scene "scenes/Player/Mercenary/low/taunt03_v2.vcd"
 	}
 	response "MercenaryTauntKnife"
 	{
 		scene "scenes/Player/Mercenary/low/taunt03_v1.vcd"
-		scene "scenes/Player/Mercenary/low/taunt03_v2.vcd"
 	}
 	response "MercenaryTauntSword"
 	{
 		scene "scenes/Player/Mercenary/low/taunt03_v1.vcd"
-		scene "scenes/Player/Mercenary/low/taunt03_v2.vcd"
 	}
 	response "MercenaryTauntBerserk"
 	{
-		scene "scenes/Player/Mercenary/low/taunt07_v1.vcd"
+		scene "scenes/Player/Mercenary/low/taunt04_v1.vcd"
+	}
+	response "MercenaryTauntGIB"
+	{
+		scene "scenes/Player/Mercenary/low/taunt04_v1.vcd"
+	}
+	response "MercenaryTauntQuad"
+	{
+		scene "scenes/Player/Mercenary/low/taunt04_v1.vcd"
 	}
 //Primary Rules
 	rule MercenaryTauntRocketLauncher
@@ -2437,6 +2378,16 @@
 		criteria ConceptPlayerTaunt IsMercenary WeaponIsSword
 		response MercenaryTauntSword
 	}
+	rule MercenaryTauntGIB
+	{
+		criteria ConceptPlayerTaunt IsMercenary WeaponIsGIB
+		response MercenaryTauntGIB
+	}
+	rule MercenaryTauntQuad
+	{
+		criteria ConceptPlayerTaunt IsMercenary WeaponIsQuad
+		response MercenaryTauntQuad
+	}	
 //============================================================================================================
 
 //Civilian

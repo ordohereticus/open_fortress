@@ -7526,6 +7526,7 @@
 	
 	soft_landing(boolean) : "Soft Landing?" : 0 : "Should launched players take no fall/impact damage?"
 	no_compensation(boolean) : "Don't Compensate?" : 0 : "When enabled, doesn't slow down the player's acceleration but rather adds onto it."
+	no_aircontrol(boolean) : "Remove air control in flight?" : 0 : "When enabled, players have no air control on their movement after touching the jumppad until they hit the ground again."
 	
 	output OnJump(void) : "Fired when a player (or object) are bounced."
 ]

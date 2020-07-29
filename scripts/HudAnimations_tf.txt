@@ -421,7 +421,7 @@ event HudDMWinpanelSecond
 event HudDMWinpanelFirst
 {
 	Animate Player1Model	model_pos	"395 0 -38" 	Bias 0.4 0.0 0.9
-	Animate Player1Model	model_reset_anim ""			Bias 0.9 0.1 0.7 // "Bias 0.9 0.1 0.7" does nothing, i havent setup proper timing for this event so it just hapens instantly
+	model_reset_anim Player1Model 0.0
 	RunEvent HudDMWinpanelMoveOut 0.8
 }
 
@@ -490,4 +490,173 @@ event MedalAnim
 	
 	Animate MedalDrawer Size "0 0" Linear 0 0
 	Animate MedalDrawer Size "64 64"   Bias 0.9 0.1 0.3
+}
+
+event UpNext
+{
+	// Intro
+		// Fade In
+	Animate FarmZombie 		 Alpha "255" Bias 0.8 0.3 0.8
+	Animate UpNextText 		 Alpha "255" Bias 0.8 0.5 1.4
+	Animate UpNextTextShadow Alpha "255" Bias 0.8 0.5 1.4
+	
+		// Start Pos
+	Animate FarmZombie 		 Position "r150 c-80" Linear 0.0 0.0
+	Animate UpNextText 		 Position "c-301 c-100" Linear 0.0 0.0
+	Animate UpNextTextShadow Position "c-300 c-98" Linear 0.0 0.0
+
+		// Move in
+	Animate FarmZombie 		 Position "c-100 c-80" Bias 0.8 0.1 0.8
+	Animate UpNextText 		 Position "c-170 c-100" Bias 0.8 0.3 0.8
+	Animate UpNextTextShadow Position "c-168 c-98" Bias 0.8 0.3 0.8
+	
+	// Outro
+		// Fade Out
+	Animate FarmZombie 		 Alpha "-255" Bias 0.8 2.5 3.4
+	Animate UpNextText 		 Alpha "-255" Bias 0.8 2.5 3.4
+	Animate UpNextTextShadow Alpha "-255" Bias 0.8 2.5 3.4
+	
+		// Autobots, Move out
+	Animate FarmZombie 		 Position "c-170 c-80" Bias 0.8 2.5 3.4
+	Animate UpNextText 		 Position "c-110 c-100" Bias 0.8 2.5 3.4
+	Animate UpNextTextShadow Position "c-108 c-98" Bias 0.8 2.5 3.4
+}
+
+event DuelBasePos
+{
+		// Start Pos
+	SetVisible Player1 1 0.0
+	SetVisible Player2 1 0.0
+	Animate Player1ExtendBG Alpha "255" Linear 0.0 0.0
+	
+	Animate Player1		 	 Position "r0 0" Linear 0.0 0.0
+	Animate Player2		 	 Position "-960 0" Linear 0.0 0.0
+	
+	Animate Player1BG		 Position	"0 0" 	  Linear 0.0 0.0
+	Animate Player1BG		 Size		"480 480" Linear 0.0 0.0	
+	
+	Animate Player2BG		 Position	"480 0"  	Linear 0.0 0.0
+	Animate Player2BG		 Size		"480 480" 	Linear 0.0 0.0
+	
+	Animate Player1			 Size	  "960 480" Linear 0.0 0.0
+	Animate Player2			 Size	  "960 480" Linear 0.0 0.0
+	
+	Animate Versus		 	 Position "c-60 c-80" Linear 0.0 0.0
+	Animate Versus		 	 Alpha "0" Linear 0.0 0.0
+
+	Animate Player1Model	 model_pos "200 -10 -60" Linear 0.0 0.0
+	Animate Player2Model	 model_pos "200 200 -60" Linear 0.0 0.0
+	
+	Animate Player1Model	 Position "c-480 10" Linear 0.0 0.0
+	Animate Player1Model	 Size "560 460" Linear 0.0 0.0
+
+	Animate Player2Model	 Position "c0 10" Linear 0.0 0.0
+	Animate Player2Model	 Size "560 460" Linear 0.0 0.0
+}
+
+event DuelHideNames
+{
+	SetVisible Player1Name 0 0.0
+	SetVisible Player1NameShadow 0 0.0
+	SetVisible Player2Name 0 0.0
+	SetVisible Player2NameShadow 0 0.0
+}
+
+event DuelShowNames
+{
+	SetVisible Player1Name 1 0.0
+	SetVisible Player1NameShadow 1 0.0
+	SetVisible Player2Name 1 0.0
+	SetVisible Player2NameShadow 1 0.0
+}
+
+event DuelTheFuckers
+{
+	StopEvent DuelWinStart 0.0
+	StopEvent WinRight 0.0
+	StopEvent WinLeft 0.0
+	
+	RunEvent DuelBasePos 0.0
+
+	SetVisible Versus 1 0.0
+	SetVisible WinnerLabel 0 0.0
+	SetVisible WinnerShadowLabel 0 0.0
+	RunEventChild Player1 DuelShowNames 0.0
+	RunEventChild Player2 DuelShowNames 0.0
+	
+	Animate Versus		 	 Position "c-60 c-30" Bias 0.8 0.1 0.5
+	Animate Versus		 	 Alpha "255" Bias 0.8 0.1 0.5
+
+	Animate Player1 		 Position "c-50 0" Bias 0.8 0.1 0.6
+	Animate Player2 		 Position "c-910 0" Bias 0.8 0.1 0.6
+	Animate Player2Model	 model_pos "200 10 -60" Bias 0.8 0.1 0.6
+	
+	Animate Player1 		 Position "c-480 680" Bias 0.9 4.5 4.8
+	Animate Player2 		 Position "c-480 -680" Bias 0.9 4.5 4.8
+	
+	Animate Versus		 	 Position "c-60 c50" Bias 0.8 4.5 4.8
+	Animate Versus		 	 Alpha "-255" Bias 0.8 4.5 4.8
+	
+}
+
+event DuelWinStart
+{
+	StopEvent DuelTheFuckers 0.0
+
+	RunEvent DuelBasePos 0.0
+
+	SetVisible Versus 0 0.0
+	SetVisible WinnerLabel 1 0.0
+	SetVisible WinnerShadowLabel 1 0.0
+	RunEventChild Player1 DuelHideNames 0.0
+	RunEventChild Player2 DuelHideNames 0.0
+}
+
+event WinRight
+{
+	RunEvent DuelWinStart 0.0
+
+	Animate WinnerLabel 		Position "r0 r100" Linear 0.0 0.0
+	Animate WinnerShadowLabel 	Position "r-2 r98"  Linear 0.0 0.0
+	
+	Animate WinnerLabel 		Position "r680 r100" Bias 0.1 0.1 0.9
+	Animate WinnerShadowLabel 	Position "r678 r98"  Bias 0.1 0.1 0.9
+	Animate Player1 		 	Position "c-30 0" 		Bias 0.1 0.1 0.9
+	Animate Player2 		 	Position "c-930 0" 	Bias 0.1 0.1 0.9
+	Animate Player2Model	 	model_pos "200 10 -60" 	Bias 0.1 0.1 0.9
+	Animate Player1 		 	Position 	"c-56  0" 	Bounce 1.0 1.3
+	Animate Player2 		 	Position 	"c-904 0" 	Bounce 1.0 1.3
+		
+	Animate Player1 		 	Position 	"c-181 0" 	Bias 0.1 1.4 1.7
+	Animate Player2 		 	Position 	"c-910 0" 	Bias 0.1 1.4 1.7	
+	Animate Player2Model	 	Position 	"c50 0" 	Bias 0.1 1.4 1.7
+	Animate Player2Model	 	Size 		"250 275" 	Bias 0.1 1.4 1.7
+	Animate Player2Model	 	model_pos 	"200 10 -50" Bias 0.1 1.4 1.7
+	Animate Player2BG		 	Size 		"350 280" 	Bias 0.1 1.4 1.7
+}
+
+event WinLeft
+{
+	RunEvent DuelWinStart 0.0
+
+	Animate Player1ExtendBG 	Alpha "0" Linear 0.1 1.0
+	
+	Animate WinnerLabel 		Position "-400 r100" Linear 0.0 0.0
+	Animate WinnerShadowLabel 	Position "-398 r98"  Linear 0.0 0.0
+	
+	Animate WinnerLabel 		Position "20 r100"      Bias 0.1 0.1 0.9
+	Animate WinnerShadowLabel 	Position "22 r98"       Bias 0.1 0.1 0.9
+	Animate Player1 		 	Position "c-30 0" 		Bias 0.1 0.1 0.9
+	Animate Player2 		 	Position "c-930 0" 	    Bias 0.1 0.1 0.9
+	Animate Player2Model	 	model_pos "200 10 -60" 	Bias 0.1 0.1 0.9
+	Animate Player1 		 	Position  "c-56  0" 	Bounce 1.0 1.3
+	Animate Player2 		 	Position  "c-904 0" 	Bounce 1.0 1.3
+	
+	Animate Player1 		 	Position  "c100 0" 	    Bias 0.1 1.4 1.7	
+	Animate Player2 		 	Position  "c-780 0" 	Bias 0.1 1.4 1.7
+	Animate Player1Model	 	Position  "c-380 r280" 	Bias 0.1 1.4 1.7
+	Animate Player1Model	 	Size 	  "250 275" 	Bias 0.1 1.4 1.7
+	Animate Player1Model	 	model_pos "200 -10 -50"   Bias 0.1 1.4 1.7
+	Animate Player1BG		 	Position  "0 r280" 	Bias 0.1 1.4 1.7
+	Animate Player1BG		 	Size 	  "350 280" 	Bias 0.1 1.4 1.7
 }

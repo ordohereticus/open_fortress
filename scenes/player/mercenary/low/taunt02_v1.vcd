@@ -3,45 +3,32 @@ actor "Mercenary"
 {
   channel "audio"
   {
-    event speak "Mercenary.SpecialCompleted04"
+    event speak "Mercenary.LaughEvil01"
     {
-      time 0.604167 2.339858
-      param "Mercenary.SpecialCompleted04"
+      time 1.66 3.4
+      param "Mercenary.LaughEvil01"
       fixedlength
       cctype "cc_master"
       cctoken ""
     }
-    event sequence "taunt02_v1"
-    {
-      time 0.000000 4.300000
-      param "taunt02"
-      fixedlength
-    }
   }
-  channel "emotion"
+  channel "body"
   {
-    event expression "madUpper"
+    event sequence "taunt02"
     {
-      time 0.604167 2.527359
-      param "player\Mercenary\emotion\emotion"
-      param2 "madUpper"
-      event_ramp
-      {
-        0.2500 0.7857 "curve_easein_to_curve_easeout"
-        1.6686 0.7771 "curve_easein_to_curve_easeout"
-      }
+      time 0 2.93
+      param "taunt02"
     }
   }
 }
 
 scalesettings
 {
-  "CChoreoView" "64"
-  "ExpressionTool" "100"
-  "RampTool" "66"
+  "CChoreoView" "108"
+  "RampTool" "100"
+  "ExpressionTool" "74"
   "GestureTool" "100"
   "SceneRampTool" "100"
 }
 fps 60
 snap off
-ignorePhonemes off

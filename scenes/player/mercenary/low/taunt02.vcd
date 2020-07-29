@@ -5,7 +5,7 @@ actor "Mercenary"
   {
     event sequence "taunt02"
     {
-      time 0 4.33333
+      time 0 3.33333
       param "taunt02"
     }
   }
