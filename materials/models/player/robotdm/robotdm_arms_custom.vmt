@@ -16,7 +16,7 @@
 	"$blendtintbybasealpha"		"1"
 	"$blendtintcoloroverbase"		"0"
 	"$colortint_base"		"{ 0 0 0 }"
-	"$color2"		"{93 72 117}"
+	"$color2"		"{150 150 150}"
 	"$colortint_tmp"		"[0 0 0]"
 	"$bumpmapalphaphongmask"		"1"
 	"$cloakPassEnabled"		"1"
