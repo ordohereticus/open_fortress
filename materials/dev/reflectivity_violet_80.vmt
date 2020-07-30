@@ -1,0 +1,8 @@
+"LightmappedGeneric" 
+// 
+{ 
+"$basetexture" "dev/reflectivity_80" 
+"$surfaceprop" "concrete" 
+"$color" "{136 78 150}" 
+"%keywords" "tf" 
+} 
