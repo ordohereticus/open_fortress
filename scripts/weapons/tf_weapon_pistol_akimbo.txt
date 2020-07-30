@@ -30,7 +30,7 @@ WeaponData
 	"default_clip"		"30"
 	"HasTeamSkins_Viewmodel"			"1"
 	"HasTeamSkins_Worldmodel"			"1"
-	"MaxAmmo"	"200"
+	"MaxAmmo"	"180"
 
 	// bucket.	
 	"bucket"			"1"

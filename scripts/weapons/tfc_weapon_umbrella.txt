@@ -28,7 +28,7 @@ WeaponData
 	
 	// bucket_dms.	
 	"bucket_dm"			"0"
-	"bucket_dm_position"		"4"
+	"bucket_dm_position"		"12"
 
 	// Model & Animation
 	"viewmodel"			"models/weapons/v_models/v_umbrella_civilian.mdl"
@@ -54,7 +54,7 @@ WeaponData
 	{
 		"weapon"
 		{
-				"file"		"sprites/bucket_crowbar"
+				"file"		"sprites/bucket_umbrella"
 				"x"		"0"
 				"y"		"0"
 				"width"		"200"
@@ -62,7 +62,7 @@ WeaponData
 		}
 		"weapon_s"
 		{	
-				"file"		"sprites/bucket_crowbar"
+				"file"		"sprites/bucket_umbrella"
 				"x"		"0"
 				"y"		"0"
 				"width"		"200"
