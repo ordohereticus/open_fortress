@@ -3,6 +3,6 @@
 { 
 "$basetexture" "dev/reflectivity_80" 
 "$surfaceprop" "concrete" 
-"$color" "{136 78 150}" 
+"$color" "{150 40 120}" 
 "%keywords" "tf" 
 } 
