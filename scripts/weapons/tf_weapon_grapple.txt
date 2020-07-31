@@ -48,18 +48,18 @@ WeaponData
 	{
 		"weapon"
 		{
-				"file"		"backpack/weapons/c_models/c_grappling_hook/c_grappling_hook"
+				"file"		"sprites/bucket_grapple"
 				"x"		"0"
 				"y"		"0"
-				"width"		"128"
+				"width"		"200"
 				"height"		"128"
 		}
 		"weapon_s"
 		{	
-				"file"		"backpack/weapons/c_models/c_grappling_hook/c_grappling_hook"
+				"file"		"sprites/bucket_grapple"
 				"x"		"0"
 				"y"		"0"
-				"width"		"128"
+				"width"		"200"
 				"height"		"128"
 		}
 		"ammo"
