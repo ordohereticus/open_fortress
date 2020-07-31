@@ -605,7 +605,7 @@
 "DeathmatchMusic.Unreal"
 {
 	"Artist"		"Lena"
-	"Name"			"Forgone Destruction"
+	"Name"			"Foregone Destruction"
 
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
@@ -618,7 +618,7 @@
 "DeathmatchMusic.Quake"
 {
 	"Artist"		"Lena"
-	"Name"			"Quake Theme"
+	"Name"			"Aftermath"
 
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
@@ -728,7 +728,7 @@
 "InfectionMusic.Risen"
 {
 	"Artist"		"Magnus"
-	"Name"			"The Dead have Risen"
+	"Name"			"The Dead Have Risen"
 	
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
@@ -820,7 +820,7 @@
 "DeathmatchMusic.CrossFire2"
 {
 	"Artist"		"Mace, Thoopje"
-	"Name"			"Cought in Crossfire"
+	"Name"			"Caught in the Crossfire"
 
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
@@ -832,7 +832,7 @@
 "DeathmatchMusic.RobotMap"
 {
 	"Artist"		"MrModez"
-	"Name"			"Robot Fear"
+	"Name"			"The Only Thing They Fear is You"
 
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.9"
