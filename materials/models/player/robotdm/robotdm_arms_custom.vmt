@@ -15,7 +15,7 @@
 	"$rimlightboost"		"2"
 	"$blendtintbybasealpha"		"1"
 	"$blendtintcoloroverbase"		"0"
-	"$colortint_base"		"{ 0 0 0 }"
+	"$colortint_base"		"{ 150 150 150 }"
 	"$color2"		"{150 150 150}"
 	"$colortint_tmp"		"[0 0 0]"
 	"$bumpmapalphaphongmask"		"1"
