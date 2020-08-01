@@ -1001,6 +1001,7 @@
 		"tf_weapon_dynamite_bundle"
 		{
 			"backpack_icon"	"..\sprites\bucket_dynamite"
+			"loadout_anim" "1"
 			"WeaponData"
 			{
 				// Attributes Base.
@@ -1062,7 +1063,7 @@
 
 				// Animation.
 				"viewmodel"		"models/weapons/v_models/v_dynamite_bundle.mdl"
-				//"playermodel"		"models/weapons/w_models/w_dynamite.mdl"
+				"playermodel"		"models/weapons/w_models/w_dynamite.mdl"
 				"anim_prefix"			"bat"
 				
 				"MinViewmodelOffset_X" "8"
