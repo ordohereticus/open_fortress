@@ -59,6 +59,8 @@
 		"dm_siberia_dev"	"dm_siberia"
 		"dm_skate"			"dm_skate"
 		"dm_spillway"		"dm_spillway"
+		"dm_thames_dev"		"dm_thames"
+		"dm_thames"			"dm_thames"
 		"dm_watchtower"		"dm_watchtower"
 		"dm_warhead_dev"	"dm_warhead"
 		"dm_warhead"		"dm_warhead"
