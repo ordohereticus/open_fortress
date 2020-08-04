@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "cp_alloy/alloy_moltensteel001"
+	"$selfillum" "1"
+	"%keywords" "tf"
+}

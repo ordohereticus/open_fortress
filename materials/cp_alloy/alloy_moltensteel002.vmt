@@ -1,0 +1,15 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "cp_alloy/alloy_moltensteel001"
+	"$selfillum" "1"
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" "-0.005"
+			"texturescrollangle" "0"
+		}
+	}
+	"%keywords" "tf"
+}
