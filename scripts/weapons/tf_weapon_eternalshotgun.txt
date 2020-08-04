@@ -1,7 +1,7 @@
 WeaponData
 {
 	// Attributes Base.
-	"printname"				"#TF_Weapon_SuperShotgun"
+	"printname"				"#TF_Weapon_EternalShotgun"
 	"BuiltRightHanded"		"0"
 	"weight"				"3"
 	"WeaponType"			"primary"
