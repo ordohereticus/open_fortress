@@ -162,7 +162,7 @@ Phe - DM Chestnut
 Boomsta - Sawdust
 Gibus Cat - Indev DM_2Fort
 HDMineFace - DM Hydro
-Bakscratch - DM Watergate, Skate, Bailey
+Bakscratch - DM Watergate, Skate, Bailey, gump, pitod, longestyard, overkill
 PigPig - Knoxx
 Hex - Skate, Lobster Shore, Knoxx
 iiboharz - Wiseau, DM 2Fort, DM Ravine, DM Offblast
@@ -175,8 +175,10 @@ Suzie🕷Scattersilk - The Badplace new Artpass
 Ruby - dm_entryway, duel_aerowalk artpass
 Aichten / Dot.ico
 White Russian Bear
+Krazy - Overkill
 
 Third party Assets Used with permission:
+cp_alloy lava by Yrrzy
 Landfall Assets by Dr. Spud and Nineaxis
 Borneo Assets by Heyo Cutino
 Cosmetic Set "Top Fragger" by Drew, Yikes, Makkon and Hotrod McCoolguy

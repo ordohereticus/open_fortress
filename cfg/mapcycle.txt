@@ -17,6 +17,7 @@ dm_longestyard
 dm_lumberyard
 dm_nucleus
 dm_offblast
+dm_overkill
 dm_pitod
 dm_ravine
 dm_sawdust
