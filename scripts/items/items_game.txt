@@ -1143,6 +1143,11 @@
 			"backpack_icon"	"..\sprites\bucket_grenDM"
 		}
 		
+		"tf_weapon_bouncer"
+		{
+			"backpack_icon"	"..\sprites\bucket_bouncer"
+		}
+		
 		"tf_weapon_lightning_gun"
 		{
 			"backpack_icon"	"..\sprites\bucket_lightning_gun"
