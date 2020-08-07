@@ -24,7 +24,7 @@ WeaponData
 	default_clip		4
 	"MaxAmmo"			"20"
 
-	"ProjectileModel"	"models/weapons/w_models/w_grenade_conc.mdl"
+	"ProjectileModel"	"models/weapons/w_models/w_grenade_bouncer.mdl"
 	
 	// Ammo & Clip.
 	"primary_ammo"		"WEAPON_AMMO"
