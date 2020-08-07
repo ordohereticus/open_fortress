@@ -967,6 +967,17 @@
 				
 			}	
 		}
+		//https://www.youtube.com/watch?v=kLp_Hh6DKWc
+		"76"
+		{
+			"model" "models/player/items/mercenary/merc_crown/merc_crown.mdl"
+			"region" "hat"
+			"backpack_icon" "..\backpack\hats\crown"
+			
+			"Bodygroups"
+			{
+			}
+		}
 //		Do this
 //		"66"
 //		{		
