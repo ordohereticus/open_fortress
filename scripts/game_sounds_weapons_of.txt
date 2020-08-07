@@ -1146,6 +1146,22 @@
 	"wave"		")weapons/grenade_launcher_dm_cock_forward.wav"
 }
 
+"Weapon_Bouncer.Single"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")weapons/bouncer_shoot.wav"
+}
+
+"Weapon_Bouncer.SingleCrit"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")weapons/bouncer_shoot_crit.wav"
+}
+
 // ------------------------------------------------------------------------------------ //
 // KNIFE
 // ------------------------------------------------------------------------------------ //
