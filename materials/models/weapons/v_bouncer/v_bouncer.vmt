@@ -6,7 +6,7 @@
 	"$glowcolor" "1"
 	"$phong" "1"
 	"$phongexponent" "24"
-	"$phongboost" "5"	
+	"$phongboost" "2"	
 	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
 	"$phongfresnelranges"	"[.25 .5 1]"
 
