@@ -1,7 +1,7 @@
 WeaponData
 {
 	// Attributes Base.
-	"printname"					"#TF_Weapon_GrenadeLauncher"
+	"printname"					"#TF_Weapon_Bouncer"
 	"BuiltRightHanded"			"0"
 	"weight"					"4"
 	"WeaponType"				"secondary"

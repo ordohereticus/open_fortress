@@ -8,13 +8,14 @@
 	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
 	"$phongfresnelranges" "[0.25 0.5 1]"
 
+
 	"$blendtintbybasealpha"		"1"
 	"$blendtintcoloroverbase"		"1"
-	"$colortint_base"		"{180 180 180}"
-	"$color2"		"{180 180 180}"
+	"$colortint_base"		"{0 0 0}"
+	"$color2"		"{255 255 255}"
 	"$colortint_tmp"		"[0 0 0]"
-	
-	
+
+
 	"Proxies"
 	{
 		"Sine"
@@ -34,9 +35,9 @@
 			"srcVar2"		"$colortint_base"
 			"resultVar"		"$color2"
 		}
-
 	}
 
 }
+
 
 
