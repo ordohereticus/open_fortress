@@ -3944,6 +3944,15 @@
 				"width"		"71"
 				"height"	"34"
 		}
+		"juggernaught"
+		{
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
+				"x"		"191"
+				"y"		"446"
+				"width"		"64"
+				"height"	"32"
+		}
 		"eternalshotgun"
 		{
 				"dfile"	"HUD/d_images_of"
@@ -3962,6 +3971,24 @@
 				"width"		"83"
 				"height"	"32"
 		}
+		"tf_projectile_bouncyrocket"
+		{
+				"dfile"	"HUD/d_images_of"
+				"dnegfile" "HUD/dneg_images_of"
+				"x"		"375"
+				"y"		"169"
+				"width"		"102"
+				"height"	"34"
+		}
+		"combatknife"
+		{
+				"dfile"	"HUD/d_images_of"
+				"dnegfile" "HUD/dneg_images_of"
+				"x"		"0"
+				"y"		"322"
+				"width"		"110"
+				"height"	"33"
+		}
 		"tf_dropped_weapon"
 		{
 				"dfile"	"HUD/d_images_of"
@@ -3970,24 +3997,6 @@
 				"y"		"134"
 				"width"		"89"
 				"height"	"35"
-		}
-		"juggernaught"
-		{
-				"dfile"	"HUD/d_images"
-				"dnegfile"	"HUD/dneg_images"
-				"x"		"191"
-				"y"		"446"
-				"width"		"64"
-				"height"	"32"
-		}
-		"tf_projectile_bouncyrocket"
-		{
-				"dfile"	"HUD/d_images"
-				"dnegfile"	"HUD/dneg_images"
-				"x"		"0"
-				"y"		"288"
-				"width"		"96"
-				"height"	"32"
 		}
 		"powerup_crit"
 		{
