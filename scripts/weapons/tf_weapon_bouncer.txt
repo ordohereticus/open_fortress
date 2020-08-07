@@ -49,7 +49,7 @@ WeaponData
 
 
 	// Animation.
-	"viewmodel"		"models/weapons/v_models/v_grenadelauncher_demo.mdl"
+	"viewmodel"		"models/weapons/v_models/v_bouncer.mdl"
 	
 	"CenteredViewmodelOffset_Y" 	"-18"
 	"CenteredViewmodelOffset_Z" 	"-3"
@@ -60,7 +60,7 @@ WeaponData
 	"MinViewmodelOffset_Y" 			"0"
 	"MinViewmodelOffset_Z" 			"-10"	
 	
-	"playermodel"					"models/weapons/w_models/w_grenadelauncher.mdl"
+	"playermodel"					"models/weapons/w_models/w_bouncer.mdl"
 	"anim_prefix"					"gl"
 
 	// Muzzleflash
