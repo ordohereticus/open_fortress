@@ -1160,6 +1160,29 @@
 	"soundlevel"	"SNDLVL_94dB"
 	"volume"	"1.0"
 	"wave"		")weapons/bouncer_shoot_crit.wav"
+
+"Weapon_Bouncer.DrumOpen"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"		"1"
+	"wave"		"weapons/bouncer_drum_open.wav"
+}
+
+"Weapon_Bouncer.DrumLoad"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"		"1"
+	"wave"		"weapons/bouncer_reload.wav"
+}
+
+"Weapon_Bouncer.DrumClose"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"		"1"
+	"wave"		"weapons/bouncer_drum_close.wav"
 }
 
 // ------------------------------------------------------------------------------------ //
