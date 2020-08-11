@@ -2869,9 +2869,9 @@
 	"volume"		"1"
 	"rndwave"
 	{
-		"wave"		"weapons/grenade_dm_impact.wav"
-		"wave"		"weapons/grenade_dm_impact2.wav"
-		"wave"		"weapons/grenade_dm_impact3.wav"
+		"wave"		")weapons/grenade_dm_impact.wav"
+		"wave"		")weapons/grenade_dm_impact2.wav"
+		"wave"		")weapons/grenade_dm_impact3.wav"
 	}
 }
 
@@ -2881,9 +2881,9 @@
 	"volume"		"1"
 	"rndwave"
 	{
-		"wave"		"weapons/grenade_dm_impact.wav"
-		"wave"		"weapons/grenade_dm_impact2.wav"
-		"wave"		"weapons/grenade_dm_impact3.wav"
+		"wave"		")weapons/grenade_dm_impact.wav"
+		"wave"		")weapons/grenade_dm_impact2.wav"
+		"wave"		")weapons/grenade_dm_impact3.wav"
 	}
 }
 
@@ -2893,9 +2893,9 @@
 	"volume"		"1"
 	"rndwave"
 	{
-		"wave"		"weapons/grenade_dm_impact.wav"
-		"wave"		"weapons/grenade_dm_impact2.wav"
-		"wave"		"weapons/grenade_dm_impact3.wav"
+		"wave"		")weapons/grenade_dm_impact.wav"
+		"wave"		")weapons/grenade_dm_impact2.wav"
+		"wave"		")weapons/grenade_dm_impact3.wav"
 	}
 }
 
@@ -2905,9 +2905,9 @@
 	"volume"		"1"
 	"rndwave"
 	{
-		"wave"		"weapons/grenade_dm_impact.wav"
-		"wave"		"weapons/grenade_dm_impact2.wav"
-		"wave"		"weapons/grenade_dm_impact3.wav"
+		"wave"		")weapons/grenade_dm_impact.wav"
+		"wave"		")weapons/grenade_dm_impact2.wav"
+		"wave"		")weapons/grenade_dm_impact3.wav"
 	}
 }
 
@@ -2933,6 +2933,40 @@
 	"volume"		"0.4"
 	"pitch"			"PITCH_NORM"
 	"wave"			"physics/metal/metal_grenade_roll_loop1.wav"
+}
+
+// bouncer grenade
+
+"BouncerGrenade.StepLeft"
+{
+	"soundlevel"	"SNDLVL_74dB"
+	"volume"		"1"
+	"pitch"			"PITCH_NORM"
+	"wave"			")weapons/bouncer_nade_impact.wav"
+}
+
+"BouncerGrenade.StepRight"
+{
+	"soundlevel"	"SNDLVL_74dB"
+	"volume"		"1"
+	"pitch"			"PITCH_NORM"
+	"wave"			")weapons/bouncer_nade_impact.wav"
+}
+
+"BouncerGrenade.ImpactHard"
+{
+	"soundlevel"	"SNDLVL_74dB"
+	"volume"		"1"
+	"pitch"			"PITCH_NORM"
+	"wave"			")weapons/bouncer_nade_impact.wav"
+}
+
+"BouncerGrenade.ImpactSoft"
+{
+	"soundlevel"	"SNDLVL_74dB"
+	"volume"		"1"
+	"pitch"			"PITCH_NORM"
+	"wave"			")weapons/bouncer_nade_impact.wav"
 }
 
 // generic wood
