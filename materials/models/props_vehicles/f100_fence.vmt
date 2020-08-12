@@ -4,7 +4,7 @@
 	"$surfaceprop"	"wood"
 	"$basemapalphaphongmask" 1
 	"$phong"	"1"
-	"$phongboost"	"4"
+	"$phongboost"	"0.7"
 	"$phongexponent"	"20"
 	"$phongfresnelranges"	"[.5 1 2]"
 }
