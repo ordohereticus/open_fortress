@@ -20,6 +20,8 @@ WeaponData
 	"TimeIdleEmpty"		"0.6"
 	"TimeReload"		"0.6"
 	
+	"ProjectileModel"	"models/weapons/w_models/w_grenade_bouncer.mdl"
+	
 	// Ammo & Clip.
 	"primary_ammo"		"WEAPON_AMMO"
 	"secondary_ammo"	"None"
