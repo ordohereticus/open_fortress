@@ -9,7 +9,7 @@ WeaponData
 	"ITEM_FLAG_NOITEMPICKUP" 	"1"
 	
 	// Attributes TF.
-	"Damage"			"40"
+	"Damage"			"18"
 	"InstagibDamage"	"999"
 	"TimeFireDelay"			"0.4"
 	"SmackDelay"		"0.1"

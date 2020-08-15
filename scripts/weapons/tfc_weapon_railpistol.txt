@@ -8,7 +8,7 @@ WeaponData
 	"ITEM_FLAG_NOITEMPICKUP" 	"1"
 		
 	// Attributes TF.
-	"Damage"		"15"
+	"Damage"		"23"
 	"InstagibDamage"	"999"
 	"Range"			"4096"
 	"BulletsPerShot"	"1"
@@ -29,7 +29,7 @@ WeaponData
 	default_clip		-1
 	"HasTeamSkins_Viewmodel"			"1"
 	"HasTeamSkins_Worldmodel"			"1"
-	"MaxAmmo"	"50"
+	"MaxAmmo"	"25"
 
 	// bucket.	
 	"bucket"			"1"
