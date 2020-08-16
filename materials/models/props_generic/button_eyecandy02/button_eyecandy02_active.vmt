@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_generic/button_eyecandy02/button_eyecandy02_active"
+	"$surfaceprop" "metal"
+	"$blendtintbybasealpha" 1
+	"%keywords" "tf button"
+}
