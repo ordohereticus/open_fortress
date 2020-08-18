@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Metal/wall_dark_gray_02"
+	"$bumpmap" "Metal/wall_island_heavy01-ssbump"
+    "$ssbump" "1"
+	"$surfaceprop" "metal"
+	"%keywords" "tf"
+	"$envmapmask" "Metal/wall_dark_gray_02_envmask"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.1 .1 .1]"
+}

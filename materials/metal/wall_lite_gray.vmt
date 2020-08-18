@@ -1,0 +1,17 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Metal/wall_lite_gray"
+	"$bumpmap" "Metal/wall_island_heavy01-ssbump"
+    "$ssbump" "1"
+	"$surfaceprop" "metal"
+	"%keywords" "tf"
+	"$envmapmask" "Metal/wall_lite_gray_envmask"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.1 .1 .1]"
+//	"$basemapalphaphongmask" 1
+//	"$phong"	"1"
+//	"$phongboost"	"1"
+//	"$phongexponent"	20
+//	"$phongfresnelranges"	"[2 1 4]"
+	
+}
