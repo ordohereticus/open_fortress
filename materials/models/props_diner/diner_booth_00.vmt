@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_diner/diner_booth_00"
+	"$bumpmap" "models/props_diner/diner_booth_00normal"
+	"$surfaceprop" "rubber"
+}

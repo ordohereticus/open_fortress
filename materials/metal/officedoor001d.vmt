@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Metal/officedoor001c"
+	"$surfaceprop" "metal"
+	"$selfillum" 1
+	"%keywords" "tf"
+}

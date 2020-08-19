@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_diner/diner_table_00"
+	"$bumpmap" "models/props_diner/diner_table_00_normal"
+	"$surfaceprop" "Metal"
+}
