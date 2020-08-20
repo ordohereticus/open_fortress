@@ -1,0 +1,10 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "Nature/rockwall001forest"
+	"$basetexture2" "dev/dev_measuregeneric01b_small"
+	"%tooltexture" "editor-abs/blendttx/nature/blendrockgroundwallforest_reducedetail"
+	"%keywords" "tf"
+	"$surfaceprop" "dirt"
+
+
+}

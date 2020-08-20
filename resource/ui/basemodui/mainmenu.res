@@ -124,6 +124,11 @@
 				"name"		"ROCKETLAUNCHER"
 				"activity"	"ACT_MERC_LOADOUT_ROCKETLAUNCHER"
 			}
+			"animation"
+			{
+				"name"		"CHAINSAW"
+				"activity"	"ACT_MERC_LOADOUT_CHAINSAW"
+			}
 		}
 	}
 	

@@ -6811,7 +6811,7 @@
 	}
 }
 
-"Announcer.LastPlace"
+"Carl.LastPlace"
 {
 	"channel"		"CHAN_VOICE2"
 	"volume"		"VOL_NORM"
@@ -7036,6 +7036,7 @@
 	"pitch"			"PITCH_NORM"
 
 	"soundlevel"	"SNDLVL_NONE"
+	
 	"rndwave"
 	{
 		"wave"			"vo/announcer_tf2cciv/tf2cciv_quadlauncher_youtook01.mp3"
@@ -8322,4 +8323,3436 @@
 		"wave"		"vo/announcer_tf2cciv/tf2cciv_thatsgottahurt07.mp3"
 		"wave"		"vo/announcer_tf2cciv/tf2cciv_thatsgottahurt08.mp3"
 	}
+}
+
+/////////////////////////////////////////////
+// Gianni Matragrano, the Arena Master announcer
+/////////////////////////////////////////////
+
+"Arena.FragsLeft1"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_fragsleft_01.mp3"
+	}
+}
+
+"Arena.FragsLeft2"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_fragsleft_02.mp3"
+	}
+}
+
+"Arena.FragsLeft3"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_fragsleft_03.mp3"
+	}
+}
+
+"Arena.FragsLeft4"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_fragsleft_04.mp3"
+	}
+}
+
+"Arena.FragsLeft5"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_fragsleft_05.mp3"
+	}
+}
+
+"Arena.FragsLeft10"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_fragsleft_10.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_fragsleft_10_alt.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_fragsleft_10_alt2.mp3"
+	}
+}
+
+"Arena.CountDown1"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_arenamaster/arenamaster_countdown_01.mp3"
+}
+
+"Arena.CountDown2"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_arenamaster/arenamaster_countdown_02.mp3"
+}
+
+"Arena.CountDown3"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_arenamaster/arenamaster_countdown_03.mp3"
+}
+
+"Arena.CountDown4"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_arenamaster/arenamaster_countdown_04.mp3"
+}
+
+"Arena.CountDown5"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_arenamaster/arenamaster_countdown_05.mp3"
+}
+
+"Arena.CountDown6"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_arenamaster/arenamaster_countdown_06.mp3"
+}
+
+"Arena.CountDown7"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_arenamaster/arenamaster_countdown_07.mp3"
+}
+
+"Arena.CountDown8"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_arenamaster/arenamaster_countdown_08.mp3"
+}
+
+"Arena.CountDown9"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_arenamaster/arenamaster_countdown_09.mp3"
+}
+
+"Arena.CountDown10"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_arenamaster/arenamaster_countdown_10.mp3"
+}
+
+"Arena.RoundEnds10minutes"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"vo/announcer_arenamaster/arenamaster_timeleft_10mins.mp3"
+	"wave"			"vo/announcer_arenamaster/arenamaster_timeleft_10mins_alt.mp3"
+	"wave"			"vo/announcer_arenamaster/arenamaster_timeleft_10mins_alt2.mp3"
+}
+
+"Arena.RoundEnds30seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"vo/announcer_arenamaster/arenamaster_timeleft_30sec.mp3"
+}
+
+"Arena.RoundEnds5minutes"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_timeleft_5mins.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_timeleft_5mins_alt.mp3"
+	}
+}
+
+"Arena.RoundEnds60seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/announcer_timeleft_1min.mp3"
+		"wave"			"vo/announcer_arenamaster/announcer_timeleft_1min_alt.mp3"
+		"wave"			"vo/announcer_arenamaster/announcer_timeleft_1min_alt2.mp3"
+	}
+}
+
+"Arena.FirstPlace"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_firstplace01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_firstplace02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_firstplace03.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_victory01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_victory02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_victory03.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_victory04.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_victory05.mp3"
+	}
+}
+
+"Arena.SecondPlace"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_secondplace01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_secondplace02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_secondplace03.mp3"
+	}
+}
+
+"Arena.ThirdPlace"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_thirdplace01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_thirdplace02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_thirdplace03.mp3"
+	}
+}
+
+"Arena.LastPlace"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_failure01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_failure02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_failure03.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_failure04.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_failure05.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_failure06.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_failure07.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_failure08.mp3"
+	}
+}
+
+"Arena.Game.YourTeamWon"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1"
+	"soundlevel"	"SNDLVL_140dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_victory01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_victory02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_victory03.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_victory04.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_victory05.mp3"
+	}
+}
+
+"Arena.NumberOne"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_holyshit01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_holyshit02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_holyshit03.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_holyshit04.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_holyshit05.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_holyshit06.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_holyshit07.mp3"
+	}
+}
+
+"Arena.DMRoundPrepare"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_roundstart_preparetofight01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_roundstart_preparetofight02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_roundstart_preparetofight03.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_roundstart_preparetofight04.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_roundstart_preparetofight05.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_roundstart_preparetofight06.mp3"
+	}
+}
+
+"Arena.DMRoundStart"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_roundstart_fight01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_roundstart_go01.mp3"
+	}
+}
+
+"Arena.PowerupsIncoming"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_powerup_spawning01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_powerup_spawning02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_powerup_spawning03.mp3"
+	}
+}
+
+"Arena.SuperWeaponsIncoming"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_superwep_spawning01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_superwep_spawning02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_superwep_spawning03.mp3"
+	}
+}
+
+"Arena.SuperWeaponSpawned"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_superwep_spawned01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_superwep_spawned02.mp3"
+	}
+}
+
+"Arena.SuperWeaponTaken"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_superwep_taken01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_superwep_taken02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_superwep_taken03.mp3"
+	}
+}
+
+"Arena.SuperWeaponTakenSelf"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_superwep_youtook01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_superwep_youtook02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_superwep_youtook03.mp3"
+	}
+}
+
+"Arena.GIBIncoming"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_gib_spawning01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_gib_spawning02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_gib_spawning03.mp3"
+	}
+}
+
+"Arena.GIBDropped"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_arenamaster/arenamaster_gib_dropped01.mp3"
+}
+
+"Arena.GIBSpawn"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_gib01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_gib02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_gib03.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_gib04.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_gib05.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_gib06.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_gib_spawned01.mp3"
+	}
+}
+
+"Arena.GIBTaken"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_gib_taken01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_gib_taken02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_gib_taken03.mp3"
+	}
+}
+
+"Arena.GIBTakenSelf"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_gib_youtook01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_gib_youtook02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_gib_youtook03.mp3"
+	}
+}
+
+"Arena.QuadIncoming"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_superwep_spawning01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_superwep_spawning02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_superwep_spawning03.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_quadlauncher_spawning01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_quadlauncher_spawning02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_quadlauncher_spawning03.mp3"
+	}
+}
+
+"Arena.QuadSpawn"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_quadlauncher01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_quadlauncher02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_quadlauncher03.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_quadlauncher_spawned01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_quadlauncher_spawned02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_quadlauncher_spawned03.mp3"
+	}
+}
+
+"Arena.QuadDropped"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_arenamaster/arenamaster_quadlauncher_dropped01.mp3"
+}
+
+"Arena.QuadTaken"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_quadlauncher_taken01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_quadlauncher_taken02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_quadlauncher_taken03.mp3"
+	}
+}
+
+"Arena.QuadTakenSelf"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_quadlauncher_youtook01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_quadlauncher_youtook02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_quadlauncher_youtook03.mp3"
+	}
+}
+
+"Arena.Berserk"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_berserk01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_berserk02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_berserk03.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_berserk_spawned01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_berserk_spawned02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_berserk_spawned03.mp3"
+	}
+}
+
+"Arena.BerserkIncoming"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_berserk_spawning01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_berserk_spawning02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_berserk_spawning03.mp3"
+	}
+}
+
+"Arena.BerserkDropped"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_arenamaster/arenamaster_berserk_dropped01.mp3"
+}
+
+"Arena.BerserkTakenSelf"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_berserk_youtook01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_berserk_youtook02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_berserk_youtook03.mp3"
+	}
+}
+
+"Arena.BerserkTaken"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_berserk_taken01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_berserk_taken02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_berserk_taken03.mp3"
+	}
+}
+
+"Arena.Crits"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_crit01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_crit02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_crit03.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_crit_spawned01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_crit_spawned02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_crit_spawned03.mp3"
+	}
+}
+
+"Arena.CritsDropped"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_arenamaster/arenamaster_crit_dropped01.mp3"
+}
+
+"Arena.CritsIncoming"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_crit_spawning01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_crit_spawning02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_crit_spawning03.mp3"
+	}
+}
+
+"Arena.CritTaken"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_crit_taken01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_crit_taken02.mp3"
+	}
+}
+
+"Arena.CritTakenSelf"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_crit_youtook01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_crit_youtook02.mp3"
+	}
+}
+
+"Arena.Haste"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_haste01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_haste_spawned01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_haste_spawned02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_haste_spawned03.mp3"
+	}
+}
+
+"Arena.HasteIncoming"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_haste_spawning01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_haste_spawning02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_haste_spawning03.mp3"
+	}
+}
+
+"Arena.HasteDropped"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_arenamaster/arenamaster_haste_dropped01.mp3"
+}
+
+"Arena.HasteTaken"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_haste_taken01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_haste_taken02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_haste_taken03.mp3"
+	}
+}
+
+"Arena.HasteTakenSelf"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_haste_youtook01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_haste_youtook02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_haste_youtook03.mp3"
+	}
+}
+
+"Arena.Invisibility"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_invisibility01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_invisibility02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_invisibility03.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_invisibility04.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_invisibility_spawned01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_invisibility_spawned02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_invisibility_spawned03.mp3"
+	}
+}
+
+"Arena.InvisibilityIncoming"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_invisibility_spawning01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_invisibility_spawning02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_invisibility_spawning03.mp3"
+	}
+}
+
+"Arena.InvisibilityDropped"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_arenamaster/arenamaster_invisibility_dropped01.mp3"
+}
+
+"Arena.InvisibilityTaken"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_invisibility_taken01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_invisibility_taken02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_invisibility_taken03.mp3"
+	}
+}
+
+"Arena.InvisibilityTakenSelf"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_invisibility_youtook01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_invisibility_youtook02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_invisibility_youtook03.mp3"
+	}
+}
+
+"Arena.Shield"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_shield01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_shield02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_shield03.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_shield_spawned01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_shield_spawned02.mp3"
+	}
+}
+
+"Arena.ShieldIncoming"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_shield_spawning01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_shield_spawning02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_shield_spawning03.mp3"
+	}
+}
+
+"Arena.ShieldDropped"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"vo/announcer_arenamaster/arenamaster_shield_dropped01.mp3"
+}
+
+"Arena.ShieldTaken"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_shield_taken01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_shield_taken02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_shield_taken03.mp3"
+	}
+}
+
+"Arena.ShieldTakenSelf"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_shield_youtook01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_shield_youtook02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_shield_youtook03.mp3"
+	}
+}
+
+"Arena.Excellent"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_excellent01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_excellent02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_excellent03.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_excellent04.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_excellent05.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_excellent06.mp3"
+	}
+}
+
+"Arena.Perfect"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_perfect01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_perfect02.mp3"
+	}
+}
+
+"Arena.Headshot"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_headshot01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_headshot02.mp3"
+	}
+}
+
+"Arena.Kamikaze"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_kamikaze01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_kamikaze02.mp3"
+	}
+}
+
+"Arena.Denied"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_denied01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_denied02.mp3"
+	}
+}
+
+"Arena.PartyBreaker"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_partybreaker01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_partybreaker02.mp3"
+	}
+}
+
+"Arena.Perforated"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_telefrag01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_telefrag02.mp3"
+	}
+}
+
+"Arena.MultiKill"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_multikill01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_multikill02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_multikill03.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_multikill04.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_multikill05.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_multikill06.mp3"
+	}
+}
+
+"Arena.UltraKill"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_ultrakill01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_ultrakill02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_ultrakill03.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_ultrakill04.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_ultrakill05.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_ultrakill06.mp3"
+	}
+}
+
+"Arena.HolyShit"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_holyshit01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_holyshit02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_holyshit03.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_holyshit04.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_holyshit05.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_holyshit06.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_holyshit07.mp3"
+	}
+}
+
+"Arena.Humiliation"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_humiliation01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_humiliation02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_humiliation03.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_humiliation04.mp3"
+	}
+}
+
+"Arena.Impressive"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_impressive01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_impressive02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_impressive03.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_impressive04.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_impressive05.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_impressive06.mp3"
+	}
+}
+
+"Arena.KillingSpree"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_killingspree01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_killingspree02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_killingspree03.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_killingspree04.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_killingspree05.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_killingspree06.mp3"
+	}
+}
+
+"Arena.Rampage"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_rampage01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_rampage02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_rampage03.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_rampage04.mp3"
+	}
+}
+
+"Arena.Dominating"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_dominating01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_dominating02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_dominating03.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_dominating04.mp3"
+	}
+}
+
+"Arena.Unstoppable"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_unstoppable01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_unstoppable02.mp3"
+	}
+}
+
+"Arena.GodLike"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_godlike01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_godlike02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_godlike03.mp3"
+	}
+}
+
+"Arena.PowerupMassacre"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_powerupmassacre01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_powerupmassacre02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_powerupmassacre03.mp3"
+	}
+}
+
+"Arena.ShowStopper"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_showstopper01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_showstopper02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_showstopper02.mp3"
+	}
+}
+
+"Arena.FirstBlood" // Hellen announcer Naming Scheme
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_firstblood01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_firstblood02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_firstblood03.mp3"
+	}
+}
+
+"Arena.Midair"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_midair01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_midair02.mp3"
+	}
+}
+
+"Arena.Revenge"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_revenge01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_revenge02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_revenge03.mp3"
+	}
+}
+
+"Arena.LeadTaken"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_leadtaken01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_leadtaken02.mp3"
+	}
+}
+
+"Arena.LeadLost"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_leadlost01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_leadlost02.mp3"
+	}
+}
+
+"Arena.LeadTiedt"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_leadtied01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_leadtied02.mp3"
+	}
+}
+
+"Arena.RoundStart"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_infection_roundstart01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_infection_roundstart02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_infection_roundstart03.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_infection_roundstart04.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_infection_roundstart05.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_infection_roundstart06.mp3"
+	}
+}
+
+"Arena.SomeoneDied"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_infection_someonedied01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_infection_someonedied02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_infection_someonedied03.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_infection_someonedied04.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_infection_someonedied05.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_infection_someonedied06.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_infection_someonedied07.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_infection_someonedied08.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_infection_someonedied09.mp3"
+	}
+}
+
+"Arena.SurvivorsWin"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_infection_survivorswin01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_infection_survivorswin02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_infection_survivorswin03.mp3"
+	}
+}
+
+"Arena.ZombiesWin"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_infection_zombieswin01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_infection_zombieswin02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_infection_zombieswin03.mp3"
+	}
+}
+
+"Arena.3Wave" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_gamemode_3wave01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_gamemode_3wave02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_gamemode_3wave03.mp3"
+	}
+}
+
+"Arena.CTF" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_gamemode_ctf01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_gamemode_ctf02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_gamemode_ctf03.mp3"
+	}
+}
+
+"Arena.Deathmatch" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_gamemode_deathmatch01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_gamemode_deathmatch02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_gamemode_deathmatch03.mp3"
+	}
+}
+
+"Arena.Duel" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_gamemode_duel01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_gamemode_duel02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_gamemode_duel03.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_gamemode_duel04.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_gamemode_duel05.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_gamemode_duel06.mp3"
+	}
+}
+
+"Arena.DuelJoinQueue" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_duel_joinedqueue01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_duel_joinedqueue02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_duel_joinedqueue03.mp3"
+	}
+}
+
+"Arena.DuelNext" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_duel_youarenext01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_duel_youarenext02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_duel_youarenext03.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_duel_youarenext04.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_duel_youarenext05.mp3"
+	}
+}
+
+"Arena.Escort" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_arenamaster/arenamaster_gamemode_hunted01.mp3"
+}
+
+"Arena.Infection" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_gamemode_infection01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_gamemode_infection02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_gamemode_infection03.mp3"
+	}
+}
+
+"Arena.Instagib" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_gamemode_instagib01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_gamemode_instagib02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_gamemode_instagib03.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_gamemode_instagib04.mp3"
+	}
+}
+
+"Arena.LastManStanding" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_gamemod01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_gamemode_lms02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_gamemode_lms03.mp3"
+	}
+}
+
+"Arena.AM_LastManAlive"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"rndwave"			
+	{
+		"wave"		"vo/announcer_benja/announcer_infection_lastman01.mp3"
+		"wave"		"vo/announcer_benja/announcer_infection_lastman02.mp3"
+		"wave"		"vo/announcer_benja/announcer_infection_lastman03.mp3"
+		"wave"		"vo/announcer_benja/announcer_infection_lastman04.mp3"
+	}
+}
+
+"Arena.PlayerDestruction" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_gamemode_pd01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_gamemode_pd02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_gamemode_pd03.mp3"
+	}
+}
+
+"Arena.Push" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_gamemode_push01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_gamemode_push_soccer01.mp3"
+	}
+}
+
+"Arena.TDM" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_gamemode_tdm01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_gamemode_tdm02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_gamemode_tdm03.mp3"
+	}
+}
+
+"Arena.GunGame" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_gamemode_gungame01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_gamemode_gungame02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_gamemode_gungame03.mp3"
+	}
+}
+
+// CTF/Invade
+
+"Arena.CaptureFlag.EnemyCaptured" // Enemy has Capped
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/announcer_arenamaster/arenamaster_yourflagcaptured01.mp3"
+		"wave"	"vo/announcer_arenamaster/arenamaster_yourflagcaptured02.mp3"
+	}
+}
+
+"Arena.CaptureFlag.EnemyDropped" // Enemy Dropped the flag
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/announcer_arenamaster/arenamaster_yourflagdropped01.mp3"
+		"wave"	"vo/announcer_arenamaster/arenamaster_yourflagdropped02.mp3"
+		"wave"	"vo/announcer_arenamaster/arenamaster_yourflagdropped03.mp3"
+	}
+}
+
+"Arena.CaptureFlag.TeamReturned"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/announcer_arenamaster/arenamaster_enemyflagreturned01.mp3"
+		"wave"	"vo/announcer_arenamaster/arenamaster_enemyflagreturned02.mp3"
+	}
+}
+
+"Arena.CaptureFlag.EnemyStolen"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/announcer_arenamaster/arenamaster_enemyhasflag01.mp3"
+		"wave"	"vo/announcer_arenamaster/arenamaster_enemyhasflag02.mp3"
+		"wave"	"vo/announcer_arenamaster/arenamaster_enemyhasflag03.mp3"
+	}
+}
+
+"Arena.CaptureFlag.TeamCaptured"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_enemyflagcaptured01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_enemyflagcaptured02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_enemyflagcaptured03.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_enemyflagcaptured04.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_enemyflagcaptured05.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_enemyflagcaptured06.mp3"
+	}
+}
+
+"Arena.CaptureFlag.TeamCapturedExcited" // Used for... Mannpower??
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo/announcer_arenamaster/arenamaster_enemyflagcaptured01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_enemyflagcaptured02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_enemyflagcaptured03.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_enemyflagcaptured04.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_enemyflagcaptured05.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_enemyflagcaptured06.mp3"
+	}
+}
+
+"Arena.CaptureFlag.TeamDropped"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/announcer_arenamaster/arenamaster_enemyflagdropped01.mp3"
+		"wave"	"vo/announcer_arenamaster/arenamaster_enemyflagdropped02.mp3"
+		"wave"	"vo/announcer_arenamaster/arenamaster_enemyflagdropped03.mp3"
+	}
+}
+
+"Arena.CaptureFlag.EnemyReturned"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/announcer_arenamaster/arenamaster_yourflagreturned01.mp3"
+		"wave"	"vo/announcer_arenamaster/arenamaster_yourflagreturned02.mp3"
+		"wave"	"vo/announcer_arenamaster/arenamaster_yourflagreturned03.mp3"
+	}
+}
+
+"Arena.CaptureFlag.TeamStolen"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/announcer_arenamaster/arenamaster_youhaveflag01.mp3"
+		"wave"	"vo/announcer_arenamaster/arenamaster_youhaveflag02.mp3"
+		"wave"	"vo/announcer_arenamaster/arenamaster_youhaveflag03.mp3"
+	}
+}
+
+"Arena.Resource.EnemyDropped"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/announcer_arenamaster/arenamaster_ball_becomeneutral01.mp3"
+		"wave"	"vo/announcer_arenamaster/arenamaster_ball_becomeneutral02.mp3"
+		"wave"	"vo/announcer_arenamaster/arenamaster_ball_becomeneutral03.mp3"
+	}
+}
+
+"Arena.Resource.EnemyStolen"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/announcer_arenamaster/arenamaster_enemyhasflag01.mp3"
+		"wave"	"vo/announcer_arenamaster/arenamaster_enemyhasflag02.mp3"
+		"wave"	"vo/announcer_arenamaster/arenamaster_enemyhasflag03.mp3"
+	}
+}
+ 
+"Arena.Resource.EnemyReturned"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/announcer_arenamaster/arenamaster_enemyflagreturned01.mp3"
+		"wave"	"vo/announcer_arenamaster/arenamaster_enemyflagreturned02.mp3"
+		"wave"	"vo/announcer_arenamaster/arenamaster_enemyflagreturned03.mp3"
+	}
+}
+
+"Arena.Resource.TeamDropped"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/announcer_arenamaster/arenamaster_enemyflagdropped01.mp3"
+		"wave"	"vo/announcer_arenamaster/arenamaster_enemyflagdropped02.mp3"
+		"wave"	"vo/announcer_arenamaster/arenamaster_enemyflagdropped03.mp3"
+	}
+}
+
+"Arena.Resource.TeamStolen"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/announcer_arenamaster/arenamaster_youhaveflag01.mp3"
+		"wave"	"vo/announcer_arenamaster/arenamaster_youhaveflag02.mp3"
+		"wave"	"vo/announcer_arenamaster/arenamaster_youhaveflag03.mp3"
+	}
+}
+
+"Arena.Resource.TeamReturned"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/announcer_arenamaster/arenamaster_yourflagreturned01.mp3"
+		"wave"	"vo/announcer_arenamaster/arenamaster_yourflagreturned02.mp3"
+		"wave"	"vo/announcer_arenamaster/arenamaster_yourflagreturned03.mp3"
+	}
+}
+
+// Misc
+
+"Arena.Laugh"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	
+	"soundlevel"		"SNDLVL_95dB"
+
+	"rndwave"
+	{
+		"wave"		"vo/announcer_arenamaster/arenamaster_laugh01.mp3"
+		"wave"		"vo/announcer_arenamaster/arenamaster_laugh02.mp3"
+		"wave"		"vo/announcer_arenamaster/arenamaster_laugh03.mp3"
+		"wave"		"vo/announcer_arenamaster/arenamaster_laugh04.mp3"
+		"wave"		"vo/announcer_arenamaster/arenamaster_laugh05.mp3"
+		"wave"		"vo/announcer_arenamaster/arenamaster_laugh06.mp3"
+	}
+}
+
+"Arena.ThatsGottaHurt"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"rndwave"
+	{
+		"wave"		"vo/announcer_arenamaster/arenamaster_thatsgottahurt01.mp3"
+		"wave"		"vo/announcer_arenamaster/arenamaster_thatsgottahurt02.mp3"
+		"wave"		"vo/announcer_arenamaster/arenamaster_thatsgottahurt03.mp3"
+	}
+}
+
+/////////////////////////////////////////////
+// Willfromafar
+/////////////////////////////////////////////
+
+"Willfromafar.FragsLeft1"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"vo/announcer_willfromafar/willfromafar_fragsleft_01.mp3"
+}
+
+"Willfromafar.FragsLeft2"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"vo/announcer_willfromafar/willfromafar_fragsleft_02.mp3"
+}
+
+"Willfromafar.FragsLeft3"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"vo/announcer_willfromafar/willfromafar_fragsleft_03.mp3"
+}
+
+"Willfromafar.FragsLeft4"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"vo/announcer_willfromafar/willfromafar_fragsleft_04.mp3"
+}
+
+"Willfromafar.FragsLeft5"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"vo/announcer_willfromafar/willfromafar_fragsleft_05.mp3"
+}
+
+"Willfromafar.FragsLeft10"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_fragsleft_10.mp3"
+}
+
+"Willfromafar.CountDown1"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_countdown_01.mp3"
+}
+
+"Willfromafar.CountDown2"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_countdown_02.mp3"
+}
+
+"Willfromafar.CountDown3"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_countdown_03.mp3"
+}
+
+"Willfromafar.CountDown4"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_countdown_04.mp3"
+}
+
+"Willfromafar.CountDown5"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_countdown_05.mp3"
+}
+
+"Willfromafar.CountDown6"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_countdown_06.mp3"
+}
+
+"Willfromafar.CountDown7"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_countdown_07.mp3"
+}
+
+"Willfromafar.CountDown8"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_countdown_08.mp3"
+}
+
+"Willfromafar.CountDown9"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_countdown_09.mp3"
+}
+
+"Willfromafar.CountDown10"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_countdown_10.mp3"
+}
+
+"Willfromafar.RoundEnds10minutes"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"vo/announcer_willfromafar/willfromafar_timeleft_10mins.mp3"
+}
+
+"Willfromafar.RoundEnds30seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"vo/announcer_willfromafar/willfromafar_timeleft_30sec.mp3"
+}
+
+"Willfromafar.RoundEnds5minutes"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"vo/announcer_willfromafar/willfromafar_timeleft_5mins.mp3"
+}
+
+"Willfromafar.RoundEnds60seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"vo/announcer_willfromafar/willfromafar_timeleft_1min.mp3"
+}
+
+"Willfromafar.FirstPlace"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo/announcer_willfromafar/willfromafar_firstplace01.mp3"
+		"wave"			"vo/announcer_willfromafar/willfromafar_victory01.mp3"
+	}
+}
+
+"Willfromafar.SecondPlace"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"vo/announcer_willfromafar/willfromafar_secondplace01.mp3"
+}
+
+"Willfromafar.ThirdPlace"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"vo/announcer_willfromafar/willfromafar_thirdplace01.mp3"
+}
+
+"Willfromafar.LastPlace"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_willfromafar/willfromafar_lastplaceplace01.mp3"
+		"wave"			"vo/announcer_willfromafar/willfromafar_failure01.mp3"
+	}
+}
+
+"Willfromafar.NumberOne"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"vo/announcer_willfromafar/willfromafar_holyshit01.mp3"
+}
+
+"Willfromafar.DMRoundPrepare"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_roundstart_preparetofight01.mp3"
+}
+
+"Willfromafar.DMRoundStart"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_willfromafar/willfromafar_roundstart_fight01.mp3"
+		"wave"			"vo/announcer_willfromafar/willfromafar_roundstart_go01.mp3"
+	}
+}
+
+"Willfromafar.GIBIncoming"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_GIB_spawning01.mp3"
+}
+
+"Willfromafar.GIBSpawn"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_GIB_spawned01.mp3"
+}
+
+"Willfromafar.GIBTaken"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_GIB_taken01.mp3"
+}
+
+"Willfromafar.GIBTakenSelf"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_willfromafar/willfromafar_gib_youtook01.mp3"
+		"wave"			"vo/announcer_willfromafar/willfromafar_gib_youtook02.mp3"
+	}
+}
+
+"Willfromafar.GIBDropped"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_gib_dropped01.mp3"
+}
+
+"Willfromafar.QuadIncoming"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_quadlauncher_spawning01.mp3"
+}
+
+"Willfromafar.QuadSpawn"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_quadlauncher_spawned01.mp3"
+}
+
+"Willfromafar.QuadDropped"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_quadlauncher_dropped01.mp3"
+}
+
+"Willfromafar.QuadTaken"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_quadlauncher_taken01.mp3"
+}
+
+"Willfromafar.QuadTakenSelf"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_willfromafar/willfromafar_quadlauncher_youtook01.mp3"
+		"wave"			"vo/announcer_willfromafar/willfromafar_quadlauncher_youtook02.mp3"
+	}
+}
+
+"Willfromafar.Berserk"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_willfromafar/willfromafar_berserk01.mp3"
+		"wave"			"vo/announcer_willfromafar/willfromafar_berserk_spawned01.mp3"
+	}
+}
+
+"Willfromafar.BerserkIncoming"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+		"wave"			"vo/announcer_willfromafar/willfromafar_berserk_spawning01.mp3"
+}
+
+"Willfromafar.BerserkTaken"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_berserk_taken01.mp3"
+}
+
+"Willfromafar.Crits"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_willfromafar/willfromafar_crit01.mp3"
+		"wave"			"vo/announcer_arenamaster/willfromafar_crit_spawned01.mp3"
+	}
+}
+
+"Willfromafar.CritsDropped"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_crit_dropped01.mp3"
+}
+
+"Willfromafar.CritsIncoming"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_crit_spawning01.mp3"
+}
+
+"Willfromafar.CritTaken"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_willfromafar/willfromafar_crit_taken01.mp3"
+		"wave"			"vo/announcer_willfromafar/willfromafar_crit_taken02.mp3"
+	}
+}
+
+"Willfromafar.CritTakenSelf"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_willfromafar/willfromafar_crit_youtook01.mp3"
+		"wave"			"vo/announcer_willfromafar/willfromafar_crit_youtook02.mp3"
+	}
+}
+
+"Willfromafar.Haste"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_willfromafar/willfromafar_haste01.mp3"
+		"wave"			"vo/announcer_willfromafar/willfromafar_haste_spawned01.mp3"
+	}
+}
+
+"Willfromafar.HasteIncoming"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_haste_spawning01.mp3"
+}
+
+"Willfromafar.HasteTaken"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_haste_taken01.mp3"
+}
+
+"Willfromafar.HasteTakenSelf"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_willfromafar/willfromafar_haste_youtook01.mp3"
+		"wave"			"vo/announcer_willfromafar/willfromafar_haste_youtook02.mp3"
+	}
+}
+
+"Willfromafar.Invisibility"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_willfromafar/willfromafar_invisibility01.mp3"
+		"wave"			"vo/announcer_willfromafar/willfromafar_invisibility_spawned01.mp3"
+	}
+}
+
+"Willfromafar.InvisibilityIncoming"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_invisibility_spawning01.mp3"
+}
+
+"Willfromafar.InvisibilityDropped"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_invisibility_dropped01.mp3"
+}
+
+"Willfromafar.InvisibilityTaken"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_invisibility_taken01.mp3"
+}
+
+"Willfromafar.InvisibilityTakenSelf"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_willfromafar/willfromafar_invisibility_youtook01.mp3"
+		"wave"			"vo/announcer_willfromafar/willfromafar_invisibility_youtook02.mp3"
+	}
+}
+
+"Willfromafar.Shield"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_willfromafar/willfromafar_shield01.mp3"
+		"wave"			"vo/announcer_willfromafar/willfromafar_shield_spawned01.mp3"
+	}
+}
+
+"Willfromafar.ShieldIncoming"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_shield_spawning01.mp3"
+}
+
+"Willfromafar.ShieldDropped"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"vo/announcer_willfromafar/willfromafar_shield_dropped01.mp3"
+}
+
+"Willfromafar.ShieldTaken"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_shield_taken01.mp3"
+}
+
+"Willfromafar.ShieldTakenSelf"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_willfromafar/willfromafar_shield_youtook01.mp3"
+		"wave"			"vo/announcer_willfromafar/willfromafar_shield_youtook02.mp3"
+	}
+}
+
+"Willfromafar.Excellent"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_willfromafar/willfromafar_excellent01.mp3"
+		"wave"			"vo/announcer_willfromafar/willfromafar_excellent02.mp3"
+		"wave"			"vo/announcer_willfromafar/willfromafar_excellent03.mp3"
+	}
+}
+
+"Willfromafar.Perfect"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_perfect01.mp3"
+}
+
+"Willfromafar.Headshot"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_headshot01.mp3"
+}
+
+"Willfromafar.Kamikaze"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"vo/announcer_willfromafar/willfromafar_kamikaze01.mp3"
+}
+
+"Willfromafar.Denied"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_denied01.mp3"
+}
+
+"Willfromafar.PartyBreaker"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_partybreaker01.mp3"
+}
+
+"Willfromafar.Perforated"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_telefrag01.mp3"
+}
+
+"Willfromafar.MultiKill"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_multikill01.mp3"
+}
+
+"Willfromafar.UltraKill"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_ultrakill01.mp3"
+}
+
+"Willfromafar.HolyShit"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_holyshit01.mp3"
+}
+
+"Willfromafar.Humiliation"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_humiliation01.mp3"
+}
+
+"Willfromafar.Impressive"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_willfromafar/willfromafar_impressive01.mp3"
+		"wave"			"vo/announcer_willfromafar/willfromafar_impressive02.mp3"
+	}
+}
+
+"Willfromafar.KillingSpree"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_killingspree01.mp3"
+}
+
+"Willfromafar.Rampage"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_rampage01.mp3"
+}
+
+"Willfromafar.Dominating"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_dominating01.mp3"
+}
+
+"Willfromafar.Unstoppable"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_unstoppable01.mp3"
+}
+
+"Willfromafar.GodLike"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_godlike01.mp3"
+}
+
+"Willfromafar.PowerupMassacre"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_powerupmassacre01.mp3"
+}
+
+"Willfromafar.ShowStopper"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_showstopper01.mp3"
+}
+
+"Willfromafar.FirstBlood"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_firstblood01.mp3"
+}
+
+"Willfromafar.Midair"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_midair01.mp3"
+}
+
+"Willfromafar.ShieldTakenSelf"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"1.000"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_shield01.mp3"
+}
+
+"Willfromafar.Revenge"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_revenge01.mp3"
+}
+
+"Willfromafar.LeadTaken"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_leadtaken01.mp3"
+}
+
+"Willfromafar.LeadLost"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_leadlost01.mp3"
+}
+
+"Willfromafar.LeadTiedt"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_leadtied01.mp3"
+}
+
+"Willfromafar.RoundStart"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_infection_roundstart01.mp3"
+}
+
+"Willfromafar.SomeoneDied"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_infection_someonedied01.mp3"
+}
+
+"Willfromafar.SurvivorsWin"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_infection_survivorswin01.mp3"
+}
+
+"Willfromafar.ZombiesWin"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_infection_zombieswin01.mp3"
+}
+
+"Willfromafar.3Wave" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_gamemode_3wave01.mp3"
+}
+
+"Willfromafar.CTF" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_gamemode_ctf01.mp3"
+}
+
+"Willfromafar.Deathmatch" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_gamemode_deathmatch01.mp3"
+}
+
+"Willfromafar.Duel" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_gamemode_duel01.mp3"
+}
+
+"Willfromafar.DuelJoinQueue" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"vo/announcer_willfromafar/willfromafar_duel_joinedqueue01.mp3"
+}
+
+"Willfromafar.DuelNext" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_duel_youarenext01.mp3"
+}
+
+"Willfromafar.Escort" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_gamemode_hunted01.mp3"
+}
+
+"Willfromafar.Infection" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_gamemode_infection01.mp3"
+}
+
+"Willfromafar.Instagib" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_willfromafar/willfromafar_gamemode_instagib01.mp3"
+		"wave"			"vo/announcer_willfromafar/willfromafar_gamemode_instagib02.mp3"
+	}
+}
+
+"Willfromafar.AM_LastManAlive"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	
+	"wave"		"vo/announcer_willfromafar/willfromafar_infection_lastman01.mp3"
+}
+
+"Willfromafar.PlayerDestruction" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_gamemode_pd01.mp3"
+}
+
+"Willfromafar.Push" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_willfromafar/willfromafar_gamemode_push01.mp3"
+		"wave"			"vo/announcer_willfromafar/willfromafar_gamemode_push_soccer01.mp3"
+		"wave"			"vo/announcer_willfromafar/willfromafar_gamemode_push_waterpolo01.mp3"
+	}
+}
+
+"Willfromafar.TDM" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_gamemode_tdm01.mp3"
+}
+
+"Willfromafar.GunGame" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_willfromafar/willfromafar_gamemode_gungame01.mp3"
+}
+
+// CTF/Invade
+
+"Willfromafar.CaptureFlag.EnemyCaptured" // Enemy has Capped
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"	"vo/announcer_willfromafar/willfromafar_yourflagcaptured01.mp3"
+}
+
+"Willfromafar.CaptureFlag.EnemyDropped" // Enemy Dropped the flag
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"	"vo/announcer_willfromafar/willfromafar_yourflagdropped01.mp3"
+}
+
+"Willfromafar.CaptureFlag.TeamReturned"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"	"vo/announcer_willfromafar/willfromafar_enemyflagreturned01.mp3"
+}
+
+"Willfromafar.CaptureFlag.EnemyStolen"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"	"vo/announcer_willfromafar/willfromafar_enemyhasflag01.mp3"
+}
+
+"Willfromafar.CaptureFlag.TeamCaptured"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"vo/announcer_willfromafar/willfromafar_enemyflagcaptured01.mp3"
+}
+
+"Willfromafar.CaptureFlag.TeamCapturedExcited"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"vo/announcer_willfromafar/willfromafar_enemyflagcaptured01.mp3"
+}
+
+"Willfromafar.CaptureFlag.TeamDropped"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"	"vo/announcer_willfromafar/willfromafar_enemyflagdropped01.mp3"
+}
+
+"Willfromafar.CaptureFlag.EnemyReturned"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"	"vo/announcer_willfromafar/willfromafar_yourflagreturned01.mp3"
+}
+
+"Willfromafar.CaptureFlag.TeamStolen"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"	"vo/announcer_willfromafar/willfromafar_youhaveflag01.mp3"
+}
+
+"Willfromafar.Resource.EnemyDropped"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"	"vo/announcer_willfromafar/willfromafar_enemyflagdropped01.mp3"
+}
+
+"Willfromafar.Resource.EnemyStolen"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"	"vo/announcer_willfromafar/willfromafar_enemyhasflag01.mp3"
+}
+ 
+"Willfromafar.Resource.EnemyReturned"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"	"vo/announcer_willfromafar/willfromafar_enemyflagreturned01.mp3"
+}
+
+"Willfromafar.Resource.TeamDropped"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"	"vo/announcer_willfromafar/willfromafar_yourflagdropped01.mp3"
+}
+
+"Willfromafar.Resource.TeamStolen"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"	"vo/announcer_willfromafar/willfromafar_youhaveflag01.mp3"
+}
+
+"Willfromafar.Resource.TeamReturned"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"	"vo/announcer_willfromafar/willfromafar_yourflagreturned01.mp3"
+}
+
+// Misc
+
+"Willfromafar.Laugh"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	
+	"wave"		"vo/announcer_willfromafar/willfromafar_laugh01.mp3"
+}
+
+"Willfromafar.ThatsGottaHurt"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+
+	"wave"		"vo/announcer_willfromafar/willfromafar_thatsgottahurt01.mp3"
 }

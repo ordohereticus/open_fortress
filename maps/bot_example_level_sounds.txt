@@ -1,0 +1,18 @@
+//By MrModez
+"MVMMusic.Robots"
+{
+	"Artist"		"ValveOrchestra"
+	"Name"			"Robots"
+	"wave"			"#music/robots.ogg"
+	
+	"intro"			"MVMMusic.RobotsIntro"
+}
+//By MrModez
+"MVMMusic.RobotsIntro"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"	"SNDLVL_140dB"
+	"pitch"			"PITCH_NORM"
+	"wave"			"#music/robots_intro.ogg"
+}

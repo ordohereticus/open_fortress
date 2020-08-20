@@ -473,8 +473,8 @@
 	"player_swap_weapons"
 	{
 		"playerid"		"short"
-		"current_wep"	"short"
-		"swap_wep"		"short"
+		"current_wep"	"string"
+		"swap_wep"		"string"
 	}
 	
 	"add_powerup_timer"

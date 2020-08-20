@@ -4350,6 +4350,7 @@
 		9 : "Engineer"
 		10 : "Mercenary"
 		11 : "Civilian"
+		12 : "Juggernaut"
 	]
 ]
 
@@ -7338,6 +7339,57 @@
     input AnnounceTeam(string) : "Make a team announcement. Format <teamname> <soundscript>"
 ]
 
+@PointClass base(BaseEntity) size(-8 -8 -8, 8 8 8) = of_auto_team : 
+    "Forces non bot spawner players to join a specific team." 
+[
+	AutoTeam(choices) : "Team" : 0 : "Team to force switch to" =
+	[
+		0 : "0 - Unassigned"
+		1 : "1 - Spectator"	
+		2 : "2 - RED"
+		3 : "3 - BLU"
+        4 : "4 - Mercenary"
+	]
+	
+	ExcludeAllBots(boolean) : "Exclude All Bots": 0 : "Makes bots that are spawned via tf_bot_add not force switch to this team, don't use this unless you know what you're doing."
+	DisableSpectating(boolean) : "Disable spectating": 0 : "Weather or not you should be allowed to switch to spectator."
+	
+	TeamResFiles(string) : "Override Team Menu" : "" : "If specified, changes the team menu res to this"
+]
+
+@PointClass base(BaseEntity, EnableDisable, Toggle) sphere(SpawnRadius) iconsprite("editor-ficool2/of_bot_spawner") = of_bot_spawner : 
+    "Spawns bots :)" 
+[
+    BotTemplate1(string): "Bot Template 1" : "" : "Template to use for spawning bots."
+	BotTemplate2(string): "Bot Template 2" : "" : "Template to use for spawning bots."
+	BotTemplate3(string): "Bot Template 3" : "" : "Template to use for spawning bots."
+	BotTemplate4(string): "Bot Template 4" : "" : "Template to use for spawning bots."
+	BotTemplate5(string): "Bot Template 5" : "" : "Template to use for spawning bots."
+	
+	TemplateNum(integer)		: "Default Template"	: 0  : "Sets which template should be used."
+	RandomizeTemplates(boolean)	: "Randomize Templates" : 0  : "If true, randomizes which template should be used for each bot."
+	WaveSize(integer)			: "Wave Size"           : 1  : "How many bots should spawn per wave."
+	WaveIntervals(float)		: "Wave Interval"       : -1 : "How long it should take before a wave respawns, setting it to -1 spawns it only once."
+	SpawnWhenCleared(boolean)	: "Spawn When Cleared"	: 0 : "If true, won't spawn the next wave untill the previous one is dead."
+	WavePreset(string)			: "Wave Preset"         : "" : "If set, it will use a wave preset to determine which bot template to use for how many bots."
+    
+	Target(target_destination) 	 : "Target Entity" : "" : "If set, makes the bots target a specific point to go to."
+	SpawnPoint(target_destination) : "Spawn Point"   : "" : "If set, spawns the bots around a targeted entity, instead of around the bot spawner."
+
+	SpawnRadius(float) : "Spawn Radius" : 256 : "Radius around which bots will spawn."
+	
+    input SpawnWave(void) 		: "Force spawn a wave, doesn't reset the wave interval"
+	input ResetInterval(void) 	: "Resets the time to spawn a wave"
+	input SetInterval(float) 	: "Sets the time it takes for waves to respawn"
+	input SetTemplate(integer) 	: "Changes which template is used to spawn bots"
+	input SetTarget(target_destination) 	: "Changes the targeted entity"
+	input KillAllBots(string) 	: "Kills all active bots"
+	
+	output OnAllBotsKilled(void) : "Fired when every bot is defeated."
+	output OnBotKilled(void)	 : "Fired every time a bot dies."
+	output OnBotsSpawned(void) : "Fired whenever a wave is spawned."
+]
+
 @PointClass base(BaseEntity) iconsprite("editor-ficool2/of_gamemode_dm") = of_logic_dm : 
 	"Sets the map to (Team) Deathmatch gamemode." 
 [
@@ -7434,7 +7486,7 @@
 	output OnHuntedDeath(void) : "Fired when a Hunted dies."
 ]
 
-@PointClass base(BaseEntity)  iconsprite("editor-ficool2/of_music_player") = of_music_player :    
+@PointClass base(BaseEntity, EnableDisable, Toggle)  iconsprite("editor-ficool2/ambient_generic") = of_music_player :    
     "Music handler Entity." 
 [
     Index(integer) : "Index" : 0 : "Index used to pull from MapData"
@@ -7442,8 +7494,8 @@
     
     LoopingSongName(sound): "Song Soundscript" : "" : "Song Soundscript, raw files don't work here"
 	
-	input SetVolume(float) : "Set the volume of the music player."
-	input AddVolume(float) : "Increments ( or decrements ) the music player volume."
+	input SetVolume(float) 	: "Set the volume of the music player."
+	input AddVolume(float) 	: "Increments ( or decrements ) the music player volume."
 ]
 
 @PointClass base(BaseEntity) iconsprite("editor-ficool2/dm_music_manager") = dm_music_manager :    
@@ -7460,7 +7512,23 @@
 @PointClass base(BaseEntity) iconsprite("editor-ficool2/of_logic_loadout") = of_logic_loadout : 
 	"Override a Class' default loadout." 
 [
-	Class(integer) : "Class" : 0 : "Which class this should apply to, leaving it at 0 means it affects all classes."
+	Class(choices) : "Class" : 0 : "Which class this should apply to, leaving it at 0 means it affects all classes." =
+	[
+		0 : "All"
+		1 : "Scout"
+		2 : "Sniper"
+		3 : "Soldier"
+		4 : "Demoman"
+		5 : "Medic"
+		6 : "Heavy"
+		7 : "Pyro"
+		8 : "Spy"
+		9 : "Engineer"
+		10 : "Mercenary"
+		11 : "Civilian"
+		12 : "Juggernaut"
+	]
+	
 	WeaponName01(string) : "Weapon 1" : : "Specify a weapon to be given."
 	WeaponName02(string) : "Weapon 2" : : "Specify a weapon to be given."
 	WeaponName03(string) : "Weapon 3" : : "Specify a weapon to be given."

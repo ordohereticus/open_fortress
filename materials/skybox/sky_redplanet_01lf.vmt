@@ -1,6 +1,5 @@
 "unlitgeneric"
 {
-	"$hdrcompressedTexture" "skybox/sky_redplanet_01_side"
 	"$nofog" "1"
 	"$ignorez" "1"
 	"$basetexture" "skybox/sky_redplanet_01_side"

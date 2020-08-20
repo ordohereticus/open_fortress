@@ -105,7 +105,7 @@
 		"ControlName" 	"CTFSelectionPanel"
 		"fieldName"		"CosmeticPanelToggle"
 		"xpos"			"r520"//P
-		"ypos"			"c52"
+		"ypos"			"c-129"
 		"zpos"			"2"
 		"wide"			"80"
 		"tall"			"45"
@@ -151,63 +151,12 @@
 		}
 	}
 
-	"ArsenalPanelToggle"
-	{
-		"ControlName" 	"CTFSelectionPanel"
-		"fieldName"		"ArsenalPanelToggle"
-		"xpos"			"r520"//P
-		"ypos"			"c140"
-		"zpos"			"2"
-		"wide"			"80"
-		"tall"			"45"
-		"autoResize"	"0"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"proportionalToParent"	"1"
-		"panel"	"ArsenalPanel"
-		"XAdjustment" "30"
-		"YAdjustment" "0"
-
-		"border_idle"		"LoadoutPanelToggleBorder"
-		"border_hover" 		"LoadoutPanelToggleBorder"
-		"border_pressed" 	"LoadoutPanelToggleBorder"
-		"border_selected" 	"LoadoutPanelToggleBorder"			
-		
-		"Button"
-		{
-			"fieldName"		"Button"
-			"wide"			"100"
-			"tall"			"100"
-			"xpos"			"c-50"
-			"ypos"			"c-50"
-			"visible"		"1"
-			"zpos"			"10"				
-			"proportionalToParent"	"1"
-		}
-
-		"Image"
-		{
-			"image"					"loadout\arse_icon"
-			"wide"					"32"
-			"tall"					"32"
-			"xpos"					"6"
-			"ypos"					"c-16"
-			"zpos"					"1"
-			"visible"				"1"
-			"scaleImage"			"1"
-			"proportionalToParent"	"1"
-		}
-	}
-
 	"VisualPanelToggle"
 	{
 		"ControlName" 	"CTFSelectionPanel"
 		"fieldName"		"VisualPanelToggle"
 		"xpos"			"r520"//P
-		"ypos"			"c96"
+		"ypos"			"c-84"
 		"zpos"			"2"
 		"wide"			"80"
 		"tall"			"45"
@@ -253,6 +202,56 @@
 		}
 	}
 	
+	"ArsenalPanelToggle"
+	{
+		"ControlName" 	"CTFSelectionPanel"
+		"fieldName"		"ArsenalPanelToggle"
+		"xpos"			"r520"//P
+		"ypos"			"c-40"
+		"zpos"			"2"
+		"wide"			"80"
+		"tall"			"45"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"proportionalToParent"	"1"
+		"panel"	"ArsenalPanel"
+		"XAdjustment" "30"
+		"YAdjustment" "0"
+
+		"border_idle"		"LoadoutPanelToggleBorder"
+		"border_hover" 		"LoadoutPanelToggleBorder"
+		"border_pressed" 	"LoadoutPanelToggleBorder"
+		"border_selected" 	"LoadoutPanelToggleBorder"			
+		
+		"Button"
+		{
+			"fieldName"		"Button"
+			"wide"			"100"
+			"tall"			"100"
+			"xpos"			"c-50"
+			"ypos"			"c-50"
+			"visible"		"1"
+			"zpos"			"10"				
+			"proportionalToParent"	"1"
+		}
+
+		"Image"
+		{
+			"image"					"loadout\arse_icon"
+			"wide"					"32"
+			"tall"					"32"
+			"xpos"					"6"
+			"ypos"					"c-16"
+			"zpos"					"1"
+			"visible"				"1"
+			"scaleImage"			"1"
+			"proportionalToParent"	"1"
+		}
+	}
 	"MainSelectionHandle"
 	{
 		"ControlName"	"CTFSelectionManager"
@@ -350,7 +349,7 @@
 			"tall"			"310"
 			"visible"		"1"
 			"enabled"		"1"
-			"CollumnSpacing" "20"
+			"CollumnSpacing" "10"
 			"RowSpacing"	 "10"
 			
 			"ScrollBar"
@@ -651,7 +650,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"border"		 "InnerShadowBorder"
-			"CollumnSpacing" "18"
+			"CollumnSpacing" "8"
 			"RowSpacing"	 "17"
 			"element_width"  "82"
 			"element_height" "60"
@@ -740,7 +739,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"border"		 "InnerShadowBorder"
-			"CollumnSpacing" "10"
+			"CollumnSpacing" "8"
 			"RowSpacing"	 "10"
 			"element_width"  "50"
 			"element_height" "50"
@@ -786,7 +785,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"border"		 "InnerShadowBorder"
-			"CollumnSpacing" "10"
+			"CollumnSpacing" "8"
 			"RowSpacing"	 "10"
 			"element_width"  "50"
 			"element_height" "50"
@@ -1311,8 +1310,8 @@
 			"angles_y" "210"
 			"angles_z" "0"
 			"origin_x" "500" //500
-			"origin_y" "60"
-			"origin_z" "-40"
+			"origin_y" "65"
+			"origin_z" "-45"
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
@@ -1350,6 +1349,11 @@
 			{
 				"name"		"ROCKETLAUNCHER"
 				"activity"	"ACT_MERC_LOADOUT_ROCKETLAUNCHER"
+			}
+			"animation"
+			{
+				"name"		"CHAINSAW"
+				"activity"	"ACT_MERC_LOADOUT_CHAINSAW"
 			}
 		}
 	}

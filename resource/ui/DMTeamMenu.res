@@ -1,4 +1,4 @@
-"Resource/UI/TeamMenu.res"
+"Resource/UI/DMTeamMenu.res"
 {
 	"team"
 	{
@@ -61,6 +61,22 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"1"
+	}
+	
+	"teambutton1"
+	{
+		"ControlName"	"CTFTeamButton"
+		"fieldName"		"teambutton1"
+		"visible"		"0"
+		"enabled"		"0"
+	}
+	
+	"teambutton0"
+	{
+		"ControlName"	"CTFTeamButton"
+		"fieldName"		"teambutton0"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"teambutton2"

@@ -1,0 +1,253 @@
+"MapData"
+{
+	"BotTemplates"
+	{
+		"MVM_Demo"
+		{
+			"Team" 		"Blue"
+			"Class" 	"Demoman"
+			"Weapons" 	"tf_weapon_grenadelauncher_single"
+			"Health"	"90"
+			"Speed"		"100"
+			"Cosmetics"	"5"
+			"Model" 	"models/bots/demo/bot_demo.mdl"
+			
+			"ResponseCriteria"
+			{
+				"playermutator"	"robot"
+			}
+		}
+		
+		"MVM_Soldier"
+		{
+			"Team" 		"Blue"
+			"Class" 	"Soldier"
+			"Weapons" 	"tf_weapon_rocketlauncher_single"
+			"Health"	"90"
+			"Speed"		"100"
+			"Cosmetics"	"5"
+			"Model" 	"models/bots/soldier/bot_soldier.mdl"
+			
+			"ResponseCriteria"
+			{
+				"playermutator"	"robot"
+			}
+		}
+		
+		"MVM_Scout"
+		{
+			"Team" 		"Blue"
+			"Class" 	"Scout"
+			"Weapons" 	"tf_weapon_bat"
+			"Health"	"30"
+			"Speed"		"300"
+			"Cosmetics"	"51 21 20"
+			"Model" 	"models/bots/scout/bot_scout.mdl"
+			
+			"DropItems"
+			{
+				"item_healthkit_small"	"teamnum 2"
+			}
+			
+			"ResponseCriteria"
+			{
+				"playermutator"	"robot"
+			}
+		}
+
+		"MVM_Giant"
+		{
+			"Team" 		 "Blue"
+			"Class" 	 "heavyweapons"
+			"Weapons" 	 "tf_weapon_big_shotgun"
+			"Health"	 "500"
+			"Speed"		 "100"
+			"ModelScale" "2"
+			"Cosmetics"	  "66 68"
+			"Model"			"models/bots/heavy/bot_heavy.mdl"
+			
+			"DropItems"
+			{
+				"dm_weapon_spawner" "teamnum 2 weaponname tf_weapon_big_shotgun_reward"
+				"item_ammopack_medium"	"teamnum 2"
+			}
+			
+			"ResponseCriteria"
+			{
+				"playermutator"	"robot"
+			}
+		}
+		
+		"Sneak_Guard_Outside"
+		{
+			"Name"		"Terry the Nightwatch"
+			"Team" 		"Blue"
+			"Class" 	"Mercenary"
+			"Weapons" 	"tf_weapon_shotgun_stealth"
+			"Health"	"10"
+			"Speed"		"200"
+			"Cosmetics"	"53 54 67 35"
+			"Model" 	"models/player/robotdm/robotdm.mdl"
+
+			"DropItems"
+			{
+				"dm_weapon_spawner" "teamnum 2 weaponname tf_weapon_shotgun"
+			}
+			
+			"ResponseCriteria"
+			{
+				"playermutator"	"robot"
+			}
+		}
+		
+		"Sneak_Guard_Waiting"
+		{
+			"Name"		"Mall Security"
+			"Team" 		"Blue"
+			"Class" 	"Mercenary"
+			"Weapons" 	"tf_weapon_crowbar"
+			"Health"	"40"
+			"Speed"		"200"
+			"Cosmetics"	"53 54 67"
+			"Model" 	"models/player/robotdm/robotdm.mdl"
+			
+			"ResponseCriteria"
+			{
+				"playermutator"	"robot"
+			}
+		}
+		
+		"Sneak_Guard_Alerted"
+		{
+			"Name"		"The literal US Navy"
+			"Team" 		"Blue"
+			"Class" 	"Mercenary"
+			"Weapons" 	"tf_weapon_smg"
+			"Health"	"85"
+			"Speed"		"320"
+			"Cosmetics"	"53 54 67 71"
+			"Model" 	"models/player/robotdm/robotdm.mdl"
+			
+			"ResponseCriteria"
+			{
+				"playermutator"	"robot"
+			}
+		}
+		
+		"Red_Gladiator_Demo"
+		{
+			"Team" 		"Red"
+			"Class" 	"Demoman"
+			"Weapons" 	"tf_weapon_sword"
+			"Cosmetics"	"76 36"
+			"Model" 	"models/bots/demo/bot_demo.mdl"
+			
+			"ResponseCriteria"
+			{
+				"playermutator"	"robot"
+			}
+		}
+		
+		"Red_Gladiator_Heavy"
+		{
+			"Team" 		"Red"
+			"Class" 	"heavyweapons"
+			"Weapons" 	"tf_weapon_box"
+			"Cosmetics"	"4"
+			"Model" 	"models/bots/heavy/bot_heavy.mdl"
+			
+			"ResponseCriteria"
+			{
+				"playermutator"	"robot"
+			}
+		}
+		
+		"Red_Gladiator_Scout"
+		{
+			"Team" 		"Red"
+			"Class" 	"Scout"
+			"Weapons" 	"tf_weapon_bat"
+			"Cosmetics"	"74 48"
+			"Model" 	"models/bots/scout/bot_scout.mdl"
+			
+			"ResponseCriteria"
+			{
+				"playermutator"	"robot"
+			}
+		}
+		
+		"Blue_Gladiator_Spy"
+		{
+			"Team" 		"Blue"
+			"Class" 	"Sniper"
+			"Weapons" 	"tf_weapon_knife"
+			"Speed"		"420"
+			"Health"	"90"
+			"Cosmetics"	"71"
+			"Model" 	"models/bots/spy/bot_spy.mdl"
+			
+			"ResponseCriteria"
+			{
+				"playermutator"	"robot"
+			}
+		}
+		
+		"Blue_Gladiator_Pyro"
+		{
+			"Team" 		"Blue"
+			"Class" 	"Pyro"
+			"Weapons" 	"tf_weapon_fireaxe"
+			"Speed"		"300"
+			"Health"	"400"
+			"Cosmetics"	"73 50"
+			"Model" 	"models/bots/pyro/bot_pyro.mdl"
+			
+			"ResponseCriteria"
+			{
+				"playermutator"	"robot"
+			}
+		}
+		
+		"Blue_Gladiator_Chainsaw"
+		{
+			"Team" 		"Blue"
+			"Class" 	"Soldier"
+			"Weapons" 	"tf_weapon_crowbar_fast"
+			"Speed"		"420"
+			"Health"	"65"
+			"Cosmetics"	"46 54"
+			"ModelScale" "0.4"
+			"Model" 	"models/player/robotdm/robotdm.mdl"
+			
+			"ResponseCriteria"
+			{
+				"playermutator"	"robot"
+			}
+		}
+	}
+	
+    "WavePresets"
+    {
+      "Wave_MvM"
+      {
+		"MVM_Demo"  	"2"
+		"MVM_Soldier"	"2"
+		"MVM_Scout"		"3"
+		"MVM_Giant"		"1"
+      }
+
+      "Gladiator_Red"
+      {
+		"Red_Gladiator_Demo"  	"2"
+		"Red_Gladiator_Heavy"	"2"
+		"Red_Gladiator_Scout"	"4"
+      }
+	  
+      "Gladiator_Blue"
+      {
+		"Blue_Gladiator_Spy"  	"2"
+		"Blue_Gladiator_Pyro"	"2"
+		"Blue_Gladiator_Chainsaw"	"6"
+      }
+	}
+}
