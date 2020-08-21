@@ -14,11 +14,11 @@ WeaponData
 	"BulletsPerShot"		"6"
 	"Spread"			"0.0675"
 	"PunchAngle"			"2.0"
-	"TimeFireDelay"			"0.7"
+	"TimeFireDelay"			"0.5"
 	"TimeIdle"			"5.0"
 	"TimeIdleEmpty"			"0.25"
 	"TimeReloadStart"		"0.1"
-	"TimeReload"			"0.425"
+	"TimeReload"			"0.375"
 	
 	"primary_ammo"		"WEAPON_AMMO"
 	"clip_size"			"8"
