@@ -9,41 +9,79 @@
 
 	"$yellow" "0"
 	
-	"$ReserveAmmoMult" "0"
-	"$Reserve2MultAmount" "-1"
-	"$ReserveAmmoMult2" "0"
+	"$Curtime" "0.0"
+	"$Ramp" "0.0"
+	"$BaseRamp" "0.0"
 	
-	"$translatetransform" "translate 10 10"
+	"$Buildup" "0.0"
+	"$BuildupMatrix" "{0.1 0.1}"
+	"$Buildup2" "0"
+	"$BuildupMult" "0.1"
+	"$BuildupMult2" "0"
+	
+	"$test"	"0.1"
+	"$maxbuild" "25"
+	"$ratio" "0.0"
+	
+	"$angle" "0.0"
+    "$translate" "[0.0 0.0]"
+	"$tempscale" "[1 1]"
+    "$center" "[0.5 0.5]"
 	
 	"Proxies"
 	{	
-		"ReserveAmmo"
+		"DamageBuildup"
 		{
-			"resultVar" "$ReserveAmmoMult"
+			"resultVar" "$Buildup"
 		}
-		"Equals"
+		"Divide"
 		{
-			"srcVar1"  "$ReserveAmmoMult"
-			"resultVar" "$basetexturetransform"
+			"srcVar1" "$Buildup"
+			"srcVar2" "$maxbuild"
+			"resultVar" "$ratio"
+		}
+		"Clamp"
+		{
+			"min"	"0.1"
+			"srcVar1" "$ratio"
+			"resultVar" "$ratio"
+		}
+		"Divide"
+		{
+			"srcVar1" "$test"
+			"srcVar2" "$ratio"
+			"resultVar" "$tempscale[1]"
 		}
 		"Multiply"
 		{
-			"srcVar1"  "$ReserveAmmoMult"
-			"srcVar2"  "$Reserve2MultAmount"
-			"resultVar" "$ReserveAmmoMult2"		
+			"srcVar1"	"$Buildup"
+			"srcVar2"	"$BuildupMult"
+			"resultVar" "$Buildup"
 		}
-		"TextureScroll"
+		"Clamp"
 		{
-		"texturescrollvar" "$texture2transform"
-		"texturescrollrate" "$ReserveAmmoMult2"
-		"texturescrollangle" 0
+			"min"		"0.2"
+			"srcVar1" "$Buildup"
+			"resultVar" "$Buildup"
 		}
-		"TextureScroll"
-		{
-		"texturescrollvar" "$basetexturetransform"
-		"texturescrollrate" "$ReserveAmmoMult"
-		"texturescrollangle" 0
-		}
+        "Vault"
+        {
+            "srcVar1" "$Buildup"
+            "resultVar" "$Buildup"
+        }
+        "Equals"
+        {
+            "srcVar1" "$Buildup"
+            "resultVar" "$translate[0]"
+        }		
+        "TextureTransform"
+        {
+			"centerVar"		"$center"
+			"scaleVar"		"$tempscale"
+            "translateVar" "$translate"
+            "resultVar" "$baseTexturetransform"
+        }	
+
 		"ModelGlowColor"
 		{
 			"resultVar" "$glowcolor"
