@@ -13,7 +13,7 @@ WeaponData
 	"DamageRadius"		"5"
 	"BulletsPerShot"	"1"
 	"Spread"		"0.02"
-	"TimeFireDelay"		"2.4"
+	"TimeFireDelay"		"1.6"
 	"TimeIdle"		"1"
 	"TimeIdleEmpty"		"1"
 	"TimeReload"		"0.01"
