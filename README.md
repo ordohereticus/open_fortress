@@ -2,12 +2,12 @@
 An unofficial mirror of the OpenFortress SVN. Includes easy installation (No SVN checkout required, just clone or download the zip and rename it)
 
 # Download the Game
-Note: 1.6 GB download
+Note: 1+ GB download
 
 ## I have Git installed already
 - Open sourcemods folder
 - Open Git Bash in this folder
-- Run `git clone --depth 1 https://github.com/mastermindsintl/open_fortress.git`
+- Run `git clone --depth 1 https://github.com/ordohereticus/open_fortress.git`
 - Launch from Steam
 
 ## I do not have Git installed
@@ -25,7 +25,7 @@ Note: 1.6 GB download
 - Run "git pull"
 
 ## Via .zip File
-- Redownload the .zip file from this url: "https://github.com/mastermindsintl/open_fortress/archive/master.zip"
+- Redownload the .zip file from this url: "https://github.com/ordohereticus/open_fortress/archive/master.zip"
 - Extract and rename folder
 
 **NOTE:** This will overwrite your existing settings!
