@@ -8574,9 +8574,9 @@
 
 	"rndwave"
 	{
-		"wave"			"vo/announcer_arenamaster/announcer_timeleft_1min.mp3"
-		"wave"			"vo/announcer_arenamaster/announcer_timeleft_1min_alt.mp3"
-		"wave"			"vo/announcer_arenamaster/announcer_timeleft_1min_alt2.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_timeleft_1min.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_timeleft_1min_alt.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_timeleft_1min_alt2.mp3"
 	}
 }
 
@@ -9055,9 +9055,14 @@
 		"wave"			"vo/announcer_arenamaster/arenamaster_crit01.mp3"
 		"wave"			"vo/announcer_arenamaster/arenamaster_crit02.mp3"
 		"wave"			"vo/announcer_arenamaster/arenamaster_crit03.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_quaddamage01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_quaddamage02.mp3"
 		"wave"			"vo/announcer_arenamaster/arenamaster_crit_spawned01.mp3"
 		"wave"			"vo/announcer_arenamaster/arenamaster_crit_spawned02.mp3"
 		"wave"			"vo/announcer_arenamaster/arenamaster_crit_spawned03.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_quaddamage_spawned01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_quaddamage_spawned02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_quaddamage_spawned03.mp3"
 	}
 }
 
@@ -9085,6 +9090,9 @@
 		"wave"			"vo/announcer_arenamaster/arenamaster_crit_spawning01.mp3"
 		"wave"			"vo/announcer_arenamaster/arenamaster_crit_spawning02.mp3"
 		"wave"			"vo/announcer_arenamaster/arenamaster_crit_spawning03.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_quaddamage_spawning01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_quaddamage_spawning02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_quaddamage_spawning03.mp3"
 	}
 }
 
@@ -9100,6 +9108,8 @@
 	{
 		"wave"			"vo/announcer_arenamaster/arenamaster_crit_taken01.mp3"
 		"wave"			"vo/announcer_arenamaster/arenamaster_crit_taken02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_quaddamage_taken01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_quaddamage_taken02.mp3"
 	}
 }
 
@@ -9115,6 +9125,9 @@
 	{
 		"wave"			"vo/announcer_arenamaster/arenamaster_crit_youtook01.mp3"
 		"wave"			"vo/announcer_arenamaster/arenamaster_crit_youtook02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_quaddamage_youtook01.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_quaddamage_youtook02.mp3"
+		"wave"			"vo/announcer_arenamaster/arenamaster_quaddamage_youtook03.mp3"
 	}
 }
 
@@ -10003,10 +10016,10 @@
 	"soundlevel"		"SNDLVL_95dB"
 	"rndwave"			
 	{
-		"wave"		"vo/announcer_benja/announcer_infection_lastman01.mp3"
-		"wave"		"vo/announcer_benja/announcer_infection_lastman02.mp3"
-		"wave"		"vo/announcer_benja/announcer_infection_lastman03.mp3"
-		"wave"		"vo/announcer_benja/announcer_infection_lastman04.mp3"
+		"wave"		"vo/announcer_arenamaster/arenamaster_infection_lastman01.mp3"
+		"wave"		"vo/announcer_arenamaster/arenamaster_infection_lastman02.mp3"
+		"wave"		"vo/announcer_arenamaster/arenamaster_infection_lastman03.mp3"
+		"wave"		"vo/announcer_arenamaster/arenamaster_infection_lastman04.mp3"
 	}
 }
 
