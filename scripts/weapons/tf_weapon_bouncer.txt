@@ -19,6 +19,7 @@ WeaponData
 	"TimeIdle"			"0.6"
 	"TimeIdleEmpty"		"0.6"
 	"TimeReload"		"0.6"
+	"FuseTime"		"2"
 	
 	"ProjectileModel"	"models/weapons/w_models/w_grenade_bouncer.mdl"
 	
