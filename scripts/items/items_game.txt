@@ -2210,7 +2210,7 @@
 				"Damage"		"20"
 				"Range"			"8192"
 				"BulletsPerShot"	"1"
-				"Spread"		"0.04"
+				"Spread"		"1.5"
 				"TimeFireDelay"		"0.115"
 				"TimeReload"		"1.37"
 				"UseRapidFireCrits"	"1"
