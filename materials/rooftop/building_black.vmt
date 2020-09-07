@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture"	"rooftop\building_black"
+	"$selfillum" 1
+	"$selfillummask"	"rooftop\building_black"
+
+}

@@ -1,0 +1,21 @@
+"Water"
+{
+	"%keywords" "tf"
+		
+	"%tooltexture" "tools/toolsfogwater"
+	"%compilewater" 1
+	"$refract" "0"
+	"$refracttexture" "_rt_WaterRefraction"
+	"$refractamount"	"0"
+
+	"$abovewater" 1
+
+	"$scale" "[1 1]"
+
+	"$fogenable" 1
+	"$fogcolor" "{119 120 119}"
+	"$fogstart" "200"
+	"$fogend" "2000"
+
+
+}

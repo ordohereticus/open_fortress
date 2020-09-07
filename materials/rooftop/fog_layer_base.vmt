@@ -1,0 +1,17 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "rooftop/fog_layer"
+	"$translucent" 1
+	"$additive" "1"
+	"$nocull" "1"
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$baseTexturetransform"
+			"texturescrollrate" .01
+			"texturescrollangle" 90
+		}
+	}
+}
+
