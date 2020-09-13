@@ -2571,6 +2571,7 @@
 				"BrassModel"		"models/weapons/shells/shell_pistol.mdl"
 				"UseRapidFireCrits"	"1"
 				"TracerEffect"		"bullet_pistol_tracer01"
+				"SwapFireAnims" 	"1"
 
 				// Ammo & Clip.
 				"primary_ammo"		"WEAPON_AMMO"
