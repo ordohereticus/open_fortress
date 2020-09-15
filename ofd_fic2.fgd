@@ -2381,10 +2381,27 @@
 	output OnCommentaryMultiplayerSpawn(void) : "Fires when the MultiplayerSpawned input is used."
 ]
 
-@SolidClass base(BaseEntityBrush, EnableDisable) = dispenser_touch_trigger :
+@SolidClass base(BaseEntityBrush, EnableDisable, Trigger) = dispenser_touch_trigger :
     "Trigger for a dispenser healing bounds."
 [
 	StartDisabled(boolean) : "Start Disabled?" : 0 : "NOTE: This entity only controls healing zone. Disabling it will still allow ammo resupply."
+]
+
+@PointClass base(BaseEntityPoint, Angles, TeamNum) iconsprite("editor/bullseye.vmt") = mapobj_cart_dispenser : 
+	"TF2 Dispenser" 
+[
+	spawnflags(flags) =
+	[
+		4: "Ignore line of sight check" : 1
+		8: "Don't heal disguised/stealthed spies" : 1
+	]
+	
+	touch_trigger(target_destination) : "Custom Touch Trigger"
+	
+	input FireHalloweenBonus(integer) : "Trigger bonus effect on players near this dispenser"
+	input SetDispenserLevel(integer) : "Set the dispenser level: 1, 2, or 3"
+	input Enable(void) : "Enable this entity."
+	input Disable(void) : "Disable this entity."
 ]
 
 @PointClass base(Item, CondID) size(-1 -1 -16, 1 1 1) studioprop() = dm_powerup_spawner :	
@@ -8805,6 +8822,12 @@
 	fogstart(string) : "Fog Start" : "500.0" : "Distance at which the fog should start."
 	fogend(string) : "Fog End" : "2000.0" : "Distance at which the fog should be fully opaque."
 	fogmaxdensity(float) : "Fog Max Density" : "1" : "Maximum density of the fog. [0..1] "
+]
+
+@PointClass base(BaseAnimating) studioprop("models/effects/cappoint_hologram.mdl") = personal_control_point :
+	"Designates the location of a capture point; use in conjunction with trigger_capture_area. There is a maximum of 8 control points per map."
+[
+
 ]
 
 @PointClass base(BaseAnimating) studioprop("models/effects/cappoint_hologram.mdl") = team_control_point :
