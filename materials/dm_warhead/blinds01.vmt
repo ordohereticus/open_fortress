@@ -1,0 +1,17 @@
+"LightmappedGeneric"
+{
+	// "$baseTexture" "Wood/wood_floor003"
+	"$baseTexture" "dm_warhead/blinds01"
+	"$surfaceprop" "wood"
+	"%keywords" "tf"
+	// "$detail" "overlays/detail006"
+	// "$detailscale" "1"
+	// "$detailblendmode" "0"
+	// "$detailblendfactor" "1"
+	
+	$selfillum 1
+	//$selfillumtint "[ 0.6 0.6 0.6]"
+	
+	//$color "[ 3.0 2.8 2.4 ]"
+	//$color "[ 60.0 50.8 50.4 ]"
+}

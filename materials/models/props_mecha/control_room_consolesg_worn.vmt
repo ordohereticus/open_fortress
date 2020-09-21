@@ -1,4 +1,5 @@
 "VertexlitGeneric"
 {
 	"$baseTexture" "models/props_mecha/control_room_consolesg_worn"
+	"$nodecal" "1"
 }

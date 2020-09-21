@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture" "Tools/toolsblack"
+	"%compileNoLight" 1
+	$nodecal 1
+
+	"%keywords" "tf"
+}

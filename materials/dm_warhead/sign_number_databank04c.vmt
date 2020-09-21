@@ -1,0 +1,15 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "signs/sign_number_databank04"
+	"$decal" "1"
+	"$decalscale" "1"
+	"$translucent" "1"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	"%keywords" "tf"
+	
+	$alpha 0.6
+	$color "[ 0.30 0.06 0.04 ]"
+	
+	//yoink
+}

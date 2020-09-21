@@ -1,0 +1,10 @@
+ "LightmappedGeneric"
+{
+"$basetexture" "spillway_event/toolsblockbulletsmetal"
+"$translucent" 1
+"$nodecal" 1
+"$surfaceprop" "metal"
+"%compileNodraw" 1
+"%compileDetail" 1
+"%keywords" "tf,Tools"
+}

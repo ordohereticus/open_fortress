@@ -1,8 +1,8 @@
 "LightmappedGeneric"
 {
-	"$baseTexture" "pont_signature_sign/greendragon_steelworks"
-        "$decal" 1
-	"$decalscale" 1
+	"$baseTexture" "signs/sign_pont"
+	"$decal" 1
+	"$decalscale" .25
 	"$translucent" 1
 	"$vertexcolor" "1"
 	"$vertexalpha" "1"

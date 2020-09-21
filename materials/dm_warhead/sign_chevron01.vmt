@@ -1,0 +1,13 @@
+"LightmappedGeneric"
+{
+"$basetexture" "dm_warhead/sign_chevron01"
+"$decal" 1
+"$decalscale" 0.25
+	"$translucent" 1
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	$alpha 0.4
+"%keywords" "tf"
+
+$color "[ 0.13 0.041 0.031 ]"	
+}

@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Metal/metaldoor001"
+	"$bumpmap" "Metal/metaldoor001_normal"
+	"$surfaceprop" "rubber"
+	"%keywords" "tf"
+	
+	$color "[ 2.0 1.8 1.4 ]"
+}

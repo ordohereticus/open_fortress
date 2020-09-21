@@ -1,0 +1,10 @@
+ "LightmappedGeneric"
+{
+"$basetexture" "spillway_event/toolsblockbulletswood_nd"
+"$translucent" 1
+"$nodecal" 1
+"$surfaceprop" "Wood"
+"%compileNodraw" 1
+//"%compileDetail" 1
+"%keywords" "tf,Tools"
+}

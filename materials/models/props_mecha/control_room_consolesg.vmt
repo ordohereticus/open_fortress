@@ -2,18 +2,6 @@
 {
 	"$basetexture" "models/props_mecha/control_room_consolesg"
 	"$selfillum" 1
+	"$selfillummask" 	"Models/props_mecha/control_room_consolesg_selfillum"
 	"$nodecal" "1"
-
-	// Use separate self-illum mask on Pre DX9 hardware
-	">=DX90"
-	{
-		"$baseTexture" 		"models/props_mecha/control_room_consolesg"
-		"$selfillummask" 	"Models/props_mecha/control_room_consolesg_selfillum"
-	}
-
-	// Use redundant self-illum in base alpha on Pre DX9 hardware
-	"<DX90"
-	{
-		"$baseTexture" 	"models/props_mecha/control_room_consolesg"
-	}
 }

@@ -1,0 +1,15 @@
+"LightMappedGeneric"
+{
+	"$basetexture"	"Concrete/concretewall011"
+	"%keywords" "tf"
+	"$detail" "overlays/detail001"
+	"$detailscale" "1.9"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "1"
+	
+	//$color "[ 0.36 0.207 0.171 ]"		//avg concretefloor004 rgb/256
+	//$color "[ 0.36 0.107 0.071 ]"		//ooh this looks nice but its not what im going for
+	$color "[ 0.23 0.071 0.051 ]"		//PAINSTAKING manual adjust
+	
+	//$color "[ 0.109 0.032 0.021 ]"	//gamma adjust ???
+}
