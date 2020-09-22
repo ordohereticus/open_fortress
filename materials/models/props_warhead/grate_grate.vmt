@@ -1,0 +1,7 @@
+"VertexLitGeneric" {
+	"$basetexture" "Metal/metalgrate013a"
+	"$surfaceprop" "metalgrate"
+	"$translucent" 1
+	"$nodecal" "1"
+	"$nocull" "1"
+}

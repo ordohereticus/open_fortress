@@ -1,0 +1,5 @@
+"VertexLitGeneric" {
+	"$basetexture" "Dev/reflectivity_10b"
+	"$surfaceprop" "metal"
+	"$color" "[ 0.4 0.4 0.4 ]"
+}

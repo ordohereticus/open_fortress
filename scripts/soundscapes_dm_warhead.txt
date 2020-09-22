@@ -1,0 +1,376 @@
+
+	// warhead.vent
+		// pos0 	lair_vent2
+
+	// warhead.silo
+	// warhead.siloBeneath
+		
+	// warhead.generic
+		// pos0		machine
+		// pos1		machine
+		// pos2		machine
+		// pos3		underground ambient
+		// pos4		big fan
+		// pos5		pc tape
+		// pos6		pc beeps
+		// pos7		pc tape
+		
+	// warhead.spytech
+		// pos0 	machine
+		// pos1		pc tape
+		// pos2		pc beeps
+		// pos3		pc tape
+
+"warhead.vent"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/underground.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".8"
+		"pitch"		"100"
+		"wave"		"ambient/windwinter.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient\machines\city_ventpump_loop1.wav"
+	}
+
+	"playrandom"
+	{
+		"time"		"0,4"
+		"volume"	".6"
+		"pitch"		"100"
+		"rndwave"
+		{
+			"wave"		"ambient\wind\windgust.wav"
+			"wave"		"ambient\wind\windgust_strong.wav"
+			"wave"		"ambient\wind\wind_hit1.wav"
+			"wave"		"ambient\wind\wind_hit2.wav"
+			"wave"		"ambient\wind\wind_hit3.wav"
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"		"100"
+		"position"		"0"
+		"attenuation"	"0.7"	
+		"wave"		"ambient\lair\ac_vent2.wav"
+	}
+}
+
+"warhead.silo"
+{
+	//"dsp"	"1"		//generic
+	"dsp"	"19"	//concrete large	
+
+
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient\windwinterinside.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".5"
+		"pitch"		"100"
+		"wave"		"ambient/indoors.wav"
+	}
+	"playlooping"
+	{
+		"volume"	".4"
+		"pitch"		"100"
+		"wave"		"ambient/underground.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".10"
+		"pitch"		"100"
+		"wave"		"ambient/lighthum.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".20"
+		"pitch"		"100"
+		"wave"		"ambient/machine_hum2.wav"
+	}
+	
+		"playrandom"
+		{
+			"time"		"10,20"
+			"volume"	"0.1,0.3"
+			"pitch"		"90,105"
+
+			"position"	"0"
+
+			"rndwave"
+			{
+				"wave"	"ambient\atmosphere\hole_hit3.wav"
+				"wave"	"ambient\dm_wiseau\metal_hit01.wav"
+				"wave"	"ambient\dm_wiseau\metal_hit02.wav"
+				"wave"	"ambient\dm_wiseau\metal_hit03.wav"
+				"wave"	"ambient\creak03.wav"
+			}
+		}
+}
+
+"warhead.siloBeneath"
+{
+	//"dsp"	"1"		//generic
+	"dsp"	"19"	//concrete large	
+
+
+	"playlooping"
+	{
+		"volume"	".4"
+		"pitch"		"100"
+		"wave"		"ambient\windwinterinside.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".5"
+		"pitch"		"100"
+		"wave"		"ambient/indoors.wav"
+	}
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/underground.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".15"
+		"pitch"		"100"
+		"wave"		"ambient/lighthum.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".25"
+		"pitch"		"100"
+		"wave"		"ambient/machine_hum2.wav"
+	}
+	
+		"playrandom"
+		{
+			"time"		"10,20"
+			"volume"	"0.1,0.4"
+			"pitch"		"90,105"
+
+			"position"	"0"
+
+			"rndwave"
+			{
+				"wave"	"ambient\atmosphere\hole_hit3.wav"
+				"wave"	"ambient\dm_wiseau\metal_hit01.wav"
+				"wave"	"ambient\dm_wiseau\metal_hit02.wav"
+				"wave"	"ambient\dm_wiseau\metal_hit03.wav"
+				"wave"	"ambient\creak03.wav"
+			}
+		}
+}
+
+"warhead.generic"
+{
+	"dsp"	"1"
+
+
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/indoors.wav"
+	}
+	"playlooping"
+	{
+		"volume"	".3"
+		"pitch"		"100"
+		"wave"		"ambient/underground.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".20"
+		"pitch"		"100"
+		"wave"		"ambient/lighthum.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".30"
+		"pitch"		"100"
+		"wave"		"ambient/machine_hum2.wav"
+	}
+	
+		"playrandom"
+		{
+			"time"		"10,20"
+			"volume"	"0.2,0.4"
+			"pitch"		"90,105"
+
+			"position"	"0"
+
+			"rndwave"
+			{
+				"wave"	"ambient\atmosphere\hole_hit3.wav"
+				"wave"	"ambient\dm_wiseau\metal_hit01.wav"
+				"wave"	"ambient\dm_wiseau\metal_hit02.wav"
+				"wave"	"ambient\dm_wiseau\metal_hit03.wav"
+				"wave"	"ambient\creak03.wav"
+			}
+		}
+
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"		"100"
+		"position"		"0"
+		"attenuation"	"0.7"	
+		"wave"		"ambient/machine_hum2.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"		"100"
+		"position"		"1"
+		"attenuation"	"0.7"	
+		"wave"		"ambient\machines\wall_loop1.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"		"100"
+		"position"		"2"
+		"attenuation"	"0.7"	
+		"wave"		"ambient/machine_hum.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"		".3"
+		"pitch"		"100"
+		"position"		"3"
+		"attenuation"	"0.7"	
+		"wave"		"ambient\atmosphere\underground_hall_loop1.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"		"1"
+		"pitch"		"100"
+		"position"		"4"
+		"attenuation"	"0.7"	
+		"wave"		"ambient/lair/ac_vent3.wav"
+	}
+	
+	
+	"playlooping"
+	{
+		"volume"	".4"
+		"pitch"		"100"
+		"position"	"5"
+		"attenuation"	"0.7"	
+		"wave"		"ambient/computer_tape.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".75"
+		"pitch"		"100"
+		"position"	"6"
+		"attenuation"	"0.7"	
+		"wave"		"ambient/computer_working.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".4"
+		"pitch"		"100"
+		"position"	"7"
+		"attenuation"	"0.7"	
+		"wave"		"ambient/computer_tape2.wav"
+	}
+}
+
+"warhead.spytech"
+{
+	"dsp"	"1"
+
+
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/indoors.wav"
+	}
+	"playlooping"
+	{
+		"volume"	".6"
+		"pitch"		"100"
+		"wave"		"ambient/underground.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".30"
+		"pitch"		"100"
+		"wave"		"ambient/machine_hum2.wav"
+	}
+	
+	"playlooping"
+	{
+		"volume"	".75"
+		"pitch"		"100"
+		"position"	"0"
+		"attenuation"	"0.7"	
+		"wave"		"ambient/machine_hum.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".4"
+		"pitch"		"100"
+		"position"	"1"
+		"attenuation"	"0.7"	
+		"wave"		"ambient/computer_tape.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".75"
+		"pitch"		"100"
+		"position"	"2"
+		"attenuation"	"0.7"	
+		"wave"		"ambient/computer_working.wav"
+	}
+
+	"playlooping"
+	{
+		"volume"	".4"
+		"pitch"		"100"
+		"position"	"3"
+		"attenuation"	"0.7"	
+		"wave"		"ambient/computer_tape2.wav"
+	}
+}

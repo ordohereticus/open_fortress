@@ -23,6 +23,7 @@ dm_ravine
 dm_sawdust
 dm_skate
 dm_spillway
+dm_warhead
 dm_watchtower
 dm_watergate
 dm_wiseau

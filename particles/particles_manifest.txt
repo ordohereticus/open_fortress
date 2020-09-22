@@ -101,5 +101,6 @@ particles_manifest
 	"file"		"!particles/savvarainparticles.pcf"
 	"file"		"!particles/shield_charge.pcf"
 	"file"		"!particles/tfc_fx.pcf"
-	"file"	"particles/dots_fx.pcf"
+	"file"		"!particles/dots_fx.pcf"
+	"file"		"!particles/warhead_fx.pcf"
 }

@@ -1,0 +1,13 @@
+"LightmappedGeneric"
+{
+	//vbsp has given me SO MANY issues with distorted envmapping. to hell with it all!
+
+	"$baseTexture" "Tile/floor_tile_001a"
+	//"$envmap" "env_cubemap"
+	//"$envmapcontrast" 0						//default 1
+	//"$envmapsaturation" 1					//default 1
+	//"$envmaptint" "[ .25 .25 .25]"			//default .75 .75 .75
+	//"$normalmapalphaenvmapmask" 1
+	"$bumpmap" "Tile/floor_tile_001a_normal"
+	"%keywords" "tf"
+}

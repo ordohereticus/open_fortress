@@ -2,7 +2,6 @@
 {
 "$basetexture" "dm_warhead/sign_warhead03"
 "$decal" 1
-$translucent 1
 $alpha 0.6
 "$decalscale" 0.25
 	"$translucent" 1
