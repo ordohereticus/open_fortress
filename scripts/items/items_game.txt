@@ -984,6 +984,19 @@
 				"vest" "1"
 			}
 		}
+		"78"
+		{
+			"model" "models/player/items/mercenary\merc_pants_socks/merc_pants_socks.mdl"
+			"region" "boots"
+			"backpack_icon" "..\backpack\pants\merc_socks"
+			
+			"Bodygroups"
+			{
+				"pockets"   "1"
+				"rightleg" "1"
+				"leftleg" "1"
+			}
+		}
 //		Do this
 //		"66"
 //		{		
