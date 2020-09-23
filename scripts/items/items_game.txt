@@ -972,6 +972,18 @@
 			{
 			}
 		}
+		//https://youtu.be/P5MpLQ8TQcQ Mumbert
+		"77"
+		{
+			"model" "models/player/items/mercenary\merc_pufvest/merc_pufvest.mdl"
+			"region" "chest"
+			"backpack_icon" "..\backpack\chest\pufvest"
+			
+			"Bodygroups"
+			{
+				"vest" "1"
+			}
+		}
 //		Do this
 //		"66"
 //		{		
