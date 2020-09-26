@@ -2,6 +2,6 @@
 {
 	"$nofog" "1"
 	"$ignorez" "1"	
-	"$basetexture" "skybox/ofd_nebula3lf"
-	"$hdrbasetexture" "skybox/ofd_nebula3lf"
+	"$basetexture" "skybox/ofd_nebula"
+	"$hdrbasetexture" "skybox/ofd_nebula"
 }
