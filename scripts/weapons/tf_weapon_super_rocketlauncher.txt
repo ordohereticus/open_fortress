@@ -13,7 +13,7 @@ WeaponData
 	"DamageRadius"		"100"
 	"Range"			"0"
 	"BulletsPerShot"	"1"
-	"Spread"		"10"
+	"Spread"		"0"
 //	"PunchAngle"		"1"
 	"TimeFireDelay"		"0.1"
 	"BurstFireDelay"    "0.5"
