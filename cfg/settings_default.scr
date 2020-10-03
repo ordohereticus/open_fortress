@@ -55,26 +55,6 @@ DESCRIPTION SERVER_OPTIONS
 		{ "16" }
 	}
 	
-	"tf_bot_quota"
-	{
-		"#TF_Bots"
-		{ NUMBER 0 64 }
-		{ "0" }
-	}
-	
-	"tf_bot_difficulty"
-	{
-		"#TF_BotsDifficulty"
-        {
-            LIST        
-            "#TF_BotsEasy" 		"0"
-            "#TF_BotsMedium" 	"1"
-            "#TF_BotsHard" 		"2"
-			"#TF_BotsExpert" 	"3"
-        }
-        { "2" }
-	}
-
 	"sv_password"
 	{
 		"#Valve_Server_Password"
@@ -82,11 +62,11 @@ DESCRIPTION SERVER_OPTIONS
 		{ "" }
 	}
 	
-	"sv_gravity"
+	"mp_winlimit"
 	{
-		"#TF_GravityLevel"
-		{ NUMBER -1000 1000 }
-		{ "800" }
+		"#TF_Winlimit"
+		{ NUMBER 0 -1 }
+		{ "2" }
 	}
 	
 	"mp_fraglimit"
@@ -95,7 +75,7 @@ DESCRIPTION SERVER_OPTIONS
 		{ NUMBER 0 -1 }
 		{ "25" }
 	}
-
+	
 	"mp_timelimit"
 	{
 		"#TF_Timelimit"
@@ -109,38 +89,47 @@ DESCRIPTION SERVER_OPTIONS
 		{ NUMBER 0 -1 }
 		{ "3" }
 	}
+	
+	"of_mctf_flag_caps_per_round"
+	{
+		"#TF_MCTF_FlagCaps"
+		{ NUMBER 0 9 }
+		{ "7" }
+	}
 
     "mp_teamplay"
     {
         "#TF_TeamPlay"
         {
-            LIST        
-            "#TF_Option_OFF" 	"0"
-            "#TF_Option_ON" 	"1"
+            LIST 
+			"#TF_Option_MAP"		"-1"
+            "#TF_Option_OFF" 		"0"
+            "#TF_Option_ON" 		"1"
         }
         { "0" }
     }
-	
-    "of_bunnyhop"
+	"of_teamplay_collision"
+	{
+		"#TF_TeamPlay_Collison"
+  		{ BOOL }
+		{ "0" }
+	}
+	"of_teamplay_knockback"
+	{
+		"#TF_TeamPlay_Knockback"
+  		{ BOOL }
+		{ "0" }
+	}
+	"of_retromode"
     {
-        "#TF_Bunnyhop"
+        "#TF_Retromode"
         {
-            LIST        
-            "#TF_Bunnyhop_Merc" 		"-1"
-            "#TF_Bunnyhop_None" 		"0"
-			"#TF_Bunnyhop_All" 			"1"
-			"#TF_Bunnyhop_AllZombies" 	"2"
-        }
-        { "#TF_Bunnyhop_Merc" }
-    }
-	
-	"of_infection"
-    {
-        "#TF_InfectionToggle"
-        {
-            LIST        
-            "#TF_Option_OFF" 	"0"
-            "#TF_Option_ON" 	"1"
+            LIST 
+			"#TF_Option_MAP"			"-1"
+            "#TF_Option_OFF" 			"0"
+            "#TF_Option_ON" 			"1"
+			"#TF_Option_BLU_Only" 		"2"
+			"#TF_Option_RED_Only" 		"3"
         }
         { "0" }
     }
@@ -158,26 +147,7 @@ DESCRIPTION SERVER_OPTIONS
 			"#TF_RocketArena"		"5"
 			"#TF_GunGame"			"6"
 			"#TF_Arsenal"			"7"
-        }
-        { "0" }
-	}
-	
-	"of_randomizer"
-	{
-		"#TF_Randomizer"
-		{ BOOL }
-		{ "0" }
-	}
-	
-	"of_randomizer_setting"
-	{
-		"#TF_RandomizerSetting"
-        {
-            LIST        
-            "#TF_RandomizerSetting_TF2" "0"
-            "#TF_RandomizerSetting_TFC" "1"
-            "#TF_RandomizerSetting_DM" 	"2"		
-            "#TF_RandomizerSetting_TFDM" "3"					
+			"#TF_EnteralShotguns"	"8"
         }
         { "0" }
 	}
@@ -188,73 +158,4 @@ DESCRIPTION SERVER_OPTIONS
 		{ BOOL }
 		{ "1" }
 	}
-	
-	"of_forcezombieclass"
-	{
-		"#TF_ForceZombieClass"
-		{ BOOL }
-		{ "1" }
-	}
-	
-	"of_allow_allclass_pickups"
-	{
-		"#TF_AllclassPickups"
-		{ BOOL }
-		{ "0" }
-	}
-	
-	"of_allow_allclass_spawners"
-	{
-		"#TF_AllclassSpawners"
-		{ BOOL }
-		{ "0" }
-	}
-	
-	"of_weaponspawners"
-	{
-		"#TF_WeaponSpawners"
-		{ BOOL }
-		{ "1" }
-	}
-	
-	"of_powerups"
-	{
-		"#TF_Powerups"
-		{ BOOL }
-		{ "1" }
-	}
-	
-	"of_multiweapons"
-	{
-		"#TF_Multiweapons"
-		{ BOOL }
-		{ "1" }
-	}
-	
-	"of_headshots"
-	{
-		"#TF_Headshots"
-        {
-            LIST        
-            "#TF_Option_OFF" 	"0"
-            "#TF_Option_ON" 	"1"
-			"#TF_HeadshotsOnly" "2"
-        }
-        { "0" }
-	}
-	
-	"mp_friendlyfire"
-	{
-		"#TF_Friendlyfire"
-		{ BOOL }
-		{ "0" }
-	}
-	
-	"mp_flashlight"
-	{
-		"#MP_Allow_Flashlight"
-		{ BOOL }
-		{ "0" }
-	}
-	
 }
