@@ -1,0 +1,143 @@
+// NOTE:  THIS FILE IS AUTOMATICALLY REGENERATED, 
+//DO NOT EDIT THIS HEADER, YOUR COMMENTS WILL BE LOST IF YOU DO
+// Multiplayer options script
+//
+// Format:
+//  Version [float]
+//  Options description followed by 
+//  Options defaults
+//
+// Option description syntax:
+//
+//  "cvar" { "Prompt" { type [ type info ] } { default } }
+//
+//  type = 
+//   BOOL   (a yes/no toggle)
+//   STRING
+//   NUMBER
+//   LIST
+//
+// type info:
+// BOOL                 no type info
+// NUMBER       min max range, use -1 -1 for no limits
+// STRING       no type info
+// LIST          delimited list of options value pairs
+//
+//
+// default depends on type
+// BOOL is "0" or "1"
+// NUMBER is "value"
+// STRING is "value"
+// LIST is "index", where index "0" is the first element of the list
+
+
+// Half-Life Server Configuration Layout Script (stores last settings chosen, too)
+// File generated:  Mon Jul 12 05:28:33 PM
+//
+//
+// Cvar	-	Setting
+
+VERSION 1.0
+
+DESCRIPTION SERVER_WEAPONS_OPTIONS
+{	
+	"of_powerups"
+	{
+		"#TF_Powerups"
+		{ BOOL }
+		{ "1" }
+	}
+	
+	"of_weaponspawners"
+	{
+		"#TF_WeaponSpawners"
+		{ BOOL }
+		{ "1" }
+	}
+	
+	"of_multiweapons"
+	{
+		"#TF_Multiweapons"
+		{ BOOL }
+		{ "1" }
+	}
+	
+	"of_allow_allclass_pickups"
+	{
+		"#TF_AllclassPickups"
+		{ BOOL }
+		{ "0" }
+	}
+	
+	"of_allow_allclass_spawners"
+	{
+		"#TF_AllclassSpawners"
+		{ BOOL }
+		{ "0" }
+	}
+	
+	"of_weapon_testing"
+	{
+		"#TF_WeaponTesting"
+		{ BOOL }
+		{ "0" }
+	}
+	"of_headshots"
+	{
+		"#TF_Headshots"
+        {
+            LIST        
+            "#TF_Option_OFF" 	"0"
+            "#TF_Option_ON" 	"1"
+			"#TF_HeadshotsOnly" "2"
+        }
+        { "0" }
+	}
+	
+	"of_crit_multiplier"
+	{
+		"#TF_CritMultiplayer"
+		{ NUMBER 0 -1 }
+		{ "3" }
+	}
+	
+	"of_randomizer"
+	{
+		"#TF_Randomizer"
+		{ BOOL }
+		{ "0" }
+	}
+	
+	"of_randomizer_setting"
+	{
+		"#TF_RandomizerSetting"
+        {
+            LIST        
+            "#TF_RandomizerSetting_TF2" "0"
+            "#TF_RandomizerSetting_TFC" "1"
+            "#TF_RandomizerSetting_DM" 	"2"		
+            "#TF_RandomizerSetting_TFDM" "3"					
+        }
+        { "0" }
+	}
+	
+	"of_disable_drop_weapons"
+	{
+		"#TF_Disable_Drop_Weapons"
+		{ BOOL }
+		{ "0" }
+	}
+	
+	"of_dropweapons"
+	{
+		"#TF_DropWeapons"
+        {
+            LIST        
+            "#TF_Option_OFF" 	"0"
+            "#TF_Option_ON" 	"1"
+            "#TF_Throwable" 	"2"			
+        }
+        { "0" }
+	}
+	
+}

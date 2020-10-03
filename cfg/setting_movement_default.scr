@@ -1,0 +1,191 @@
+// NOTE:  THIS FILE IS AUTOMATICALLY REGENERATED, 
+//DO NOT EDIT THIS HEADER, YOUR COMMENTS WILL BE LOST IF YOU DO
+// Multiplayer options script
+//
+// Format:
+//  Version [float]
+//  Options description followed by 
+//  Options defaults
+//
+// Option description syntax:
+//
+//  "cvar" { "Prompt" { type [ type info ] } { default } }
+//
+//  type = 
+//   BOOL   (a yes/no toggle)
+//   STRING
+//   NUMBER
+//   LIST
+//
+// type info:
+// BOOL                 no type info
+// NUMBER       min max range, use -1 -1 for no limits
+// STRING       no type info
+// LIST          delimited list of options value pairs
+//
+//
+// default depends on type
+// BOOL is "0" or "1"
+// NUMBER is "value"
+// STRING is "value"
+// LIST is "index", where index "0" is the first element of the list
+
+
+// Half-Life Server Configuration Layout Script (stores last settings chosen, too)
+// File generated:  Mon Jul 12 05:28:33 PM
+//
+//
+// Cvar	-	Setting
+
+VERSION 1.0
+
+DESCRIPTION SERVER_MOVEMENT_OPTIONS
+{	
+	"sv_airaccelerate"
+	{
+		"#TF_Airaccelerate"
+		{ NUMBER 0 -1 }
+		{ "500" }
+	}
+	
+	"sv_gravity"
+	{
+		"#TF_GravityLevel"
+		{ NUMBER 0 -1 }
+		{ "800" }
+	}
+	
+	"of_airdashcount"
+	{
+		"#TF_MidAirJumps"
+		{ NUMBER 0 -1 }
+		{ "0" }
+	}
+	"of_movementmode"
+	{
+		"#TF_MovementMode"
+        {
+            LIST        
+            "#TF_Movement_Default" 			"0"
+            "#TF_Movement_Quake" 			"1"
+			"#TF_Movement_CMPA" 				"2"
+        }
+        { "0" }
+	}
+	
+    "of_bunnyhop"
+    {
+        "#TF_Bunnyhop"
+        {
+            LIST        
+            "#TF_Bunnyhop_Merc" 		"-1"
+            "#TF_Bunnyhop_None" 		"0"
+			"#TF_Bunnyhop_All" 			"1"
+			"#TF_Bunnyhop_AllZombies" 	"2"
+        }
+        { "0" }
+    }
+	
+	"of_jumpbuffer"
+    {
+        "#TF_JumpBuffer"
+        {
+            LIST        
+            "#TF_JumpBuffer_Merc" 		"-1"
+            "#TF_JumpBuffer_None" 		"0"
+			"#TF_JumpBuffer_All" 			"1"
+			"#TF_JumpBuffer_AllZombies" 	"2"
+        }
+        { "1" }
+    }
+	
+	"of_speedcap"
+	{
+		"#TF_MaxSpeed"
+		{ NUMBER 0 -1 }
+		{ "0" }
+	}
+	
+	"of_crouchjump"
+	{
+		"#TF_CrouchJump"
+		{ BOOL }
+		{ "1" }
+	}	
+	
+	"of_bunnyhop_max_speed_factor"
+	{
+		"#TF_Bhop_MaxSpeed"
+		{ NUMBER 0 -1 }
+		{ "1.2" }
+	}
+	
+	"of_bunnyhopfade"
+	{
+		"#TF_Bhop_FadeOff"
+		{ NUMBER 0 -1 }
+		{ "30" }
+	}
+	
+	"of_knockback_all"
+	{
+		"#TF_OverAll_Knockback"
+		{ NUMBER 0 -1 }
+		{ "1" }
+	}
+	
+	"of_knockback_bullets"
+	{
+		"#TF_Bullet_Knockback"
+		{ NUMBER 0 -1 }
+		{ "0.1" }
+	}
+	
+	"of_knockback_explosives"
+	{
+		"#TF_Explosives_Knockback"
+		{ NUMBER 0 -1 }
+		{ "1" }
+	}
+	
+	"of_knockback_melee"
+	{
+		"#TF_Melee_Knockback"
+		{ NUMBER 0 -1 }
+		{ "0.5" }
+	}
+	
+	"of_cslide"
+	{
+		"#TF_CSlide"
+		{ BOOL }
+		{ "0" }
+	}
+	"of_cslideaccelerate"
+	{
+		"#TF_CSlide_Accelerate"
+		{ NUMBER 0 -1 }
+		{ "4" }
+	}
+	
+	"of_cslidefriction"
+	{
+		"#TF_CSlide_Friction"
+		{ NUMBER 0 -1 }
+		{ "0.8" }
+	}
+	
+	"of_cslideduration"
+	{
+		"#TF_CSlide_Duration"
+		{ NUMBER 0 -1 }
+		{ "1" }
+	}
+	
+	"of_cslidestopspeed"
+	{
+		"#TF_CSlide_StopSpeed"
+		{ NUMBER 0 -1 }
+		{ "320" }
+	}
+}
