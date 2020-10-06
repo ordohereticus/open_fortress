@@ -36,7 +36,9 @@ Cazsu - TFC Demoman
 Announcers:
 Benjamin Rudman
 Cazsu
+Drew
 GetGianni
+Lunar Scythe
 Stachekip
 
 Weapon and misc. player sound effects:
@@ -221,3 +223,4 @@ TotallyMehis ( for clientside ragdoll cleanup fix )
 SuperBigBoy (food)
 EArkham (permission to use sky_outpost_01)
 Krazy (for Doublecross Snow roof models)
+Eyedol9000 - Preparing ArenaMaster, WillFromAfar and Merasmus announcers for game use by setting up the scripts
