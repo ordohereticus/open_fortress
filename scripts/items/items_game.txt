@@ -881,6 +881,7 @@
 				
 			}
 		}
+		// nice
 		"69"
 		{
 			"model" "models/player/items/mercenary/merc_flgloves/merc_flgloves.mdl"
@@ -995,6 +996,16 @@
 				"pockets"   "1"
 				"rightleg" "1"
 				"leftleg" "1"
+			}
+		}
+		"79"
+		{
+			"model" "models/player/items/mercenary/merc_halloween_bag/merc_halloween_bag.mdl"
+			"region" "hat"
+			"backpack_icon" "..\backpack\hats\halloween_bag"
+			
+			"Bodygroups"
+			{
 			}
 		}
 //		Do this
