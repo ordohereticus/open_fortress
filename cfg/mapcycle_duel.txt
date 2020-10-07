@@ -2,6 +2,7 @@ dm_bloodcovenant
 dm_bloodrun
 dm_byre
 dm_darkzone
+dm_legacy
 dm_longestyard
 dm_lumberyard
 dm_pitod
@@ -13,4 +14,3 @@ duel_databank
 duel_deadsimple
 duel_granary
 duel_gump
-duel_legacy

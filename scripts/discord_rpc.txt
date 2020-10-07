@@ -49,7 +49,7 @@
 		"dm_mecha_dev"		"dm_mecha"
 		"dm_nucleus"		"dm_nucleus"
 		"dm_offblast"		"dm_offblast"
-		"dm_overkill_dev"	"dm_overkill"
+		"dm_overkill"		"dm_overkill"
 		"dm_pitod"			"dm_pitod"
 		"dm_ravine"			"dm_ravine"
 		"dm_rig"			"dm_rig"

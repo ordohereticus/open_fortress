@@ -12,6 +12,7 @@ dm_grain
 dm_gump
 dm_harvest
 dm_knoxx
+dm_legacy
 dm_lobstershore
 dm_longestyard
 dm_lumberyard
@@ -27,17 +28,3 @@ dm_warhead
 dm_watchtower
 dm_watergate
 dm_wiseau
-duel_aerowalk
-duel_cargo
-duel_databank
-duel_deadsimple
-duel_granary
-duel_gump
-duel_legacy
-mctf_2fort
-mctf_backfort
-mctf_badlands
-mctf_doublecross
-mctf_longestyard
-mctf_turbine
-mctf_xpress3
