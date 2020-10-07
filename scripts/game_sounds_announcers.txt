@@ -11769,3 +11769,1916 @@
 
 	"wave"		"vo/announcer_willfromafar/willfromafar_thatsgottahurt01.mp3"
 }
+
+/////////////////////////////////////////////
+// Merasmus II
+/////////////////////////////////////////////
+
+"Merasmus.FragsLeft1"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_fragsleft_01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_fragsleft_01_alt.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_fragsleft_01_alt2.mp3"
+	}
+}
+
+"Merasmus.FragsLeft2"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_fragsleft_02.mp3"
+	}
+}
+
+"Merasmus.FragsLeft3"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_fragsleft_03.mp3"
+	}
+}
+
+"Merasmus.FragsLeft4"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_fragsleft_04.mp3"
+	}
+}
+
+"Merasmus.FragsLeft5"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_fragsleft_05.mp3"
+	}
+}
+
+"Merasmus.FragsLeft10"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_fragsleft_10.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_fragsleft_10_alt.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_fragsleft_10_alt2.mp3"
+	}
+}
+
+"Merasmus.CountDown1"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_merasmus/merasmus_countdown_01.mp3"
+}
+
+"Merasmus.CountDown2"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_merasmus/merasmus_countdown_02.mp3"
+}
+
+"Merasmus.CountDown3"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_merasmus/merasmus_countdown_03.mp3"
+}
+
+"Merasmus.CountDown4"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_merasmus/merasmus_countdown_04.mp3"
+}
+
+"Merasmus.CountDown5"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_merasmus/merasmus_countdown_05.mp3"
+}
+
+"Merasmus.CountDown6"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_merasmus/merasmus_countdown_06.mp3"
+}
+
+"Merasmus.CountDown7"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_merasmus/merasmus_countdown_07.mp3"
+}
+
+"Merasmus.CountDown8"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_merasmus/merasmus_countdown_08.mp3"
+}
+
+"Merasmus.CountDown9"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_merasmus/merasmus_countdown_09.mp3"
+}
+
+"Merasmus.CountDown10"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_merasmus/merasmus_countdown_10.mp3"
+}
+
+"Merasmus.RoundEnds10minutes"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_timeleft_10mins.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_timeleft_10mins_alt.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_timeleft_10mins_alt2.mp3"
+	}
+}
+
+"Merasmus.RoundEnds30seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_timeleft_30sec.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_timeleft_30sec_alt.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_timeleft_30sec_alt2.mp3"
+	}
+}
+
+"Merasmus.RoundEnds5minutes"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_timeleft_5mins.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_timeleft_5mins_alt.mp3"
+	}
+}
+
+"Merasmus.RoundEnds60seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_timeleft_1min.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_timeleft_1min_alt.mp3"
+	}
+}
+
+"Merasmus.FirstPlace"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_victory01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_victory02.mp3"
+	}
+}
+
+"Merasmus.SecondPlace"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"vo/announcer_merasmus/merasmus_secondplace01.mp3"
+}
+
+"Merasmus.ThirdPlace"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"vo/announcer_merasmus/merasmus_thirdplace01.mp3"
+}
+
+"Merasmus.LastPlace"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_failure01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_failure02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_failure03.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_failure04.mp3"
+	}
+}
+
+"Merasmus.Game.YourTeamWon"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1"
+	"soundlevel"	"SNDLVL_140dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_victory01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_victory02.mp3"
+	}
+}
+
+"Merasmus.NumberOne"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_holyshit01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_holyshit02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_holyshit03.mp3"
+	}
+}
+
+"Merasmus.DMRoundPrepare"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_roundstart_preparetofight01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_roundstart_preparetofight02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_roundstart_preparetofight03.mp3"
+	}
+}
+
+"Merasmus.DMRoundStart"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_roundstart_fight01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_roundstart_go01.mp3"
+	}
+}
+
+"Merasmus.PowerupsIncoming"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_powerup_spawning01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_powerup_spawning02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_powerup_spawning03.mp3"
+	}
+}
+
+"Merasmus.GIBIncoming"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_gib_spawning01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_gib_spawning02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_gib_spawning03.mp3"
+	}
+}
+
+"Merasmus.GIBDropped"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_gib_dropped01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_gib_dropped02.mp3"
+	}
+}
+
+"Merasmus.GIBSpawn"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_gib_spawned01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_gib_spawned02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_gib_spawned03.mp3"
+	}
+}
+
+"Merasmus.GIBTaken"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_gib_taken01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_gib_taken02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_gib_taken03.mp3"
+	}
+}
+
+"Merasmus.GIBTakenSelf"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_gib_youtook01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_gib_youtook02.mp3"
+	}
+}
+
+"Merasmus.QuadIncoming"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"vo/announcer_merasmus/merasmus_quadlauncher_spawning01.mp3"
+}
+
+"Merasmus.QuadSpawn"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_quadlauncher01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_quadlauncher02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_quadlauncher_spawned01.mp3"
+	}
+}
+
+"Merasmus.QuadDropped"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_merasmus/merasmus_quadlauncher_dropped01.mp3"
+}
+
+"Merasmus.QuadTaken"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_merasmus/merasmus_quadlauncher_taken01.mp3"
+}
+
+"Merasmus.QuadTakenSelf"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_quadlauncher_youtook01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_quadlauncher_youtook02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_quadlauncher_youtook03.mp3"
+	}
+}
+
+"Merasmus.Berserk"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_berserk01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_berserk02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_berserk03.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_berserk_spawned01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_berserk_spawned02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_berserk_spawned03.mp3"
+	}
+}
+
+"Merasmus.BerserkIncoming"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_berserk_spawning01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_berserk_spawning02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_berserk_spawning03.mp3"
+	}
+}
+
+"Merasmus.BerserkDropped"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_berserk_dropped01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_berserk_dropped02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_berserk_dropped03.mp3"
+	}
+}
+
+"Merasmus.BerserkTakenSelf"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_berserk_youtook01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_berserk_youtook02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_berserk_youtook03.mp3"
+	}
+}
+
+"Merasmus.BerserkTaken"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_berserk_taken01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_berserk_taken02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_berserk_taken03.mp3"
+	}
+}
+
+"Merasmus.Crits"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_crit01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_crit02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_crit03.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_quaddamage01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_quaddamage02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_quaddamage02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_crit_spawned01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_crit_spawned02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_crit_spawned03.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_quaddamage_spawned01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_quaddamage_spawned02.mp3"
+	}
+}
+
+"Merasmus.CritsDropped"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_merasmus/merasmus_crit_dropped01.mp3"
+}
+
+"Merasmus.CritsIncoming"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_crit_spawning01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_crit_spawning02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_crit_spawning03.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_quaddamage_spawning01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_quaddamage_spawning02.mp3"
+	}
+}
+
+"Merasmus.CritTaken"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_crit_taken01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_crit_taken02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_crit_taken02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_quaddamage_taken01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_quaddamage_taken02.mp3"
+	}
+}
+
+"Merasmus.CritTakenSelf"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_crit_youtook01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_crit_youtook02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_quaddamage_youtook01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_quaddamage_youtook02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_quaddamage_youtook03.mp3"
+	}
+}
+
+"Merasmus.Haste"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_haste01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_haste02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_haste_spawned01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_haste_spawned02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_haste_spawned03.mp3"
+	}
+}
+
+"Merasmus.HasteIncoming"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_haste_spawning01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_haste_spawning02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_haste_spawning03.mp3"
+	}
+}
+
+"Merasmus.HasteDropped"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_haste_dropped01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_haste_dropped02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_haste_dropped03.mp3"
+	}
+}
+
+"Merasmus.HasteTaken"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_haste_taken01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_haste_taken02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_haste_taken03.mp3"
+	}
+}
+
+"Merasmus.HasteTakenSelf"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_haste_youtook01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_haste_youtook02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_haste_youtook03.mp3"
+	}
+}
+
+"Merasmus.Invisibility"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_invisibility01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_invisibility_spawned01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_invisibility_spawned02.mp3"
+	}
+}
+
+"Merasmus.InvisibilityIncoming" \\\ THIS IS WHERE U FUCKIN LEFT OFF
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_invisibility_spawning01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_invisibility_spawning02.mp3"
+	}
+}
+
+"Merasmus.InvisibilityDropped"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_invisibility_dropped01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_invisibility_dropped02.mp3"
+	}
+}
+
+"Merasmus.InvisibilityTaken"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_invisibility_taken01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_invisibility_taken02.mp3"
+	}
+}
+
+"Merasmus.InvisibilityTakenSelf"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_invisibility_youtook01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_invisibility_youtook02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_invisibility_youtook03.mp3"
+	}
+}
+
+"Merasmus.Shield"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_shield01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_shield02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_shield_spawned01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_shield_spawned02.mp3"
+	}
+}
+
+"Merasmus.ShieldIncoming"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_shield_spawning01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_shield_spawning02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_shield_spawning03.mp3"
+	}
+}
+
+"Merasmus.ShieldDropped"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"vo/announcer_merasmus/merasmus_shield_dropped01.mp3"
+}
+
+"Merasmus.ShieldTaken"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_shield_taken01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_shield_taken02.mp3"
+	}
+}
+
+"Merasmus.ShieldTakenSelf"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_shield_youtook01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_shield_youtook02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_shield_youtook03.mp3"
+	}
+}
+
+"Merasmus.Excellent"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_excellent01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_excellent02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_excellent03.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_excellent04.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_excellent05.mp3"
+	}
+}
+
+"Merasmus.Perfect"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"wave"			"vo/announcer_merasmus/merasmus_perfect01.mp3"
+}
+
+"Merasmus.Headshot"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_headshot01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_headshot02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_headshot03.mp3"
+	}
+}
+
+"Merasmus.Kamikaze"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_kamikaze01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_kamikaze02.mp3"
+	}
+}
+
+"Merasmus.Denied"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_denied01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_denied02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_denied03.mp3"
+	}
+}
+
+"Merasmus.PartyBreaker"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_partybreaker01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_partybreaker02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_partybreaker03.mp3"
+	}
+}
+
+"Merasmus.Perforated"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_telefrag01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_telefrag02.mp3"
+	}
+}
+
+"Merasmus.MultiKill"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_multikill01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_multikill02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_multikill03.mp3"
+	}
+}
+
+"Merasmus.UltraKill"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_ultrakill01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_ultrakill02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_ultrakill03.mp3"
+	}
+}
+
+"Merasmus.HolyShit"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_holyshit01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_holyshit02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_holyshit03.mp3"
+	}
+}
+
+"Merasmus.Humiliation"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_humiliation01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_humiliation02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_humiliation03.mp3"
+	}
+}
+
+"Merasmus.Impressive"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_impressive01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_impressive02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_impressive03.mp3"
+	}
+}
+
+"Merasmus.KillingSpree"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_killingspree01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_killingspree02.mp3"
+	}
+}
+
+"Merasmus.Rampage"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_rampage01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_rampage02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_rampage03.mp3"
+	}
+}
+
+"Merasmus.Dominating"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_dominating01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_dominating02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_dominating03.mp3"
+	}
+}
+
+"Merasmus.Unstoppable"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_unstoppable01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_unstoppable02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_unstoppable03.mp3"
+	}
+}
+
+"Merasmus.GodLike"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_godlike01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_godlike02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_godlike03.mp3"
+	}
+}
+
+"Merasmus.PowerupMassacre"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_powerupmassacre01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_powerupmassacre02.mp3"
+	}
+}
+
+"Merasmus.ShowStopper" \\\ FUCKING CHECK WILL AND ARENA ANNOUNCER
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_showstopper01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_showstopper02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_showstopper03.mp3"
+	}
+}
+
+"Merasmus.FirstBlood" // Hellen announcer Naming Scheme
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_firstblood01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_firstblood02.mp3"
+	}
+}
+
+"Merasmus.Midair"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_midair01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_midair02.mp3"
+	}
+}
+
+"Merasmus.Revenge"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_revenge01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_revenge02.mp3"
+	}
+}
+
+"Merasmus.LeadTaken"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_leadtaken01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_leadtaken02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_leadtaken03.mp3"
+	}
+}
+
+"Merasmus.LeadLost"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_leadlost01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_leadlost02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_leadlost03.mp3"
+	}
+}
+
+"Merasmus.LeadTiedt"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_leadtied01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_leadtied02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_leadtied03.mp3"
+	}
+}
+
+"Merasmus.RoundStart"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_infection_roundstart01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_infection_roundstart02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_infection_roundstart03.mp3"
+	}
+}
+
+"Merasmus.SomeoneDied"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_infection_someonedied01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_infection_someonedied02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_infection_someonedied03.mp3"
+	}
+}
+
+"Merasmus.SurvivorsWin" \\\ SHIT AINT USED YO
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_infection_survivorswin01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_infection_survivorswin02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_infection_survivorswin03.mp3"
+	}
+}
+
+"Merasmus.ZombiesWin"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_infection_zombieswin01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_infection_zombieswin02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_infection_zombieswin03.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_infection_zombieswin04.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_infection_zombieswin05.mp3"
+	}
+}
+
+"Merasmus.3Wave" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_gamemode_3wave01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_gamemode_3wave02.mp3"
+	}
+}
+
+"Merasmus.CTF" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_gamemode_ctf01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_gamemode_ctf02.mp3"
+	}
+}
+
+"Merasmus.Deathmatch" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_gamemode_deathmatch01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_gamemode_deathmatch02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_gamemode_deathmatch03.mp3"
+	}
+}
+
+"Merasmus.Duel" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_gamemode_duel01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_gamemode_duel02.mp3"
+	}
+}
+
+"Merasmus.DuelJoinQueue" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_duel_joinedqueue01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_duel_joinedqueue02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_duel_joinedqueue03.mp3"
+	}
+}
+
+"Merasmus.DuelNext" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_duel_youarenext01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_duel_youarenext02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_duel_youarenext03.mp3"
+	}
+}
+
+"Merasmus.Escort" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_gamemode_hunted01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_gamemode_hunted02.mp3"
+	}
+}
+
+"Merasmus.Infection" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_gamemode_infection01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_gamemode_infection02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_gamemode_infection03.mp3"
+	}
+}
+
+"Merasmus.Instagib" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_gamemode_instagib01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_gamemode_instagib02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_gamemode_instagib03.mp3"
+	}
+}
+
+"Merasmus.LastManStanding" /// MAKE SURE IF OTHER ANNOUNCERS DONT HAVE %s_gamemod01.mp3
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_gamemode_lms01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_gamemode_lms02.mp3"
+	}
+}
+
+"Merasmus.AM_LastManAlive"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"rndwave"			
+	{
+		"wave"		"vo/announcer_merasmus/merasmus_infection_lastman01.mp3"
+		"wave"		"vo/announcer_merasmus/merasmus_infection_lastman02.mp3"
+		"wave"		"vo/announcer_merasmus/merasmus_infection_lastman03.mp3"
+	}
+}
+
+"Merasmus.PlayerDestruction" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_gamemode_pd01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_gamemode_pd02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_gamemode_pd03.mp3"
+	}
+}
+
+"Merasmus.Push" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_gamemode_push01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_gamemode_push02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_gamemode_push03.mp3"
+	}
+}
+
+"Merasmus.TDM" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_gamemode_tdm01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_gamemode_tdm02.mp3"
+	}
+}
+
+"Merasmus.GunGame" 
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_gamemode_gungame01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_gamemode_gungame02.mp3"
+	}
+}
+
+// CTF/Invade
+
+"Merasmus.CaptureFlag.EnemyCaptured" // Enemy has Capped
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/announcer_merasmus/merasmus_yourflagcaptured01.mp3"
+		"wave"	"vo/announcer_merasmus/merasmus_yourflagcaptured02.mp3"
+		"wave"	"vo/announcer_merasmus/merasmus_yourflagcaptured03.mp3"
+	}
+}
+
+"Merasmus.CaptureFlag.EnemyDropped" // Enemy Dropped the flag
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/announcer_merasmus/merasmus_yourflagdropped01.mp3"
+		"wave"	"vo/announcer_merasmus/merasmus_yourflagdropped02.mp3"
+		"wave"	"vo/announcer_merasmus/merasmus_yourflagdropped03.mp3"
+	}
+}
+
+"Merasmus.CaptureFlag.TeamReturned"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/announcer_merasmus/merasmus_enemyflagreturned01.mp3"
+		"wave"	"vo/announcer_merasmus/merasmus_enemyflagreturned02.mp3"
+		"wave"	"vo/announcer_merasmus/merasmus_enemyflagreturned03.mp3"
+	}
+}
+
+"Merasmus.CaptureFlag.EnemyStolen"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/announcer_merasmus/merasmus_enemyhasflag01.mp3"
+		"wave"	"vo/announcer_merasmus/merasmus_enemyhasflag02.mp3"
+		"wave"	"vo/announcer_merasmus/merasmus_enemyhasflag03.mp3"
+	}
+}
+
+"Merasmus.CaptureFlag.TeamCaptured"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+	
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_enemyflagcaptured01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_enemyflagcaptured02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_enemyflagcaptured03.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_enemyflagcaptured04.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_enemyflagcaptured05.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_enemyflagcaptured06.mp3"
+	}
+}
+
+"Merasmus.CaptureFlag.TeamCapturedExcited" // Used for... Mannpower??
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"			"vo/announcer_merasmus/merasmus_enemyflagcaptured01.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_enemyflagcaptured02.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_enemyflagcaptured03.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_enemyflagcaptured04.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_enemyflagcaptured05.mp3"
+		"wave"			"vo/announcer_merasmus/merasmus_enemyflagcaptured06.mp3"
+	}
+}
+
+"Merasmus.CaptureFlag.TeamDropped"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/announcer_merasmus/merasmus_enemyflagdropped01.mp3"
+		"wave"	"vo/announcer_merasmus/merasmus_enemyflagdropped02.mp3"
+		"wave"	"vo/announcer_merasmus/merasmus_enemyflagdropped03.mp3"
+	}
+}
+
+"Merasmus.CaptureFlag.EnemyReturned"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/announcer_merasmus/merasmus_yourflagreturned01.mp3"
+		"wave"	"vo/announcer_merasmus/merasmus_yourflagreturned02.mp3"
+		"wave"	"vo/announcer_merasmus/merasmus_yourflagreturned03.mp3"
+	}
+}
+
+"Merasmus.CaptureFlag.TeamStolen"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/announcer_merasmus/merasmus_youhaveflag01.mp3"
+		"wave"	"vo/announcer_merasmus/merasmus_youhaveflag02.mp3"
+		"wave"	"vo/announcer_merasmus/merasmus_youhaveflag03.mp3"
+	}
+}
+
+"Merasmus.Resource.EnemyDropped"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/announcer_merasmus/merasmus_ball_neutral01.mp3"
+		"wave"	"vo/announcer_merasmus/merasmus_ball_neutral02.mp3"
+		"wave"	"vo/announcer_merasmus/merasmus_ball_neutral03.mp3"
+	}
+}
+
+"Merasmus.Resource.EnemyStolen"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/announcer_merasmus/merasmus_enemyhasflag01.mp3"
+		"wave"	"vo/announcer_merasmus/merasmus_enemyhasflag02.mp3"
+		"wave"	"vo/announcer_merasmus/merasmus_enemyhasflag03.mp3"
+	}
+}
+ 
+"Merasmus.Resource.EnemyReturned"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/announcer_merasmus/merasmus_enemyflagreturned01.mp3"
+		"wave"	"vo/announcer_merasmus/merasmus_enemyflagreturned02.mp3"
+		"wave"	"vo/announcer_merasmus/merasmus_enemyflagreturned03.mp3"
+	}
+}
+
+"Merasmus.Resource.TeamDropped"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/announcer_merasmus/merasmus_enemyflagdropped01.mp3"
+		"wave"	"vo/announcer_merasmus/merasmus_enemyflagdropped02.mp3"
+		"wave"	"vo/announcer_merasmus/merasmus_enemyflagdropped03.mp3"
+	}
+}
+
+"Merasmus.Resource.TeamStolen"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/announcer_merasmus/merasmus_youhaveflag01.mp3"
+		"wave"	"vo/announcer_merasmus/merasmus_youhaveflag02.mp3"
+		"wave"	"vo/announcer_merasmus/merasmus_youhaveflag03.mp3"
+	}
+}
+
+"Merasmus.Resource.TeamReturned"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+		"wave"	"vo/announcer_merasmus/merasmus_yourflagreturned01.mp3"
+		"wave"	"vo/announcer_merasmus/merasmus_yourflagreturned02.mp3"
+		"wave"	"vo/announcer_merasmus/merasmus_yourflagreturned03.mp3"
+	}
+}
+
+// Misc
+
+"Merasmus.Laugh"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	
+	"soundlevel"		"SNDLVL_95dB"
+
+	"rndwave"
+	{
+		"wave"		"vo/announcer_merasmus/merasmus_laugh01.mp3"
+		"wave"		"vo/announcer_merasmus/merasmus_laugh02.mp3"
+		"wave"		"vo/announcer_merasmus/merasmus_laugh03.mp3"
+		"wave"		"vo/announcer_merasmus/merasmus_laugh04.mp3"
+	}
+}
+
+"Merasmus.ThatsGottaHurt"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"rndwave"
+	{
+		"wave"		"vo/announcer_merasmus/merasmus_thatsgottahurt01.mp3"
+		"wave"		"vo/announcer_merasmus/merasmus_thatsgottahurt02.mp3"
+		"wave"		"vo/announcer_merasmus/merasmus_thatsgottahurt03.mp3"
+		"wave"		"vo/announcer_merasmus/merasmus_thatsgottahurt04.mp3"
+	}
+}

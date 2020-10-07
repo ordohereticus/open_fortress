@@ -67,4 +67,13 @@
 		"ARENA"	"0"
 		"INFECTION"	"1"
 	}
+	"Merasmus"
+	{
+		"CP" 	"0"
+		"CTF"	"1"
+		"DM"	"1"
+		"ESC"	"1"
+		"ARENA"	"0"
+		"INFECTION"	"1"
+	}
 }
