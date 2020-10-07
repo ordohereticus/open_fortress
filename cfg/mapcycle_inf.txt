@@ -7,6 +7,7 @@ dm_lobstershore
 dm_offblast
 dm_overkill
 dm_ravine
+dm_rig
 dm_skate
 dm_spillway
 dm_watchtower

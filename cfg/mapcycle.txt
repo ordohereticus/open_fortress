@@ -21,6 +21,7 @@ dm_offblast
 dm_overkill
 dm_pitod
 dm_ravine
+dm_rig
 dm_sawdust
 dm_skate
 dm_spillway
