@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "signs/sign_rig_2_b"
+	"$translucent" 1
+//	"$color" "[22 20 20]"
+}

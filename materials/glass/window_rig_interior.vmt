@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "glass/window_rig_interior"
+	"$surfaceprop" "Glass"
+	"$selfillum" 1
+}
