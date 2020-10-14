@@ -267,6 +267,7 @@
 			"model" "models/player/items/mercenary/merc_mask/merc_mask.mdl"
 			"region" "hat"
 			"backpack_icon" "..\backpack\hats\surveyor"
+			"team_skins" "0"
 		}
 		
 		"7"
@@ -1003,7 +1004,7 @@
 			"model" "models/player/items/mercenary/merc_halloween_bag/merc_halloween_bag.mdl"
 			"region" "hat"
 			"backpack_icon" "..\backpack\hats\halloween_bag"
-			
+			"uses_brightskins" "1"
 			"Bodygroups"
 			{
 			}
@@ -2696,7 +2697,6 @@
 				}
 			}
 		}
-		
 		"tf_weapon_railgun"
 		{
 			"backpack_icon"	"..\sprites\bucket_railgun"
@@ -2812,6 +2812,7 @@
 				}
 			}
 		}		
+
 		
 		"tf_weapon_revolver_mercenary"
 		{
@@ -3220,7 +3221,7 @@
 				"TimeFireDelay"			"0.625"
 				"TimeIdle"			"5.0"
 				"TimeIdleEmpty"			"0.25"
-				"TimeReloadStart"		"0.4"
+				"TimeReloadStart"		"0.35"
 				"TimeReload"			"0.45"
 				
 				"primary_ammo"		"WEAPON_AMMO"
@@ -3829,14 +3830,14 @@
 				"ITEM_FLAG_NOITEMPICKUP" 	"1"
 					
 				// Attributes TF.
-				"Damage"		"8"
+				"Damage"		"9"
 				"InstagibDamage"	"999"
 				"Range"			"8192"
 				"BulletsPerShot"	"1"
 				"Spread"		"0.03"
 				"TimeIdleEmpty"		"1.0"
 				"TimeIdle"		"10.0"
-				"TimeFireDelay"		"0.065"
+				"TimeFireDelay"		"0.076"
 				"TimeReload"	"1.33"
 				"ProjectileType"	"projectile_bullet"
 				"BrassModel"		"models/weapons/shells/shell_pistol.mdl"

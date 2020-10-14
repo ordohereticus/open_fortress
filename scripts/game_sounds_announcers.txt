@@ -12578,7 +12578,7 @@
 	}
 }
 
-"Merasmus.InvisibilityIncoming" \\\ THIS IS WHERE U FUCKIN LEFT OFF
+"Merasmus.InvisibilityIncoming"
 {
 	"channel"		"CHAN_VOICE2"
 	"volume"		"VOL_NORM"
@@ -12995,7 +12995,7 @@
 	}
 }
 
-"Merasmus.ShowStopper" \\\ FUCKING CHECK WILL AND ARENA ANNOUNCER
+"Merasmus.ShowStopper"
 {
 	"channel"		"CHAN_VOICE2"
 	"volume"		"VOL_NORM"
@@ -13136,7 +13136,7 @@
 	}
 }
 
-"Merasmus.SurvivorsWin" \\\ SHIT AINT USED YO
+"Merasmus.SurvivorsWin"
 {
 	"channel"		"CHAN_VOICE2"
 	"volume"		"VOL_NORM"

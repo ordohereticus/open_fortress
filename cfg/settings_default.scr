@@ -108,24 +108,27 @@ DESCRIPTION SERVER_OPTIONS
         }
         { "0" }
     }
+	
 	"of_teamplay_collision"
 	{
 		"#TF_TeamPlay_Collison"
   		{ BOOL }
 		{ "0" }
 	}
+	
 	"of_teamplay_knockback"
 	{
 		"#TF_TeamPlay_Knockback"
   		{ BOOL }
 		{ "0" }
 	}
+	
 	"of_retromode"
     {
         "#TF_Retromode"
         {
             LIST 
-			"#TF_Option_MAP"			"-1"
+			//"#TF_Option_MAP"			"-1"
             "#TF_Option_OFF" 			"0"
             "#TF_Option_ON" 			"1"
 			"#TF_Option_BLU_Only" 		"2"
