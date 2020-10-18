@@ -28,6 +28,7 @@ PlayerClass
 	"ClassImageBlue"				"../hud/class_mercenaryblue"
 	"ClassImageMercenary"			"../hud/class_mercenarymercenary"
 	"ClassImageColorless"			"../hud/colorless/class_mercenarycolorless"
+	"ClassImageTennis"				"../hud/class_mercenarysport"
 	
 	// Stats.
 	"speed_max"			"320"

@@ -528,6 +528,14 @@
 	"wave"		"misc/freeze_cam.wav"
 }
 
+"TFPlayer.LowHealth"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel"  	"SNDLVL_NORM"
+	"wave"		"player/low_health.wav"
+}
+
 //-----------------------------------------------------------------------------
 //Taunts and Selection Menu
 //-----------------------------------------------------------------------------

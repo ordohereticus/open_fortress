@@ -129,6 +129,11 @@
 				"name"		"CHAINSAW"
 				"activity"	"ACT_MERC_LOADOUT_CHAINSAW"
 			}
+			"animation"
+			{
+				"name"		"SIXSHOOTER"
+				"activity"	"ACT_MERC_LOADOUT_REVOLVER"
+			}
 		}
 	}
 	

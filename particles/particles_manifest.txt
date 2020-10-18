@@ -48,6 +48,7 @@ particles_manifest
 	"file"		"!particles/level_fx.pcf"
 	"file"      "!particles/lighter.pcf"
 	"file"		"!particles/lightning_gun.pcf"
+	"file"		"!particles/gravity_gauntlets.pcf"
 	"file"		"!particles/killstreak.pcf"
 	"file"		"!particles/medicgun_attrib.pcf"
 	"file"		"!particles/medicgun_beam.pcf"

@@ -2510,3 +2510,174 @@
 
 	"wave"			"*^vo/breencast/br_instinct25.wav"
 }
+
+// weapon_physcannon.txt
+"Weapon_PhysCannon.Launch"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.57"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+
+	"pitch"		"110,120"
+
+	"rndwave"
+	{
+		"wave"		")weapons/physcannon/superphys_launch1.wav"
+		"wave"		")weapons/physcannon/superphys_launch2.wav"
+		"wave"		")weapons/physcannon/superphys_launch4.wav"
+	}
+}
+
+"Weapon_MegaPhysCannon.Launch"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.6"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+	"pitch"		"130,140"
+
+	"rndwave"
+	{
+		"wave"		"weapons/physcannon/superphys_launch1.wav"
+		"wave"		"weapons/physcannon/superphys_launch2.wav"
+		"wave"		"weapons/physcannon/superphys_launch3.wav"
+		"wave"		"weapons/physcannon/superphys_launch4.wav"
+	}
+}
+
+"Weapon_PhysCannon.Charge"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.42"
+	"soundlevel"	"SNDLVL_NORM"
+	"wave"		")weapons/physcannon/physcannon_charge.wav"
+}
+
+"Weapon_MegaPhysCannon.Charge"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.42"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"70,80"
+
+	"wave"		"weapons/physcannon/physcannon_charge.wav"
+}
+
+"Weapon_PhysCannon.DryFire"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.42"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			")weapons/physcannon/physcannon_dryfire.wav"
+}
+
+"Weapon_MegaPhysCannon.DryFire"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.42"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"70,80"
+
+	"wave"			"weapons/physcannon/physcannon_dryfire.wav"
+}
+
+"Weapon_PhysCannon.Pickup"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.42"
+	"soundlevel"	"SNDLVL_105dB"
+
+	"wave"			")weapons/physcannon/physcannon_pickup.wav"
+}
+
+"Weapon_MegaPhysCannon.Pickup"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.42"
+	"soundlevel"	"SNDLVL_105dB"
+	"pitch"		"70,80"
+
+	"wave"			"weapons/physcannon/physcannon_pickup.wav"
+}
+
+"Weapon_PhysCannon.OpenClaws"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.42"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			")weapons/physcannon/physcannon_claws_open.wav"
+}
+
+"Weapon_PhysCannon.CloseClaws"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.42"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			")weapons/physcannon/physcannon_claws_close.wav"
+}
+
+"Weapon_PhysCannon.Drop"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.42"
+	"soundlevel"	"SNDLVL_105dB"
+
+	"wave"			")weapons/physcannon/physcannon_drop.wav"
+}
+
+"Weapon_MegaPhysCannon.Drop"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.42"
+	"soundlevel"	"SNDLVL_105dB"
+	"pitch"		"50,60"
+
+	"wave"			"weapons/physcannon/physcannon_drop.wav"
+}
+
+"Weapon_PhysCannon.HoldSound"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"weapons/physcannon/hold_loop.wav"
+}
+
+"Weapon_MegaPhysCannon.HoldSound"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.8"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"100"
+
+	"wave"			"weapons/physcannon/superphys_hold_loop.wav"
+}
+
+"Weapon_MegaPhysCannon.ChargeZap"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.1"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"90,110"
+
+	"rndwave"
+	{
+		"wave"	"weapons/physcannon/superphys_small_zap1.wav"
+		"wave"	"weapons/physcannon/superphys_small_zap2.wav"
+		"wave"	"weapons/physcannon/superphys_small_zap3.wav"
+		"wave"	"weapons/physcannon/superphys_small_zap4.wav"
+	}
+}
+
+"Weapon_PhysCannon.TooHeavy"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.8"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"100"
+
+	"wave"			"weapons/physcannon/physcannon_tooheavy.wav"
+}

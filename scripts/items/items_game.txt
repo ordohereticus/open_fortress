@@ -2580,123 +2580,6 @@
 				}
 			}
 		}
-		
-		"tf_weapon_pistol_akimbo_beta"
-		{
-			"WeaponData"
-			{
-				// Attributes Base.
-				"printname"		"#TF_Weapon_Akimbo_Pistols"
-				"BuiltRightHanded"	"0"
-				"weight"		"4"
-				"WeaponType"		"secondary"
-				"ITEM_FLAG_NOITEMPICKUP" 	"1"
-					
-				// Attributes TF.
-				"Damage"		"15"
-				"InstagibDamage"	"999"
-				"Range"			"4096"
-				"BulletsPerShot"	"1"
-				"Spread"		"0.03"
-				"TimeFireDelay"		"0.01"
-				"BurstSize"			"2"
-				"BurstFireDelay"	"0.20"
-				"TimeIdle"			"5.0"
-				"TimeIdleEmpty"		"0.25"
-				"TimeReload"		"3"
-				"ProjectileType"	"projectile_bullet"
-				"BrassModel"		"models/weapons/shells/shell_pistol.mdl"
-				"UseRapidFireCrits"	"1"
-				"TracerEffect"		"bullet_pistol_tracer01"
-				"SwapFireAnims" 	"1"
-
-				// Ammo & Clip.
-				"primary_ammo"		"WEAPON_AMMO"
-				"secondary_ammo"	"None"
-				"clip_size"			"30"
-				"default_clip"		"30"
-				"HasTeamSkins_Viewmodel"			"1"
-				"HasTeamSkins_Worldmodel"			"1"
-				"MaxAmmo"	"90"
-
-				// bucket.	
-				"bucket"			"1"
-				"bucket_position"		"0"
-				
-				// bucket_dms.
-				"bucket_dm"		"1"
-				"bucket_dm_position"	"3" //NOTE: This is 1 AFTER it's "actual" position. "Fixes" a bug while playing as Spy in DM.
-
-				// Animation.
-				"viewmodel"			"models/weapons/v_models/v_akimbo_pistols_new.mdl"
-				"playermodel"		"models/weapons/w_models/w_pistol_akimbo.mdl"
-				"anim_prefix"		"ac"
-				
-				"MinViewmodelOffset_X" "10"
-				"MinViewmodelOffset_Y" "0"
-				"MinViewmodelOffset_Z" "-6"
-
-				// Muzzleflash
-				"MuzzleFlashModel"	"models/effects/sentry1_muzzle/sentry1_muzzle.mdl"
-				"MuzzleFlashModelDuration"	"0.15"
-				"MuzzleFlashParticleEffect" "muzzle_pistol"
-
-				// Sounds.
-				// Max of 16 per category (ie. max 16 "single_shot" sounds).
-				SoundData
-				{
-					"reload"			"Weapon_Akimbo_Pistols.ClipOut"
-					"empty"			"Weapon_Akimbo_Pistols.ClipEmpty"	
-					"single_shot"		"Weapon_Akimbo_Pistols.Single"
-					"burst"			"Weapon_Akimbo_Pistols.SingleCrit"
-				}
-
-				// Weapon Sprite data is loaded by the Client DLL.
-				TextureData
-				{
-					"weapon"
-					{
-							"file"		"sprites/bucket_akimbo"
-							"x"		"0"
-							"y"		"0"
-							"width"		"200"
-							"height"		"128"
-					}
-					"weapon_s"
-					{	
-							"file"		"sprites/bucket_akimbo"
-							"x"		"0"
-							"y"		"0"
-							"width"		"200"
-							"height"		"128"
-					}
-					"ammo"
-					{
-							"file"		"sprites/a_icons1"
-							"x"			"55"
-							"y"			"60"
-							"width"		"73"
-							"height"	"15"
-					}
-					"crosshair"
-					{
-							"file"		"sprites/crosshairs"
-							"x"			"0"
-							"y"			"0"
-							"width"		"32"
-							"height"	"32"
-					}
-					"autoaim"
-					{
-							"file"		"sprites/crosshairs"
-							"x"			"0"
-							"y"			"48"
-							"width"		"24"
-							"height"	"24"
-					}
-				}
-			}
-		}
 		"tf_weapon_railgun"
 		{
 			"backpack_icon"	"..\sprites\bucket_railgun"
@@ -2813,11 +2696,126 @@
 			}
 		}		
 
-		
+		"tf_weapon_railgun_beta"
+		{
+			"backpack_icon"	"..\sprites\bucket_railgun"
+			"ShowInArsenal"	"0"
+			"WeaponData"
+			{
+				// Attributes Base.
+				"printname"		"#TF_Weapon_RailGun"
+				"BuiltRightHanded"	"0"
+				"weight"		"3"
+				"WeaponType"		"secondary"
+				"ITEM_FLAG_NOITEMPICKUP" 	"1"
+				
+				// Attributes TF.
+				"Damage"		"80"
+				"InstagibDamage"	"999"
+				"Range"			"16384"
+				"BulletsPerShot"	"1"
+				"Spread"		"0.0"
+				"TimeFireDelay"		"0.3"
+				"TimeReload"			"1.2"
+				"ProjectileType"	"projectile_bullet"
+				"HasTeamSkins_Viewmodel"			"1"
+				"HasTeamSkins_Worldmodel"			"1"
+				"TracerEffect"		"railgun_tracer01"
+				
+				"DoInstantEjectBrass"	"0"
+				"NoSniperCharge"		"1"
+
+				// Ammo & Clip.
+				"primary_ammo"		"WEAPON_AMMO"
+				"secondary_ammo"	"None"
+				"clip_size"		"1"
+				"MaxAmmo"	"25"
+
+				// bucket.	
+				"bucket"			"0"
+				"bucket_position"		"0"
+				
+				// bucket_dms.
+				"bucket_dm"		"4"
+				"bucket_dm_position"	"0"
+
+				"MuzzleFlashParticleEffect" "muzzle_railgun"
+
+				// Animation.
+				"viewmodel"		"models/weapons/v_models/v_railgun_mercenary_beta.mdl"
+				"playermodel"		"models/weapons/w_models/w_railgun.mdl"
+				"anim_prefix"		"shotgun"
+				
+				"CenteredViewmodelOffset_Y" "-11"
+				"CenteredViewmodelOffset_Z" "-4"
+				"CenteredViewmodelAngle_X" "-2"
+				
+				"MinViewmodelOffset_X" "10"
+				"MinViewmodelOffset_Y" "0"
+				"MinViewmodelOffset_Z" "-10"
+
+				// Sounds.
+				// Max of 16 per category (ie. max 16 "single_shot" sounds).
+				SoundData
+				{
+					"single_shot"		"Weapon_Railgun.Single"
+					"reload"		"Weapon_SniperRifle.WorldReload"
+					"empty"			"Weapon_SniperRifle.ClipEmpty"	
+					"burst"			"Weapon_Railgun.SingleCrit"
+					"special1"		"Weapon_Railgun.FireLoop"			// Looping fire sound, ramps up 3.5 seconds after start
+				}
+
+				// Weapon Sprite data is loaded by the Client DLL.
+				TextureData
+				{
+					"weapon"
+					{
+							"file"		"sprites/bucket_railgun"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"weapon_s"
+					{	
+							"file"		"sprites/bucket_railgun"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"ammo"
+					{
+							"file"		"sprites/a_icons1"
+							"x"		"55"
+							"y"		"60"
+							"width"		"73"
+							"height"	"15"
+					}
+					"crosshair"
+					{
+							"file"		"sprites/crosshairs"
+							"x"			"64"
+							"y"			"0"
+							"width"		"32"
+							"height"	"32"
+					}
+					"autoaim"
+					{
+							"file"		"sprites/crosshairs"
+							"x"			"0"
+							"y"			"48"
+							"width"		"24"
+							"height"	"24"
+					}
+				}
+			}
+		}		
 		"tf_weapon_revolver_mercenary"
 		{
 			"backpack_icon"	"..\sprites\bucket_sixshooter"
 			"ShowInArsenal"	"1"
+			"loadout_anim"	"7"
 			"WeaponData"
 			{
 				// Attributes Base.
@@ -3591,7 +3589,7 @@
 				"InstagibDamage"		"999"
 				"Range"					"8192"
 				"BulletsPerShot"		"20"
-				"Spread"				"0.18"
+				"Spread"				"0.1185"
 				"PunchAngle"			"12"
 				"TimeFireDelay"			"0.4"
 				"TimeIdle"				"5.0"
@@ -3830,14 +3828,14 @@
 				"ITEM_FLAG_NOITEMPICKUP" 	"1"
 					
 				// Attributes TF.
-				"Damage"		"9"
+				"Damage"		"10"
 				"InstagibDamage"	"999"
 				"Range"			"8192"
 				"BulletsPerShot"	"1"
 				"Spread"		"0.03"
 				"TimeIdleEmpty"		"1.0"
 				"TimeIdle"		"10.0"
-				"TimeFireDelay"		"0.076"
+				"TimeFireDelay"		"0.085"
 				"TimeReload"	"1.33"
 				"ProjectileType"	"projectile_bullet"
 				"BrassModel"		"models/weapons/shells/shell_pistol.mdl"

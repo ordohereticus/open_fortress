@@ -2159,11 +2159,11 @@
 //Secondaries
 	response "MercenaryTauntPistol"
 	{
-		scene "scenes/Player/Mercenary/low/taunt02_v1.vcd"
+		scene "scenes/Player/Mercenary/low/taunt06_v1.vcd"
 	}
 	response "MercenaryTauntPistolMercenary"
 	{
-		scene "scenes/Player/Mercenary/low/taunt02_v1.vcd"
+		scene "scenes/Player/Mercenary/low/taunt06_v1.vcd"
 	}	
 	response "MercenaryTauntSMG"
 	{
@@ -2171,7 +2171,7 @@
 	}
 	response "MercenaryTauntRevolver"
 	{
-		scene "scenes/Player/Mercenary/low/taunt02_v1.vcd"
+		scene "scenes/Player/Mercenary/low/taunt06_v1.vcd"
 	}
 	response "MercenaryTauntStickybomb"
 	{
@@ -2195,11 +2195,11 @@
 	}		
 	response "MercenaryTauntDMRevolver"
 	{
-		scene "scenes/Player/Mercenary/low/taunt02_v1.vcd"
+		scene "scenes/Player/Mercenary/low/taunt06_v1.vcd"
 	}
 	response "MercenaryTauntAkimboPistols"
 	{
-		scene "scenes/Player/Mercenary/low/taunt02_v1.vcd"
+		scene "scenes/Player/Mercenary/low/taunt06_v1.vcd"
 	}
 // Melee's	
 	response "MercenaryTauntCrowbar"

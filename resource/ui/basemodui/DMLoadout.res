@@ -381,7 +381,29 @@
 				"border_idle"		"ItemOutlineIdle"
 				"border_hover" 		"ItemOutlineHoverover"
 				"border_pressed" 	"ItemOutlineIdle"
-				"border_selected" 	"ItemOutlineSelected"			
+				"border_selected" 	"ItemOutlineSelected"	
+
+				"StyleButton"
+				{
+					"ControlName"		"Button"
+					"fieldName"		"StyleButton"
+					"xpos"		"0"
+					"ypos"		"0"
+					"wide"		"40"
+					"tall"		"40"
+					"autoResize"	"0"
+					"pinCorner"		"3"
+					"visible"		"1"
+					"enabled"		"0"
+					"tabPosition"		"2"
+					"labelText"			"+"
+					"textAlignment"		"west"
+					"dulltext"		"0"
+					"brighttext"		"0"
+					"wrap"		"0"
+					"Command"		""
+					"Default"		"1"
+				}
 				
 				"Button"
 				{
@@ -1354,6 +1376,11 @@
 			{
 				"name"		"CHAINSAW"
 				"activity"	"ACT_MERC_LOADOUT_CHAINSAW"
+			}
+			"animation"
+			{
+				"name"		"SIXSHOOTER"
+				"activity"	"ACT_MERC_LOADOUT_REVOLVER"
 			}
 		}
 	}

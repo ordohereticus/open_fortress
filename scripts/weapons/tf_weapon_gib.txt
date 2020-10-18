@@ -38,6 +38,7 @@ WeaponData
 	"BombletParticleTrail"			"mlg_trail_secondary"
 	"BombletEffectTeamColored"	"1"
 	"AlwaysDrop"		"1"
+	"AppearOnBack"		"1"
 	
 	"DropOnNoAmmo"		"1"
 	
