@@ -23,18 +23,18 @@ WeaponData
 	"primary_ammo"			"None"
 	"secondary_ammo"		"None"
 
-	// bucket.	
-	"bucket"			"2"
-	"bucket_position"		"0"
-	
+	// bucket.
+	"bucket"		"2"
+	"bucket_position"	"0"
+				
 	// bucket_dms.	
 	"bucket_dm"			"0"
-	"bucket_dm_position"		"8"
+	"bucket_dm_position"		"4"
 
 	// Model & Animation
 	"viewmodel"				"models/weapons/v_models/v_knife_spy.mdl"
 	"playermodel"			"models/weapons/w_models/w_leadpipe_merc.mdl"
-	"anim_prefix"			"bottle"
+	"anim_prefix"			"bat"
 
 	"MinViewmodelOffset_X" "10"
 	"MinViewmodelOffset_Y" "0"
@@ -43,10 +43,10 @@ WeaponData
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
 	SoundData
 	{
-		"melee_miss"		"Weapon_Bottle.Miss"
-		"melee_hit"		"Weapon_Bottle.HitFlesh"
-		"melee_hit_world"	"Weapon_Bottle.HitWorld"
-		"burst"			"Weapon_Bottle.MissCrit"
+		"melee_miss"		"Weapon_Crowbar_TFC.Miss"
+		"melee_hit"			"Weapon_Crowbar_TFC.HitFlesh"
+		"melee_hit_world"	"Weapon_Crowbar_TFC.Melee_HitWorld"
+		"burst"				"Weapon_Crowbar_TFC.MissCrit"
 	}
 
 	// Weapon Sprite data is loaded by the Client DLL.
