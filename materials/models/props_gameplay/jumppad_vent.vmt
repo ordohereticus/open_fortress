@@ -1,7 +1,7 @@
 "VertexLitGeneric"
 {
 	"$baseTexture" "models\props_gameplay\jumppad_vent"
-	
+	"$nodecal" "1"
 
 }
 

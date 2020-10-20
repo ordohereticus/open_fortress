@@ -2,7 +2,7 @@
 {
 	"$baseTexture" "models\props_gameplay\jumppad_red"
 	
-
+	"$nodecal" "1"
 	"$glowcolor" "1"
 	"$phong" "1"
 	"$phongexponent" "24"

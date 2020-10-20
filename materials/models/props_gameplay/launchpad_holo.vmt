@@ -5,6 +5,7 @@
 	"$additive" "1"
 	"$model" "1"
 		"$color2" "{236.0 185.0 9.0}"
+	"$nodecal" "1"
 
 //	"$nocull" "1"
 	"Proxies"
