@@ -1,6 +1,8 @@
 "LightmappedGeneric"
 {
 	"$basetexture" "dom_takeover/square_stain"
-	"%keywords" "tf custom overlay stain"
-	"$translucent" 1
+	"%keywords" "tf"
+	"$translucent"	"1"
+	"$decal"	"1"
+	"$decalscale" ".25"
 }
