@@ -32,7 +32,7 @@ WeaponData
 	"bucket_dm_position"		"4"
 
 	// Model & Animation
-	"viewmodel"				"models/weapons/v_models/v_knife_spy.mdl"
+	"viewmodel"				"models/weapons/v_models/v_lead_pipe.mdl"
 	"playermodel"			"models/weapons/w_models/w_leadpipe_merc.mdl"
 	"anim_prefix"			"bat"
 
