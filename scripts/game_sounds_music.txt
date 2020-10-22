@@ -27,6 +27,7 @@
 //DeathmatchMusic.Chase_Ending
 //DeathmatchMusic.E1M1alt
 //DeathmatchMusic.E2M1
+//DeathmatchMusic.Just_Around_The_Corner
 //DeathmatchMusic.Map01
 //DeathmatchMusic.Map01_Waiting
 //DeathmatchMusic.Orchestral
@@ -839,4 +840,17 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/RobotMap.ogg"
+}
+
+//by Lucile
+"DeathmatchMusic.Just_Around_The_Corner"
+{
+	"Artist"		"Lucile"
+	"Name"			"Just Around The Corner"
+
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/just_around_the_corner_loop.ogg"
 }
