@@ -1,0 +1,6 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "tools/toolsblack"
+	"%keywords" "tf"
+	"%compilenolight" "1"
+}
