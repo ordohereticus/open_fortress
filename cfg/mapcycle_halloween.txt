@@ -1,9 +1,4 @@
-ctf_2fort_invasion
-cp_gorge_event
-cp_manor_event
-cp_sunshine_event
-koth_harvest_event
-koth_lakeside_event
-koth_moonshine_event
-koth_viaduct_event
-pl_millstone_event
+dm_ghost_town
+dm_pitod
+dm_spillway_event
+duel_badplace

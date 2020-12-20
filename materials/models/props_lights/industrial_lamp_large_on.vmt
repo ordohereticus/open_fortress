@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_lights/industrial_lamp_large_on"
+	"$model" 1
+	"$selfillum" 1
+	"$basealphaselfillummask" 1
+}

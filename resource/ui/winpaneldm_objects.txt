@@ -1,5 +1,6 @@
 "Models"
 {
+	"mercenary_render_weapon" "models/weapons/w_models/w_pistol_mercenary.mdl"
 
 	"mercenary_first_model"	 ""
 	"mercenary_second_model" ""

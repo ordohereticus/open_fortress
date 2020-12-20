@@ -107,6 +107,17 @@ Rule PlayerCloakedSpySpyEngineer
 	Response PlayerCloakedSpySpyEngineer
 }
 
+Response PlayerCloakedSpyMercenaryEngineer
+{
+	scene "scenes/Player/Engineer/low/cloaked_spy_mercenary.vcd" 
+}
+
+Rule PlayerCloakedSpyMercenaryEngineer
+{
+	criteria ConceptPlayerCloakedSpy IsEngineer IsOnMercenary
+	Response PlayerCloakedSpyMercenaryEngineer
+}
+
 Response PlayerDispenserDownEngineer
 {
 	scene "scenes/Player/Engineer/low/25.vcd" 

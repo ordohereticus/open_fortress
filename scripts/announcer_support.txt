@@ -13,15 +13,6 @@
 		"ARENA"	"1"
 		"INFECTION"	"1"
 	}
-	"HECU"
-	{
-		"CP" 	"0"
-		"CTF"	"0"
-		"DM"	"1"
-		"ESC"	"0"
-		"ARENA"	"0"
-		"INFECTION"	"0"
-	}
 	"Announcer"
 	{
 		"CP" 	"1"

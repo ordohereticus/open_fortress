@@ -23,12 +23,12 @@
 		"ypos"					"r56"
 		"zpos"					"5"
 		"wide"					"180"
-		"tall"					"51"
+		"tall"					"45"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"scaleImage"			"1"
-		"image"					"..\logo\tf2_logo"
+		"image"					"..\logo\of_logo"
 		"frame"					"0"
 	}	
 	

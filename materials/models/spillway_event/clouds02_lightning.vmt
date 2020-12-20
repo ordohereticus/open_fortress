@@ -1,0 +1,7 @@
+"UnlitGeneric" {
+	"$basetexture" "spillway_event/clouds02_lightning"
+	"$translucent" 1
+	"$additive" "1"
+	"$nofog" "1"
+	"$model" "1"
+}

@@ -105,6 +105,16 @@ Rule PlayerCloakedSpySpySoldier
 	Response PlayerCloakedSpySpySoldier
 }
 
+Response PlayerCloakedSpyMercenarySoldier
+{
+	scene "scenes/Player/Soldier/low/cloaked_spy_mercenary.vcd" 
+}
+
+Rule PlayerCloakedSpyMercenarySoldier
+{
+	criteria ConceptPlayerCloakedSpy IsSoldier IsOnMercenary
+	Response PlayerCloakedSpyMercenarySoldier
+}
 
 //--------------------------------------------------------------------------------------------------------------
 // Auto Speech

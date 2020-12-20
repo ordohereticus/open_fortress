@@ -1,0 +1,9 @@
+"sky"
+{
+	
+	"$hdrbasetexture" "skybox/sky_vickerybk"	
+	"$nofog" "1"
+	"$ignorez" "1"
+	"$basetexture" "skybox/sky_vickerybk"
+	"%keywords" "tf"
+}

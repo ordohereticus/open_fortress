@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "glass/glasswindow002b"
+	"$envmap" "env_cubemap"
+	"$basealphaenvmapmask" 1
+	"$envmaptint" "[.02 .1 .02]"
+	"$selfillum" "1"
+	"$selfillummask "spillway_event/window_illum"
+	"$surfaceprop" "glass"
+	"%keywords" "tf"
+}

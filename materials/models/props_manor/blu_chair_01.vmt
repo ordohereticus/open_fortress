@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$model" 1
+	"$baseTexture" "models/props_manor/blu_chair_01"
+	"$bumpmap" "models/props_manor/chair_01_normal"
+	"$normalmapalphaphongmask" "1"
+	"$phong" "1"
+	"$phongexponent" "50"
+	"$phongboost" ".5"	
+	"$phongfresnelranges"	"[.1 10 10]"	
+}
+

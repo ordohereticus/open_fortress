@@ -12,10 +12,10 @@ actor "civilian"
   }
   channel "sequence"
   {
-    event sequence "selection_menu_anim"
+    event sequence "stand_MELEE"
     {
       time 0.000000 7.333333
-      param "selectionMenu_all"
+      param "stand_MELEE"
       fixedlength
     }
   }

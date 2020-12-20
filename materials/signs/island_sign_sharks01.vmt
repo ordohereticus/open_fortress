@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "signs/island_sign_sharks01"
+        "$decal" 1
+	"$decalscale" 1
+	"$translucent" 1
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	"%keywords" "tf"
+}

@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$model" 1
+	"$baseTexture" "models/props_manor/blu_immortality_machine_01a"
+	"$selfillum" "1"
+}
+

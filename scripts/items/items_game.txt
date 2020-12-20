@@ -268,6 +268,14 @@
 			"region" "hat"
 			"backpack_icon" "..\backpack\hats\surveyor"
 			"team_skins" "0"
+			"uses_brightskins" "0"
+			"Styles"
+			{
+				"1" // Camdroid
+				{
+					"skin_offset" "1"
+				}
+			}
 		}
 		
 		"7"
@@ -300,6 +308,18 @@
 			"model" "models/player/items/mercenary/doomguy/doomguy.mdl"
 			"region" "hat"
 			"backpack_icon" "..\backpack\hats\doomguy"
+			"uses_brightskins" "1"
+			 "Styles"
+			{
+				"1" // Gray
+				{
+					"skin_offset" "1"
+				}
+				"2" // Custom
+				{
+					"skin_offset" "2"
+				}
+			}
 		}
 		"12"	
 		{
@@ -424,15 +444,25 @@
 			}
 		}
 		"29"
-		{
-			"model" "models/player/items/mercenary/merc_race/merc_race.mdl"
-			"region" "hat"
-			"backpack_icon" "..\backpack\hats\race"
-			
-			"Bodygroups"
+        {
+            "model" "models/player/items/mercenary/merc_race/merc_race.mdl"
+            "region" "hat"
+            "backpack_icon" "..\backpack\hats\race"
+            "Styles"
 			{
+				"1"
+				{
+					"model" "models/player/items/mercenary/merc_race/merc_race.mdl"
+				} 
+				"2"
+				{
+					"model" "models/player/items/mercenary/merc_race/merc_race_gog.mdl"
+				}
 			}
-		}
+            "Bodygroups"
+            {
+            }
+        }
 		"30"
 		{
 			"model" "models/player/items/mercenary/merc_headwrap/merc_headwrap.mdl"
@@ -630,7 +660,17 @@
 			"region" "suit"
 			"backpack_icon" "..\backpack\chest\floral"
 			"viewmodel" "models\weapons\c_models\cosmetics\merc\sleeves\floral.mdl"
-			
+			"Styles"
+			{
+			"1"
+			{
+				"model" "models/player/items/mercenary/merc_floral/merc_floral.mdl"
+			}
+			"2"
+			{
+				"model" "models/player/items/mercenary/merc_floral/merc_scar.mdl"
+			}
+		}
 			"Bodygroups"
 			{
 				"torso"   "1"
@@ -876,7 +916,7 @@
 			"model" "models/player/items/mercenary/merc_mask02/merc_mask02.mdl"
 			"region" "face"
 			"backpack_icon" "..\backpack\face\merc_mask02icon"
-			
+			"uses_brightskins" "1"	
 			"Bodygroups"
 			{
 				
@@ -889,6 +929,18 @@
 			"region" "gloves"
 			"backpack_icon" "..\backpack\gloves\merc_flglovesicon"
 			"viewmodel" "models\weapons\c_models\cosmetics\merc\gloves\flgloves.mdl"
+			"uses_brightskins" "1"
+			"Styles"
+			{
+				"1" // Gray
+				{
+					"skin_offset" "1"
+				}
+				"2" // Brown
+				{
+					"skin_offset" "2"
+				}
+			}
 			"Bodygroups"
 			{
 				"lefthand"	"3"
@@ -904,6 +956,18 @@
 			"Bodygroups"
 			{
 				"vest" "1"
+			}
+			"uses_brightskins" "1"
+			 "Styles"
+			{
+				"1" // Gray
+				{
+					"skin_offset" "1"
+				}
+				"2" // Brown
+				{
+					"skin_offset" "2"
+				}
 			}
 		}
 		"71"
@@ -980,7 +1044,18 @@
 			"model" "models/player/items/mercenary\merc_pufvest/merc_pufvest.mdl"
 			"region" "chest"
 			"backpack_icon" "..\backpack\chest\pufvest"
-			
+			"uses_brightskins" "1"
+			"Styles"
+			{
+				"1" // Camo
+				{
+					"skin_offset" "1"
+				}
+				"2" // Full camo
+				{
+					"skin_offset" "2"
+				}
+			}
 			"Bodygroups"
 			{
 				"vest" "1"
@@ -1009,6 +1084,41 @@
 			{
 			}
 		}
+		"80"
+		{
+			"model" "models/player/items/mercenary/merc_pirate_jacket/merc_pirate_jacket.mdl"
+			"region" "suit"
+			"backpack_icon" "..\backpack\chest\pirate_jacket"
+			"viewmodel" "models\weapons\c_models\cosmetics\merc\sleeves\c_pirate_jacket.mdl"
+			"Bodygroups"
+			{
+				"vest" "1"
+				"torso"   "1"
+				"rightarm" "1"
+				"leftarm" "1"
+			}
+		}
+		"81"
+		{
+			"model" "models/player/items/mercenary/merc_pirate_boots/merc_pirate_boots.mdl"
+			"region" "boots"
+			"backpack_icon" "..\backpack\pants\pirate_boots"
+			"Bodygroups"
+			{
+				"pockets"   "1"
+				"rightleg" "1"
+				"leftleg" "1"
+			}
+		}
+		"82"
+		{
+			"model" "models/player/items/mercenary/merc_pirate_hat/merc_pirate_hat.mdl"
+			"region" "hat"
+			"backpack_icon" "..\backpack\hats\pirate_hat"
+			"Bodygroups"
+			{
+			}
+		}	
 //		Do this
 //		"66"
 //		{		
@@ -1121,6 +1231,14 @@
 							"width"		"200"
 							"height"		"128"
 					}
+					"weapon_t"
+					{	
+							"file"		"sprites/bucket_assaultrifle"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
 					"ammo"
 					{
 							"file"		"sprites/a_icons1"
@@ -1147,6 +1265,17 @@
 					}
 				}
 			}
+		}
+		
+		"tf_weapon_lead_pipe"
+		{
+		"backpack_icon"	"..\sprites\bucket_leadpipe_wip"
+		
+			"slot"
+			{
+				"mercenary"	"3"
+			}
+			"ShowInArsenal"	"1"
 		}
 		
 		"tf_weapon_crowbar"
@@ -1227,7 +1356,14 @@
 							"width"		"200"
 							"height"		"128"
 					}
-
+					"weapon_t"
+					{	
+							"file"		"sprites/bucket_crowbar"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
 					"ammo"
 					{
 							"file"		"sprites/a_icons1"
@@ -1257,6 +1393,115 @@
 				}
 			}
 		}
+		"tf_weapon_crowbar_beta"
+		{
+			"WeaponData"
+			{
+				// Attributes Base.
+				"printname"			"#TF_Weapon_Crowbar"
+				"BuiltRightHanded"		"0"
+				"MeleeWeapon"			"1"
+				"weight"			"1"
+				"WeaponType"		"melee"
+				"ITEM_FLAG_NOITEMPICKUP" 	"1"
+				
+				// Attributes TF.
+				"Damage"			"40"
+				"InstagibDamage"	"999"
+				"TimeFireDelay"			"0.5"
+				"SmackDelay"		"0.1"
+				"TimeIdle"			"5.0"
+				"HasTeamSkins_Viewmodel"			"1"
+				"HasTeamSkins_Worldmodel"			"1"
+				"UsesCritAnimation"			"1"
+
+				// Ammo & Clip
+				"primary_ammo"			"None"
+				"secondary_ammo"		"None"
+
+				// bucket.
+				"bucket"		"2"
+				"bucket_position"	"0"
+				
+				// bucket_dms.	
+				"bucket_dm"			"0"
+				"bucket_dm_position"		"4"
+
+				// Model & Animation
+				"viewmodel"			"models/weapons/v_models/v_crowbar_mercenary.mdl"
+				"playermodel"			"models/weapons/w_models/w_crowbar.mdl"
+				"anim_prefix"			"bat"
+				
+				"MinViewmodelOffset_X" "10"
+				"MinViewmodelOffset_Y" "0"
+				"MinViewmodelOffset_Z" "-6"
+
+				// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+				SoundData
+				{
+					"melee_miss"	"Weapon_Crowbar_TFC.Miss"
+					"melee_hit"		"Weapon_Crowbar_TFC.HitFlesh"
+					"melee_hit_world"	"Weapon_Crowbar_TFC.Melee_HitWorld"
+					"burst"			"Weapon_Crowbar_TFC.MissCrit"
+				}
+
+				// Weapon Sprite data is loaded by the Client DLL.
+				"TextureData"
+				{
+					"weapon"
+					{
+							"file"		"sprites/bucket_crowbar_red"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"weapon_s"
+					{	
+							"file"		"sprites/bucket_crowbar_blue"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"weapon_t"
+					{	
+							"file"		"sprites/bucket_crowbar"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"ammo"
+					{
+							"file"		"sprites/a_icons1"
+							"x"		"55"
+							"y"		"60"
+							"width"		"73"
+							"height"	"15"
+					}
+
+					"crosshair"
+					{
+							"file"		"sprites/crosshairs"
+							"x"		"32"
+							"y"		"32"
+							"width"		"32"
+							"height"	"32"
+					}
+
+					"autoaim"
+					{
+							"file"		"sprites/crosshairs"
+							"x"		"0"
+							"y"		"48"
+							"width"		"24"
+							"height"	"24"
+					}
+				}
+			}
+		}
+		
 		"tf_weapon_chainsaw"
 		{
 			"backpack_icon"	"..\sprites\bucket_chainsaw"
@@ -1336,7 +1581,14 @@
 							"width"		"200"
 							"height"		"128"
 					}
-
+					"weapon_t"
+					{	
+							"file"		"sprites/bucket_chainsaw"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
 					"ammo"
 					{
 							"file"		"sprites/a_icons1"
@@ -1470,7 +1722,14 @@
 							"width"		"200"
 							"height"		"128"
 					}
-
+					"weapon_t"
+					{	
+							"file"		"sprites/bucket_dynamite"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
 					"ammo"
 					{
 							"file"		"sprites/a_icons1"
@@ -1581,6 +1840,14 @@
 					"weapon_s"
 					{	
 							"file"		"sprites/bucket_flamethrower_blue"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"weapon_t"
+					{	
+							"file"		"sprites/bucket_flamethrower_purple"
 							"x"		"0"
 							"y"		"0"
 							"width"		"200"
@@ -1711,6 +1978,14 @@
 							"width"		"200"
 							"height"		"128"
 					}
+					"weapon_t"
+					{	
+							"file"		"sprites/bucket_chaingun"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
 					"ammo"
 					{
 							"file"		"sprites/a_icons1"
@@ -1827,6 +2102,14 @@
 							"height"		"128"
 					}
 					"weapon_s"
+					{	
+							"file"		"sprites/bucket_chaingun"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"weapon_t"
 					{	
 							"file"		"sprites/bucket_chaingun"
 							"x"		"0"
@@ -1965,6 +2248,14 @@
 							"width"		"200"
 							"height"		"128"
 					}
+					"weapon_t"
+					{	
+							"file"		"sprites/bucket_grenDM"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
 					"ammo"
 					{
 							"file"		"sprites/a_icons1"
@@ -2003,119 +2294,6 @@
 		{
 			"backpack_icon"	"..\sprites\bucket_lightning_gun"
 			"ShowInArsenal"	"1"
-			"WeaponData"
-			{
-				// Attributes Base.
-				"printname"		"#TF_Weapon_LightningGun"
-				"BuiltRightHanded"	"0"
-				"weight"		"3"
-				"WeaponType"		"primary"
-				"ITEM_FLAG_NOITEMPICKUP" 	"0"
-				
-				// Attributes TF.
-				"Damage"		"12"
-				"InstagibDamage"	"1800"
-				"Range"			"720"
-				"BulletsPerShot"	"1"
-				"Spread"		"0"
-				"TimeIdle"		"10.0"
-				"TimeIdleEmpty"		"1.0"
-				"TimeFireDelay"		"0.05"
-				"ProjectileType"	"projectile_bullet"
-				"TracerEffect"		"LG_bolt"
-				"UseRapidFireCrits"	"1"
-				"HasTeamSkins_Viewmodel"			"1"
-				"HasTeamSkins_Worldmodel"			"1"
-					
-				// Ammo & Clip.
-				"primary_ammo"		"WEAPON_AMMO"
-				"secondary_ammo"	"None"
-				clip_size		-1
-				"MaxAmmo"	"150"
-
-				// bucket_dms.
-				"bucket"		"0"
-				"bucket_position"	"0"
-				
-				// bucket_dms.
-				"bucket_dm"		"5"
-				"bucket_dm_position"	"0"
-
-				// Animation.
-				"viewmodel"		"models/weapons/v_models/v_lightning_gun.mdl"
-				"playermodel"		"models/weapons/w_models/w_lightning_gun.mdl"
-				"anim_prefix"		"gl"
-				
-				"CenteredViewmodelOffset_Y" "-8.44"
-				"CenteredViewmodelAngle_Z" "1.25"
-				"CenteredViewmodelOffset_Z" "-1"
-				
-				"MinViewmodelOffset_X" "8"
-				"MinViewmodelOffset_Y" "0"
-				"MinViewmodelOffset_Z" "-6"	
-
-				"HasTeamSkins_Worldmodel"	"1"
-
-				// Sounds.
-				// Max of 16 per category (ie. max 16 "single_shot" sounds).
-				SoundData
-				{
-					"single_shot"		"Weapon_LightningGun.LightningStart"			// Starting fire, 3.5 seconds long
-					"special1"		"Weapon_LightningGun.LightningLoop"			// Looping fire sound, ramps up 3.5 seconds after start
-					"special2"		"Weapon_LightningGun.HumLoop"			// Looping pilot light sound, always on while weapon is deployed
-					"special3"		"Weapon_LightningGun.LightningEnd"			// End of fire sound
-					"burst"			"Weapon_LightningGun.LightningLoopCrit"		// Looping crit fire sound
-				}
-
-				// Weapon Sprite data is loaded by the Client DLL.
-				TextureData
-				{
-					"weapon"
-					{
-							"file"		"sprites/bucket_lightning_gun"
-							"x"		"0"
-							"y"		"0"
-							"width"		"200"
-							"height"		"128"
-					}
-					"weapon_s"
-					{	
-							"file"		"sprites/bucket_lightning_gun"
-							"x"		"0"
-							"y"		"0"
-							"width"		"200"
-							"height"		"128"
-					}
-					"ammo"
-					{
-							"file"		"sprites/a_icons1"
-							"x"		"55"
-							"y"		"60"
-							"width"		"73"
-							"height"	"15"
-					}
-					"crosshair"
-					{
-							"file"		"sprites/crosshairs"
-							"x"		"32"
-							"y"		"32"
-							"width"		"32"
-							"height"	"32"
-					}
-					"autoaim"
-					{
-							"file"		"sprites/crosshairs"
-							"x"		"0"
-							"y"		"48"
-							"width"		"24"
-							"height"	"24"
-					}
-				}
-			}
-		}
-		
-		"tf_weapon_lightning_gun_beta"
-		{
 			"WeaponData"
 			{
 				// Attributes Base.
@@ -2195,6 +2373,140 @@
 							"height"		"128"
 					}
 					"weapon_s"
+					{	
+							"file"		"sprites/bucket_lightning_gun"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"weapon_t"
+					{	
+							"file"		"sprites/bucket_lightning_gun"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"ammo"
+					{
+							"file"		"sprites/a_icons1"
+							"x"		"55"
+							"y"		"60"
+							"width"		"73"
+							"height"	"15"
+					}
+					"crosshair"
+					{
+							"file"		"sprites/crosshairs"
+							"x"		"32"
+							"y"		"32"
+							"width"		"32"
+							"height"	"32"
+					}
+					"autoaim"
+					{
+							"file"		"sprites/crosshairs"
+							"x"		"0"
+							"y"		"48"
+							"width"		"24"
+							"height"	"24"
+					}
+				}
+			}
+		}
+		
+		"tf_weapon_lightning_gun_beta"
+		{
+			"backpack_icon"	"..\sprites\bucket_lightning_gun"
+			"ShowInArsenal"	"0"
+			"WeaponData"
+			{
+				// Attributes Base.
+				"printname"		"#TF_Weapon_LightningGun"
+				"BuiltRightHanded"	"0"
+				"weight"		"3"
+				"WeaponType"		"primary"
+				"ITEM_FLAG_NOITEMPICKUP" 	"0"
+				
+				// Attributes TF.
+				"Damage"		"6"
+				"ConsecutiveDamage"		"19"
+				"InstagibDamage"	"1800"
+				"Range"			"720"
+				"BulletsPerShot"	"1"
+				"Spread"		"0"
+				"TimeIdle"		"10.0"
+				"TimeIdleEmpty"		"1.0"
+				"TimeFireDelay"		"0.05"
+				"ProjectileType"	"projectile_bullet"
+				"TracerEffect"		"lg_bolt_beta"
+				"UseRapidFireCrits"	"1"
+				"HasTeamSkins_Viewmodel"			"1"
+				"HasTeamSkins_Worldmodel"			"1"
+				"HitsForConsecutiveDamage"		"10"
+				"ConsecutiveDamageLostPerSecond"	"5"
+					
+				// Ammo & Clip.
+				"primary_ammo"		"WEAPON_AMMO"
+				"secondary_ammo"	"None"
+				clip_size		-1
+				"MaxAmmo"	"100"
+
+				// bucket_dms.
+				"bucket"		"0"
+				"bucket_position"	"0"
+				
+				// bucket_dms.
+				"bucket_dm"		"5"
+				"bucket_dm_position"	"0"
+
+				// Animation.
+				"viewmodel"		"models/weapons/v_models/v_lightning_gun.mdl"
+				"playermodel"		"models/weapons/w_models/w_lightning_gun.mdl"
+				"anim_prefix"		"gl"
+				
+				"CenteredViewmodelOffset_Y" "-8.44"
+				"CenteredViewmodelAngle_Z" "1.25"
+				"CenteredViewmodelOffset_Z" "-1"
+				
+				"MinViewmodelOffset_X" "8"
+				"MinViewmodelOffset_Y" "0"
+				"MinViewmodelOffset_Z" "-6"	
+
+				"HasTeamSkins_Worldmodel"	"1"
+
+				// Sounds.
+				// Max of 16 per category (ie. max 16 "single_shot" sounds).
+				SoundData
+				{
+					"single_shot"		"Weapon_LightningGun.LightningStart"			// Starting fire, 3.5 seconds long
+					"special1"		"Weapon_LightningGun.LightningLoop"			// Looping fire sound, ramps up 3.5 seconds after start
+					"special2"		"Weapon_LightningGun.HumLoop"			// Looping pilot light sound, always on while weapon is deployed
+					"special3"		"Weapon_LightningGun.LightningEnd"			// End of fire sound
+					"burst"			"Weapon_LightningGun.LightningLoopCrit"		// Looping crit fire sound
+				}
+
+				// Weapon Sprite data is loaded by the Client DLL.
+				TextureData
+				{
+					"weapon"
+					{
+							"file"		"sprites/bucket_lightning_gun"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"weapon_s"
+					{	
+							"file"		"sprites/bucket_lightning_gun"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"weapon_t"
 					{	
 							"file"		"sprites/bucket_lightning_gun"
 							"x"		"0"
@@ -2305,6 +2617,14 @@
 							"height"		"128"
 					}
 					"weapon_s"
+					{	
+							"file"		"sprites/bucket_nailgun"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"weapon_t"
 					{	
 							"file"		"sprites/bucket_nailgun"
 							"x"		"0"
@@ -2436,6 +2756,14 @@
 							"width"		"200"
 							"height"		"128"
 					}
+					"weapon_t"
+					{	
+							"file"		"sprites/bucket_pistol_merc"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
 					"ammo"
 					{
 							"file"		"sprites/a_icons1"
@@ -2553,6 +2881,14 @@
 							"width"		"200"
 							"height"		"128"
 					}
+					"weapon_t"
+					{	
+							"file"		"sprites/bucket_akimbo"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
 					"ammo"
 					{
 							"file"		"sprites/a_icons1"
@@ -2580,126 +2916,11 @@
 				}
 			}
 		}
+		
 		"tf_weapon_railgun"
 		{
 			"backpack_icon"	"..\sprites\bucket_railgun"
 			"ShowInArsenal"	"1"
-			"WeaponData"
-			{
-				// Attributes Base.
-				"printname"		"#TF_Weapon_RailGun"
-				"BuiltRightHanded"	"0"
-				"weight"		"3"
-				"WeaponType"		"secondary"
-				"ITEM_FLAG_NOITEMPICKUP" 	"1"
-				
-				// Attributes TF.
-				"Damage"		"80"
-				"InstagibDamage"	"999"
-				"Range"			"16384"
-				"BulletsPerShot"	"1"
-				"Spread"		"0.0"
-				"TimeFireDelay"		"1.5"
-				"ProjectileType"	"projectile_bullet"
-				"HasTeamSkins_Viewmodel"			"1"
-				"HasTeamSkins_Worldmodel"			"1"
-				"TracerEffect"		"railgun_tracer01"
-				
-				"DoInstantEjectBrass"	"0"
-				"NoSniperCharge"		"1"
-
-				// Ammo & Clip.
-				"primary_ammo"		"WEAPON_AMMO"
-				"secondary_ammo"	"None"
-				"clip_size"		"-1"
-				"default_clip"		"75"
-				"MaxAmmo"	"25"
-
-				// bucket.	
-				"bucket"			"0"
-				"bucket_position"		"0"
-				
-				// bucket_dms.
-				"bucket_dm"		"4"
-				"bucket_dm_position"	"0"
-
-				"MuzzleFlashParticleEffect" "muzzle_railgun"
-
-				// Animation.
-				"viewmodel"		"models/weapons/v_models/v_railgun_mercenary.mdl"
-				"playermodel"		"models/weapons/w_models/w_railgun.mdl"
-				"anim_prefix"		"shotgun"
-				
-				"CenteredViewmodelOffset_Y" "-11"
-				"CenteredViewmodelOffset_Z" "-4"
-				"CenteredViewmodelAngle_X" "-2"
-				
-				"MinViewmodelOffset_X" "10"
-				"MinViewmodelOffset_Y" "0"
-				"MinViewmodelOffset_Z" "-10"
-
-				// Sounds.
-				// Max of 16 per category (ie. max 16 "single_shot" sounds).
-				SoundData
-				{
-					"single_shot"		"Weapon_Railgun.Single"
-					"reload"		"Weapon_SniperRifle.WorldReload"
-					"empty"			"Weapon_SniperRifle.ClipEmpty"	
-					"burst"			"Weapon_Railgun.SingleCrit"
-					"special1"		"Weapon_Railgun.FireLoop"			// Looping fire sound, ramps up 3.5 seconds after start
-				}
-
-				// Weapon Sprite data is loaded by the Client DLL.
-				TextureData
-				{
-					"weapon"
-					{
-							"file"		"sprites/bucket_railgun"
-							"x"		"0"
-							"y"		"0"
-							"width"		"200"
-							"height"		"128"
-					}
-					"weapon_s"
-					{	
-							"file"		"sprites/bucket_railgun"
-							"x"		"0"
-							"y"		"0"
-							"width"		"200"
-							"height"		"128"
-					}
-					"ammo"
-					{
-							"file"		"sprites/a_icons1"
-							"x"		"55"
-							"y"		"60"
-							"width"		"73"
-							"height"	"15"
-					}
-					"crosshair"
-					{
-							"file"		"sprites/crosshairs"
-							"x"			"64"
-							"y"			"0"
-							"width"		"32"
-							"height"	"32"
-					}
-					"autoaim"
-					{
-							"file"		"sprites/crosshairs"
-							"x"			"0"
-							"y"			"48"
-							"width"		"24"
-							"height"	"24"
-					}
-				}
-			}
-		}		
-
-		"tf_weapon_railgun_beta"
-		{
-			"backpack_icon"	"..\sprites\bucket_railgun"
-			"ShowInArsenal"	"0"
 			"WeaponData"
 			{
 				// Attributes Base.
@@ -2784,6 +3005,14 @@
 							"width"		"200"
 							"height"		"128"
 					}
+					"weapon_t"
+					{	
+							"file"		"sprites/bucket_railgun"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
 					"ammo"
 					{
 							"file"		"sprites/a_icons1"
@@ -2810,7 +3039,133 @@
 					}
 				}
 			}
-		}		
+		}	
+
+		"tf_weapon_railgun_beta"
+		{
+			"backpack_icon"	"..\sprites\bucket_railgun"
+			"ShowInArsenal"	"0"
+			"WeaponData"
+			{
+				// Attributes Base.
+				"printname"		"#TF_Weapon_RailGun"
+				"BuiltRightHanded"	"0"
+				"weight"		"3"
+				"WeaponType"		"secondary"
+				"ITEM_FLAG_NOITEMPICKUP" 	"1"
+				
+				// Attributes TF.
+				"Damage"		"80"
+				"InstagibDamage"	"999"
+				"Range"			"16384"
+				"BulletsPerShot"	"1"
+				"Spread"		"0.0"
+				"TimeFireDelay"		"1.5"
+				"TimeReload"			"1.5"
+				"ProjectileType"	"projectile_bullet"
+				"HasTeamSkins_Viewmodel"			"1"
+				"HasTeamSkins_Worldmodel"			"1"
+				"TracerEffect"		"railgun_tracer01"
+				
+				"DoInstantEjectBrass"	"0"
+				"NoSniperCharge"		"1"
+				"RailgunNerf"			"1"
+
+				// Ammo & Clip.
+				"primary_ammo"		"WEAPON_AMMO"
+				"secondary_ammo"	"None"
+				"clip_size"		"-1"
+				"MaxAmmo"	"25"
+
+				// bucket.	
+				"bucket"			"0"
+				"bucket_position"		"0"
+				
+				// bucket_dms.
+				"bucket_dm"		"4"
+				"bucket_dm_position"	"0"
+
+				"MuzzleFlashParticleEffect" "muzzle_railgun"
+
+				// Animation.
+				"viewmodel"			"models/weapons/v_models/v_railgun_mercenary.mdl"
+				"playermodel"		"models/weapons/w_models/w_railgun.mdl"
+				"anim_prefix"		"shotgun"
+				
+				"CenteredViewmodelOffset_Y" "-11"
+				"CenteredViewmodelOffset_Z" "-4"
+				"CenteredViewmodelAngle_X" "-2"
+				
+				"MinViewmodelOffset_X" "10"
+				"MinViewmodelOffset_Y" "0"
+				"MinViewmodelOffset_Z" "-10"
+
+				// Sounds.
+				// Max of 16 per category (ie. max 16 "single_shot" sounds).
+				SoundData
+				{
+					"single_shot"		"Weapon_Railgun.Single"
+					"reload"		"Weapon_SniperRifle.WorldReload"
+					"empty"			"Weapon_SniperRifle.ClipEmpty"	
+					"burst"			"Weapon_Railgun.SingleCrit"
+					"special1"		"Weapon_Railgun.FireLoop"			// Looping fire sound, ramps up 3.5 seconds after start
+				}
+
+				// Weapon Sprite data is loaded by the Client DLL.
+				TextureData
+				{
+					"weapon"
+					{
+							"file"		"sprites/bucket_railgun"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"weapon_s"
+					{	
+							"file"		"sprites/bucket_railgun"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"weapon_t"
+					{	
+							"file"		"sprites/bucket_railgun"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"ammo"
+					{
+							"file"		"sprites/a_icons1"
+							"x"		"55"
+							"y"		"60"
+							"width"		"73"
+							"height"	"15"
+					}
+					"crosshair"
+					{
+							"file"		"sprites/crosshairs"
+							"x"			"64"
+							"y"			"0"
+							"width"		"32"
+							"height"	"32"
+					}
+					"autoaim"
+					{
+							"file"		"sprites/crosshairs"
+							"x"			"0"
+							"y"			"48"
+							"width"		"24"
+							"height"	"24"
+					}
+				}
+			}
+		}
+		
 		"tf_weapon_revolver_mercenary"
 		{
 			"backpack_icon"	"..\sprites\bucket_sixshooter"
@@ -2899,6 +3254,14 @@
 							"height"		"128"
 					}
 					"weapon_s"
+					{	
+							"file"		"sprites/bucket_sixshooter"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"weapon_t"
 					{	
 							"file"		"sprites/bucket_sixshooter"
 							"x"		"0"
@@ -3034,6 +3397,14 @@
 							"width"		"200"
 							"height"		"128"
 					}
+					"weapon_t"
+					{	
+							"file"		"sprites/bucket_rocketlauncher_dm"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
 					"ammo"
 					{
 							"file"		"sprites/a_icons1"
@@ -3075,6 +3446,7 @@
 				"weight"			"3"
 				"WeaponType"			"secondary"
 				"engineer_WeaponType"			"primary"
+				"civilian_WeaponType"			"primary"
 				"ITEM_FLAG_NOITEMPICKUP" 	"1"
 				
 				// Primary Attributes
@@ -3160,6 +3532,14 @@
 							"height"		"128"
 					}
 					"weapon_s"
+					{	
+							"file"		"sprites/bucket_shotgun"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"weapon_t"
 					{	
 							"file"		"sprites/bucket_shotgun"
 							"x"		"0"
@@ -3300,6 +3680,14 @@
 							"width"		"200"
 							"height"		"128"
 					}
+					"weapon_t"
+					{	
+							"file"		"sprites/bucket_shotgun"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
 					"ammo"
 					{
 							"file"		"sprites/a_icons1"
@@ -3330,8 +3718,7 @@
 		
 		"tf_weapon_smg_mercenary"
 		{
-			"backpack_icon"	"..\sprites\bucket_smgdm"
-			"ShowInArsenal"	"1"
+			"ShowInArsenal"	"0"
 			"WeaponData"
 			{
 				// Attributes Base.
@@ -3414,6 +3801,14 @@
 							"height"		"128"
 					}
 					"weapon_s"
+					{	
+							"file"		"sprites/bucket_smgDM"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"weapon_t"
 					{	
 							"file"		"sprites/bucket_smgDM"
 							"x"		"0"
@@ -3544,6 +3939,14 @@
 							"width"		"200"
 							"height"		"128"
 					}
+					"weapon_t"
+					{	
+							"file"		"sprites/bucket_supershotgun"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
 					"ammo"
 					{
 							"file"		"sprites/a_icons1"
@@ -3589,7 +3992,7 @@
 				"InstagibDamage"		"999"
 				"Range"					"8192"
 				"BulletsPerShot"		"20"
-				"Spread"				"0.1185"
+				"Spread"				"0.1485"
 				"PunchAngle"			"12"
 				"TimeFireDelay"			"0.4"
 				"TimeIdle"				"5.0"
@@ -3658,6 +4061,14 @@
 							"height"		"128"
 					}
 					"weapon_s"
+					{	
+							"file"		"sprites/bucket_supershotgun"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"weapon_t"
 					{	
 							"file"		"sprites/bucket_supershotgun"
 							"x"		"0"
@@ -3788,6 +4199,14 @@
 							"width"		"200"
 							"height"		"128"
 					}
+					"weapon_t"
+					{	
+							"file"		"sprites/bucket_tommygun"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
 					"ammo"
 					{
 							"file"		"sprites/a_icons1"
@@ -3902,6 +4321,14 @@
 							"height"		"128"
 					}
 					"weapon_s"
+					{	
+							"file"		"sprites/bucket_tommygun"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"weapon_t"
 					{	
 							"file"		"sprites/bucket_tommygun"
 							"x"		"0"

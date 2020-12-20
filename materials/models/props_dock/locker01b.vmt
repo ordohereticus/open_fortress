@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_dock/locker01b"
+
+	"$phong" "1"
+	"$phongexponent" "30"
+	"$phongboost" ".35"	
+	"$phongfresnelranges"	"[.7 15 20]"
+
+}
+

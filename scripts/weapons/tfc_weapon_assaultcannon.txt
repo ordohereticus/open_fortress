@@ -28,33 +28,33 @@ WeaponData
 	clip_size		-1
 	"MaxAmmo"	"200"
 
-	// bucket
-	"bucket"		"0"
-	"bucket_position"	"0"
+	// bucket.	
+	"bucket"			"0"
+	"bucket_position"		"0"
 	
 	// bucket_dms.
 	"bucket_dm"		"3"
-	"bucket_dm_position"	"2" //NOTE: This is 2 AFTER it's "actual" position. "Fixes" a bug involving the sapper and non-Spy classes in DM.
+	"bucket_dm_position"	"6" //NOTE: This is 2 AFTER it's "actual" position. "Fixes" a bug involving the sapper and non-Spy classes in DM.
+	
+	"MaxAmmo"	"200"
 
 	// Animation.
-	"viewmodel"		"models/weapons/v_models/v_minigun_dm.mdl"
-	"playermodel"		"models/weapons/w_models/w_minigun_dm.mdl"
+	"viewmodel"		"models/weapons/v_models/v_minigun_heavy.mdl"
+	"playermodel"		"models/weapons/w_models/w_minigun.mdl"
 	"anim_prefix"		"ac"
-
-	// Muzzleflash
-	"MuzzleFlashModel"	"models/effects/muzzleflash/minigunmuzzle.mdl"
-
-	"MuzzleFlashParticleEffect" "muzzle_minigun"
-	
 	
 	"CenteredViewmodelOffset_Y" "-11.5"
 	"CenteredViewmodelAngle_Y" "-6"
 	"CenteredViewmodelAngle_Z" "-1"
 	
-	
 	"MinViewmodelOffset_X" "10"
 	"MinViewmodelOffset_Y" "0"
 	"MinViewmodelOffset_Z" "-9"
+
+	// Muzzleflash
+	"MuzzleFlashModel"	"models/effects/muzzleflash/minigunmuzzle.mdl"
+
+	"MuzzleFlashParticleEffect" "muzzle_minigun"
 
 	
 	// Sounds.
@@ -63,11 +63,11 @@ WeaponData
 	{
 		"reload"		"Weapon_Minigun.Reload"
 		"empty"			"Weapon_Minigun.ClipEmpty"	
-		"double_shot"	"Weapon_Chaingun.Fire"
+		"double_shot"	"Weapon_Minigun.Fire"
 		"special1"		"Weapon_Minigun.WindUp"
 		"special2"		"Weapon_Minigun.WindDown"
 		"special3"		"Weapon_Minigun.Spin"
-		"burst"			"Weapon_Chaingun.FireCrit"
+		"burst"			"Weapon_Minigun.FireCrit"
 	}
 
 	// Weapon Sprite data is loaded by the Client DLL.
@@ -75,7 +75,7 @@ WeaponData
 	{
 		"weapon"
 		{
-				"file"		"sprites/bucket_chaingun"
+				"file"		"sprites/bucket_minigun"
 				"x"		"0"
 				"y"		"0"
 				"width"		"200"
@@ -83,7 +83,15 @@ WeaponData
 		}
 		"weapon_s"
 		{	
-				"file"		"sprites/bucket_chaingun"
+				"file"		"sprites/bucket_minigun"
+				"x"		"0"
+				"y"		"0"
+				"width"		"200"
+				"height"		"128"
+		}
+		"weapon_t"
+		{	
+				"file"		"sprites/bucket_minigun"
 				"x"		"0"
 				"y"		"0"
 				"width"		"200"

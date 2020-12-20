@@ -72,4 +72,8 @@ precache
 	"model"			"models/vgui/versus_doors.mdl"
 	"model"			"models/props_ui/banner.mdl"
 	"model"			"models/vgui/merc_thirdplace_box.mdl"
+	
+	"model"			"models/vgui/ui_lockdown_frame.mdl"
+	"model"			"models/vgui/ui_lockdown_door.mdl"
+	
 }

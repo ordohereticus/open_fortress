@@ -1,0 +1,33 @@
+// Choreo version 1
+actor "scout"
+{
+  channel "audio"
+  {
+    event speak "Scout.DominationMerc01"
+    {
+      time 0.000000 3.39
+      param "Scout.DominationMerc01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "emotion"
+  {
+    event expression "madUpper"
+    {
+      time 0.000000 4.000000
+      param "player\scout\emotion\emotion"
+      param2 "madUpper"
+      event_ramp
+      {
+        0.0958 0.8902
+        3.9167 0.8667
+      }
+    }
+  }
+}
+
+fps 60
+snap off
+ignorePhonemes off

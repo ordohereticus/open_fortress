@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_dock\proto_sub_01"
+
+	"$halflambert" "1"
+
+	"$phong" "1"
+	"$phongexponent" "100"
+	"$phongboost" ".5"
+	"$phongfresnelranges" "[0.25 0.5 1]"
+
+	"$basemapalphaphongmask" "1"
+}

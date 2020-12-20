@@ -1,0 +1,4 @@
+"VertexLitGeneric"
+{
+	$baseTexture "models/props_island/camera_security2.vtf"
+}

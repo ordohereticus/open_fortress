@@ -10,6 +10,7 @@ dm_ravine
 dm_rig
 dm_skate
 dm_spillway
+dm_spillway_event
 dm_watchtower
 dm_watergate
 dm_wiseau

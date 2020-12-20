@@ -71,6 +71,14 @@ WeaponData
 				"width"		"200"
 				"height"		"128"
 		}
+		"weapon_t"
+		{	
+				"file"		"sprites/bucket_physcannon"
+				"x"		"0"
+				"y"		"0"
+				"width"		"200"
+				"height"		"128"
+		}
 		"crosshair"
 		{
 				"font"		"Crosshairs"

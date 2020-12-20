@@ -47,8 +47,8 @@ WeaponData
 	"MuzzleFlashParticleEffect" "muzzle_smg"
 
 	// Animation.
-	"viewmodel"		"models/weapons/v_models/v_assault_rifle_dm.mdl"
-	"playermodel"	"models/weapons/w_models/w_assault_rifle.mdl"
+	"viewmodel"		"models/weapons/v_models/v_smg_dm.mdl"
+	"playermodel"	"models/weapons/w_models/w_smg_dm.mdl"
 	"anim_prefix"	"ac"
 	
 	"CenteredViewmodelOffset_Y" "-9.5"
@@ -63,10 +63,10 @@ WeaponData
 	// Max of 16 per category (ie. max 16 "single_shot" sounds).
 	SoundData
 	{
-		"reload"		"Weapon_AR.WorldReload"
-		"empty"			"Weapon_AR.ClipEmpty"	
-		"single_shot"		"Weapon_AR.Single"
-		"burst"			"Weapon_AR.SingleCrit"
+		"reload"		"Weapon_SMG.WorldReload"
+		"empty"			"Weapon_SMG.ClipEmpty"	
+		"single_shot"		"Weapon_SMG_DM.Single"
+		"burst"			"Weapon_SMG_DM.SingleCrit"
 	}
 
 	// Weapon Sprite data is loaded by the Client DLL.
@@ -74,7 +74,7 @@ WeaponData
 	{
 		"weapon"
 		{
-				"file"		"sprites/bucket_assaultrifle"
+				"file"		"sprites/bucket_smgDM"
 				"x"		"0"
 				"y"		"0"
 				"width"		"200"
@@ -82,7 +82,15 @@ WeaponData
 		}
 		"weapon_s"
 		{	
-				"file"		"sprites/bucket_assaultrifle"
+				"file"		"sprites/bucket_smgDM"
+				"x"		"0"
+				"y"		"0"
+				"width"		"200"
+				"height"		"128"
+		}
+		"weapon_t"
+		{	
+				"file"		"sprites/bucket_smgDM"
 				"x"		"0"
 				"y"		"0"
 				"width"		"200"

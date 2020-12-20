@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Metal/island_gantry_metal001_blue"
+//	"$bumpmap" "Metal/island_gantry_metal001_normal"
+//    "$envmap" "env_cubemap"
+//    "$envmaptint" "[ 2 1 1 ]"
+	"$surfaceprop" "metal"
+	"%keywords" "tf"
+}

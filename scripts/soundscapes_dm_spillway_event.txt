@@ -1,0 +1,411 @@
+// Handy-dandy Super Awesome Ultra Mega Powerful Incredible Epic Soundscape Dirctory 9000
+// Mid/Greenhouse					Spillway_event.Greenhouse
+// Hollow wind with rain from outside + electricity sounds for the tesla coils + subtle spooky halloween-y sounds
+//										position 0 - BLU side tesla coil @ mid
+//										position 1 - RED side tesla coil @ mid
+//
+// RED side/Manor					Spillway_event.Manor
+// Hollow wind with the occasional wood creak, clock + subtle spooky halloween-y sounds
+//										position 0 - grandfather_clock_tick
+//										position 1 - outside rain
+//
+// RED spawn						Spillway_event.ManorSpawn
+// Same as Spillway_event.Manor but with quieter wind and spytech sounds coming from the OOB space
+//										position 0 - Spytech OOB room with computers
+//
+// BLU side/Boathouse (BLU Spawn)	Spillway_event.Boathouse
+// Hollow wind with more frequent+louder wood creaking, quiet rain, and a fluorescent light tone + subtle spooky halloween-y sounds
+//
+// BLU sewer/cellar					Spillway_event.Sewer_blue
+// Quiet hollow wind with a fluorescent light tone, ambient water dripping, very quiet rain, water dripping from the ceiling & water sounds from the OOB boat area + subtle spooky halloween-y sounds
+//										position 0 - the water dripping particle in the middle of the room, position should be on the water
+//										position 1 - the OOB area with the boat, position should be more or less where the water is over there
+//
+// RED sewer/cellar					Spillway_event.Sewer_red
+// Same as Spillway_event.Sewer_blue but without the positional sounds
+//
+// Mid sewer/cellar					Spillway_event.Sewer_mid
+// Quiet hollow wind with a fluorescent light tone, very quiet rain, occasional metal creaking + subtle spooky halloween-y sounds 
+//
+// Outside Generic					Spillway_event.Outside
+// Wind with quiet sounds of the animal life in the area and rain + subtle spooky halloween-y sounds
+//
+// Outside near lake				Spillway_event.OutsideWater
+// Same as Spillway_event.Outside but with lake water sounds for use in front of the greenhouse on the lakeside.
+//
+
+// Utility subscapes (DO NOT USE)
+"Spillway_event_util.Halloween" {
+	"playrandom" {
+		"time"			"5, 8"
+		"volume"		"0.3, 0.666"
+		"pitch"			"90, 110"
+		"rndwave" {
+			"wave"		"ambient/hallow01.wav"
+			"wave"		"ambient/hallow02.wav"
+			"wave"		"ambient/hallow03.wav"
+		}
+	}
+}
+"Spillway_event_util.HalloweenOutside" {
+	"playrandom" {
+		"time"			"10, 40"
+		"volume"		"0.7, 0.9"
+		"pitch"			"75, 100"
+		"rndwave" {
+			"wave"		"ambient/owl1.wav"
+			"wave"		"ambient/owl2.wav"
+			"wave"		"ambient/owl3.wav"
+			"wave"		"ambient/wolf01.wav"
+			"wave"		"ambient/wolf02.wav"
+			"wave"		"ambient/wolf03.wav"
+		}
+	}
+	"playrandom" {
+		"time"			"20, 40"
+		"volume"		"0.3, 0.6"
+		"pitch"			"65, 75"
+		"rndwave" {
+			"wave"		"ambient/crow3.wav"
+			"wave"		"ambient/crow4.wav"
+		}
+	}
+}
+
+// Mid
+"Spillway_event.Greenhouse" {
+	"dsp" "1"
+
+	"playlooping" {
+		"volume"		"1"
+		"pitch"			"100"
+		"wave"			"ambient/lair/cap_2_tone5.wav"
+	}
+	"playlooping" {
+		"volume"		"0.9"
+		"pitch"			"100"
+		"wave"			"ambient/windwinterinside.wav"
+	}
+	"playlooping" {
+		"volume"		"0.4"
+		"pitch"			"100"
+		"wave"			"ambient/rain.wav"
+	}
+	
+	// Tesla coils
+	"playlooping" {
+		"volume"		"0.1"
+		"pitch"			"100"
+		"soundlevel"	"SNDLVL_85dB"
+		"position"		"0"
+		"wave"			"ambient/lair/perimeter_electric_fence0.wav"
+	}
+	"playlooping" {
+		"volume"		"0.1"
+		"pitch"			"100"
+		"soundlevel"	"SNDLVL_85dB"
+		"position"		"1"
+		"wave"			"ambient/lair/perimeter_electric_fence1.wav"
+	}
+
+	// Spooky halloween noises
+	"playsoundscape" {
+		"name"			"Spillway_event_util.Halloween"
+		"volume"		"1"
+	}
+}
+
+// BLU side cellar
+"Spillway_event.Sewer_blue" {
+	"dsp" "1"
+
+	"playlooping" {
+		"volume"		"0.9"
+		"pitch"			"100"
+		"wave"			"ambient/windwinterinside.wav"
+	}
+	"playlooping" {
+		"volume"		"1"
+		"pitch"			"100"
+		"wave"			"ambient\lair\spawn_tone1.wav"
+	}
+	"playlooping" {
+		"volume"		"0.2"
+		"pitch"			"100"
+		"wave"			"ambient/rain.wav"
+	}
+	"playlooping" {
+		"volume"		"0.8"
+		"pitch"			"90"
+		"wave"			"ambient\water\drip_loop1.wav"
+	}
+
+	// Water drip particle
+	"playlooping" {
+		"volume"		"0.7"
+		"pitch"			"120"
+		"soundlevel"	"SNDLVL_70dB"
+		"position"		"0"
+		"wave"			"ambient\drips1.wav"
+	}
+
+	// Boat area
+	"playlooping" {
+		"volume"		"1"
+		"pitch"			"100"
+		"soundlevel"	"SNDLVL_85dB"
+		"position"		"1"
+		"wave"			"ambient\water\lake_water.wav"
+	}
+
+	// Spooky halloween noises
+	"playsoundscape" {
+		"name"			"Spillway_event_util.Halloween"
+		"volume"		"1"
+	}
+}
+
+// RED side cellar
+"Spillway_event.Sewer_red" {
+	"dsp" "1"
+
+	"playlooping" {
+		"volume"		"0.9"
+		"pitch"			"100"
+		"wave"			"ambient/windwinterinside.wav"
+	}
+	"playlooping" {
+		"volume"		"1"
+		"pitch"			"100"
+		"wave"			"ambient\lair\spawn_tone1.wav"
+	}
+	"playlooping" {
+		"volume"		"0.2"
+		"pitch"			"100"
+		"wave"			"ambient/rain.wav"
+	}
+	"playlooping" {
+		"volume"		"1"
+		"pitch"			"95"
+		"wave"			"ambient\water\drip_loop1.wav"
+	}
+
+	// Spooky halloween noises
+	"playsoundscape" {
+		"name"			"Spillway_event_util.Halloween"
+		"volume"		"1"
+	}
+}
+
+// Sewer/cellar area under mid
+"Spillway_event.Sewer_mid" {
+	"dsp" "1"
+
+	"playlooping" {
+		"volume"		"0.9"
+		"pitch"			"100"
+		"wave"			"ambient/windwinterinside.wav"
+	}
+	"playlooping" {
+		"volume"		"1"
+		"pitch"			"100"
+		"wave"			"ambient\lair\spawn_tone1.wav"
+	}
+	"playlooping" {
+		"volume"		"0.2"
+		"pitch"			"100"
+		"wave"			"ambient/rain.wav"
+	}
+	"playrandom" {
+		"volume"		"0.3,0.5"
+		"time"			"10,30"
+		"pitch"			"90,110"
+		"soundlevel"	"SNDLVL_85dB"
+		"position"		"random"
+		"rndwave" {
+			"wave"		"ambient\creak01.wav"
+			"wave"		"ambient\creak02.wav"
+			"wave"		"ambient\creak03.wav"
+		}
+		
+	}
+
+	// Spooky halloween noises
+	"playsoundscape" {
+		"name"			"Spillway_event_util.Halloween"
+		"volume"		"1"
+	}
+}
+
+// RED side, inside manor
+"Spillway_event.Manor" {
+	"dsp" "1"
+
+	"playlooping" {
+		"volume"		"0.9"
+		"pitch"			"100"
+		"wave"			"ambient/windwinterinside.wav"
+	}
+	// Position 0 - Grandfather clock
+	"playlooping" {
+		"volume"		"1"
+		"pitch"			"100"
+		"soundlevel"	"SNDLVL_90dB"
+		"position"		"0"
+		"wave"			"spillway_event/grandfather_clock_tick.wav"
+	}
+	// position 1 - outside rain
+	"playlooping" {
+		"volume"		"0.7"
+		"pitch"			"100"
+		"soundlevel"	"SNDLVL_85dB"
+		"position"		"1"
+		"wave"			"ambient/rain.wav"
+	}
+	"playrandom" {
+		"volume"		"0.3,0.5"
+		"time"			"10,30"
+		"pitch"			"90,110"
+		"soundlevel"	"SNDLVL_85dB"
+		"position"		"random"
+		"rndwave" {
+			"wave"		"ambient\materials\wood_creak1.wav"
+			"wave"		"ambient\materials\wood_creak2.wav"
+			"wave"		"ambient\materials\wood_creak3.wav"
+			"wave"		"ambient\materials\wood_creak4.wav"
+			"wave"		"ambient\materials\squeekyfloor1.wav"
+			"wave"		"ambient\materials\creak5.wav"
+		}
+	}
+	// Spooky halloween noises
+	"playsoundscape" {
+		"name"			"Spillway_event_util.Halloween"
+		"volume"		"1"
+	}
+}
+
+"Spillway_event.ManorSpawn" {
+	"dsp" "1"
+
+	"playlooping" {
+		"volume"		"0.9"
+		"pitch"			"100"
+		"wave"			"ambient/windwinterinside.wav"
+	}
+	// Spytech
+	"playlooping" {
+		"volume"		"0.3"
+		"pitch"			"100"
+		"position"		"0"
+		"soundlevel"	"SNDLVL_85dB"
+		"wave"			"ambient\computer_working.wav"
+	}
+	"playrandom" {
+		"volume"		"0.3,0.5"
+		"time"			"10,30"
+		"pitch"			"90,110"
+		"soundlevel"	"SNDLVL_85dB"
+		"position"		"random"
+		"rndwave" {
+			"wave"		"ambient\materials\wood_creak1.wav"
+			"wave"		"ambient\materials\wood_creak2.wav"
+			"wave"		"ambient\materials\wood_creak3.wav"
+			"wave"		"ambient\materials\wood_creak4.wav"
+			"wave"		"ambient\materials\squeekyfloor1.wav"
+			"wave"		"ambient\materials\creak5.wav"
+		}
+	}
+	// Spooky halloween noises
+	"playsoundscape" {
+		"name"			"Spillway_event_util.Halloween"
+		"volume"		"1"
+	}
+}
+
+"Spillway_event.Boathouse" {
+	"dsp" "1"
+
+	"playlooping" {
+		"volume"		"0.9"
+		"pitch"			"100"
+		"wave"			"ambient/windwinterinside.wav"
+	}
+	"playlooping" {
+		"volume"		"1"
+		"pitch"			"100"
+		"wave"			"ambient\lair\spawn_tone1.wav"
+	}
+	"playlooping" {
+		"volume"		"0.2"
+		"pitch"			"100"
+		"wave"			"ambient/rain.wav"
+	}
+	"playrandom" {
+		"volume"		"0.4,0.6"
+		"time"			"4,20"
+		"pitch"			"90,110"
+		"soundlevel"	"SNDLVL_90dB"
+		"position"		"random"
+		"rndwave" {
+			"wave"		"ambient\materials\wood_creak1.wav"
+			"wave"		"ambient\materials\wood_creak2.wav"
+			"wave"		"ambient\materials\wood_creak3.wav"
+			"wave"		"ambient\materials\wood_creak4.wav"
+			"wave"		"ambient\materials\wood_creak5.wav"
+			"wave"		"ambient\materials\wood_creak6.wav"
+			"wave"		"ambient\materials\squeekyfloor1.wav"
+			"wave"		"ambient\materials\creak5.wav"
+		}
+	}
+	// Spooky halloween noises
+	"playsoundscape" {
+		"name"			"Spillway_event_util.Halloween"
+		"volume"		"1"
+	}
+}
+
+// Outside
+"Spillway_event.Outside" {
+	"dsp" "1"
+
+	"playlooping" {
+		"volume"		"0.9"
+		"pitch"			"100"
+		"wave"			"ambient/pondlife.wav"
+	}
+	"playlooping" {
+		"volume"		"0.666"
+		"pitch"			"100"
+		"wave"			"ambient/windwinter.wav"
+	}
+	"playlooping" {
+		"volume"		"1"
+		"pitch"			"100"
+		"wave"			"ambient/rain.wav"
+	}
+	
+	// Spooky halloween noises
+	"playsoundscape" {
+		"name"			"Spillway_event_util.Halloween"
+		"volume"		"1"
+	}
+	"playsoundscape" {
+		"name"			"Spillway_event_util.HalloweenOutside"
+		"volume"		"1"
+	}
+}
+
+// Outside, near water
+"Spillway_event.OutsideWater" {
+	"dsp" "1"
+	
+	"playsoundscape" {
+		"name" "Spillway_event.Outside"
+		"volume" "1"
+	}
+	"playlooping" {
+		"volume"		"0.2"
+		"pitch"			"100"
+		"wave"			"ambient\pondwater.wav"
+	}
+}

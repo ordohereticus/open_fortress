@@ -1,0 +1,3 @@
+"VertexLitGeneric" {
+	$baseTexture "models/spillway_event/water_barrel"
+}

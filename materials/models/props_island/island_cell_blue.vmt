@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	$baseTexture "models/props_island/island_cell_blue.vtf"
+	"$selfillum" 1
+	"$selfillummask" "models/props_island/island_cell_illum"
+}

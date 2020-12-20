@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Metal/island_Ibeam003_blue"
+	"$bumpmap" "Metal/Ibeam003_normal"
+	"$surfaceprop" "metal"
+	"%keywords" "tf"
+}

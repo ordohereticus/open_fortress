@@ -27,7 +27,6 @@
 //DeathmatchMusic.Chase_Ending
 //DeathmatchMusic.E1M1alt
 //DeathmatchMusic.E2M1
-//DeathmatchMusic.Just_Around_The_Corner
 //DeathmatchMusic.Map01
 //DeathmatchMusic.Map01_Waiting
 //DeathmatchMusic.Orchestral
@@ -58,6 +57,11 @@
 //DeathmatchMusic.CrossFire_Waiting
 //DeathmatchMusic.CrossFire2
 //DeathmatchMusic.RobotMap
+//DeathmatchMusic.LessTalkMoreFight
+//DeathmatchMusic.Just_Around_The_Corner
+//DeathmatchMusic.FromTheDead
+//DeathmatchMusic.Badworks
+//DeathmatchMusic.Badworks_Waiting
 
 //By MrModez
 "DeathmatchMusic.AtFortressGate"
@@ -83,7 +87,7 @@
 "DeathmatchMusic.AtFortressGate_Ending"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/afg_ending.ogg"
@@ -93,7 +97,7 @@
 "DeathmatchMusic.AtFortressGate_Waiting"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/afg_waiting.ogg"
@@ -106,14 +110,14 @@
 	"Name"			"Skate"
 
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/dm_skateb3loop.ogg"
 	
 	"intro"			"DeathmatchMusic.SkateIntro"
 
-	"win"			"DeathmatchMusic.SkateWin"
+	"outro"			"DeathmatchMusic.SkateWin"
 }
 
 //Original piece for dm_skate, by Thoopje
@@ -124,7 +128,7 @@
 	"soundlevel"	"SNDLVL_140dB"
 	"pitch"			"PITCH_NORM"
 
-	"wave"			"#music/deathmatch/dm_skatewin.mp3"
+	"wave"			"#music/deathmatch/dm_skatewin.ogg"
 	
 }
 
@@ -132,7 +136,7 @@
 "DeathmatchMusic.SkateIntro"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/dm_skateb3loop_intro.ogg"
@@ -143,7 +147,7 @@
 "DeathmatchMusic.Skate_Waiting"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/dm_skateb3waiting.ogg"
@@ -156,7 +160,7 @@
 	"Name"			"Deathmatch"
 
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/dm_loop.ogg"
@@ -178,7 +182,7 @@
 "DeathmatchMusic.Generic_Waiting"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/dm_waiting.ogg"
@@ -191,7 +195,7 @@
 	"Name"			"Facility"
 
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/facility_loop.ogg"
@@ -204,7 +208,7 @@
 	"Name"			"Chase"
 
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/dmchase_loop.ogg"
@@ -228,7 +232,7 @@
 "DeathmatchMusic.Chase_Ending"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/dmchase_ending.ogg"
@@ -238,7 +242,7 @@
 "DeathmatchMusic.Chase_Waiting"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/dmchase_waiting.ogg"
@@ -251,7 +255,7 @@
 	"Name"			"Open Fortress' Gate"
 
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/e1m1alt_loop.ogg"
@@ -261,7 +265,7 @@
 //"DeathmatchMusic.Intermission"
 //{
 //	"channel"		"CHAN_STATIC"
-//	"volume"		"0.9"
+//	"volume"		"1.0"
 //	"pitch"			"PITCH_NORM"
 //	"soundlevel"	"SNDLVL_NONE"
 //	"wave"			"#music/deathmatch/intermission_ending.ogg"
@@ -274,7 +278,7 @@
 	"Name"			"I Sawed the Demons"
 
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/e2m1_loop.ogg"
@@ -287,7 +291,7 @@
 	"Name"			"Running From Evil"
 
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/map01_loop.ogg"
@@ -297,7 +301,7 @@
 "DeathmatchMusic.Map01_Waiting"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/map01_waiting.ogg"
@@ -310,7 +314,7 @@
 	"Name"			"Orch"
 
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/orch_loop.ogg"
@@ -323,7 +327,7 @@
 	"Name"			"Magnus"
 
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/stalker_loop.ogg"
@@ -336,7 +340,7 @@
 	"Name"			"Team Fortresque"
 
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/teamfortresque_loop.ogg"
@@ -349,7 +353,7 @@
 	"Name"			"TF2 Beat"
 
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/tf2beat_loop.ogg"
@@ -362,7 +366,7 @@
 	"Name"			"Turbine Turmoil"
 
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/turbineturmoil_loop.ogg"
@@ -375,7 +379,7 @@
 	"Name"			"Overpowered"
 
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/overpowered_loop.ogg"
@@ -388,7 +392,7 @@
 	"Name"			"Last Merc Standing"
 
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/last_merc_standing.ogg"
@@ -404,7 +408,7 @@
 	"Name"			"Last Merc Standing"
 
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/last_merc_standing.ogg"
@@ -417,7 +421,7 @@
 	"Name"			"The Healer Stalks"
 
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/healerstalks_loop.ogg"
@@ -430,7 +434,7 @@
 	"Name"			"The Long Ride"
 
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/stuff.ogg"
@@ -443,7 +447,7 @@
 	"Name"			"The Long Ride"
 
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/dmstuff_loop.ogg"
@@ -456,7 +460,7 @@
 	"Name"			"The Long Ride"
 
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/stuff_accord.ogg"
@@ -470,7 +474,7 @@
 	"Name"			"Mayann"
 
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/mayann_waiting.ogg"
@@ -483,7 +487,7 @@
 	"Name"			"Magnum Smooth"
 
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/dm_magnumsmooth_loop.ogg"
@@ -496,7 +500,7 @@
 	"Name"			"The Living Bread"
 
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/watergate_loop.ogg"
@@ -506,7 +510,7 @@
 "DeathmatchMusic.Watergate_Waiting"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/watergate_waitinfg.ogg"
@@ -519,7 +523,7 @@
 	"Name"			"More Gun"
 
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/coaltown_temp.ogg"
@@ -534,7 +538,7 @@
 	"Artist"		"Thoopje"
 	
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/dm_wiseau_loop.ogg"
@@ -545,7 +549,7 @@
 "DeathmatchMusic.WiseauIntro"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/dm_wiseau_loop_intro.ogg"
@@ -559,7 +563,7 @@
 	"Name"			"Shortwave"
 
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/shortwave_loop.ogg"
@@ -572,7 +576,7 @@
 	"Name"			"Open Hazards"
 
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/OpenHazards_Loop.ogg"
@@ -585,7 +589,7 @@
 	"Name"			"Get Psyched"
 
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/getpsychedloop.ogg"
@@ -596,7 +600,7 @@
 "DeathmatchMusic.GetPsychedIntro"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/getpsychedloop_intro.ogg"
@@ -609,7 +613,7 @@
 	"Name"			"Foregone Destruction"
 
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/unreal.ogg"
@@ -622,7 +626,7 @@
 	"Name"			"Aftermath"
 
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/quaketheme.ogg"
@@ -635,7 +639,7 @@
 	"Name"			"Open Hazards"
 
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/OpenHazards_Loop.ogg"
@@ -650,7 +654,7 @@
 	"Name"			"New Speed"
 
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/newspeed.ogg"
@@ -663,7 +667,7 @@
 	"Name"			"Lobsters on the Moon"
 
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/lobstersonthemoon.ogg"
@@ -676,7 +680,7 @@
 	"Name"			"Stealing"
 
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/stealing.ogg"
@@ -689,7 +693,7 @@
 	"Name"			"Waiting for SVN"
 	
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/WaitingFor.ogg"
@@ -700,7 +704,7 @@
 "InfectionMusic.Warmup"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/infection/inf_warmup.mp3"
@@ -713,14 +717,14 @@
 	"Name"			"Last Merc Standing"
 
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/last_merc_standing.ogg"
 }
 //{
 //	"channel"		"CHAN_STATIC"
-//	"volume"		"0.9"
+//	"volume"		"1.0"
 //	"pitch"			"PITCH_NORM"
 //	"soundlevel"	"SNDLVL_NONE"
 //	"wave"			"music/infection/inf_lastmanstanding.wav"
@@ -732,7 +736,7 @@
 	"Name"			"The Dead Have Risen"
 	
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"music/infection/deadhaverisen.ogg"
@@ -743,7 +747,7 @@
 "InfectionMusic.Begin"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	
@@ -762,7 +766,7 @@
 	"Name"			"Rocket Jump Waltz"
 
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/gamestartup3.ogg"
@@ -775,7 +779,7 @@
 	"Name"			"Intruder Alert"
 
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/intruderalert_loop.ogg"
@@ -787,7 +791,7 @@
 "DeathmatchMusic.Intruder_Alert_Intro"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/intruderalert_intro.ogg"
@@ -800,7 +804,7 @@
 	"Name"			"Nuclear Sticky Trap"
 
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/crossfire.ogg"
@@ -810,7 +814,7 @@
 "DeathmatchMusic.CrossFire_Waiting"
 {
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/crossfire_waiting.ogg"
@@ -824,7 +828,7 @@
 	"Name"			"Caught in the Crossfire"
 
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/crossfire2.ogg"
@@ -836,10 +840,59 @@
 	"Name"			"The Only Thing They Fear is You"
 
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/RobotMap.ogg"
+}
+//by .schu
+"DeathmatchMusic.LessTalkMoreFight"
+{
+	"Artist"		"Schu"
+	"Name"			"Less Talk More Fight"
+
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/ltmf_loop.ogg"
+	
+	"intro"			"DeathmatchMusic.LTMFIntro"
+
+	"win"			"DeathmatchMusic.LTMFWin"
+}
+
+//by .schu
+"DeathmatchMusic.LTMFWin"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"soundlevel"	"SNDLVL_140dB"
+	"pitch"			"PITCH_NORM"
+
+	"wave"			"#music/deathmatch/ltmf_win.ogg"
+	
+}
+
+//by .schu
+"DeathmatchMusic.LTMFIntro"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/ltmf_loop_intro.ogg"
+}
+
+
+//by .schu
+"DeathmatchMusic.LTMFWaiting"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/ltmf_waiting.ogg"
 }
 
 //by Lucile
@@ -849,8 +902,68 @@
 	"Name"			"Just Around The Corner"
 
 	"channel"		"CHAN_STATIC"
-	"volume"		"0.9"
+	"volume"		"1.0"
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/just_around_the_corner_loop.ogg"
+}
+
+//by ChargingTurnip
+"DeathmatchMusic.FromTheDead"
+{
+	"Artist"		"ChargingTurnip"
+	"Name"			"From The Dead"
+
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/FromTheDead.ogg"
+
+	"intro"			"DeathmatchMusic.FromTheDeadIntro"
+}
+
+//by ChargingTurnip
+"DeathmatchMusic.FromTheDeadIntro"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/FromTheDead_intro.ogg"
+}
+
+//by ChargingTurnip
+"DeathmatchMusic.Badworks"
+{
+	"Artist"		"ChargingTurnip"
+	"Name"			"Badworks"
+
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/badworks_loop.ogg"
+
+	"intro"			"DeathmatchMusic.BadworksIntro"
+}
+
+//by ChargingTurnip
+"DeathmatchMusic.BadworksIntro"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/badworks_intro.ogg"
+}
+
+//by ChargingTurnip
+"DeathmatchMusic.Badworks_Waiting"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/badworks_waiting.ogg"
 }

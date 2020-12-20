@@ -1,0 +1,11 @@
+// cobbled stoned
+"WorldVertexTransition" {
+	"$baseTexture"	"nature/spillway_cobblestone001"
+	"$basetexture2" "Nature/dirtground010"
+	//"$ssbump" "1"
+	//"$bumpmap" "Nature/dirtground001_height-ssbump"
+//	"$bumpmap"	"medieval/cobblestone001_ssbump"
+//	"$ssbump"	"1"
+	"$surfaceprop"	"concrete"
+	"%keywords"	"tf"
+}

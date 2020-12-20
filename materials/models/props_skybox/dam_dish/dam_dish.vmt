@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_skybox/dam_dish/dam_dish"
+ 	//"$bumpmap" "models/props_skybox/dam_dish/dam_dish_normal"
+    	"$selfillum" "1"
+    	//"$selfillummask" "models/props_skybox/dam_dish/dam_dish_light"
+}

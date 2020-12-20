@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "spillway_event/bench_slats01"
+	"$surfaceprop" "metal"
+	"%keywords" "tf"
+	$alphatest 1
+}

@@ -1,0 +1,8 @@
+// cobbled stoned
+"LightmappedGeneric" {
+	"$baseTexture"	"nature/spillway_cobblestone001"
+//	"$bumpmap"	"medieval/cobblestone001_ssbump"
+//	"$ssbump"	"1"
+	"$surfaceprop"	"concrete"
+	"%keywords"	"tf"
+}

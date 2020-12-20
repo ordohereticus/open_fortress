@@ -14,9 +14,9 @@ WeaponData
 	"CritMidAir"		"1"
 	
 	// Attributes TF.
-	"Damage"			"25"
+	"Damage"			"40"
 	"InstagibDamage"	"999"
-	"TimeFireDelay"		"0.3"
+	"TimeFireDelay"		"0.7"
 	"TimeIdle"			"5.0"
 
 	// Ammo & Clip
@@ -34,7 +34,7 @@ WeaponData
 	// Model & Animation
 	"viewmodel"				"models/weapons/v_models/v_lead_pipe.mdl"
 	"playermodel"			"models/weapons/w_models/w_leadpipe_merc.mdl"
-	"anim_prefix"			"bat"
+	"anim_prefix"			"pipe"
 
 	"MinViewmodelOffset_X" "10"
 	"MinViewmodelOffset_Y" "0"
@@ -68,7 +68,14 @@ WeaponData
 				"width"		"200"
 				"height"		"128"
 		}
-
+		"weapon_t"
+		{	
+				"file"		"sprites/bucket_leadpipe"
+				"x"		"0"
+				"y"		"0"
+				"width"		"200"
+				"height"		"128"
+		}
 		"ammo"
 		{
 				"file"		"sprites/a_icons1"

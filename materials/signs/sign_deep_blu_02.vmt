@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "signs/sign_deep_blu_02"
+	"$decal" 1
+	"$decalscale" 0.5
+	"$translucent" 1
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	"%keywords" "tf"
+}

@@ -39,12 +39,12 @@
 		"xpos"					"r360"
 		"ypos"					"130"
 		"wide"					"270"
-		"tall"					"76"
+		"tall"					"68"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"scaleImage"			"1"
-		"image"					"..\logo\tf2_logo"
+		"image"					"..\logo\of_logo"
 		"frame"					"0"
 	}
 

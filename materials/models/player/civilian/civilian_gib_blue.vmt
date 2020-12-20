@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials/models/player/civilian/civilian_gib_base.vmt"
+	
+	insert
+	{
+		"$baseTexture" "models/player/civilian/civilian_blue"
+	}
+}

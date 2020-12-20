@@ -58,13 +58,21 @@ WeaponData
 	{
 		"weapon"
 		{
-				"file"		"sprites/bucket_berserk"
+				"file"		"sprites/bucket_berserk_red"
 				"x"		"0"
 				"y"		"0"
 				"width"		"200"
 				"height"		"128"
 		}
 		"weapon_s"
+		{	
+				"file"		"sprites/bucket_berserk_blue"
+				"x"		"0"
+				"y"		"0"
+				"width"		"200"
+				"height"		"128"
+		}
+		"weapon_t"
 		{	
 				"file"		"sprites/bucket_berserk"
 				"x"		"0"

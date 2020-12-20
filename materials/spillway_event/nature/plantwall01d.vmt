@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "spillway_event/nature/plantwall01d"
+	"%keywords" "tf"
+	"$surfaceprop" "dirt"
+	$translucent 1
+	$nocull 1
+}

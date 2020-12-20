@@ -3638,6 +3638,24 @@
 				"width"		"126"
 				"height"	"33"
 		}
+		"prop_physics"
+		{
+				"dfile"	"HUD/d_images_of"
+				"dnegfile" "HUD/dneg_images_of"
+				"x"		"76"
+				"y"		"63"
+				"width"		"45"
+				"height"	"32"
+		}
+		"prop_physics_multiplayer"
+		{
+				"dfile"	"HUD/d_images_of"
+				"dnegfile" "HUD/dneg_images_of"
+				"x"		"76"
+				"y"		"63"
+				"width"		"45"
+				"height"	"32"
+		}
 		"assaultrifle"
 		{
 				"dfile"	"HUD/d_images_of"
@@ -3665,24 +3683,6 @@
 				"width"		"46"
 				"height"	"28"
 		}
-		"prop_physics"
-		{
-				"dfile"	"HUD/d_images_of"
-				"dnegfile" "HUD/dneg_images_of"
-				"x"		"76"
-				"y"		"63"
-				"width"		"45"
-				"height"	"32"
-		}
-		"prop_physics_multiplayer"
-		{
-				"dfile"	"HUD/d_images_of"
-				"dnegfile" "HUD/dneg_images_of"
-				"x"		"76"
-				"y"		"63"
-				"width"		"45"
-				"height"	"32"
-		}
 		"pistol_mercenary"
 		{
 				"dfile"	"HUD/d_images_of"
@@ -3696,10 +3696,10 @@
 		{
 				"dfile"	"HUD/d_images_of"
 				"dnegfile" "HUD/dneg_images_of"
-				"x"		"227"
-				"y"		"449"
-				"width"		"99"
-				"height"	"32"
+				"x"		"291"
+				"y"		"32"
+				"width"		"104"
+				"height"	"31"
 		}
 		"smg_mercenary"
 		{
@@ -3836,87 +3836,6 @@
 				"width"		"98"
 				"height"	"35"
 		}
-		"obj_teleporter"
-		{
-				"dfile"	"HUD/d_images_of"
-				"dnegfile" "HUD/dneg_images_of"
-				"x"		"195"
-				"y"		"209"
-				"width"		"63"
-				"height"	"47"
-		}
-		"trigger_teleport"
-		{
-				"dfile"	"HUD/d_images_of"
-				"dnegfile" "HUD/dneg_images_of"
-				"x"		"195"
-				"y"		"209"
-				"width"		"63"
-				"height"	"47"
-		}
-		"info_player_teamspawn"
-		{
-				"dfile"	"HUD/d_images_of"
-				"dnegfile" "HUD/dneg_images_of"
-				"x"		"195"
-				"y"		"209"
-				"width"		"63"
-				"height"	"47"
-		}
-		"info_player_deathmatch"
-		{
-				"dfile"	"HUD/d_images_of"
-				"dnegfile" "HUD/dneg_images_of"
-				"x"		"195"
-				"y"		"209"
-				"width"		"63"
-				"height"	"47"
-		}
-		"info_player_start"
-		{
-				"dfile"	"HUD/d_images_of"
-				"dnegfile" "HUD/dneg_images_of"
-				"x"		"195"
-				"y"		"209"
-				"width"		"63"
-				"height"	"47"
-		}
-		"crocodile"
-		{
-				"dfile"	"HUD/d_images_v3"
-				"dnegfile"	"HUD/dneg_images_v3"
-				"x"		"256"
-				"y"		"864"
-				"width"		"128"
-				"height"	"32"
-		}
-		"croc"
-		{
-				"dfile"	"HUD/d_images_v3"
-				"dnegfile"	"HUD/dneg_images_v3"
-				"x"		"256"
-				"y"		"864"
-				"width"		"128"
-				"height"	"32"
-		}
-		"tf_generic_bomb"
-		{
-				"dfile"	"HUD/d_images"
-				"dnegfile"	"HUD/dneg_images"
-				"x"		"263"
-				"y"		"358"
-				"width"		"96"
-				"height"	"32"
-		}
-		"tf_pumpkin_bomb"
-		{
-				"dfile"	"HUD/d_images"
-				"dnegfile"	"HUD/dneg_images"
-				"x"		"263"
-				"y"		"358"
-				"width"		"96"
-				"height"	"32"
-		}
 		"chainsaw"
 		{
 				"dfile"	"HUD/d_images_of"
@@ -3935,22 +3854,40 @@
 				"width"		"113"
 				"height"	"33"
 		}
-		"berserk"
+		"path_track"
 		{
 				"dfile"	"HUD/d_images_of"
 				"dnegfile" "HUD/dneg_images_of"
-				"x"		"0"
-				"y"		"355"
-				"width"		"71"
+				"x"		"418"
+				"y"		"448"
+				"width"		"65"
+				"height"	"35"
+		}
+		"gravitygauntlets"
+		{
+				"dfile"	"HUD/d_images_of"
+				"dnegfile" "HUD/dneg_images_of"
+				"x"		"418"
+				"y"		"448"
+				"width"		"65"
+				"height"	"35"
+		}
+		"tf_projectile_bouncyrocket"
+		{
+				"dfile"	"HUD/d_images_of"
+				"dnegfile" "HUD/dneg_images_of"
+				"x"		"375"
+				"y"		"169"
+				"width"		"102"
 				"height"	"34"
 		}
-		"juggernaught"
+		"lead_pipe"
 		{
-				"dfile"	"HUD/d_images"
-				"dnegfile"	"HUD/dneg_images"
-				"x"		"191"
-				"y"		"446"
-				"width"		"64"
+				"dfile"	"HUD/d_images_of"
+				"dnegfile" "HUD/dneg_images_of"
+				"x"		"282"
+				"y"		"134"
+				"width"		"106"
 				"height"	"32"
 		}
 		"eternalshotgun"
@@ -3971,15 +3908,6 @@
 				"width"		"83"
 				"height"	"32"
 		}
-		"tf_projectile_bouncyrocket"
-		{
-				"dfile"	"HUD/d_images_of"
-				"dnegfile" "HUD/dneg_images_of"
-				"x"		"375"
-				"y"		"169"
-				"width"		"102"
-				"height"	"34"
-		}
 		"combatknife"
 		{
 				"dfile"	"HUD/d_images_of"
@@ -3988,87 +3916,6 @@
 				"y"		"322"
 				"width"		"110"
 				"height"	"33"
-		}
-		"tf_dropped_weapon"
-		{
-				"dfile"	"HUD/d_images_of"
-				"dnegfile" "HUD/dneg_images_of"
-				"x"		"388"
-				"y"		"134"
-				"width"		"89"
-				"height"	"35"
-		}
-		"powerup_crit"
-		{
-				"dfile"	"HUD/d_images_of"
-				"dnegfile" "HUD/dneg_images_of"
-				"x"		"477"
-				"y"		"33"
-				"width"		"35"
-				"height"	"32"
-		}
-		"powerup_invis"
-		{
-				"dfile"	"HUD/d_images_of"
-				"dnegfile" "HUD/dneg_images_of"
-				"x"		"477"
-				"y"		"65"
-				"width"		"35"
-				"height"	"32"
-		}
-		"powerup_megahealth"
-		{
-				"dfile"	"HUD/d_images_of"
-				"dnegfile" "HUD/dneg_images_of"
-				"x"		"477"
-				"y"		"98"
-				"width"		"35"
-				"height"	"32"
-		}
-		"powerup_shield"
-		{
-				"dfile"	"HUD/d_images_of"
-				"dnegfile" "HUD/dneg_images_of"
-				"x"		"477"
-				"y"		"162"
-				"width"		"35"
-				"height"	"32"
-		}
-		"powerup_haste"
-		{
-				"dfile"	"HUD/d_images_of"
-				"dnegfile" "HUD/dneg_images_of"
-				"x"		"477"
-				"y"		"195"
-				"width"		"35"
-				"height"	"32"
-		}
-		"powerup_berserk"
-		{
-				"dfile"	"HUD/d_images_of"
-				"dnegfile" "HUD/dneg_images_of"
-				"x"		"477"
-				"y"		"130"
-				"width"		"35"
-				"height"	"32"
-		}
-		"powerup_invun"
-		{
-				"dfile"	"HUD/d_images_of"
-				"dnegfile" "HUD/dneg_images_of"
-				"x"		"477"
-				"y"		"227"
-				"width"		"35"
-				"height"	"32"
-		}
-		"killiconofsin"
-		{
-				"dfile"	"HUD/d_images_of"
-				"dnegfile" "HUD/dneg_images_of"
-				"x"		"400"
-				"y"		"65"
-				"width"		"77"
-				"height"	"32"
 		}
 		"tfc_weapon_crowbar"
 		{
@@ -4083,10 +3930,10 @@
 		{
 				"dfile"	"HUD/d_images_of"
 				"dnegfile" "HUD/dneg_images_of"
-				"x"		"227"
-				"y"		"449"
-				"width"		"99"
-				"height"	"32"
+				"x"		"291"
+				"y"		"32"
+				"width"		"104"
+				"height"	"31"
 		}
 		"tfc_weapon_knife"
 		{
@@ -4241,6 +4088,33 @@
 				"width"		"75"
 				"height"	"32"
 		}
+		"obj_sentrygun_tfc"
+		{
+				"dfile"	"HUD/d_images_of"
+				"dnegfile" "HUD/dneg_images_of"
+				"x"		"288"
+				"y"		"256"
+				"width"		"82"
+				"height"	"32"
+		}
+		"obj_sentrygun2_tfc"
+		{
+				"dfile"	"HUD/d_images_of"
+				"dnegfile" "HUD/dneg_images_of"
+				"x"		"335"
+				"y"		"288"
+				"width"		"100"
+				"height"	"32"
+		}
+		"obj_sentrygun3_tfc"
+		{
+				"dfile"	"HUD/d_images_of"
+				"dnegfile" "HUD/dneg_images_of"
+				"x"		"316"
+				"y"		"320"
+				"width"		"88"
+				"height"	"32"
+		}
 		"tfc_grenade_frag"
 		{
 				"dfile"	"HUD/d_images_of"
@@ -4331,31 +4205,193 @@
 				"width"		"59"
 				"height"	"32"
 		}
-		"obj_sentrygun_tfc"
+		"berserk"
 		{
 				"dfile"	"HUD/d_images_of"
 				"dnegfile" "HUD/dneg_images_of"
-				"x"		"288"
-				"y"		"256"
-				"width"		"82"
+				"x"		"0"
+				"y"		"355"
+				"width"		"71"
+				"height"	"34"
+		}
+		"juggernaught"
+		{
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
+				"x"		"191"
+				"y"		"446"
+				"width"		"64"
 				"height"	"32"
 		}
-		"obj_sentrygun2_tfc"
+		"taunt_mercenary"
 		{
 				"dfile"	"HUD/d_images_of"
 				"dnegfile" "HUD/dneg_images_of"
-				"x"		"335"
-				"y"		"288"
-				"width"		"100"
+				"x"		"300"
+				"y"		"166"
+				"width"		"75"
+				"height"	"35"
+		}
+		"tf_dropped_weapon"
+		{
+				"dfile"	"HUD/d_images_of"
+				"dnegfile" "HUD/dneg_images_of"
+				"x"		"388"
+				"y"		"134"
+				"width"		"89"
+				"height"	"35"
+		}
+		"powerup_crit"
+		{
+				"dfile"	"HUD/d_images_of"
+				"dnegfile" "HUD/dneg_images_of"
+				"x"		"477"
+				"y"		"33"
+				"width"		"35"
 				"height"	"32"
 		}
-		"obj_sentrygun3_tfc"
+		"powerup_invis"
 		{
 				"dfile"	"HUD/d_images_of"
 				"dnegfile" "HUD/dneg_images_of"
-				"x"		"316"
-				"y"		"320"
-				"width"		"88"
+				"x"		"477"
+				"y"		"65"
+				"width"		"35"
+				"height"	"32"
+		}
+		"powerup_megahealth"
+		{
+				"dfile"	"HUD/d_images_of"
+				"dnegfile" "HUD/dneg_images_of"
+				"x"		"477"
+				"y"		"98"
+				"width"		"35"
+				"height"	"32"
+		}
+		"powerup_shield"
+		{
+				"dfile"	"HUD/d_images_of"
+				"dnegfile" "HUD/dneg_images_of"
+				"x"		"477"
+				"y"		"162"
+				"width"		"35"
+				"height"	"32"
+		}
+		"powerup_haste"
+		{
+				"dfile"	"HUD/d_images_of"
+				"dnegfile" "HUD/dneg_images_of"
+				"x"		"477"
+				"y"		"195"
+				"width"		"35"
+				"height"	"32"
+		}
+		"powerup_berserk"
+		{
+				"dfile"	"HUD/d_images_of"
+				"dnegfile" "HUD/dneg_images_of"
+				"x"		"477"
+				"y"		"130"
+				"width"		"35"
+				"height"	"32"
+		}
+		"powerup_invun"
+		{
+				"dfile"	"HUD/d_images_of"
+				"dnegfile" "HUD/dneg_images_of"
+				"x"		"477"
+				"y"		"227"
+				"width"		"35"
+				"height"	"32"
+		}
+		"killiconofsin"
+		{
+				"dfile"	"HUD/d_images_of"
+				"dnegfile" "HUD/dneg_images_of"
+				"x"		"400"
+				"y"		"65"
+				"width"		"77"
+				"height"	"32"
+		}
+		"obj_teleporter"
+		{
+				"dfile"	"HUD/d_images_of"
+				"dnegfile" "HUD/dneg_images_of"
+				"x"		"195"
+				"y"		"209"
+				"width"		"63"
+				"height"	"47"
+		}
+		"trigger_teleport"
+		{
+				"dfile"	"HUD/d_images_of"
+				"dnegfile" "HUD/dneg_images_of"
+				"x"		"195"
+				"y"		"209"
+				"width"		"63"
+				"height"	"47"
+		}
+		"info_player_teamspawn"
+		{
+				"dfile"	"HUD/d_images_of"
+				"dnegfile" "HUD/dneg_images_of"
+				"x"		"195"
+				"y"		"209"
+				"width"		"63"
+				"height"	"47"
+		}
+		"info_player_deathmatch"
+		{
+				"dfile"	"HUD/d_images_of"
+				"dnegfile" "HUD/dneg_images_of"
+				"x"		"195"
+				"y"		"209"
+				"width"		"63"
+				"height"	"47"
+		}
+		"info_player_start"
+		{
+				"dfile"	"HUD/d_images_of"
+				"dnegfile" "HUD/dneg_images_of"
+				"x"		"195"
+				"y"		"209"
+				"width"		"63"
+				"height"	"47"
+		}
+		"crocodile"
+		{
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
+				"x"		"256"
+				"y"		"864"
+				"width"		"128"
+				"height"	"32"
+		}
+		"croc"
+		{
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
+				"x"		"256"
+				"y"		"864"
+				"width"		"128"
+				"height"	"32"
+		}
+		"tf_generic_bomb"
+		{
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
+				"x"		"263"
+				"y"		"358"
+				"width"		"96"
+				"height"	"32"
+		}
+		"tf_pumpkin_bomb"
+		{
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
+				"x"		"263"
+				"y"		"358"
+				"width"		"96"
 				"height"	"32"
 		}
 	}

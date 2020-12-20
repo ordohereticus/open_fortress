@@ -1,0 +1,11 @@
+"VertexLitGeneric" {
+	"$basetexture" "models/spillway_event/pumpkin_dispenser"
+	"$bumpmap" "models/effects/flat_normal"
+	
+	"$nodecal" "1"
+	
+	"$detail" "models/spillway_event/pumpkin_dispenser_detail"
+	"$detailscale" "1"
+	"$detailblendfactor" "1"
+	"$detailblendmode" "5"
+}

@@ -1,0 +1,12 @@
+"VertexLitGeneric" {
+	$basetexture			"models/spillway_event/wine_bottle_white"
+	$basemapalphaphongmask	"1"
+	$phong					"1"
+	$phongexponent			"7"
+	$phongboost				".2"
+	$phongfresnelranges		"[ .7 15 20 ]"
+
+	// $rimlight				"1"
+	// $rimlightexponent		"300"
+	// $rimlightboost			"3"
+}

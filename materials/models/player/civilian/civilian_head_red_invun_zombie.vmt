@@ -1,0 +1,11 @@
+"Patch"
+{
+	include "materials/models/player/shared/invun_red.vmt"
+	
+	insert
+	{
+		"$baseTexture" "models/player/civilian/civilian_head_zombie"
+		"$compress" "models/player/civilian/civilian_head_zombie"
+		"$stretch" "models/player/civilian/civilian_head_zombie"
+	}
+}

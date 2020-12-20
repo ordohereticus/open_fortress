@@ -48,10 +48,10 @@ WeaponData
 	// Animation.
 	"viewmodel"		"models/weapons/v_models/v_bouncer.mdl"
 	
-	"CenteredViewmodelOffset_Y" 	"-18"
-	"CenteredViewmodelOffset_Z" 	"-3"
-	"CenteredViewmodelAngle_Y" 		"-13"
-	"CenteredViewmodelAngle_Z" 		"-2.8"
+	"CenteredViewmodelOffset_Y" 	"-11.5"
+	"CenteredViewmodelOffset_Z" 	"-10"
+	"CenteredViewmodelAngle_Y" 		"0"
+	"CenteredViewmodelAngle_Z" 		"0"
 	
 	"MinViewmodelOffset_X" 			"10"
 	"MinViewmodelOffset_Y" 			"0"
@@ -85,6 +85,14 @@ WeaponData
 			"height"		"128"
 		}
 		"weapon_s"
+		{	
+				"file"		"sprites/bucket_bouncer"
+				"x"			"0"
+				"y"			"0"
+				"width"		"200"
+				"height"	"128"
+		}
+		"weapon_t"
 		{	
 				"file"		"sprites/bucket_bouncer"
 				"x"			"0"

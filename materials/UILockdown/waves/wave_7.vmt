@@ -1,0 +1,12 @@
+UnlitGeneric
+{
+	"$translucent" 1
+	"$basetexture"	"UILockdown/waves/wave_7"
+	"$basetexturetransform" "center .5 .5 scale 11 7.5 rotate 0 translate 0 3.04"
+	
+
+	
+	"$ignorez" 1
+	"%keywords" "tf"
+
+}

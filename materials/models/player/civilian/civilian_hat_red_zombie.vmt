@@ -1,0 +1,15 @@
+"Patch"
+{
+	include "materials/models/player/civilian/civilian_base.vmt"
+
+	replace
+	{
+		"$bumpmap" "models/player/civilian/civilian_hat_normal"
+		"$phongexponenttexture" "models/player/civilian/civilian_hat_exponent"
+	}
+
+	insert
+	{
+		"$baseTexture" "models/player/civilian/civilian_hat_red_zombie"
+	}
+}

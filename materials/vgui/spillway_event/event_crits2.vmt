@@ -1,0 +1,12 @@
+UnlitGeneric
+{
+	"$translucent" 1
+	"$baseTexture" "vgui\spillway_event\event_crits2"
+	"$basetexturetransform" "center .5 .5 scale 12 6.75 rotate 0 translate 2 -2.8"
+	
+
+	
+	"$ignorez" 1
+	"%keywords" "tf"
+
+}

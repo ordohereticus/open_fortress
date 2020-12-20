@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	$baseTexture "metal/island_grate002"
+	"%compilepassbullets" 1
+	"$surfaceprop" "metalgrate"
+	"%keywords" "tf"
+	"$translucent" 1
+	"$nodecal" "1"
+}

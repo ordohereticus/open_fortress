@@ -1,0 +1,16 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_dock\cable_01"
+	$bumpmap "effects/flat_normal"
+	$phong 1
+	$phongexponent 10
+	$phongboost "0.5"
+	$phongfresnelranges "[0.6 1 1]"
+	"$phongfresnelranges"	"[.5 .5 3]"
+	"$halflambert" "0"
+
+	// Rim lighting parameters
+	"$rimlight" "1"			
+	"$rimlightexponent" "50"	
+	"$rimlightboost" "0"
+}

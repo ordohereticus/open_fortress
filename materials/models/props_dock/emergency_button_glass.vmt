@@ -1,0 +1,16 @@
+ "VertexLitGeneric"
+{
+	$baseTexture "\models\props_dock\emergency_button_glass"
+
+	"$translucent" 1
+
+	"$phong" "1"
+	"$phongboost" ".30"	
+	"$phongfresnelranges"	"[.7 15 20]"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1" 
+	"$envmaptint" "[.2 .2 .2]"
+
+	"%keywords" "tf"
+}

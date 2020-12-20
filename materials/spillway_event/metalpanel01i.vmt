@@ -1,0 +1,6 @@
+"LightMappedGeneric"
+{
+	"$basetexture"	"spillway_event/metalpanel01i"
+	"$surfaceprop" "metal"
+	"%keywords" "tf"
+}

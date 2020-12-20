@@ -2183,15 +2183,14 @@
 
 @BaseClass = weaponname
 [
-	weaponname(choices) : "Weapon" : "tf_weapon_shotgun_mercenary" : "The weapon to use." =
+	weaponname(choices) : "Weapon" : "tf_weapon_shotgun" : "The weapon to use." =
 	[
 		"0"									  : "=== Deathmatch ==="
 		"tf_weapon_chainsaw"				  : "Chainsaw"
 		"tf_weapon_revolver_mercenary"        : "Revolver"
 		"tf_weapon_shotgun_mercenary"         : "Shotgun"
 		"tf_weapon_supershotgun"              : "Super Shotgun"	
-		"tf_weapon_eternalshotgun"            : "Meathook Supershotgun"
-		"tf_weapon_smg_mercenary"             : "Combat SMG"
+		"tf_weapon_eternalshotgun"            : "Eternal Shotgun"
 		"tf_weapon_tommygun"                  : "Tommygun"
 		"tf_weapon_gatlinggun"                : "Gatling Gun"
 		"tf_weapon_assaultrifle"			  : "Assault Rifle"
@@ -2204,6 +2203,7 @@
 		"tf_weapon_rocketlauncher_dm"         : "Rocket Launcher"
 		"tf_weapon_gib"			  			  : "The G.I.B."
 		"tf_weapon_super_rocketlauncher"      : "Quad-launcher"
+		"tf_weapon_gravitygauntlets"		  : "Graviy Gauntlets"
 		
 		"0"									  : "=== Do Not Use In Deathmatch ==="
 		"tf_weapon_scattergun"                : "Scattergun"
@@ -2232,6 +2232,7 @@
 		"tf_weapon_crowbar"                   : "Crowbar"
 		"tf_weapon_pistol_mercenary"          : "Pistol (Mercenary)"
 		"tf_weapon_pistol_akimbo"             : "Akimbo Pistols"
+		"tf_weapon_smg_mercenary"             : "Combat SMG"
 		"tf_weapon_umbrella"                  : "Umbrella"
 		"tf_weapon_physcannon"                : "Gravity Gun"
 		
@@ -2255,6 +2256,10 @@
 		"tfc_weapon_tranq"                    : "Tranquilizer Gun"
 		"tfc_weapon_umbrella"                 : "TFC Umbrella"
 		"tfc_weapon_wrench"                   : "TFC Wrench"
+		
+		"0"									  : "=== Arsenal Weapons ==="
+		"tf_weapon_lead_pipe"				  : "LeadPipe"
+		"tf_weapon_bouncer"					  : "Bouncer"
 	]
 ]	
 
@@ -5313,6 +5318,15 @@
 
 @SolidClass base(Trigger, TeamNum) = func_respawnroom :
 	"Designates a respawn room for a team."
+[
+	input SetActive(void) : "Sets the respawn room as active."
+	input SetInactive(void) : "Sets the respawn room as inactive."
+	input ToggleActive(void) : "Toggles the respawn room between active and inactive."
+	input RoundActivate(void) : "Forces this entity to activate. Fired automatically at the start of a round."
+]
+
+@SolidClass base(Trigger, TeamNum) = func_buyzone :
+	"Designates a buyzone for a team."
 [
 	input SetActive(void) : "Sets the respawn room as active."
 	input SetInactive(void) : "Sets the respawn room as inactive."
@@ -9143,6 +9157,7 @@
 	UsesHL2Hull(boolean) : "HL2 Player Hulls?" : 0 : "Change whether to use Half Life 2 hulls for players (allows fitting into smaller spaces)"
 	Force3DSkybox(boolean) : "Force 3D Skybox?" : 0 : "Force 3D Skybox to always be on, even if disabled by client."
 	UsesMoney(boolean) : "Uses Money?" : 0 : "Whether or not to display currency on your HUD."
+	CanBuy(boolean) : "Can Buy Weapons?" : 0 : "Whether or not the Players can buy buyable weapons, needs UsesMoney on to work."
 	
 	input SetRedTeamRespawnWaveTime(float) : "Set the RED team's respawn wave time."
 	input SetBlueTeamRespawnWaveTime(float) : "Set the BLU team's respawn wave time."

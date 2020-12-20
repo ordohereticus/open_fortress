@@ -85,6 +85,7 @@ PlayerClass
 		//"health_max"	"75" //Uncomment this later when armor is implemented
 		"health_max"	"125"
 		"armor_max"		"50"
+		
 		"WeaponCount"	"3"
 		"weapon1"		"TFC_WEAPON_CROWBAR"
 		"weapon2"		"TFC_WEAPON_SHOTGUN_SB"

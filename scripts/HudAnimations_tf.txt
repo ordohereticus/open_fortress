@@ -431,21 +431,35 @@ event HudDMWinpanelMoveOut
 	Animate Player3Model	model_pos	"429 -60 -44"	Bias 0.8 0.0 0.5
 }
 
+event NowPlayingFadeOut
+{
+	Animate ArtistNameContainer		Position	"-300 40"	Bias 0.8 0 2
+	Animate ArtistNameContainer		Alpha		"-128"		Bias 0.88 0 2
+	Animate MusicNameContainer		Position	"300 0"	Bias 0.8 0 2
+	Animate MusicNameContainer		Alpha		"-128"	Bias 0.88 0 2
+	
+	Animate ArtistNameBG		Size		"0 30"	Bias 0.8 0 1.5
+	Animate MusicNameBG			Size		"0 60"	Bias 0.88 0 1.5
+	Animate ArtistNameLabel		Size		"0 40"	Bias 0.88 0 1.5
+	Animate MusicNameLabel		Size		"0 40"	Bias 0.8 0 1.5
+}
+
 event NowPlaying
 {
+	Animate ArtistNameContainer		Size		"1500 30"	Linear 0 0
+	Animate MusicNameContainer		Size		"1500 60"	Linear 0 0
 	Animate ArtistNameContainer		Alpha		"0"			Linear 0.0 0.0
 	Animate ArtistNameContainer		Alpha		"255"		Bias 0.8 0.5 2
 	Animate ArtistNameContainer		Position	"50 40"		Linear 0.0 0.0
-	Animate ArtistNameContainer		Position	"0 40"		Bias 0.8 0.5 5
-	Animate ArtistNameContainer		Position	"-300 40"	Bias 0.8 5 7
-	Animate ArtistNameContainer		Alpha		"-255"		Bias 0.88 5 7
+	Animate ArtistNameContainer		Position	"0 40"		Bias 0.8 0.5 3
+
 	
 	Animate MusicNameContainer		Alpha		"0"		Linear 0.0 0.0
 	Animate MusicNameContainer		Alpha		"255"	Bias 0.8 0.5 2
 	Animate MusicNameContainer		Position	"-80 0"	Linear 0.0 0.0
-	Animate MusicNameContainer		Position	"30 0"	Bias 0.9 0.5 5
-	Animate MusicNameContainer		Position	"300 0"	Bias 0.8 5 7
-	Animate MusicNameContainer		Alpha		"-255"	Bias 0.88 5 7
+	Animate MusicNameContainer		Position	"30 0"	Bias 0.9 0.5 3
+	
+	RunEvent NowPlayingFadeOut 5.0
 }
 
 event LoadoutPopupDISABLED

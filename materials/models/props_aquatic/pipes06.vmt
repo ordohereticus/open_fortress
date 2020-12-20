@@ -1,0 +1,13 @@
+vertexlitgeneric
+{
+	"$basetexture" "models/props_aquatic/pipes01"
+	"$color2" "[1.3 0.80 0.15]"
+	
+	"$blendTintByBaseAlpha" 1
+	"$model" 1
+	"$bumpmap" "models/props_aquatic/pipes01_norm"
+	
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.15 0.15 0.15]"
+	"$normalmapalphaenvmapmask" 1
+}

@@ -1,0 +1,10 @@
+"VertexLitGeneric" {
+	"$basetexture" "models/spillway_event/pumpkin_dispenser_pumpkin"
+	
+	"$nodecal" "1"
+	
+	"$detail" "models/spillway_event/pumpkin_dispenser_pumpkin_detail"
+	"$detailscale" "1"
+	"$detailblendfactor" "1"
+	"$detailblendmode" "5"
+}

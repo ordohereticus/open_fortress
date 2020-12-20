@@ -4,8 +4,6 @@
 	{
 		"0" // rocket launcher
 		{
-			// temporary fix until the next map compile
-			"Model"		"models/weapons/w_models/w_rocketlauncher_dm.mdl"
 		}
 		"1" // flamethrower
 		{

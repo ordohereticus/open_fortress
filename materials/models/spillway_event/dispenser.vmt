@@ -1,0 +1,3 @@
+"Patch" {
+	include "materials/models/buildables/dispenser/dispenser.vmt"
+}

@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+"$basetexture" "signs/sign_spillway003c"
+"$decal" 1
+"$decalscale" 0.25
+	"$translucent" 1
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+"%keywords" "tf"
+}

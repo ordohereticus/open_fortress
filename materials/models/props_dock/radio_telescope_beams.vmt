@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_dock/radio_telescope_beams"
+	"$nocull" "1"
+}

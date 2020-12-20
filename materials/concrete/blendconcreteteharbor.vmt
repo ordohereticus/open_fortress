@@ -1,0 +1,14 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "Concrete/concretefloor007b"
+	"$basetexture2" "Concrete/concretefloor007_harbor"
+	"%tooltexture" "Concrete/concretefloor007b"
+                 "$blendmodulatetexture" "Concrete/concretefloor007b_blendmask"
+	"$bumpmap" "concrete/concretefloor007b_height-ssbump"
+	"%keywords" "tf"
+	"$ssbump" "1"
+	"$surfaceprop" "concrete"
+
+
+}
+ 

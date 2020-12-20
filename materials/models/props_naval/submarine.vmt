@@ -4,7 +4,7 @@
 
 	"$phong" "1"
 	"$phongexponent" "9"
-	"$phongboost" ".3"	
+	"$phongboost" ".2"	
 	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
 	"$phongfresnelranges"	"[2 1 6]"
 	"$basemapalphaphongmask" "1"
@@ -14,4 +14,3 @@
 	"$rimlightexponent" "2"	
 	"$rimlightboost" ".2"
 }
-

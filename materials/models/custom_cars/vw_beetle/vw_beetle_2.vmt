@@ -1,8 +1,7 @@
 "VertexlitGeneric"
 {
 	"$basetexture" "models/custom_cars/vw_beetle/vw_beetle_2"
-	"$bumpmap" "models/custom_cars/vw_beetle/vw_beetle_nor"
-	"%keywords" "tf"
+	"$surfaceprop" "metal"
 
 	"$phong" "1"
 	"$phongexponent" "15"

@@ -1,0 +1,13 @@
+UnlitGeneric
+{
+	"$translucent" 1
+	$alpha 0
+	"$baseTexture" "vgui\spillway_event\null"
+	"$basetexturetransform" "center .5 .5 scale 12 6.75 rotate 0 translate 1.2 -2.8"
+	
+
+	
+	"$ignorez" 1
+	"%keywords" "tf"
+
+}

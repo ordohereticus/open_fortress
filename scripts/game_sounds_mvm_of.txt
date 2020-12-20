@@ -1,0 +1,16 @@
+"Mvm.NewRoundTimer"
+{
+	"channel"	"CHAN_AUTO"
+	"volume" 		"VOL_NORM"
+	"pitch" 		"PITCH_NORM"
+	"soundlevel" 	"SNDLVL_NORM"
+	"wave"			"music/mvm_class_menu_bg.wav"
+}
+"MVM.NewRoundStart"
+{
+	"channel"	"CHAN_AUTO"
+	"volume" 		"VOL_NORM"
+	"pitch" 		"PITCH_NORM"
+	"soundlevel" 	"SNDLVL_NORM"
+	"wave"			"music/mvm_class_select	.wav"
+}

@@ -413,6 +413,10 @@
 	"localplayer_changeclass"
 	{
 	}
+	
+	"localplayer_changecosmetics"
+	{
+	}
 		
 	"building_info_changed"
 	{
@@ -801,5 +805,14 @@
 	"duel_enterqueue"
 	{
 		"playerid"		"short"
+	}
+	
+	"weapon_switched"
+	{
+		"weapon"		"short"
+	}
+
+	"refresh_hud_model"
+	{
 	}
 }

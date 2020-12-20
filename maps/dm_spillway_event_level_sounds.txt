@@ -1,0 +1,85 @@
+spellway.teslaIdle
+{
+	channel		CHAN_AUTO
+	volume		VOL_NORM
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_85dB
+	wave	ambient/energy/electric_loop.wav
+}
+
+spellway.teslaPrezap
+{
+	channel		CHAN_AUTO
+	volume		VOL_NORM
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_100dB
+	wave	ambient/levels/labs/electric_explosion5.wav
+}
+
+spellway.teslaWarmup
+{
+	channel		CHAN_AUTO
+	volume		VOL_NORM
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_100dB
+	wave	ambient/machines/electric_machine.wav
+}
+
+spellway.teslaBigzappy
+{
+	channel		CHAN_AUTO
+	volume		VOL_NORM
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_140dB
+	wave	ambient/levels/labs/electric_explosion2.wav
+}
+
+"spellway.pumpDispExpld"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_115dB"
+	"wave"	"spillway_event\pumpkin_dispenser_explode.wav"
+}
+
+
+//overrides
+//be quiet, funky water dogs
+
+"Crocs.Growl"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"PITCH_NORM"
+//default 88
+	"soundlevel"	"SNDLVL_65dB"
+	
+		"rndwave"
+	{
+					"wave"	")ambient_mp3/lair/crocs_growl1.mp3"
+					//"wave"	")ambient_mp3/lair/crocs_growl2.mp3"
+					//"wave"	")ambient_mp3/lair/crocs_growl3.mp3"
+					//"wave"	")ambient_mp3/lair/crocs_growl4.mp3"
+					"wave"	")ambient_mp3/lair/crocs_growl5.mp3"
+					"wave"	"common/null.wav"
+	}
+}
+
+"Crocs.Hiss"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"PITCH_NORM"
+//default 80
+	"soundlevel"	"SNDLVL_60dB"
+	
+		"rndwave"
+	{
+					"wave"	")ambient_mp3/lair/crocs_hiss1.mp3"
+					//"wave"	")ambient_mp3/lair/crocs_hiss2.mp3"
+					"wave"	")ambient_mp3/lair/crocs_hiss3.mp3"
+					//"wave"	")ambient_mp3/lair/crocs_hiss4.mp3"
+					"wave"	"common/null.wav"
+	}
+}

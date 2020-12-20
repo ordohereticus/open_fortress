@@ -1,0 +1,35 @@
+// Choreo version 1
+actor "engineer"
+{
+  channel "audio"
+  {
+    event speak "Engineer.CloakedSpyIdentify10"
+    {
+      time 0.000000 1.9
+      param "Engineer.CloakedSpyIdentify10"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "emotion"
+  {
+    event expression "painSmallUpper"
+    {
+      time 0.000000 1.9
+      param "player\engineer\emotion\emotion"
+      param2 "painSmallUpper"
+      event_ramp
+      {
+        0.0818 0.4706
+        0.5545 0.4706
+        0.8926 0.6392
+        1.2199 0.6275
+      }
+    }
+  }
+}
+
+fps 60
+snap off
+ignorePhonemes off

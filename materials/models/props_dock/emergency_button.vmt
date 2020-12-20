@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_dock/emergency_button"
+	"$basemapalphaphongmask" "1"
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongboost" ".20"	
+	"$phongfresnelranges"	"[.7 15 20]"
+	"$lightwarptexture" "models\props_vehicles\pickup_lightwarp"
+
+}
+
+

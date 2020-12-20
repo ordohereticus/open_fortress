@@ -27,6 +27,8 @@ particles_manifest
 	//"file"		"!particles/drg_pyro.pcf"
 	"file"		"!particles/disguise.pcf"
 	"file"		"!particles/dxhr_fx.pcf"
+
+	"file"		"!particles/electrocutedplayer_fx.pcf"
 	"file"		"!particles/env_sakura01.pcf"
 	"file"		"!particles/explosion.pcf"
 	"file"		"!particles/eyeboss.pcf"

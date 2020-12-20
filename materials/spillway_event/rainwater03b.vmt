@@ -1,0 +1,23 @@
+"UnLitGeneric"
+{
+	"$basetexture"	"water/waterfall002"
+	"$additive" "1"
+	"$nocull" "1"
+
+//breaks depth sorting
+//	$translucent 1
+//	$alpha 0.8
+	
+	$basetexturetransform "center .5 .5 scale 1.8 1.45 rotate 2 translate 32 0"
+//	$basetexturetransform2 "center .5 .5 scale 0.125 0.125 rotate 0 translate 0 0"
+	
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" 0.4
+			"texturescrollangle" 92
+		}
+	}
+}

@@ -1,0 +1,17 @@
+//"LightmappedGeneric"
+"UnLitGeneric"
+{
+	"$basetexture" "spillway_event/clouds02_lightning"
+	
+    "$translucent" 1
+	$additive 1
+	
+	$nofog 1
+	
+	//breaks translucent
+	//$selfillum 1
+	
+	//%compilenolight 1
+
+	"%keywords" "tf"
+}

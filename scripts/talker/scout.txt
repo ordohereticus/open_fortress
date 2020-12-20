@@ -118,6 +118,27 @@ Rule PlayerCloakedSpySpyScout
 	Response PlayerCloakedSpySpyScout
 }
 
+Response PlayerCloakedSpyMercenaryScout
+{
+	scene "scenes/Player/Scout/low/cloaked_spy_mercenary.vcd" 
+}
+
+Rule PlayerCloakedSpyMercenaryScout
+{
+	criteria ConceptPlayerCloakedSpy IsScout IsOnMercenary
+	Response PlayerCloakedSpyMercenaryScout
+}
+
+Response PlayerCloakedSpyCivilianScout
+{
+	scene "scenes/Player/Scout/low/cloaked_spy_civilian.vcd" 
+}
+
+Rule PlayerCloakedSpyCivilianScout
+{
+	criteria ConceptPlayerCloakedSpy IsScout IsOnCivilian
+	Response PlayerCloakedSpyCivilianScout
+}
 
 //--------------------------------------------------------------------------------------------------------------
 // Auto Speech
@@ -981,6 +1002,21 @@ Rule PlayerKilledDominatingSpyScout
 	ApplyContext "ScoutKillSpeech:1:10"
 	ApplyContext "IsDominating:1:10"
 	Response PlayerKilledDominatingSpyScout
+}
+
+Response PlayerKilledDominatingMercenaryScout
+{
+	scene "scenes/Player/Scout/low/dominationmerc01.vcd" predelay "2.5"
+	scene "scenes/Player/Scout/low/dominationmerc02.vcd" predelay "2.5"
+	scene "scenes/Player/Scout/low/dominationmerc03.vcd" predelay "2.5"
+	scene "scenes/Player/Scout/low/dominationmerc04.vcd" predelay "2.5"
+}
+Rule PlayerKilledDominatingMercenaryScout
+{
+	criteria ConceptKilledPlayer IsScout IsDominated IsVictimMercenary
+	ApplyContext "ScoutKillSpeech:1:10"
+	ApplyContext "IsDominating:1:10"
+	Response PlayerKilledDominatingMercenaryScout
 }
 
 Response PlayerKilledForRevengeScout

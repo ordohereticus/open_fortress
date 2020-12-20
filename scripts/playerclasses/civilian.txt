@@ -42,7 +42,7 @@ PlayerClass
 	// Weapons.
 	"WeaponCount"		"1"
 	"weapon1"			"TF_WEAPON_UMBRELLA"
-	"weapon2"			"NONE"
+	"weapon2"			"TF_WEAPON_TOMMYGUN" //What? Why did you give me an empty gun? I can't do anything with this!
 	"weapon3"			"NONE"
 	"weapon4"			"NONE"
 	"weapon5"			"NONE"
@@ -81,6 +81,18 @@ PlayerClass
 		"health_max"	"200"
 		"armor_max"		"0"	
 		
+		// Weapons.
+		"WeaponCount"		"1"
+		"weapon1"			"TFC_WEAPON_UMBRELLA"
+		"weapon2"			"NONE"
+		"weapon3"			"NONE"
+		"weapon4"			"NONE"
+		"weapon5"			"NONE"
+		"weapon6"			"NONE"
+		"weapon7"			"NONE"
+		"weapon8"			"NONE"
+		"weapon9"			"NONE"
+	
 		"model"			"models/player/civilian.mdl"
 		"arm_model"		"models/weapons/c_models/c_civilian_arms.mdl"		
 	}

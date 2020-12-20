@@ -2681,3 +2681,13 @@
 
 	"wave"			"weapons/physcannon/physcannon_tooheavy.wav"
 }
+
+"Null"
+{
+	"channel"		"CHAN_NONE"
+	"volume"		"1"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"			"100"
+
+	"wave"			"misc/null.wav"
+}

@@ -1,0 +1,8 @@
+"VertexLitGeneric" {
+	"$basetexture"	"models/spillway_event/tesla_machine"
+	
+	"$envmap"	"env_cubemap"
+	"$basealphaenvmapmask"	"1"
+	"$envmaptint"	"[ 0.2 0.2 0.2 ]"
+	"$envmapfresnel"	"1"
+}

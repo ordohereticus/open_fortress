@@ -1,0 +1,4 @@
+"VertexLitGeneric" {
+	"$model" "1"
+	"$basetexture"	"models/props_manor_edit/oak_01"
+}

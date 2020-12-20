@@ -45,7 +45,11 @@ WeaponData
 				"font"		"WeaponIcons"
 				"character"	"c"
 		}
-
+		"weapon_t"
+		{	
+				"font"		"WeaponIcons"
+				"character"	"c"
+		}
 		"ammo"
 		{
 				"file"		"sprites/a_icons1"

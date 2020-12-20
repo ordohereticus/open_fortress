@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	// Original shader: BaseTimesLightmap
+	"$basetexture" "Dev/dev_measuregeneric01"
+	"$surfaceprop" "concrete"
+	
+	$color "[ 0.45 0.35 0.35 ]"
+}

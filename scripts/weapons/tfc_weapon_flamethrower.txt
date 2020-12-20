@@ -17,8 +17,7 @@ WeaponData
 	"HasTeamSkins_Viewmodel"			"1"
 	"HasTeamSkins_Worldmodel"			"1"
 	
-	"Secondary_TimeFireDelay"	"0.75"
-	"Secondary_AmmoPerShot"	"20"
+	"DisableSecondaryAttack"	"1"
 
 	// Ammo & Clip.
 	"primary_ammo"		"WEAPON_AMMO"
@@ -75,6 +74,14 @@ WeaponData
 		"weapon_s"
 		{	
 				"file"		"sprites/bucket_flamethrower_blue"
+				"x"		"0"
+				"y"		"0"
+				"width"		"200"
+				"height"		"128"
+		}
+		"weapon_t"
+		{	
+				"file"		"sprites/bucket_flamethrower_purple"
 				"x"		"0"
 				"y"		"0"
 				"width"		"200"

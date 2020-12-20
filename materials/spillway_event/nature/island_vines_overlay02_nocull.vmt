@@ -1,0 +1,15 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "Overlays/island_vines_overlay02"
+	"$decal" 1
+	"$decalscale" 1
+	"$translucent" 1
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+//	"$color" "[ 0.2632 0.09912 0.09464 ]"
+//	"$alpha" .75
+	"%keywords" "tf"
+	
+	$nocull 1
+}
+

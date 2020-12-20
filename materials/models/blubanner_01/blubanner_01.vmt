@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$model" 1
+	"$baseTexture" "models\blubanner_01/blubanner_01"
+	"$nocull" "1"
+	"$alphatest" "1"
+}
+

@@ -90,6 +90,14 @@ WeaponData
 				"width"		"200"
 				"height"		"128"
 		}
+		"weapon_t"
+		{	
+				"file"		"sprites/bucket_pistol"
+				"x"		"0"
+				"y"		"0"
+				"width"		"200"
+				"height"		"128"
+		}
 		"ammo"
 		{
 				"file"		"sprites/a_icons1"

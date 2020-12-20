@@ -85,7 +85,7 @@ KaydemonLP - SkateBoard
 Suomimies55 - SkateBoard Textures
 Richter - Office Textures, Yoda Spray
 Denied - Powerup sprays
-Krazy - Vehicles
+Krazy - Vehicles, Dock assets
 
 Placeholder TFC Model Ports:
 Ficool2
@@ -181,7 +181,7 @@ Suzie🕷Scattersilk - The Badplace new Artpass
 Ruby - dm_entryway, duel_aerowalk artpass
 Aichten / Dot.ico
 White Russian Bear
-Krazy - Overkill
+Krazy - Overkill, Dock
 
 Third party Assets Used with permission:
 cp_alloy lava by Yrrzy
@@ -189,6 +189,10 @@ Landfall Assets by Dr. Spud and Nineaxis
 Borneo Assets by Heyo Cutino
 Cosmetic Set "Top Fragger" by Drew, Yikes, Makkon and Hotrod McCoolguy
 Train Models by Freyja
+Vickery Skybox by Nixon
+Aquatic Pipes by FubarFX
+Industrial lamp and striped windows by AsG_Alligator
+Agent Gunn Shark by DatGmann
 
 Open Fortress - List of community contributors:
 

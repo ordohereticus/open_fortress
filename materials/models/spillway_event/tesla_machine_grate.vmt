@@ -1,0 +1,5 @@
+"VertexLitGeneric" {
+	"$basetexture"	"metal/metalgrate013a"
+	"$alphatest"	"1"
+	"$nocull"	"1"
+}

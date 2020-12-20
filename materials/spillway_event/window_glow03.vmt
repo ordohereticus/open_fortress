@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "spillway_event/window_glow03"
+	"$selfillum" "1"
+	"$surfaceprop" "glass"
+	"%keywords" "tf"
+}

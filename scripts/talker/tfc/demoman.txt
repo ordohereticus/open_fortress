@@ -5,9 +5,7 @@
 
 Response PlayerCloakedSpyDemomanDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/CloakedSpyIdentify04.vcd"
-	scene "scenes/Player/tfc/Demoman/low/CloakedSpyIdentify04ALT.vcd"
-	scene "scenes/Player/tfc/Demoman/low/CloakedSpyIdentify04ALT2.vcd"
+	scene "scenes/Player/Demoman/low/901.vcd" 
 }
 Rule PlayerCloakedSpyDemomanDemomanTFC
 {
@@ -17,7 +15,7 @@ Rule PlayerCloakedSpyDemomanDemomanTFC
 
 Response PlayerCloakedSpyEngineerDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/CloakedSpyIdentify07.vcd" 
+	scene "scenes/Player/Demoman/low/907.vcd" 
 }
 Rule PlayerCloakedSpyEngineerDemomanTFC
 {
@@ -27,7 +25,7 @@ Rule PlayerCloakedSpyEngineerDemomanTFC
 
 Response PlayerCloakedSpyHeavyDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/CloakedSpyIdentify03.vcd" 
+	scene "scenes/Player/Demoman/low/897.vcd" 
 }
 Rule PlayerCloakedSpyHeavyDemomanTFC
 {
@@ -37,7 +35,7 @@ Rule PlayerCloakedSpyHeavyDemomanTFC
 
 Response PlayerCloakedSpyMedicDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/CloakedSpyIdentify06.vcd" 
+	scene "scenes/Player/Demoman/low/905.vcd" 
 }
 Rule PlayerCloakedSpyMedicDemomanTFC
 {
@@ -47,7 +45,7 @@ Rule PlayerCloakedSpyMedicDemomanTFC
 
 Response PlayerCloakedSpyPyroDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/CloakedSpyIdentify09.vcd" 
+	scene "scenes/Player/Demoman/low/899.vcd" 
 }
 Rule PlayerCloakedSpyPyroDemomanTFC
 {
@@ -57,7 +55,7 @@ Rule PlayerCloakedSpyPyroDemomanTFC
 
 Response PlayerCloakedSpyScoutDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/CloakedSpyIdentify01.vcd" 
+	scene "scenes/Player/Demoman/low/893.vcd" 
 }
 Rule PlayerCloakedSpyScoutDemomanTFC
 {
@@ -67,7 +65,7 @@ Rule PlayerCloakedSpyScoutDemomanTFC
 
 Response PlayerCloakedSpySniperDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/CloakedSpyIdentify08.vcd" 
+	scene "scenes/Player/Demoman/low/909.vcd" 
 }
 Rule PlayerCloakedSpySniperDemomanTFC
 {
@@ -77,7 +75,7 @@ Rule PlayerCloakedSpySniperDemomanTFC
 
 Response PlayerCloakedSpySoldierDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/CloakedSpyIdentify02.vcd" 
+	scene "scenes/Player/Demoman/low/895.vcd" 
 }
 Rule PlayerCloakedSpySoldierDemomanTFC
 {
@@ -87,7 +85,7 @@ Rule PlayerCloakedSpySoldierDemomanTFC
 
 Response PlayerCloakedSpySpyDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/CloakedSpyIdentify05.vcd" 
+	scene "scenes/Player/Demoman/low/903.vcd" 
 }
 Rule PlayerCloakedSpySpyDemomanTFC
 {
@@ -95,35 +93,15 @@ Rule PlayerCloakedSpySpyDemomanTFC
 	Response PlayerCloakedSpySpyDemomanTFC
 }
 
-Response PlayerCloakedSpyMercenaryDemomanTFC
-{
-	scene "scenes/Player/tfc/Demoman/low/CloakedSpyIdentify10.vcd" 
-}
-Rule PlayerCloakedSpyMercenaryDemomanTFC
-{
-	criteria IsTFC ConceptPlayerCloakedSpy IsDemoman IsOnMercenary
-	Response PlayerCloakedSpyMercenaryDemomanTFC
-}
-
-Response PlayerCloakedSpyCivilianDemomanTFC
-{
-	scene "scenes/Player/tfc/Demoman/low/CloakedSpyIdentify11.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/CloakedSpyIdentify11ALT.vcd" 
-}
-Rule PlayerCloakedSpyCivilianDemomanTFC
-{
-	criteria IsTFC ConceptPlayerCloakedSpy IsDemoman IsOnCivilian
-	Response PlayerCloakedSpyMercenaryDemomanTFC
-}
 
 //--------------------------------------------------------------------------------------------------------------
 // Auto Speech
 //--------------------------------------------------------------------------------------------------------------
 Response HealThanksDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/ThanksForTheHeal01.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/ThanksForTheHeal02.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/ThanksForTheHeal03.vcd" 
+	scene "scenes/Player/Demoman/low/1032.vcd" 
+	scene "scenes/Player/Demoman/low/1033.vcd" 
+	scene "scenes/Player/Demoman/low/1034.vcd" 
 }
 Rule HealThanksDemomanTFC
 {
@@ -134,9 +112,9 @@ Rule HealThanksDemomanTFC
 
 Response AwardDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/866.vcd" predelay "2.5"
-	scene "scenes/Player/tfc/Demoman/low/868.vcd" predelay "2.5"
-	scene "scenes/Player/tfc/Demoman/low/865.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/866.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/868.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/865.vcd" predelay "2.5"
 }
 Rule AwardDemomanTFC
 {
@@ -148,23 +126,24 @@ Rule AwardDemomanTFC
 
 Response PlayerRoundStartDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/BattleCry01.vcd" predelay "1.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/BattleCry02.vcd" predelay "1.0, 5.0" 
-	scene "scenes/Player/tfc/Demoman/low/BattleCry03.vcd" predelay "1.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/BattleCry04.vcd" predelay "1.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/BattleCry05.vcd" predelay "1.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/BattleCry06.vcd" predelay "1.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/BattleCry07.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/1358.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/1369.vcd" predelay "1.0, 5.0" 
+	scene "scenes/Player/Demoman/low/876.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/877.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/878.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/879.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/880.vcd" predelay "1.0, 5.0"
 }
 Rule PlayerRoundStartDemomanTFC
 {
 	criteria IsTFC ConceptPlayerRoundStart IsDemoman
 	Response PlayerRoundStartDemomanTFC
 }
+
 Response PlayerCappedIntelligenceDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/AutoCappedIntelligence01.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/AutoCappedIntelligence02.vcd" 
+	scene "scenes/Player/Demoman/low/866.vcd" 
+	scene "scenes/Player/Demoman/low/867.vcd" 
 }
 Rule PlayerCappedIntelligenceDemomanTFC
 {
@@ -172,23 +151,11 @@ Rule PlayerCappedIntelligenceDemomanTFC
 	Response PlayerCappedIntelligenceDemomanTFC
 }
 
-Response PlayerGrabbedIntelligenceDemomanTFC
-{
-	scene "scenes/Player/Mercenary/low/AutoGrabbedIntelligence01.vcd" 
-	scene "scenes/Player/Mercenary/low/AutoGrabbedIntelligence02.vcd" 
-	scene "scenes/Player/Mercenary/low/AutoGrabbedIntelligence03.vcd" 
-}
-Rule PlayerGrabbedIntelligenceDemomanTFC
-{
-	criteria ConceptPlayerGrabbedIntelligence IsDemoman
-	Response PlayerGrabbedIntelligenceDemomanTFC
-}
-
 Response PlayerCapturedPointDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/AutoCappedControlPoint01.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/AutoCappedControlPoint02.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/AutoCappedControlPoint03.vcd" 
+	scene "scenes/Player/Demoman/low/863.vcd" 
+	scene "scenes/Player/Demoman/low/865.vcd" 
+	scene "scenes/Player/Demoman/low/864.vcd" 
 }
 Rule PlayerCapturedPointDemomanTFC
 {
@@ -198,17 +165,17 @@ Rule PlayerCapturedPointDemomanTFC
 
 Response PlayerSuddenDeathDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/Jeers01.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/Jeers02.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/Jeers03.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/Jeers04.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/Jeers05.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/Jeers06.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/Jeers07.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/Jeers08.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/Jeers09.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/Jeers10.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/Jeers11.vcd" 
+	scene "scenes/Player/Demoman/low/938.vcd" 
+	scene "scenes/Player/Demoman/low/939.vcd" 
+	scene "scenes/Player/Demoman/low/940.vcd" 
+	scene "scenes/Player/Demoman/low/941.vcd" 
+	scene "scenes/Player/Demoman/low/942.vcd" 
+	scene "scenes/Player/Demoman/low/944.vcd" 
+	scene "scenes/Player/Demoman/low/945.vcd" 
+	scene "scenes/Player/Demoman/low/947.vcd" 
+	scene "scenes/Player/Demoman/low/948.vcd" 
+	scene "scenes/Player/Demoman/low/949.vcd" 
+	scene "scenes/Player/Demoman/low/946.vcd" 
 }
 Rule PlayerSuddenDeathDemomanTFC
 {
@@ -218,10 +185,10 @@ Rule PlayerSuddenDeathDemomanTFC
 
 Response PlayerStalemateDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/AutoDejectedTie01.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/AutoDejectedTie02.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/AutoDejectedTie03.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/AutoDejectedTie04.vcd" 
+	scene "scenes/Player/Demoman/low/869.vcd" 
+	scene "scenes/Player/Demoman/low/870.vcd" 
+	scene "scenes/Player/Demoman/low/871.vcd" 
+	scene "scenes/Player/Demoman/low/1357.vcd" 
 }
 Rule PlayerStalemateDemomanTFC
 {
@@ -231,8 +198,8 @@ Rule PlayerStalemateDemomanTFC
 
 Response PlayerTeleporterThanksDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/ThanksForTheTeleporter01.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/ThanksForTheTeleporter02.vcd" 
+	scene "scenes/Player/Demoman/low/1035.vcd" 
+	scene "scenes/Player/Demoman/low/1036.vcd" 
 }
 Rule PlayerTeleporterThanksDemomanTFC
 {
@@ -246,8 +213,8 @@ Rule PlayerTeleporterThanksDemomanTFC
 //--------------------------------------------------------------------------------------------------------------
 Response DefendOnThePointDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/DefendOnThePoint01.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/DefendOnThePoint02.vcd" 
+	scene "scenes/Player/Demoman/low/1011.vcd" 
+	scene "scenes/Player/Demoman/low/1389.vcd" 
 }
 Rule DefendOnThePointDemomanTFC
 {
@@ -259,10 +226,10 @@ Rule DefendOnThePointDemomanTFC
 
 Response DemomanJarateHit
 {
-	scene "scenes/Player/tfc/Demoman/low/871.vcd"       
-	scene "scenes/Player/tfc/Demoman/low/947.vcd"       
-	scene "scenes/Player/tfc/Demoman/low/969.vcd"       
-	scene "scenes/Player/tfc/Demoman/low/971.vcd"       
+	scene "scenes/Player/Demoman/low/871.vcd"       
+	scene "scenes/Player/Demoman/low/947.vcd"       
+	scene "scenes/Player/Demoman/low/969.vcd"       
+	scene "scenes/Player/Demoman/low/971.vcd"       
 }
 Rule DemomanJarateHit
 {
@@ -273,11 +240,10 @@ Rule DemomanJarateHit
 // Invuln responses for Grenade Launcher
 Response InvulnerableSpeechDemoman2
 {
-	scene "scenes/Player/tfc/Demoman/low/LaughEvil01.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/LaughEvil02.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/LaughEvil03.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/LaughEvil04.vcd"
-	scene "scenes/Player/tfc/Demoman/low/LaughEvil05.vcd"
+	scene "scenes/Player/Demoman/low/1019.vcd" 
+	scene "scenes/Player/Demoman/low/1012.vcd" 
+	scene "scenes/Player/Demoman/low/1029.vcd" 
+	scene "scenes/Player/Demoman/low/1021.vcd"
 }
 
 
@@ -292,11 +258,9 @@ Rule InvulnerableSpeechDemoman2
 // Invulnerable responses for Sticky launcher
 Response InvulnerableSpeechDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/LaughEvil01.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/LaughEvil02.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/LaughEvil03.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/LaughEvil04.vcd"
-	scene "scenes/Player/tfc/Demoman/low/LaughEvil05.vcd"
+	scene "scenes/Player/Demoman/low/1023.vcd"  
+	scene "scenes/Player/Demoman/low/1022.vcd" 
+	scene "scenes/Player/Demoman/low/1018.vcd" 
 }
 
 Rule InvulnerableSpeechDemomanTFC
@@ -309,8 +273,8 @@ Rule InvulnerableSpeechDemomanTFC
 
 Response KilledPlayerAssistAutoDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/SpecialCompleted-AssistedKill01.vcd" predelay "2.5"
-	scene "scenes/Player/tfc/Demoman/low/SpecialCompleted-AssistedKill02.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/1009.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/867.vcd" predelay "2.5"
 }
 Rule KilledPlayerAssistAutoDemomanTFC
 {
@@ -321,10 +285,10 @@ Rule KilledPlayerAssistAutoDemomanTFC
 
 Response KilledPlayerManyDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/LaughShort01.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/LaughShort02.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/LaughShort03.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/LaughShort04.vcd"
+	scene "scenes/Player/Demoman/low/1000.vcd" 
+	scene "scenes/Player/Demoman/low/1014.vcd" 
+	scene "scenes/Player/Demoman/low/1016.vcd" 
+	scene "scenes/Player/Demoman/low/1020.vcd" 
 }
 Rule KilledPlayerManyDemomanTFC
 {
@@ -337,9 +301,9 @@ Rule KilledPlayerManyDemomanTFC
 // Responses against killing a Soldier
 Response KilledSoldierDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/3568.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/3574.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/3577.vcd" 
+	scene "scenes/Player/Demoman/low/3568.vcd" 
+	scene "scenes/Player/Demoman/low/3574.vcd" 
+	scene "scenes/Player/Demoman/low/3577.vcd" 
 }
 Rule KilledSoldierDemomanTFC
 {
@@ -352,14 +316,14 @@ Rule KilledSoldierDemomanTFC
 // These are our base responses for non-sword melee weapons.
 Response KilledPlayerPanDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/3566.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/3567.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/3569.vcd"
-	scene "scenes/Player/tfc/Demoman/low/3570.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/3571.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/3572.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/3573.vcd"  
-	scene "scenes/Player/tfc/Demoman/low/3575.vcd"
+	scene "scenes/Player/Demoman/low/3566.vcd" 
+	scene "scenes/Player/Demoman/low/3567.vcd" 
+	scene "scenes/Player/Demoman/low/3569.vcd"
+	scene "scenes/Player/Demoman/low/3570.vcd" 
+	scene "scenes/Player/Demoman/low/3571.vcd" 
+	scene "scenes/Player/Demoman/low/3572.vcd" 
+	scene "scenes/Player/Demoman/low/3573.vcd"  
+	scene "scenes/Player/Demoman/low/3575.vcd"
 }
 Rule KilledPlayerPanDemomanTFC
 {
@@ -389,7 +353,7 @@ Rule DrunkDemomanTFC
 // Modified to include Frying Pan repsonses above, saves having duplicate entries.
 Response KilledPlayerMeleeDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/998.vcd" 
+	scene "scenes/Player/Demoman/low/998.vcd" 
 }
 Rule KilledPlayerMeleeDemomanTFC
 {
@@ -404,10 +368,10 @@ Rule KilledPlayerMeleeDemomanTFC
 // These apply to all tf_weapon_sword class weapons.
 Response KilledPlayerSwordDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/3565.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/910.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/950.vcd"	
-	scene "scenes/Player/tfc/Demoman/low/1379.vcd"	
+	scene "scenes/Player/Demoman/low/3565.vcd" 
+	scene "scenes/Player/Demoman/low/910.vcd" 
+	scene "scenes/Player/Demoman/low/950.vcd"	
+	scene "scenes/Player/Demoman/low/1379.vcd"	
 }
 
 Rule KilledPlayerSwordDemomanTFC
@@ -421,7 +385,7 @@ Rule KilledPlayerSwordDemomanTFC
 
 Response KilledPlayerSword2DemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/3564.vcd"
+	scene "scenes/Player/Demoman/low/3564.vcd"
 }
 
 Rule KilledPlayerSword2DemomanTFC
@@ -454,7 +418,7 @@ Rule KilledPlayerKatana2DemomanTFC
 // Shares responses with Frying Pan, saves having duplicate entries.
 Response KilledPlayerClubDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/3578.vcd" 
+	scene "scenes/Player/Demoman/low/3578.vcd" 
 }
 
 Rule KilledPlayerClubDemomanTFC
@@ -469,9 +433,9 @@ Rule KilledPlayerClubDemomanTFC
 // Caber responses
 Response KilledPlayerCaberDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/1007.vcd"
-	scene "scenes/Player/tfc/Demoman/low/1008.vcd"
-	scene "scenes/Player/tfc/Demoman/low/997.vcd"
+	scene "scenes/player/Demoman/low/1007.vcd"
+	scene "scenes/Player/Demoman/low/1008.vcd"
+	scene "scenes/Player/Demoman/low/997.vcd"
 }
 Rule KilledPlayerCaberDemomanTFC
 {
@@ -482,11 +446,12 @@ Rule KilledPlayerCaberDemomanTFC
 
 Response KilledPlayerVeryManyDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/LaughEvil01.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/LaughEvil02.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/LaughEvil03.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/LaughEvil04.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/LaughEvil05.vcd" 
+	scene "scenes/Player/Demoman/low/997.vcd" 
+	scene "scenes/Player/Demoman/low/999.vcd" 
+	scene "scenes/Player/Demoman/low/1003.vcd" 
+	scene "scenes/Player/Demoman/low/1004.vcd" 
+	scene "scenes/Player/Demoman/low/1006.vcd" 
+	scene "scenes/Player/Demoman/low/1024.vcd" 
 }
 Rule KilledPlayerVeryManyDemomanTFC
 {
@@ -497,14 +462,17 @@ Rule KilledPlayerVeryManyDemomanTFC
 
 Response PlayerKilledCapperDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/Cheers01.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/Cheers02.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/Cheers03.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/Cheers04.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/Cheers05.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/Cheers06.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/Cheers07.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/Cheers08.vcd" 
+	scene "scenes/Player/Demoman/low/867.vcd" 
+	scene "scenes/Player/Demoman/low/884.vcd" 
+	scene "scenes/Player/Demoman/low/887.vcd" 
+	scene "scenes/Player/Demoman/low/952.vcd" 
+	scene "scenes/Player/Demoman/low/955.vcd" 
+	scene "scenes/Player/Demoman/low/989.vcd" 
+	scene "scenes/Player/Demoman/low/991.vcd" 
+	scene "scenes/Player/Demoman/low/992.vcd" 
+	scene "scenes/Player/Demoman/low/993.vcd" 
+	scene "scenes/Player/Demoman/low/1001.vcd" 
+	scene "scenes/Player/Demoman/low/1002.vcd" 
 }
 Rule PlayerKilledCapperDemomanTFC
 {
@@ -515,17 +483,17 @@ Rule PlayerKilledCapperDemomanTFC
 
 Response PlayerKilledDominatingDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/886.vcd" predelay "2.5"
-	scene "scenes/Player/tfc/Demoman/low/910.vcd" predelay "2.5"
-	scene "scenes/Player/tfc/Demoman/low/950.vcd" predelay "2.5"
-	scene "scenes/Player/tfc/Demoman/low/1379.vcd" predelay "2.5"
-	scene "scenes/Player/tfc/Demoman/low/1384.vcd" predelay "2.5"
-	scene "scenes/Player/tfc/Demoman/low/1385.vcd" predelay "2.5"
-	scene "scenes/Player/tfc/Demoman/low/951.vcd" predelay "2.5"
-	scene "scenes/Player/tfc/Demoman/low/953.vcd" predelay "2.5"
-	scene "scenes/Player/tfc/Demoman/low/954.vcd" predelay "2.5"
-	scene "scenes/Player/tfc/Demoman/low/956.vcd" predelay "2.5"
-	scene "scenes/Player/tfc/Demoman/low/1383.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/886.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/910.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/950.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/1379.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/1384.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/1385.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/951.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/953.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/954.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/956.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/1383.vcd" predelay "2.5"
 }
 Rule PlayerKilledDominatingDemomanTFC
 {
@@ -537,10 +505,10 @@ Rule PlayerKilledDominatingDemomanTFC
 
 Response PlayerKilledDominatingDemomanDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/3515.vcd" predelay "2.5"
-	scene "scenes/Player/tfc/Demoman/low/3516.vcd" predelay "2.5"
-	scene "scenes/Player/tfc/Demoman/low/3517.vcd" predelay "2.5"
-	scene "scenes/Player/tfc/Demoman/low/3518.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/3515.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/3516.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/3517.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/3518.vcd" predelay "2.5"
 }
 Rule PlayerKilledDominatingDemomanDemomanTFC
 {
@@ -552,12 +520,12 @@ Rule PlayerKilledDominatingDemomanDemomanTFC
 
 Response PlayerKilledDominatingEngineerDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/3519.vcd" predelay "2.5"
-	scene "scenes/Player/tfc/Demoman/low/3520.vcd" predelay "2.5"
-	scene "scenes/Player/tfc/Demoman/low/3521.vcd" predelay "2.5"
-	scene "scenes/Player/tfc/Demoman/low/3522.vcd" predelay "2.5"
-	scene "scenes/Player/tfc/Demoman/low/3523.vcd" predelay "2.5"
-	scene "scenes/Player/tfc/Demoman/low/3524.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/3519.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/3520.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/3521.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/3522.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/3523.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/3524.vcd" predelay "2.5"
 }
 Rule PlayerKilledDominatingEngineerDemomanTFC
 {
@@ -569,11 +537,11 @@ Rule PlayerKilledDominatingEngineerDemomanTFC
 
 Response PlayerKilledDominatingHeavyDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/3525.vcd" predelay "2.5"
-	scene "scenes/Player/tfc/Demoman/low/3526.vcd" predelay "2.5"
-	scene "scenes/Player/tfc/Demoman/low/3527.vcd" predelay "2.5"
-	scene "scenes/Player/tfc/Demoman/low/3528.vcd" predelay "2.5"
-	scene "scenes/Player/tfc/Demoman/low/3529.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/3525.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/3526.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/3527.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/3528.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/3529.vcd" predelay "2.5"
 }
 Rule PlayerKilledDominatingHeavyDemomanTFC
 {
@@ -585,10 +553,10 @@ Rule PlayerKilledDominatingHeavyDemomanTFC
 
 Response PlayerKilledDominatingMedicDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/3530.vcd" predelay "2.5"
-	scene "scenes/Player/tfc/Demoman/low/3531.vcd" predelay "2.5"
-	scene "scenes/Player/tfc/Demoman/low/3532.vcd" predelay "2.5"
-	scene "scenes/Player/tfc/Demoman/low/3533.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/3530.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/3531.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/3532.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/3533.vcd" predelay "2.5"
 }
 Rule PlayerKilledDominatingMedicDemomanTFC
 {
@@ -600,10 +568,10 @@ Rule PlayerKilledDominatingMedicDemomanTFC
 
 Response PlayerKilledDominatingPyroDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/3534.vcd" predelay "2.5"
-	scene "scenes/Player/tfc/Demoman/low/3535.vcd" predelay "2.5"
-	scene "scenes/Player/tfc/Demoman/low/3536.vcd" predelay "2.5"
-	scene "scenes/Player/tfc/Demoman/low/3537.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/3534.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/3535.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/3536.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/3537.vcd" predelay "2.5"
 }
 Rule PlayerKilledDominatingPyroDemomanTFC
 {
@@ -615,14 +583,14 @@ Rule PlayerKilledDominatingPyroDemomanTFC
 
 Response PlayerKilledDominatingScoutDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/3538.vcd" predelay "2.5"
-	scene "scenes/Player/tfc/Demoman/low/3539.vcd" predelay "2.5"
-	scene "scenes/Player/tfc/Demoman/low/3540.vcd" predelay "2.5"
-	scene "scenes/Player/tfc/Demoman/low/3541.vcd" predelay "2.5"
-	scene "scenes/Player/tfc/Demoman/low/3542.vcd" predelay "2.5"
-	scene "scenes/Player/tfc/Demoman/low/3543.vcd" predelay "2.5"
-	scene "scenes/Player/tfc/Demoman/low/3544.vcd" predelay "2.5"
-	scene "scenes/Player/tfc/Demoman/low/3545.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/3538.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/3539.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/3540.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/3541.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/3542.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/3543.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/3544.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/3545.vcd" predelay "2.5"
 }
 Rule PlayerKilledDominatingScoutDemomanTFC
 {
@@ -634,10 +602,10 @@ Rule PlayerKilledDominatingScoutDemomanTFC
 
 Response PlayerKilledDominatingSniperDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/3546.vcd" predelay "2.5"
-	scene "scenes/Player/tfc/Demoman/low/3547.vcd" predelay "2.5"
-	scene "scenes/Player/tfc/Demoman/low/3548.vcd" predelay "2.5"
-	scene "scenes/Player/tfc/Demoman/low/3549.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/3546.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/3547.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/3548.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/3549.vcd" predelay "2.5"
 }
 Rule PlayerKilledDominatingSniperDemomanTFC
 {
@@ -649,11 +617,11 @@ Rule PlayerKilledDominatingSniperDemomanTFC
 
 Response PlayerKilledDominatingSoldierDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/3550.vcd" predelay "2.5"
-	scene "scenes/Player/tfc/Demoman/low/3551.vcd" predelay "2.5"
-	scene "scenes/Player/tfc/Demoman/low/3552.vcd" predelay "2.5"
-	scene "scenes/Player/tfc/Demoman/low/3553.vcd" predelay "2.5"
-	scene "scenes/Player/tfc/Demoman/low/3554.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/3550.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/3551.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/3552.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/3553.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/3554.vcd" predelay "2.5"
 }
 Rule PlayerKilledDominatingSoldierDemomanTFC
 {
@@ -665,9 +633,9 @@ Rule PlayerKilledDominatingSoldierDemomanTFC
 
 Response PlayerKilledDominatingSpyDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/3561.vcd" predelay "2.5"
-	scene "scenes/Player/tfc/Demoman/low/3562.vcd" predelay "2.5"
-	scene "scenes/Player/tfc/Demoman/low/3563.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/3561.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/3562.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/3563.vcd" predelay "2.5"
 }
 Rule PlayerKilledDominatingSpyDemomanTFC
 {
@@ -679,10 +647,10 @@ Rule PlayerKilledDominatingSpyDemomanTFC
 
 Response PlayerKilledForRevengeDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/914.vcd" predelay "2.5"
-	scene "scenes/Player/tfc/Demoman/low/990.vcd" predelay "2.5"
-	scene "scenes/Player/tfc/Demoman/low/1005.vcd" predelay "2.5"
-	scene "scenes/Player/tfc/Demoman/low/1025.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/914.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/990.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/1005.vcd" predelay "2.5"
+	scene "scenes/Player/Demoman/low/1025.vcd" predelay "2.5"
 }
 Rule PlayerKilledForRevengeDemomanTFC
 {
@@ -694,8 +662,8 @@ Rule PlayerKilledForRevengeDemomanTFC
 
 Response PlayerKilledObjectDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/1007.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/1008.vcd" 
+	scene "scenes/Player/Demoman/low/1007.vcd" 
+	scene "scenes/Player/Demoman/low/1008.vcd" 
 }
 Rule PlayerKilledObjectDemomanTFC
 {
@@ -710,9 +678,10 @@ Rule PlayerKilledObjectDemomanTFC
 //--------------------------------------------------------------------------------------------------------------
 Response PlayerAttackerPainDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/PainSevere01.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/PainSevere02.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/PainSevere03.vcd" 
+	scene "scenes/Player/Demoman/low/983.vcd" 
+	scene "scenes/Player/Demoman/low/984.vcd" 
+	scene "scenes/Player/Demoman/low/985.vcd" 
+	scene "scenes/Player/Demoman/low/1396.vcd" 
 }
 Rule PlayerAttackerPainDemomanTFC
 {
@@ -722,9 +691,8 @@ Rule PlayerAttackerPainDemomanTFC
 
 Response PlayerOnFireDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/AutoOnFire01.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/AutoOnFire02.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/AutoOnFire03.vcd" 
+	scene "scenes/Player/Demoman/low/872.vcd" 
+	scene "scenes/Player/Demoman/low/874.vcd" 
 }
 Rule PlayerOnFireDemomanTFC
 {
@@ -733,12 +701,26 @@ Rule PlayerOnFireDemomanTFC
 	Response PlayerOnFireDemomanTFC
 }
 
+Response PlayerOnFireRareDemomanTFC
+{
+	scene "scenes/Player/Demoman/low/873.vcd" 
+}
+Rule PlayerOnFireRareDemomanTFC
+{
+	criteria IsTFC ConceptFire IsDemoman 10PercentChance DemomanIsNotStillonFire IsNotDominating
+	ApplyContext "DemomanOnFire:1:7"
+	Response PlayerOnFireRareDemomanTFC
+}
+
 Response PlayerPainDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/PainSharp01.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/PainSharp02.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/PainSharp03.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/PainSharp04.vcd" 
+	scene "scenes/Player/Demoman/low/986.vcd" 
+	scene "scenes/Player/Demoman/low/987.vcd" 
+	scene "scenes/Player/Demoman/low/988.vcd" 
+	scene "scenes/Player/Demoman/low/1392.vcd" 
+	scene "scenes/Player/Demoman/low/1393.vcd" 
+	scene "scenes/Player/Demoman/low/1394.vcd" 
+	scene "scenes/Player/Demoman/low/1395.vcd" 
 }
 Rule PlayerPainDemomanTFC
 {
@@ -748,7 +730,7 @@ Rule PlayerPainDemomanTFC
 
 Response PlayerStillOnFireDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/autoonfiresecondary01.vcd" 
+	scene "scenes/Player/Demoman/low/1927.vcd" 
 }
 Rule PlayerStillOnFireDemomanTFC
 {
@@ -763,9 +745,9 @@ Rule PlayerStillOnFireDemomanTFC
 //--------------------------------------------------------------------------------------------------------------
 Response AcceptedDuelDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/1015.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/1017.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/1038.vcd" 
+	scene "scenes/Player/Demoman/low/1015.vcd" 
+	scene "scenes/Player/Demoman/low/1017.vcd" 
+	scene "scenes/Player/Demoman/low/1038.vcd" 
 }
 Rule AcceptedDuelDemomanTFC
 {
@@ -775,16 +757,16 @@ Rule AcceptedDuelDemomanTFC
 
 Response MeleeDareDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/868.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/879.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/1369.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/1027.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/1028.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/3566.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/3569.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/3574.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/3576.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/3578.vcd" 
+	scene "scenes/Player/Demoman/low/868.vcd" 
+	scene "scenes/Player/Demoman/low/879.vcd" 
+	scene "scenes/Player/Demoman/low/1369.vcd" 
+	scene "scenes/Player/Demoman/low/1027.vcd" 
+	scene "scenes/Player/Demoman/low/1028.vcd" 
+	scene "scenes/Player/Demoman/low/3566.vcd" 
+	scene "scenes/Player/Demoman/low/3569.vcd" 
+	scene "scenes/Player/Demoman/low/3574.vcd" 
+	scene "scenes/Player/Demoman/low/3576.vcd" 
+	scene "scenes/Player/Demoman/low/3578.vcd" 
 }
 Rule MeleeDareDemomanTFC
 {
@@ -794,9 +776,9 @@ Rule MeleeDareDemomanTFC
 
 Response RejectedDuelDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/938.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/939.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/3545.vcd" 
+	scene "scenes/Player/Demoman/low/938.vcd" 
+	scene "scenes/Player/Demoman/low/939.vcd" 
+	scene "scenes/Player/Demoman/low/3545.vcd" 
 }
 Rule RejectedDuelDemomanTFC
 {
@@ -810,9 +792,9 @@ Rule RejectedDuelDemomanTFC
 //--------------------------------------------------------------------------------------------------------------
 Response PlayerGoDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/Go01.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/Go02.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/Go03.vcd" 
+	scene "scenes/Player/Demoman/low/911.vcd" 
+	scene "scenes/Player/Demoman/low/912.vcd" 
+	scene "scenes/Player/Demoman/low/913.vcd" 
 }
 Rule PlayerGoDemomanTFC
 {
@@ -822,9 +804,9 @@ Rule PlayerGoDemomanTFC
 
 Response PlayerHeadLeftDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/HeadLeft01.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/HeadLeft02.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/HeadLeft03.vcd" 
+	scene "scenes/Player/Demoman/low/917.vcd" 
+	scene "scenes/Player/Demoman/low/918.vcd" 
+	scene "scenes/Player/Demoman/low/919.vcd" 
 }
 Rule PlayerHeadLeftDemomanTFC
 {
@@ -834,9 +816,9 @@ Rule PlayerHeadLeftDemomanTFC
 
 Response PlayerHeadRightDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/HeadRight01.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/HeadRight02.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/HeadRight03.vcd" 
+	scene "scenes/Player/Demoman/low/920.vcd" 
+	scene "scenes/Player/Demoman/low/921.vcd" 
+	scene "scenes/Player/Demoman/low/922.vcd" 
 }
 Rule PlayerHeadRightDemomanTFC
 {
@@ -846,9 +828,9 @@ Rule PlayerHeadRightDemomanTFC
 
 Response PlayerHelpDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/HelpMe01.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/HelpMe02.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/HelpMe03.vcd" 
+	scene "scenes/Player/Demoman/low/923.vcd" 
+	scene "scenes/Player/Demoman/low/924.vcd" 
+	scene "scenes/Player/Demoman/low/925.vcd" 
 }
 Rule PlayerHelpDemomanTFC
 {
@@ -858,9 +840,9 @@ Rule PlayerHelpDemomanTFC
 
 Response PlayerHelpCaptureDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/HelpMeCapture01.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/HelpMeCapture02.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/HelpMeCapture03.vcd" 
+	scene "scenes/Player/Demoman/low/926.vcd" 
+	scene "scenes/Player/Demoman/low/927.vcd" 
+	scene "scenes/Player/Demoman/low/928.vcd" 
 }
 Rule PlayerHelpCaptureDemomanTFC
 {
@@ -871,9 +853,8 @@ Rule PlayerHelpCaptureDemomanTFC
 
 Response PlayerHelpCapture2DemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/HelpMeCapture01.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/HelpMeCapture02.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/HelpMeCapture03.vcd" 
+	scene "scenes/Player/Demoman/low/1011.vcd" 
+	scene "scenes/Player/Demoman/low/1389.vcd" 
 }
 Rule PlayerHelpCapture2DemomanTFC
 {
@@ -883,9 +864,9 @@ Rule PlayerHelpCapture2DemomanTFC
 
 Response PlayerHelpDefendDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/HelpMeDefend01.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/HelpMeDefend02.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/HelpMeDefend03.vcd" 
+	scene "scenes/Player/Demoman/low/929.vcd" 
+	scene "scenes/Player/Demoman/low/930.vcd" 
+	scene "scenes/Player/Demoman/low/931.vcd" 
 }
 Rule PlayerHelpDefendDemomanTFC
 {
@@ -895,10 +876,9 @@ Rule PlayerHelpDefendDemomanTFC
 
 Response PlayerMedicDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/Medic01.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/Medic02.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/Medic03.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/Medic04.vcd" 
+	scene "scenes/Player/Demoman/low/957.vcd" 
+	scene "scenes/Player/Demoman/low/958.vcd" 
+	scene "scenes/Player/Demoman/low/959.vcd" 
 }
 Rule PlayerMedicDemomanTFC
 {
@@ -918,9 +898,9 @@ Rule PlayerAskForBallDemomanTFC
 
 Response PlayerMoveUpDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/MoveUp01.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/MoveUp02.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/MoveUp03.vcd" 
+	scene "scenes/Player/Demoman/low/960.vcd" 
+	scene "scenes/Player/Demoman/low/961.vcd" 
+	scene "scenes/Player/Demoman/low/962.vcd" 
 }
 Rule PlayerMoveUpDemomanTFC
 {
@@ -930,9 +910,9 @@ Rule PlayerMoveUpDemomanTFC
 
 Response PlayerNoDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/No01.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/No02.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/No03.vcd" 
+	scene "scenes/Player/Demoman/low/977.vcd" 
+	scene "scenes/Player/Demoman/low/978.vcd" 
+	scene "scenes/Player/Demoman/low/979.vcd" 
 }
 Rule PlayerNoDemomanTFC
 {
@@ -942,8 +922,8 @@ Rule PlayerNoDemomanTFC
 
 Response PlayerThanksDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/Thanks01.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/Thanks02.vcd" 
+	scene "scenes/Player/Demoman/low/1030.vcd" 
+	scene "scenes/Player/Demoman/low/1031.vcd" 
 }
 Rule PlayerThanksDemomanTFC
 {
@@ -957,8 +937,8 @@ Rule PlayerThanksDemomanTFC
 
 Response KilledPlayerAssistDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/SpecialCompleted-AssistedKill01.vcd"
-	scene "scenes/Player/tfc/Demoman/low/SpecialCompleted-AssistedKill02.vcd"
+	scene "scenes/Player/Demoman/low/1009.vcd"
+	scene "scenes/Player/Demoman/low/867.vcd"
 }
 Rule KilledPlayerAssistDemomanTFC
 {
@@ -969,7 +949,7 @@ Rule KilledPlayerAssistDemomanTFC
 
 Response KilledPlayerAssistDemoman2
 {
-	scene "scenes/Player/tfc/Demoman/low/SpecialCompleted-AssistedKill01.vcd"
+	scene "scenes/Player/Demoman/low/1010.vcd"
 }
 Rule KilledPlayerAssistDemoman2
 {
@@ -983,9 +963,9 @@ Rule KilledPlayerAssistDemoman2
 
 Response PlayerYesDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/Yes01.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/Yes02.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/Yes03.vcd" 
+	scene "scenes/Player/Demoman/low/1037.vcd" 
+	scene "scenes/Player/Demoman/low/1038.vcd" 
+	scene "scenes/Player/Demoman/low/1039.vcd" 
 }
 Rule PlayerYesDemomanTFC
 {
@@ -999,9 +979,9 @@ Rule PlayerYesDemomanTFC
 //--------------------------------------------------------------------------------------------------------------
 Response PlayerActivateChargeDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/ActivateCharge01.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/ActivateCharge02.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/ActivateCharge03.vcd" 
+	scene "scenes/Player/Demoman/low/860.vcd" 
+	scene "scenes/Player/Demoman/low/861.vcd" 
+	scene "scenes/Player/Demoman/low/862.vcd" 
 }
 Rule PlayerActivateChargeDemomanTFC
 {
@@ -1011,9 +991,9 @@ Rule PlayerActivateChargeDemomanTFC
 
 Response PlayerCloakedSpyDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/CloakedSpy01.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/CloakedSpy02.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/CloakedSpy03.vcd" 
+	scene "scenes/Player/Demoman/low/889.vcd" 
+	scene "scenes/Player/Demoman/low/890.vcd" 
+	scene "scenes/Player/Demoman/low/891.vcd" 
 }
 Rule PlayerCloakedSpyDemomanTFC
 {
@@ -1023,7 +1003,7 @@ Rule PlayerCloakedSpyDemomanTFC
 
 Response PlayerDispenserHereDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/NeedDispenser01.vcd" 
+	scene "scenes/Player/Demoman/low/964.vcd" 
 }
 Rule PlayerDispenserHereDemomanTFC
 {
@@ -1033,9 +1013,9 @@ Rule PlayerDispenserHereDemomanTFC
 
 Response PlayerIncomingDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/Incoming01.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/Incoming02.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/Incoming03.vcd" 
+	scene "scenes/Player/Demoman/low/932.vcd" 
+	scene "scenes/Player/Demoman/low/933.vcd" 
+	scene "scenes/Player/Demoman/low/934.vcd" 
 }
 Rule PlayerIncomingDemomanTFC
 {
@@ -1045,9 +1025,9 @@ Rule PlayerIncomingDemomanTFC
 
 Response PlayerSentryAheadDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/994.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/995.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/996.vcd" 
+	scene "scenes/Player/Demoman/low/994.vcd" 
+	scene "scenes/Player/Demoman/low/995.vcd" 
+	scene "scenes/Player/Demoman/low/996.vcd" 
 }
 Rule PlayerSentryAheadDemomanTFC
 {
@@ -1057,7 +1037,7 @@ Rule PlayerSentryAheadDemomanTFC
 
 Response PlayerSentryHereDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/NeedSentry01.vcd" 
+	scene "scenes/Player/Demoman/low/966.vcd" 
 }
 Rule PlayerSentryHereDemomanTFC
 {
@@ -1067,7 +1047,7 @@ Rule PlayerSentryHereDemomanTFC
 
 Response PlayerTeleporterHereDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/NeedTeleporter01.vcd" 
+	scene "scenes/Player/Demoman/low/968.vcd" 
 }
 Rule PlayerTeleporterHereDemomanTFC
 {
@@ -1081,14 +1061,13 @@ Rule PlayerTeleporterHereDemomanTFC
 //--------------------------------------------------------------------------------------------------------------
 Response PlayerBattleCryDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/BattleCry01.vcd"
-	scene "scenes/Player/tfc/Demoman/low/BattleCry02.vcd"
-	scene "scenes/Player/tfc/Demoman/low/BattleCry03.vcd"
-	scene "scenes/Player/tfc/Demoman/low/BattleCry04.vcd"
-	scene "scenes/Player/tfc/Demoman/low/BattleCry05.vcd"
-	scene "scenes/Player/tfc/Demoman/low/BattleCry06.vcd"
-	scene "scenes/Player/tfc/Demoman/low/BattleCry07.vcd"
-	scene "scenes/Player/tfc/Demoman/low/BattleCry08.vcd"
+	scene "scenes/Player/Demoman/low/1358.vcd" 
+	scene "scenes/Player/Demoman/low/1369.vcd" 
+	scene "scenes/Player/Demoman/low/876.vcd" 
+	scene "scenes/Player/Demoman/low/877.vcd" 
+	scene "scenes/Player/Demoman/low/878.vcd" 
+	scene "scenes/Player/Demoman/low/879.vcd" 
+	scene "scenes/Player/Demoman/low/880.vcd" 
 }
 Rule PlayerBattleCryDemomanTFC
 {
@@ -1100,9 +1079,9 @@ Rule PlayerBattleCryDemomanTFC
 // Look at enemy, then do battle cry voice command while holding a melee weapon.
 Response MeleeDareCombatDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/1028.vcd"
-	scene "scenes/Player/tfc/Demoman/low/1017.vcd"
-	scene "scenes/Player/tfc/Demoman/low/1015.vcd"
+	scene "scenes/Player/Demoman/low/1028.vcd"
+	scene "scenes/Player/Demoman/low/1017.vcd"
+	scene "scenes/Player/Demoman/low/1015.vcd"
 }
 Rule MeleeDareCombatDemomanTFC
 {
@@ -1114,14 +1093,14 @@ Rule MeleeDareCombatDemomanTFC
 
 Response PlayerCheersDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/Cheers01.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/Cheers02.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/Cheers03.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/Cheers04.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/Cheers05.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/Cheers06.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/Cheers07.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/Cheers08.vcd" 
+	scene "scenes/Player/Demoman/low/881.vcd" 
+	scene "scenes/Player/Demoman/low/883.vcd" 
+	scene "scenes/Player/Demoman/low/884.vcd" 
+	scene "scenes/Player/Demoman/low/1359.vcd" 
+	scene "scenes/Player/Demoman/low/886.vcd" 
+	scene "scenes/Player/Demoman/low/887.vcd" 
+	scene "scenes/Player/Demoman/low/882.vcd" 
+	scene "scenes/Player/Demoman/low/885.vcd" 
 }
 Rule PlayerCheersDemomanTFC
 {
@@ -1131,8 +1110,8 @@ Rule PlayerCheersDemomanTFC
 
 Response PlayerGoodJobDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/GoodJob01.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/GoodJob02.vcd" 
+	scene "scenes/Player/Demoman/low/914.vcd" 
+	scene "scenes/Player/Demoman/low/915.vcd" 
 }
 Rule PlayerGoodJobDemomanTFC
 {
@@ -1142,10 +1121,17 @@ Rule PlayerGoodJobDemomanTFC
 
 Response PlayerJeersDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/Jeers01.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/Jeers02.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/Jeers03.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/Jeers04.vcd" 
+	scene "scenes/Player/Demoman/low/938.vcd" 
+	scene "scenes/Player/Demoman/low/939.vcd" 
+	scene "scenes/Player/Demoman/low/940.vcd" 
+	scene "scenes/Player/Demoman/low/941.vcd" 
+	scene "scenes/Player/Demoman/low/942.vcd" 
+	scene "scenes/Player/Demoman/low/944.vcd" 
+	scene "scenes/Player/Demoman/low/945.vcd" 
+	scene "scenes/Player/Demoman/low/947.vcd" 
+	scene "scenes/Player/Demoman/low/948.vcd" 
+	scene "scenes/Player/Demoman/low/949.vcd" 
+	scene "scenes/Player/Demoman/low/946.vcd" 
 }
 Rule PlayerJeersDemomanTFC
 {
@@ -1155,12 +1141,12 @@ Rule PlayerJeersDemomanTFC
 
 Response PlayerLostPointDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/973.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/1360.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/969.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/970.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/971.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/972.vcd" 
+	scene "scenes/Player/Demoman/low/973.vcd" 
+	scene "scenes/Player/Demoman/low/1360.vcd" 
+	scene "scenes/Player/Demoman/low/969.vcd" 
+	scene "scenes/Player/Demoman/low/970.vcd" 
+	scene "scenes/Player/Demoman/low/971.vcd" 
+	scene "scenes/Player/Demoman/low/972.vcd" 
 }
 Rule PlayerLostPointDemomanTFC
 {
@@ -1170,12 +1156,12 @@ Rule PlayerLostPointDemomanTFC
 
 Response PlayerNegativeDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/NegativeVocalization01.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/NegativeVocalization02.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/NegativeVocalization03.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/NegativeVocalization04.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/NegativeVocalization05.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/NegativeVocalization06.vcd" 
+	scene "scenes/Player/Demoman/low/973.vcd" 
+	scene "scenes/Player/Demoman/low/1360.vcd" 
+	scene "scenes/Player/Demoman/low/969.vcd" 
+	scene "scenes/Player/Demoman/low/970.vcd" 
+	scene "scenes/Player/Demoman/low/971.vcd" 
+	scene "scenes/Player/Demoman/low/972.vcd" 
 }
 Rule PlayerNegativeDemomanTFC
 {
@@ -1185,9 +1171,9 @@ Rule PlayerNegativeDemomanTFC
 
 Response PlayerNiceShotDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/NiceShot01.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/NiceShot02.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/NiceShot03.vcd" 
+	scene "scenes/Player/Demoman/low/974.vcd" 
+	scene "scenes/Player/Demoman/low/975.vcd" 
+	scene "scenes/Player/Demoman/low/976.vcd" 
 }
 Rule PlayerNiceShotDemomanTFC
 {
@@ -1197,18 +1183,18 @@ Rule PlayerNiceShotDemomanTFC
 
 Response PlayerPositiveDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/PositiveVocalization01.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/PositiveVocalization02.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/PositiveVocalization03.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/PositiveVocalization04.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/PositiveVocalization05.vcd" 
+	scene "scenes/Player/Demoman/low/989.vcd" 
+	scene "scenes/Player/Demoman/low/990.vcd" 
+	scene "scenes/Player/Demoman/low/991.vcd" 
+	scene "scenes/Player/Demoman/low/992.vcd" 
+	scene "scenes/Player/Demoman/low/993.vcd" 
 }
 
 Response PlayerTauntsDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/1380.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/1382.vcd" 
-	scene "scenes/Player/tfc/Demoman/low/1386.vcd" 
+	scene "scenes/Player/Demoman/low/1380.vcd" 
+	scene "scenes/Player/Demoman/low/1382.vcd" 
+	scene "scenes/Player/Demoman/low/1386.vcd" 
 }
 Rule PlayerPositiveDemomanTFC
 {
@@ -1228,9 +1214,9 @@ Criterion "DemomanNotSaidCartMovingStoppedD" "SaidCartMovingStoppedD" "!=1" "req
 Criterion "DemomanNotSaidCartMovingStoppedO" "SaidCartMovingStoppedO" "!=1" "required" weight 0
 Response CartMovingBackwardsDefenseDemoman                                                     
 {
-	scene "scenes/Player/tfc/Demoman/low/7718.vcd"
-	scene "scenes/Player/tfc/Demoman/low/7719.vcd"
-	scene "scenes/Player/tfc/Demoman/low/7720.vcd"
+	scene "scenes/Player/Demoman/low/7718.vcd"
+	scene "scenes/Player/Demoman/low/7719.vcd"
+	scene "scenes/Player/Demoman/low/7720.vcd"
 }
 Rule CartMovingBackwardsDefenseDemoman                                                     
 {
@@ -1240,10 +1226,10 @@ Rule CartMovingBackwardsDefenseDemoman
 }
 Response CartMovingBackwardsOffenseDemoman                                                     
 {
-	scene "scenes/Player/tfc/Demoman/low/7714.vcd"
-	scene "scenes/Player/tfc/Demoman/low/7715.vcd"
-	scene "scenes/Player/tfc/Demoman/low/7713.vcd"
-	scene "scenes/Player/tfc/Demoman/low/8533.vcd"
+	scene "scenes/Player/Demoman/low/7714.vcd"
+	scene "scenes/Player/Demoman/low/7715.vcd"
+	scene "scenes/Player/Demoman/low/7713.vcd"
+	scene "scenes/Player/Demoman/low/8533.vcd"
 }
 Rule CartMovingBackwardsOffenseDemoman                                                     
 {
@@ -1253,8 +1239,8 @@ Rule CartMovingBackwardsOffenseDemoman
 }
 Response CartMovingForwardDefenseDemoman                                                       
 {
-	scene "scenes/Player/tfc/Demoman/low/7716.vcd"
-	scene "scenes/Player/tfc/Demoman/low/7717.vcd"
+	scene "scenes/Player/Demoman/low/7716.vcd"
+	scene "scenes/Player/Demoman/low/7717.vcd"
 }
 Rule CartMovingForwardDefenseDemoman                                                       
 {
@@ -1264,14 +1250,14 @@ Rule CartMovingForwardDefenseDemoman
 }
 Response CartMovingForwardOffenseDemoman                                                       
 {
-	scene "scenes/Player/tfc/Demoman/low/7704.vcd"
-	scene "scenes/Player/tfc/Demoman/low/7705.vcd"
-	scene "scenes/Player/tfc/Demoman/low/7706.vcd"
-	scene "scenes/Player/tfc/Demoman/low/7707.vcd"
-	scene "scenes/Player/tfc/Demoman/low/7711.vcd"
-	scene "scenes/Player/tfc/Demoman/low/7721.vcd"
-	scene "scenes/Player/tfc/Demoman/low/7723.vcd"
-	scene "scenes/Player/tfc/Demoman/low/7724.vcd"
+	scene "scenes/Player/Demoman/low/7704.vcd"
+	scene "scenes/Player/Demoman/low/7705.vcd"
+	scene "scenes/Player/Demoman/low/7706.vcd"
+	scene "scenes/Player/Demoman/low/7707.vcd"
+	scene "scenes/Player/Demoman/low/7711.vcd"
+	scene "scenes/Player/Demoman/low/7721.vcd"
+	scene "scenes/Player/Demoman/low/7723.vcd"
+	scene "scenes/Player/Demoman/low/7724.vcd"
 }
 Rule CartMovingForwardOffenseDemoman                                                       
 {
@@ -1290,9 +1276,9 @@ Rule CartMovingStoppedDefenseDemoman
 }
 Response CartMovingStoppedOffenseDemoman                                                       
 {
-	scene "scenes/Player/tfc/Demoman/low/7726.vcd"
-	scene "scenes/Player/tfc/Demoman/low/7727.vcd"
-	scene "scenes/Player/tfc/Demoman/low/7725.vcd"
+	scene "scenes/Player/Demoman/low/7726.vcd"
+	scene "scenes/Player/Demoman/low/7727.vcd"
+	scene "scenes/Player/Demoman/low/7725.vcd"
 }
 Rule CartMovingStoppedOffenseDemoman                                                       
 {
@@ -1309,18 +1295,18 @@ Rule CartMovingStoppedOffenseDemoman
 //--------------------------------------------------------------------------------------------------------------
 Response PlayerFirstRoundStartCompDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_01.vcd" predelay "1.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_02.vcd" predelay "1.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_03.vcd" predelay "1.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_04.vcd" predelay "1.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_comp_01.vcd" predelay "1.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_comp_02.vcd" predelay "1.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_comp_03.vcd" predelay "1.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_comp_04.vcd" predelay "1.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_comp_05.vcd" predelay "1.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_rare_01.vcd" predelay "1.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_rare_02.vcd" predelay "1.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_rare_03.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_pregamefirst_01.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_pregamefirst_02.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_pregamefirst_03.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_pregamefirst_04.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_pregamefirst_comp_01.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_pregamefirst_comp_02.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_pregamefirst_comp_03.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_pregamefirst_comp_04.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_pregamefirst_comp_05.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_pregamefirst_rare_01.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_pregamefirst_rare_02.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_pregamefirst_rare_03.vcd" predelay "1.0, 5.0"
 }
 Rule PlayerFirstRoundStartCompDemomanTFC
 {
@@ -1330,21 +1316,21 @@ Rule PlayerFirstRoundStartCompDemomanTFC
 
 Response PlayerFirstRoundStartComp6sDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_01.vcd" predelay "1.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_02.vcd" predelay "1.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_03.vcd" predelay "1.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_04.vcd" predelay "1.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_comp_01.vcd" predelay "1.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_comp_02.vcd" predelay "1.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_comp_03.vcd" predelay "1.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_comp_04.vcd" predelay "1.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_comp_05.vcd" predelay "1.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_rare_01.vcd" predelay "1.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_rare_02.vcd" predelay "1.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_rare_03.vcd" predelay "1.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_6s_01.vcd" predelay "1.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_6s_02.vcd" predelay "1.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamefirst_6s_03.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_pregamefirst_01.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_pregamefirst_02.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_pregamefirst_03.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_pregamefirst_04.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_pregamefirst_comp_01.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_pregamefirst_comp_02.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_pregamefirst_comp_03.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_pregamefirst_comp_04.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_pregamefirst_comp_05.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_pregamefirst_rare_01.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_pregamefirst_rare_02.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_pregamefirst_rare_03.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_pregamefirst_6s_01.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_pregamefirst_6s_02.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_pregamefirst_6s_03.vcd" predelay "1.0, 5.0"
 }
 Rule PlayerFirstRoundStartComp6sDemomanTFC
 {
@@ -1354,15 +1340,15 @@ Rule PlayerFirstRoundStartComp6sDemomanTFC
 
 Response PlayerWonPrevRoundCompDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamewonlast_01.vcd" predelay "1.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamewonlast_02.vcd" predelay "1.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamewonlast_03.vcd" predelay "1.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamewonlast_04.vcd" predelay "1.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamewonlast_01.vcd" predelay "1.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamewonlast_02.vcd" predelay "1.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamewonlast_03.vcd" predelay "1.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamewonlast_04.vcd" predelay "1.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamewonlast_rare_01.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_pregamewonlast_01.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_pregamewonlast_02.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_pregamewonlast_03.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_pregamewonlast_04.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_pregamewonlast_01.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_pregamewonlast_02.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_pregamewonlast_03.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_pregamewonlast_04.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_pregamewonlast_rare_01.vcd" predelay "1.0, 5.0"
 }
 Rule PlayerWonPrevRoundCompDemomanTFC
 {
@@ -1372,11 +1358,11 @@ Rule PlayerWonPrevRoundCompDemomanTFC
 
 Response PlayerLostPrevRoundCompDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamelostlast_01.vcd" predelay "1.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamelostlast_02.vcd" predelay "1.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamelostlast_03.vcd" predelay "1.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamelostlast_04.vcd" predelay "1.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregamelostlast_rare_01.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_pregamelostlast_01.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_pregamelostlast_02.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_pregamelostlast_03.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_pregamelostlast_04.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_pregamelostlast_rare_01.vcd" predelay "1.0, 5.0"
 }
 Rule PlayerLostPrevRoundCompDemomanTFC
 {
@@ -1386,10 +1372,10 @@ Rule PlayerLostPrevRoundCompDemomanTFC
 
 Response PlayerTiedPrevRoundCompDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregametie_01.vcd" predelay "1.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregametie_02.vcd" predelay "1.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregametie_03.vcd" predelay "1.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_pregametie_04.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_pregametie_01.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_pregametie_02.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_pregametie_03.vcd" predelay "1.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_pregametie_04.vcd" predelay "1.0, 5.0"
 }
 Rule PlayerTiedPrevRoundCompDemomanTFC
 {
@@ -1399,22 +1385,22 @@ Rule PlayerTiedPrevRoundCompDemomanTFC
 
 Response PlayerGameWinCompDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_gamewon_01.vcd" predelay "2.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_gamewon_02.vcd" predelay "2.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_gamewon_03.vcd" predelay "2.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_gamewon_04.vcd" predelay "2.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_gamewon_05.vcd" predelay "2.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_gamewon_06.vcd" predelay "2.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_gamewon_01.vcd" predelay "2.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_gamewon_02.vcd" predelay "2.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_gamewon_03.vcd" predelay "2.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_gamewon_04.vcd" predelay "2.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_gamewon_05.vcd" predelay "2.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_gamewon_06.vcd" predelay "2.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_gamewon_rare_01.vcd" predelay "2.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_gamewon_rare_02.vcd" predelay "2.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_gamewon_rare_04.vcd" predelay "2.0, 5.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_gamewon_rare_03.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_gamewon_01.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_gamewon_02.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_gamewon_03.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_gamewon_04.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_gamewon_05.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_gamewon_06.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_gamewon_01.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_gamewon_02.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_gamewon_03.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_gamewon_04.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_gamewon_05.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_gamewon_06.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_gamewon_rare_01.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_gamewon_rare_02.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_gamewon_rare_04.vcd" predelay "2.0, 5.0"
+	scene "scenes/Player/Demoman/low/cm_demo_gamewon_rare_03.vcd" predelay "2.0, 5.0"
 }
 Rule PlayerGameWinCompDemomanTFC
 {
@@ -1424,10 +1410,10 @@ Rule PlayerGameWinCompDemomanTFC
 
 Response PlayerMatchWinCompDemomanTFC
 {
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_matchwon_01.vcd" predelay "1.0, 2.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_matchwon_02.vcd" predelay "1.0, 2.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_matchwon_03.vcd" predelay "1.0, 2.0"
-	scene "scenes/Player/tfc/Demoman/low/cm_demo_matchwon_04.vcd" predelay "1.0, 2.0"
+	scene "scenes/Player/Demoman/low/cm_demo_matchwon_01.vcd" predelay "1.0, 2.0"
+	scene "scenes/Player/Demoman/low/cm_demo_matchwon_02.vcd" predelay "1.0, 2.0"
+	scene "scenes/Player/Demoman/low/cm_demo_matchwon_03.vcd" predelay "1.0, 2.0"
+	scene "scenes/Player/Demoman/low/cm_demo_matchwon_04.vcd" predelay "1.0, 2.0"
 }
 Rule PlayerMatchWinCompDemomanTFC
 {
