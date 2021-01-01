@@ -1,4 +1,5 @@
 dm_cargo_dev
+dm_cinque_dev
 dm_control_dev
 dm_dock_dev
 dm_siberia_dev

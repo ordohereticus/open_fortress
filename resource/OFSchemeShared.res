@@ -2,8 +2,9 @@ Scheme
 {
 	Colors
 	{
-		"Purple"			"64 24 124 255"
-		"TransparentPurple" "64 24 124 128"
+		"Orange"			"191 76 54 255"
+
+		"TransparentLightGray" "190 190 190 20"
 		
 		"Gray"					"70 70 70 255"
 		"TransparentGray"		"70 70 70 156"
@@ -34,8 +35,8 @@ Scheme
 		ListPanel.TextBgColor				"Blank"
 		ListPanel.BgColor					"TransparentBlack"
 		ListPanel.SelectedTextColor			"TFWhite"
-		ListPanel.SelectedBgColor			"Purple"
-		ListPanel.SelectedOutOfFocusBgColor	"TransparentPurple"
+		ListPanel.SelectedBgColor			"Orange"
+		ListPanel.SelectedOutOfFocusBgColor	"TransparentLightGray"
 		ListPanel.EmptyListInfoTextColor	"TFWhite"
 		
 		ScrollBarButton.FgColor				"TFWhite"
@@ -53,7 +54,7 @@ Scheme
 		Menu.TextColor					"TFWhite"
 		Menu.BgColor					"Gray"
 		Menu.ArmedTextColor				"TFWhite"
-		Menu.ArmedBgColor				"Purple"
+		Menu.ArmedBgColor				"Orange"
 		Menu.TextInset					"6"
 		
 		// Rich text is the console text
@@ -61,7 +62,7 @@ Scheme
 		RichText.TextColor				"TFWhite"
 		RichText.BgColor				"TransparentGray"
 		RichText.SelectedTextColor		"TFWhite"
-		RichText.SelectedBgColor		"Purple"
+		RichText.SelectedBgColor		"Orange"
 		
 		SectionedListPanel.HeaderTextColor	"TFWhite"
 		SectionedListPanel.HeaderBgColor	"Blank"
@@ -70,9 +71,9 @@ Scheme
 		SectionedListPanel.BrightTextColor	"TFWhite"
 		SectionedListPanel.BgColor			"TransparentBlack"
 		SectionedListPanel.SelectedTextColor			"TFWhite"
-		SectionedListPanel.SelectedBgColor				"Purple"
+		SectionedListPanel.SelectedBgColor				"Orange"
 		SectionedListPanel.OutOfFocusSelectedTextColor	"TFWhite"
-		SectionedListPanel.OutOfFocusSelectedBgColor	"TransparentPurple"
+		SectionedListPanel.OutOfFocusSelectedBgColor	"TransparentLightGray"
 		
 		TextEntry.SelectedBgColor						"TFWhite"
 		TextEntry.OutOfFocusSelectedBgColor				"TransparentTFWhite"
@@ -80,11 +81,11 @@ Scheme
 		Tooltip.TextColor		"TFWhite"
 		Tooltip.BgColor			"DarkGray"
 		
-		NewGame.SelectionColor	"Purple"
+		NewGame.SelectionColor	"Orange"
 		
 		// scheme-specific colors
 		MainMenu.TextColor			"TFWhite"
-		MainMenu.ArmedTextColor		"Purple"
+		MainMenu.ArmedTextColor		"Orange"
 		MainMenu.Inset				"32"	
 
 	}

@@ -22,7 +22,6 @@ Scheme
 	Colors
 	{
 		// base colors
-		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
 		"LightOrange"		"188 112 0 128"
 		
@@ -195,9 +194,9 @@ Scheme
 		Button.TextColor				"TanDark"
 		Button.BgColor					"Yellow"
 		Button.ArmedTextColor			"TFWhite"
-		Button.ArmedBgColor				"Purple" // was orange
+		Button.ArmedBgColor				"Orange" // was orange
 		Button.DepressedTextColor		"Black"
-		Button.DepressedBgColor			"Purple" // was orange
+		Button.DepressedBgColor			"Orange" // was orange
 
 		ComboBoxButton.ArrowColor		"TanLight"
 		ComboBoxButton.ArmedArrowColor	"TanLight"
@@ -221,12 +220,12 @@ Scheme
 		FrameSystemButton.BgColor		"Blank"
 		FrameSystemButton.Icon			""
 		FrameSystemButton.DisabledIcon	""
-		FrameTitleBar.TextColor			"Purple" // was orange
+		FrameTitleBar.TextColor			"Orange" // was orange
 		FrameTitleBar.BgColor			"Blank"
-		FrameTitleBar.DisabledTextColor	"Purple" // was orange
+		FrameTitleBar.DisabledTextColor	"Orange" // was orange
 		FrameTitleBar.DisabledBgColor	"Blank"
 
-		GraphPanel.FgColor				"Purple" // was orange
+		GraphPanel.FgColor				"Orange" // was orange
 		GraphPanel.BgColor				"TransparentBlack"
 
 		Label.TextDullColor				"TanDark"
@@ -237,12 +236,12 @@ Scheme
 		Label.DisabledFgColor1			"Blank"
 		Label.DisabledFgColor2			"LightOrange"
 
-		ListPanel.TextColor					"Purple" // was orange
+		ListPanel.TextColor					"Orange" // was orange
 		ListPanel.BgColor					"TransparentBlack"
 		ListPanel.SelectedTextColor			"Black"
 		ListPanel.SelectedBgColor			"Red"
 		ListPanel.SelectedOutOfFocusBgColor	"Red"
-		ListPanel.EmptyListInfoTextColor	"Purple" // was orange
+		ListPanel.EmptyListInfoTextColor	"Orange" // was orange
 
 		Menu.TextColor					"TanLight"
 		Menu.BgColor					"TransparentBlack"
@@ -250,7 +249,7 @@ Scheme
 		Menu.ArmedBgColor				"TanLight"
 		Menu.TextInset					"6"
 
-		Chat.TypingText					"Purple" // was orange
+		Chat.TypingText					"Orange" // was orange
 
 		Panel.FgColor					"Gray"
 		Panel.BgColor					"Blank"
@@ -267,12 +266,12 @@ Scheme
 		"BuildingHealthBar.Health"		"ProgressOffWhite"
 		"BuildingHealthBar.LowHealth"	"LowHealthRed"
 
-		PropertySheet.TextColor			"Purple" // was orange
-		PropertySheet.SelectedTextColor	"Purple" // was orange
+		PropertySheet.TextColor			"Orange" // was orange
+		PropertySheet.SelectedTextColor	"Orange" // was orange
 		PropertySheet.TransitionEffectTime	"0.25"	// time to change from one tab to another
 
-		RadioButton.TextColor			"Purple" // was orange
-		RadioButton.SelectedTextColor	"Purple" // was orange
+		RadioButton.TextColor			"Orange" // was orange
+		RadioButton.SelectedTextColor	"Orange" // was orange
 
 		RichText.TextColor				"Gray"
 		RichText.BgColor				"Blank"
@@ -295,7 +294,7 @@ Scheme
 		TextEntry.OutOfFocusSelectedBgColor	"Blank"
 		TextEntry.FocusEdgeColor	"Blank"
 
-		ToggleButton.SelectedTextColor	"Purple" // was orange
+		ToggleButton.SelectedTextColor	"Orange" // was orange
 
 		Tooltip.TextColor			"TransparentBlack"
 		Tooltip.BgColor				"Red"
@@ -321,7 +320,7 @@ Scheme
 		HudCaptureProgressBar.InActive	"HudProgressBarInActive"
 
 		// scheme-specific colors
-		"FgColor"		"Purple" // was orange
+		"FgColor"		"Orange" // was orange
 		"BgColor"		"TransparentBlack"
 
 		"ViewportBG"		"Blank"
@@ -911,6 +910,41 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+		"HudFontTopbar"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"55"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"HudFontLoading"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"20"
+				"tall_lodef"	"22"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"HudFontProgress"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"20"
+				"tall_lodef"	"22"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
 		"HudFontSmallBold"
 		{
 			"1"
@@ -960,8 +994,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
-				"tall"		"18"
+				"name"		"Staatliches"
+				"tall"		"26"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -971,7 +1005,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Staatliches"
 				"tall"		"25"
 				"weight"	"500"
 				"additive"	"0"
@@ -1384,7 +1418,7 @@ Scheme
 			"1"
 			{
 				"name"		"TF2"
-				"tall"		"14"
+				"tall"		"10"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
@@ -4614,6 +4648,7 @@ Scheme
 		"4"		"resource/TF2Secondary.ttf"
 		"5"		"resource/TF2Professor.ttf"
 		"6"		"resource/TF2Build.ttf"
+		"7"		"resource/Staatliches-Padded.ttf"
 	}
 
 }

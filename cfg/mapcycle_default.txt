@@ -33,6 +33,7 @@ dm_watchtower
 dm_watergate
 dm_wiseau
 dm_cargo_dev
+dm_cinque_dev
 dm_control_dev
 dm_siberia_dev
 dm_thames_dev

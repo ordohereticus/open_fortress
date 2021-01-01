@@ -19,9 +19,8 @@ WeaponData
 	"TimeReload"		"0.01"
 	"HasTeamSkins_Viewmodel"			"1"
 	
-	//"CanTranq"				"1"
-	//"TranqEffectDuration"	"12.0"
-	//Uncomment these when new bins hit
+	"CanTranq"				"1"
+	"TranqEffectDuration"	"12.0"
 	
 	"EffectDuration"	"12.0"
 	"SpeedReduction"		"0.5"

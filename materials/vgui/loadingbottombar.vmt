@@ -1,0 +1,6 @@
+UnlitGeneric
+{
+	$basetexture "vgui\loadingbottombar"
+	$translucent 1
+	$ignorez 1
+}

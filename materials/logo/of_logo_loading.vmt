@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "logo\of_logo_alpha_loading"
+	"$translucent" 1
+	"$ignorez" 1
+}

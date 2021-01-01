@@ -19,8 +19,7 @@ WeaponData
 	"HasTeamSkins_Worldmodel"			"1"
 	"UsesCritAnimation"			"1"
 	
-	//"PoisonEffectDuration"	"30.0"
-	//Uncomment these when new bins hit
+	"PoisonEffectDuration"	"30.0"
 	
 	"EffectDuration"	"30.0"
 

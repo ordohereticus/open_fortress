@@ -7,9 +7,8 @@
 		"xpos"				"c-55"
 		"xpos_hidef"		"c-150"
 		"xpos_lodef"		"c-150"
-		"ypos"				"0"	[$WIN32]
-		"ypos_minmode"		"-14"	[$WIN32]
-		"ypos"				"24"	[$X360]
+		"ypos"				"0"
+		"ypos_minmode"		"-14"
 		"zpos"				"1"
 		"wide"				"110"
 		"wide_hidef"		"300"
@@ -17,8 +16,7 @@
 		"tall"				"150"
 		"visible"			"1"
 		"enabled"			"1"
-		"delta_item_x"			"22"	[$WIN32]
-		"delta_item_x"			"115"	[$X360]
+		"delta_item_x"			"22"
 		"delta_item_start_y"	"50"
 		"delta_item_end_y"		"70"
 		"PositiveColor"			"0 255 0 255"
@@ -31,15 +29,15 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TimePanelBG"
 		"xpos"			"16"
-		"xpos_minmode"	"35"
-		"xpos_hidef"	"108"
-		"xpos_lodef"	"108"
-		"ypos"			"9"
+		"xpos_minmode"	"30"
+		"xpos_hidef"	"103"
+		"xpos_lodef"	"103"
+		"ypos"			"-30"
 		"zpos"			"2"
 		"wide"			"78"
-		"wide_minmode"	"38"
-		"wide_lodef"	"90"
-		"tall"			"33"
+		"wide_minmode"	"48"
+		"wide_lodef"	"100"
+		"tall"			"78"
 		"tall_minmode"	"23"
 		"tall_lodef"	"38"
 		"visible"		"1"
@@ -62,7 +60,7 @@
 		"xpos_minmode"	"39"
 		"xpos_hidef"	"114"
 		"xpos_lodef"	"114"
-		"ypos"			"11"
+		"ypos"			"6"
 		"ypos_minmode"	"6"
 		"ypos_hidef"	"15"
 		"ypos_lodef"	"18"
@@ -79,10 +77,10 @@
 	{
 		"ControlName"			"CTFProgressBar"
 		"fieldName"			"TimePanelProgressBar"
-		"xpos"				"67"
+		"xpos"				"66"
 		"xpos_hidef"		"159"
 		"xpos_lodef"		"165"
-		"ypos"				"16"
+		"ypos"				"11"
 		"ypos_hidef"		"15"
 		"ypos_lodef"		"16"
 		"zpos"				"4"	
@@ -107,11 +105,11 @@
 		"xpos"			"16"
 		"xpos_hidef"	"0"
 		"xpos_lodef"	"0"
-		"ypos"			"34"
+		"ypos"			"-6"
 		"ypos_minmode"	"24"
 		"ypos_hidef"	"41"
 		"ypos_lodef"	"41"
-		"zpos"			"5"
+		"zpos"			"7"
 		"wide"			"78"
 		"wide_hidef"	"300"
 		"wide_lodef"	"300"
@@ -133,12 +131,11 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"WaitingForPlayersBG"
-		"xpos"			"16"	[$WIN32]
-		"xpos"			"11"	[$X360]
-		"ypos"			"31"
+		"xpos"			"16"
+		"ypos"			"-9"
 		"ypos_hidef"	"-100"	//off-screen
 		"ypos_lodef"	"-100"	//off-screen
-		"zpos"			"1"
+		"zpos"			"6"
 		"wide"			"78"
 		"tall"			"20"
 		"tall_minmode"	"0"
@@ -154,11 +151,11 @@
 		"xpos"			"16"
 		"xpos_hidef"	"0"
 		"xpos_lodef"	"0"
-		"ypos"			"33"
+		"ypos"			"-6"
 		"ypos_minmode"	"24"
 		"ypos_hidef"	"41"
 		"ypos_lodef"	"41"
-		"zpos"			"5"
+		"zpos"			"7"
 		"wide"			"78"
 		"wide_hidef"	"300"
 		"wide_lodef"	"300"
@@ -180,12 +177,11 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"OvertimeBG"
-		"xpos"			"16"	[$WIN32]
-		"xpos"			"11"	[$X360]
-		"ypos"			"31"
+		"xpos"			"16"
+		"ypos"			"-9"
 		"ypos_hidef"	"-100"	//off-screen
 		"ypos_lodef"	"-100"	//off-screen
-		"zpos"			"1"
+		"zpos"			"6"
 		"wide"			"78"
 		"tall"			"20"
 		"tall_minmode"	"0"
@@ -201,11 +197,11 @@
 		"xpos"			"16"
 		"xpos_hidef"	"0"
 		"xpos_lodef"	"0"
-		"ypos"			"33"
+		"ypos"			"-6"
 		"ypos_minmode"	"24"
 		"ypos_hidef"	"41"
 		"ypos_lodef"	"41"
-		"zpos"			"5"
+		"zpos"			"7"
 		"wide"			"78"
 		"wide_hidef"	"300"
 		"wide_lodef"	"300"
@@ -227,12 +223,11 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"SuddenDeathBG"
-		"xpos"			"16"	[$WIN32]
-		"xpos"			"11"	[$X360]
-		"ypos"			"31"
+		"xpos"			"16"
+		"ypos"			"-9"
 		"ypos_hidef"	"-100"	//off-screen
 		"ypos_lodef"	"-100"	//off-screen
-		"zpos"			"1"
+		"zpos"			"6"
 		"wide"			"78"
 		"tall"			"20"
 		"tall_minmode"	"0"
@@ -248,11 +243,11 @@
 		"xpos"			"16"
 		"xpos_hidef"	"0"
 		"xpos_lodef"	"0"
-		"ypos"			"33"
+		"ypos"			"-6"
 		"ypos_minmode"	"24"
 		"ypos_hidef"	"41"
 		"ypos_lodef"	"41"
-		"zpos"			"5"
+		"zpos"			"7"
 		"wide"			"78"
 		"wide_hidef"	"300"
 		"wide_lodef"	"300"
@@ -277,10 +272,10 @@
 		"fieldName"		"SetupBG"
 		"xpos"			"16"	[$WIN32]
 		"xpos"			"11"	[$X360]
-		"ypos"			"31"
+		"ypos"			"-9"
 		"ypos_hidef"	"-100"	//off-screen
 		"ypos_lodef"	"-100"	//off-screen
-		"zpos"			"1"
+		"zpos"			"6"
 		"wide"			"78"
 		"tall"			"20"
 		"tall_minmode"	"0"

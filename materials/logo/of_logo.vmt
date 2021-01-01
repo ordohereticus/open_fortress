@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture" "logo\of_logo_beta"
+	"$basetexture" "logo\of_logo_alpha"
 	"$translucent" 1
 	"$ignorez" 1
 }

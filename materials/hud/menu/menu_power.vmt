@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "hud\menu\menu_power"
+	"$translucent" 1
+	"$ignorez" 1
+}

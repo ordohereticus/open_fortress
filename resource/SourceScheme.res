@@ -4,17 +4,17 @@ Scheme
 {
 	Colors
 	{
-		"Purple"			"64 24 124 255"
-		"TransparentPurple" "64 24 124 128"
+		"DesaturatedOrange"			"151 137 126 255"
+		"TransparentDesaturatedOrange" "151 137 126 128"
 		
-		"Gray"					"70 70 70 255"
-		"TransparentGray"		"70 70 70 156"
+		"Gray"					"59 53 50 255"
+		"TransparentGray"		"59 53 50 156"
 
-		"DarkGray"				"52 52 52 255"
-		"TransparentDarkGray" 	"52 52 52 156"
+		"DarkGray"				"45 42 40 255"
+		"TransparentDarkGray" 	"45 42 40 156"
 		
-		"TFWhite"			"224 224 224 255"
-		"TransparentTFWhite" "224 224 224 156"	
+		"TFWhite"			"255 255 255 255"
+		"TransparentTFWhite" "255 255 255 156"	
 	}
 	
 	BaseSettings
@@ -35,8 +35,8 @@ Scheme
 		ListPanel.TextBgColor				"Blank"
 		ListPanel.BgColor					"TransparentBlack"
 		ListPanel.SelectedTextColor			"TFWhite"
-		ListPanel.SelectedBgColor			"Purple"
-		ListPanel.SelectedOutOfFocusBgColor	"TransparentPurple"
+		ListPanel.SelectedBgColor			"DesaturatedOrange"
+		ListPanel.SelectedOutOfFocusBgColor	"TransparentDesaturatedOrange"
 		ListPanel.EmptyListInfoTextColor	"TFWhite"
 
 		// Menu ( not to be confused with MainMenu ) 
@@ -44,7 +44,7 @@ Scheme
 		Menu.TextColor					"TFWhite"
 		Menu.BgColor					"Gray"
 		Menu.ArmedTextColor				"TFWhite"
-		Menu.ArmedBgColor				"Purple"
+		Menu.ArmedBgColor				"DesaturatedOrange"
 		Menu.TextInset					"6"
 		
 		// Rich text is the console text
@@ -52,7 +52,7 @@ Scheme
 		RichText.TextColor				"TFWhite"
 		RichText.BgColor				"TransparentGray"
 		RichText.SelectedTextColor		"TFWhite"
-		RichText.SelectedBgColor		"Purple"
+		RichText.SelectedBgColor		"DesaturatedOrange"
 		
 		SectionedListPanel.HeaderTextColor	"TFWhite"
 		SectionedListPanel.HeaderBgColor	"Blank"
@@ -61,9 +61,9 @@ Scheme
 		SectionedListPanel.BrightTextColor	"TFWhite"
 		SectionedListPanel.BgColor			"TransparentBlack"
 		SectionedListPanel.SelectedTextColor			"TFWhite"
-		SectionedListPanel.SelectedBgColor				"Purple"
+		SectionedListPanel.SelectedBgColor				"DesaturatedOrange"
 		SectionedListPanel.OutOfFocusSelectedTextColor	"TFWhite"
-		SectionedListPanel.OutOfFocusSelectedBgColor	"TransparentPurple"
+		SectionedListPanel.OutOfFocusSelectedBgColor	"TransparentDesaturatedOrange"
 		
 		TextEntry.SelectedBgColor						"TFWhite"
 		TextEntry.OutOfFocusSelectedBgColor				"TransparentTFWhite"
@@ -71,11 +71,11 @@ Scheme
 		Tooltip.TextColor		"TFWhite"
 		Tooltip.BgColor			"DarkGray"
 		
-		NewGame.SelectionColor	"Purple"
+		NewGame.SelectionColor	"DesaturatedOrange"
 		
 		// scheme-specific colors
 		MainMenu.TextColor			"TFWhite"
-		MainMenu.ArmedTextColor		"Purple"
+		MainMenu.ArmedTextColor		"DesaturatedOrange"
 		MainMenu.Inset				"32"		
 	}
 	
