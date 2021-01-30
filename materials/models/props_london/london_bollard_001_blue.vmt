@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_london/london_bollard_001_blue"
+	"%keywords" ""tf","london""
+	
+	"$model" "1"
+	"$halflambert" "1"
+	
+	"$phong" "1"
+	  "$phongexponent" "2"
+	  "$phongexponenttexture"	"models/props_london/london_bollard_001_painted_specular"
+	  "$phongboost" "0.05"
+	  "$phongfresnelranges" "[.55 .5 1]"
+}

@@ -7,5 +7,20 @@
 			"Weapon"	"tf_weapon_super_rocketlauncher"
 			"Model"		""
 		}
+		"23"
+		{
+			"Weapon"	"tf_weapon_tommygun"
+			"Model"		""
+		}
+		"52"
+		{
+			"Weapon"	"tf_weapon_tommygun"
+			"Model"		""
+		}
+		"82"
+		{
+			"Weapon"	"tf_weapon_flamethrower"
+			"Model"		"models/weapons/w_models//w_flamethrower_merc.mdl"
+		}
 	}
 }

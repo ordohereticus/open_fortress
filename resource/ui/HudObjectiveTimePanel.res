@@ -32,7 +32,7 @@
 		"xpos_minmode"	"30"
 		"xpos_hidef"	"103"
 		"xpos_lodef"	"103"
-		"ypos"			"-30"
+		"ypos"			"-35"
 		"zpos"			"2"
 		"wide"			"78"
 		"wide_minmode"	"48"
@@ -60,8 +60,8 @@
 		"xpos_minmode"	"39"
 		"xpos_hidef"	"114"
 		"xpos_lodef"	"114"
-		"ypos"			"6"
-		"ypos_minmode"	"6"
+		"ypos"			"4"
+		"ypos_minmode"	"4"
 		"ypos_hidef"	"15"
 		"ypos_lodef"	"18"
 		"zpos"			"3"
@@ -80,7 +80,7 @@
 		"xpos"				"66"
 		"xpos_hidef"		"159"
 		"xpos_lodef"		"165"
-		"ypos"				"11"
+		"ypos"				"9"
 		"ypos_hidef"		"15"
 		"ypos_lodef"		"16"
 		"zpos"				"4"	
@@ -132,7 +132,7 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"WaitingForPlayersBG"
 		"xpos"			"16"
-		"ypos"			"-9"
+		"ypos"			"-100" //off-screen
 		"ypos_hidef"	"-100"	//off-screen
 		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"6"

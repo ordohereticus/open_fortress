@@ -79,8 +79,7 @@ PlayerClass
 		"arm_model"		"models/weapons/c_models/c_tfc_soldier_arms.mdl"
 		
 		"speed_max"		"240"
-		//"health_max"	"100" //Uncomment this later when armor is implemented
-		"health_max"	"200"
+		"health_max"	"100"
 		"armor_max"		"200"
 		
 		"WeaponCount"	"4"

@@ -8,14 +8,14 @@ WeaponData
 	"ITEM_FLAG_NOITEMPICKUP" 	"1"
 	
 	// Primary Attributes.
-	"Damage"		"90"
+	"Damage"			"45"
 	"InstagibDamage"	"999"
-	"Range"			"0"
+	"Range"				"0"
 	"BulletsPerShot"	"1"
-	"Spread"		"0.0"
+	"Spread"			"0.0"
 	"PunchAngle"		"0.0"
-	"TimeFireDelay"		"0.8"
-	"TimeIdle"		"0.8"
+	"TimeFireDelay"		"1.2"
+	"TimeIdle"			"0.8"
 	"TimeIdleEmpty"		"0.8"
 	"TimeReload"		"0.8"
 	"primary_ammo"		"WEAPON_AMMO"
@@ -24,7 +24,7 @@ WeaponData
 	"MaxAmmo"	"20"
 	
 	"CanIgnite"				"1"
-	"AfterBurnDuration"	    "12.0"
+	"AfterBurnDuration"	    "6.0"
 	
 	"ProjectileType"	"projectile_incendrocket"
 	"HasTeamSkins_Viewmodel"			"1"

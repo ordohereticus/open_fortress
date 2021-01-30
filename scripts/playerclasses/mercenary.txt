@@ -87,8 +87,7 @@ PlayerClass
 		"weapon9"			"NONE"
 		
 		"speed_max"		"320"
-		//"health_max"	"90" //Uncomment this later when armor is implemented
-		"health_max"	"150"
+		"health_max"	"90"
 		"armor_max"		"100"
 	}
 	

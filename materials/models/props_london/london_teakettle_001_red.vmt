@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_london/london_teakettle_001_red"
+	"%keywords" ""tf""
+
+	"$phong" "1"
+	  "$phongexponent" "5"
+	  "$phongboost" "0.1"
+	  "$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	  "$phongfresnelranges" "[.55 .5 1]"
+}

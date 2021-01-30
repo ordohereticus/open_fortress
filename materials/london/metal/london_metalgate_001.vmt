@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "london/metal/london_metalgate_001"
+	"$surfaceprop" "metal"
+	"%keywords" "tf,london"
+        "$translucent" "1"
+        "$nodecal" "1"
+}

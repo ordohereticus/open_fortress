@@ -1,11 +1,18 @@
 Open Fortress - List of developers:
 
 Project lead:
+Sir Matrix
+
+Previous Project lead:
 KaydemonLP
 
 Gameplay Coordinators:
-AgitationSkeleton
 Stachekip
+DrPyspy
+
+Writing:
+Stachekip
+MacD11
 
 Programming:
 Alex Episode
@@ -20,6 +27,11 @@ Nopey Nope
 Swox
 Ficool2
 Msalinas2877
+Cherry!
+Scarlett Ruby
+Fenteale
+Tzlil
+Walaryne
 
 Bots:
 Deathreus - Reverse Engineering most of TFBots & Halloween Bosses
@@ -41,13 +53,16 @@ GetGianni
 Lunar Scythe
 Stachekip
 
+Bucket Icons:
+Scarlett Ruby
+
 Weapon and misc. player sound effects:
 Stachekip
 Omniary
 Cazsu
+Lena
 
 Viewmodel rigging and animations:
-Polybagel - Mercenary First Person Animations
 N-Cognito - Mercenary First Person Animations
 Coolchou Zhao - Mercenary First Person Animations
 Ficool2 - C_Arm Conversions, Animation Fixes, New Mercenary Gloves, Thirdperson Mercenary animations
@@ -61,7 +76,7 @@ Drew - TFC Spy Model
 Lena - TFC Soldier Head Concept
 Square
 Swanky Swaggernaut
-Cherry
+Cherry!
 
 Weapon and cosmetic concepts and modelling:
 Ficool2
@@ -76,7 +91,7 @@ Skerion - GIB
 Overpowered
 iiboharz - Hardhat
 
-Prop and scenary Models & Textures:
+Prop and scenery Models & Textures:
 Boomsta - Vending Machines, Pickup Truck, Cheese Shop Props & Misc
 ChargingTurnip - Barrel, Generator props, Loaded Crate, Beetle car, Pig, Chair, Desk
 Ficool2 - Couch
@@ -86,6 +101,9 @@ Suomimies55 - SkateBoard Textures
 Richter - Office Textures, Yoda Spray
 Denied - Powerup sprays
 Krazy - Vehicles, Dock assets
+dot.ICO
+Urban - Industrial Signs
+iiboharz - Spillway props and textures
 
 Placeholder TFC Model Ports:
 Ficool2
@@ -97,18 +115,21 @@ Populus
 Particles:
 FissionMetroid - Stock Particle overhaul, BFG/Nailgun/Railgun/DM Medigun particles
 KaydemonLP - Lightning Gun Particles/BFG Smoke and flame particles
+Yrrzy - Spillway Particles
 
 Menu and promotional art:
 Gibus Cat
 iiboharz
 Blamo
 Denied
+Cherry!
 
 Main Menu UI Design:
 KaydemonLP - Original Main Menu & Loading Screen Overhaul, Loadout Screen
 Chris & PacMania - Font fixes, Main Menu Font Changes, Options Menu Fixes
 Ficool2 - Xbox 360 UI port
 Doomgal - Xbox 360 UI banner
+Cherry!
 
 In Game HUD Elements:
 KaydemonLP - DM & Bomb Defusal Hud
@@ -116,19 +137,22 @@ Chris - Polishing and fixes
 Ficool2 - Invade Gamemode
 Cbkl - Hud fixes and updates, New DM kills Hud
 Blamo, Cazsu, Drew - Mercenary & Zombie class portraits
+dot.ICO - Juggernaut and Civilian icons
+ChargingTurnip - Loading screen background
+Igarni - Loading screen background
 
 Valve.bik Intro:
 Cazsu
 MrModez
+Cherry!
 
-In-game menu logo concept:
-HDMineFace
-
-Beta Stamp Design for Logo:
+Alpha/Beta Stamp Design for Logo:
 Harry Skingle
+Cherry!
 
-Final Logo and Icon designs:
+Logo and Icon designs:
 KaydemonLP
+Cherry!
 
 Ambient sounds:
 Omniary (Wiseau)
@@ -142,8 +166,7 @@ Withered Rose
 Lena
 Ranzki
 Mace
-
-Main Menu specific tracks "Bahp!" (based on "Apple Jump" by Dexter Gordon) and "Virtual Proof" by Enrico Bergamini
+Mattie Konig
 
 www.openfortress.fun website:
 EmNudge
@@ -157,7 +180,6 @@ Maps:
 Hambooga - The Bad Place, The Longest Yard, Aerowalk original Blockout
 DrPyspy - Blood Run, Parley, Push
 AgitationSkeleton - House of Chthon, The Bad Place, The Dark Zone, Dead Simple, Overkill, Xpress3, Shortwave, Facing Worlds
-HDMineFace - Legacy, MCTF Splashdown, Greenback, Boxy [Updated Map], Hydro (dm), Shortwave (Layout Adjustments)
 Fairweather - Pandora
 Suomimes55 - Congo, DM+CTF Backfort, Boxy, Weapon devtest map, Knoxx, DM Minecraft, DM Bricks
 Ficool2 - DM Lumberyard, DM Minecraft, DM Bricks, DM CS1.6 Mansion, Weapon devtest map
@@ -167,21 +189,21 @@ Lena - Cargo, Dark Zone, DM Chestnut
 Phe - DM Chestnut
 Boomsta - Sawdust
 Gibus Cat - Indev DM_2Fort
-HDMineFace - DM Hydro
 Bakscratch - DM Watergate, Skate, Bailey, gump, pitod, longestyard, overkill
 PigPig - Knoxx
 Hex - Skate, Lobster Shore, Knoxx
 iiboharz - Wiseau, DM 2Fort, DM Ravine, DM Offblast
-Savva - Hollow, port of CTF Redplanet by Spipper, MCTF Turbine, MCTF Doublecross, MCTF Badlands, Shingle
 Spipper - CTF Redplanet
 Muddy - Grain
 HQDefault - Blood Covenant
 Charging Turnip - Badworks
 Suzie🕷Scattersilk - The Badplace new Artpass
-Ruby - dm_entryway, duel_aerowalk artpass
-Aichten / Dot.ico
+Ruby - duel_aerowalk artpass
+dot.ICO
 White Russian Bear
 Krazy - Overkill, Dock
+pont - Spillway, Spillway Event, Warhead, Cinque
+Mattie Konig - DM Thames
 
 Third party Assets Used with permission:
 cp_alloy lava by Yrrzy
@@ -193,6 +215,7 @@ Vickery Skybox by Nixon
 Aquatic Pipes by FubarFX
 Industrial lamp and striped windows by AsG_Alligator
 Agent Gunn Shark by DatGmann
+London pack assets - Cytosolic, FGD5, Izotope, Mattie Konig, Square, Stiffy360, Yacan1, VasyaTheWizard
 
 Open Fortress - List of community contributors:
 

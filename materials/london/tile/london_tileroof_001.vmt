@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "london/tile/london_tileroof_001"
+	"%keywords" "tf,london"
+        "$surfacetexture" "tile"
+
+}

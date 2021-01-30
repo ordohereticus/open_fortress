@@ -1,0 +1,4 @@
+ "VertexLitGeneric"
+{
+	$baseTexture "\models\props_london\london_streetsign_001"
+}

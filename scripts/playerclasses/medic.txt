@@ -78,10 +78,11 @@ PlayerClass
 		
 		"model"			"models/player/tfc/medic_tfc.mdl"
 		"arm_model"		"models/weapons/c_models/c_tfc_medic_arms.mdl"
+		
 		"speed_max"		"320"
-		//"health_max"	"90" //Uncomment this later when armor is implemented
-		"health_max"	"150"
+		"health_max"	"90"
 		"armor_max"		"100"
+		
 		"WeaponCount"	"4"
 		"weapon1"		"TFC_WEAPON_MEDKIT"
 		"weapon2"		"TFC_WEAPON_SHOTGUN_SB"

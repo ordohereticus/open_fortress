@@ -1,0 +1,13 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "london/nature/london_rockwall_001"
+	"$basetexture2" "Nature/grass_03"
+	"$blendmodulatetexture" "Nature/grass_blendmask"
+	"%tooltexture" "london/nature/london_blendrockwalltograss_002_tool"
+	"$bumpmap" "nature/rockwall009_height-ssbump"
+	"$bumpmap2" "Nature/dirtground001_height-ssbump"
+	"%detailtype" "tf_forest_grass"
+	"%keywords" "tf,london"
+	"$ssbump" "1"
+	"$surfaceprop" "dirt"
+}

@@ -805,42 +805,42 @@
 }
 
 // ------------------------------------------------------------------------------------ //
-// FLAME THROWER
+// FLAME THROWER DM
 // ------------------------------------------------------------------------------------ //
 
-"Weapon_FlameThrower.FireStart"
+"Weapon_FlameThrowerDM.FireStart"
 {
 	"channel"	"CHAN_ITEM"
 	"soundlevel"	"SNDLVL_94dB"
 	"volume"	"1.0"
-	"wave"		")weapons/flame_thrower_start.wav"
+	"wave"		")weapons/flame_thrower_dm_start.wav"
 }
 
-"Weapon_FlameThrower.FireLoop"	
+"Weapon_FlameThrowerDM.FireLoop"	
 {
 	"channel"	"CHAN_WEAPON"
 	"soundlevel"	"SNDLVL_94dB"
 	"volume"	"1.0"
-	"wave"		")weapons/flame_thrower_loop.wav"
+	"wave"		")weapons/flame_thrower_dm_loop.wav"
 }
 
-"Weapon_FlameThrower.FireLoopCrit"
+"Weapon_FlameThrowerDM.FireLoopCrit"
 {
 	"channel"	"CHAN_WEAPON"
 	"soundlevel"	"SNDLVL_94dB"
 	"volume"	"1.0"
-	"wave"		")weapons/flame_thrower_loop_crit.wav"
+	"wave"		")weapons/flame_thrower_dm_loop_crit.wav"
 }
 
-"Weapon_FlameThrower.FireEnd"	
+"Weapon_FlameThrowerDM.FireEnd"	
 {
 	"channel"	"CHAN_ITEM"
 	"soundlevel"	"SNDLVL_94dB"
 	"volume"	"1.0"
-	"wave"		")weapons/flame_thrower_end.wav"
+	"wave"		")weapons/flame_thrower_dm_end.wav"
 }
 
-"Weapon_FlameThrower.FireHit"
+"Weapon_FlameThrowerDM.FireHit"
 {
 	"channel"	"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_94dB"
@@ -848,7 +848,7 @@
 	"wave"		")weapons/flame_thrower_fire_hit.wav"
 }
 
-"Weapon_FlameThrower.PilotLoop"
+"Weapon_FlameThrowerDM.PilotLoop"
 {
 	"channel"	"CHAN_WEAPON"
 	"soundlevel"	"SNDLVL_74dB"
@@ -856,7 +856,7 @@
 	"wave"		"weapons/flame_thrower_pilot.wav"
 }
 
-"Weapon_FlameThrower.FireRocket"
+"Weapon_FlameThrowerDM.FireRocket"
 {
 	"channel"	"CHAN_WEAPON"
 	"soundlevel"	"SNDLVL_94dB"
@@ -864,7 +864,7 @@
 	"wave"		"misc/null.wav"
 }
 
-"Weapon_FlameThrower.Draw"
+"Weapon_FlameThrowerDM.Draw"
 {
 	"channel"	"CHAN_AUTO"
 	"soundlevel"	"SNDLVL_74dB"
@@ -872,20 +872,20 @@
 	"wave"		"weapons/draw_primary.wav"
 }
 
-"Weapon_FlameThrower.Fire"
+"Weapon_FlameThrowerDM.Fire"
 {
 	"channel"	"CHAN_ITEM"
 	"soundlevel"	"SNDLVL_94dB"
 	"volume"	"1.0"
-	"wave"		")weapons/flame_thrower_start.wav"
+	"wave"		")weapons/flame_thrower_dm_start.wav"
 }
 
-"Weapon_FlameThrower.WindDown"	
+"Weapon_FlameThrowerDM.WindDown"	
 {
 	"channel"	"CHAN_ITEM"
 	"soundlevel"	"SNDLVL_94dB"
 	"volume"	"1.0"
-	"wave"		")weapons/flame_thrower_end.wav"
+	"wave"		")weapons/flame_thrower_dm_end.wav"
 }
 
 // ------------------------------------------------------------------------------------ //
@@ -3752,7 +3752,9 @@
 
 	"wave"	")ui/killsound_vortex.wav"
 }
-
+// ------------------------------------------------------------------------------------ //
+//  Chainsaw (Ding a lings)
+// ------------------------------------------------------------------------------------ //
 "Chainsaw.WindUp"	
 {
 	"channel"	"CHAN_WEAPON"
@@ -3760,7 +3762,6 @@
 	"volume"	"1.0"
 	"wave"		")weapons/chainsaw_attack.wav"
 }
-
 
 "Chainsaw.Fire"	
 {
@@ -3784,4 +3785,38 @@
 	"soundlevel"	"SNDLVL_94dB"
 	"volume"	"1.0"
 	"wave"		")weapons/chainsaw_winddown.wav"
+}
+
+"Chainsaw.Charge"	
+{
+	"channel"		"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"		"0.75"
+	"wave"			")weapons/chainsaw_charge.wav"
+}
+
+"Chainsaw.Idle"	
+{
+	"channel"		"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_74dB"
+	"volume"		".25"
+	"wave"			")weapons/chainsaw_idle.wav"
+}
+
+"ChargeFilled.Ding"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"		"weapons/chainsaw_recharge.wav"
+}
+// ------------------------------------------------------------------------------------ //
+//  Lead Pipe Sounds
+// ------------------------------------------------------------------------------------ //
+"Leadpipe.FullCharge"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"		"weapons/leadpipe_recharge.wav"
 }

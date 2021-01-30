@@ -5,6 +5,7 @@ duel_databank
 duel_deadsimple
 duel_granary
 duel_gump
+duel_longestyard
 duel_summit
 duel_diner_dev
 duel_frostbyte_dev

@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_london/london_trafficlights_001a"
+	"$model" "1"
+	"$selfillum" "1"
+	"$surfaceprop" "metal"
+}

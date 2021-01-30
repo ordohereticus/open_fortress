@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/props_london/vinylrecord/london_vinylrecord_001"
+	"$bumpmap" "models/props_london/vinylrecord/london_vinylrecord_001_norm"
+	"$phong" "1"
+	"$phongexponent" "20"
+	"$phongboost" "0.1"	
+	"$phongfresnelranges"	"[.7 15 20]"
+
+	
+}

@@ -1,0 +1,19 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "london/london_tactilepaving_001a"
+	"$envmap" "env_cubemap"
+	"$envmapcontrast" 1
+	"$envmapsaturation" 1
+	"$envmaptint" "[ .35 .35 .35]"
+	"$normalmapalphaenvmapmask" 1
+	"$bumpmap"	"soho/YellowTile001_normal"
+
+	//"$decal" 1
+	//"$decalscale" .25
+	//"$translucent" 1
+	//"$vertexcolor" "1"
+	//"$vertexalpha" "1"
+
+	"%keywords" "tf, london"
+
+}

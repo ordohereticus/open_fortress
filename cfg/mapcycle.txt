@@ -9,16 +9,11 @@ dm_crossfire
 dm_darkzone
 dm_deadlock
 dm_dock
-dm_ghost_town
 dm_grain
 dm_gump
 dm_harvest
-dm_hollow
 dm_knoxx
-dm_legacy
 dm_lobstershore
-dm_lumberyard
-dm_nucleus
 dm_offblast
 dm_overkill
 dm_pitod
@@ -28,6 +23,7 @@ dm_sawdust
 dm_skate
 dm_spillway
 dm_spillway_event
+dm_thames
 dm_warhead
 dm_watchtower
 dm_watergate
@@ -36,5 +32,4 @@ dm_cargo_dev
 dm_cinque_dev
 dm_control_dev
 dm_siberia_dev
-dm_thames_dev
 dm_wushu_dev

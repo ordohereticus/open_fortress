@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/props_london/vinylrecord/london_vinylturntable_lid_001"
+	"$surfaceprop"	"default"
+	"$translucent" 1
+	"$additive" 1
+	
+	
+	
+	"$phong"	"1"
+	"$phongboost"	"10"
+	"$phongexponent" "8"
+	"$phongfresnelranges"	"[.1 1 2]"
+	//"$rimlight"	"1"
+	//"$rimlightexponent"	"1"
+}

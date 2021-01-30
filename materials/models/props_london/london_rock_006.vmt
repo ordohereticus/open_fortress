@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	$baseTexture 		"models\props_london\london_rock_006"
+	$surfaceprop		"dirt"
+	"%keywords" ""tf","london""
+	
+	"$model" "1"
+}

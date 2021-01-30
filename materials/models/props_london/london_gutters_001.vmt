@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_london/london_gutters_001"
+	"$surfaceprop"	"metal"
+	"%keywords"	"tf,london"
+
+	"$phong" "1"
+	"$phongexponent" "5"
+	"$phongboost" "0.08"	// This is the number that does the magic, try changing this.
+	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	"$phongfresnelranges"    "[.55 .5 1]"
+}

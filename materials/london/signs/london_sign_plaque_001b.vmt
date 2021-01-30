@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "london/signs/london_sign_plaque_001b"
+        "$decal" 1
+	"$decalscale" 0.125
+	"$translucent" 1
+	"%keywords" "tf,london"
+}

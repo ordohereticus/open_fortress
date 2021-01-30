@@ -1,0 +1,16 @@
+"LightmappedGeneric"
+{
+	"$AlphaTest" "1"
+	"$AlphaTestReference" "0.3"
+	"$AllowAlphaToCoverage" "1"
+
+	"$basetexture" "Models/props_c17/fence_alpha"
+	"%compilepassbullets" 1
+	"$detail" "detail\metal_detail_01"
+	"$detailscale" "4.283"
+	"$detailblendfactor" .8
+	"$detailblendmode" "0"
+	"$surfaceprop"	"chainlink"
+	"$nodecal" 1
+	
+}

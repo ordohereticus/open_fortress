@@ -19,28 +19,37 @@ stuffcmds
 
 sv_unlockedchapters 99
 
-alias use_shotgun "use tf_weapon_shotgun"
-alias use_melee1 "use tf_weapon_fists;use tf_weapon_fireaxe;use tf_weapon_club; use tf_weapon_bottle; use tf_weapon_bonesaw"
-alias use_melee2 "use tf_weapon_bat;use tf_weapon_wrench;use tf_weapon_shovel; use tf_weapon_crowbar; use tf_weapon_knife"
-alias use_melee "use_melee1;use_melee2"
-alias use_rocket "use tf_weapon_rocketlauncher; use tf_weapon_rocketlauncher_dm"
-alias use_pistol "use tf_weapon_pistol;use tf_weapon_pistol_scout;use tf_weapon_pistol_mercenary;use tf_weapon_pistol_akimbo"
-alias use_smg "use tf_weapon_smg;use tf_weapon_smg_mercenary"
-alias use_fire "use tf_weapon_flamethrower"
-alias use_gl "use tf_weapon_grenadelauncher;use tf_weapon_grenadelauncher_mercenary"
-alias use_revolver "use tf_weapon_revolver;use tf_weapon_revolver_mercenary"
-alias use_scatter "use tf_weapon_scattergun"
-alias use_supersg "use tf_weapon_supershotgun"
-alias use_nail "use tf_weapon_nailgun"
-alias use_syringe "use tf_weapon_syringegun_medic"
-alias use_sticky "use tf_weapon_pipebomblauncher"
-alias use_mini "use tf_weapon_minigun;use tf_weapon_gatlinggun"
-alias use_snip "use tf_weapon_sniperrifle"
-alias use_rail "use tf_weapon_railgun"
-alias use_dynamite "use tf_weapon_dynamite_bundle"
-alias use_rifle "use tf_weapon_assaultrifle"
-alias use_tripmine "use tf_weapon_tripmine"
-alias use_lightgun "use tf_weapon_lightning_gun"
+alias use_melee_merc 	"use tf_weapon_claws; use tf_weapon_crowbar; use tf_weapon_lead_pipe" 
+alias use_melee_tf 		"use tf_weapon_bat; use tf_weapon_umbrella; use tf_weapon_shovel; use tf_weapon_fireaxe; use tf_weapon_bottle; use tf_weapon_fists; use tf_weapon_wrench; use tf_weapon_bonesaw; use tf_weapon_club; use tf_weapon_knife" 
+alias use_melee_tfc		"use tfc_weapon_umbrella; use tfc_weapon_wrench; use tfc_weapon_medkit; use tfc_weapon_knife" 
+
+alias use_melee			"use_melee_tfc; use_melee_tf; use_melee_merc" 
+
+alias use_chainsaw 		"use tf_weapon_chainsaw"
+
+alias use_pistol 	"use tfc_weapon_railpistol; use tf_weapon_pistol_scout; use tf_weapon_pistol; use tf_weapon_pistol_mercenary;use tf_weapon_pistol_akimbo"
+
+alias use_revolver 	"use tf_weapon_revolver; use tf_weapon_revolver_mercenary"
+
+alias use_shotgun 	"use tfc_weapon_shotgun_sb; use tfc_weapon_shotgun_db; use tf_weapon_shotgun"
+alias use_supersg 	"use tf_weapon_supershotgun; use tf_weapon_eternalshotgun"
+
+alias use_smg 		"use tf_weapon_smg; use tf_weapon_smg_mercenary; use tf_weapon_tommygun"
+alias use_mini 		"use tf_weapon_minigun; use tf_weapon_gatlinggun"
+
+alias use_rifle 	"use tf_weapon_assaultrifle"
+alias use_rail 		"use tf_weapon_sniperrifle; use tf_weapon_railgun"
+
+alias use_nail 		"use tfc_weapon_nailgun; use tfc_weapon_nailgun_super; use tf_weapon_nailgun"
+alias use_fire 		"use tfc_weapon_flamethrower; use tf_weapon_flamethrower_pyro; use tf_weapon_flamethrower"
+alias use_lightgun 	"use tf_weapon_lightning_gun"
+
+alias use_dynamite 	"use tf_weapon_dynamite_bundle"
+alias use_gl 		"use tfc_weapon_grenadelauncher; use tf_weapon_grenadelauncher; use tf_weapon_grenadelauncher_mercenary"
+alias use_rocket 	"use tfc_weapon_rpg; use tf_weapon_rocketlauncher_dm; use tf_weapon_rocketlauncher"
+
+alias use_super 	"use tf_weapon_super_rocketlauncher; use tf_weapon_gib; use tf_weapon_gravitygauntlets"
+
 
 //
 // to fix sprays not saving

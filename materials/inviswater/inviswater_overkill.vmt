@@ -1,0 +1,34 @@
+"LightmappedGeneric"
+{
+
+	"%tooltexture" "inviswater/inviswater"
+	"%keywords" "tf"
+	"%compilewater" "1"
+
+	"$basetexture" "water/water_hydro_base"
+
+	"$no_draw" "1"
+	"$surfaceprop" "water"
+
+	"$abovewater" "1"
+
+	"$fogenable" 1
+	"$fogcolor" "{254 168 82}"
+	"$fogstart" "0"
+	"$fogend" "5"
+
+	"$bottommaterial" "water/water_well_beneath.vmt"
+	"$normalmapalphaenvmapmask" "1"
+	"$bumpframe" "0"
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$bumpmap"
+			"animatedtextureframenumvar" "$bumpframe"
+			"animatedtextureframerate" 30.00
+		}
+	}
+}
+

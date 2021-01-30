@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "london/stone/london_stonefacade_trim_001b"
+        "$decal" 1
+	"$decalscale" 0.25
+	"$translucent" 1
+	"%keywords" "tf,london"
+}

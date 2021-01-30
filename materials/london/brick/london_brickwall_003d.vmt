@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "london/brick/london_brickwall_003d"
+	"$bumpmap" "Brick/brickwall002_height-ssbump"
+	"%keywords" "tf,london"
+	"$ssbump" "1"
+	"$detail" "overlays/detail007"
+	"$detailscale" "0.5"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "2"
+}

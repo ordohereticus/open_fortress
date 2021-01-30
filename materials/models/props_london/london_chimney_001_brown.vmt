@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_london/london_chimney_001_brown"
+	"%keywords" ""tf""
+	
+	"$nodecal" "1"
+	"$model" "1"
+}

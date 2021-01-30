@@ -7,13 +7,13 @@ WeaponData
 	"WeaponType"		"primary"
 	
 	// Attributes TF.
-	"Damage"		"170"	// per second
-	"InstagibDamage"	"999"
-	"Range"			"0"
-	"BulletsPerShot"	"1"
-	"Spread"		"0.0"
-	"TimeFireDelay"	"0.04"
-	"UseRapidFireCrits"	"1"
+	"Damage"							"170"	// per second
+	"InstagibDamage"					"999"
+	"Range"								"0"
+	"BulletsPerShot"					"1"
+	"Spread"							"0.0"
+	"TimeFireDelay"						"0.15"
+	"UseRapidFireCrits"					"1"
 	"HasTeamSkins_Viewmodel"			"1"
 	"HasTeamSkins_Worldmodel"			"1"
 	

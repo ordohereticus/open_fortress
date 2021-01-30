@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "london/signs/london_sign_shops_001"
+	"$surfaceprop" "wood"
+	"%keywords" "tf,london"
+}

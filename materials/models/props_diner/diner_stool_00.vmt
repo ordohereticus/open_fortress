@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_diner/diner_stool_00"
+	"$surfaceprop" "Metal"
+}

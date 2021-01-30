@@ -43,7 +43,7 @@ PlayerClass
 	"WeaponCount"		"3"
 	"weapon1"			"TF_WEAPON_FIREAXE"
 	"weapon2"			"TF_WEAPON_SHOTGUN"
-	"weapon3"			"TF_WEAPON_FLAMETHROWER"
+	"weapon3"			"TF_WEAPON_FLAMETHROWER_PYRO"
 	"weapon4"			"NONE"
 	"weapon5"			"NONE"
 	"weapon6"			"NONE"
@@ -79,8 +79,7 @@ PlayerClass
 		"arm_model"		"models/weapons/c_models/c_tfc_pyro_arms.mdl"
 		
 		"speed_max"		"300"
-		//"health_max"	"100" //Uncomment this later when armor is implemented
-		"health_max"	"175"
+		"health_max"	"100"
 		"armor_max"		"150"
 		
 		"WeaponCount"	"4"

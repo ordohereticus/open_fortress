@@ -16,9 +16,9 @@
 	// give it a white outline
 	$outline 1
 	$outlinealpha "0.68"
-	$outlinestart0 1.5
+	$outlinestart0 1
 	$outlinestart1 1
-	$outlineend0 0.68
+	$outlineend0 0.55
 	$outlineend1 0.55
 	$scaleoutlinesoftnessbasedonscreenres 1
 	// and a drop shadow

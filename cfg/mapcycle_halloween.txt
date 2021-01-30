@@ -1,4 +1,3 @@
-dm_ghost_town
 dm_pitod
 dm_spillway_event
 duel_badplace

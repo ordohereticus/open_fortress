@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "london/signs/london_sign_tin_002"
+        "$decal" 1
+	"$decalscale" 0.25
+	"$translucent" 1
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	"%keywords" "tf, london"
+}

@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_london/london_litterbin_001"
+	"$model" "1"
+	"$halflambert" "1"
+	"$surfaceprop" "metal"
+
+	"$phong" "1"
+	"$phongexponenttexture" "models/props_london/london_litterbin_001_specular"
+	"$phongboost" "0.05"
+	"$lightwarptexture" "models/lightwarps/weapon_lightwarp"
+	"$phongfresnelranges" "[.55 .25 1]"
+}

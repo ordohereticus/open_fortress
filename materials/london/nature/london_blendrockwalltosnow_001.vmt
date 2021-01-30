@@ -1,0 +1,13 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "london/nature/london_rockwall_001"
+	"$basetexture2" "Nature/snow_full001"
+	"$bumpmap" "nature/rockwall009_height-ssbump"
+	"$bumpmap2" "Nature/snow_full001_normal"
+        "$ssbump" "1"
+	"$blendmodulatetexture" "Nature/snowwall_blendmask"
+	"%tooltexture" "london/nature/london_blendrockwalltosnow_001_tool"
+	"$surfaceprop" "snow"
+
+	"%keywords" "tf,london"
+}

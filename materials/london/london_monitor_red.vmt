@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "london/london_monitor_red"
+	"$selfillum" 1
+	"$surfaceprop" "glass"
+//	"$nofog" "1"
+	"%keywords" "tf,london"
+}

@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "london/nature/london_rockwall_001a"
+	"$bumpmap" "nature/rockwall009_height-ssbump"
+        "$ssbump" "1"
+	"%keywords" "tf, london"
+	"$surfaceprop" "dirt"
+}

@@ -62,6 +62,10 @@
 //DeathmatchMusic.FromTheDead
 //DeathmatchMusic.Badworks
 //DeathmatchMusic.Badworks_Waiting
+//DeathmatchMusic.DrawnAndQuartered
+//DeathmatchMusic.DrawnAndQuarteredIntro
+//DeathmatchMusic.DrawnAndQuarteredOutro
+
 
 //By MrModez
 "DeathmatchMusic.AtFortressGate"
@@ -966,4 +970,40 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/badworks_waiting.ogg"
+}
+
+//Drawn and Quartered by Mattie Konig
+"DeathmatchMusic.DrawnAndQuartered"
+{
+        "Artist"        "Mattie Konig"
+        "Name"            "Drawn and Quartered"
+
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/drawnandquartered.ogg"
+
+	"intro"			"DeathmatchMusic.DrawnAndQuarteredIntro"
+	"outro"			"DeathmatchMusic.DrawnAndQuarteredOutro"
+}
+
+//Drawn and Quartered (waiting) by Mattie Konig
+"DeathmatchMusic.DrawnAndQuarteredIntro"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/drawnandquartered_intro.ogg"
+}
+
+//Drawn and Quartered (round end) by Mattie Konig
+"DeathmatchMusic.DrawnAndQuarteredOutro"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/drawnandquartered_outro.ogg"
 }

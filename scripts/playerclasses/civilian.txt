@@ -77,8 +77,7 @@ PlayerClass
 		"ClassImageColorless"			"../hud/colorless/class_civiliancolorless"
 	
 		"speed_max"		"300"
-		//"health_max"	"50" //Uncomment this later when armor is implemented
-		"health_max"	"200"
+		"health_max"	"50"
 		"armor_max"		"0"	
 		
 		// Weapons.

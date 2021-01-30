@@ -1,0 +1,21 @@
+"VertexlitGeneric"
+
+{
+	
+"$basetexture" "models/props_london/london_belishabeacon_001_lit"
+
+    $selfillum 1
+    $selfillummask "models/props_london/london_belishabeacon_001_selfillum"
+
+	"$model" "1"
+	"$halflambert" "1"
+	
+	"$phong" "1"
+	  "$phongexponent" "2"
+	  "$phongexponenttexture"	"models/props_london/london_bollard_001_painted_specular"
+	  "$phongboost" "0.05"
+	  "$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	  "$phongfresnelranges" "[.55 .5 1]"
+"%keywords" ""tf""
+
+}
