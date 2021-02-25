@@ -31,7 +31,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"Command"		"Back"
+		"Command"		"Cancel"
 		"proportionalToParent"	"1"
 	}
 
@@ -1347,40 +1347,95 @@
 				"activity"	"ACT_MERC_LOADOUT"
 				"default"	"1"
 			}
-			"animation"
+			"animation" //1
 			{
 				"name"		"DYNAMITE"
 				"activity"	"ACT_MERC_LOADOUT_DYNAMITE"
 			}
-			"animation"
+			"animation" //2
 			{
 				"name"		"PISTOL"
 				"activity"	"ACT_MERC_LOADOUT_PISTOL"
 			}
-			"animation"
+			"animation" //3
 			{
 				"name"		"SHOTGUN"
 				"activity"	"ACT_MERC_LOADOUT_SHOTGUN"
 			}
-			"animation"
+			"animation" //4
 			{
 				"name"		"TOMMYGUN"
 				"activity"	"ACT_MERC_LOADOUT_TOMMYGUN"
 			}
-			"animation"
+			"animation" //5
 			{
 				"name"		"ROCKETLAUNCHER"
 				"activity"	"ACT_MERC_LOADOUT_ROCKETLAUNCHER"
 			}
-			"animation"
+			"animation" //6
 			{
 				"name"		"CHAINSAW"
 				"activity"	"ACT_MERC_LOADOUT_CHAINSAW"
 			}
-			"animation"
+			"animation" //7
 			{
 				"name"		"SIXSHOOTER"
 				"activity"	"ACT_MERC_LOADOUT_REVOLVER"
+			}
+			"animation" //8
+			{
+				"name"		"CROWBAR"
+				"activity"	"ACT_MERC_LOADOUT_CROWBAR"
+			}
+			"animation" //9
+			{
+				"name"		"LEADPIPE"
+				"activity"	"ACT_MERC_LOADOUT_LEADPIPE"
+			}
+			"animation" //10
+			{
+				"name"		"ASSAULT_RIFLE"
+				"activity"	"ACT_MERC_LOADOUT_ASSAULT_RIFLE"
+			}
+			"animation" //11
+			{
+				"name"		"GRENADELAUNCHER"
+				"activity"	"ACT_MERC_LOADOUT_GRENADELAUNCHER"
+			}
+			"animation" //12
+			{
+				"name"		"LIGHTNING_GUN"
+				"activity"	"ACT_MERC_LOADOUT_LIGHTNING_GUN"
+			}
+			"animation" //13
+			{
+				"name"		"NAILGUN"
+				"activity"	"ACT_MERC_LOADOUT_NAILGUN"
+			}
+			"animation" //14
+			{
+				"name"		"MINIGUN_DM"
+				"activity"	"ACT_MERC_LOADOUT_MINIGUN_DM"
+			}
+			"animation" //15
+			{
+				"name"		"BOUNCER"
+				"activity"	"ACT_MERC_LOADOUT_BOUNCER"
+			}
+			"animation" //16
+			{
+				"name"		"RAILGUN"
+				"activity"	"ACT_MERC_LOADOUT_RAILGUN"
+			}
+			"animation" //17
+			{
+				"name"		"AKIMBO"
+				"activity"	"ACT_MERC_LOADOUT_AKIMBO"
+			}
+			"animation" //18
+			{
+				"name"		"FLAMETHROWER"
+				"activity"	"ACT_MERC_LOADOUT_FLAMETEMP"
 			}
 		}
 	}

@@ -1135,6 +1135,7 @@
 		"tf_weapon_assaultrifle"
 		{
 			"backpack_icon"	"..\sprites\bucket_assaultrifle"
+			"loadout_anim"	"10"
 			"ShowInArsenal"	"1"
 			"WeaponData"
 			{
@@ -1270,6 +1271,7 @@
 		"tf_weapon_bouncer"
 		{
 			"backpack_icon"	"..\sprites\bucket_bouncer"
+			"loadout_anim"	"15"
 			"ShowInArsenal"	"1"
 			"WeaponData"
 			{
@@ -1404,7 +1406,7 @@
 		"tf_weapon_crowbar"
 		{
 			"backpack_icon"	"..\sprites\bucket_crowbar"
-
+			"loadout_anim"	"8"
 			"slot"
 			{
 				"mercenary"	"3"
@@ -2011,7 +2013,8 @@
 		}
 		"tf_weapon_flamethrower"
 		{
-			"backpack_icon"	"..\sprites\bucket_flamethrower_purple"
+			"backpack_icon"	"..\sprites\bucket_dm_flamethrower"
+			"loadout_anim"	"18"
 			"ShowInArsenal"	"1"
 			"WeaponData"
 			{
@@ -2023,12 +2026,12 @@
 				"ITEM_FLAG_NOITEMPICKUP" 	"0"
 				
 				// Attributes TF.
-				"Damage"							"170"	// per second
+				"Damage"							"180"	// per second
 				"InstagibDamage"					"999"
 				"Range"								"0"
 				"BulletsPerShot"					"1"
 				"Spread"							"0.0"
-				"TimeFireDelay"						"0.04"
+				"TimeFireDelay"						"0.06"
 				"UseRapidFireCrits"					"1"
 				"HasTeamSkins_Viewmodel"			"1"
 				"HasTeamSkins_Worldmodel"			"1"
@@ -2085,7 +2088,7 @@
 				{
 					"weapon"
 					{
-							"file"		"sprites/bucket_flamethrower_red"
+							"file"		"sprites/bucket_dm_flamethrower"
 							"x"		"0"
 							"y"		"0"
 							"width"		"200"
@@ -2093,7 +2096,7 @@
 					}
 					"weapon_s"
 					{	
-							"file"		"sprites/bucket_flamethrower_blue"
+							"file"		"sprites/bucket_dm_flamethrower"
 							"x"		"0"
 							"y"		"0"
 							"width"		"200"
@@ -2101,7 +2104,7 @@
 					}
 					"weapon_t"
 					{	
-							"file"		"sprites/bucket_flamethrower_purple"
+							"file"		"sprites/bucket_dm_flamethrower"
 							"x"		"0"
 							"y"		"0"
 							"width"		"200"
@@ -2138,6 +2141,7 @@
 		"tf_weapon_gatlinggun"
 		{
 			"backpack_icon"	"..\sprites\bucket_chaingun"
+			"loadout_anim"	"14"
 			"ShowInArsenal"	"1"
 			"WeaponData"
 			{
@@ -2271,6 +2275,7 @@
 		"tf_weapon_grenadelauncher_mercenary"
 		{
 			"backpack_icon"	"..\sprites\bucket_grenDM"
+			"loadout_anim"	"11"
 			"ShowInArsenal"	"1"
 			"WeaponData"
 			{
@@ -2409,8 +2414,8 @@
 		
 		"tf_weapon_lead_pipe"
 		{
-		"backpack_icon"	"..\sprites\bucket_leadpipe_wip"
-		
+		"backpack_icon"	"..\sprites\bucket_leadpipe"
+		"loadout_anim"	"9"
 			"slot"
 			{
 				"mercenary"	"3"
@@ -2528,6 +2533,7 @@
 		"tf_weapon_lightning_gun"
 		{
 			"backpack_icon"	"..\sprites\bucket_lightning_gun"
+			"loadout_anim"	"12"
 			"ShowInArsenal"	"1"
 			"WeaponData"
 			{
@@ -2666,12 +2672,12 @@
 				"ITEM_FLAG_NOITEMPICKUP" 	"0"
 				
 				// Attributes TF.
-				"Damage"		"8"
+				"Damage"			"8"
 				"InstagibDamage"	"1800"
-				"Range"			"720"
+				"Range"				"720"
 				"BulletsPerShot"	"1"
-				"Spread"		"0"
-				"TimeIdle"		"10.0"
+				"Spread"			"0"
+				"TimeIdle"			"10.0"
 				"TimeIdleEmpty"		"1.0"
 				"TimeFireDelay"		"0.05"
 				
@@ -2682,9 +2688,6 @@
 				
 				"HasTeamSkins_Viewmodel"			"1"
 				"HasTeamSkins_Worldmodel"			"1"
-				
-				"HitsForConsecutiveDamage"		"10"
-				"ConsecutiveDamageLostPerSecond"	"5"
 					
 				// Ammo & Clip.
 				"primary_ammo"		"WEAPON_AMMO"
@@ -2784,6 +2787,7 @@
 		"tf_weapon_nailgun"
 		{
 			"backpack_icon"	"..\sprites\bucket_nailgun"
+			"loadout_anim"	"13"
 			"ShowInArsenal"	"1"
 			"WeaponData"
 			{
@@ -3150,6 +3154,7 @@
 		"tf_weapon_pistol_akimbo"
 		{
 			"backpack_icon"	"..\sprites\bucket_akimbo"
+			"loadout_anim"	"17"
 			"ShowInArsenal"	"1"
 			"WeaponData"
 			{
@@ -3275,6 +3280,7 @@
 		"tf_weapon_railgun"
 		{
 			"backpack_icon"	"..\sprites\bucket_railgun"
+			"loadout_anim"	"16"
 			"ShowInArsenal"	"1"
 			"WeaponData"
 			{
@@ -4199,6 +4205,7 @@
 		"tf_weapon_tommygun"
 		{
 			"backpack_icon"	"..\sprites\bucket_tommygun"
+			"loadout_anim"	"4"
 			"ShowInArsenal"	"1"
 			"WeaponData"
 			{

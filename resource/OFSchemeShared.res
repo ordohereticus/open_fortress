@@ -12,8 +12,8 @@ Scheme
 		"DarkGray"				"52 52 52 255"
 		"TransparentDarkGray" 	"52 52 52 156"
 		
-		"TFWhite"			"224 224 224 255"
-		"TransparentTFWhite" "224 224 224 156"	
+		"TFWhite"			"235 226 202 255"
+		"TransparentTFWhite" "235 226 202 156"	
 	}
 	
 	BaseSettings

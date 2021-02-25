@@ -1,0 +1,6 @@
+UnlitGeneric
+{
+	$basetexture "vgui\vgui_panel_createserver"
+	$translucent 1
+	$ignorez 1
+}

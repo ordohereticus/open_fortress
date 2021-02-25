@@ -1,4 +1,4 @@
-Open Fortress - List of developers:
+﻿Open Fortress - List of developers:
 
 Project lead:
 Sir Matrix
@@ -7,43 +7,45 @@ Previous Project lead:
 KaydemonLP
 
 Gameplay Coordinators:
-Stachekip
 DrPyspy
+Stachekip
 
 Writing:
-Stachekip
 MacD11
+Stachekip
 
 Programming:
 Alex Episode
-MaartenS11
-Rara Cerberus
+Avast Antipony
+Brysondev
+Cherry!
 Chrissy
+Fenteale
+Ficool2
+Int
 Jill Nesbit
 KaydemonLP
-Nbc66
-Avast Antipony
-Nopey Nope
-Swox
-Ficool2
+MaartenS11
 Msalinas2877
-Cherry!
+Nbc66
+Nopey Nope
+Rara Cerberus
 Scarlett Ruby
-Fenteale
+Swox
 Tzlil
 Walaryne
 
 Bots:
 Deathreus - Reverse Engineering most of TFBots & Halloween Bosses
+ficool2 - Integrating TFBots into Open Fortress and the DM gamemodes etc
 Pelipoika - Additional Reverse Engineering for TFBots
 sigsegv - Reverse Engineered documentation for TFBots + NextBot
-ficool2 - Integrating TFBots into Open Fortress and the DM gamemodes etc
 
 Voice acting:
-Stachekip - Mercenary
+Cazsu - TFC Demoman
 Drew - New Soldier & Engineer Voice Lines
 EverMatt - New Scout Voicelines
-Cazsu - TFC Demoman
+Stachekip - Mercenary
 
 Announcers:
 Benjamin Rudman
@@ -57,53 +59,53 @@ Bucket Icons:
 Scarlett Ruby
 
 Weapon and misc. player sound effects:
-Stachekip
-Omniary
 Cazsu
 Lena
+Omniary
+Stachekip
 
 Viewmodel rigging and animations:
-N-Cognito - Mercenary First Person Animations
-Coolchou Zhao - Mercenary First Person Animations
+Coolchou Zhao - Mercenary First-Person Animations
 Ficool2 - C_Arm Conversions, Animation Fixes, New Mercenary Gloves, Thirdperson Mercenary animations
 Hex - Railgun fire & Charge animation, GIB animations
 KaydemonLP - Concept Animation
+N-Cognito - Mercenary First-Person Animations
 
 Character concept art and models:
 Alaxe - New Mercenary model and textures
-DrPyspy - Mercenary Model and Concept Art, Early Civilian concept
+Cherry!
 Drew - TFC Spy Model
+DrPyspy - Mercenary Model and Concept Art, Early Civilian concept
 Lena - TFC Soldier Head Concept
 Square
 Swanky Swaggernaut
-Cherry!
 
 Weapon and cosmetic concepts and modelling:
-Ficool2
-DrPyspy
 Batandy - Tommy Gun
-Suomimies55
-Gibus Cat
-Stachekip
 Drew
+DrPyspy
 Extra Ram
-Skerion - GIB
-Overpowered
+Ficool2
+Gibus Cat
 iiboharz - Hardhat
+Overpowered
+Skerion - GIB
+Stachekip
+Suomimies55
 
 Prop and scenery Models & Textures:
 Boomsta - Vending Machines, Pickup Truck, Cheese Shop Props & Misc
 ChargingTurnip - Barrel, Generator props, Loaded Crate, Beetle car, Pig, Chair, Desk
-Ficool2 - Couch
-NoNotTheMemes - Couch
-KaydemonLP - SkateBoard
-Suomimies55 - SkateBoard Textures
-Richter - Office Textures, Yoda Spray
 Denied - Powerup sprays
-Krazy - Vehicles, Dock assets
 dot.ICO
-Urban - Industrial Signs
+Ficool2 - Couch
 iiboharz - Spillway props and textures
+KaydemonLP - SkateBoard
+Krazy - Vehicles, Dock assets
+NoNotTheMemes - Couch
+Richter - Office Textures, Yoda Spray
+Suomimies55 - SkateBoard Textures
+Urban - Industrial Signs
 
 Placeholder TFC Model Ports:
 Ficool2
@@ -118,140 +120,141 @@ KaydemonLP - Lightning Gun Particles/BFG Smoke and flame particles
 Yrrzy - Spillway Particles
 
 Menu and promotional art:
+Blamo
+Cherry!
+Denied
 Gibus Cat
 iiboharz
-Blamo
-Denied
-Cherry!
 
 Main Menu UI Design:
-KaydemonLP - Original Main Menu & Loading Screen Overhaul, Loadout Screen
-Chris & PacMania - Font fixes, Main Menu Font Changes, Options Menu Fixes
-Ficool2 - Xbox 360 UI port
-Doomgal - Xbox 360 UI banner
 Cherry!
+Chris & PacMania - Font fixes, Main Menu Font Changes, Options Menu Fixes
+Doomgal - Xbox 360 UI banner
+Ficool2 - Xbox 360 UI port
+KaydemonLP - Original Main Menu & Loading Screen Overhaul, Loadout Screen
 
 In Game HUD Elements:
-KaydemonLP - DM & Bomb Defusal Hud
-Chris - Polishing and fixes
-Ficool2 - Invade Gamemode
-Cbkl - Hud fixes and updates, New DM kills Hud
 Blamo, Cazsu, Drew - Mercenary & Zombie class portraits
-dot.ICO - Juggernaut and Civilian icons
+Cbkl - Hud fixes and updates, New DM kills Hud
 ChargingTurnip - Loading screen background
+Chris - Polishing and fixes
+dot.ICO - Juggernaut and Civilian icons
+Ficool2 - Invade Gamemode
 Igarni - Loading screen background
+KaydemonLP - DM & Bomb Defusal Hud
 
 Valve.bik Intro:
 Cazsu
-MrModez
 Cherry!
+MrModez
 
 Alpha/Beta Stamp Design for Logo:
-Harry Skingle
 Cherry!
+Harry Skingle
 
 Logo and Icon designs:
-KaydemonLP
 Cherry!
+KaydemonLP
 
 Ambient sounds:
 Omniary (Wiseau)
 
 Music:
-Magnus
-MrModez
-Thoopje
 Cazsu
-Withered Rose
 Lena
-Ranzki
 Mace
+Magnus
 Mattie Konig
+MrModez
+Ranzki
+Thoopje
+Withered Rose
 
 www.openfortress.fun website:
-EmNudge
 AgitationSkeleton (Placeholder Site)
-Nbc66 (Placeholder Site)
-Nopey Nope (Placeholder Site)
+EmNudge
 Gibus Cat & Blamo - Merc Renders & Promo Art
 Harry Skingle
+Nbc66 (Placeholder Site)
+Nopey Nope (Placeholder Site)
 
 Maps:
-Hambooga - The Bad Place, The Longest Yard, Aerowalk original Blockout
-DrPyspy - Blood Run, Parley, Push
 AgitationSkeleton - House of Chthon, The Bad Place, The Dark Zone, Dead Simple, Overkill, Xpress3, Shortwave, Facing Worlds
-Fairweather - Pandora
-Suomimes55 - Congo, DM+CTF Backfort, Boxy, Weapon devtest map, Knoxx, DM Minecraft, DM Bricks
-Ficool2 - DM Lumberyard, DM Minecraft, DM Bricks, DM CS1.6 Mansion, Weapon devtest map
-MacD11 - Wiseau, Range, Dead Simple, Grain, Offblast
-KayDemonLP - DM Harvest, Devtest maps
-Lena - Cargo, Dark Zone, DM Chestnut
-Phe - DM Chestnut
-Boomsta - Sawdust
-Gibus Cat - Indev DM_2Fort
 Bakscratch - DM Watergate, Skate, Bailey, gump, pitod, longestyard, overkill
-PigPig - Knoxx
-Hex - Skate, Lobster Shore, Knoxx
-iiboharz - Wiseau, DM 2Fort, DM Ravine, DM Offblast
-Spipper - CTF Redplanet
-Muddy - Grain
-HQDefault - Blood Covenant
+Boomsta - Sawdust
 Charging Turnip - Badworks
-Suzie🕷Scattersilk - The Badplace new Artpass
-Ruby - duel_aerowalk artpass
 dot.ICO
-White Russian Bear
+DrPyspy - Blood Run, Parley, Push
+Fairweather - Pandora
+Ficool2 - DM Lumberyard, DM Minecraft, DM Bricks, DM CS1.6 Mansion, Weapon devtest map
+Gibus Cat - Indev DM_2Fort
+Hambooga - The Bad Place, The Longest Yard, Aerowalk original Blockout
+Hex - Skate, Lobster Shore, Knoxx
+HQDefault - Blood Covenant
+iiboharz - Wiseau, DM 2Fort, DM Ravine, DM Offblast
+KayDemonLP - DM Harvest, Devtest maps
 Krazy - Overkill, Dock
-pont - Spillway, Spillway Event, Warhead, Cinque
+Lena - Cargo, Dark Zone, DM Chestnut
+MacD11 - Wiseau, Range, Dead Simple, Grain, Offblast
 Mattie Konig - DM Thames
+Muddy - Grain
+Phe - DM Chestnut
+PigPig - Knoxx
+pont - Spillway, Spillway Event, Warhead, Cinque
+Ruby - duel_aerowalk artpass
+Spipper - CTF Redplanet
+Suomimes55 - Congo, DM+CTF Backfort, Boxy, Weapon devtest map, Knoxx, DM Minecraft, DM Bricks
+Suzie🕷Scattersilk - The Badplace new Artpass
+White Russian Bear
 
 Third party Assets Used with permission:
-cp_alloy lava by Yrrzy
-Landfall Assets by Dr. Spud and Nineaxis
+Agent Gunn Shark by DatGmann
+Aquatic Pipes by FubarFX
 Borneo Assets by Heyo Cutino
 Cosmetic Set "Top Fragger" by Drew, Yikes, Makkon and Hotrod McCoolguy
+cp_alloy lava by Yrrzy
+Industrial lamp and striped windows by AsG_Alligator
+Landfall Assets by Dr. Spud and Nineaxis
+London pack assets - Cytosolic, FGD5, Izotope, Mattie Konig, Square, Stiffy360, Yacan1, VasyaTheWizard
 Train Models by Freyja
 Vickery Skybox by Nixon
-Aquatic Pipes by FubarFX
-Industrial lamp and striped windows by AsG_Alligator
-Agent Gunn Shark by DatGmann
-London pack assets - Cytosolic, FGD5, Izotope, Mattie Konig, Square, Stiffy360, Yacan1, VasyaTheWizard
 
 Open Fortress - List of community contributors:
 
-MegapiemanPHD - dm_deadlock
-Professor Pootis - dm_cloister
+Amy (@OctoGril1) - Female Merc design + Easter egg drawing on legacy
 comrade commie - dm_golddigger
-Holey - dm_bloodcovenant updates
-Nbc66 and PacMania67 - Final DM Scoreboard design
-Snowy Snowtime - Minimal Mode Fixes
 Derpster55 - Chainsaw, DM RL kill icons
-Sn-0W - Merc viewmodel cosmetic models
+Holey - dm_bloodcovenant updates
+Jan - Linux builds and fixes
+MegapiemanPHD - dm_deadlock
+Nbc66 and PacMania67 - Final DM Scoreboard design
+Nival, Arcus Merseneri and Amuno - Italian Translation
 Occune - Russian translation
+Private Polygon - Player Colored party hat
+Professor Pootis - dm_cloister
+Sn-0W - Merc viewmodel cosmetic models
+Snowy Snowtime - Minimal Mode Fixes
+Solar light - Hud Fixes
 Technochips - French translation
 The Engineer - Hungarian translation
-Nival, Arcus Merseneri and Amuno - Italian Translation
-Amy (@OctoGril1) - Female Merc design + Easter egg drawing on legacy
-Private Polygon - Player Colored party hat
-Jan - Linux builds and fixes
-Solar light - Hud Fixes
 White Russian Bear
 
 Open Fortress - Special thanks:
-TF2Vintage ( where the bots originally came from, with permission given from Deathreus to utilise them )
-Trotim (for helping KaydemonLP with programming)
-Nicknine (for the TF_Port SDK 2013 codebase)
-Saul Rennison (for proper dynamic shadows using the L4D method)
-Train (for helping with all language support)
-Ian "Idolon" Spadin (Arena Byre)
-The Jabroni Brawl 3 team (for Their Support and being a awesome mod)
-Obsidian Conflict team & Maestro Fénix (for the grappling hook stuff)
-Half Life 2 Comunity Edition ( for the original Alien Swarm UI port )
-tonysergi (for MP Gravity Gun carried objects fix and MP vehicle fix)
-Secobmod ( for Multiplayer AI fixes )
-Blixibon ( for Mapbase: better env_projectedtextures, more logic entities etc )
-TotallyMehis ( for clientside ragdoll cleanup fix )
-SuperBigBoy (food)
+Blixibon (for Mapbase: better env_projectedtextures, more logic entities etc)
 EArkham (permission to use sky_outpost_01)
-Krazy (for Doublecross Snow roof models)
 Eyedol9000 - Preparing ArenaMaster, WillFromAfar and Merasmus announcers for game use by setting up the scripts
+Half Life 2 Comunity Edition (for the original Alien Swarm UI port)
+Ian "Idolon" Spadin (Arena Byre)
+Krazy (for Doublecross Snow roof models)
+Nicknine (for the TF_Port SDK 2013 codebase)
+Obsidian Conflict team & Maestro Fénix (for the grappling hook stuff)
+Saul Rennison (for proper dynamic shadows using the L4D method)
+Secobmod (for Multiplayer AI fixes)
+SuperBigBoy (food)
+TF2Vintage (where the bots originally came from, with permission given from Deathreus to utilise them)
+The Jabroni Brawl 3 team (for Their Support and being an awesome mod)
+tonysergi (for MP Gravity Gun carried objects fix and MP vehicle fix)
+TotallyMehis (for clientside ragdoll cleanup fix)
+Train (for helping with all language support)
+Trotim (for helping KaydemonLP with programming)
+

@@ -61,10 +61,14 @@
 //DeathmatchMusic.Just_Around_The_Corner
 //DeathmatchMusic.FromTheDead
 //DeathmatchMusic.Badworks
+//DeathmatchMusic.Badworks_Intro
 //DeathmatchMusic.Badworks_Waiting
 //DeathmatchMusic.DrawnAndQuartered
 //DeathmatchMusic.DrawnAndQuarteredIntro
 //DeathmatchMusic.DrawnAndQuarteredOutro
+//DeathmatchMusic.TurFunk
+//DeathmatchMusic.TurFunk_Intro
+//DeathmatchMusic.TurFunk_WaitingForPlayers
 
 
 //By MrModez
@@ -1006,4 +1010,39 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/drawnandquartered_outro.ogg"
+}
+
+//by ChargingTurnip, Magnus, and 2P
+"DeathmatchMusic.TurFunk"
+{
+	"Artist"		"ChargingTurnip, Magnus, and 2P"
+	"Name"			"TurFunk"
+
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/TurFunk_Loop.ogg"
+
+	"intro"			"DeathmatchMusic.TurFunkIntro"
+}
+
+//by ChargingTurnip and Magnus
+"DeathmatchMusic.TurFunkIntro"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/TurFunk_Intro.ogg"
+}
+
+//by Magnus
+"DeathmatchMusic.TurFunk_WaitingForPlayers"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/TurFunk_WaitingForPlayers.ogg"
 }

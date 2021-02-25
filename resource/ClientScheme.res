@@ -1006,7 +1006,7 @@ Scheme
 			"1"
 			{
 				"name"		"Staatliches"
-				"tall"		"25"
+				"tall"		"60"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
