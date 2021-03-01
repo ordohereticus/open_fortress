@@ -1554,7 +1554,7 @@
 				"secondary_ammo"		"None"
 
 				// bucket.
-				"bucket"		"2"
+				"bucket"		"0"
 				"bucket_position"	"0"
 				
 				// bucket_dms.	
