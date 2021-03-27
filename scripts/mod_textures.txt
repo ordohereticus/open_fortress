@@ -391,14 +391,14 @@
 				"width"		"96"
 				"height"	"32"
 		}
-		"rocketlauncher"
+		"tf_projectile_rocket"
 		{
-				"dfile"	"HUD/d_images_of"
-				"dnegfile"	"HUD/dneg_images_of"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"0"
-				"y"		"459"
-				"width"		"113"
-				"height"	"33"
+				"y"		"224"
+				"width"		"96"
+				"height"	"32"
 		}
 		"shotgun"
 		{
@@ -3575,6 +3575,15 @@
 				"height"	"32"
 		}
 // open fortress
+		"rocketlauncher"
+		{
+				"dfile"	"HUD/d_images_of"
+				"dnegfile"	"HUD/dneg_images_of"
+				"x"		"0"
+				"y"		"459"
+				"width"		"113"
+				"height"	"33"
+		}
 		"crowbar"
 		{
 				"dfile"	"HUD/d_images_of"
@@ -3620,24 +3629,6 @@
 				"width"		"80"
 				"height"	"34"
 		}
-		"sword"
-		{
-				"dfile"	"HUD/d_images_of"
-				"dnegfile" "HUD/dneg_images_of"
-				"x"		"0"
-				"y"		"222"
-				"width"		"64"
-				"height"	"34"
-		}
-		"physcannon"
-		{
-				"dfile"	"HUD/d_images_of"
-				"dnegfile" "HUD/dneg_images_of"
-				"x"		"0"
-				"y"		"189"
-				"width"		"126"
-				"height"	"33"
-		}
 		"prop_physics"
 		{
 				"dfile"	"HUD/d_images_of"
@@ -3671,7 +3662,7 @@
 				"dnegfile"	"HUD/dneg_images_of"		
 				"x"		"65"
 				"y"		"226"
-				"width"		"46"
+				"width"		"57"
 				"height"	"28"
 		}
 		"npc_zombie"
@@ -3680,7 +3671,7 @@
 				"dnegfile"	"HUD/dneg_images_of"		
 				"x"		"65"
 				"y"		"226"
-				"width"		"46"
+				"width"		"57"
 				"height"	"28"
 		}
 		"pistol_mercenary"
@@ -3746,24 +3737,6 @@
 				"width"		"58"
 				"height"	"35"
 		}
-		"tripmine"
-		{
-				"dfile"	"HUD/d_images_of"
-				"dnegfile" "HUD/dneg_images_of"
-				"x"		"190"
-				"y"		"132"
-				"width"		"60"
-				"height"	"32"
-		}
-		"tripmine_placed"
-		{
-				"dfile"	"HUD/d_images_of"
-				"dnegfile" "HUD/dneg_images_of"
-				"x"		"190"
-				"y"		"132"
-				"width"		"60"
-				"height"	"32"
-		}
 		"super_rocketlauncher"
 		{
 				"dfile"	"HUD/d_images_of"
@@ -3822,9 +3795,9 @@
 		{
 				"dfile"	"HUD/d_images_of"
 				"dnegfile" "HUD/dneg_images_of"
-				"x"		"344"
+				"x"		"334"
 				"y"		"99"
-				"width"		"133"
+				"width"		"143"
 				"height"	"35"
 		}
 		"tf_projectile_rocket_super"
@@ -3871,6 +3844,15 @@
 				"y"		"448"
 				"width"		"65"
 				"height"	"35"
+		}
+		"tripmine"
+		{
+				"dfile"	"HUD/d_images_of"
+				"dnegfile" "HUD/dneg_images_of"
+				"x"		"0"
+				"y"		"492"
+				"width"		"135"
+				"height"	"32"
 		}
 		"tf_projectile_bouncyrocket"
 		{
@@ -4056,10 +4038,10 @@
 		{
 				"dfile"	"HUD/d_images_of"
 				"dnegfile" "HUD/dneg_images_of"
-				"x"		"170"
-				"y"		"385"
-				"width"		"122"
-				"height"	"32"
+				"x"		"126"
+				"y"		"31"
+				"width"		"85"
+				"height"	"38"
 		}
 		"tfc_weapon_wrench"
 		{
@@ -4087,6 +4069,15 @@
 				"y"		"384"
 				"width"		"75"
 				"height"	"32"
+		}
+		"poison"
+		{
+				"dfile"	"HUD/d_images_of"
+				"dnegfile" "HUD/dneg_images_of"
+				"x"		"127"
+				"y"		"164"
+				"width"		"58"
+				"height"	"38"
 		}
 		"obj_sentrygun_tfc"
 		{
@@ -4317,45 +4308,45 @@
 		{
 				"dfile"	"HUD/d_images_of"
 				"dnegfile" "HUD/dneg_images_of"
-				"x"		"195"
+				"x"		"201"
 				"y"		"209"
-				"width"		"63"
+				"width"		"51"
 				"height"	"47"
 		}
 		"trigger_teleport"
 		{
 				"dfile"	"HUD/d_images_of"
 				"dnegfile" "HUD/dneg_images_of"
-				"x"		"195"
+				"x"		"201"
 				"y"		"209"
-				"width"		"63"
+				"width"		"51"
 				"height"	"47"
 		}
 		"info_player_teamspawn"
 		{
 				"dfile"	"HUD/d_images_of"
 				"dnegfile" "HUD/dneg_images_of"
-				"x"		"195"
+				"x"		"201"
 				"y"		"209"
-				"width"		"63"
+				"width"		"51"
 				"height"	"47"
 		}
 		"info_player_deathmatch"
 		{
 				"dfile"	"HUD/d_images_of"
 				"dnegfile" "HUD/dneg_images_of"
-				"x"		"195"
+				"x"		"201"
 				"y"		"209"
-				"width"		"63"
+				"width"		"51"
 				"height"	"47"
 		}
 		"info_player_start"
 		{
 				"dfile"	"HUD/d_images_of"
 				"dnegfile" "HUD/dneg_images_of"
-				"x"		"195"
+				"x"		"201"
 				"y"		"209"
-				"width"		"63"
+				"width"		"51"
 				"height"	"47"
 		}
 		"crocodile"

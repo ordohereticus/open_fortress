@@ -27,6 +27,7 @@ WeaponData
 	"AfterBurnDuration"	    "6.0"
 	
 	"ProjectileType"	"projectile_incendrocket"
+	"ProjectileSpeed"	"1100"
 	"HasTeamSkins_Viewmodel"			"1"
 	"HasTeamSkins_Worldmodel"			"1"
 

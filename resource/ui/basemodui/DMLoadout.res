@@ -1329,7 +1329,7 @@
 			"skin"		"4"
 
 			"angles_x" "0"
-			"angles_y" "210"
+			"angles_y" "180"
 			"angles_z" "0"
 			"origin_x" "500" //500
 			"origin_y" "65"

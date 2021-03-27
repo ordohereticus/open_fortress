@@ -1304,6 +1304,7 @@
 				"clip_size"		"4"
 				"default_clip"		"4"
 				"ProjectileType"	"projectile_bouncyrocket"
+				"ProjectileSpeed"	"750"
 				"MaxAmmo"	"16"
 				
 				// bucket
@@ -1554,7 +1555,7 @@
 				"secondary_ammo"		"None"
 
 				// bucket.
-				"bucket"		"0"
+				"bucket"		"2"
 				"bucket_position"	"0"
 				
 				// bucket_dms.	
@@ -1792,6 +1793,7 @@
 				"secondary_ammo"	"None"
 				clip_size		-1
 				"ProjectileType"	"projectile_pipe"
+				"ProjectileSpeed"	"900"
 				"MaxAmmo"	"3"
 
 				// bucket.	
@@ -2165,6 +2167,7 @@
 				"BrassModel"		"models/weapons/shells/shell_minigun.mdl"
 				"UseRapidFireCrits"	"1"
 				"TracerEffect"		"bullet_tracer01"
+				"TracerFrequency"	"4"
 				"HasTeamSkins_Viewmodel"			"1"
 				"HasTeamSkins_Worldmodel"			"1"
 				"NoFixedSpread"		"1"
@@ -2312,6 +2315,7 @@
 				"clip_size"		"4"
 				"default_clip"		"4"
 				"ProjectileType"	"projectile_pipe_dm"
+				"ProjectileSpeed"	"1200"
 				"MaxAmmo"	"16"
 
 				// bucket
@@ -3303,6 +3307,7 @@
 				"HasTeamSkins_Viewmodel"			"1"
 				"HasTeamSkins_Worldmodel"			"1"
 				"TracerEffect"		"railgun_tracer01"
+				"TracerFrequency"	"1"
 				
 				"DoInstantEjectBrass"	"0"
 				"NoSniperCharge"		"1"
@@ -3426,6 +3431,7 @@
 				"HasTeamSkins_Viewmodel"			"1"
 				"HasTeamSkins_Worldmodel"			"1"
 				"TracerEffect"		"railgun_tracer01"
+				"TracerFrequency"	"1"
 				
 				"DoInstantEjectBrass"	"0"
 				"NoSniperCharge"		"1"
@@ -3689,6 +3695,7 @@
 				"MaxAmmo"	"16"
 				
 				"ProjectileType"	"projectile_rocket"
+				"ProjectileSpeed"	"1100"
 				"HasTeamSkins_Viewmodel"			"1"
 				"HasTeamSkins_Worldmodel"			"1"
 
@@ -4461,6 +4468,256 @@
 					}
 				}
 			}
+		}
+		
+		"tf_weapon_test"
+		{
+			"weapon_class"	"tf_weapon_tommygun"
+			
+			"attributes"
+			{
+				"damage multiplier"
+				{
+					"value"	"50"
+				}
+			}
+			
+			"WeaponData"
+			{
+				// Attributes Base.
+				"printname"		"This is a Very rad weapon"
+				"BuiltRightHanded"	"0"
+				"weight"		"2"
+				"WeaponType"		"secondary"
+				"ITEM_FLAG_NOITEMPICKUP" 	"1"
+					
+				// Attributes TF.
+				"Damage"		"1"
+				"InstagibDamage"	"999"
+				"Range"			"8192"
+				"Spread"		"0.03"
+				"TimeIdleEmpty"		"1.0"
+				"TimeIdle"		"10.0"
+				"TimeFireDelay"		"0.25"
+				"TimeReload"	"0.5"
+				"ProjectileType"	"projectile_rocket"
+				"BrassModel"		"models/weapons/shells/shell_pistol.mdl"
+				"UseRapidFireCrits"	"1"
+				"HasTeamSkins_Viewmodel"			"1"
+				"HasTeamSkins_Worldmodel"			"1"
+				"CanHeadshot"			"1"
+				"ReloadTypeOverride"	"1"
+				"BulletsPerShot"		"4"
+				
+				"muzzleflashtexture" "effects/muzzleflash_light"
+
+				// Ammo & Clip.
+				"primary_ammo"		"WEAPON_AMMO"
+				"secondary_ammo"	"None"
+				"clip_size"		"5"
+				"default_clip"		"5"
+				"MaxAmmo"	"15"
+
+				// bucket.	
+				"bucket"			"1"
+				"bucket_position"		"0"
+				
+				// bucket_dms.
+				"bucket_dm"		"3"
+				"bucket_dm_position"	"6" //NOTE: This is 2 AFTER it's "actual" position. "Fixes" a bug involving the sapper and non-Spy classes in DM.
+				"TracerEffect"		"bullet_pistol_tracer01"
+
+
+				// Muzzleflash
+				"MuzzleFlashModel"	"models/effects/sentry1_muzzle/sentry1_muzzle.mdl"
+				"MuzzleFlashModelDuration"	"0.12"
+				"MuzzleFlashParticleEffect" "muzzle_smg"
+
+				// Animation.
+				"viewmodel"		"models/weapons/v_models/v_tommygun_merc.mdl"
+				"playermodel"	"models/weapons/w_models/w_tommygun.mdl"
+				"anim_prefix"	"ac"
+				
+				"CenteredViewmodelAngle_Y" "0.35"
+				"CenteredViewmodelOffset_Y" "-7.3"
+				"CenteredViewmodelOffset_Z" "1"
+				
+				"MinViewmodelOffset_X" "10"
+				"MinViewmodelOffset_Y" "0"
+				"MinViewmodelOffset_Z" "-6"
+
+				// Sounds.
+				// Max of 16 per category (ie. max 16 "single_shot" sounds).
+				SoundData
+				{
+					"reload"		"Weapon_SMG.WorldReload"
+					"empty"			"Weapon_SMG.ClipEmpty"	
+					"single_shot"		"Weapon_Tommygun.Single"
+					"burst"			"Weapon_Tommygun.SingleCrit"
+				}
+
+				// Weapon Sprite data is loaded by the Client DLL.
+				"TextureData"
+				{
+					"weapon"
+					{
+							"file"		"sprites/betabucket/bucket_beta_tommygun"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"weapon_s"
+					{	
+							"file"		"sprites/betabucket/bucket_beta_tommygun"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"weapon_t"
+					{	
+							"file"		"sprites/betabucket/bucket_beta_tommygun"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"ammo"
+					{
+							"file"		"sprites/a_icons1"
+							"x"			"55"
+							"y"			"60"
+							"width"		"73"
+							"height"	"15"
+					}
+					"crosshair"
+					{
+							"file"		"sprites/crosshairs"
+							"x"			"0"
+							"y"			"0"
+							"width"		"32"
+							"height"	"32"
+					}
+					"autoaim"
+					{
+							"file"		"sprites/crosshairs"
+							"x"			"0"
+							"y"			"48"
+							"width"		"24"
+							"height"	"24"
+					}
+				}
+			}
+		}
+	}
+	
+	"attributes"
+	{
+		// Just example Attribute
+		"1"
+		{
+			"name"	"damage multiplier"
+		}
+		"2"
+		{
+			"name"	"set damage"
+		}
+		"3"
+		{
+			"name"	"clip size multiplier"
+		}
+		"4"
+		{
+			"name"	"set clip size"
+		}
+		"5"
+		{
+			"name"	"fire rate multiplier"
+		}
+		"6"
+		{
+			"name"	"set fire rate"
+		}
+		"7"
+		{
+			"name"	"bullets per shot multiplier"
+		}
+		"8"
+		{
+			"name"	"set bullets per shot"
+		}
+		"9"
+		{
+			"name"	"reload time multiplier"
+		}
+		"10"
+		{
+			"name"	"set reload time"
+		}	
+		"11"
+		{
+			"name"	"burst delay multiplier"
+		}
+		"12"
+		{
+			"name"	"set burst delay"
+		}
+		"13"
+		{
+			"name"	"blast radius multiplier"
+		}
+		"14"
+		{
+			"name"	"set blast radius"
+		}
+		"15"
+		{
+			"name"	"override projectile type"
+		}
+		"16"
+		{
+			"name"	"override reload type"
+		}
+		"17"
+		{
+			"name"	"set loads manually"
+		}
+		"18"
+		{
+			"name"	"burst size multiplier"
+		}
+		"19"
+		{
+			"name"	"set burst size"
+		}
+		"20"
+		{
+			"name"	"set can headshot"
+		}
+		"21"
+		{
+			"name"	"spread multiplier"
+		}
+		"22"
+		{
+			"name"	"set spread"
+		}
+		"23"
+		{
+			"name"	"projectile speed multiplier"
+		}
+		"24"
+		{
+			"name"	"set projectile speed"
+		}
+		"25"
+		{
+			"name"	"reserve ammo multiplier"
+		}
+		"26"
+		{
+			"name"	"set reserve ammo"
 		}
 	}
 }

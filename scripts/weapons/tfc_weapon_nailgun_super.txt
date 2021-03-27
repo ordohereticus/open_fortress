@@ -15,6 +15,7 @@ WeaponData
 	"TimeFireDelay"		"0.115"
 	"UseRapidFireCrits"	"1"
 	"ProjectileType"	"projectile_nail"
+	"ProjectileSpeed"	"1000"
 	"HasTeamSkins_Worldmodel"	"1"
 	"HasTeamSkins_Viewmodel"		"1"
 

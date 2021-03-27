@@ -32,6 +32,7 @@ WeaponData
 	default_clip		-1
 	"MaxAmmo"	"25"
 	"ProjectileType"	"projectile_tranq"
+	"ProjectileSpeed"	"1000"
 	
 	// bucket.	
 	"bucket"			"1"

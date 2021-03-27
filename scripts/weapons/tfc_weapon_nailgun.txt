@@ -15,6 +15,7 @@ WeaponData
 	"Spread"		"1.5"
 	"TimeFireDelay"		"0.1"
 	"ProjectileType"	"projectile_syringe"
+	"ProjectileSpeed"	"1000"
 	"HasTeamSkins_Viewmodel"		"1"
 	"UseRapidFireCrits"	"1"
 	"HasTeamSkins_Worldmodel"	"1"

@@ -18,6 +18,7 @@ WeaponData
 	"BrassModel"		"models/weapons/shells/shell_minigun.mdl"
 	"UseRapidFireCrits"	"1"
 	"TracerEffect"		"bullet_tracer01"
+	"TracerFrequency"	"4"
 	"HasTeamSkins_Viewmodel"			"1"
 	"HasTeamSkins_Worldmodel"			"1"
 	"NoFixedSpread"		"1"

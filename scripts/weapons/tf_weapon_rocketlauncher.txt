@@ -25,6 +25,7 @@ WeaponData
 	"MaxAmmo"	"20"
 	
 	"ProjectileType"	"projectile_rocket"
+	"ProjectileSpeed"	"1100"
 	"HasTeamSkins_Viewmodel"			"1"
 	"HasTeamSkins_Worldmodel"			"1"
 

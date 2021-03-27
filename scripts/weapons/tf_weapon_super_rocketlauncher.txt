@@ -26,6 +26,7 @@ WeaponData
 	"default_clip"		"4"
 	"MaxAmmo"	"16"
 	"ProjectileType"	"projectile_rocket"
+	"ProjectileSpeed"	"1100"
 	"HasTeamSkins_Viewmodel"			"1"
 	"HasTeamSkins_Worldmodel"			"1"
 	"PickupMultiplier"	"0"

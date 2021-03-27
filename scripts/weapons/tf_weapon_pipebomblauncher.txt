@@ -29,6 +29,7 @@ WeaponData
 	"clip_size"		"8"
 	"default_clip"		"8"
 	"ProjectileType"	"projectile_pipe_remote"
+	"ProjectileSpeed"	"900"
 	"MaxAmmo"	"24"
 
 	// bucket.	

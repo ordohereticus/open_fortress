@@ -1,8 +1,0 @@
-"vertexlitgeneric"
-{
-	"$basetexture" "metal/wall011g"
-	"$bumpmap" "metal/wall011_bump-ssbump"
-
-	"$surfaceprop" "metal"
-	"%keywords" "tf"
-}

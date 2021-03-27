@@ -46,6 +46,7 @@ WeaponData
 	"MuzzleFlashParticleEffect" "mlg_muzzleflash"
 	
 	"ProjectileType"	"projectile_coom"
+	"ProjectileSpeed"	"1100"
 	"HasTeamSkins_Viewmodel"			"1"
 	"HasTeamSkins_Worldmodel"			"1"
 
