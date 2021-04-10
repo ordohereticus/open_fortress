@@ -27,7 +27,6 @@ dm_warhead
 dm_watchtower
 dm_watergate
 dm_wiseau
-
 dm_bloodrun_dev
 dm_cargo_dev
 dm_cinque_dev
@@ -35,4 +34,3 @@ dm_control_dev
 dm_ledge_dev
 dm_siberia_dev
 dm_wushu_dev
-dm_drude_dev
