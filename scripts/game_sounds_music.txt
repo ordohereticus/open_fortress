@@ -60,15 +60,28 @@
 //DeathmatchMusic.LessTalkMoreFight
 //DeathmatchMusic.Just_Around_The_Corner
 //DeathmatchMusic.FromTheDead
+//DeathmatchMusic.FromTheDeadIntro
+//DeathmatchMusic.FromTheDeadEnding
+//DeathmatchMusic.FromTheDead_Waiting
 //DeathmatchMusic.Badworks
 //DeathmatchMusic.Badworks_Intro
+//DeathmatchMusic.Badworks_Ending
 //DeathmatchMusic.Badworks_Waiting
+//DeathmatchMusic.BadworksBmix
+//DeathmatchMusic.BadworksBmix_Intro
+//DeathmatchMusic.BadworksBmix_Ending
+//DeathmatchMusic.BadworksBmix_Waiting
 //DeathmatchMusic.DrawnAndQuartered
 //DeathmatchMusic.DrawnAndQuarteredIntro
 //DeathmatchMusic.DrawnAndQuarteredOutro
 //DeathmatchMusic.TurFunk
 //DeathmatchMusic.TurFunk_Intro
+//DeathmatchMusic.TurFunk_Ending
 //DeathmatchMusic.TurFunk_WaitingForPlayers
+//DeathmatchMusic.Discontech
+//DeathmatchMusic.Discontech_Waiting
+//DeathmatchMusic.Discontech_Intro
+//DeathmatchMusic.Discontech_Ending
 
 
 //By MrModez
@@ -278,6 +291,8 @@
 //	"soundlevel"	"SNDLVL_NONE"
 //	"wave"			"#music/deathmatch/intermission_ending.ogg"
 //}
+
+// ^ Why was this removed? Seems like it could have been a neat extra track for custom maps to use. - Turnip
 
 //By Magnus
 "DeathmatchMusic.E2M1"
@@ -929,6 +944,17 @@
 	"wave"			"#music/deathmatch/FromTheDead.ogg"
 
 	"intro"			"DeathmatchMusic.FromTheDeadIntro"
+	"outro"			"DeathmatchMusic.FromTheDeadEnding"
+}
+
+//by ChargingTurnip
+"DeathmatchMusic.FromTheDeadWaiting"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/FromTheDead_waiting.ogg"
 }
 
 //by ChargingTurnip
@@ -939,6 +965,16 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/FromTheDead_intro.ogg"
+}
+
+//by ChargingTurnip
+"DeathmatchMusic.FromTheDeadEnding"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/FromTheDead_ending.ogg"
 }
 
 //by ChargingTurnip
@@ -954,6 +990,7 @@
 	"wave"			"#music/deathmatch/badworks_loop.ogg"
 
 	"intro"			"DeathmatchMusic.BadworksIntro"
+	"outro"			"DeathmatchMusic.BadworksEnding"
 }
 
 //by ChargingTurnip
@@ -964,6 +1001,16 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/badworks_intro.ogg"
+}
+
+//by ChargingTurnip
+"DeathmatchMusic.BadworksEnding"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/badworks_ending.ogg"
 }
 
 //by ChargingTurnip
@@ -1025,6 +1072,7 @@
 	"wave"			"#music/deathmatch/TurFunk_Loop.ogg"
 
 	"intro"			"DeathmatchMusic.TurFunkIntro"
+	"outro"			"DeathmatchMusic.TurFunkEnding"
 }
 
 //by ChargingTurnip and Magnus
@@ -1037,6 +1085,16 @@
 	"wave"			"#music/deathmatch/TurFunk_Intro.ogg"
 }
 
+//by ChargingTurnip and Magnus
+"DeathmatchMusic.TurFunkEnding"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/TurFunk_Ending.ogg"
+}
+
 //by Magnus
 "DeathmatchMusic.TurFunk_WaitingForPlayers"
 {
@@ -1045,4 +1103,101 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/TurFunk_WaitingForPlayers.ogg"
+}
+
+//by ChargingTurnip
+"DeathmatchMusic.Discontech"
+{
+	"Artist"		"ChargingTurnip"
+	"Name"			"Discontech"
+
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/discontech_loop.ogg"
+	
+	"intro"			"DeathmatchMusic.Discontech_Intro"
+	"outro"			"DeathmatchMusic.Discontech_Ending"
+}
+
+
+//by ChargingTurnip
+"DeathmatchMusic.Discontech_Intro"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"	"SNDLVL_140dB"
+	"pitch"			"PITCH_NORM"
+	"wave"			"#music/deathmatch/discontech_intro.ogg"
+}
+
+//by ChargingTurnip
+"DeathmatchMusic.Discontech_Ending"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/discontech_chicken.ogg"
+}
+
+//by ChargingTurnip
+"DeathmatchMusic.Discontech_Waiting"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/discontech_waitingforchickenstoarrive.ogg"
+}
+
+//by cazsu and Withered Rose
+"DeathmatchMusic.ThePlainsurfersAnthem"
+{
+	"Artist"		"cazsu and Withered Rose"
+	"Name"			"The Plainsurfer's Anthem"
+
+	
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/ThePlainsurfersAnthem_loop.ogg"
+
+	"intro"			"DeathmatchMusic.ThePlainsurfersAnthem_intro"
+	"outro"			"DeathmatchMusic.ThePlainsurfersAnthem_ending"
+}
+
+//by cazsu and Withered Rose
+"DeathmatchMusic.ThePlainsurfersAnthem_intro"
+{
+
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/ThePlainsurfersAnthem_intro.ogg"
+}
+
+//by cazsu and Withered Rose
+"DeathmatchMusic.ThePlainsurfersAnthem_ending"
+{
+
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/ThePlainsurfersAnthem_ending.ogg"
+}
+
+//by cazsu and Withered Rose
+"DeathmatchMusic.ThePlainsurfersAnthem_waiting"
+{
+
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/ThePlainsurfersAnthem_waiting.ogg"
 }
