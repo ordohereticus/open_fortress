@@ -1721,7 +1721,6 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"0.35"
 	"soundlevel"	"SNDLVL_NORM"
-
 	"wave"		"weapons/pistol_clipin.wav"
 }
 
@@ -1730,7 +1729,6 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"0.35"
 	"soundlevel"	"SNDLVL_NORM"
-
 	"wave"		"weapons/pistol_clipout.wav"
 }
 
@@ -1739,7 +1737,6 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"1.0"
 	"soundlevel"	"SNDLVL_NORM"
-
 	"wave"		"weapons/pistol_slideback.wav"
 }
 
@@ -1748,7 +1745,6 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"1.0"
 	"soundlevel"	"SNDLVL_NORM"
-
 	"wave"		"weapons/pistol_slideforward.wav"
 }
 
@@ -1834,7 +1830,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"1.0"
 	"soundlevel"	"SNDLVL_NORM"
-
+	"pitch"		"98, 102"
 	"wave"		"weapons/pistol_clipin.wav"
 }
 
@@ -1843,7 +1839,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"1.0"
 	"soundlevel"	"SNDLVL_NORM"
-
+	"pitch"		"98, 102"
 	"wave"		"weapons/pistol_clipout.wav"
 }
 
@@ -1852,7 +1848,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"1.0"
 	"soundlevel"	"SNDLVL_NORM"
-
+	"pitch"		"98, 102"
 	"wave"		"weapons/pistol_slideback.wav"
 }
 
@@ -1861,7 +1857,7 @@
 	"channel"	"CHAN_STATIC"
 	"volume"	"1.0"
 	"soundlevel"	"SNDLVL_NORM"
-
+	"pitch"		"98, 102"
 	"wave"		"weapons/pistol_slideforward.wav"
 }
 

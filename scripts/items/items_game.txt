@@ -2042,7 +2042,7 @@
 				"DisableSecondaryAttack"			"1"
 
 				
-				"Secondary_TimeFireDelay"	"0"
+				"Secondary_TimeFireDelay"	"0.06"
 				"Secondary_AmmoPerShot"	    "20"
 				
 				// Ammo & Clip.
@@ -2947,6 +2947,7 @@
 				"UseRapidFireCrits"	"1"
 				"SwapFireAnims"		"1"
 				"TracerEffect"		"bullet_pistol_tracer01"
+				"TracerFrequency"	"1"
 
 				// Ammo & Clip.
 				"primary_ammo"		"WEAPON_AMMO"
@@ -3366,7 +3367,7 @@
 				"anim_prefix"		"gl"
 				
 				"CenteredViewmodelAngle_X" "0"
-				"CenteredViewmodelAngle_Y" "1"
+				"CenteredViewmodelAngle_Y" "0"
 				"CenteredViewmodelAngle_Z" "5"
 				"CenteredViewmodelOffset_X" "-3"
 				"CenteredViewmodelOffset_Y" "-11.5"
