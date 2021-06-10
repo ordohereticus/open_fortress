@@ -3,10 +3,10 @@ actor "Mercenary"
 {
   channel "body"
   {
-    event sequence "taunt06"
+    event sequence "taunt_bond"
     {
       time 0 3
-      param "taunt06"
+      param "taunt_bond"
     }
   }
 }
