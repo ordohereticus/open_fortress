@@ -1202,6 +1202,11 @@
 				"MinViewmodelOffset_Y" "0"
 				"MinViewmodelOffset_Z" "-7"
 
+				"MiniCenteredViewmodelOffset_Y" "-11.7"
+				"MiniCenteredViewmodelOffset_Z" "-9"
+				"MiniCenteredViewmodelOffset_X" "4"
+				"MiniCenteredViewmodelAngle_X" "-1"
+				"MiniCenteredViewmodelAngle_Y" "-2"
 
 				// Sounds.
 				// Max of 16 per category (ie. max 16 "single_shot" sounds).
@@ -1333,6 +1338,10 @@
 				"MinViewmodelOffset_Y" 			"0"
 				"MinViewmodelOffset_Z" 			"-10"	
 				
+				"MiniCenteredViewmodelOffset_X" 	"10"
+				"MiniCenteredViewmodelOffset_Y" 	"-11.5"
+				"MiniCenteredViewmodelOffset_Z" 	"-20"
+				
 				"playermodel"					"models/weapons/w_models/w_bouncer.mdl"
 				"anim_prefix"					"gl"
 
@@ -1404,6 +1413,123 @@
 			}
 		}
 		
+		"tf_weapon_berserk"
+		{
+			//"backpack_icon"	"..\sprites\bucket_bouncer"
+			"loadout_anim"	"15"
+			//"ShowInArsenal"	"1"
+			"WeaponData"
+			{
+				// Attributes Base.
+				"printname"			"#TF_Weapon_Berserk"
+				"BuiltRightHanded"		"0"
+				"MeleeWeapon"			"1"
+				"weight"			"1"
+				"WeaponType"			"melee"
+				"ITEM_FLAG_NOITEMPICKUP" 	"1"
+				"DontDrop"			"1"
+				
+				// Attributes TF.
+				"Damage"			"999"
+				"InstagibDamage"	"999"
+				"TimeFireDelay"			"0.4"
+				"TimeIdle"			"5.0"
+				"HasTeamSkins_Viewmodel"			"1"
+				"HasTeamSkins_Worldmodel"			"1"
+				"UsesCritAnimation"			"1"
+				"SwapFireAnims"		"1"
+				"HolyShit"	"1"
+				
+				"NeverStrip"		"1"
+
+				// Ammo & Clip
+				"primary_ammo"			"None"
+				"secondary_ammo"		"None"
+
+				// bucket.
+				"bucket"		"2"
+				"bucket_position"	"1"
+				
+				// bucket_dms.	
+				"bucket_dm"			"10"
+				"bucket_dm_position"		"10"
+
+				// Model & Animation
+				"viewmodel"			"models/weapons/v_models/v_berserk_merc.mdl"
+				"heavy_viewmodel"			"models/weapons/v_models/v_fist_heavy.mdl"
+				"playermodel"			""
+				"anim_prefix"			"pipe"
+				
+				"MinViewmodelOffset_X" "10"
+				"MinViewmodelOffset_Z" "-7"
+				
+				"MiniCenteredViewmodelOffset_X" "10"
+				"MiniCenteredViewmodelOffset_Z" "-7"
+
+				// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+				SoundData
+				{
+					"melee_miss"		"Weapon_Fist.Miss"
+					"melee_hit"		"Weapon_Fist.HitFlesh"
+					"melee_hit_world"	"Weapon_Fist.HitWorld"
+					"burst"			"Weapon_Fist.MissCrit"
+				}
+
+				// Weapon Sprite data is loaded by the Client DLL.
+				TextureData
+				{
+					"weapon"
+					{
+							"file"		"sprites/bucket_berserk_red"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"weapon_s"
+					{	
+							"file"		"sprites/bucket_berserk_blue"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"weapon_t"
+					{	
+							"file"		"sprites/bucket_berserk"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"ammo"
+					{
+							"file"		"sprites/a_icons1"
+							"x"		"55"
+							"y"		"60"
+							"width"		"73"
+							"height"	"15"
+					}
+					"crosshair"
+					{
+							"file"		"sprites/crosshairs"
+							"x"		"32"
+							"y"		"32"
+							"width"		"32"
+							"height"	"32"
+					}
+					"autoaim"
+					{
+							"file"		"sprites/crosshairs"
+							"x"		"0"
+							"y"		"48"
+							"width"		"24"
+							"height"	"24"
+					}
+				}
+			}
+		}
+		
 		"tf_weapon_crowbar"
 		{
 			"backpack_icon"	"..\sprites\bucket_crowbar"
@@ -1451,8 +1577,10 @@
 				"anim_prefix"			"bat"
 				
 				"MinViewmodelOffset_X" "10"
-				"MinViewmodelOffset_Y" "0"
 				"MinViewmodelOffset_Z" "-6"
+				
+				"MiniCenteredViewmodelOffset_X" "10"
+				"MiniCenteredViewmodelOffset_Z" "-6"
 
 				// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
 				SoundData
@@ -1568,8 +1696,10 @@
 				"anim_prefix"			"ac"
 				
 				"MinViewmodelOffset_X" "10"
-				"MinViewmodelOffset_Y" "0"
 				"MinViewmodelOffset_Z" "-12"
+				
+				"MiniCenteredViewmodelOffset_X" "10"
+				"MiniCenteredViewmodelOffset_Z" "-12"
 
 				// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
 				SoundData
@@ -1678,8 +1808,10 @@
 				"anim_prefix"			"knife"
 
 				"MinViewmodelOffset_X" "5"
-				"MinViewmodelOffset_Y" "0"
 				"MinViewmodelOffset_Z" "-4"
+				
+				"MiniCenteredViewmodelOffset_X" "5"
+				"MiniCenteredViewmodelOffset_Z" "-4"
 
 				// Sounds.
 				// Max of 16 per category (ie. max 16 "single_shot" sounds).
@@ -1779,6 +1911,7 @@
 				"ExplodeOnImpact"			"1"
 				"DisableSecondaryAttack"	"1"
 				"PickupMultiplier"	"1.7"
+				"IgnoreAmmoRatios"	"1"
 				
 				"DropBomblets"			"1"
 				"BombletAmount" 		"3"
@@ -1817,8 +1950,10 @@
 				"anim_prefix"			"bat"
 				
 				"MinViewmodelOffset_X" "8"
-				"MinViewmodelOffset_Y" "0"
 				"MinViewmodelOffset_Z" "-6"
+
+				"MiniCenteredViewmodelOffset_X" "8"
+				"MiniCenteredViewmodelOffset_Z" "-6"
 
 				// Sounds.
 				// Max of 16 per category (ie. max 16 "single_shot" sounds).
@@ -1942,6 +2077,12 @@
 				"MinViewmodelOffset_Y" "-4"
 				"MinViewmodelOffset_Z" "-10"
 				
+				"MiniCenteredViewmodelOffset_Y" "-8.05"
+				"MiniCenteredViewmodelOffset_X" "1"
+				"MiniCenteredViewmodelOffset_Z" "-10"
+				"MiniCenteredViewmodelAngle_Z" "2.3"
+				"MiniCenteredViewmodelAngle_Y" "-2"
+				"MiniCenteredViewmodelAngle_X" "-4"
 
 				// Muzzleflash
 				"MuzzleFlashModel"	"models/effects/sentry1_muzzle/sentry1_muzzle.mdl"
@@ -2071,6 +2212,11 @@
 				"MinViewmodelOffset_X" "10"
 				"MinViewmodelOffset_Y" "0"
 				"MinViewmodelOffset_Z" "-10"
+				
+				"MiniCenteredViewmodelOffset_Y" "-10.6"
+				"MiniCenteredViewmodelOffset_Z" "-12"
+				"MiniCenteredViewmodelAngle_Y" "-0.2"
+				"MiniCenteredViewmodelOffset_X" "10"
 
 				"HasTeamSkins_Worldmodel"	"1"
 
@@ -2208,6 +2354,14 @@
 				"MinViewmodelOffset_Y" "0"
 				"MinViewmodelOffset_Z" "-9"
 				
+				
+				"MiniCenteredViewmodelOffset_X" "-25"
+				"MiniCenteredViewmodelOffset_Y" "3.5"
+				"MiniCenteredViewmodelOffset_Z" "-1"
+				"MiniCenteredViewmodelAngle_Y" "1.2"
+				"MiniCenteredViewmodelAngle_Z" "24"
+				"MiniCenteredViewmodelAngle_X" "-1.5"
+				
 				// Sounds.
 				// Max of 16 per category (ie. max 16 "single_shot" sounds).
 				SoundData
@@ -2269,6 +2423,168 @@
 							"file"		"sprites/crosshairs"
 							"x"			"0"
 							"y"			"48"
+							"width"		"24"
+							"height"	"24"
+					}
+				}
+			}
+		}
+		
+		"tf_weapon_gib"
+		{
+			"WeaponData"
+			{
+				// Attributes Base.
+				"printname"		"#TF_Weapon_GIB"
+				"BuiltRightHanded"	"0"
+				"weight"		"2"
+				"WeaponType"		"secondary"
+				"ITEM_FLAG_NOITEMPICKUP" 	"1"
+				
+				// Primary Attributes.
+				"Damage"		"140"
+				"InstagibDamage"	"999"
+				"DamageRadius"		"250"
+				"Range"			"0"
+				"BulletsPerShot"	"1"
+				"Spread"		"0.0"
+				"PunchAngle"		"16"
+				"TimeFireDelay"		"1"
+				"TimeIdle"		"0.5"
+				"TimeIdleEmpty"		"0.5"
+				"TimeReload"		"0.8"
+				
+				"primary_ammo"		"WEAPON_AMMO"
+				clip_size		-1
+				default_clip		-1
+				"MaxAmmo"	"8"
+				
+				"WindupTime" "0.9"
+				"DropBomblets"	"1"
+				"BombletAmount" "6"
+				"PickupMultiplier"	"0"
+				
+				"DropBomblets"			"1"
+				"BombletAmount" 		"3"
+				"BombletDamage"			"45"
+				"BombletDamageRadius"	"124"
+				"BombletTimer"			"1"
+				"BombletImpact"			"1"
+				"BombletModel"			"models/weapons/w_models/w_bfg_bomblet.mdl"
+				"BombletParticleTrail"			"mlg_trail_secondary"
+				"BombletEffectTeamColored"	"1"
+				"AlwaysDrop"		"1"
+				"AppearOnBack"		"1"
+				
+				"DropOnNoAmmo"		"1"
+				
+				"TeamColorMuzzleFlash"	"1"
+				"MuzzleFlashParticleEffect" "mlg_muzzleflash"
+				
+				"ProjectileType"	"projectile_coom"
+				"ProjectileSpeed"	"1100"
+				"HasTeamSkins_Viewmodel"			"1"
+				"HasTeamSkins_Worldmodel"			"1"
+
+				// Secondary Attributes.
+				"secondary_ammo"	"None"
+
+				// bucket.	
+				"bucket"			"0"
+				"bucket_position"		"0"
+				
+				// bucket_dms.
+				"bucket_dm"		"7"
+				"bucket_dm_position"	"2"	
+
+				"ExplosionEffect"			"mlg_explosion_primary"
+				"ExplosionPlayerEffect"		"mlg_explosion_primary"
+				"ExplosionWaterEffect"		"mlg_explosion_primary"
+				
+				"ExplosionEffectBomblets"			"mlg_explosion_secondary"
+				"ExplosionPlayerEffectBomblets"		"mlg_explosion_secondary"
+				"ExplosionWaterEffectBomblets"		"mlg_explosion_secondary"	
+				
+				"TeamExplosion" "1"
+
+				"ExplosionSound"	"Weapon_MLG.Explode"
+
+				// Animation.
+				"viewmodel"		"models/weapons/v_models/v_bfg.mdl"
+				"playermodel"		"models/weapons/w_models/w_bfg.mdl"
+				"anim_prefix"		"ac"
+				
+				"CenteredViewmodelAngle_Y" "-2"
+				"CenteredViewmodelOffset_X" "-12"
+				"CenteredViewmodelOffset_Y" "-13.5"
+				"CenteredViewmodelOffset_Z" "-3"
+				
+				"MinViewmodelOffset_X" "10"
+				"MinViewmodelOffset_Y" "3"
+				"MinViewmodelOffset_Z" "-10"
+					
+				"MiniCenteredViewmodelAngle_Y" "-2"
+				"MiniCenteredViewmodelOffset_X" "-2"
+				"MiniCenteredViewmodelOffset_Y" "-13.5"
+				"MiniCenteredViewmodelOffset_Z" "-13"
+				
+				// Sounds.
+				// Max of 16 per category (ie. max 16 "single_shot" sounds).
+				SoundData
+				{
+					"single_shot"	"Weapon_MLG.Single"
+			//		"reload"		"Weapon_RPG.WorldReload"
+					"burst"			"Weapon_MLG.SingleCrit"	
+				}
+
+				// Weapon Sprite data is loaded by the Client DLL.
+				TextureData
+				{
+					"weapon"
+					{
+							"file"		"sprites/bucket_gib"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"weapon_s"
+					{	
+							"file"		"sprites/bucket_gib"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"weapon_t"
+					{	
+							"file"		"sprites/bucket_gib"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"ammo"
+					{
+							"file"		"sprites/a_icons1"
+							"x"		"55"
+							"y"		"60"
+							"width"		"73"
+							"height"	"15"
+					}
+					"crosshair"
+					{
+							"file"		"sprites/crosshairs"
+							"x"		"32"
+							"y"		"32"
+							"width"		"32"
+							"height"	"32"
+					}
+					"autoaim"
+					{
+							"file"		"sprites/crosshairs"
+							"x"		"0"
+							"y"		"48"
 							"width"		"24"
 							"height"	"24"
 					}
@@ -2348,6 +2664,11 @@
 				"MinViewmodelOffset_X" "10"
 				"MinViewmodelOffset_Y" "0"
 				"MinViewmodelOffset_Z" "-8"	
+				
+				"MiniCenteredViewmodelOffset_Y" "-10.7"
+				"MiniCenteredViewmodelOffset_X" "2"
+				"MiniCenteredViewmodelOffset_Z" "-14.5"
+				"MiniCenteredViewmodelAngle_X" "-2"	
 
 				// Muzzleflash
 				"MuzzleFlashParticleEffect" "muzzle_grenadelauncher"
@@ -2466,8 +2787,11 @@
 				"anim_prefix"			"pipe"
 
 				"MinViewmodelOffset_X" "15"
-				"MinViewmodelOffset_Y" "0"
 				"MinViewmodelOffset_Z" "-14"
+				
+				"MiniCenteredViewmodelOffset_X" "15"
+				"MiniCenteredViewmodelOffset_Z" "-14"
+
 
 				// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
 				SoundData
@@ -2593,7 +2917,12 @@
 				"MinViewmodelOffset_X" 			"8"
 				"MinViewmodelOffset_Y" 			"0"
 				"MinViewmodelOffset_Z" 			"-6"	
-
+				
+				"MiniCenteredViewmodelOffset_Y"		"-8.44"
+				"MiniCenteredViewmodelAngle_Z"		"1.25"
+				"MiniCenteredViewmodelOffset_Z"		"-7"
+				"MiniCenteredViewmodelOffset_X" 	"8"	
+				
 				"HasTeamSkins_Worldmodel"	"1"
 
 				// Sounds.
@@ -2709,14 +3038,15 @@
 				"anim_prefix"		"ac"
 				
 				"CenteredViewmodelOffset_Y" "-9"
-				"CenteredViewmodelOffset_Z" "0"
-				
 				"CenteredViewmodelangle_Y" "-0.5"
 				
-				
 				"MinViewmodelOffset_X" "9"
-				"MinViewmodelOffset_Y" "0"
 				"MinViewmodelOffset_Z" "-8"
+				
+				"MiniCenteredViewmodelOffset_Y" "-9"
+				"MiniCenteredViewmodelangle_Y" "-0.5"
+				"MiniCenteredViewmodelOffset_Z" "-9"
+				"MiniCenteredViewmodelOffset_X" "9"
 
 				// Sounds.
 				// Max of 16 per category (ie. max 16 "single_shot" sounds).
@@ -2783,8 +3113,6 @@
 			}
 		}
 		
-		
-		
 		"tf_weapon_pistol_mercenary"
 		{
 			"backpack_icon"	"..\sprites\bucket_pistol_merc"
@@ -2848,6 +3176,11 @@
 				"MinViewmodelOffset_Y" "0"
 				"MinViewmodelOffset_Z" "-6"
 
+				"MiniCenteredViewmodelOffset_X" "4"
+				"MiniCenteredViewmodelOffset_Y" "-9.8"
+				"MiniCenteredViewmodelOffset_Z" "-5"
+				"MiniCenteredViewmodelAngle_Z" "2.5"
+				
 				// Muzzleflash
 				"MuzzleFlashModel"	"models/effects/sentry1_muzzle/sentry1_muzzle.mdl"
 				"MuzzleFlashModelDuration"	"0.15"
@@ -2972,8 +3305,10 @@
 				"anim_prefix"		"ac"
 				
 				"MinViewmodelOffset_X" "10"
-				"MinViewmodelOffset_Y" "0"
 				"MinViewmodelOffset_Z" "-6"
+				
+				"MiniCenteredViewmodelOffset_X" "10"
+				"MiniCenteredViewmodelOffset_Z" "-6"
 
 				// Muzzleflash
 				"MuzzleFlashModel"	"models/effects/sentry1_muzzle/sentry1_muzzle.mdl"
@@ -3105,6 +3440,11 @@
 				"MinViewmodelOffset_X" "10"
 				"MinViewmodelOffset_Y" "0"
 				"MinViewmodelOffset_Z" "-10"
+				
+				"MiniCenteredViewmodelOffset_Y" "-11"
+				"MiniCenteredViewmodelOffset_Z" "-14"
+				"MiniCenteredViewmodelAngle_X" "-2"
+				"MiniCenteredViewmodelOffset_X" "10"
 
 				// Sounds.
 				// Max of 16 per category (ie. max 16 "single_shot" sounds).
@@ -3233,6 +3573,13 @@
 				"MinViewmodelOffset_X" "10"
 				"MinViewmodelOffset_Y" "0"
 				"MinViewmodelOffset_Z" "-6"
+				
+				"MiniCenteredViewmodelAngle_X" "1"
+				"MiniCenteredViewmodelAngle_Y" "-0.3"
+				"MiniCenteredViewmodelAngle_Z" "1"
+				"MiniCenteredViewmodelOffset_X" "-2"
+				"MiniCenteredViewmodelOffset_Y" "-8.9"
+				"MiniCenteredViewmodelOffset_Z" "-5"
 				
 				// Muzzleflash
 				"MuzzleFlashModel"	"models/effects/sentry1_muzzle/sentry1_muzzle.mdl"
@@ -3376,6 +3723,11 @@
 				"MinViewmodelOffset_X" "10"
 				"MinViewmodelOffset_Y" "3"
 				"MinViewmodelOffset_Z" "-10"
+				
+				"MiniCenteredViewmodelAngle_Z" "5"
+				"MiniCenteredViewmodelOffset_X" "2"
+				"MiniCenteredViewmodelOffset_Y" "-11.55"
+				"MiniCenteredViewmodelOffset_Z" "-12"
 
 				// Sounds.
 				// Max of 16 per category (ie. max 16 "single_shot" sounds).
@@ -3511,6 +3863,10 @@
 				"MinViewmodelOffset_X" "5"
 				"MinViewmodelOffset_Y" "-2"
 				"MinViewmodelOffset_Z" "-10"
+				
+				"MiniCenteredViewmodelOffset_Y" "-7"
+				"MiniCenteredViewmodelOffset_X" "2"
+				"MiniCenteredViewmodelOffset_Z" "-13"
 				
 				"playermodel"   "models/weapons/w_models/w_shotgun.mdl"
 				"anim_prefix"   "shotgun"
@@ -3713,6 +4069,151 @@
 				}
 			}
 		}
+		"tf_weapon_super_rocketlauncher"
+		{
+			"WeaponData"
+			{
+				// Attributes Base.
+				"printname"		"#TF_Weapon_QuadLauncher"
+				"BuiltRightHanded"	"0"
+				"weight"		"3"
+				"WeaponType"		"primary"
+				"ITEM_FLAG_NOITEMPICKUP" 	"1"
+				
+				// Primary Attributes.
+				"Damage"		"75"
+				"InstagibDamage"	"999"
+				"DamageRadius"		"100"
+				"Range"			"0"
+				"BulletsPerShot"	"1"
+				"Spread"		"0"
+			//	"PunchAngle"		"1"
+				"TimeFireDelay"		"0.1"
+				"BurstFireDelay"    "0.5"
+				"BurstSize"         "4"
+				"TimeIdle"		"0.8"
+				"TimeIdleEmpty"		"0.8"
+				"TimeReload"		"3.84"
+				"primary_ammo"		"WEAPON_AMMO"
+				"clip_size"		"4"
+				"default_clip"		"4"
+				"MaxAmmo"	"16"
+				"ProjectileType"	"projectile_rocket"
+				"ProjectileSpeed"	"1100"
+				"HasTeamSkins_Viewmodel"			"1"
+				"HasTeamSkins_Worldmodel"			"1"
+				"PickupMultiplier"	"0"
+				"DropOnNoAmmo"		"1"
+				"AlwaysDrop"		"1"
+				"AppearOnBack"		"1"
+				
+				"ContinuousFire_DamageIncrease"	"25"
+				"ContinuousFire_BlastRadiusIncrease"	"25"
+				
+				// Secondary Attributes.
+				"secondary_ammo"	"None"
+
+				// bucket.	
+				"bucket"			"0"
+				"bucket_position"		"0"
+				
+				// bucket_dms.
+				"bucket_dm"		"7"
+				"bucket_dm_position"	"1"	
+
+				// Explosions.
+				"ExplosionEffect"		"ExplosionCore_wall"
+				"ExplosionPlayerEffect"		"ExplosionCore_MidAir"
+				"ExplosionWaterEffect"		"ExplosionCore_MidAir_underwater"
+
+				"ExplosionSound"	"Weapon_QuakeRPG.Explode"
+				
+				"ProjectileModel"	"models/weapons/w_models/w_quad_rocket.mdl"	
+
+				// Animation.
+				"viewmodel"		"models/weapons/v_models/v_quad.mdl"
+				"playermodel"		"models/weapons/w_models/w_quadtest.mdl"
+				"anim_prefix"		"gl"
+				
+				"CenteredViewmodelOffset_Y" "-13.3"
+				"CenteredViewmodelOffset_Z" "-10"
+				"CenteredViewmodelAngle_Y" "0.4"
+				"CenteredViewmodelAngle_Z" "-29"
+				
+				"MinViewmodelOffset_X" "10"
+				"MinViewmodelOffset_Y" "3"
+				"MinViewmodelOffset_Z" "-10"
+				
+				"MiniCenteredViewmodelOffset_Y" "-13.3"
+				"MiniCenteredViewmodelOffset_Z" "-20"
+				"MiniCenteredViewmodelOffset_X" "10"
+				"MiniCenteredViewmodelAngle_Y" "0.4"
+				"MiniCenteredViewmodelAngle_Z" "-29"
+
+				// Sounds.
+				// Max of 16 per category (ie. max 16 "single_shot" sounds).
+				SoundData
+				{
+					"single_shot"	"Weapon_RPG.Single"
+					"reload"		"Weapon_RPG.WorldReload"
+					"burst"			"Weapon_RPG.SingleCrit"	
+					"special3"		"Weapon_Quad.Ping"
+				}
+
+				// Weapon Sprite data is loaded by the Client DLL.
+				TextureData
+				{
+					"weapon"
+					{
+							"file"		"sprites/bucket_quadlauncher"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"weapon_s"
+					{	
+							"file"		"sprites/bucket_quadlauncher"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"weapon_t"
+					{	
+							"file"		"sprites/bucket_quadlauncher"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"ammo"
+					{
+							"file"		"sprites/a_icons1"
+							"x"		"55"
+							"y"		"60"
+							"width"		"73"
+							"height"	"15"
+					}
+					"crosshair"
+					{
+							"file"		"sprites/crosshairs"
+							"x"		"32"
+							"y"		"32"
+							"width"		"32"
+							"height"	"32"
+					}
+					"autoaim"
+					{
+							"file"		"sprites/crosshairs"
+							"x"		"0"
+							"y"		"48"
+							"width"		"24"
+							"height"	"24"
+					}
+				}
+			}
+		}
 		
 		"tf_weapon_supershotgun"
 		{
@@ -3781,7 +4282,12 @@
 				"MinViewmodelOffset_Y" "-2"
 				"MinViewmodelOffset_Z" "-10"
 				
-
+				"MiniCenteredViewmodelOffset_Y" "-6.05"
+				"MiniCenteredViewmodelOffset_X" "-4"
+				"MiniCenteredViewmodelOffset_Z" "-10"
+				"MiniCenteredViewmodelAngle_Z" "2.3"
+				"MiniCenteredViewmodelAngle_x" "-5"
+				
 				// Muzzleflash
 				"MuzzleFlashModel"	"models/effects/sentry1_muzzle/sentry1_muzzle.mdl"
 				"MuzzleFlashModelDuration"	"0.1"
@@ -3916,8 +4422,11 @@
 				"CenteredViewmodelOffset_Z" "1"
 				
 				"MinViewmodelOffset_X" "10"
-				"MinViewmodelOffset_Y" "0"
 				"MinViewmodelOffset_Z" "-6"
+				
+				"MiniCenteredViewmodelOffset_Y" "-7.6"
+				"MiniCenteredViewmodelOffset_Z" "-5"
+				"MiniCenteredViewmodelOffset_X" "10"
 
 				// Sounds.
 				// Max of 16 per category (ie. max 16 "single_shot" sounds).
@@ -3996,7 +4505,7 @@
 				"ITEM_FLAG_NOITEMPICKUP" 	"1"
 					
 				// Attributes TF.
-				"Damage"		"10"
+				"Damage"		"12"
 				"InstagibDamage"	"999"
 				"Range"			"8192"
 				"BulletsPerShot"	"1"
@@ -4047,6 +4556,11 @@
 				"MinViewmodelOffset_X" "10"
 				"MinViewmodelOffset_Y" "0"
 				"MinViewmodelOffset_Z" "-6"
+				
+				"MiniCenteredViewmodelAngle_Y" "0.35"
+				"MiniCenteredViewmodelOffset_Y" "-7.3"
+				"MiniCenteredViewmodelOffset_Z" "-5"
+				"MiniCenteredViewmodelOffset_X" "10"
 
 				// Sounds.
 				// Max of 16 per category (ie. max 16 "single_shot" sounds).
