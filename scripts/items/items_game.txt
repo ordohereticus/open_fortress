@@ -1415,9 +1415,14 @@
 		
 		"tf_weapon_berserk"
 		{
-			//"backpack_icon"	"..\sprites\bucket_bouncer"
-			"loadout_anim"	"15"
-			//"ShowInArsenal"	"1"
+			//uncomment for a fun suprise!
+			//"backpack_icon"	"..\sprites\bucket_berserk"
+			//"loadout_anim"	"19"
+			//"slot"
+			//{
+			//	"mercenary"	"3"
+			//}
+			//"ShowInArsenal"	"0"
 			"WeaponData"
 			{
 				// Attributes Base.
@@ -1455,8 +1460,8 @@
 				"bucket_dm_position"		"10"
 
 				// Model & Animation
-				"viewmodel"			"models/weapons/v_models/v_berserk_merc.mdl"
-				"heavy_viewmodel"			"models/weapons/v_models/v_fist_heavy.mdl"
+				"viewmodel"				"models/weapons/v_models/v_berserk_merc.mdl"
+				"heavy_viewmodel"		"models/weapons/v_models/v_fist_heavy.mdl"
 				"playermodel"			""
 				"anim_prefix"			"pipe"
 				

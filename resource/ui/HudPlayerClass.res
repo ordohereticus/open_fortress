@@ -18,7 +18,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImage"
-		"xpos"			"25"	[$WIN32]
+		"xpos"			"18"	[$WIN32]
 		"xpos_minmode"	"15"	[$WIN32]
 		"ypos"			"r88"	[$WIN32]
 		"ypos_minmode"	"r54"	[$WIN32]
@@ -38,7 +38,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImageColor"
-		"xpos"			"25"	[$WIN32]
+		"xpos"			"18"	[$WIN32]
 		"xpos_minmode"	"15"	[$WIN32]
 		"ypos"			"r88"	[$WIN32]
 		"ypos_minmode"	"r54"	[$WIN32]
@@ -344,12 +344,12 @@
 		{
 			"Mercenary"
 			{
-				"fov"			"14"
+				"fov"			"8"
 				"angles_x"		"-10"
-				"angles_y"		"170"
+				"angles_y"		"175"
 				"angles_z"		"0"
 				
-				"origin_x"		"201"
+				"origin_x"		"325"
 				"origin_y"		"-1"
 				"origin_z"		"-95"
 				"spotlight" 	"1"

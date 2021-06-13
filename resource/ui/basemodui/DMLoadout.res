@@ -1437,6 +1437,11 @@
 				"name"		"FLAMETHROWER"
 				"activity"	"ACT_MERC_LOADOUT_FLAMETEMP"
 			}
+			"animation" //19
+			{
+				"name"		"EASTEREGG"
+				"activity"	"ACT_MERC_LOADOUT_SICKASFUCK"
+			}
 		}
 	}
 
