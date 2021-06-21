@@ -2,19 +2,25 @@
 {
 	"$basetexture"		"models/workshop/player/items/soldier/merc_longsleeves/merc_longsleeves"
 	"$bumpmap"		"models/workshop/player/items/soldier/merc_longsleeves/merc_longsleevesn"
-	"$lightwarptexture"		"models/player/pyro/pyro_lightwarp"
-	"$phong"		"1"
-	"$phongexponent"		"24.000000"
-	"$phongboost"		"1.000000"
-	"$phongfresnelranges"		"[.25 .5 1]"
-	"$rimlight"		"1"
-	"$rimlightexponent"		"4"
-	"$rimlightboost"		"2"
+	
+	"$phong" "1"
+	"$phongexponenttexture" "models\player\mercenary/mercenary_exponent"
+	"$phongboost" "1"	
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[.3 1 8]"
+	"$halflambert" "0"
+	
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "1"										// Boost for ambient cube component of rim lighting
+	"$rimmask" "1"  
+	
 	"$blendtintbybasealpha"		"1"
 	"$blendtintcoloroverbase"		"0"
 	"$colortint_base"		"{ 0 0 0 }"
 	"$color2"		"{ 0 0 0 }"
 	"$colortint_tmp"		"[0 0 0]"
+	
 	"$bumpmapalphaphongmask"		"1"
 	"$cloakPassEnabled"		"1"
 	"$detail"		"effects/tiledfire/fireLayeredSlowTiled512"

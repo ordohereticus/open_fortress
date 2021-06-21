@@ -1,8 +1,9 @@
 "VertexLitGeneric"
 {
-	"$basetexture"		"models/workshop/player/items/soldier/merc_longsleeves/merc_longsleeves"
-	"$bumpmap"		"models/workshop/player/items/soldier/merc_longsleeves/merc_longsleevesn"
-
+	"$basetexture"		"models/workshop/player/items/soldier/merc_camoless_pants/merc_camoless_pants"
+	
+	"$bumpmap" "models/workshop/player/items/soldier/merc_camoless_pants/merc_camoless_pants_normal"
+	
 	"$phong" "1"
 	"$phongexponenttexture" "models\player\mercenary/mercenary_exponent"
 	"$phongboost" "1"	
@@ -38,6 +39,7 @@
 	"$rage_compare" ".5"
 	"$phongfresnelranges_rage"	"[0 1 10]"
 	"$phongfresnelranges_orig"	"[.3 1 8]"
+	
 	">=DX90"
 	{
 		"$selfillum"		"0"
@@ -95,4 +97,3 @@
 		}
 	}
 }
-

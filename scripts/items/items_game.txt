@@ -419,9 +419,6 @@
 			"region" "glasses"
 			"backpack_icon" "..\backpack\workshop\player\items\all_class\clouted_perception\clouted_perception"
 			
-			"Bodygroups"
-			{
-			}
 		}
 		"24"
 		{
@@ -429,9 +426,6 @@
 			"region" "face"
 			"backpack_icon" "..\backpack\face\bandana"
 			
-			"Bodygroups"
-			{
-			}
 		}
 		"26"
 		{
@@ -439,9 +433,6 @@
 			"region" "glasses"
 			"backpack_icon" "..\backpack\face\aviators"
 			
-			"Bodygroups"
-			{
-			}
 		}
 		"29"
         {
@@ -459,9 +450,6 @@
 					"model" "models/player/items/mercenary/merc_race/merc_race_gog.mdl"
 				}
 			}
-            "Bodygroups"
-            {
-            }
         }
 		"30"
 		{
@@ -469,9 +457,6 @@
 			"region" "hat"
 			"backpack_icon" "..\backpack\hats\headwrap"
 			
-			"Bodygroups"
-			{
-			}
 		}
 		"31"
 		{
@@ -479,9 +464,6 @@
 			"region" "hat"
 			"backpack_icon" "..\backpack\hats\garrison"
 			
-			"Bodygroups"
-			{
-			}
 		}
 		"32"
 		{
@@ -489,9 +471,6 @@
 			"region" "hat"
 			"backpack_icon" "..\backpack\hats\flatcap"
 			
-			"Bodygroups"
-			{
-			}
 		}
 		"33"
 		{
@@ -499,9 +478,6 @@
 			"region" "hat"
 			"backpack_icon" "..\backpack\hats\hardhat"
 			
-			"Bodygroups"
-			{
-			}
 		}
 		"34"
 		{
@@ -509,9 +485,6 @@
 			"region" "hat"
 			"backpack_icon" "..\backpack\hats\peak"
 			
-			"Bodygroups"
-			{
-			}
 		}
 		"35"
 		{
@@ -519,9 +492,6 @@
 			"region" "face"
 			"backpack_icon" "..\backpack\face\cigar"
 			
-			"Bodygroups"
-			{
-			}
 		}
 		"36"
 		{
@@ -540,9 +510,6 @@
 			"region" "face"
 			"backpack_icon" "..\backpack\face\mantamaskicon"
 			
-			"Bodygroups"
-			{	
-			}
 		}
 		"38"
 		{
@@ -550,9 +517,6 @@
 			"region" "hat"
 			"backpack_icon" "..\backpack\hats\bogardhaticon"
 			
-			"Bodygroups"
-			{
-			}
 		}
 		"39"
 		{
@@ -601,9 +565,6 @@
 			"region" "glasses"
 			"backpack_icon" "..\backpack\face\skimaskicon"
 			
-			"Bodygroups"
-			{
-			}
 		}
 		//BAK STINKS
 		"44"
@@ -627,9 +588,6 @@
 			"region" "hat"
 			"backpack_icon" "..\backpack\hats\ushanka"
 			
-			"Bodygroups"
-			{
-			}
 		}		
 		//You are a noob 4head
 		"46"
@@ -638,9 +596,6 @@
 			"region" "face"
 			"backpack_icon" "..\backpack\face\cigicon"
 			
-			"Bodygroups"
-			{
-			}
 		}
 		//Can I get a pog
 		"47"
@@ -649,9 +604,6 @@
 			"region" "glasses"
 			"backpack_icon" "..\backpack\face\merc_burtbinocsicon"
 			
-			"Bodygroups"
-			{
-			}
 		}
 		//Says the dude who adds a cigarette and it crashes the fucking game
 		"48"
@@ -662,15 +614,16 @@
 			"viewmodel" "models\weapons\c_models\cosmetics\merc\sleeves\floral.mdl"
 			"Styles"
 			{
-			"1"
-			{
-				"model" "models/player/items/mercenary/merc_floral/merc_floral.mdl"
+				"1"
+				{
+					"model" "models/player/items/mercenary/merc_floral/merc_floral.mdl"
+				}
+				"2"
+				{
+					"model" "models/player/items/mercenary/merc_floral/merc_scar.mdl"
+				}
 			}
-			"2"
-			{
-				"model" "models/player/items/mercenary/merc_floral/merc_scar.mdl"
-			}
-		}
+			
 			"Bodygroups"
 			{
 				"torso"   "1"
@@ -685,9 +638,6 @@
 			"region" "hat"
 			"backpack_icon" "..\backpack\hats\hunter"
 			
-			"Bodygroups"
-			{
-			}
 		}
 		"50"
 		{
@@ -695,9 +645,6 @@
 			"region" "glasses"
 			"backpack_icon" "..\backpack\face\merc_blackglassesicon"
 			
-			"Bodygroups"
-			{
-			}
 		}	
 		"51"
 		{
@@ -705,9 +652,6 @@
 			"region" "glasses"
 			"backpack_icon" "..\backpack\face\merc_binocgogglesicon"
 			
-			"Bodygroups"
-			{
-			}
 		}
 		"52"
 		{
@@ -715,9 +659,6 @@
 			"region" "glasses"
 			"backpack_icon" "..\backpack\face\merc_lambdalenseicon"
 			
-			"Bodygroups"
-			{
-			}
 		}
 		//I haven't slept yet :<
 		//Go to bed earlier then 4Head -d
@@ -769,10 +710,6 @@
 			"region" "hat"
 			"backpack_icon" "..\backpack\hats\bhelm"
 			
-			"Bodygroups"
-			{
-				
-			}
 		}
 		"57"
 		{
@@ -780,10 +717,6 @@
 			"region" "hat"
 			"backpack_icon" "..\backpack\hats\dhelm"
 			
-			"Bodygroups"
-			{
-				
-			}
 		}
 		"58"
 		{
@@ -797,8 +730,6 @@
 				"torso"   "1"
 				"rightarm" "1"
 				"leftarm" "1"
-				
-				
 			}
 		}
 		"59"
@@ -812,7 +743,6 @@
 				"pockets"   "1"
 				"rightleg" "1"
 				"leftleg" "1"
-				
 			}
 		}
 		//these gloves suck notpog
@@ -861,10 +791,6 @@
 			"region" "hat"
 			"backpack_icon" "..\backpack\hats\soldierhelm"
 			
-			"Bodygroups"
-			{
-				
-			}
 		}
 		//braaaaap
 		"64"
@@ -873,10 +799,6 @@
 			"region" "face"
 			"backpack_icon" "..\backpack\face\gasmask1"
 			
-			"Bodygroups"
-			{
-				
-			}
 		}
 		"65"
 		{
@@ -896,9 +818,6 @@
 			"region" "hat"
 			"backpack_icon" "..\backpack\hats\mercpilot"
 			
-			"Bodygroups"
-			{
-			}
 		}
 		"67"
 		{
@@ -906,9 +825,6 @@
 			"region" "hat"
 			"backpack_icon" "..\backpack\hats\police"
 			
-			"Bodygroups"
-			{
-			}
 		}
 		//My fav hat I made :3
 		"68"
@@ -917,10 +833,7 @@
 			"region" "face"
 			"backpack_icon" "..\backpack\face\merc_mask02icon"
 			"uses_brightskins" "1"	
-			"Bodygroups"
-			{
-				
-			}
+
 		}
 		// nice
 		"69"
@@ -996,9 +909,6 @@
 			"region" "hat"
 			"backpack_icon" "..\backpack\hats\merc_pom_backpack"
 			
-			"Bodygroups"
-			{
-			}
 		}
 		//ba da da daaaaaaaaaaaaaaaaaa
 		"74"
@@ -1007,9 +917,6 @@
 			"region" "hat"
 			"backpack_icon" "..\backpack\hats\fedora"
 			
-			"Bodygroups"
-			{
-			}
 		}
 		"75" //https://www.youtube.com/watch?v=-bTpp8PQSog
 		{
@@ -1034,9 +941,6 @@
 			"region" "hat"
 			"backpack_icon" "..\backpack\hats\crown"
 			
-			"Bodygroups"
-			{
-			}
 		}
 		//https://youtu.be/P5MpLQ8TQcQ Mumbert
 		"77"
@@ -1080,9 +984,7 @@
 			"region" "hat"
 			"backpack_icon" "..\backpack\hats\halloween_bag"
 			"uses_brightskins" "1"
-			"Bodygroups"
-			{
-			}
+
 		}
 		"80"
 		{
@@ -1119,6 +1021,42 @@
 			{
 			}
 		}	
+		"83"
+		{
+			"region" "boots"
+			"backpack_icon" "..\backpack\pants\pocketless"
+			"uses_brightskins" "1"
+			"Styles"
+			{
+				"1" 
+				{
+					"model" "models/player/items/mercenary/merc_camoless_pants/merc_camoless_pants.mdl"
+				
+					"Bodygroups"
+					{
+					"rightleg" "1"
+					"leftleg" "1"
+					}
+				}
+				"2"
+				{
+					"model" "models/player/items/mercenary/merc_camoless_pants/merc_camoless_pants.mdl"
+					"skin_offset" "1"
+				
+					"Bodygroups"
+					{
+					"rightleg" "1"
+					"leftleg" "1"
+					}
+				}
+			}
+			
+			"Bodygroups"
+			{
+			"pockets"   "1"
+			}
+		}
+		
 //		Do this
 //		"66"
 //		{		
@@ -1128,7 +1066,8 @@
 //				"66"		
 //      {		
 //      }
-//		Please i shouldn't have to repeat this - Kay		
+//		Please i shouldn't have to repeat this - Kay	
+	
 	}
 	"Weapons"
 	{
@@ -1158,6 +1097,7 @@
 				"BurstFireDelay"    "0.30"
 				"BurstSize"         "3"
 				"TimeReload"	"1.9"
+				
 				"ProjectileType"	"projectile_bullet"
 				"BrassModel"		"models/weapons/shells/shell_minigun.mdl"
 				"UseRapidFireCrits"	"1"
@@ -1167,8 +1107,8 @@
 				// Ammo & Clip.
 				"primary_ammo"		"WEAPON_AMMO"
 				"secondary_ammo"	"None"
-				clip_size		"30"
-				default_clip		"30"
+				"clip_size"		"30"
+				"default_clip"		"30"
 				"MaxAmmo"	"90"
 
 				// bucket.	
@@ -1328,6 +1268,8 @@
 
 				// Animation.
 				"viewmodel"		"models/weapons/v_models/v_bouncer.mdl"
+				"playermodel"					"models/weapons/w_models/w_bouncer.mdl"
+				"anim_prefix"					"gl"
 				
 				"CenteredViewmodelOffset_Y" 	"-11.5"
 				"CenteredViewmodelOffset_Z" 	"-10"
@@ -1341,9 +1283,6 @@
 				"MiniCenteredViewmodelOffset_X" 	"10"
 				"MiniCenteredViewmodelOffset_Y" 	"-11.5"
 				"MiniCenteredViewmodelOffset_Z" 	"-20"
-				
-				"playermodel"					"models/weapons/w_models/w_bouncer.mdl"
-				"anim_prefix"					"gl"
 
 				// Muzzleflash
 				"MuzzleFlashParticleEffect" "muzzle_grenadelauncher"
@@ -1415,7 +1354,7 @@
 		
 		"tf_weapon_berserk"
 		{
-			//uncomment for a fun suprise!
+			//uncomment these lines below for a fun suprise in the arsenal screen!
 			//"backpack_icon"	"..\sprites\bucket_berserk"
 			//"loadout_anim"	"19"
 			//"slot"
@@ -4632,13 +4571,13 @@
 			}
 		}
 		
-		"tf_weapon_test"
+		"tf_weapon_attributes_tutorial"
 		{
 			"weapon_class"	"tf_weapon_tommygun"
 			
 			"attributes"
 			{
-				"damage multiplier"
+				"fire rate multiplier"
 				{
 					"value"	"50"
 				}
@@ -4776,7 +4715,7 @@
 	
 	"attributes"
 	{
-		// Just example Attribute
+		//use tf_weapon_attributes_tutorial to test these out
 		"1"
 		{
 			"name"	"damage multiplier"
