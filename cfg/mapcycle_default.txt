@@ -35,7 +35,6 @@ dm_control_dev
 dm_ledge_dev
 dm_siberia_dev
 dm_wushu_dev
-dm_drude_dev
 
 duel_aerowalk
 duel_badplace
@@ -48,7 +47,6 @@ duel_longestyard
 duel_summit
 
 duel_diner_dev
-duel_frostbyte_dev
 
 mctf_2fort
 mctf_backfort
