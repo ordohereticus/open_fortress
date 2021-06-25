@@ -40,22 +40,97 @@
 VERSION 1.0
 
 DESCRIPTION INFO_OPTIONS
-{
+{	
 	"of_disable_cosmetics"
 	{
 		"#TFOption_Cosmetics"
 		{ BOOL }
 		{ "0" }
 	}
+	
+	"of_disable_viewmodel_cosmetics"
+	{
+		"#TFOption_Viewmodel_Cosmetics"
+		{ BOOL }
+		{ "0" }
+	}
+	
+	"of_tennisball"
+	{
+		"#TFOption_Brightskins"
+		{ LIST
+			"#TFOption_Brightskins_Disable"              	 	"0"
+			"#TFOption_Brightskins_Green"                		"1"
+			"#TFOption_Brightskins_PlayerColor"               	"2"
+		}
+		{ "-1" }
+	}
+	
+	"of_jumpsound"
+	{
+		"#TFOption_JumpSounds"
+		{ LIST
+			"#TFOption_JumpSounds_Disable"              	"0"
+			"#TFOption_JumpSounds_Merc"                		"1"
+			"#TFOption_JumpSounds_AllClass"               	"2"
+		}
+		{ "1" }
+	}
 
+	"of_force_cosmetics"
+	{
+		"#TFOption_Force_Cosmetics"
+		{ BOOL }
+		{ "0" }
+	}
+	
+	"cl_hud_playerclass_use_playermodel"
+	{
+		"#TFOption_Hudportrait"
+		{ LIST
+			"#TFOption_Hudportrait_Normal"              	"0"
+			"#TFOption_Hudportrait_Animation"               "1"
+			"#TFOption_Hudportrait_Pose"               		"2"
+		}
+		{ "1" }
+	}
+	
+	"hud_weaponwheel_dofblur"
+	{
+		"#TFOption_DOFBlur_WeaponWheel"
+		{ BOOL }
+		{"1"}
+	}
+	
+	"hud_weaponwheel_hold"
+	{
+		"#TFOption_WeaponWheel_Hold"
+		{ BOOL }
+		{"0"}
+	}
+	
+	"hud_weaponwheel_holdtime"
+	{
+		"#TFOption_WeaponWheel_HoldTime"
+		{ NUMBER 0 100 }
+		{ "0.25" }
+	}
+	
+	"hud_weaponwheel_quickswitch"
+	{
+		"#TFOption_WeaponWheel_QuickSwitch"
+		{ BOOL }
+		{"0"}
+	}
+	
 	"cl_chatmsgsound"
 	{
 		"#TFOption_ChatSound" // section 5
 		{ BOOL }
 		{"1"}
 	}
-
-	"hud_classautokill"
+	
+		"hud_classautokill"
 	{
 		"#TF_classautokill"
 		{ BOOL }
@@ -75,7 +150,7 @@ DESCRIPTION INFO_OPTIONS
 		{ BOOL }
 		{ "1" }
 	}
-
+	
 	"tf_dingalingaling"
 	{
 		"#TF_Hitbeeps"
@@ -105,7 +180,7 @@ DESCRIPTION INFO_OPTIONS
 	"tf_dingaling_volume"
 	{
 		"#TF_Dingaling_Volume"
-		{ SLIDER 0 1 }
+		{ SLIDER 0.0 1.0 }
 		{ "0.75" }
 	}
 
@@ -152,7 +227,7 @@ DESCRIPTION INFO_OPTIONS
 	"tf_dingaling_lasthit_volume"
 	{
 		"#TF_Dingaling_LastHit_Volume"
-		{ SLIDER 0 1 }
+		{ SLIDER 0.0 1.0 }
 		{ "0.75" }
 	}
 
@@ -204,7 +279,7 @@ DESCRIPTION INFO_OPTIONS
 		{ SLIDER 0 255 }
 		{ "0" }
 	}
-		
+	
 	"of_showtargetid"
 	{
 		"#TFOption_showtargetid"
@@ -247,23 +322,30 @@ DESCRIPTION INFO_OPTIONS
 		{ "0" }
 	}
 	
+	"cl_autorezoom"
+	{
+		"#TF_autozoom"
+		{ BOOL }
+		{ "1" }
+	}
+	
 	"of_gore"
 	{
 		"#TF_gore"
 		{ BOOL }
 		{ "1" }
 	}
-
+	
+	"of_weaponswitch_flat"
+	{
+		"#TFOption_WeaponSwitch_Flat"
+		{ BOOL }
+		{"0"}
+	}
+	
 	"of_hide_weapon_selection"
 	{
 		"#TFOption_HideWeaponSelect"
-		{ BOOL }
-		{ "1" }
-	}
-
-	"cl_autorezoom"
-	{
-		"#TF_autozoom"
 		{ BOOL }
 		{ "1" }
 	}
@@ -272,16 +354,9 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#TFOption_AutoSwitch"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 	
-	"of_autoreload"
-	{
-		"#TFOption_autoreload"
-		{ BOOL }
-		{ "1" }
-	}	
-
 	"of_respawn_particles"
 	{
 		"#TFOption_respawnparticles"
@@ -365,5 +440,6 @@ DESCRIPTION INFO_OPTIONS
 		{ NUMBER 0 4096 }
 		{ "200" }
 	}
+	
 }
 

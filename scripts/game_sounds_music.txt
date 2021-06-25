@@ -686,7 +686,7 @@
 //Lobsters On The Moon by Rose, Thoopje and Magnus
 "DeathmatchMusic.Lobsters"
 {
-	"Artist"		"Magnus, Withered Rose, Thoopje"
+	"Artist"		"Withered Rose, Magnus, Thoopje"
 	"Name"			"Lobsters on the Moon"
 
 	"channel"		"CHAN_STATIC"
