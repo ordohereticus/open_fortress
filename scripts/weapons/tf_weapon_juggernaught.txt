@@ -27,11 +27,11 @@ WeaponData
 
 	// bucket.
 	"bucket"		"2"
-	"bucket_position"	"1"
+	"bucket_position"	"0"
 	
 	// bucket_dms.	
-	"bucket_dm"			"10"
-	"bucket_dm_position"		"10"
+	"bucket_dm"			"0"
+	"bucket_dm_position"		"13"
 
 	// Model & Animation
 	"viewmodel"				"models/weapons/v_models/v_fist_heavy.mdl"
