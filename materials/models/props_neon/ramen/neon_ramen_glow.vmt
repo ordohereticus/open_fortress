@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models/props_neon/ramen/neon_ramen_glow"
+	"$translucent" 1
+	"$nodecal" 1
+}

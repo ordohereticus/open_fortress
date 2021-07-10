@@ -1,0 +1,9 @@
+"vertexlitgeneric"
+{
+	"$basetexture"	"props/metalduct001a"
+	"$surfaceprop"	"metal"
+	"$bumpmap" "props/metalduct001a_normal"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"%keywords" "tf"
+}

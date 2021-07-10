@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/props_mecha/computer_monitor_001"
+	"$bumpmap" "Models/props_mecha/computer_monitor_001_norm"
+	"$basemapalphaphongmask" "1"
+	"$phong" "1"
+	"$phongboost" "2"
+	"$phongexponent" "6"
+	"$lightwarptexture" "models\buildables\sentry1\Sentry1_lightwarp"
+	"$phongfresnelranges"	"[.5 1.5 10]"
+	
+	"$selfillum" "0"
+
+	"$rimlight" "1"		
+	"$rimlightexponent" "1"				
+	"$rimlightboost" "1.5"
+	
+	// Cloaking
+	"$cloakPassEnabled" "1"
+
+}
+

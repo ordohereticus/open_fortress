@@ -1,0 +1,23 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "mecha/test/test_2d"
+	"$bumpmap"    "mecha/test/test_2d_norm"
+
+	"$phong" "1"
+	"$phongexponent" "200"
+	"$phongboost" "4"	
+	"$phongfresnelranges"	"[.5 .7 1]"
+	"$halflambert" "0"
+	"$phongexponenttexture" "models\bots\heavy\heavy_bot_exp"
+
+	"$lightwarptexture" "models\lightwarps\robot_lightwarp"
+	
+	"$rimlight" "1"						
+	"$rimlightexponent" "1"				
+	"$rimlightboost" "2"
+	"$rimmask" "1"
+
+
+	"$translucent" "1"
+
+}

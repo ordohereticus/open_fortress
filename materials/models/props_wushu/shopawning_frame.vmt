@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/props_wushu/shopawning_frame"
+	"$surfaceprop" "metal"
+	"%keywords" "tf"
+}

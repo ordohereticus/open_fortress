@@ -1,0 +1,16 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "metal/wall_lite_gray"
+	"$bumpmap" "metal/wall_island_heavy01-ssbump"
+	"$surfaceprop" "metal"
+	"%keywords" "tf"
+	"$envmapmask" "metal/wall_lite_gray_envmask"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.1 .1 .1]"
+//	"$basemapalphaphongmask" 1
+//	"$phong"	"1"
+//	"$phongboost"	"1"
+//	"$phongexponent"	20
+//	"$phongfresnelranges"	"[2 1 4]"
+	
+}

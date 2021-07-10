@@ -1,0 +1,7 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "metal/imetal005"
+	"$bumpmap" "metal/imetal001_normal"
+	"$surfaceprop" "metal"
+	"%keywords" "tf"
+}

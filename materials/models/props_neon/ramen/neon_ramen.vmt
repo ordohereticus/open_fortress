@@ -1,0 +1,25 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/props_neon/ramen/neon_ramen"
+	"$selfillum" 1
+	"$selfillum_envmapmask_alpha" "1"
+	//"$selfillummask" "models/props_rooftop/sign_light_light"
+	"$lightwarptexture" "models/lightwarps/weapon_lightwarp"
+
+
+	"$rimlight" "1"
+	"$rimlightexponent" "4"	
+	"$rimlightboost" "1"
+
+
+	"Proxies"
+	{
+		"Sine"
+		{
+			"resultVar"	"$selfillumtint" 
+		                "sineperiod"	2
+			"sinemin"	                1
+			"sinemax"	3
+		}
+	}
+}

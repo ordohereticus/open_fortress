@@ -1,0 +1,21 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_mecha/mecha_sculpture_001"
+	"$bumpmap" "models\props_mecha/mecha_sculpture_001_norm"
+	"$envmap" "cubemaps/cubemap_sheen002"	
+//	"$envmap" "env_cubemap"
+	"$envmaptint" "[.5 .5 .5]"
+	
+	"$phong" "1"
+	"$phongexponent" "180"
+	"$phongboost" "2"	
+//	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[.5 1 2]"
+//	"$halflambert" "1"
+
+	// Rim lighting parameters
+//	"$rimlight" "1"												// To enable rim lighting (requires phong)
+
+	"$selfillum" "1"
+
+}
