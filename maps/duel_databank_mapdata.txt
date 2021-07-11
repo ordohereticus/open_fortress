@@ -1,0 +1,24 @@
+"MapData"
+{
+	"WeaponSpawners"
+	{
+		"0" // shotgun (resupply room)
+		{
+		}
+		"1" // shotgun (near shield)
+		{
+		}
+		"2" // tommy gun
+		{
+		}
+		"3" // assault rifle
+		{
+		}
+		"4" // rocket launcher
+		{
+		}
+		"5" // railgun
+		{
+		}
+	}
+}

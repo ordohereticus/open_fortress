@@ -1,0 +1,24 @@
+"MapData"
+{
+	"WeaponSpawners"
+	{
+		"0" // shotgun
+		{
+		}
+		"1" // shotgun
+		{
+		}
+		"2" // tommy gun
+		{
+		}
+		"3" // super shotgun
+		{
+		}
+		"4" // grenade launcher
+		{
+		}
+		"5" // rocket launcher
+		{
+		}
+	}
+}

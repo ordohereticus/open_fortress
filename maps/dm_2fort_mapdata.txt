@@ -1,0 +1,54 @@
+"MapData"
+{
+	"WeaponSpawners"
+	{
+		"0" // dynamite pack
+		{
+		}
+		"1" // tommy gun (red sewers)
+		{
+		}
+		"2" // shotgun (red courtyard)
+		{
+		}
+		"3" // flame thrower
+		{
+		}
+		"4" // revolver
+		{
+		}
+		"5" // tommy gun (blue sewers)
+		{
+		}
+		"6" // shotgun (blue courtyard)
+		{
+		}
+		"7" // grenade launcher
+		{
+		}
+		"8" // railgun (blue battlements)
+		{
+		}
+		"9" // shotgun (blue spiral)
+		{
+		}
+		"10" // assault rifle (blue battlements)
+		{
+		}
+		"11" // super shotgun
+		{
+		}
+		"12" // railgun (red battlements)
+		{
+		}
+		"13" // shotgun (red spiral)
+		{
+		}
+		"14" // assault rifle (red battlements)
+		{
+		}
+		"15" // rocket launcher
+		{
+		}
+	}
+}
