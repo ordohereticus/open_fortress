@@ -18,8 +18,10 @@ WeaponData
 	"TimeIdle"			"5.0"
 	"TimeIdleEmpty"			"0.25"
 	"TimeReloadStart"		"0.1"
-	"TimeReload"			"0.375"
+	"TimeReload"			"0.417"
 	
+	"FixedSpreadTFC"		"1"
+
 	"primary_ammo"		"WEAPON_AMMO"
 	"clip_size"			"8"
 	"default_clip"			"8"

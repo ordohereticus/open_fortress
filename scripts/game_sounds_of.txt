@@ -1245,7 +1245,15 @@
 
 	"wave"				"items/powerup_haste.wav"
 }
-
+"Powerup.IdleHum"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_73dB"
+	
+	"wave"			"misc/hologram_move.wav"
+}
 "Game.DMWin"
 {
 	"channel"		"CHAN_STATIC"

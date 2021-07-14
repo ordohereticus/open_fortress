@@ -2298,6 +2298,7 @@
 [
 	model(studio) : "Model" :  : "Show a model." 
 	disable_glow(boolean) : "Disable outlines" : 0 : "Disable outlines even when the powerup is spawned"
+	disable_sound(boolean) : "Disable idle sounds" : 0 : "Disable idle sound even when the powerup is spawned"
 	timericon(string) : "Timer Icon" : : "The icon which should be displayed when you pick this powerup up. Root folder is vgui/ so if you want to go outside of that start your string with ../"
 	
 	duration(float) : "Duration" : 30 : "Changes the time, in seconds, before the condition fades."
@@ -6313,6 +6314,8 @@
 [
 	model(studio) : "Model" : "models/pickups/pickup_powerup_megahealth.mdl" : "The model this entity should appear as. 128-character limit."
 	pickup_sound(sound): "Pickup Sound" : "HealthkitMega.Touch" : "Sound to play when picking up ammo."
+	
+	disable_sound(boolean) : "Disable idle sounds" : 0 : "Disable idle sound even when the powerup is spawned"
 ]
 
 @PointClass base(Item) size(-1 -1 -12, 1 1 1) studioprop() = item_healthkit_full : 

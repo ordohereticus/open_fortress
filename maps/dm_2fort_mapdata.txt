@@ -50,5 +50,11 @@
 		"15" // rocket launcher
 		{
 		}
+		"16" // nailgun
+		{
+		}
+		"17" // lightning gun
+		{
+		}
 	}
 }

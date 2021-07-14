@@ -20,6 +20,8 @@ WeaponData
 	"TimeReloadStart"		"0.1"
 	"TimeReload"			"0.417"
 	
+	"FixedSpreadTFC"		"1"
+	
 	"primary_ammo"		"WEAPON_AMMO"
 	"clip_size"			"16"
 	"default_clip"			"16"

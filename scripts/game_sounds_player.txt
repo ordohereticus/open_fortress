@@ -478,7 +478,6 @@
 
 	}
 }
-
 "TFPlayer.CritDeath"
 {
 	"channel"	"CHAN_VOICE"
@@ -5055,4 +5054,20 @@
 	"volume"		"1.0"
 	"soundlevel"	"SNDLVL_74dB"
 	"wave"			"player/cslide.wav"
+}
+
+"TFPlayer.ShieldPain"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"95,105"
+	
+	"rndwave"
+	{
+		"wave"		"player/crit_received1.wav"
+		"wave"		"player/crit_received2.wav"
+		"wave"		"player/crit_received3.wav"
+
+	}
 }
