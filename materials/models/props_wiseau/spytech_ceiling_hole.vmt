@@ -1,0 +1,7 @@
+"VertexLitGeneric" {
+	"$basetexture" "models/props_wiseau/spytech_ceiling_hole"
+	"$detail" "overlays/detail001"
+	"$detailscale" "1.9"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "1"
+}

@@ -82,7 +82,7 @@
 //DeathmatchMusic.Discontech_Waiting
 //DeathmatchMusic.Discontech_Intro
 //DeathmatchMusic.Discontech_Ending
-
+//DeathmatchMusic.SneakyStalker
 
 //By MrModez
 "DeathmatchMusic.AtFortressGate"
@@ -1200,4 +1200,17 @@
 	"pitch"			"PITCH_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"wave"			"#music/deathmatch/ThePlainsurfersAnthem_waiting.ogg"
+}
+
+//by Lena
+"DeathmatchMusic.SneakyStalker"
+{
+	"Artist"		"Lena"
+	"Name"			"The Sneaky Stalker"
+
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"#music/deathmatch/sneakystalker_loop.ogg"
 }
