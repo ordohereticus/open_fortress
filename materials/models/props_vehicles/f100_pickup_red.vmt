@@ -4,8 +4,11 @@
 	"$basemapalphaphongmask" "1"
 	"$phong" "1"
 	"$phongexponent" "15"
-	"$phongboost" ".25"	
+	"$phongboost" ".15"	
 	"$phongfresnelranges"	"[.7 15 20]"
 	"$lightwarptexture" "models\props_vehicles\pickup_lightwarp"
 
+	"$envmap" "cubemaps/cubemap_sheen001"
+	"$envmaptint" "[.1 .1 .1]"
+	"$normalmapalphaenvmapmask" "1"
 }
