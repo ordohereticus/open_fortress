@@ -130,7 +130,7 @@ DESCRIPTION INFO_OPTIONS
 		{"1"}
 	}
 	
-		"hud_classautokill"
+	"hud_classautokill"
 	{
 		"#TF_classautokill"
 		{ BOOL }
@@ -325,6 +325,13 @@ DESCRIPTION INFO_OPTIONS
 	"cl_autorezoom"
 	{
 		"#TF_autozoom"
+		{ BOOL }
+		{ "1" }
+	}
+	
+	"of_autoreload"
+	{
+		"#TF_autoreload"
 		{ BOOL }
 		{ "1" }
 	}
