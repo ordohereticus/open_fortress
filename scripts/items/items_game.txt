@@ -1078,14 +1078,14 @@
 			"ShowInArsenal"	"1"
 			"WeaponData"
 			{
-				// Attributes Base.
+				// Attributes Base
 				"printname"		"#TF_Weapon_AR"
 				"BuiltRightHanded"	"0"
 				"weight"		"2"
 				"WeaponType"		"secondary"
 				"ITEM_FLAG_NOITEMPICKUP" 	"1"
 					
-				// Attributes TF.
+				// Attributes TF
 				"Damage"		"18"
 				"InstagibDamage"	"999"
 				"Range"			"8192"
@@ -1097,25 +1097,26 @@
 				"BurstFireDelay"    "0.30"
 				"BurstSize"         "3"
 				"TimeReload"	"1.9"
-				
-				"ProjectileType"	"projectile_bullet"
-				"BrassModel"		"models/weapons/shells/shell_minigun.mdl"
 				"UseRapidFireCrits"	"1"
 				"HasTeamSkins_Viewmodel"			"1"
 				"HasTeamSkins_Worldmodel"			"1"
-
-				// Ammo & Clip.
+				
+				// Projectile Related
+				"ProjectileType"	"projectile_bullet"
+				"BrassModel"		"models/weapons/shells/shell_minigun.mdl"
+				
+				// Ammo & Clip
 				"primary_ammo"		"WEAPON_AMMO"
 				"secondary_ammo"	"None"
 				"clip_size"		"30"
 				"default_clip"		"30"
 				"MaxAmmo"	"90"
 
-				// bucket.	
+				// Slot Placement [3-wep/TF2]	
 				"bucket"			"0"
 				"bucket_position"		"0"
 				
-				// bucket_dms.
+				// Slot Placement [DM]
 				"bucket_dm"		"4"
 				"bucket_dm_position"	"2"
 				"TracerEffect"		"bullet_pistol_tracer01"
@@ -1124,24 +1125,26 @@
 				// Muzzleflash
 				"MuzzleFlashModel"	"models/effects/sentry1_muzzle/sentry1_muzzle.mdl"
 				"MuzzleFlashModelDuration"	"0.11"
-				
 				"MuzzleFlashParticleEffect" "muzzle_smg"
 
-				// Animation.
+				// Animation
 				"viewmodel"		"models/weapons/v_models/v_assault_rifle_dm.mdl"
 				"playermodel"	"models/weapons/w_models/w_assault_rifle.mdl"
 				"anim_prefix"	"ac"
 				
+				// Centered Viewmodel offsets
 				"CenteredViewmodelOffset_Y" "-11.8"
 				"CenteredViewmodelOffset_Z" "-2"
 				"CenteredViewmodelOffset_X" "-6"
 				"CenteredViewmodelAngle_X" "-1"
 				"CenteredViewmodelAngle_Y" "-2"
 
+				// Mini-Viewmodel offsets
 				"MinViewmodelOffset_X" "10"
 				"MinViewmodelOffset_Y" "0"
 				"MinViewmodelOffset_Z" "-7"
 
+				// Centered-Mini Viewmodel offsets
 				"MiniCenteredViewmodelOffset_Y" "-11.7"
 				"MiniCenteredViewmodelOffset_Z" "-9"
 				"MiniCenteredViewmodelOffset_X" "4"
@@ -1220,14 +1223,14 @@
 			"ShowInArsenal"	"1"
 			"WeaponData"
 			{
-				// Attributes Base.
+				// Attributes Base
 				"printname"					"#TF_Weapon_Bouncer"
 				"BuiltRightHanded"			"0"
 				"weight"					"4"
 				"WeaponType"				"secondary"
 				"ITEM_FLAG_NOITEMPICKUP" 	"1"	
 
-				// Attributes TF.
+				// Attributes TF
 				"Damage"			"90"
 				"InstagibDamage"	"999"
 				"Range"				"0"
@@ -1239,47 +1242,51 @@
 				"TimeIdle"			"0.6"
 				"TimeIdleEmpty"		"0.6"
 				"TimeReload"		"0.6"
+
+				// Projectile Related
+				"ProjectileModel"	"models/weapons/w_models/w_grenade_bouncer.mdl"
+				"ProjectileType"	"projectile_bouncyrocket"
+				"ProjectileSpeed"	"750"
 				"FuseTime"		"2"
 				
-				"ProjectileModel"	"models/weapons/w_models/w_grenade_bouncer.mdl"
-				
-				// Ammo & Clip.
+				// Ammo & Clip
 				"primary_ammo"		"WEAPON_AMMO"
 				"secondary_ammo"	"None"
 				"clip_size"		"4"
 				"default_clip"		"4"
-				"ProjectileType"	"projectile_bouncyrocket"
-				"ProjectileSpeed"	"750"
 				"MaxAmmo"	"16"
 				
-				// bucket
+				// Slot Placement [3-wep/TF2]
 				"bucket"			"0"
 				"bucket_position"	"0"
 				
-				// bucket_dms.
+				// Slot Placement [DM]
 				"bucket_dm"				"6"
 				"bucket_dm_position"	"3"
 				
+				// Explosion Effects
 				"ExplosionSound"		"Weapon_Grenade_Pipebomb.Explode"
 				"ExplosionEffect"		"ExplosionCore_wall"
 				"ExplosionPlayerEffect"	"ExplosionCore_MidAir"
 				"ExplosionWaterEffect"	"ExplosionCore_MidAir_underwater"
 
-
-				// Animation.
+				// Model & Animation
 				"viewmodel"		"models/weapons/v_models/v_bouncer.mdl"
 				"playermodel"					"models/weapons/w_models/w_bouncer.mdl"
 				"anim_prefix"					"gl"
 				
+				// Centered Viewmodel offsets
 				"CenteredViewmodelOffset_Y" 	"-11.5"
 				"CenteredViewmodelOffset_Z" 	"-10"
 				"CenteredViewmodelAngle_Y" 		"0"
 				"CenteredViewmodelAngle_Z" 		"0"
 				
+				// Mini-Viewmodel offsets
 				"MinViewmodelOffset_X" 			"10"
 				"MinViewmodelOffset_Y" 			"0"
 				"MinViewmodelOffset_Z" 			"-10"	
 				
+				// Centered-Mini Viewmodel offsets
 				"MiniCenteredViewmodelOffset_X" 	"10"
 				"MiniCenteredViewmodelOffset_Y" 	"-11.5"
 				"MiniCenteredViewmodelOffset_Z" 	"-20"
@@ -1362,9 +1369,10 @@
 			//	"mercenary"	"3"
 			//}
 			//"ShowInArsenal"	"0"
+			
 			"WeaponData"
 			{
-				// Attributes Base.
+				// Attributes Base
 				"printname"			"#TF_Weapon_Berserk"
 				"BuiltRightHanded"		"0"
 				"MeleeWeapon"			"1"
@@ -1373,28 +1381,25 @@
 				"ITEM_FLAG_NOITEMPICKUP" 	"1"
 				"DontDrop"			"1"
 				
-				// Attributes TF.
+				// Attributes TF
 				"Damage"			"999"
 				"InstagibDamage"	"999"
 				"TimeFireDelay"			"0.4"
 				"TimeIdle"			"5.0"
-				"HasTeamSkins_Viewmodel"			"1"
-				"HasTeamSkins_Worldmodel"			"1"
 				"UsesCritAnimation"			"1"
 				"SwapFireAnims"		"1"
 				"HolyShit"	"1"
-				
 				"NeverStrip"		"1"
 
 				// Ammo & Clip
 				"primary_ammo"			"None"
 				"secondary_ammo"		"None"
 
-				// bucket.
+				// Slot Placement [3-wep/TF2]
 				"bucket"		"2"
 				"bucket_position"	"1"
 				
-				// bucket_dms.	
+				// Slot Placement [DM]	
 				"bucket_dm"			"10"
 				"bucket_dm_position"		"10"
 
@@ -1403,10 +1408,14 @@
 				"heavy_viewmodel"		"models/weapons/v_models/v_fist_heavy.mdl"
 				"playermodel"			""
 				"anim_prefix"			"pipe"
+				"HasTeamSkins_Viewmodel"			"1"
+				"HasTeamSkins_Worldmodel"			"1"
 				
+				// Mini-Viewmodel offsets
 				"MinViewmodelOffset_X" "10"
 				"MinViewmodelOffset_Z" "-7"
 				
+				// Centered-Mini Viewmodel offsets
 				"MiniCenteredViewmodelOffset_X" "10"
 				"MiniCenteredViewmodelOffset_Z" "-7"
 
@@ -1477,15 +1486,17 @@
 		"tf_weapon_crowbar"
 		{
 			"backpack_icon"	"..\sprites\bucket_crowbar"
-			"loadout_anim"	"8"
+			
 			"slot"
 			{
 				"mercenary"	"3"
 			}
 			"ShowInArsenal"	"1"
+			"loadout_anim"	"8"
+			
 			"WeaponData"
 			{
-				// Attributes Base.
+				// Attributes Base
 				"printname"			"#TF_Weapon_Crowbar"
 				"BuiltRightHanded"		"0"
 				"MeleeWeapon"			"1"
@@ -1493,25 +1504,22 @@
 				"WeaponType"		"melee"
 				"ITEM_FLAG_NOITEMPICKUP" 	"1"
 				
-				// Attributes TF.
+				// Attributes TF
 				"Damage"			"40"
 				"InstagibDamage"	"999"
 				"TimeFireDelay"			"0.4"
 				"SmackDelay"		"0.1"
 				"TimeIdle"			"5.0"
-				"HasTeamSkins_Viewmodel"			"1"
-				"HasTeamSkins_Worldmodel"			"1"
-				"UsesCritAnimation"			"1"
 
 				// Ammo & Clip
 				"primary_ammo"			"None"
 				"secondary_ammo"		"None"
 
-				// bucket.
+				// Slot Placement [3-wep/TF2]
 				"bucket"		"2"
 				"bucket_position"	"0"
 				
-				// bucket_dms.	
+				// Slot Placement [DM]
 				"bucket_dm"			"0"
 				"bucket_dm_position"		"4"
 
@@ -1519,10 +1527,15 @@
 				"viewmodel"			"models/weapons/v_models/v_crowbar_mercenary.mdl"
 				"playermodel"			"models/weapons/w_models/w_crowbar.mdl"
 				"anim_prefix"			"bat"
+				"HasTeamSkins_Viewmodel"			"1"
+				"HasTeamSkins_Worldmodel"			"1"
+				"UsesCritAnimation"			"1"
 				
+				// Mini-Viewmodel Offsets
 				"MinViewmodelOffset_X" "10"
 				"MinViewmodelOffset_Z" "-6"
 				
+				// Centered-Mini Viewmodel Offsets
 				"MiniCenteredViewmodelOffset_X" "10"
 				"MiniCenteredViewmodelOffset_Z" "-6"
 
@@ -1595,11 +1608,13 @@
 		"tf_weapon_chainsaw"
 		{
 			"backpack_icon"	"..\sprites\bucket_chainsaw"
+			
 			"ShowInArsenal"	"1"
 			"loadout_anim"	"6"
+			
 			"WeaponData"
 			{
-				// Attributes Base.
+				// Attributes Base
 				"printname"				"#TF_Weapon_Chainsaw"
 				"BuiltRightHanded"		"0"
 				"MeleeWeapon"			"1"
@@ -1608,7 +1623,7 @@
 				"WeaponType"			"primary"
 				"ITEM_FLAG_NOITEMPICKUP" 	"1"
 				
-				// Attributes TF.
+				// Attributes TF
 				"Damage"				"12"
 				"InstagibDamage"		"300"
 				"TimeFireDelay"			"0.05"
@@ -1618,19 +1633,17 @@
 				"ChargeDuration"	"1.5" // From measurement, its apparently always 2x more than here
 				"ChargeRechargeRate"	"8" // Despite its name, this shows how much time it needs to recharge rather than a % per second
 				"CritOnChargeLevel"		"1"
-				"HasTeamSkins_Viewmodel"			"1"
-				"HasTeamSkins_Worldmodel"			"1"
 				"CanSoftZoom"	"0"
 
 				// Ammo & Clip
 				"primary_ammo"			"None"
 				"secondary_ammo"		"None"
 
-				// bucket.
+				// Slot Placement [3-wep/TF2]
 				"bucket"		"2"
 				"bucket_position"	"0"
 				
-				// bucket_dms.	
+				// Slot Placement [DM]
 				"bucket_dm"				"0"
 				"bucket_dm_position"		"0"
 
@@ -1638,10 +1651,14 @@
 				"viewmodel"				"models/weapons/v_models/v_chainsaw.mdl"
 				"playermodel"			"models/weapons/w_models/w_chainsaw_dm.mdl"
 				"anim_prefix"			"ac"
+				"HasTeamSkins_Viewmodel"			"1"
+				"HasTeamSkins_Worldmodel"			"1"
 				
+				//Mini-Viewmodel Offsets
 				"MinViewmodelOffset_X" "10"
 				"MinViewmodelOffset_Z" "-12"
 				
+				//Centered-Mini Viewmodel Offsets
 				"MiniCenteredViewmodelOffset_X" "10"
 				"MiniCenteredViewmodelOffset_Z" "-12"
 
@@ -1715,7 +1732,7 @@
 		{
 			"WeaponData"
 			{
-				// Attributes Base.
+				// Attributes Base
 				"printname"			"#TF_Weapon_Knife"
 				"BuiltRightHanded"		"0"
 				"MeleeWeapon"			"1"
@@ -1730,30 +1747,32 @@
 				"TimeIdle"			"5.0"
 				"SmackDelay"			"0"
 				"Secondary_SmackDelay"		"0"
-				"HasTeamSkins_Viewmodel"			"1"
-				"HasTeamSkins_Worldmodel"			"1"
-				"UsesCritAnimation"			"1"
 
 				// Ammo & Clip
 				"primary_ammo"			"None"
 				"secondary_ammo"		"None"
 				
-				// bucket.	
+				// Slot Placement [3-wep/TF2]
 				"bucket"			"2"
 				"bucket_position"		"0"
 				
-				// bucket_dms.
+				// Slot Placement [DM]
 				"bucket_dm"			"0"
 				"bucket_dm_position"		"2"
 				
-				// Model & Animation.
+				// Model & Animation
 				"viewmodel"			"models/weapons/v_models/v_classic_knife.mdl"
 				"playermodel"			"models/weapons/w_models/w_classic_knife.mdl"
 				"anim_prefix"			"knife"
+				"HasTeamSkins_Viewmodel"			"1"
+				"HasTeamSkins_Worldmodel"			"1"
+				"UsesCritAnimation"			"1"
 
+				// Mini-Viewmodel Offsets
 				"MinViewmodelOffset_X" "5"
 				"MinViewmodelOffset_Z" "-4"
 				
+				// Centered-Mini Viewmodel Offsets
 				"MiniCenteredViewmodelOffset_X" "5"
 				"MiniCenteredViewmodelOffset_Z" "-4"
 
@@ -1829,14 +1848,14 @@
 			"ShowInArsenal"	"1"
 			"WeaponData"
 			{
-				// Attributes Base.
+				// Attributes Base
 				"printname"		"#TF_Weapon_Dynamite"
 				"BuiltRightHanded"	"0"
 				"weight"		"3"
 				"WeaponType"		"melee"
 				"ITEM_FLAG_NOITEMPICKUP" "1"
 
-				// Attributes TF.
+				// Attributes TF
 				"Damage"		"100"
 				"BlastJumpDamageForce"	"155"
 				"FuseTime"		"-2"
@@ -1850,13 +1869,11 @@
 				"TimeIdle"		"0.6"
 				"TimeIdleEmpty"		"0"
 				"TimeReload"		"0.67"
-				"HasTeamSkins_Viewmodel"			"1"
-				"HasTeamSkins_Worldmodel"			"1"
-				"ExplodeOnImpact"			"1"
 				"DisableSecondaryAttack"	"1"
 				"PickupMultiplier"	"1.7"
 				"IgnoreAmmoRatios"	"1"
 				
+				// Bomblets Attributes/Effects/Model
 				"DropBomblets"			"1"
 				"BombletAmount" 		"3"
 				"BombletDamage"			"70"
@@ -1865,37 +1882,44 @@
 				"BombletModel"			"models/weapons/w_models/w_grenade_bomblet.mdl"
 				"BombletParticleTrail"			"fuse_spark"
 				
-				// Ammo & Clip.
+				// Ammo & Clip
 				"primary_ammo"		"WEAPON_AMMO"
-				"secondary_ammo"	"None"
-				clip_size		-1
-				"ProjectileType"	"projectile_pipe"
-				"ProjectileSpeed"	"900"
-				"MaxAmmo"	"3"
+				"secondary_ammo"		"None"
+				"clip_size"		"-1"
+				"MaxAmmo"		"3"
 
-				// bucket.	
+				// Slot Placement [3-wep/TF2]
 				"bucket"			"1"
 				"bucket_position"		"0"
 				
-				// bucket_dms.
+				// Slot Placement [DM]
 				"bucket_dm"		"6"
 				"bucket_dm_position"	"6"
 				
+				// Projectile Related
+				"ProjectileType"	"projectile_pipe"
+				"ProjectileSpeed"	"900"
 				"ProjectileModel"	"models/weapons/w_models/w_dynamite.mdl"
+				"ExplodeOnImpact"	"1"
 				
+				// Explosion Effects
 				"ExplosionSound"	"Weapon_DynamiteBundle.BundleExplode"
 				"ExplosionEffect"	"ExplosionCore_wall"
 				"ExplosionPlayerEffect"	"ExplosionCore_MidAir"
 				"ExplosionWaterEffect"	"ExplosionCore_MidAir_underwater"
 
-				// Animation.
+				// Model & Animation
 				"viewmodel"		"models/weapons/v_models/v_dynamite_bundle.mdl"
 				"playermodel"		"models/weapons/w_models/w_dynamite.mdl"
 				"anim_prefix"			"bat"
+				"HasTeamSkins_Viewmodel"			"1"
+				"HasTeamSkins_Worldmodel"			"1"
 				
+				// Mini-Viewmodel Offsets
 				"MinViewmodelOffset_X" "8"
 				"MinViewmodelOffset_Z" "-6"
 
+				// Centered-Mini Viewmodel Offsets
 				"MiniCenteredViewmodelOffset_X" "8"
 				"MiniCenteredViewmodelOffset_Z" "-6"
 
@@ -1968,7 +1992,7 @@
 		{
 			"WeaponData"
 			{
-				// Attributes Base.
+				// Attributes Base
 				"printname"				"#TF_Weapon_EternalShotgun"
 				"BuiltRightHanded"		"0"
 				"weight"				"3"
@@ -1987,40 +2011,46 @@
 				"TimeIdleEmpty"			"0.25"
 			//	"TimeReloadStart"		"0.50"
 				"TimeReload"			"1.4"
-				"primary_ammo"			"WEAPON_AMMO"
-				"clip_size"				"1"
-				"MaxAmmo"	"16"	
-				"ProjectileType"		"projectile_bullet"
-				"AmmoPerShot"			"1"
-				"HasTeamSkins_Viewmodel"			"1"
-				"HasTeamSkins_Worldmodel"			"1"
-				
 				"GibOnOverkill"		"1"
+				
+				// Projectile Related
+				"ProjectileType"		"projectile_bullet"
 				"BrassModel"		"models/weapons/shells/shell_shotgun.mdl"
 				"TracerEffect"		"bullet_scattergun_tracer01"
 
-				// bucket.	
+				// Ammo & Clip
+				"primary_ammo"			"WEAPON_AMMO"
+				"clip_size"				"1"
+				"MaxAmmo"	"16"	
+				"AmmoPerShot"			"1"
+
+				// Slot Placement [3-wep/TF2]
 				"bucket"			"0"
 				"bucket_position"		"0"
 				
-				// bucket_dms.
+				// Slot Placement [DM]
 				"bucket_dm"				"2"
 				"bucket_dm_position"		"0"
 
-				// Animation.
+				// Model & Animation
 				"viewmodel"     	"models/weapons/v_models/v_supershotgun_doom.mdl"
 				"playermodel"		"models/weapons/w_models/w_supershotgun_doom.mdl"
 				"anim_prefix"		"shotgun"
+				"HasTeamSkins_Viewmodel"			"1"
+				"HasTeamSkins_Worldmodel"			"1"
 				
+				// Centered Viewmodel Offsets
 				"CenteredViewmodelOffset_Y" "-8.05"
 				"CenteredViewmodelOffset_X" "-4"
 				"CenteredViewmodelAngle_Z" "2.3"
 				"CenteredViewmodelAngle_Y" "-2"
 				
+				// Mini-Viewmodel Offsets
 				"MinViewmodelOffset_X" "5"
 				"MinViewmodelOffset_Y" "-4"
 				"MinViewmodelOffset_Z" "-10"
 				
+				// Centered-Mini Viewmodel Offsets
 				"MiniCenteredViewmodelOffset_Y" "-8.05"
 				"MiniCenteredViewmodelOffset_X" "1"
 				"MiniCenteredViewmodelOffset_Z" "-10"
@@ -2106,14 +2136,14 @@
 			"ShowInArsenal"	"1"
 			"WeaponData"
 			{
-				// Attributes Base.
+				// Attributes Base
 				"printname"		"#TF_Weapon_FlameThrower"
 				"BuiltRightHanded"	"0"
 				"weight"		"3"
 				"WeaponType"		"primary"
 				"ITEM_FLAG_NOITEMPICKUP" 	"0"
 				
-				// Attributes TF.
+				// Attributes TF
 				"Damage"							"180"	// per second
 				"InstagibDamage"					"999"
 				"Range"								"0"
@@ -2121,48 +2151,46 @@
 				"Spread"							"0.0"
 				"TimeFireDelay"						"0.06"
 				"UseRapidFireCrits"					"1"
-				"HasTeamSkins_Viewmodel"			"1"
-				"HasTeamSkins_Worldmodel"			"1"
-				
 				"DisableSecondaryAttack"			"1"
-
-				
 				"Secondary_TimeFireDelay"	"0.06"
 				"Secondary_AmmoPerShot"	    "20"
 				
-				// Ammo & Clip.
+				// Ammo & Clip
 				"primary_ammo"		"WEAPON_AMMO"
 				"secondary_ammo"	"WEAPON_AMMO"
 				clip_size		-1
 				"MaxAmmo"	"150"
 
-				// bucket_dms.
+				// Slot Placement [3-wep/TF2]
 				"bucket"		"0"
 				"bucket_position"	"0"
 				
-				// bucket_dms.
+				// Slot Placement [DM]
 				"bucket_dm"		"5"
 				"bucket_dm_position"	"1"
 
-				// Animation.
+				// Model & Animation
 				"viewmodel"		"models/weapons/v_models/v_flamethrower_merc.mdl"
 				"playermodel"		"models/weapons/w_models//w_flamethrower_merc.mdl"
 				"anim_prefix"		"gl"
+				"HasTeamSkins_Viewmodel"			"1"
+				"HasTeamSkins_Worldmodel"			"1"
 				
+				// Centered Viewmodel Offsets
 				"CenteredViewmodelOffset_Y" "-10.6"
 				"CenteredViewmodelOffset_Z" "-2"
 				"CenteredViewmodelAngle_Y" "-0.2"
 				
+				// Mini-Viewmodel Offsets
 				"MinViewmodelOffset_X" "10"
 				"MinViewmodelOffset_Y" "0"
 				"MinViewmodelOffset_Z" "-10"
 				
+				// Centered-Mini Viewmodel Offsets
 				"MiniCenteredViewmodelOffset_Y" "-10.6"
 				"MiniCenteredViewmodelOffset_Z" "-12"
 				"MiniCenteredViewmodelAngle_Y" "-0.2"
 				"MiniCenteredViewmodelOffset_X" "10"
-
-				"HasTeamSkins_Worldmodel"	"1"
 
 				// Sounds.
 				// Max of 16 per category (ie. max 16 "single_shot" sounds).
@@ -2238,7 +2266,7 @@
 			"ShowInArsenal"	"1"
 			"WeaponData"
 			{
-				// Attributes Base.
+				// Attributes Base
 				"printname"		"#TF_Weapon_Chaingun"
 				"BuiltRightHanded"	"0"
 				"weight"		"3"
@@ -2253,52 +2281,55 @@
 				"PunchAngle"	"0.5"
 				"Spread"		"0.1"
 				"TimeFireDelay"	"0.1"
-				"ProjectileType"	"projectile_bullet"
-				"DoInstantEjectBrass"	"1"
-				"BrassModel"		"models/weapons/shells/shell_minigun.mdl"
 				"UseRapidFireCrits"	"1"
-				"TracerEffect"		"bullet_tracer01"
-				"TracerFrequency"	"4"
-				"HasTeamSkins_Viewmodel"			"1"
-				"HasTeamSkins_Worldmodel"			"1"
 				"NoFixedSpread"		"1"
 
-				// Ammo & Clip.
+				// Projectile Related
+				"ProjectileType"	"projectile_bullet"
+				"BrassModel"		"models/weapons/shells/shell_minigun.mdl"
+				"DoInstantEjectBrass"	"1"
+				"TracerEffect"		"bullet_tracer01"
+				"TracerFrequency"	"4"
+				
+				// Ammo & Clip
 				"primary_ammo"		"WEAPON_AMMO"
 				"secondary_ammo"	"None"
 				clip_size		-1
 				"MaxAmmo"	"100"
 
-				// bucket
+				// Slot Placement [3-wep/TF2]
 				"bucket"		"0"
 				"bucket_position"	"0"
 				
-				// bucket_dms.
+				// Slot Placement [DM]
 				"bucket_dm"		"3"
 				"bucket_dm_position"	"2" //NOTE: This is 2 AFTER it's "actual" position. "Fixes" a bug involving the sapper and non-Spy classes in DM.
 
-				// Animation.
+				// Model & Animation
 				"viewmodel"		"models/weapons/v_models/v_minigun_dm.mdl"
 				"playermodel"		"models/weapons/w_models/w_minigun_dm.mdl"
 				"anim_prefix"		"ac"
+				"HasTeamSkins_Viewmodel"			"1"
+				"HasTeamSkins_Worldmodel"			"1"
 
 				// Muzzleflash
 				"MuzzleFlashModel"	"models/effects/muzzleflash/minigunmuzzle.mdl"
 				"MuzzleFlashParticleEffect" "muzzle_minigun"
 				
-				
+				// Centered Viewmodel Offsets
 				"CenteredViewmodelOffset_X" "-35"
 				"CenteredViewmodelOffset_Y" "3.5"
 				"CenteredViewmodelOffset_Z" "8"
 				"CenteredViewmodelAngle_Y" "1"
 				"CenteredViewmodelAngle_Z" "24"
 				"CenteredViewmodelAngle_X" "-1.5"
-
+				
+				// Mini-Viewmodel Offsets
 				"MinViewmodelOffset_X" "10"
 				"MinViewmodelOffset_Y" "0"
 				"MinViewmodelOffset_Z" "-9"
 				
-				
+				// Centered-Mini Viewmodel Offsets
 				"MiniCenteredViewmodelOffset_X" "-25"
 				"MiniCenteredViewmodelOffset_Y" "3.5"
 				"MiniCenteredViewmodelOffset_Z" "-1"
@@ -2378,14 +2409,14 @@
 		{
 			"WeaponData"
 			{
-				// Attributes Base.
+				// Attributes Base
 				"printname"		"#TF_Weapon_GIB"
 				"BuiltRightHanded"	"0"
 				"weight"		"2"
 				"WeaponType"		"secondary"
 				"ITEM_FLAG_NOITEMPICKUP" 	"1"
 				
-				// Primary Attributes.
+				// Attributes TF
 				"Damage"		"140"
 				"InstagibDamage"	"999"
 				"DamageRadius"		"250"
@@ -2397,19 +2428,20 @@
 				"TimeIdle"		"0.5"
 				"TimeIdleEmpty"		"0.5"
 				"TimeReload"		"0.8"
+				"WindupTime" "0.9"
+				"PickupMultiplier"	"0"
+				"AlwaysDrop"		"1"
+				"AppearOnBack"		"1"
+				"DropOnNoAmmo"		"1"
 				
+				// Ammo & Clip
 				"primary_ammo"		"WEAPON_AMMO"
-				clip_size		-1
-				default_clip		-1
+				"clip_size"		"-1"
 				"MaxAmmo"	"8"
 				
-				"WindupTime" "0.9"
+				// Bomblets Attributes/Effects/Model
 				"DropBomblets"	"1"
 				"BombletAmount" "6"
-				"PickupMultiplier"	"0"
-				
-				"DropBomblets"			"1"
-				"BombletAmount" 		"3"
 				"BombletDamage"			"45"
 				"BombletDamageRadius"	"124"
 				"BombletTimer"			"1"
@@ -2417,56 +2449,52 @@
 				"BombletModel"			"models/weapons/w_models/w_bfg_bomblet.mdl"
 				"BombletParticleTrail"			"mlg_trail_secondary"
 				"BombletEffectTeamColored"	"1"
-				"AlwaysDrop"		"1"
-				"AppearOnBack"		"1"
-				
-				"DropOnNoAmmo"		"1"
-				
-				"TeamColorMuzzleFlash"	"1"
-				"MuzzleFlashParticleEffect" "mlg_muzzleflash"
-				
+	
+				// Projectile Related
 				"ProjectileType"	"projectile_coom"
 				"ProjectileSpeed"	"1100"
-				"HasTeamSkins_Viewmodel"			"1"
-				"HasTeamSkins_Worldmodel"			"1"
 
-				// Secondary Attributes.
-				"secondary_ammo"	"None"
-
-				// bucket.	
+				// Slot Placement [3-wep/TF2]
 				"bucket"			"0"
 				"bucket_position"		"0"
 				
-				// bucket_dms.
+				// Slot Placement [DM]
 				"bucket_dm"		"7"
 				"bucket_dm_position"	"2"	
 
+				// Explosion Effects
 				"ExplosionEffect"			"mlg_explosion_primary"
 				"ExplosionPlayerEffect"		"mlg_explosion_primary"
 				"ExplosionWaterEffect"		"mlg_explosion_primary"
-				
+				"ExplosionSound"	"Weapon_MLG.Explode"
 				"ExplosionEffectBomblets"			"mlg_explosion_secondary"
 				"ExplosionPlayerEffectBomblets"		"mlg_explosion_secondary"
 				"ExplosionWaterEffectBomblets"		"mlg_explosion_secondary"	
-				
 				"TeamExplosion" "1"
 
-				"ExplosionSound"	"Weapon_MLG.Explode"
-
-				// Animation.
+				// Model & Animation
 				"viewmodel"		"models/weapons/v_models/v_bfg.mdl"
 				"playermodel"		"models/weapons/w_models/w_bfg.mdl"
 				"anim_prefix"		"ac"
+				"HasTeamSkins_Viewmodel"			"1"
+				"HasTeamSkins_Worldmodel"			"1"
 				
+				// Muzzleflash
+				"MuzzleFlashParticleEffect" "mlg_muzzleflash"
+				"TeamColorMuzzleFlash"	"1"
+				
+				// Centered Viewmodel Offsets
 				"CenteredViewmodelAngle_Y" "-2"
 				"CenteredViewmodelOffset_X" "-12"
 				"CenteredViewmodelOffset_Y" "-13.5"
 				"CenteredViewmodelOffset_Z" "-3"
 				
+				// Mini-Viewmodel Offsets
 				"MinViewmodelOffset_X" "10"
 				"MinViewmodelOffset_Y" "3"
 				"MinViewmodelOffset_Z" "-10"
-					
+				
+				// Centered-Mini Viewmodel Offsets
 				"MiniCenteredViewmodelAngle_Y" "-2"
 				"MiniCenteredViewmodelOffset_X" "-2"
 				"MiniCenteredViewmodelOffset_Y" "-13.5"
@@ -2543,23 +2571,19 @@
 			"ShowInArsenal"	"1"
 			"WeaponData"
 			{
-				// Attributes Base.
+				// Attributes Base
 				"printname"		"#TF_Weapon_GrenadeLauncher_DM"
 				"BuiltRightHanded"	"0"
 				"weight"		"4"
 				"WeaponType"		"secondary"
 				"ITEM_FLAG_NOITEMPICKUP" 	"1"	
 
-				// Attributes TF.
+				// Attributes TF
 				"damage"		"90"
 				"BlastJumpDamageForce"		"80"
-				"FuseTime"		"-1"
-				"AlwaysEnableTouch" "1"
-				"ImpactBeforeTime"	"0.1"
 				"InstagibDamage"	"999"
 				"DamageRadius"		"110"
 				"BulletsPerShot"	"1"
-				"HasTeamSkins_Viewmodel"			"1"
 				"Spread"		"0.0"	
 				"PunchAngle"		"3.0"
 				"TimeFireDelay"		"0.6"
@@ -2567,48 +2591,55 @@
 				"TimeIdleEmpty"		"0.6"
 				"TimeReloadStart"	"0.4"
 				"TimeReload"		"0.7"
-				"HasTeamSkins_Viewmodel"			"1"
-				"HasTeamSkins_Worldmodel"			"1"
 
-				// Ammo & Clip.
+				// Ammo & Clip
 				"primary_ammo"		"WEAPON_AMMO"
 				"secondary_ammo"	"None"
 				"clip_size"		"4"
-				"default_clip"		"4"
-				"ProjectileType"	"projectile_pipe_dm"
-				"ProjectileSpeed"	"1200"
 				"MaxAmmo"	"16"
 
-				// bucket
+				// Slot Placement [3-wep/TF2]
 				"bucket"		"0"
 				"bucket_position"	"0"	
 				
-				// bucket_dms.
+				// Slot Placement [DM]
 				"bucket_dm"		"6"
 				"bucket_dm_position"	"4"
 				
+				// Explosion Effects
 				"ExplosionSound"	"Weapon_Grenade_Pipebomb.Explode"
 				"ExplosionEffect"	"ExplosionCore_wall"
 				"ExplosionPlayerEffect"	"ExplosionCore_MidAir"
 				"ExplosionWaterEffect"	"ExplosionCore_MidAir_underwater"
 
+				// Projectile Related
 				"ProjectileModel"	"models/weapons/w_models/w_grenade_grenadelauncher_dm.mdl"
+				"ProjectileType"	"projectile_pipe_dm"
+				"ProjectileSpeed"	"1200"
 				"BrassModel"			"models/weapons/shells/shell_grenade.mdl"
+				"FuseTime"		"-1"
+				"AlwaysEnableTouch" "1"
+				"ImpactBeforeTime"	"0.1"
 
-				// Animation.
+				// Model & Animation.
 				"viewmodel"		"models/weapons/v_models/v_grenadelauncher_dm.mdl"
 				"playermodel"		"models/weapons/w_models/w_grenadelauncher_dm.mdl"
 				"anim_prefix"		"gl"
+				"HasTeamSkins_Viewmodel"			"1"
+				"HasTeamSkins_Worldmodel"			"1"
 				
+				//Centered Viewmodel Offsets
 				"CenteredViewmodelOffset_Y" "-10.7"
 				"CenteredViewmodelOffset_X" "-8"
 				"CenteredViewmodelOffset_Z" "-3.5"
 				"CenteredViewmodelAngle_X" "-2"
 				
+				//Mini-Viewmodel Offsets
 				"MinViewmodelOffset_X" "10"
 				"MinViewmodelOffset_Y" "0"
 				"MinViewmodelOffset_Z" "-8"	
 				
+				//Centered-Mini Viewmodel Offsets
 				"MiniCenteredViewmodelOffset_Y" "-10.7"
 				"MiniCenteredViewmodelOffset_X" "2"
 				"MiniCenteredViewmodelOffset_Z" "-14.5"
@@ -2684,8 +2715,8 @@
 		
 		"tf_weapon_lead_pipe"
 		{
-		"backpack_icon"	"..\sprites\bucket_leadpipe"
-		"loadout_anim"	"9"
+			"backpack_icon"	"..\sprites\bucket_leadpipe"
+			"loadout_anim"	"9"
 			"slot"
 			{
 				"mercenary"	"3"
@@ -2694,36 +2725,31 @@
 			
 			"WeaponData"
 			{
-				// Attributes Base.
+				// Attributes Base
 				"printname"			"#TF_Weapon_LeadPipe"
 				"BuiltRightHanded"		"0"
 				"MeleeWeapon"			"1"
 				"weight"			"1"
 				"WeaponType"		"melee"
 				"ITEM_FLAG_NOITEMPICKUP" 	"1"
-				"HasTeamSkins_Viewmodel"			"1"
-				"HasTeamSkins_Worldmodel"			"1"
 				
-				"UsesCritAnimation"			"1"
-				
-				"GibOnOverkill"		"1"
-				"CritMidAir"		"1"
-				
-				// Attributes TF.
+				// Attributes TF
 				"Damage"			"40"
 				"InstagibDamage"	"999"
 				"TimeFireDelay"		"0.7"
 				"TimeIdle"			"5.0"
+				"GibOnOverkill"		"1"
+				"CritMidAir"		"1"
 
 				// Ammo & Clip
 				"primary_ammo"			"None"
 				"secondary_ammo"		"None"
 
-				// bucket.
+				// Slot Placement [3-wep/TF2]
 				"bucket"		"2"
 				"bucket_position"	"0"
-							
-				// bucket_dms.	
+				
+				// Slot Placement [DM]
 				"bucket_dm"			"0"
 				"bucket_dm_position"		"4"
 
@@ -2731,10 +2757,15 @@
 				"viewmodel"				"models/weapons/v_models/v_lead_pipe.mdl"
 				"playermodel"			"models/weapons/w_models/w_leadpipe_merc.mdl"
 				"anim_prefix"			"pipe"
-
+				"HasTeamSkins_Viewmodel"			"1"
+				"HasTeamSkins_Worldmodel"			"1"
+				"UsesCritAnimation"			"1"
+				
+				//Mini-Viewmodel Offsets
 				"MinViewmodelOffset_X" "15"
 				"MinViewmodelOffset_Z" "-14"
 				
+				//Centered-Mini Offsets
 				"MiniCenteredViewmodelOffset_X" "15"
 				"MiniCenteredViewmodelOffset_Z" "-14"
 
@@ -2828,48 +2859,49 @@
 				"TimeIdle"			"10.0"
 				"TimeIdleEmpty"		"1.0"
 				"TimeFireDelay"		"0.05"
-				
 				"UseRapidFireCrits"	"1"
-				
+				"IgnoreAmmoRatios"	"1"
+
+				// Projectile Related
 				"ProjectileType"	"projectile_bullet"
 				"TracerEffect"		"lg_bolt"
 				
-				"HasTeamSkins_Viewmodel"			"1"
-				"HasTeamSkins_Worldmodel"			"1"
-					
-				// Ammo & Clip.
+				// Ammo & Clip
 				"primary_ammo"		"WEAPON_AMMO"
 				"secondary_ammo"	"None"
 				"clip_size"			"-1"
 				"MaxAmmo"			"100"
 
-				// bucket_dms.
+				// Slot Placement [3-wep/TF2]
 				"bucket"			"0"
 				"bucket_position"	"0"
 				
-				// bucket_dms.
+				// Slot Placement [DM]
 				"bucket_dm"				"5"
 				"bucket_dm_position"	"0"
 
-				// Animation.
+				// Model & Animation
 				"viewmodel"			"models/weapons/v_models/v_lightning_gun.mdl"
 				"playermodel"		"models/weapons/w_models/w_lightning_gun.mdl"
 				"anim_prefix"		"gl"
+				"HasTeamSkins_Viewmodel"			"1"
+				"HasTeamSkins_Worldmodel"			"1"
 				
+				//Centered Viewmodel Offsets
 				"CenteredViewmodelOffset_Y"		"-8.44"
 				"CenteredViewmodelAngle_Z"		"1.25"
 				"CenteredViewmodelOffset_Z"		"-1"
 				
+				//Mini-Viewmodel Offsets
 				"MinViewmodelOffset_X" 			"8"
 				"MinViewmodelOffset_Y" 			"0"
 				"MinViewmodelOffset_Z" 			"-6"	
 				
+				//Centered-Mini Viewmodel Offsets
 				"MiniCenteredViewmodelOffset_Y"		"-8.44"
 				"MiniCenteredViewmodelAngle_Z"		"1.25"
 				"MiniCenteredViewmodelOffset_Z"		"-7"
 				"MiniCenteredViewmodelOffset_X" 	"8"	
-				
-				"HasTeamSkins_Worldmodel"	"1"
 
 				// Sounds.
 				// Max of 16 per category (ie. max 16 "single_shot" sounds).
@@ -2944,14 +2976,14 @@
 			"ShowInArsenal"	"1"
 			"WeaponData"
 			{
-				// Attributes Base.
+				// Attributes Base
 				"printname"		"#TF_Weapon_Nailgun"
 				"BuiltRightHanded"	"0"
 				"weight"		"4"
 				"WeaponType"		"item2"
 				"ITEM_FLAG_NOITEMPICKUP" 	"1"
 					
-				// Attributes TF.
+				// Attributes TF
 				"Damage"		"20"
 				"Range"			"8192"
 				"BulletsPerShot"	"1"
@@ -2960,37 +2992,41 @@
 				"TimeReload"		"1.37"
 				"UseRapidFireCrits"	"1"
 				
+				// Projectile Related
 				"ProjectileType"	"projectile_nail"
 				"ProjectileSpeed"	"1000"
 
-				// Ammo & Clip.
+				// Ammo & Clip
 				"primary_ammo"		"WEAPON_AMMO"
 				"secondary_ammo"      "None"
 				"clip_size"           "30"
-				"default_clip"        "30"
 				"MaxAmmo"	      "75"
 				
+				// Muzzleflash
 				"MuzzleFlashParticleEffect" "muzzle_syringe"
 
-				// bucket.	
+				// Slot Placement [3-wep/TF2]
 				"bucket"			"0"
 				"bucket_position"		"0"
 				
-				// bucket_dms.
+				// Slot Placement [DM]
 				"bucket_dm"		"5"
 				"bucket_dm_position"	"2"
 
-				// Animation.
+				// Model & Animation
 				"viewmodel"		"models/weapons/v_models/v_nailgun_mercenary.mdl"
 				"playermodel"		"models/weapons/w_models/w_nailgun.mdl"
 				"anim_prefix"		"ac"
 				
+				// Centered Viewmodel Offsets
 				"CenteredViewmodelOffset_Y" "-11.5"
 				"CenteredViewmodelangle_Y" "0.5"
 				
+				// Mini-Viewmodel Offsets
 				"MinViewmodelOffset_X" "9"
 				"MinViewmodelOffset_Z" "-5.5"
 				
+				// Centered-Mini Viewmodel Offsets
 				"MiniCenteredViewmodelOffset_Y" "-11.5"
 				"MiniCenteredViewmodelangle_Y" 	"0.5"
 				"MiniCenteredViewmodelOffset_Z" "-3.5"
@@ -3075,7 +3111,7 @@
 				"WeaponType"		"secondary"
 				"ITEM_FLAG_NOITEMPICKUP" 	"1"
 					
-				// Attributes TF.
+				// Attributes TF
 				"Damage"		"15"
 				"InstagibDamage"		"999"
 				"Range"			"4096"
@@ -3085,36 +3121,37 @@
 				"TimeIdle"		"5.0"
 				"TimeIdleEmpty"		"0.25"
 				"TimeReload"		"1.5"
+				"UseRapidFireCrits"	"1"
+				
+				// Projectile Related
 				"ProjectileType"	"projectile_bullet"
 				"BrassModel"		"models/weapons/shells/shell_pistol.mdl"
-				"UseRapidFireCrits"	"1"
 				"TracerEffect"		"bullet_pistol_tracer01"
 				
-				"HasTeamSkins_Viewmodel"			"1"
-				"HasTeamSkins_Worldmodel"			"1"
-				
+				// Magazine Drop [UNUSED]
 				"DropsMag" 			"1"
 				"MagModel"          "models/weapons/w_models/magazines/w_pistol_mercenary_magazine.mdl"
 				
-				// Ammo & Clip.
+				// Ammo & Clip
 				"primary_ammo"		"WEAPON_AMMO"
 				"secondary_ammo"	"None"
-				"clip_size"		15
-				"default_clip"		15
+				"clip_size"		"15"
 				"MaxAmmo"	"90"
 
-				// bucket.	
+				// Slot Placement [3-wep/TF2]
 				"bucket"			"1"
 				"bucket_position"		"0"
 				
-				// bucket_dms.
+				// Slot Placement [DM]
 				"bucket_dm"		"1"
 				"bucket_dm_position"	"4" //NOTE: This is 1 AFTER it's "actual" position. "Fixes" a bug while playing as Spy in DM.
 
-				// Animation.
+				// Model & Animation
 				"viewmodel"	"models/weapons/v_models/v_pistol_mercenary.mdl"
 				"playermodel"		"models/weapons/w_models/w_pistol_mercenary.mdl"
 				"anim_prefix"		"ac"
+				"HasTeamSkins_Viewmodel"			"1"
+				"HasTeamSkins_Worldmodel"			"1"
 				
 				"CenteredViewmodelOffset_X" "-6"
 				"CenteredViewmodelOffset_Y" "-9.8"
@@ -3207,14 +3244,14 @@
 			"ShowInArsenal"	"1"
 			"WeaponData"
 			{
-				// Attributes Base.
+				// Attributes Base
 				"printname"		"#TF_Weapon_Akimbo_Pistols"
 				"BuiltRightHanded"	"0"
 				"weight"		"4"
 				"WeaponType"		"secondary"
 				"ITEM_FLAG_NOITEMPICKUP" 	"1"
-					
-				// Attributes TF.
+				
+				// Attributes TF
 				"Damage"		"15"
 				"InstagibDamage"	"999"
 				"Range"			"4096"
@@ -3224,38 +3261,41 @@
 				"TimeIdle"		"5.0"
 				"TimeIdleEmpty"		"0.25"
 				"TimeReload"		"3"
+				"UseRapidFireCrits"	"1"
+				
+				// Projectile Related
 				"ProjectileType"	"projectile_bullet"
 				"BrassModel"		"models/weapons/shells/shell_pistol.mdl"
-				"UseRapidFireCrits"	"1"
-				"SwapFireAnims"		"1"
 				"TracerEffect"		"bullet_pistol_tracer01"
 				"TracerFrequency"	"1"
 
-				// Ammo & Clip.
+				// Ammo & Clip
 				"primary_ammo"		"WEAPON_AMMO"
 				"secondary_ammo"	"None"
 				"clip_size"			"30"
-				"default_clip"		"30"
-				"HasTeamSkins_Viewmodel"			"1"
-				"HasTeamSkins_Worldmodel"			"1"
 				"MaxAmmo"	"180"
 
-				// bucket.	
+				// Weapon Placement [3-wep/TF2]
 				"bucket"			"1"
 				"bucket_position"		"0"
 				
-				// bucket_dms.
+				// Weapon Placement [DM]
 				"bucket_dm"		"1"
 				"bucket_dm_position"	"3" //NOTE: This is 1 AFTER it's "actual" position. "Fixes" a bug while playing as Spy in DM.
 
-				// Animation.
+				// Model & Animation
 				"viewmodel"	"models/weapons/v_models/v_akimbo_pistols_mercenary.mdl"
 				"playermodel"		"models/weapons/w_models/w_pistol_akimbo.mdl"
 				"anim_prefix"		"ac"
+				"HasTeamSkins_Viewmodel"			"1"
+				"HasTeamSkins_Worldmodel"			"1"
+				"SwapFireAnims"		"1"
 				
+				// Mini-Viewmodel Offsets
 				"MinViewmodelOffset_X" "10"
 				"MinViewmodelOffset_Z" "-6"
 				
+				// Centered-Mini Viewmodel Offsets
 				"MiniCenteredViewmodelOffset_X" "10"
 				"MiniCenteredViewmodelOffset_Z" "-6"
 
@@ -3336,14 +3376,14 @@
 			"ShowInArsenal"	"1"
 			"WeaponData"
 			{
-				// Attributes Base.
+				// Attributes Base
 				"printname"		"#TF_Weapon_RailGun"
 				"BuiltRightHanded"	"0"
 				"weight"		"3"
 				"WeaponType"		"secondary"
 				"ITEM_FLAG_NOITEMPICKUP" 	"1"
 				
-				// Attributes TF.
+				// Attributes TF
 				"Damage"		"80"
 				"InstagibDamage"	"999"
 				"Range"			"16384"
@@ -3351,45 +3391,50 @@
 				"Spread"		"0.0"
 				"TimeFireDelay"		"1.5"
 				"TimeReload"			"1.5"
-				"ProjectileType"	"projectile_bullet"
-				"HasTeamSkins_Viewmodel"			"1"
-				"HasTeamSkins_Worldmodel"			"1"
-				"TracerEffect"		"railgun_tracer01"
-				"TracerFrequency"	"1"
-				
-				"DoInstantEjectBrass"	"0"
 				"NoSniperCharge"		"1"
 				"RailgunNerf"			"1"
 
-				// Ammo & Clip.
+				// Projectile Related
+				"ProjectileType"	"projectile_bullet"
+				"TracerEffect"		"railgun_tracer01"
+				"TracerFrequency"	"1"
+				"DoInstantEjectBrass"	"0"
+				
+				// Ammo & Clip
 				"primary_ammo"		"WEAPON_AMMO"
 				"secondary_ammo"	"None"
 				"clip_size"			"-1"
 				"MaxAmmo"			"14"
 
-				// bucket.	
+				// Slot Placement [3-wep/TF2]	
 				"bucket"			"0"
 				"bucket_position"		"0"
 				
-				// bucket_dms.
+				// Slot Placement [DM]
 				"bucket_dm"		"4"
 				"bucket_dm_position"	"0"
 
+				// Muzzleflash
 				"MuzzleFlashParticleEffect" "muzzle_railgun"
 
-				// Animation.
+				// Model & Animation
 				"viewmodel"			"models/weapons/v_models/v_railgun_mercenary.mdl"
 				"playermodel"		"models/weapons/w_models/w_railgun.mdl"
 				"anim_prefix"		"shotgun"
+				"HasTeamSkins_Viewmodel"			"1"
+				"HasTeamSkins_Worldmodel"			"1"
 				
+				// Centered Viewmodel Offsets
 				"CenteredViewmodelOffset_Y" "-11.02"
 				"CenteredViewmodelOffset_Z" "-4"
 				"CenteredViewmodelAngle_X" "-2"
 				
+				// Mini-Viewmodel Offsets
 				"MinViewmodelOffset_X" "10"
 				"MinViewmodelOffset_Y" "0"
 				"MinViewmodelOffset_Z" "-10"
 				
+				// Centered-Mini Viewmodel Offsets
 				"MiniCenteredViewmodelOffset_Y" "-11"
 				"MiniCenteredViewmodelOffset_Z" "-14"
 				"MiniCenteredViewmodelAngle_X" "-2"
@@ -3468,14 +3513,14 @@
 			"loadout_anim"	"7"
 			"WeaponData"
 			{
-				// Attributes Base.
+				// Attributes Base
 				"printname"		"#TF_Weapon_SixShooter"
 				"BuiltRightHanded"	"0"
 				"weight"		"3"
 				"WeaponType"		"secondary"
 				"ITEM_FLAG_NOITEMPICKUP" 	"1"
 					
-				// Attributes TF.
+				// Attributes TF
 				"Damage"			"45"
 				"InstagibDamage"	"999"
 				"Range"				"4096"
@@ -3483,46 +3528,49 @@
 				"Spread"			"0.005"
 				"TimeFireDelay"		"0.5"
 				"TimeReload"		"1.6333"
+				
+				// Projectile Related
 				"ProjectileType"	"projectile_bullet"
 				"DoInstantEjectBrass"	"0"
-				"HasTeamSkins_Viewmodel"			"1"
 				"TracerEffect"		"bullet_pistol_tracer01"
 
-				// Ammo & Clip.
+				// Ammo & Clip
 				"primary_ammo"		"WEAPON_AMMO"
 				"secondary_ammo"	"None"
-				clip_size			6
-				default_clip		6
+				"clip_size"			"6"
 				"MaxAmmo"	"24"
 				
-				"HasTeamSkins_Viewmodel"			"1"
-				"HasTeamSkins_Worldmodel"			"1"
-
-				// bucket.	
+				// Slot Placement [3-wep/TF2]	
 				"bucket"			"1"
 				"bucket_position"		"0"
 				
-				// bucket_dms.
+				// Slot Placement [DM]
 				"bucket_dm"		"1"
 				"bucket_dm_position"	"1" //NOTE: This is 1 AFTER it's "actual" position. "Fixes" a bug while playing as Spy in DM.
 
-				// Animation.
+				// Model & Animation
 				"viewmodel"		"models/weapons/v_models/v_revolver_dm.mdl"
 				"playermodel"		"models/weapons/w_models/w_revolver_dm.mdl"
 				"anim_prefix"		"ac"
+				"HasTeamSkins_Viewmodel"			"1"
+				"HasTeamSkins_Worldmodel"			"1"
 
+				// Centered Viewmodel Offsets
 				"CenteredViewmodelAngle_X" "2"
 				"CenteredViewmodelAngle_Y" "-0.55"
 				"CenteredViewmodelAngle_Z" "1"
 				
-				"CenteredViewmodelOffset_X" "-12"
-				"CenteredViewmodelOffset_Y" "-8.9625"
-				"CenteredViewmodelOffset_Z" "0"
+				// Centered Viewmodel Offsets
+				//"CenteredViewmodelOffset_X" "-12"
+				//"CenteredViewmodelOffset_Y" "-8.9625"
+				//"CenteredViewmodelOffset_Z" "0"
 				
+				// Mini-Viewmodel Offsets
 				"MinViewmodelOffset_X" "10"
 				"MinViewmodelOffset_Y" "0"
 				"MinViewmodelOffset_Z" "-6"
 				
+				// Centered-Mini Viewmodel Offsets
 				"MiniCenteredViewmodelAngle_X" "1"
 				"MiniCenteredViewmodelAngle_Y" "-0.3"
 				"MiniCenteredViewmodelAngle_Z" "1"
@@ -3607,14 +3655,14 @@
 			"ShowInArsenal"	"1"
 			"WeaponData"
 			{
-				// Attributes Base.
+				// Attributes Base
 				"printname"		"#TF_Weapon_RocketLauncher_DM"
 				"BuiltRightHanded"	"0"
 				"weight"		"3"
 				"WeaponType"		"primary"
 				"ITEM_FLAG_NOITEMPICKUP" 	"1"
 				
-				// Primary Attributes.
+				// Attributes TF
 				"Damage"		"90"
 				"InstagibDamage"	"999"
 				"Range"			"0"
@@ -3626,42 +3674,39 @@
 				"TimeIdle"		"0.8"
 				"TimeIdleEmpty"		"0.8"
 				"TimeReload"		"0.83"
-				"primary_ammo"		"WEAPON_AMMO"
-				clip_size		4
-				default_clip		4
-				"MaxAmmo"	"16"
 				
+				// Projectile Related
 				"ProjectileType"	"projectile_rocket"
 				"ProjectileSpeed"	"1100"
-				"HasTeamSkins_Viewmodel"			"1"
-				"HasTeamSkins_Worldmodel"			"1"
+				"ProjectileModel"	"models/weapons/w_models/w_rocket_dm.mdl"
 
-				// Secondary Attributes.
-				"secondary_ammo"	"None"
-
-				// bucket.	
+				// Clip and Ammo
+				"primary_ammo"		"WEAPON_AMMO"
+				"clip_size"		"4"
+				"MaxAmmo"		"16"
+				
+				// Slot Placement [3-wep/TF2]	
 				"bucket"			"0"
 				"bucket_position"		"0"
 				
-				// bucket_dms.
+				// Slot Placement [DM]
 				"bucket_dm"		"6"
 				"bucket_dm_position"	"2"	
 
-				// Explosions.
+				// Explosion Effects
 				"ExplosionEffect"		"ExplosionCore_wall"
 				"ExplosionPlayerEffect"		"ExplosionCore_MidAir"
 				"ExplosionWaterEffect"		"ExplosionCore_MidAir_underwater"
-
 				"ExplosionSound"	"BaseExplosionEffect.Sound"
-
-				"ProjectileModel"	"models/weapons/w_models/w_rocket_dm.mdl"
-
 				
-				// Animation.
+				// Model & Animation
 				"viewmodel"		"models/weapons/v_models/v_rocketlauncher_dm.mdl"
 				"playermodel"		"models/weapons/w_models/w_rocketlauncher_dm.mdl"
 				"anim_prefix"		"gl"
+				"HasTeamSkins_Viewmodel"			"1"
+				"HasTeamSkins_Worldmodel"			"1"
 				
+				// Centered Viewmodel Offsets
 				"CenteredViewmodelAngle_X" "0"
 				"CenteredViewmodelAngle_Y" "0"
 				"CenteredViewmodelAngle_Z" "5"
@@ -3669,10 +3714,12 @@
 				"CenteredViewmodelOffset_Y" "-11.5"
 				"CenteredViewmodelOffset_Z" "-2"
 				
+				// Mini-Viewmodel Offsets
 				"MinViewmodelOffset_X" "10"
 				"MinViewmodelOffset_Y" "3"
 				"MinViewmodelOffset_Z" "-10"
 				
+				// Centered-Mini Viewmodel Offsets
 				"MiniCenteredViewmodelAngle_Z" "5"
 				"MiniCenteredViewmodelOffset_X" "2"
 				"MiniCenteredViewmodelOffset_Y" "-11.55"
@@ -3758,7 +3805,7 @@
 				"civilian_WeaponType"			"primary"
 				"ITEM_FLAG_NOITEMPICKUP" 	"1"
 				
-				// Primary Attributes
+				// Attributes TF
 				"Damage"			"6"
 				"InstagibDamage"	"999"
 				"Range"				"8192"
@@ -3770,38 +3817,41 @@
 				"TimeIdleEmpty"			"0.25"
 				"TimeReload"			"0.5"
 				
+				// Ammo & Clip
 				"primary_ammo"		"WEAPON_AMMO"
-				"clip_size"			"6"
-				"default_clip"			"6"
 				"MaxAmmo"	"32"
+				"clip_size"			"6"
 				
+				// Projectile Related
 				"ProjectileType"		"projectile_bullet"
 				"AmmoPerShot"			"1"
-				"HasTeamSkins_Viewmodel"			"1"
-				"HasTeamSkins_Worldmodel"			"1"
-				
 				"DoInstantEjectBrass"	"0"
 				"BrassModel"			"models/weapons/shells/shell_shotgun.mdl"	
 				"TracerEffect"		"bullet_shotgun_tracer01"
 
-				//Slots
+				// Class 3-wep/TF2 Slots
 				"Engineer_Slot"	"0"
 				
-				// bucket.	
+				// Slot Placement [3-wep/TF2]	
 				"bucket"			"1"
 				"bucket_position"		"0"
 				
-				// bucket_dms.
+				// Slot Placement [DM]
 				"bucket_dm"			"2"
 				"bucket_dm_position"		"4"
 
-				// Animation.
+				// Model & Animation
 				"viewmodel"				"models/weapons/v_models/v_shotgun_merc.mdl"
+				"playermodel"   "models/weapons/w_models/w_shotgun.mdl"
+				"anim_prefix"   "shotgun"
 				"engineer_viewmodel"	"models/weapons/v_models/v_shotgun_engineer.mdl"
 				"heavy_viewmodel"		"models/weapons/v_models/v_shotgun_heavy.mdl"
 				"soldier_viewmodel"		"models/weapons/v_models/v_shotgun_soldier.mdl"
 				"pyro_viewmodel"		"models/weapons/v_models/v_shotgun_pyro.mdl"
+				"HasTeamSkins_Viewmodel"			"1"
+				"HasTeamSkins_Worldmodel"			"1"
 				
+				// Centered Viewmodel Offsets
 				"CenteredViewmodelOffset_Y" "-7"
 				"CenteredViewmodelOffset_X" "-2"
 				"CenteredViewmodelOffset_Z" "0.5"
@@ -3809,17 +3859,16 @@
 				"CenteredViewmodelAngel_Y" "0.1"
 				"CenteredViewmodelAngel_X" "-2"
 				
+				// Mini-Viewmodel Offsets
 				"MinViewmodelOffset_X" "5"
 				"MinViewmodelOffset_Y" "-2"
 				"MinViewmodelOffset_Z" "-10"
 				
+				// Centered-Mini Viewmodel Offsets
 				"MiniCenteredViewmodelOffset_Y" "-7"
 				"MiniCenteredViewmodelOffset_X" "2"
 				"MiniCenteredViewmodelOffset_Z" "-13"
 				
-				"playermodel"   "models/weapons/w_models/w_shotgun.mdl"
-				"anim_prefix"   "shotgun"
-
 				// Muzzleflash
 				"MuzzleFlashModel"	"models/effects/sentry1_muzzle/sentry1_muzzle.mdl"
 				"MuzzleFlashModelDuration"	"0.1"
@@ -3896,14 +3945,14 @@
 			"ShowInArsenal"	"0"
 			"WeaponData"
 			{
-				// Attributes Base.
+				// Attributes Base
 				"printname"		"#TF_Weapon_SMG_DM"
 				"BuiltRightHanded"	"0"
 				"weight"		"2"
 				"WeaponType"		"secondary"
 				"ITEM_FLAG_NOITEMPICKUP" 	"1"
 					
-				// Attributes TF.
+				// Attributes TF
 				"Damage"		"10"
 				"InstagibDamage"	"999"
 				"Range"			"8192"
@@ -3913,43 +3962,45 @@
 				"TimeIdleEmpty"		"1.0"
 				"TimeFireDelay"		"0.08"
 				"TimeReload"	"1.8"
+				"UseRapidFireCrits"	"1"
+
+				// Projectile Related
 				"ProjectileType"	"projectile_bullet"
 				"BrassModel"		"models/weapons/shells/shell_pistol.mdl"
-				"UseRapidFireCrits"	"1"
-				"HasTeamSkins_Viewmodel"			"1"
-				"HasTeamSkins_Worldmodel"			"1"
 
-				// Ammo & Clip.
+				// Ammo & Clip
 				"primary_ammo"		"WEAPON_AMMO"
 				"secondary_ammo"	"None"
 				"clip_size"		"35"
-				"default_clip"	"35"
 				"MaxAmmo"	"140"
 
-				// bucket.	
+				// Slot Placement [3-wep/TF2]	
 				"bucket"			"1"
 				"bucket_position"		"0"
 				
-				// bucket_dms.
+				// Slot Placement [DM]	
 				"bucket_dm"		"3"
 				"bucket_dm_position"	"4" //NOTE: This is 2 AFTER it's "actual" position. "Fixes" a bug involving the sapper and non-Spy classes in DM.
 				"TracerEffect"		"bullet_pistol_tracer01"
-
 
 				// Muzzleflash
 				"MuzzleFlashModel"	"models/effects/sentry1_muzzle/sentry1_muzzle.mdl"
 				"MuzzleFlashModelDuration"	"0.11"
 				"MuzzleFlashParticleEffect" "muzzle_smg"
 
-				// Animation.
+				// Model & Animation
 				"viewmodel"		"models/weapons/v_models/v_smg_dm.mdl"
 				"playermodel"	"models/weapons/w_models/w_smg_dm.mdl"
 				"anim_prefix"	"ac"
+				"HasTeamSkins_Viewmodel"			"1"
+				"HasTeamSkins_Worldmodel"			"1"
 				
+				// Centered Viewmodel Offsets
 				"CenteredViewmodelOffset_Y" "-7.5"
 				"CenteredViewmodelOffset_Z" "-2"
 				"CenteredViewmodelAngle_X" "-2"
 				
+				// Mini-Viewmodel Offsets
 				"MinViewmodelOffset_X" "10"
 				"MinViewmodelOffset_Y" "0"
 				"MinViewmodelOffset_Z" "-7"
@@ -4030,7 +4081,7 @@
 				"WeaponType"		"primary"
 				"ITEM_FLAG_NOITEMPICKUP" 	"1"
 				
-				// Primary Attributes.
+				// Attributes TF
 				"Damage"		"75"
 				"InstagibDamage"	"999"
 				"DamageRadius"		"100"
@@ -4044,56 +4095,56 @@
 				"TimeIdle"		"0.8"
 				"TimeIdleEmpty"		"0.8"
 				"TimeReload"		"3.84"
-				"primary_ammo"		"WEAPON_AMMO"
-				"clip_size"		"4"
-				"default_clip"		"4"
-				"MaxAmmo"	"16"
-				"ProjectileType"	"projectile_rocket"
-				"ProjectileSpeed"	"1100"
-				"HasTeamSkins_Viewmodel"			"1"
-				"HasTeamSkins_Worldmodel"			"1"
 				"PickupMultiplier"	"0"
 				"DropOnNoAmmo"		"1"
 				"AlwaysDrop"		"1"
 				"AppearOnBack"		"1"
-				
 				"ContinuousFire_DamageIncrease"	"25"
 				"ContinuousFire_BlastRadiusIncrease"	"25"
-				
-				// Secondary Attributes.
-				"secondary_ammo"	"None"
 
-				// bucket.	
+				// Projectile Related
+				"ProjectileType"	"projectile_rocket"
+				"ProjectileSpeed"	"1100"
+				"ProjectileModel"	"models/weapons/w_models/w_quad_rocket.mdl"	
+				
+				// Ammo & Clip
+				"primary_ammo"		"WEAPON_AMMO"
+				"clip_size"		"4"
+				"MaxAmmo"	"16"
+				
+				// Slot Placement [3-wep/TF2]
 				"bucket"			"0"
 				"bucket_position"		"0"
 				
-				// bucket_dms.
+				// Slot Placement [DM]	
 				"bucket_dm"		"7"
 				"bucket_dm_position"	"1"	
 
-				// Explosions.
+				// Explosion Effects
 				"ExplosionEffect"		"ExplosionCore_wall"
 				"ExplosionPlayerEffect"		"ExplosionCore_MidAir"
 				"ExplosionWaterEffect"		"ExplosionCore_MidAir_underwater"
-
 				"ExplosionSound"	"Weapon_QuakeRPG.Explode"
 				
-				"ProjectileModel"	"models/weapons/w_models/w_quad_rocket.mdl"	
-
-				// Animation.
+				// Model & Animation
 				"viewmodel"		"models/weapons/v_models/v_quad.mdl"
 				"playermodel"		"models/weapons/w_models/w_quadtest.mdl"
 				"anim_prefix"		"gl"
+				"HasTeamSkins_Viewmodel"			"1"
+				"HasTeamSkins_Worldmodel"			"1"
 				
+				// Centered Viewmodel Offsets
 				"CenteredViewmodelOffset_Y" "-13.3"
 				"CenteredViewmodelOffset_Z" "-10"
 				"CenteredViewmodelAngle_Y" "0.4"
 				"CenteredViewmodelAngle_Z" "-29"
 				
+				// Mini-Viewmodel Offsets
 				"MinViewmodelOffset_X" "10"
 				"MinViewmodelOffset_Y" "3"
 				"MinViewmodelOffset_Z" "-10"
 				
+				// Centered-Mini Viewmodel Offsets
 				"MiniCenteredViewmodelOffset_Y" "-13.3"
 				"MiniCenteredViewmodelOffset_Z" "-20"
 				"MiniCenteredViewmodelOffset_X" "10"
@@ -4179,59 +4230,57 @@
 				"WeaponType"			"primary"
 				"ITEM_FLAG_NOITEMPICKUP" 	"1"
 				
-				// Primary Attributes
-				// Primary Attributes
+				// Attributes TF
 				"Damage"				"6"
 				"InstagibDamage"		"999"
-				
 				"Range"					"8192"
 				"Spread"				"0.1485"
 				"PunchAngle"			"12"
-				
 				"BulletsPerShot"		"20"
-
 				"TimeFireDelay"			"0.4"
 				"TimeIdle"				"5.0"
 				"TimeIdleEmpty"			"0.25"
 				"TimeReload"			"1.4"
+				"SuperShotgunRampup"	"1.0"
+				"GibOnOverkill"		"1"
 				
+				// Projectile Related
 				"ProjectileType"		"projectile_bullet"
+				"BrassModel"			"models/weapons/shells/shell_shotgun.mdl"
+				"TracerEffect"		"bullet_scattergun_tracer01"
 				
+				// Ammo & Clip
 				"primary_ammo"			"WEAPON_AMMO"
 				"clip_size"				"1"
 				"MaxAmmo"				"16"	
 				"AmmoPerShot"			"1"
-				
-				"SuperShotgunRampup"	"1.0"
-				
-				"HasTeamSkins_Viewmodel"			"1"
-				"HasTeamSkins_Worldmodel"			"1"
-				
-				"GibOnOverkill"		"1"
-				"BrassModel"			"models/weapons/shells/shell_shotgun.mdl"
-				"TracerEffect"		"bullet_scattergun_tracer01"
 
-				// bucket.	
+				// Slot Placement [3-wep/TF2]	
 				"bucket"			"0"
 				"bucket_position"		"0"
 				
-				// bucket_dms.
+				// Slot Placement [DM]
 				"bucket_dm"				"2"
 				"bucket_dm_position"		"1"
 
-				// Animation.
+				// Model & Animation
 				"viewmodel"     	"models/weapons/v_models/v_supershotgun_mercenary.mdl"
 				"playermodel"		"models/weapons/w_models/w_supershotgun.mdl"
 				"anim_prefix"		"shotgun"
+				"HasTeamSkins_Viewmodel"			"1"
+				"HasTeamSkins_Worldmodel"			"1"
 				
+				// Centered Viewmodel Offsets
 				"CenteredViewmodelOffset_Y" "-6.05"
 				"CenteredViewmodelOffset_X" "-4"
 				"CenteredViewmodelAngle_Z" "2.3"
 				
+				// Mini-Viewmodel Offsets
 				"MinViewmodelOffset_X" "5"
 				"MinViewmodelOffset_Y" "-2"
 				"MinViewmodelOffset_Z" "-10"
 				
+				// Centered-Mini Viewmodel Offsets
 				"MiniCenteredViewmodelOffset_Y" "-6.05"
 				"MiniCenteredViewmodelOffset_X" "-4"
 				"MiniCenteredViewmodelOffset_Z" "-10"
@@ -4333,47 +4382,49 @@
 				"TimeIdle"		"10.0"
 				"TimeFireDelay"		"0.1"
 				"TimeReload"	"1.33"
+				"UseRapidFireCrits"	"1"
+				
+				// Projectile Related
 				"ProjectileType"	"projectile_bullet"
 				"BrassModel"		"models/weapons/shells/shell_pistol.mdl"
-				"UseRapidFireCrits"	"1"
-				"HasTeamSkins_Viewmodel"			"1"
-				"HasTeamSkins_Worldmodel"			"1"
-				
-				"muzzleflashtexture" "effects/muzzleflash_light"
+				"TracerEffect"		"bullet_pistol_tracer01"
 
-				// Ammo & Clip.
+				// Ammo & Clip
 				"primary_ammo"		"WEAPON_AMMO"
 				"secondary_ammo"	"None"
 				"clip_size"		"50"
-				"default_clip"		"50"
 				"MaxAmmo"	"100"
 
-				// bucket.	
+				// Slot Placement [3-wep/TF2]
 				"bucket"			"1"
 				"bucket_position"		"0"
 				
-				// bucket_dms.
+				// Slot Placement [DM]
 				"bucket_dm"		"3"
 				"bucket_dm_position"	"3" //NOTE: This is 2 AFTER it's "actual" position. "Fixes" a bug involving the sapper and non-Spy classes in DM.
-				"TracerEffect"		"bullet_pistol_tracer01"
-
 
 				// Muzzleflash
 				"MuzzleFlashModel"	"models/effects/sentry1_muzzle/sentry1_muzzle.mdl"
+				"MuzzleFlashTexture" "effects/muzzleflash_light"
 				"MuzzleFlashModelDuration"	"0.12"
 				"MuzzleFlashParticleEffect" "muzzle_smg"
 
-				// Animation.
+				// Model & Animation
 				"viewmodel"		"models/weapons/v_models/v_tommygun_merc.mdl"
 				"playermodel"	"models/weapons/w_models/w_tommygun.mdl"
 				"anim_prefix"	"ac"
+				"HasTeamSkins_Viewmodel"			"1"
+				"HasTeamSkins_Worldmodel"			"1"
 				
+				// Centered Viewmodel Offsets
 				"CenteredViewmodelOffset_Y" "-7.6"
 				"CenteredViewmodelOffset_Z" "1"
 				
+				// Mini-Viewmodel Offsets
 				"MinViewmodelOffset_X" "10"
 				"MinViewmodelOffset_Z" "-6"
 				
+				// Centered-Mini Viewmodel Offsets
 				"MiniCenteredViewmodelOffset_Y" "-7.6"
 				"MiniCenteredViewmodelOffset_Z" "-5"
 				"MiniCenteredViewmodelOffset_X" "10"
@@ -4464,51 +4515,50 @@
 				"TimeIdle"		"10.0"
 				"TimeFireDelay"		"0.085"
 				"TimeReload"	"1.33"
+				"UseRapidFireCrits"	"1"
+				
+				// Projectile Related
 				"ProjectileType"	"projectile_bullet"
 				"BrassModel"		"models/weapons/shells/shell_pistol.mdl"
-				"UseRapidFireCrits"	"1"
-				"HasTeamSkins_Viewmodel"			"1"
-				"HasTeamSkins_Worldmodel"			"1"
-				
-				"muzzleflashtexture" "effects/muzzleflash_light"
 
-				// Ammo & Clip.
+				// Ammo & Clip
 				"primary_ammo"		"WEAPON_AMMO"
 				"secondary_ammo"	"None"
 				"clip_size"		"50"
-				"default_clip"		"50"
 				"MaxAmmo"	"100"
 
-				// bucket.	
+				// Slot Placement [3-wep/TF2]	
 				"bucket"			"1"
 				"bucket_position"		"0"
 				
-				// bucket_dms.
+				// Slot Placement [DM]
 				"bucket_dm"		"3"
 				"bucket_dm_position"	"3" //NOTE: This is 2 AFTER it's "actual" position. "Fixes" a bug involving the sapper and non-Spy classes in DM.
 				"TracerEffect"		"bullet_pistol_tracer01"
 
-
 				// Muzzleflash
 				"MuzzleFlashModel"	"models/effects/sentry1_muzzle/sentry1_muzzle.mdl"
+				"MuzzleFlashTexture" "effects/muzzleflash_light"
 				"MuzzleFlashModelDuration"	"0.12"
 				"MuzzleFlashParticleEffect" "muzzle_smg"
 
-				// Animation.
+				// Model & Animation
 				"viewmodel"		"models/weapons/v_models/v_tommygun_merc.mdl"
 				"playermodel"	"models/weapons/w_models/w_tommygun.mdl"
 				"anim_prefix"	"ac"
+				"HasTeamSkins_Viewmodel"			"1"
+				"HasTeamSkins_Worldmodel"			"1"
 				
-				"CenteredViewmodelAngle_Y" "0.35"
-				"CenteredViewmodelOffset_Y" "-7.3"
+				// Centered Viewmodel Offsets
+				"CenteredViewmodelOffset_Y" "-7.6"
 				"CenteredViewmodelOffset_Z" "1"
 				
+				// Mini-Viewmodel Offsets
 				"MinViewmodelOffset_X" "10"
-				"MinViewmodelOffset_Y" "0"
 				"MinViewmodelOffset_Z" "-6"
 				
-				"MiniCenteredViewmodelAngle_Y" "0.35"
-				"MiniCenteredViewmodelOffset_Y" "-7.3"
+				// Centered-Mini Viewmodel Offsets
+				"MiniCenteredViewmodelOffset_Y" "-7.6"
 				"MiniCenteredViewmodelOffset_Z" "-5"
 				"MiniCenteredViewmodelOffset_X" "10"
 
@@ -4592,7 +4642,7 @@
 			"WeaponData"
 			{
 				// Attributes Base.
-				"printname"		"This is a Very rad weapon"
+				"printname"		"#TF_Weapon_TommyGun"
 				"BuiltRightHanded"	"0"
 				"weight"		"2"
 				"WeaponType"		"secondary"
@@ -4602,56 +4652,58 @@
 				"Damage"		"1"
 				"InstagibDamage"	"999"
 				"Range"			"8192"
+				"BulletsPerShot"	"1"
 				"Spread"		"0.03"
 				"TimeIdleEmpty"		"1.0"
 				"TimeIdle"		"10.0"
-				"TimeFireDelay"		"0.25"
-				"TimeReload"	"0.5"
+				"TimeFireDelay"		"0.01"
+				"TimeReload"	"1.33"
+				"UseRapidFireCrits"	"1"
+				
+				// Projectile Related
 				"ProjectileType"	"projectile_rocket"
 				"BrassModel"		"models/weapons/shells/shell_pistol.mdl"
-				"UseRapidFireCrits"	"1"
-				"HasTeamSkins_Viewmodel"			"1"
-				"HasTeamSkins_Worldmodel"			"1"
-				"CanHeadshot"			"1"
-				"ReloadTypeOverride"	"1"
-				"BulletsPerShot"		"4"
-				
-				"muzzleflashtexture" "effects/muzzleflash_light"
 
-				// Ammo & Clip.
+				// Ammo & Clip
 				"primary_ammo"		"WEAPON_AMMO"
 				"secondary_ammo"	"None"
-				"clip_size"		"5"
-				"default_clip"		"5"
+				"clip_size"		"3"
 				"MaxAmmo"	"15"
 
-				// bucket.	
+				// Slot Placement [3-wep/TF2]	
 				"bucket"			"1"
 				"bucket_position"		"0"
 				
-				// bucket_dms.
+				// Slot Placement [DM]
 				"bucket_dm"		"3"
-				"bucket_dm_position"	"6" //NOTE: This is 2 AFTER it's "actual" position. "Fixes" a bug involving the sapper and non-Spy classes in DM.
+				"bucket_dm_position"	"3" //NOTE: This is 2 AFTER it's "actual" position. "Fixes" a bug involving the sapper and non-Spy classes in DM.
 				"TracerEffect"		"bullet_pistol_tracer01"
-
 
 				// Muzzleflash
 				"MuzzleFlashModel"	"models/effects/sentry1_muzzle/sentry1_muzzle.mdl"
+				"MuzzleFlashTexture" "effects/muzzleflash_light"
 				"MuzzleFlashModelDuration"	"0.12"
 				"MuzzleFlashParticleEffect" "muzzle_smg"
 
-				// Animation.
+				// Model & Animation
 				"viewmodel"		"models/weapons/v_models/v_tommygun_merc.mdl"
 				"playermodel"	"models/weapons/w_models/w_tommygun.mdl"
 				"anim_prefix"	"ac"
+				"HasTeamSkins_Viewmodel"			"1"
+				"HasTeamSkins_Worldmodel"			"1"
 				
-				"CenteredViewmodelAngle_Y" "0.35"
-				"CenteredViewmodelOffset_Y" "-7.3"
+				// Centered Viewmodel Offsets
+				"CenteredViewmodelOffset_Y" "-7.6"
 				"CenteredViewmodelOffset_Z" "1"
 				
+				// Mini-Viewmodel Offsets
 				"MinViewmodelOffset_X" "10"
-				"MinViewmodelOffset_Y" "0"
 				"MinViewmodelOffset_Z" "-6"
+				
+				// Centered-Mini Viewmodel Offsets
+				"MiniCenteredViewmodelOffset_Y" "-7.6"
+				"MiniCenteredViewmodelOffset_Z" "-5"
+				"MiniCenteredViewmodelOffset_X" "10"
 
 				// Sounds.
 				// Max of 16 per category (ie. max 16 "single_shot" sounds).
