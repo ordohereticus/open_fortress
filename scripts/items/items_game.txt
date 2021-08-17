@@ -3559,11 +3559,9 @@
 				"CenteredViewmodelAngle_X" "2"
 				"CenteredViewmodelAngle_Y" "-0.55"
 				"CenteredViewmodelAngle_Z" "1"
-				
-				// Centered Viewmodel Offsets
-				//"CenteredViewmodelOffset_X" "-12"
-				//"CenteredViewmodelOffset_Y" "-8.9625"
-				//"CenteredViewmodelOffset_Z" "0"
+				"CenteredViewmodelOffset_X" "-12"
+				"CenteredViewmodelOffset_Y" "-8.9625"
+				"CenteredViewmodelOffset_Z" "0"
 				
 				// Mini-Viewmodel Offsets
 				"MinViewmodelOffset_X" "10"

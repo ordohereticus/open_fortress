@@ -1,0 +1,87 @@
+"MapData"
+{
+	"BotTemplates"
+	{
+		"Path_Merc"
+		{
+			"Name"		"Merc Follow Path"
+			"Team" 		"Mercenary"
+			"Class" 	"Mercenary"
+			"Weapons" 	"tf_weapon_assaultrifle"
+			"Health"	"150"
+			"Speed"		"320"
+			"Cosmetics"	"56 46 27 55 53 61 54"
+			"Model" 	"models/player/mercenary.mdl"
+		}
+		
+		"Point_Merc"
+		{
+			"Name"		"Merc Move To Point"
+			"Team" 		"Mercenary"
+			"Class" 	"Mercenary"
+			"Weapons" 	"tf_weapon_shotgun"
+			"Health"	"150"
+			"Speed"		"320"
+			"Cosmetics"	"56 68 71 16 39 20 21"
+			"Model" 	"models/player/mercenary.mdl"
+		}
+		
+		"Friend_Merc"
+		{
+			"Name"		"Merc Follow Player"
+			"Team" 		"Red"
+			"Class" 	"Mercenary"
+			"Weapons" 	"tf_weapon_pistol_Mercenary"
+			"Health"	"150"
+			"Speed"		"320"
+			"Model" 	"models/player/mercenary.mdl"
+		}
+		
+		"Wave_Merc1" // Engineer Gaming
+		{
+			"Name"		"Spawn Group Mercs: ENGINEER"
+			"Team" 		"Blue"
+			"Class" 	"Mercenary"
+			"Weapons" 	"tf_weapon_wrench"
+			"Health"	"150"
+			"Speed"		"320"
+			"Cosmetics"	"33 25 52 15 44 19 54"
+			"Model" 	"models/player/mercenary.mdl"
+		}
+		
+		"Wave_Merc2" // DoomGuy
+		{
+			"Name"		"Spawn Group Mercs: DOOMGUY"
+			"Team" 		"Blue"
+			"Class" 	"Mercenary"
+			"Weapons" 	"tf_weapon_fists"
+			"Health"	"150"
+			"Speed"		"320"
+			"Cosmetics"	"11 25 27 70 40 19 28"
+			"Model" 	"models/player/mercenary.mdl"
+		}
+		
+		"Wave_Merc3" // Driver
+		{
+			"Name"		"Spawn Group Mercs: DRIVER"
+			"Team" 		"Blue"
+			"Class" 	"Mercenary"
+			"Weapons" 	"tf_weapon_crowbar"
+			"Health"	"150"
+			"Speed"		"320"
+			"Cosmetics"	"57 25 27 15 58 60 59"
+			"Model" 	"models/player/mercenary.mdl"
+		}
+	}
+	
+	"WavePresets"
+    {
+     
+      "WaveSpawn_Mercs"
+      {
+		"Wave_Merc1"  "1"
+		"Wave_Merc2"	"1"
+		"Wave_Merc3"	"1"
+      }
+	}
+}

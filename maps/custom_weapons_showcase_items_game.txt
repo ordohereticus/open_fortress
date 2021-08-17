@@ -1,0 +1,1078 @@
+"items_game"
+{
+	"Weapons"
+	{
+	
+		"tf_weapon_customweapon_1"
+		{
+			"weapon_class"		"tf_weapon_revolver_mercenary"
+			//This tells the game what to base the weapon off of
+			//This affects third person animations, damage fall off, and how the projectile works
+			
+			"WeaponData"
+			{
+				// Attributes Base
+				"printname"		"#TF_Weapon_Pistol"
+				"BuiltRightHanded"	"0"
+				"weight"		"2"
+				"WeaponType"		"secondary"
+				"ITEM_FLAG_NOITEMPICKUP" 	"1"
+					
+				// Attributes TF
+				"Damage"		"5"
+				"InstagibDamage"		"999"  // Even though you can't get other weapons in instagib, they still have damage numbers for it
+				
+				"Range"			"4096"
+				
+				"BulletsPerShot"	"5" // How many bullets comes out of one shot
+				
+				"Spread"		"0.0675" // How much spread a shot has, lower equal tighter spread
+				
+				"TimeFireDelay"		"0.6" // How long between shots, lower equal faster
+				
+				"TimeIdle"		"5.0"
+				"TimeIdleEmpty"		"0.25"
+				
+				"TimeReload"		"1.5" // Reload Time
+				
+				"UseRapidFireCrits"	"0" // Random Crits Setting, For seconds or per shot
+				"GibOnOverkill"		"1" // Gibs on Over Kill [more than base class HP]
+				"NoFixedSpread"		"1" //Removed Fixed Spread Pattern from the bullets
+				
+				// Projectile Related, AKA what the weapon shots
+				"ProjectileType"	"projectile_bullet"	//What type of projectiles it uses
+				
+				"BrassModel"		"models/weapons/shells/shell_pistol.mdl" // What shells are ejected
+				"TracerEffect"		"railgun_tracer01"  // What tracers come from the pistol
+				"TracerFrequency"	"1"	// How often the tracers show up
+				
+				// Magazine Drop [UNUSED]
+				"DropsMag" 			"1"
+				"MagModel"          "models/weapons/w_models/magazines/w_pistol_mercenary_magazine.mdl"
+				
+				// Ammo & Clip
+				"primary_ammo"		"WEAPON_AMMO" // Ammo type, once RETREMODE is finished, you can add TFC ammo types and make weapons share ammo
+				"secondary_ammo"	"None"  // If the WeaponClass has a secondary ability that uses ammo, you can make it use this as it's ammo type
+				"clip_size"		"-1" // How much ammo is in one clip
+				"MaxAmmo"	"12" // How  much Extra Ammo you have
+				//"AmmoPerShot" 	"2"	// How much ammo is used per shot
+
+				// Slot Placement ["3-wep/TF2" Weapon Slot System]
+				"bucket"			"1"
+				"bucket_position"		"0"
+				
+				// Slot Placement ["DM" Weapon Slot System]
+				"bucket_dm"		"1"
+				"bucket_dm_position"	"1" //NOTE: This is 1 AFTER it's "actual" position. "Fixes" a bug while playing as Spy in DM.
+
+				// Model & Animation
+				"viewmodel"			"models/weapons/v_models/v_spytechgun.mdl"
+				"playermodel"		"models/weapons/w_models/w_spytechgun.mdl"
+				"anim_prefix"		"ac"
+				"HasTeamSkins_Viewmodel"			"1"
+				"HasTeamSkins_Worldmodel"			"1"
+				
+				// Centered Viewmodel Offsets
+				"CenteredViewmodelAngle_X" "2"
+				"CenteredViewmodelAngle_Y" "-0.55"
+				"CenteredViewmodelAngle_Z" "1"
+				"CenteredViewmodelOffset_X" "-12"
+				"CenteredViewmodelOffset_Y" "-8.9625"
+				"CenteredViewmodelOffset_Z" "0"
+				
+				// Mini-Viewmodel Offsets
+				"MinViewmodelOffset_X" "10"
+				"MinViewmodelOffset_Y" "0"
+				"MinViewmodelOffset_Z" "-6"
+				
+				// Centered-Mini Viewmodel Offsets
+				"MiniCenteredViewmodelAngle_X" "1"
+				"MiniCenteredViewmodelAngle_Y" "-0.3"
+				"MiniCenteredViewmodelAngle_Z" "1"
+				"MiniCenteredViewmodelOffset_X" "-2"
+				"MiniCenteredViewmodelOffset_Y" "-8.9"
+				"MiniCenteredViewmodelOffset_Z" "-5"
+				
+				// Muzzleflash
+				"MuzzleFlashParticleEffect" "muzzle_railgun"
+
+				// Sounds.
+				// Max of 16 per category (ie. max 16 "single_shot" sounds).
+				SoundData
+				{
+					"single_shot"		"Weapon_Railgun.Single"
+					"reload"		"Weapon_SniperRifle.WorldReload"
+					"empty"			"Weapon_SniperRifle.ClipEmpty"	
+					"burst"			"Weapon_Railgun.SingleCrit"
+					"special1"		"Weapon_Railgun.FireLoop"	
+				}
+
+				// Weapon Sprite data is loaded by the Client DLL.
+				TextureData
+				{
+					"weapon"
+					{
+							"file"		"sprites/bucket_spytech"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"weapon_s"
+					{	
+							"file"		"sprites/bucket_spytech"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"weapon_t"
+					{	
+							"file"		"sprites/bucket_spytech"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"ammo"
+					{
+							"file"		"sprites/a_icons1"
+							"x"			"55"
+							"y"			"60"
+							"width"		"73"
+							"height"	"15"
+					}
+					"crosshair"
+					{
+							"file"		"sprites/crosshairs"
+							"x"			"0"
+							"y"			"0"
+							"width"		"32"
+							"height"	"32"
+					}
+					"autoaim"
+					{
+							"file"		"sprites/crosshairs"
+							"x"			"0"
+							"y"			"48"
+							"width"		"24"
+							"height"	"24"
+					}
+				}
+			}
+		}
+
+		
+		"tf_weapon_customweapon_2"
+		{
+			"weapon_class"		"tf_weapon_supershotgun"
+			//This tells the game what to base the weapon off of
+			//This affects third person animations, damage fall off, and how the projectile works
+			
+			"WeaponData"
+			{
+				// Attributes Base
+				"printname"		"#TF_Weapon_TommyGun"
+				"BuiltRightHanded"	"0"
+				"weight"		"2"
+				"WeaponType"		"secondary"
+				"ITEM_FLAG_NOITEMPICKUP" 	"1"
+					
+				// Attributes TF
+				"Damage"		"1"
+				"InstagibDamage"		"999"  // Even though you can't get other weapons in instagib, they still have damage numbers for it
+				
+				"Range"			"4096"
+				
+				"BulletsPerShot"	"5" // How many bullets comes out of one shot
+				
+				"Spread"		"0.1" // How much spread a shot has, lower equal tighter spread
+				
+				"TimeFireDelay"		"0.05" // How long between shots, lower equal faster
+				
+				"TimeIdle"		"10.0"
+				"TimeIdleEmpty"		"1.0"
+				
+				"TimeReload"		"0.75" // Reload Time
+				
+				"UseRapidFireCrits"	"1" // Random Crits are not just one bullet
+				
+				"SuperShotgunRampup"	"10" // If using weapon_class tf_weapon_supershotgun, you can change how much rampup it has, even making it lose damage upclose
+				
+				"LoadsManualy"			"1" // Reloads like beggers from TF2
+				"ReloadTypeOverride"	"1" // Override Reload Type [1 is Shotgun, 0 is normal]
+				
+				
+				// Projectile Related, AKA what the weapon shots
+				"ProjectileType"	"projectile_bullet"	//What type of projectiles it uses
+				
+				"BrassModel"		"models/weapons/shells/shell_shotgun.mdl" // What shells are ejected
+				"TracerEffect"		"bullet_scattergun_tracer01"  // What tracers come from the pistol
+				"TracerFrequency"	"1"	// How often the tracers show up
+				
+				// Magazine Drop [UNUSED]
+				"DropsMag" 			"0"
+				"MagModel"          "models/weapons/w_models/magazines/w_pistol_mercenary_magazine.mdl"
+				
+				// Ammo & Clip
+				"primary_ammo"		"WEAPON_AMMO" // Ammo type, once RETREMODE is finished, you can add TFC ammo types and make weapons share ammo
+				"secondary_ammo"	"None"  // If the WeaponClass has a secondary ability that uses ammo, you can make it use this as it's ammo type
+				"clip_size"		"6"// How much ammo is in one clip
+				"MaxAmmo"		"32"// How much revevse ammo you have
+
+				// Slot Placement ["3-wep/TF2" Weapon Slot System]
+				"bucket"			"1"
+				"bucket_position"		"0"
+				
+				// Slot Placement ["DM" Weapon Slot System]
+				"bucket_dm"		"2"
+				"bucket_dm_position"	"0" //NOTE: This is 1 AFTER it's "actual" position. "Fixes" a bug while playing as Spy in DM.
+
+				// Model & Animation
+				"viewmodel"     	"models/weapons/v_models/v_supershotgun_mercenary.mdl"
+				"playermodel"		"models/weapons/w_models/w_supershotgun.mdl"
+				"anim_prefix"		"ac"
+				"HasTeamSkins_Viewmodel"			"1"
+				"HasTeamSkins_Worldmodel"			"1"
+				
+				// Centered Viewmodel Offsets
+				"CenteredViewmodelOffset_Y" "-6.05"
+				"CenteredViewmodelOffset_X" "-4"
+				"CenteredViewmodelAngle_Z" "2.3"
+				
+				// Mini-Viewmodel Offsets
+				"MinViewmodelOffset_X" "5"
+				"MinViewmodelOffset_Y" "-2"
+				"MinViewmodelOffset_Z" "-10"
+				
+				// Centered-Mini Viewmodel Offsets
+				"MiniCenteredViewmodelOffset_Y" "-6.05"
+				"MiniCenteredViewmodelOffset_X" "-4"
+				"MiniCenteredViewmodelOffset_Z" "-10"
+				"MiniCenteredViewmodelAngle_Z" "2.3"
+				
+				// Muzzleflash
+				"MuzzleFlashModel"	"models/effects/sentry1_muzzle/sentry1_muzzle.mdl"
+				"MuzzleFlashModelDuration"	"0.1"
+				"MuzzleFlashParticleEffect" "muzzle_bignasty"
+				
+				// Sounds.
+				// Max of 16 per category (ie. max 16 "single_shot" sounds).
+				SoundData
+				{
+					"single_shot"		"Weapon_SuperShotGun.Single"
+					"empty"			"Weapon_Scatter_Gun.Empty"
+					"reload"			"Weapon_SuperShotGun.WorldReload"
+					"special1"		"Weapon_SuperShotGun.ShellsIn"
+					"burst"			"Weapon_SuperShotGun.SingleCrit"
+				}
+
+				// Weapon Sprite data is loaded by the Client DLL.
+				TextureData
+				{
+					"weapon"
+					{
+							"file"		"sprites/bucket_supershotgun"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"weapon_s"
+					{	
+							"file"		"sprites/bucket_supershotgun"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"weapon_t"
+					{	
+							"file"		"sprites/bucket_supershotgun"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"ammo"
+					{
+							"file"		"sprites/a_icons1"
+							"x"			"55"
+							"y"			"60"
+							"width"		"73"
+							"height"	"15"
+					}
+					"crosshair"
+					{
+							"file"		"sprites/crosshairs"
+							"x"			"0"
+							"y"			"0"
+							"width"		"32"
+							"height"	"32"
+					}
+					"autoaim"
+					{
+							"file"		"sprites/crosshairs"
+							"x"			"0"
+							"y"			"48"
+							"width"		"24"
+							"height"	"24"
+					}
+				}
+			}
+		}
+
+		"tf_weapon_customweapon_3"
+		{
+			"weapon_class"		"tf_weapon_tommygun"
+			//This tells the game what to base the weapon off of
+			//This affects third person animations, damage fall off, and how the projectile works
+			
+			"WeaponData"
+			{
+				// Attributes Base
+				"printname"		"#TF_Weapon_Owen"
+				"BuiltRightHanded"	"0"
+				"weight"		"2"
+				"WeaponType"		"secondary"
+				"ITEM_FLAG_NOITEMPICKUP" 	"1"
+					
+				// Attributes TF
+				"Damage"		"6"
+				"InstagibDamage"		"999"  // Even though you can't get other weapons in instagib, they still have damage numbers for it
+				
+				"Range"			"4096"
+				
+				"BulletsPerShot"	"1" // How many bullets comes out of one shot
+				
+				"Spread"		"0.03" // How much spread a shot has, lower equal tighter spread
+				
+				"TimeFireDelay"		"0.070" // How long between shots, lower equal faster
+				"BurstFireDelay"    "0.60" // Delay Between Burst Fires
+				"BurstSize"         "5"  // How many shots a single burst shoots
+				
+				"TimeIdle"		"10.0"
+				"TimeIdleEmpty"		"1.0"
+				
+				"TimeReload"		"2.1" // Reload Time
+				
+				"UseRapidFireCrits"	"1" // Random Crits are not just one bullet
+				"CanHeadshot"	"1" // Allow for headshots
+				
+				"CanPieceLegs" "1" //HITSCAN ONLY - makes it so if the player shots the enemy in the leg, it applys the "Pieced Leg" effect, slowing the player down and halving the damage taken from said shot
+				"PiecedLegsEffectDuration" "10" //HITSCAN ONLY - how long the Pieced Legs Effect is applied
+				"SpeedReduction" "0.25" // How much the Piece Legs Effect reduces player speed to
+				
+				// Projectile Related
+				"ProjectileType"	"projectile_bullet"
+				"BrassModel"		"models/weapons/shells/shell_minigun.mdl"
+				
+				// Magazine Drop [UNUSED]
+				"DropsMag" 			"0"
+				"MagModel"          "models/weapons/w_models/magazines/w_pistol_mercenary_magazine.mdl"
+				
+				// Ammo & Clip
+				"primary_ammo"		"WEAPON_AMMO" // Ammo type, once RETREMODE is finished, you can add TFC ammo types and make weapons share ammo
+				"secondary_ammo"	"None"  // If the WeaponClass has a secondary ability that uses ammo, you can make it use this as it's ammo type
+				"clip_size"		"15"// How much ammo is in one clip
+				"MaxAmmo"		"30"// How much revevse ammo you have
+
+				// Slot Placement ["3-wep/TF2" Weapon Slot System]
+				"bucket"			"0"
+				"bucket_position"		"0"
+				
+				// Slot Placement ["DM" Weapon Slot System]
+				"bucket_dm"		"3"
+				"bucket_dm_position"	"3" //NOTE: This is 1 AFTER it's "actual" position. "Fixes" a bug while playing as Spy in DM.
+
+				// Muzzleflash
+				"MuzzleFlashModel"	"models/effects/sentry1_muzzle/sentry1_muzzle.mdl"
+				"MuzzleFlashModelDuration"	"0.11"
+				"MuzzleFlashParticleEffect" "muzzle_smg"
+				
+				// Model & Animations
+				"viewmodel"		"models/weapons/v_models/v_owen.mdl"
+				"playermodel"	"models/weapons/w_models/w_owen.mdl"
+				"anim_prefix"	"ac"
+				"HasTeamSkins_Viewmodel"			"1"
+				"HasTeamSkins_Worldmodel"			"1"
+				
+				// Centered Viewmodel Offsets
+				"CenteredViewmodelOffset_Y" "-7.6"
+				"CenteredViewmodelOffset_Z" "1"
+				
+				// Mini-Viewmodel Offsets
+				"MinViewmodelOffset_X" "10"
+				"MinViewmodelOffset_Z" "-6"
+				
+				// Centered-Mini Viewmodel Offsets
+				"MiniCenteredViewmodelOffset_Y" "-7.6"
+				"MiniCenteredViewmodelOffset_Z" "-5"
+				"MiniCenteredViewmodelOffset_X" "10"
+
+				// Sounds.
+				// Max of 16 per category (ie. max 16 "single_shot" sounds).
+				SoundData
+				{
+					"reload"		"Weapon_AR.WorldReload"
+					"empty"			"Weapon_AR.ClipEmpty"	
+					"single_shot"	"Weapon_Owen.Single"
+					"burst"			"Weapon_Owen.SingleCrit"
+				}
+
+				// Weapon Sprite data is loaded by the Client DLL.
+				TextureData
+				{
+					"weapon"
+					{
+							"file"		"sprites/bucket_owen"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"weapon_s"
+					{	
+							"file"		"sprites/bucket_owen"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"weapon_t"
+					{	
+							"file"		"sprites/bucket_owen"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"ammo"
+					{
+							"file"		"sprites/a_icons1"
+							"x"			"55"
+							"y"			"60"
+							"width"		"73"
+							"height"	"15"
+					}
+					"crosshair"
+					{
+							"file"		"sprites/crosshairs"
+							"x"			"0"
+							"y"			"0"
+							"width"		"32"
+							"height"	"32"
+					}
+					"autoaim"
+					{
+							"file"		"sprites/crosshairs"
+							"x"			"0"
+							"y"			"48"
+							"width"		"24"
+							"height"	"24"
+					}
+				}
+			}
+		}
+		
+		"tf_weapon_customweapon_4"
+		{
+			"weapon_class"		"tf_weapon_grenadelauncher_mercenary"
+			//This tells the game what to base the weapon off of
+			//This affects third person animations, damage fall off, and how the projectile works
+			
+			"WeaponData"
+			{
+				// Attributes Base
+				"printname"		"#TF_Weapon_RocketLauncher_DM"
+				"BuiltRightHanded"	"0"
+				"weight"		"2"
+				"WeaponType"		"secondary"
+				"ITEM_FLAG_NOITEMPICKUP" 	"1"
+					
+				// Attributes TF
+				"Damage"		"10"
+				"InstagibDamage"		"999"  // Even though you can't get other weapons in instagib, they still have damage numbers for it
+				"BlastJumpDamageForce"	"5"    // How much knockback the explosive does
+				
+				"Range"			"0"
+				
+				"BulletsPerShot"	"1" // How many bullets comes out of one shot
+				
+				"Spread"		"5" // How much spread a shot has, lower equal tighter spread
+				"PunchAngle"		"3.0" // How much view punch it has
+				"TimeFireDelay"		"0.1" // How long between shots, lower equal faster
+				
+				"BurstFireDelay"    "0.60" // Delay Between Burst Fires
+				"BurstSize"         "4"  // How many shots a single burst shoots
+				
+				"TimeIdle"		"0.8"
+				"TimeIdleEmpty"		"0.8"
+				
+				"TimeReload"		"0.83" // Reload Time
+				
+				"CritMidAir"		"1" // Makes it so it crits midair after blast jumping
+				
+				//"LoadsManualy"			"1" // Reloads like beggers from TF2
+				//"ReloadTypeOverride"	"0" // Override Reload Type [1 is Shotgun, 0 is normal]
+				
+				// Projectile Related, AKA what the weapon shots
+				"ProjectileType"	"projectile_bouncyrocket"	//What type of projectiles it uses
+				"ProjectileSpeed"	"900"
+				"ProjectileModel"	"models/weapons/w_models/w_rocket_dm.mdl" //override default model to this [default rocket launcher rocket model]
+				"ExplodeOnImpact"	"1"
+				"FuseTime"		"1" // how long it takes to explode if pill-like
+				
+				// Explosion Effects
+				"ExplosionSound"		"Weapon_Grenade_Pipebomb.Explode"
+				"ExplosionEffect"		"ExplosionCore_wall"
+				"ExplosionPlayerEffect"	"ExplosionCore_MidAir"
+				"ExplosionWaterEffect"	"ExplosionCore_MidAir_underwater"
+				
+				// Ammo & Clip
+				"primary_ammo"		"WEAPON_AMMO" // Ammo type, once RETREMODE is finished, you can add TFC ammo types and make weapons share ammo
+				"secondary_ammo"	"None"  // If the WeaponClass has a secondary ability that uses ammo, you can make it use this as it's ammo type
+				"clip_size"		"4"// How much ammo is in one clip
+				"MaxAmmo"		"16"// How much revevse ammo you have
+
+				// Slot Placement ["3-wep/TF2" Weapon Slot System]
+				"bucket"			"0"
+				"bucket_position"		"0"
+				
+				// Slot Placement ["DM" Weapon Slot System]
+				"bucket_dm"		"6"
+				"bucket_dm_position"	"2" //NOTE: This is 1 AFTER it's "actual" position. "Fixes" a bug while playing as Spy in DM.
+
+				// Model & Animation
+				"viewmodel"		"models/weapons/v_models/v_rocketlauncher_dm.mdl"
+				"playermodel"		"models/weapons/w_models/w_rocketlauncher_dm.mdl"
+				"anim_prefix"		"gl"
+				"HasTeamSkins_Viewmodel"			"1"
+				"HasTeamSkins_Worldmodel"			"1"
+				
+				// Centered Viewmodel Offsets
+				"CenteredViewmodelAngle_X" "0"
+				"CenteredViewmodelAngle_Y" "0"
+				"CenteredViewmodelAngle_Z" "5"
+				"CenteredViewmodelOffset_X" "-3"
+				"CenteredViewmodelOffset_Y" "-11.5"
+				"CenteredViewmodelOffset_Z" "-2"
+				
+				// Mini-Viewmodel Offsets
+				"MinViewmodelOffset_X" "10"
+				"MinViewmodelOffset_Y" "3"
+				"MinViewmodelOffset_Z" "-10"
+				
+				// Centered-Mini Viewmodel Offsets
+				"MiniCenteredViewmodelAngle_Z" "5"
+				"MiniCenteredViewmodelOffset_X" "2"
+				"MiniCenteredViewmodelOffset_Y" "-11.55"
+				"MiniCenteredViewmodelOffset_Z" "-12"
+
+				// Sounds.
+				// Max of 16 per category (ie. max 16 "single_shot" sounds).
+				SoundData
+				{
+					"single_shot"	"Weapon_Bouncer.Single"
+					"reload"		"Weapon_GrenadeLauncher.WorldReload"
+					"special3"		"Weapon_GrenadeLauncher.ModeSwitch"
+					"burst"			"Weapon_GrenadeLauncherDM.SingleCrit"
+				}
+
+				// Weapon Sprite data is loaded by the Client DLL.
+				TextureData
+				{
+					"weapon"
+					{
+							"file"		"sprites/bucket_rocketlauncher_dm"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"weapon_s"
+					{	
+							"file"		"sprites/bucket_rocketlauncher_dm"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"weapon_t"
+					{	
+							"file"		"sprites/bucket_rocketlauncher_dm"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"ammo"
+					{
+							"file"		"sprites/a_icons1"
+							"x"		"55"
+							"y"		"60"
+							"width"		"73"
+							"height"	"15"
+					}
+					"crosshair"
+					{
+							"file"		"sprites/crosshairs"
+							"x"		"32"
+							"y"		"32"
+							"width"		"32"
+							"height"	"32"
+					}
+					"autoaim"
+					{
+							"file"		"sprites/crosshairs"
+							"x"		"0"
+							"y"		"48"
+							"width"		"24"
+							"height"	"24"
+					}
+				}
+			}
+		}
+		
+		"tf_weapon_customweapon_5"
+		{
+			"weapon_class"		"tf_weapon_nailgun"
+			//This tells the game what to base the weapon off of
+			//This affects third person animations, damage fall off, and how the projectile works
+			
+			"WeaponData"
+			{
+				// Attributes Base
+				"printname"		"#TF_Weapon_Nailgun"
+				"BuiltRightHanded"	"0"
+				"weight"		"2"
+				"WeaponType"		"item2"
+				"ITEM_FLAG_NOITEMPICKUP" 	"1"
+					
+				// Attributes TF
+				"Damage"		"5"
+				"InstagibDamage"		"999"  // Even though you can't get other weapons in instagib, they still have damage numbers for it
+				
+				"Range"			"8192"
+				
+				"BulletsPerShot"	"1" // How many bullets comes out of one shot
+				
+				"Spread"		"0.75" // How much spread a shot has, lower equal tighter spread
+				"TimeFireDelay"		"0.15" // How long between shots, lower equal faster
+				
+				"TimeIdle"			"0.8"
+				"TimeIdleEmpty"		"0.8"
+				
+				"TimeReload"		"1.37" // Reload Time
+				"UseRapidFireCrits"	"1"
+				
+				"CanPoison"		"1" // Make it so poison the player hit by the projectile, does 8 damage every second that decreases over time
+				"PoisonEffectDuration" "4" // How long poison is active for
+				
+				// Projectile Related, AKA what the weapon shots
+				"ProjectileType"	"projectile_nail"	//What type of projectiles it uses
+				"ProjectileSpeed"	"1100"
+				
+				// Ammo & Clip
+				"primary_ammo"		"WEAPON_AMMO" // Ammo type, once RETREMODE is finished, you can add TFC ammo types and make weapons share ammo
+				"secondary_ammo"	"None"  // If the WeaponClass has a secondary ability that uses ammo, you can make it use this as it's ammo type
+				"clip_size"		"15"// How much ammo is in one clip
+				"MaxAmmo"		"30"// How much revevse ammo you have
+
+				// Slot Placement ["3-wep/TF2" Weapon Slot System]
+				"bucket"			"0"
+				"bucket_position"		"0"
+				
+				// Slot Placement ["DM" Weapon Slot System]
+				"bucket_dm"		"5"
+				"bucket_dm_position"	"2" //NOTE: This is 1 AFTER it's "actual" position. "Fixes" a bug while playing as Spy in DM.
+
+				// Muzzleflash
+				"MuzzleFlashParticleEffect" "muzzle_syringe"
+				
+				// Model & Animation
+				"viewmodel"		"models/weapons/v_models/v_nailgun_mercenary.mdl"
+				"playermodel"		"models/weapons/w_models/w_nailgun.mdl"
+				"anim_prefix"		"ac"
+				
+				// Centered Viewmodel Offsets
+				"CenteredViewmodelOffset_Y" "-11.5"
+				"CenteredViewmodelangle_Y" "0.5"
+				
+				// Mini-Viewmodel Offsets
+				"MinViewmodelOffset_X" "9"
+				"MinViewmodelOffset_Z" "-5.5"
+				
+				// Centered-Mini Viewmodel Offsets
+				"MiniCenteredViewmodelOffset_Y" "-11.5"
+				"MiniCenteredViewmodelangle_Y" 	"0.5"
+				"MiniCenteredViewmodelOffset_Z" "-3.5"
+
+				// Sounds.
+				// Max of 16 per category (ie. max 16 "single_shot" sounds).
+				SoundData
+				{
+					"reload"			"Weapon_NailGun.Reload"
+					"empty"			"Weapon_NailGun.ClipEmpty"	
+					"single_shot"		"Weapon_NailGun.Single"
+					"burst"			"Weapon_NailGun.SingleCrit"
+				}
+
+				// Weapon Sprite data is loaded by the Client DLL.
+				TextureData
+				{
+					"weapon"
+					{
+							"file"		"sprites/bucket_nailgun"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"weapon_s"
+					{	
+							"file"		"sprites/bucket_nailgun"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"weapon_t"
+					{	
+							"file"		"sprites/bucket_nailgun"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"ammo"
+					{
+							"file"		"sprites/a_icons1"
+							"x"		"55"
+							"y"		"60"
+							"width"		"73"
+							"height"	"15"
+					}
+					"crosshair"
+					{
+							"file"		"sprites/crosshairs"
+							"x"		"32"
+							"y"		"32"
+							"width"		"32"
+							"height"	"32"
+					}
+					"autoaim"
+					{
+							"file"		"sprites/crosshairs"
+							"x"		"0"
+							"y"		"48"
+							"width"		"24"
+							"height"	"24"
+					}
+				}
+			}
+		}
+		
+		"tf_weapon_customweapon_6"
+		{
+			"weapon_class"		"tf_weapon_pipebomblauncher"
+			//This tells the game what to base the weapon off of
+			//This affects third person animations, damage fall off, and how the projectile works
+			
+			"WeaponData"
+			{
+				// Attributes Base
+				"printname"		"#TF_Weapon_GrenadeLauncher_DM"
+				"BuiltRightHanded"	"0"
+				"weight"		"2"
+				"WeaponType"		"secondary"
+				"ITEM_FLAG_NOITEMPICKUP" 	"1"
+					
+				// Attributes TF
+				"Damage"		"20"
+				"InstagibDamage"		"999"  // Even though you can't get other weapons in instagib, they still have damage numbers for it
+				"BlastJumpDamageForce"	"155"    // How much knockback the explosive does
+				"DamageRadius"		"124"		// Radius of the explosion
+				
+				"Range"			"0"
+				
+				"BulletsPerShot"	"1" // How many bullets comes out of one shot
+				
+				"Spread"		"0" // How much spread a shot has, lower equal tighter spread
+				"PunchAngle"		"3.0" // How much view punch it has
+				"TimeFireDelay"		"0.8" // How long between shots, lower equal faster
+				
+				"TimeFireDelay"		"1.5"
+				"LastShotTimeFireDelay"	"0.4"
+				"TimeIdle"		"0.6"
+				"TimeIdleEmpty"		"0"
+				
+				"TimeReload"		"0.67" // Reload Time
+				
+				"DisableSecondaryAttack"	"0" // Allows self-det of the dynamite 
+				"CanSoftZoom" "0" // Disable Soft Zooming with Merc
+				
+				"PickupMultiplier"	"1.7" // Multiples the Ammo Pickup Ratio from Ammo Boxes
+				"IgnoreAmmoRatios"	"1" // Disable use of Ammo Ratios for Spawners and Dropped Weapons
+				
+				"CanTranq"		"1" // Make it so the player hit by the explosion get tranqed
+				"TranqEffectDuration" "5" // How long Tranq Effect is active for
+				"SpeedReduction" "0.75" // How much the Tranq Effect reduces player speed to
+				
+				// Bomblets Attributes/Effects/Model
+				"DropBomblets"			"1"
+				"BombletAmount" 		"3"
+				"BombletDamage"			"10"
+				"BombletDamageRadius"	"124"
+				"BombletTimer"			"2"
+				"BombletModel"			"models/weapons/w_models/w_grenade_grenadelauncher.mdl"
+				"BombletParticleTrail"			"fuse_spark"
+				
+				// Projectile Related
+				"ProjectileType"	"projectile_pipe_remote"
+				"ProjectileSpeed"	"1200"
+				"BrassModel"		"models/weapons/shells/shell_grenade.mdl"
+				"ProjectileModel"	"models/weapons/w_models/w_stickybomb.mdl"
+				"ExplodeOnImpact"	"0"
+				"AlwaysEnableTouch" "0"
+				"FuseTime"		"-2"
+				
+				// Muzzleflash
+				"MuzzleFlashParticleEffect" "muzzle_grenadelauncher"
+				
+				// Explosion Effects
+				"ExplosionSound"	"Weapon_Grenade_Pipebomb.Explode"
+				"ExplosionEffect"	"ExplosionCore_wall"
+				"ExplosionPlayerEffect"	"ExplosionCore_MidAir"
+				"ExplosionWaterEffect"	"ExplosionCore_MidAir_underwater"
+				"ExplosionEffectBomblets"	"ExplosionCore_wall"
+				"ExplosionPlayerEffectBomblets"	"ExplosionCore_MidAir"
+				"ExplosionWaterEffectBomblets"	"ExplosionCore_MidAir_underwater"
+				
+				// Ammo & Clip
+				"primary_ammo"		"WEAPON_AMMO" // Ammo type, once RETREMODE is finished, you can add TFC ammo types and make weapons share ammo
+				"secondary_ammo"	"None"  // If the WeaponClass has a secondary ability that uses ammo, you can make it use this as it's ammo type
+				"clip_size"		"-1"// How much ammo is in one clip
+				"MaxAmmo"		"6"// How much revevse ammo you have
+
+				// Slot Placement ["3-wep/TF2" Weapon Slot System]
+				"bucket"			"0"
+				"bucket_position"		"0"
+				
+				// Slot Placement ["DM" Weapon Slot System]
+				"bucket_dm"		"6"
+				"bucket_dm_position"	"4" //NOTE: This is 1 AFTER it's "actual" position. "Fixes" a bug while playing as Spy in DM.
+
+				// Model & Animation
+				"viewmodel"		"models/weapons/v_models/v_grenadelauncher_dm.mdl"
+				"playermodel"		"models/weapons/w_models/w_grenadelauncher_dm.mdl"
+				"anim_prefix"		"pipe"
+				"HasTeamSkins_Viewmodel"			"1"
+				"HasTeamSkins_Worldmodel"			"1"
+				
+				// Mini-Viewmodel Offsets
+				"MinViewmodelOffset_X" "8"
+				"MinViewmodelOffset_Z" "-6"
+
+				// Centered-Mini Viewmodel Offsets
+				"MiniCenteredViewmodelOffset_X" "8"
+				"MiniCenteredViewmodelOffset_Z" "-6"
+
+				// Sounds.
+				// Max of 16 per category (ie. max 16 "single_shot" sounds).
+				SoundData
+				{
+					"single_shot"	"Weapon_StickyBombLauncher.Single"
+					"reload"		"Weapon_StickyBombLauncher.WorldReload"
+					"special2"	"Player.UseDeny"
+					"special3"	"Weapon_StickyBombLauncher.ModeSwitch"
+					"burst"		"Weapon_StickyBombLauncher.SingleCrit"
+				}
+
+				// Weapon Sprite data is loaded by the Client DLL.
+				TextureData
+				{
+					"weapon"
+					{
+							"file"		"sprites/bucket_grenDM"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"weapon_s"
+					{	
+							"file"		"sprites/bucket_grenDM"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"weapon_t"
+					{	
+							"file"		"sprites/bucket_grenDM"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"ammo"
+					{
+							"file"		"sprites/a_icons1"
+							"x"		"55"
+							"y"		"60"
+							"width"		"73"
+							"height"	"15"
+					}
+					"crosshair"
+					{
+							"file"		"sprites/crosshairs"
+							"x"		"32"
+							"y"		"32"
+							"width"		"32"
+							"height"	"32"
+					}
+					"autoaim"
+					{
+							"file"		"sprites/crosshairs"
+							"x"		"0"
+							"y"		"48"
+							"width"		"24"
+							"height"	"24"
+					}
+				}
+			}
+		}
+		
+		"tf_weapon_customweapon_7"
+		{
+			"weapon_class"		"tf_weapon_crowbar"
+			//This tells the game what to base the weapon off of
+			//This affects third person animations, damage fall off, and how the projectile works
+			
+			"WeaponData"
+			{
+				// Attributes Base
+				"printname"		"#TF_Weapon_Knife"
+				"BuiltRightHanded"		"0"
+				"MeleeWeapon"			"1"
+				"weight"			"2"
+				"WeaponType"		"melee"
+				"ITEM_FLAG_NOITEMPICKUP" 	"1"
+				
+				// Attributes TF
+				"Damage"			"40"
+				
+				"InstagibDamage"	"999"
+				
+				"TimeFireDelay"			"0.8"
+				
+				"TimeIdle"			"5.0"
+				
+				"SmackDelay"			"0"
+				"Secondary_SmackDelay"		"0"
+
+				"CanIgnite"		"1" // Make it so the player hit by the bullet is set on fire
+				"AfterBurnDuration" "1" // How long afterburn is active for
+				
+				//Charge Stuff
+				"CanShieldCharge"	"1" //Enable Charges
+				"ChargeDuration"	"1.5" // From measurement, its apparently always 2x more than here
+				"ChargeRechargeRate"	"8" // Despite its name, this shows how much time it needs to recharge rather than a % per second
+				"CritOnChargeLevel"		"1" // What is the max level of charge left is needed before the crits enables
+				"CanSoftZoom"	"0"
+				
+				// Ammo & Clip
+				"primary_ammo"			"None"
+				"secondary_ammo"		"None"
+				
+				// Slot Placement [3-wep/TF2]
+				"bucket"			"2"
+				"bucket_position"		"0"
+				
+				// Slot Placement [DM]
+				"bucket_dm"			"0"
+				"bucket_dm_position"		"2"
+				
+				// Model & Animation
+				"viewmodel"				"models/weapons/v_models/v_classic_knife.mdl"
+				"playermodel"			"models/weapons/w_models/w_classic_knife.mdl"
+				"anim_prefix"			"knife"
+				"HasTeamSkins_Viewmodel"			"1"
+				"HasTeamSkins_Worldmodel"			"1"
+				"UsesCritAnimation"			"1"
+
+				// Mini-Viewmodel Offsets
+				"MinViewmodelOffset_X" "5"
+				"MinViewmodelOffset_Z" "-4"
+				
+				// Centered-Mini Viewmodel Offsets
+				"MiniCenteredViewmodelOffset_X" "5"
+				"MiniCenteredViewmodelOffset_Z" "-4"
+
+				// Sounds.
+				// Max of 16 per category (ie. max 16 "single_shot" sounds).
+				SoundData
+				{
+					"melee_miss"		"Weapon_Knife.Miss"
+					"melee_hit"		"Weapon_Knife.HitFlesh"
+					"melee_hit_world"	"Weapon_Knife.HitWorld"
+					"burst"			"Weapon_Knife.MissCrit"
+				}
+
+				// Weapon Sprite data is loaded by the Client DLL.
+				TextureData
+				{
+					"weapon"
+					{
+							"file"		"sprites/bucket_classic_knife"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"weapon_s"
+					{	
+							"file"		"sprites/bucket_classic_knife"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"weapon_t"
+					{	
+							"file"		"sprites/bucket_classic_knife"
+							"x"		"0"
+							"y"		"0"
+							"width"		"200"
+							"height"		"128"
+					}
+					"ammo"
+					{
+							"file"		"sprites/a_icons1"
+							"x"			"55"
+							"y"			"60"
+							"width"		"73"
+							"height"	"15"
+					}
+					"crosshair"
+					{
+							"file"		"sprites/crosshairs"
+							"x"			"64"
+							"y"			"0"
+							"width"		"32"
+							"height"	"32"
+					}
+					"autoaim"
+					{
+							"file"		"sprites/crosshairs"
+							"x"			"0"
+							"y"			"48"
+							"width"		"24"
+							"height"	"24"
+					}
+				}
+			}
+		}
+	} // End of "Weapons"
+}
