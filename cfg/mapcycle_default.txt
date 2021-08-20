@@ -47,6 +47,7 @@ duel_longestyard
 duel_summit
 
 duel_diner_dev
+duel_mulholland_dev
 
 mctf_2fort
 mctf_backfort
